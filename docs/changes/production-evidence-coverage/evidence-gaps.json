@@ -1,0 +1,4788 @@
+{
+  "evaluationTime": "2026-09-17T08:00:00.000+08:00",
+  "method": "Conservative captured provider; observed blockers only. Counts overlap. Unattempted downstream evidence is not counted as a known failure. Directory ranking is technical opportunity, not predicted approvals. Merchant labels are retained as parsed (spelling variants remain separate). Requires split totals include one excluded offer; 17 unresolved offers require split. Other reasons include aggregate outlet/schema failures and scope uncertainty.",
+  "metrics": {
+    "Sources": 136,
+    "Offers": 181,
+    "Approved": 0,
+    "Excluded": 37,
+    "Unresolved": 144,
+    "Requires split": 18,
+    "Failed": 0
+  },
+  "byCategory": {
+    "authoritative_merchant_directory_unavailable": 28,
+    "incomplete_all_outlet_enumeration": 18,
+    "selected_outlet_evidence_unavailable": 4,
+    "place_coordinate_evidence_unavailable": 1,
+    "missing_validity": 114,
+    "benefit_title_merchant_parsing": 95,
+    "requires_split": 17,
+    "material_media_dependency": 0,
+    "other_blocking_reasons": 144
+  },
+  "byMerchant": {
+    "$10 Sliced Beef Ribeye (https": 1,
+    "$6.50 Fried Chicken Rice (https": 1,
+    "$61 Never Tasted So Good": 1,
+    "$8.50 Tom Yum Noodle Soup (https": 1,
+    "$9.80 Kway Teow Soup with Beef (https": 1,
+    "(unparsed)": 24,
+    "101-year-old coffeeshop & heritage bakery with classic breakfast sets, Nasi Lemak, Smashed Chicken Sandwiches, and Cloud Kopi": 1,
+    "21 on Rajah": 1,
+    "7-Eleven": 1,
+    "A hidden rooftop café in Singapore's CBD with skyline views, speciality coffee, artisanal French bakes and creative matcha drinks": 1,
+    "A new all-day cafe at Singapore Botanic Gardens with creative brunch, coffee, desserts, and pet-friendly dining": 1,
+    "AFTER HOURS": 1,
+    "ALC Rice Bowls": 1,
+    "APAC F&B Expo (https": 1,
+    "Ajumma's Korean Restaurant": 1,
+    "Ajumma’s": 1,
+    "Andaz": 1,
+    "BURNT CONES": 1,
+    "Bedok - Pasir Ris (https": 1,
+    "Bishan - Toa Payoh (https": 1,
+    "Braek Acai & Coffee": 1,
+    "Brash Boys Coffee": 1,
+    "Brasserie Astoria": 1,
+    "Burnt Cones": 1,
+    "Burnt Ends Bakery": 1,
+    "CHAGEE": 1,
+    "Carlton City": 1,
+    "Carnaby": 1,
+    "Celebfest Food Festival (https": 1,
+    "Central Plaza": 1,
+    "Chinatown Tai Chong Kok": 1,
+    "Chix Hot Chicken": 1,
+    "Choa Chu Kang Night Bazaar (https": 1,
+    "Clementi - Redhill (https": 1,
+    "Coffeehouse by Kobashi": 1,
+    "Common Grill": 1,
+    "Discover the best of Teochew and Cantonese cuisine at New Bahru": 1,
+    "FAME by Dad's Corner": 1,
+    "Fame by Dads Corner": 1,
+    "Family Mookata": 1,
+    "Farrer Park - Boon Keng (https": 1,
+    "Feast like an emperor with this Ultimate Indulgence Set": 1,
+    "Follow @sgadulting101 (https": 1,
+    "GBTB Mid-Autumn Food Festival (https": 1,
+    "Gelare": 1,
+    "Genki Sushi": 1,
+    "Good Combo Hotpot & BBQ": 1,
+    "GrabFood": 1,
+    "Guzman y Gomez": 1,
+    "Gwanghwamun Mijin": 2,
+    "Happy Lamb": 1,
+    "Hello Arigato": 1,
+    "Hokkaido Baked Cheese Tart": 1,
+    "Holland Village - Bukit Panjang (https": 1,
+    "Hougang Food Fair (https": 1,
+    "JEN Shangri-La": 1,
+    "Jack’s Place": 1,
+    "Jurong Point Food Festival (https": 1,
+    "KFC": 1,
+    "Kafey Haus": 1,
+    "Katsu-an": 1,
+    "Kimpson's Table": 1,
+    "Kimpson’s Table": 1,
+    "Kotuwa": 1,
+    "MOS Burger": 1,
+    "MUKAI": 1,
+    "Marine Parade - East Coast (https": 1,
+    "Math has never tasted this good": 1,
+    "McDonald’s": 1,
+    "Meat Smith": 1,
+    "Meatsmith": 1,
+    "MilkyShop": 1,
+    "More Yogurt": 1,
+    "Morganfield’s": 1,
+    "Nasty Cookie": 1,
+    "New Ubin Seafood": 1,
+    "Nouri": 1,
+    "Papi’s Tacos": 2,
+    "Paradise Hotpot": 1,
+    "Pepper Lunch": 1,
+    "Petite Menu": 1,
+    "Pizza Hut": 1,
+    "Pork Ribs Soup from $8.80 (https": 1,
+    "Potato Corner": 1,
+    "Punggol - Serangoon (https": 1,
+    "Punggol Central Night Bazaar (https": 1,
+    "Racines": 1,
+    "Redhill Food Bazaar (https": 1,
+    "Saizeriya": 1,
+    "Secret Recipe": 1,
+    "Sentosa GrillFest (https": 1,
+    "Seoul Garden": 1,
+    "Shi Li Fang": 1,
+    "Shiok Burger": 2,
+    "Singapore Chinese Cultural Centre": 1,
+    "Starbucks": 1,
+    "Sukiya": 1,
+    "Sushidan": 1,
+    "Sushiro": 1,
+    "Tai Seng - Paya Lebar (https": 1,
+    "Taiwan-famous noodles store expands its menu with Singapore-exclusive Chicken Soup": 1,
+    "Takashimaya": 1,
+    "Tampines Night Bazaar (https": 1,
+    "Tavola Aperta": 1,
+    "Tengah - Jurong (https": 1,
+    "Tiong Bahru Food Fair (https": 1,
+    "Tofu G": 1,
+    "White Restaurant": 1,
+    "Window on The Park": 1,
+    "Woodlands - Sembawang (https": 1,
+    "Yishun NDP Food Fair (https": 1,
+    "[Unsupported or empty post": 1,
+    "dorra Slimming": 1,
+    "foodpanda": 1,
+    "moreyogurt": 1,
+    "🇬🇷 From sea to table, here are Greek dishes that stood out to us": 1,
+    "🇮🇹 Feel like having Italian food without a flight to Rome? Check out this restaurant just across the border": 1,
+    "🇹🇭 Craving authentic Thai food? This Thai restaurant in Johor Bahru has got you covered": 1
+  },
+  "byReason": {
+    "Promotion states selected outlets but the participating-outlet list could not be verified.": 4,
+    "additional_date_claim_requires_verification": 1,
+    "ambiguous_roundup_date_ownership": 7,
+    "authoritative_merchant_directory_unavailable": 28,
+    "category_unresolved": 71,
+    "holiday_calendar_requires_verification": 2,
+    "incomplete_all_outlet_enumeration": 18,
+    "incomplete_outlet_audit": 144,
+    "material_qualifier_requires_verification": 1,
+    "merchant_or_title_unresolved": 24,
+    "outlet_resolution_not_attempted": 86,
+    "outlet_scope_unresolved": 94,
+    "place_unresolved:313@somerset:No verified coordinates in corpus fixtures": 1,
+    "place_unresolved:Bugis+:No verified coordinates in corpus fixtures": 1,
+    "place_unresolved:Chinatown Point:No verified coordinates in corpus fixtures": 1,
+    "place_unresolved:City Square Mall:No verified coordinates in corpus fixtures": 1,
+    "place_unresolved:Compass One:No verified coordinates in corpus fixtures": 1,
+    "place_unresolved:Hillion Mall:No verified coordinates in corpus fixtures": 1,
+    "place_unresolved:I12 Katong:No verified coordinates in corpus fixtures": 1,
+    "place_unresolved:Junction 8:No verified coordinates in corpus fixtures": 1,
+    "place_unresolved:Jurong Point:No verified coordinates in corpus fixtures": 1,
+    "place_unresolved:Nex:No verified coordinates in corpus fixtures": 1,
+    "place_unresolved:Northpoint City:No verified coordinates in corpus fixtures": 1,
+    "place_unresolved:Pasir Ris Mall:No verified coordinates in corpus fixtures": 1,
+    "place_unresolved:Plaza Singapura:No verified coordinates in corpus fixtures": 1,
+    "place_unresolved:Sembawang Shopping Centre:No verified coordinates in corpus fixtures": 1,
+    "place_unresolved:Singpost Centre:No verified coordinates in corpus fixtures": 1,
+    "place_unresolved:Suntec City:No verified coordinates in corpus fixtures": 1,
+    "place_unresolved:Tampines Mall:No verified coordinates in corpus fixtures": 1,
+    "place_unresolved:The Woodleigh Mall:No verified coordinates in corpus fixtures": 1,
+    "place_unresolved:United Square:No verified coordinates in corpus fixtures": 1,
+    "place_unresolved:VivoCity:No verified coordinates in corpus fixtures": 1,
+    "place_unresolved:Waterway Point:No verified coordinates in corpus fixtures": 1,
+    "place_unresolved:Westgate:No verified coordinates in corpus fixtures": 1,
+    "promotional_benefit_not_established": 90,
+    "requires_split": 17,
+    "roundup_header_context_requires_verification": 46,
+    "schema:benefit:Too small: expected string to have >=1 characters": 90,
+    "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"": 71,
+    "schema:merchant:Too small: expected string to have >=1 characters": 24,
+    "schema:outlets:Too small: expected array to have >=1 items": 144,
+    "schema:title:Too small: expected string to have >=1 characters": 24,
+    "unknown_expiry_or_start": 114,
+    "unparsed_date_qualifier": 1,
+    "unresolved_redemption_hours": 17,
+    "unresolved_weekday_restriction": 10
+  },
+  "directoryOpportunity": [
+    {
+      "merchant": "Papi’s Tacos",
+      "offers": 2
+    },
+    {
+      "merchant": "Shiok Burger",
+      "offers": 2
+    },
+    {
+      "merchant": "AFTER HOURS",
+      "offers": 1
+    },
+    {
+      "merchant": "Ajumma’s",
+      "offers": 1
+    },
+    {
+      "merchant": "Brash Boys Coffee",
+      "offers": 1
+    },
+    {
+      "merchant": "BURNT CONES",
+      "offers": 1
+    },
+    {
+      "merchant": "Carnaby",
+      "offers": 1
+    },
+    {
+      "merchant": "Chix Hot Chicken",
+      "offers": 1
+    },
+    {
+      "merchant": "Coffeehouse by Kobashi",
+      "offers": 1
+    },
+    {
+      "merchant": "Common Grill",
+      "offers": 1
+    },
+    {
+      "merchant": "Gwanghwamun Mijin",
+      "offers": 1
+    },
+    {
+      "merchant": "Jack’s Place",
+      "offers": 1
+    },
+    {
+      "merchant": "KFC",
+      "offers": 1
+    },
+    {
+      "merchant": "Kimpson's Table",
+      "offers": 1
+    },
+    {
+      "merchant": "Kimpson’s Table",
+      "offers": 1
+    },
+    {
+      "merchant": "McDonald’s",
+      "offers": 1
+    },
+    {
+      "merchant": "Meatsmith",
+      "offers": 1
+    },
+    {
+      "merchant": "MilkyShop",
+      "offers": 1
+    },
+    {
+      "merchant": "Morganfield’s",
+      "offers": 1
+    },
+    {
+      "merchant": "MOS Burger",
+      "offers": 1
+    },
+    {
+      "merchant": "MUKAI",
+      "offers": 1
+    },
+    {
+      "merchant": "Pepper Lunch",
+      "offers": 1
+    },
+    {
+      "merchant": "Potato Corner",
+      "offers": 1
+    },
+    {
+      "merchant": "Secret Recipe",
+      "offers": 1
+    },
+    {
+      "merchant": "Sushidan",
+      "offers": 1
+    },
+    {
+      "merchant": "Tofu G",
+      "offers": 1
+    }
+  ],
+  "offers": [
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4486",
+      "key": "unstructured",
+      "id": "1937c4df-da10-8d8d-ad2f-52e7397e8703",
+      "merchant": "Koi Thé",
+      "action": "exclude",
+      "reasons": [
+        "online_only_not_for_map"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "online_only",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4485",
+      "key": "unstructured",
+      "id": "6b5e48d9-8dcc-82b9-a75f-d751d2de9dc8",
+      "merchant": "McDonald's",
+      "action": "exclude",
+      "reasons": [
+        "expired_promotion"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "all_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4484",
+      "key": "unstructured",
+      "id": "9ed9e4b5-e31e-89b5-a15d-2fefada29f0b",
+      "merchant": "(unparsed)",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "merchant_or_title_unresolved",
+        "unknown_expiry_or_start",
+        "schema:merchant:Too small: expected string to have >=1 characters",
+        "schema:title:Too small: expected string to have >=1 characters",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4934",
+      "key": "unstructured",
+      "id": "b6650b35-a0e9-8562-aa33-fbbd58b77b2d",
+      "merchant": "(unparsed)",
+      "action": "unresolved",
+      "reasons": [
+        "merchant_or_title_unresolved",
+        "category_unresolved",
+        "schema:merchant:Too small: expected string to have >=1 characters",
+        "schema:title:Too small: expected string to have >=1 characters",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4933",
+      "key": "unstructured",
+      "id": "bd7b3df1-b6de-8d97-a84e-b4edca82d85c",
+      "merchant": "Paradise Hotpot",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "requires_split",
+        "unresolved_redemption_hours",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "other_blocking_reasons",
+        "requires_split"
+      ],
+      "requiresSplit": true,
+      "scope": "selected_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4932",
+      "key": "unstructured",
+      "id": "55e34509-a51d-84d8-ab7b-3fb576019afa",
+      "merchant": "Ajumma's Korean Restaurant",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "material_qualifier_requires_verification",
+        "unknown_expiry_or_start",
+        "holiday_calendar_requires_verification",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_all_outlet_enumeration",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "incomplete_all_outlet_enumeration",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "all_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4931",
+      "key": "unstructured",
+      "id": "80aa4f35-87dd-8b6f-acc1-86488af82903",
+      "merchant": "Smooy",
+      "action": "exclude",
+      "reasons": [
+        "expired_promotion"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "selected_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4930",
+      "key": "unstructured",
+      "id": "aa609210-3f7d-89bb-aebf-608f49f95089",
+      "merchant": "(unparsed)",
+      "action": "exclude",
+      "reasons": [
+        "no_promotional_benefit"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4482",
+      "key": "unstructured",
+      "id": "048c89ca-89d9-8824-af51-44474f357225",
+      "merchant": "(unparsed)",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "merchant_or_title_unresolved",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:merchant:Too small: expected string to have >=1 characters",
+        "schema:title:Too small: expected string to have >=1 characters",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4481",
+      "key": "unstructured",
+      "id": "2ba1d16d-53da-858a-a8cc-cb6e4eaa133c",
+      "merchant": "Nasty Cookie",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "requires_split",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "other_blocking_reasons",
+        "requires_split"
+      ],
+      "requiresSplit": true,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4480",
+      "key": "unstructured",
+      "id": "6b47c0a7-092d-85ea-af83-65b93a4020f5",
+      "merchant": "Racines",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "unresolved_redemption_hours",
+        "requires_split",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "other_blocking_reasons",
+        "requires_split"
+      ],
+      "requiresSplit": true,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4479",
+      "key": "unstructured",
+      "id": "d8fcf072-fe9c-88b0-ae40-356916f5a73c",
+      "merchant": "(unparsed)",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "merchant_or_title_unresolved",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:merchant:Too small: expected string to have >=1 characters",
+        "schema:title:Too small: expected string to have >=1 characters",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4928",
+      "key": "offer-6cfe05fa72999f08-0",
+      "id": "c3c7ebe7-bd05-8701-a642-a6766764cb34",
+      "merchant": "21 on Rajah",
+      "action": "unresolved",
+      "reasons": [
+        "unknown_expiry_or_start",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit"
+      ],
+      "categories": [
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_scope_unresolved"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4928",
+      "key": "offer-650cc34875c6ddeb-1",
+      "id": "bddd6dd3-d36b-8f74-a187-ab78daf05a07",
+      "merchant": "Fame by Dads Corner",
+      "action": "unresolved",
+      "reasons": [
+        "unknown_expiry_or_start",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit"
+      ],
+      "categories": [
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_scope_unresolved"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4928",
+      "key": "offer-40d12c5a6d1c7eb4-2",
+      "id": "4b4af1d8-6de4-8692-a772-7eccc1b14a38",
+      "merchant": "Happy Lamb",
+      "action": "unresolved",
+      "reasons": [
+        "unknown_expiry_or_start",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit"
+      ],
+      "categories": [
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_scope_unresolved"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4928",
+      "key": "offer-627a972752d6954c-3",
+      "id": "c63314d9-536e-8161-a8e4-9555110f3b8a",
+      "merchant": "JEN Shangri-La",
+      "action": "unresolved",
+      "reasons": [
+        "unknown_expiry_or_start",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit"
+      ],
+      "categories": [
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_scope_unresolved"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4928",
+      "key": "offer-56b7c58178281b72-4",
+      "id": "ba5e8e95-e1aa-8f46-a581-2d66f7262f6a",
+      "merchant": "Seoul Garden",
+      "action": "unresolved",
+      "reasons": [
+        "unknown_expiry_or_start",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit"
+      ],
+      "categories": [
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_scope_unresolved"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4478",
+      "key": "unstructured",
+      "id": "a478b930-6044-841c-ae4b-5cca4a00aa43",
+      "merchant": "Papi’s Tacos",
+      "action": "unresolved",
+      "reasons": [
+        "unknown_expiry_or_start",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "authoritative_merchant_directory_unavailable"
+      ],
+      "categories": [
+        "authoritative_merchant_directory_unavailable",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "authoritative_merchant_directory_unavailable"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4927",
+      "key": "unstructured",
+      "id": "bf1e1dda-cea6-8243-ad75-cf2f27f8f22a",
+      "merchant": "Kimpson's Table",
+      "action": "unresolved",
+      "reasons": [
+        "unresolved_weekday_restriction",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "authoritative_merchant_directory_unavailable"
+      ],
+      "categories": [
+        "authoritative_merchant_directory_unavailable",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "authoritative_merchant_directory_unavailable"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4477",
+      "key": "unstructured",
+      "id": "3c7a90ef-fd34-82cc-a660-f4603aa06a67",
+      "merchant": "Sushiro",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "requires_split",
+        "unresolved_weekday_restriction",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_all_outlet_enumeration",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "incomplete_all_outlet_enumeration",
+        "other_blocking_reasons",
+        "requires_split"
+      ],
+      "requiresSplit": true,
+      "scope": "all_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4476",
+      "key": "unstructured",
+      "id": "b994f233-04fb-8f5e-a961-bf44b1b943aa",
+      "merchant": "🇬🇷 From sea to table, here are Greek dishes that stood out to us",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_scope_unresolved"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4926",
+      "key": "unstructured",
+      "id": "b72e1828-5536-87e1-a815-64f4df44dd0c",
+      "merchant": "Sukiya",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "unknown_expiry_or_start",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "Promotion states selected outlets but the participating-outlet list could not be verified."
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons",
+        "selected_outlet_evidence_unavailable"
+      ],
+      "requiresSplit": false,
+      "scope": "selected_outlets",
+      "outletIssues": [
+        "Promotion states selected outlets but the participating-outlet list could not be verified."
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4475",
+      "key": "unstructured",
+      "id": "f84da193-fc0f-87aa-a836-482022fe91c0",
+      "merchant": "Support Jalan Besar’s small kitchens",
+      "action": "exclude",
+      "reasons": [
+        "online_only_not_for_map"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "online_only",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4474",
+      "key": "unstructured",
+      "id": "d7c3c5c4-93af-8436-a770-8ab06194b92b",
+      "merchant": "Ajumma’s",
+      "action": "unresolved",
+      "reasons": [
+        "unresolved_redemption_hours",
+        "unknown_expiry_or_start",
+        "holiday_calendar_requires_verification",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_all_outlet_enumeration",
+        "incomplete_outlet_audit",
+        "authoritative_merchant_directory_unavailable"
+      ],
+      "categories": [
+        "authoritative_merchant_directory_unavailable",
+        "incomplete_all_outlet_enumeration",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "all_outlets",
+      "outletIssues": [
+        "authoritative_merchant_directory_unavailable"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4925",
+      "key": "unstructured",
+      "id": "52f2d11e-8f3c-88a0-a159-4a82b1efe92d",
+      "merchant": "Shiok Burger",
+      "action": "unresolved",
+      "reasons": [
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_all_outlet_enumeration",
+        "incomplete_outlet_audit",
+        "authoritative_merchant_directory_unavailable"
+      ],
+      "categories": [
+        "authoritative_merchant_directory_unavailable",
+        "incomplete_all_outlet_enumeration",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "all_outlets",
+      "outletIssues": [
+        "authoritative_merchant_directory_unavailable"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4473",
+      "key": "unstructured",
+      "id": "c459770b-1a45-8ccf-a67b-84d9535b0f47",
+      "merchant": "(unparsed)",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "merchant_or_title_unresolved",
+        "unknown_expiry_or_start",
+        "schema:merchant:Too small: expected string to have >=1 characters",
+        "schema:title:Too small: expected string to have >=1 characters",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4472",
+      "key": "unstructured",
+      "id": "48eb6922-9d21-872a-afdc-e5afa8ef3756",
+      "merchant": "MilkyShop",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "unresolved_redemption_hours",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "authoritative_merchant_directory_unavailable"
+      ],
+      "categories": [
+        "authoritative_merchant_directory_unavailable",
+        "benefit_title_merchant_parsing",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "authoritative_merchant_directory_unavailable"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4471",
+      "key": "unstructured",
+      "id": "f6e210a2-7874-863e-adad-e02bdfc1fcca",
+      "merchant": "Papi’s Tacos",
+      "action": "unresolved",
+      "reasons": [
+        "unresolved_redemption_hours",
+        "unknown_expiry_or_start",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_all_outlet_enumeration",
+        "incomplete_outlet_audit",
+        "authoritative_merchant_directory_unavailable"
+      ],
+      "categories": [
+        "authoritative_merchant_directory_unavailable",
+        "incomplete_all_outlet_enumeration",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "all_outlets",
+      "outletIssues": [
+        "authoritative_merchant_directory_unavailable"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4924",
+      "key": "unstructured",
+      "id": "570a2910-0dff-8d89-af9b-e4aa24912cfb",
+      "merchant": "Brash Boys Coffee",
+      "action": "unresolved",
+      "reasons": [
+        "unresolved_weekday_restriction",
+        "unknown_expiry_or_start",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "authoritative_merchant_directory_unavailable"
+      ],
+      "categories": [
+        "authoritative_merchant_directory_unavailable",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "authoritative_merchant_directory_unavailable"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4470",
+      "key": "unstructured",
+      "id": "e9af5e65-9b98-80a1-ad40-d6d66d546ac8",
+      "merchant": "(unparsed)",
+      "action": "unresolved",
+      "reasons": [
+        "merchant_or_title_unresolved",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:merchant:Too small: expected string to have >=1 characters",
+        "schema:title:Too small: expected string to have >=1 characters",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4469",
+      "key": "unstructured",
+      "id": "0a3bcfb4-1d79-8675-a883-f7bbba488ff0",
+      "merchant": "Shiok Burger",
+      "action": "unresolved",
+      "reasons": [
+        "unknown_expiry_or_start",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_all_outlet_enumeration",
+        "incomplete_outlet_audit",
+        "authoritative_merchant_directory_unavailable"
+      ],
+      "categories": [
+        "authoritative_merchant_directory_unavailable",
+        "incomplete_all_outlet_enumeration",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "all_outlets",
+      "outletIssues": [
+        "authoritative_merchant_directory_unavailable"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4923",
+      "key": "unstructured",
+      "id": "4adb115f-e009-8ba2-a106-e3e530189911",
+      "merchant": "(unparsed)",
+      "action": "unresolved",
+      "reasons": [
+        "merchant_or_title_unresolved",
+        "category_unresolved",
+        "schema:merchant:Too small: expected string to have >=1 characters",
+        "schema:title:Too small: expected string to have >=1 characters",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4468",
+      "key": "unstructured",
+      "id": "488b749a-6d76-8acd-a842-8a9e85dfd8b2",
+      "merchant": "Subway",
+      "action": "exclude",
+      "reasons": [
+        "expired_promotion"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "all_outlets_with_exclusions",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4921",
+      "key": "offer-4adda13f22d40057-0",
+      "id": "a0d83fee-f4ce-883d-aa86-dc47ac0e14e3",
+      "merchant": "Yishun NDP Food Fair (https",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4921",
+      "key": "offer-068f3bedc73f3c4e-1",
+      "id": "7e74a891-8d28-89b7-ae23-fa25a8ed0019",
+      "merchant": "Choa Chu Kang Night Bazaar (https",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4921",
+      "key": "offer-ce286effdc764e9d-2",
+      "id": "ae3f5d92-07b1-8d90-a8e9-5446e695d55a",
+      "merchant": "Redhill Food Bazaar (https",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4921",
+      "key": "offer-367be49b4c7032e9-3",
+      "id": "e76bc2c4-c67c-8370-a12a-b4e38ef73807",
+      "merchant": "Jurong Point Food Festival (https",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4921",
+      "key": "offer-505cb957bdcac515-4",
+      "id": "3b7078bc-1681-8b6d-a41e-46ac5932aa61",
+      "merchant": "GBTB Mid-Autumn Food Festival (https",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4921",
+      "key": "offer-c50246e1dd1acda2-5",
+      "id": "cabb1903-ba11-8967-aacc-d3a7dc92fa0d",
+      "merchant": "Tampines Night Bazaar (https",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4920",
+      "key": "offer-00be0a4ac90e8124-0",
+      "id": "efb77380-5f92-8e39-ae4b-f3c52354ffd5",
+      "merchant": "Andaz",
+      "action": "unresolved",
+      "reasons": [
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4920",
+      "key": "offer-b6359fd813a2911f-1",
+      "id": "f3ff6978-06b8-8d5e-a099-76828809c2cd",
+      "merchant": "Chinatown Tai Chong Kok",
+      "action": "unresolved",
+      "reasons": [
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4920",
+      "key": "offer-d314d7738a1e2f33-2",
+      "id": "5bc6407a-f193-866f-a806-43488c9d664a",
+      "merchant": "Central Plaza",
+      "action": "unresolved",
+      "reasons": [
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4920",
+      "key": "offer-0f2e4d072465555c-3",
+      "id": "3b5e2e64-94e9-852c-a185-fccba381d1aa",
+      "merchant": "Singapore Chinese Cultural Centre",
+      "action": "unresolved",
+      "reasons": [
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4920",
+      "key": "offer-f05fa4fadcbf642c-4",
+      "id": "cb20d0dc-6987-8c0d-aaed-fc776c12e186",
+      "merchant": "Takashimaya",
+      "action": "unresolved",
+      "reasons": [
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4467",
+      "key": "unstructured",
+      "id": "353b21b7-bc51-805b-a69d-5e2578b623ec",
+      "merchant": "(unparsed)",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "merchant_or_title_unresolved",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:merchant:Too small: expected string to have >=1 characters",
+        "schema:title:Too small: expected string to have >=1 characters",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4919",
+      "key": "unstructured",
+      "id": "1eca94a4-e1a4-8c22-ae6d-92d25e5b7d06",
+      "merchant": "(unparsed)",
+      "action": "exclude",
+      "reasons": [
+        "no_promotional_benefit"
+      ],
+      "categories": [],
+      "requiresSplit": true,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4466",
+      "key": "unstructured",
+      "id": "6d6b6896-986f-8c25-a85c-19298cdcdf01",
+      "merchant": "4Fingers",
+      "action": "exclude",
+      "reasons": [
+        "expired_promotion"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "all_outlets_with_exclusions",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4464",
+      "key": "unstructured",
+      "id": "62baed04-0521-8ff1-a11a-0f11f9b92008",
+      "merchant": "(unparsed)",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "merchant_or_title_unresolved",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:merchant:Too small: expected string to have >=1 characters",
+        "schema:title:Too small: expected string to have >=1 characters",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4463",
+      "key": "unstructured",
+      "id": "7327b474-009f-8b88-ac8d-6722131ea1dd",
+      "merchant": "Kimpson’s Table",
+      "action": "unresolved",
+      "reasons": [
+        "unknown_expiry_or_start",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "authoritative_merchant_directory_unavailable"
+      ],
+      "categories": [
+        "authoritative_merchant_directory_unavailable",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "authoritative_merchant_directory_unavailable"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4462",
+      "key": "unstructured",
+      "id": "4cd38234-6dac-8b31-a1f0-f6b59df7e0be",
+      "merchant": "Kei Kaisendon",
+      "action": "exclude",
+      "reasons": [
+        "expired_promotion"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4918",
+      "key": "unstructured",
+      "id": "288c3d49-9961-8c82-a469-a98872ce580a",
+      "merchant": "Rollney",
+      "action": "exclude",
+      "reasons": [
+        "expired_promotion"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4461",
+      "key": "unstructured",
+      "id": "fe61c99b-5413-81e1-ac57-4ae3bcfba90c",
+      "merchant": "(unparsed)",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "merchant_or_title_unresolved",
+        "unknown_expiry_or_start",
+        "schema:merchant:Too small: expected string to have >=1 characters",
+        "schema:title:Too small: expected string to have >=1 characters",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4917",
+      "key": "offer-67a8061d38cb3d1a-0",
+      "id": "ad0a4637-b531-8920-a53c-24febba0a121",
+      "merchant": "Clementi - Redhill (https",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4917",
+      "key": "offer-0182ba3405503e18-1",
+      "id": "9fb7eae4-263a-8226-a2d3-e0e3b113413b",
+      "merchant": "Holland Village - Bukit Panjang (https",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4917",
+      "key": "offer-5fa14f89e0bdb176-2",
+      "id": "abc73a00-beba-8cce-afc1-1f8d7c83dcbe",
+      "merchant": "Punggol - Serangoon (https",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4917",
+      "key": "offer-2c5954721b37cbb8-3",
+      "id": "c3bbca0e-63c3-843e-a7a5-b9d74257cba0",
+      "merchant": "Farrer Park - Boon Keng (https",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4917",
+      "key": "offer-a0c4a4583fbd078c-4",
+      "id": "047a3d88-c4c8-8618-a133-69897c8bb120",
+      "merchant": "Bishan - Toa Payoh (https",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4917",
+      "key": "offer-a43785a867cf1472-5",
+      "id": "91b3f50a-bea1-8c92-a9bf-8f15b2dfc212",
+      "merchant": "Tengah - Jurong (https",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4917",
+      "key": "offer-09f63d65c5fa40a8-6",
+      "id": "2f9ebed1-2db2-82d5-af07-53500d89a7bb",
+      "merchant": "Woodlands - Sembawang (https",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4917",
+      "key": "offer-28a39a69b1887ab4-7",
+      "id": "f8f5ad35-7ea3-892c-a488-2f085bf673e5",
+      "merchant": "Tai Seng - Paya Lebar (https",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4917",
+      "key": "offer-45aaf726a871ea26-8",
+      "id": "773cb190-0e2b-8368-aa26-1163a6c8c0e8",
+      "merchant": "Marine Parade - East Coast (https",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4917",
+      "key": "offer-dd86be1e53d68f97-9",
+      "id": "652a730f-6ed3-8c93-a86e-bead5d37c3ed",
+      "merchant": "Bedok - Pasir Ris (https",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4460",
+      "key": "unstructured",
+      "id": "d75fbdbb-90f7-86d2-abbb-2c0c4ebd7bbf",
+      "merchant": "Pepper Lunch",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "unknown_expiry_or_start",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_all_outlet_enumeration",
+        "incomplete_outlet_audit",
+        "authoritative_merchant_directory_unavailable"
+      ],
+      "categories": [
+        "authoritative_merchant_directory_unavailable",
+        "benefit_title_merchant_parsing",
+        "incomplete_all_outlet_enumeration",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "all_outlets",
+      "outletIssues": [
+        "authoritative_merchant_directory_unavailable"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4916",
+      "key": "unstructured",
+      "id": "4af55b68-ac1a-8173-abde-7094b71c240f",
+      "merchant": "Captain Kim",
+      "action": "exclude",
+      "reasons": [
+        "expired_promotion"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "all_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4459",
+      "key": "unstructured",
+      "id": "4f42a57e-ea39-8443-ade5-e2695533d321",
+      "merchant": "Guzman y Gomez",
+      "action": "unresolved",
+      "reasons": [
+        "unresolved_redemption_hours",
+        "additional_date_claim_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "Promotion states selected outlets but the participating-outlet list could not be verified."
+      ],
+      "categories": [
+        "missing_validity",
+        "other_blocking_reasons",
+        "selected_outlet_evidence_unavailable"
+      ],
+      "requiresSplit": false,
+      "scope": "selected_outlets",
+      "outletIssues": [
+        "Promotion states selected outlets but the participating-outlet list could not be verified."
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4458",
+      "key": "unstructured",
+      "id": "e6559482-b9ce-84b8-abbd-a3056074bdfb",
+      "merchant": "(unparsed)",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "merchant_or_title_unresolved",
+        "unknown_expiry_or_start",
+        "schema:merchant:Too small: expected string to have >=1 characters",
+        "schema:title:Too small: expected string to have >=1 characters",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4915",
+      "key": "offer-4456c582161b69e3-0",
+      "id": "2ee5f5d7-9cce-861e-a960-1c48fa3dd6dd",
+      "merchant": "foodpanda",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4915",
+      "key": "offer-52a22ee086a72908-1",
+      "id": "61a46b88-20e1-80ef-aa31-c85b5888930c",
+      "merchant": "GrabFood",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4457",
+      "key": "unstructured",
+      "id": "5b40c762-1b11-82d0-a36a-a41e248be6ba",
+      "merchant": "Genki Sushi",
+      "action": "unresolved",
+      "reasons": [
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_all_outlet_enumeration",
+        "incomplete_outlet_audit",
+        "place_unresolved:Chinatown Point:No verified coordinates in corpus fixtures",
+        "place_unresolved:Bugis+:No verified coordinates in corpus fixtures",
+        "place_unresolved:Waterway Point:No verified coordinates in corpus fixtures",
+        "place_unresolved:Junction 8:No verified coordinates in corpus fixtures",
+        "place_unresolved:Westgate:No verified coordinates in corpus fixtures",
+        "place_unresolved:Tampines Mall:No verified coordinates in corpus fixtures",
+        "place_unresolved:Suntec City:No verified coordinates in corpus fixtures",
+        "place_unresolved:City Square Mall:No verified coordinates in corpus fixtures",
+        "place_unresolved:Plaza Singapura:No verified coordinates in corpus fixtures",
+        "place_unresolved:Hillion Mall:No verified coordinates in corpus fixtures",
+        "place_unresolved:Nex:No verified coordinates in corpus fixtures",
+        "place_unresolved:VivoCity:No verified coordinates in corpus fixtures",
+        "place_unresolved:Northpoint City:No verified coordinates in corpus fixtures",
+        "place_unresolved:Compass One:No verified coordinates in corpus fixtures",
+        "place_unresolved:Jurong Point:No verified coordinates in corpus fixtures",
+        "place_unresolved:United Square:No verified coordinates in corpus fixtures",
+        "place_unresolved:I12 Katong:No verified coordinates in corpus fixtures",
+        "place_unresolved:Singpost Centre:No verified coordinates in corpus fixtures",
+        "place_unresolved:The Woodleigh Mall:No verified coordinates in corpus fixtures",
+        "place_unresolved:313@somerset:No verified coordinates in corpus fixtures",
+        "place_unresolved:Pasir Ris Mall:No verified coordinates in corpus fixtures",
+        "place_unresolved:Sembawang Shopping Centre:No verified coordinates in corpus fixtures"
+      ],
+      "categories": [
+        "incomplete_all_outlet_enumeration",
+        "other_blocking_reasons",
+        "place_coordinate_evidence_unavailable"
+      ],
+      "requiresSplit": false,
+      "scope": "all_outlets",
+      "outletIssues": [
+        "place_unresolved:Chinatown Point:No verified coordinates in corpus fixtures",
+        "place_unresolved:Bugis+:No verified coordinates in corpus fixtures",
+        "place_unresolved:Waterway Point:No verified coordinates in corpus fixtures",
+        "place_unresolved:Junction 8:No verified coordinates in corpus fixtures",
+        "place_unresolved:Westgate:No verified coordinates in corpus fixtures",
+        "place_unresolved:Tampines Mall:No verified coordinates in corpus fixtures",
+        "place_unresolved:Suntec City:No verified coordinates in corpus fixtures",
+        "place_unresolved:City Square Mall:No verified coordinates in corpus fixtures",
+        "place_unresolved:Plaza Singapura:No verified coordinates in corpus fixtures",
+        "place_unresolved:Hillion Mall:No verified coordinates in corpus fixtures",
+        "place_unresolved:Nex:No verified coordinates in corpus fixtures",
+        "place_unresolved:VivoCity:No verified coordinates in corpus fixtures",
+        "place_unresolved:Northpoint City:No verified coordinates in corpus fixtures",
+        "place_unresolved:Compass One:No verified coordinates in corpus fixtures",
+        "place_unresolved:Jurong Point:No verified coordinates in corpus fixtures",
+        "place_unresolved:United Square:No verified coordinates in corpus fixtures",
+        "place_unresolved:I12 Katong:No verified coordinates in corpus fixtures",
+        "place_unresolved:Singpost Centre:No verified coordinates in corpus fixtures",
+        "place_unresolved:The Woodleigh Mall:No verified coordinates in corpus fixtures",
+        "place_unresolved:313@somerset:No verified coordinates in corpus fixtures",
+        "place_unresolved:Pasir Ris Mall:No verified coordinates in corpus fixtures",
+        "place_unresolved:Sembawang Shopping Centre:No verified coordinates in corpus fixtures"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4913",
+      "key": "unstructured",
+      "id": "55767fc9-348f-8ff6-a4bc-3bb779707a5b",
+      "merchant": "(unparsed)",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "merchant_or_title_unresolved",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:merchant:Too small: expected string to have >=1 characters",
+        "schema:title:Too small: expected string to have >=1 characters",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4456",
+      "key": "unstructured",
+      "id": "e6d8ed06-2fb4-8309-a30b-da9d3eea5f7f",
+      "merchant": "Coffeehouse by Kobashi",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "unresolved_weekday_restriction",
+        "unresolved_redemption_hours",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "authoritative_merchant_directory_unavailable"
+      ],
+      "categories": [
+        "authoritative_merchant_directory_unavailable",
+        "benefit_title_merchant_parsing",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "authoritative_merchant_directory_unavailable"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4455",
+      "key": "unstructured",
+      "id": "032416bf-8516-86ba-a9e1-1bcd6311900d",
+      "merchant": "(unparsed)",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "merchant_or_title_unresolved",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:merchant:Too small: expected string to have >=1 characters",
+        "schema:title:Too small: expected string to have >=1 characters",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4454",
+      "key": "unstructured",
+      "id": "225ddeb2-32d9-8890-a57f-2a6960a92b2e",
+      "merchant": "Din Tai Fung",
+      "action": "exclude",
+      "reasons": [
+        "expired_promotion"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4453",
+      "key": "unstructured",
+      "id": "fa64c2bd-dfae-82d9-a99b-85bbc8aaa68e",
+      "merchant": "Hokkaido Baked Cheese Tart",
+      "action": "unresolved",
+      "reasons": [
+        "requires_split",
+        "unresolved_redemption_hours",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "other_blocking_reasons",
+        "requires_split"
+      ],
+      "requiresSplit": true,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4912",
+      "key": "unstructured",
+      "id": "c6de6291-02d2-826b-a08b-b34b4ab52e2b",
+      "merchant": "Common Grill",
+      "action": "unresolved",
+      "reasons": [
+        "unknown_expiry_or_start",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_all_outlet_enumeration",
+        "incomplete_outlet_audit",
+        "authoritative_merchant_directory_unavailable"
+      ],
+      "categories": [
+        "authoritative_merchant_directory_unavailable",
+        "incomplete_all_outlet_enumeration",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "all_outlets",
+      "outletIssues": [
+        "authoritative_merchant_directory_unavailable"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4910",
+      "key": "offer-27d52cef800645c0-0",
+      "id": "9897cabe-7662-8d0f-a895-5661dea0e72d",
+      "merchant": "Brasserie Astoria",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "ambiguous_roundup_date_ownership",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4910",
+      "key": "offer-89a89575dc925179-1",
+      "id": "3a6f5b60-893f-8fcc-a9c4-90bbc497560a",
+      "merchant": "Burnt Ends Bakery",
+      "action": "unresolved",
+      "reasons": [
+        "roundup_header_context_requires_verification",
+        "ambiguous_roundup_date_ownership",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4910",
+      "key": "offer-fc6176094fbbaa04-2",
+      "id": "379f9df2-4317-873c-a39d-3ab90923198a",
+      "merchant": "Kotuwa",
+      "action": "unresolved",
+      "reasons": [
+        "roundup_header_context_requires_verification",
+        "ambiguous_roundup_date_ownership",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4910",
+      "key": "offer-c0e2d85c8283fbf6-3",
+      "id": "6fe4b289-6185-8620-a226-1a1a9bc43905",
+      "merchant": "Meat Smith",
+      "action": "unresolved",
+      "reasons": [
+        "roundup_header_context_requires_verification",
+        "ambiguous_roundup_date_ownership",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4910",
+      "key": "offer-828c55923f844e55-4",
+      "id": "2f3e13fe-d9e3-8a02-a26d-e2507b8f6435",
+      "merchant": "Nouri",
+      "action": "unresolved",
+      "reasons": [
+        "roundup_header_context_requires_verification",
+        "ambiguous_roundup_date_ownership",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4909",
+      "key": "unstructured",
+      "id": "eb0ffaaf-d37d-82f2-ad0d-647d3337db00",
+      "merchant": "(unparsed)",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "merchant_or_title_unresolved",
+        "requires_split",
+        "category_unresolved",
+        "schema:merchant:Too small: expected string to have >=1 characters",
+        "schema:title:Too small: expected string to have >=1 characters",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "other_blocking_reasons",
+        "requires_split"
+      ],
+      "requiresSplit": true,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4452",
+      "key": "unstructured",
+      "id": "2622dab6-c98f-8aeb-a5da-685e604ebae2",
+      "merchant": "(unparsed)",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "merchant_or_title_unresolved",
+        "unknown_expiry_or_start",
+        "schema:merchant:Too small: expected string to have >=1 characters",
+        "schema:title:Too small: expected string to have >=1 characters",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4908",
+      "key": "unstructured",
+      "id": "029a6508-30fc-80cf-a9d5-55abd141564e",
+      "merchant": "Omuplace",
+      "action": "exclude",
+      "reasons": [
+        "no_promotional_benefit"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4451",
+      "key": "unstructured",
+      "id": "f83e5b46-f176-8322-accf-d01ff1725b1a",
+      "merchant": "Secret Recipe",
+      "action": "unresolved",
+      "reasons": [
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "authoritative_merchant_directory_unavailable"
+      ],
+      "categories": [
+        "authoritative_merchant_directory_unavailable",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "authoritative_merchant_directory_unavailable"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4450",
+      "key": "unstructured",
+      "id": "837a43f6-71e3-8b83-a46d-c2b3f39b6ea9",
+      "merchant": "dorra Slimming",
+      "action": "unresolved",
+      "reasons": [
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit"
+      ],
+      "categories": [
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_scope_unresolved"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4907",
+      "key": "unstructured",
+      "id": "9a593c93-c6c8-8a28-a9f4-44b7143b8123",
+      "merchant": "Kafey Haus",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "unknown_expiry_or_start",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_scope_unresolved"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4906",
+      "key": "unstructured",
+      "id": "8e86ee9a-6f37-8061-ad70-ac4b05cc5caf",
+      "merchant": "Hello Arigato",
+      "action": "unresolved",
+      "reasons": [
+        "requires_split",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "other_blocking_reasons",
+        "requires_split"
+      ],
+      "requiresSplit": true,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4449",
+      "key": "unstructured",
+      "id": "b158f7b0-7857-8959-aba1-4106633a2d26",
+      "merchant": "(unparsed)",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "merchant_or_title_unresolved",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:merchant:Too small: expected string to have >=1 characters",
+        "schema:title:Too small: expected string to have >=1 characters",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4448",
+      "key": "unstructured",
+      "id": "d61db83f-e4d6-82b9-ad91-740bcdce3cf1",
+      "merchant": "Yakiniku Like",
+      "action": "exclude",
+      "reasons": [
+        "expired_promotion"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "all_outlets_with_exclusions",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4447",
+      "key": "unstructured",
+      "id": "45640182-7516-878f-a98f-7162dd54bb22",
+      "merchant": "Kei Kaisendon",
+      "action": "exclude",
+      "reasons": [
+        "expired_promotion"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4905",
+      "key": "unstructured",
+      "id": "fded171f-4ce1-8ddc-a605-5fb7218fda90",
+      "merchant": "Meatsmith",
+      "action": "unresolved",
+      "reasons": [
+        "unresolved_weekday_restriction",
+        "unresolved_redemption_hours",
+        "unknown_expiry_or_start",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "authoritative_merchant_directory_unavailable"
+      ],
+      "categories": [
+        "authoritative_merchant_directory_unavailable",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "authoritative_merchant_directory_unavailable"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4446",
+      "key": "unstructured",
+      "id": "5a9a8d6a-1beb-80e3-a43d-674cb984bdfd",
+      "merchant": "(unparsed)",
+      "action": "unresolved",
+      "reasons": [
+        "merchant_or_title_unresolved",
+        "unresolved_weekday_restriction",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:merchant:Too small: expected string to have >=1 characters",
+        "schema:title:Too small: expected string to have >=1 characters",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4904",
+      "key": "unstructured",
+      "id": "4fc51046-785b-8700-aa7f-b7ba0bbe37d5",
+      "merchant": "Gelare",
+      "action": "unresolved",
+      "reasons": [
+        "requires_split",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "other_blocking_reasons",
+        "requires_split"
+      ],
+      "requiresSplit": true,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4445",
+      "key": "unstructured",
+      "id": "f6bb2ca8-0558-89e8-a475-cc7d39995240",
+      "merchant": "7-Eleven",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "unknown_expiry_or_start",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "Promotion states selected outlets but the participating-outlet list could not be verified."
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons",
+        "selected_outlet_evidence_unavailable"
+      ],
+      "requiresSplit": false,
+      "scope": "selected_outlets",
+      "outletIssues": [
+        "Promotion states selected outlets but the participating-outlet list could not be verified."
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4903",
+      "key": "unstructured",
+      "id": "7667d042-7303-8eaa-ab45-7c5b97de6f39",
+      "merchant": "(unparsed)",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "merchant_or_title_unresolved",
+        "unknown_expiry_or_start",
+        "schema:merchant:Too small: expected string to have >=1 characters",
+        "schema:title:Too small: expected string to have >=1 characters",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4444",
+      "key": "unstructured",
+      "id": "478be0a8-11a4-8d83-a4a8-726d724bc736",
+      "merchant": "Zapangi Coffee",
+      "action": "exclude",
+      "reasons": [
+        "expired_promotion"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4443",
+      "key": "unstructured",
+      "id": "3b418f04-066d-8f99-a721-427bedffd356",
+      "merchant": "Math has never tasted this good",
+      "action": "unresolved",
+      "reasons": [
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit"
+      ],
+      "categories": [
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_scope_unresolved"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4902",
+      "key": "unstructured",
+      "id": "ab34af2b-7967-8ef5-a4ee-46b370daa541",
+      "merchant": "Morganfield's",
+      "action": "exclude",
+      "reasons": [
+        "expired_promotion"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4442",
+      "key": "unstructured",
+      "id": "b0d86b4c-43c7-817e-acb5-efe2571e80a8",
+      "merchant": "MUKAI",
+      "action": "unresolved",
+      "reasons": [
+        "unresolved_redemption_hours",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "authoritative_merchant_directory_unavailable"
+      ],
+      "categories": [
+        "authoritative_merchant_directory_unavailable",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "authoritative_merchant_directory_unavailable"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4901",
+      "key": "unstructured",
+      "id": "cd31de74-204d-8124-a984-311392783210",
+      "merchant": "Pizza Hut",
+      "action": "unresolved",
+      "reasons": [
+        "requires_split",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_all_outlet_enumeration",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "incomplete_all_outlet_enumeration",
+        "other_blocking_reasons",
+        "requires_split"
+      ],
+      "requiresSplit": true,
+      "scope": "all_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4441",
+      "key": "unstructured",
+      "id": "f7ffe5cd-0ddb-8fb6-acc7-2759ddc534c6",
+      "merchant": "Domino’s",
+      "action": "exclude",
+      "reasons": [
+        "expired_promotion"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "all_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4440",
+      "key": "unstructured",
+      "id": "9aefd03b-9cbc-87ee-a7f4-39825573d752",
+      "merchant": "(unparsed)",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "merchant_or_title_unresolved",
+        "unknown_expiry_or_start",
+        "schema:merchant:Too small: expected string to have >=1 characters",
+        "schema:title:Too small: expected string to have >=1 characters",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4439",
+      "key": "unstructured",
+      "id": "f36366e5-8fda-89eb-a4d0-ed2943a971d2",
+      "merchant": "Sushidan",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "unknown_expiry_or_start",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "authoritative_merchant_directory_unavailable"
+      ],
+      "categories": [
+        "authoritative_merchant_directory_unavailable",
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "authoritative_merchant_directory_unavailable"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4900",
+      "key": "offer-75df7b4bd446fab4-0",
+      "id": "6282bb1f-fb9c-8228-a865-3f81115566bf",
+      "merchant": "Follow @sgadulting101 (https",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "ambiguous_roundup_date_ownership",
+        "unknown_expiry_or_start",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4900",
+      "key": "offer-848facf7c8677641-1",
+      "id": "b74d54bc-134c-8035-a908-3f5c6cf9aa7b",
+      "merchant": "(unparsed)",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "merchant_or_title_unresolved",
+        "roundup_header_context_requires_verification",
+        "ambiguous_roundup_date_ownership",
+        "unresolved_redemption_hours",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:merchant:Too small: expected string to have >=1 characters",
+        "schema:title:Too small: expected string to have >=1 characters",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4438",
+      "key": "unstructured",
+      "id": "85baf6ae-a615-8c16-aa5b-2227a6e36c4f",
+      "merchant": "LiXin Teochew Fishball Noodles",
+      "action": "exclude",
+      "reasons": [
+        "expired_promotion"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4899",
+      "key": "unstructured",
+      "id": "233d27d0-bdaa-8ef0-acc6-4193c446a7e0",
+      "merchant": "Sushiro",
+      "action": "exclude",
+      "reasons": [
+        "expired_promotion"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4437",
+      "key": "unstructured",
+      "id": "81cb2b37-cfa5-8abe-ac85-a55b7a745a73",
+      "merchant": "Taiwan-famous noodles store expands its menu with Singapore-exclusive Chicken Soup",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "unknown_expiry_or_start",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_scope_unresolved"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4436",
+      "key": "unstructured",
+      "id": "e74cd860-04d8-855e-a76c-9ddce0002bcd",
+      "merchant": "Morganfield’s",
+      "action": "unresolved",
+      "reasons": [
+        "unresolved_weekday_restriction",
+        "unresolved_redemption_hours",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "authoritative_merchant_directory_unavailable"
+      ],
+      "categories": [
+        "authoritative_merchant_directory_unavailable",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "authoritative_merchant_directory_unavailable"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4898",
+      "key": "unstructured",
+      "id": "c2a28800-2075-8498-adfc-b861ca5f8023",
+      "merchant": "Chateraise",
+      "action": "exclude",
+      "reasons": [
+        "expired_promotion"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "all_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4435",
+      "key": "unstructured",
+      "id": "44a51ce1-66a4-8340-a585-618192a5a7ce",
+      "merchant": "Gwanghwamun Mijin",
+      "action": "unresolved",
+      "reasons": [
+        "unresolved_redemption_hours",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "authoritative_merchant_directory_unavailable"
+      ],
+      "categories": [
+        "authoritative_merchant_directory_unavailable",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "authoritative_merchant_directory_unavailable"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4897",
+      "key": "unstructured",
+      "id": "fc7e4b31-677f-8d5e-ac29-3177c11851ec",
+      "merchant": "Gwanghwamun Mijin",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "requires_split",
+        "unresolved_weekday_restriction",
+        "unknown_expiry_or_start",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons",
+        "requires_split"
+      ],
+      "requiresSplit": true,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4434",
+      "key": "unstructured",
+      "id": "0b36b0ae-74cd-86fd-a788-103009b34a55",
+      "merchant": "Discover the best of Teochew and Cantonese cuisine at New Bahru",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_scope_unresolved"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4433",
+      "key": "unstructured",
+      "id": "38546531-bd5a-84b7-a20a-b652dde89f2f",
+      "merchant": "Potato Corner",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "unknown_expiry_or_start",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_all_outlet_enumeration",
+        "incomplete_outlet_audit",
+        "authoritative_merchant_directory_unavailable"
+      ],
+      "categories": [
+        "authoritative_merchant_directory_unavailable",
+        "benefit_title_merchant_parsing",
+        "incomplete_all_outlet_enumeration",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "all_outlets",
+      "outletIssues": [
+        "authoritative_merchant_directory_unavailable"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4896",
+      "key": "unstructured",
+      "id": "99580dc4-5522-8bf9-a71b-7911d6d7fcd9",
+      "merchant": "New Ubin Seafood",
+      "action": "unresolved",
+      "reasons": [
+        "requires_split",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "other_blocking_reasons",
+        "requires_split"
+      ],
+      "requiresSplit": true,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4432",
+      "key": "unstructured",
+      "id": "e5cca0bf-a445-801b-a11f-01ed6faf55a4",
+      "merchant": "CHAGEE",
+      "action": "unresolved",
+      "reasons": [
+        "requires_split",
+        "unresolved_redemption_hours",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "other_blocking_reasons",
+        "requires_split"
+      ],
+      "requiresSplit": true,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4431",
+      "key": "unstructured",
+      "id": "19eb5e01-6eab-88d8-ae58-a01d98def15a",
+      "merchant": "A new all-day cafe at Singapore Botanic Gardens with creative brunch, coffee, desserts, and pet-friendly dining",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "unknown_expiry_or_start",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_scope_unresolved"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4895",
+      "key": "unstructured",
+      "id": "96c3578a-7bf3-851c-a84f-dc53124dd746",
+      "merchant": "Braek Acai & Coffee",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "requires_split",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "other_blocking_reasons",
+        "requires_split"
+      ],
+      "requiresSplit": true,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4430",
+      "key": "unstructured",
+      "id": "2c52aece-1ff6-8c66-aec7-351103b8db7f",
+      "merchant": "IKEA",
+      "action": "exclude",
+      "reasons": [
+        "expired_promotion"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4894",
+      "key": "unstructured",
+      "id": "2e85eb70-3dad-87eb-ac2b-7486e2d6c700",
+      "merchant": "FAME by Dad's Corner",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "unknown_expiry_or_start",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_scope_unresolved"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4429",
+      "key": "unstructured",
+      "id": "3a80ddd7-557c-8699-a4ec-3d6af8cdf45f",
+      "merchant": "KFC",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_all_outlet_enumeration",
+        "incomplete_outlet_audit",
+        "authoritative_merchant_directory_unavailable"
+      ],
+      "categories": [
+        "authoritative_merchant_directory_unavailable",
+        "benefit_title_merchant_parsing",
+        "incomplete_all_outlet_enumeration",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "all_outlets",
+      "outletIssues": [
+        "authoritative_merchant_directory_unavailable"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4893",
+      "key": "unstructured",
+      "id": "c186cb88-b82a-8743-a7cf-5e14ea60eccf",
+      "merchant": "Starbucks",
+      "action": "exclude",
+      "reasons": [
+        "expired_promotion"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "all_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4428",
+      "key": "unstructured",
+      "id": "2b888f32-c5fa-871b-a296-9b812b72d05e",
+      "merchant": "(unparsed)",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "merchant_or_title_unresolved",
+        "unknown_expiry_or_start",
+        "schema:merchant:Too small: expected string to have >=1 characters",
+        "schema:title:Too small: expected string to have >=1 characters",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4891",
+      "key": "unstructured",
+      "id": "1a57f97b-25a0-860f-a79f-62b3b73cca6a",
+      "merchant": "(unparsed)",
+      "action": "unresolved",
+      "reasons": [
+        "merchant_or_title_unresolved",
+        "unresolved_weekday_restriction",
+        "unparsed_date_qualifier",
+        "schema:merchant:Too small: expected string to have >=1 characters",
+        "schema:title:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4427",
+      "key": "unstructured",
+      "id": "5d3703b5-f772-8cd3-ae3e-98fdf997f5fd",
+      "merchant": "McDonald’s",
+      "action": "exclude",
+      "reasons": [
+        "no_promotional_benefit"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "all_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4890",
+      "key": "unstructured",
+      "id": "acc1c381-ade9-8533-a09d-9490adfeeefd",
+      "merchant": "4Fingers",
+      "action": "exclude",
+      "reasons": [
+        "expired_promotion"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "all_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4426",
+      "key": "unstructured",
+      "id": "3fd6250f-2ea5-8d1d-afb9-b6b5cea43e17",
+      "merchant": "Jack’s Place",
+      "action": "unresolved",
+      "reasons": [
+        "unresolved_redemption_hours",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_all_outlet_enumeration",
+        "incomplete_outlet_audit",
+        "authoritative_merchant_directory_unavailable"
+      ],
+      "categories": [
+        "authoritative_merchant_directory_unavailable",
+        "incomplete_all_outlet_enumeration",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "all_outlets",
+      "outletIssues": [
+        "authoritative_merchant_directory_unavailable"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4889",
+      "key": "unstructured",
+      "id": "39f84a99-2d65-85ee-ac48-83beebb3f8bc",
+      "merchant": "[Unsupported or empty post",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_scope_unresolved"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4425",
+      "key": "unstructured",
+      "id": "e0fed72f-0459-8ca5-aaa8-5bc924816e7b",
+      "merchant": "101-year-old coffeeshop & heritage bakery with classic breakfast sets, Nasi Lemak, Smashed Chicken Sandwiches, and Cloud Kopi",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "unknown_expiry_or_start",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_scope_unresolved"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4424",
+      "key": "unstructured",
+      "id": "a3878b6c-86e9-81d0-a7c2-7072b23460f2",
+      "merchant": "The Coffee Bean & Tea Leaf",
+      "action": "exclude",
+      "reasons": [
+        "expired_promotion"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "selected_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4423",
+      "key": "unstructured",
+      "id": "40e679a9-ee89-83fe-a34e-9c4d37672026",
+      "merchant": "MOS Burger",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "unknown_expiry_or_start",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_all_outlet_enumeration",
+        "incomplete_outlet_audit",
+        "authoritative_merchant_directory_unavailable"
+      ],
+      "categories": [
+        "authoritative_merchant_directory_unavailable",
+        "benefit_title_merchant_parsing",
+        "incomplete_all_outlet_enumeration",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "all_outlets",
+      "outletIssues": [
+        "authoritative_merchant_directory_unavailable"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4888",
+      "key": "unstructured",
+      "id": "c68ba2a6-afdc-845a-addc-4a65a549cbff",
+      "merchant": "(unparsed)",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "merchant_or_title_unresolved",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:merchant:Too small: expected string to have >=1 characters",
+        "schema:title:Too small: expected string to have >=1 characters",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4887",
+      "key": "unstructured",
+      "id": "3412daa3-9c76-8d11-ad9a-6c2c1cf818a5",
+      "merchant": "Chix Hot Chicken",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "unknown_expiry_or_start",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_all_outlet_enumeration",
+        "incomplete_outlet_audit",
+        "authoritative_merchant_directory_unavailable"
+      ],
+      "categories": [
+        "authoritative_merchant_directory_unavailable",
+        "benefit_title_merchant_parsing",
+        "incomplete_all_outlet_enumeration",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "all_outlets",
+      "outletIssues": [
+        "authoritative_merchant_directory_unavailable"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4885",
+      "key": "unstructured",
+      "id": "197b14bd-647d-831a-a64f-6fb215acf5f8",
+      "merchant": "Daya Izakaya",
+      "action": "exclude",
+      "reasons": [
+        "expired_promotion"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4422",
+      "key": "unstructured",
+      "id": "cc2d319c-6888-8a24-a602-856fa0e31bf7",
+      "merchant": "A hidden rooftop café in Singapore's CBD with skyline views, speciality coffee, artisanal French bakes and creative matcha drinks",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "unknown_expiry_or_start",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_scope_unresolved"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4884",
+      "key": "offer-7d55c54782f797a4-0",
+      "id": "08973324-c5b4-87ff-a882-0225aac472da",
+      "merchant": "Sentosa GrillFest (https",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4884",
+      "key": "offer-45b706ca60fe55aa-1",
+      "id": "f82a63d2-664c-8c35-a68b-efd81f539f95",
+      "merchant": "Hougang Food Fair (https",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4884",
+      "key": "offer-0ed629beb8b06b30-2",
+      "id": "33b9ca37-6552-8b78-ad1b-749cd937dc36",
+      "merchant": "Tiong Bahru Food Fair (https",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4884",
+      "key": "offer-11f227768bfec4da-3",
+      "id": "c92c1554-ddad-8e29-a49e-8baf5bf89017",
+      "merchant": "APAC F&B Expo (https",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4884",
+      "key": "offer-2ca3077d5ccf2809-4",
+      "id": "43d87502-4418-82d1-a961-056f9bf0c1b5",
+      "merchant": "Celebfest Food Festival (https",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4884",
+      "key": "offer-a67eaf2c0fdcafb6-5",
+      "id": "cf4454ee-2ae3-8a75-aa22-57427ac65ceb",
+      "merchant": "Punggol Central Night Bazaar (https",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4421",
+      "key": "unstructured",
+      "id": "baedee6a-43b2-87a8-ac8d-cd0284a064dc",
+      "merchant": "Starbucks",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "Promotion states selected outlets but the participating-outlet list could not be verified."
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons",
+        "selected_outlet_evidence_unavailable"
+      ],
+      "requiresSplit": false,
+      "scope": "selected_outlets",
+      "outletIssues": [
+        "Promotion states selected outlets but the participating-outlet list could not be verified."
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4883",
+      "key": "unstructured",
+      "id": "ebe8a72f-3aa6-877d-a484-8e035c08f2b7",
+      "merchant": "More Yogurt",
+      "action": "unresolved",
+      "reasons": [
+        "requires_split",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "other_blocking_reasons",
+        "requires_split"
+      ],
+      "requiresSplit": true,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4420",
+      "key": "unstructured",
+      "id": "4d982a8e-6dc8-8d16-aa4a-740f94469098",
+      "merchant": "Sushiro",
+      "action": "exclude",
+      "reasons": [
+        "expired_promotion"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4882",
+      "key": "offer-8a300aa687ab0290-0",
+      "id": "0a4da9fe-876a-8050-a238-9ac250ac5bc6",
+      "merchant": "Carlton City",
+      "action": "unresolved",
+      "reasons": [
+        "unknown_expiry_or_start",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit"
+      ],
+      "categories": [
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_scope_unresolved"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4882",
+      "key": "offer-0bf4500bd78b14fb-1",
+      "id": "374d80ab-88fd-89cd-ace2-fcccb9f367af",
+      "merchant": "Family Mookata",
+      "action": "unresolved",
+      "reasons": [
+        "unknown_expiry_or_start",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit"
+      ],
+      "categories": [
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_scope_unresolved"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4882",
+      "key": "offer-af82d99d15ef5052-2",
+      "id": "6e977b2a-bbd2-806d-a1bc-5e445f199103",
+      "merchant": "Good Combo Hotpot & BBQ",
+      "action": "unresolved",
+      "reasons": [
+        "unknown_expiry_or_start",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit"
+      ],
+      "categories": [
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_scope_unresolved"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4882",
+      "key": "offer-05d4fa696373cfe6-3",
+      "id": "abb8c20c-4d48-8e89-af9b-b3655779c739",
+      "merchant": "Petite Menu",
+      "action": "unresolved",
+      "reasons": [
+        "unknown_expiry_or_start",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit"
+      ],
+      "categories": [
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_scope_unresolved"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4882",
+      "key": "offer-aff67fd480b54fe6-4",
+      "id": "eca03605-0a13-85e2-ab58-05c075e1b19a",
+      "merchant": "Window on The Park",
+      "action": "unresolved",
+      "reasons": [
+        "unknown_expiry_or_start",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit"
+      ],
+      "categories": [
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_scope_unresolved"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4419",
+      "key": "unstructured",
+      "id": "0c52d6ff-a9e5-87ab-a064-967e0c3dc1e6",
+      "merchant": "🇹🇭 Craving authentic Thai food? This Thai restaurant in Johor Bahru has got you covered",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "unknown_expiry_or_start",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_scope_unresolved"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4881",
+      "key": "unstructured",
+      "id": "994d49a8-e887-85e1-a708-7cd059f21d78",
+      "merchant": "Tavola Aperta",
+      "action": "unresolved",
+      "reasons": [
+        "requires_split",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "other_blocking_reasons",
+        "requires_split"
+      ],
+      "requiresSplit": true,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4418",
+      "key": "unstructured",
+      "id": "9ea2c107-5aac-8789-a06a-35e2d12425cf",
+      "merchant": "moreyogurt",
+      "action": "unresolved",
+      "reasons": [
+        "requires_split",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "other_blocking_reasons",
+        "requires_split"
+      ],
+      "requiresSplit": true,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4880",
+      "key": "unstructured",
+      "id": "8c54cbc5-0307-85be-a36e-7be11ef09a4c",
+      "merchant": "(unparsed)",
+      "action": "exclude",
+      "reasons": [
+        "expired_promotion"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4417",
+      "key": "unstructured",
+      "id": "c980cd60-36cb-8440-a550-c049c305d0a5",
+      "merchant": "Kei Kaisendon",
+      "action": "exclude",
+      "reasons": [
+        "expired_promotion"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4879",
+      "key": "offer-5f7f0fb2fe8d2138-0",
+      "id": "abfb686b-55be-8279-ac81-872d809fb006",
+      "merchant": "ALC Rice Bowls",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4879",
+      "key": "offer-000bbf05755e36c4-1",
+      "id": "26739409-b04d-893d-a136-f44c13cc9d16",
+      "merchant": "Katsu-an",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4879",
+      "key": "offer-a8cd3b8d3e2b0437-2",
+      "id": "1aa44c5f-a1e5-88b1-aec1-fcca151c2785",
+      "merchant": "Saizeriya",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4879",
+      "key": "offer-6c120335f4cca273-3",
+      "id": "1811ce88-6082-8c4f-ac22-dd152c03c375",
+      "merchant": "Shi Li Fang",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4879",
+      "key": "offer-5ca720daf9280774-4",
+      "id": "69cbcd5f-8521-827e-af4d-ec85d6cc1bb2",
+      "merchant": "White Restaurant",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4416",
+      "key": "unstructured",
+      "id": "344fe018-6e9c-8cf1-a3a1-b8556591863c",
+      "merchant": "🇮🇹 Feel like having Italian food without a flight to Rome? Check out this restaurant just across the border",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "unknown_expiry_or_start",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_scope_unresolved"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4415",
+      "key": "unstructured",
+      "id": "5faa2c4c-e090-80e2-ad6f-6c948f059889",
+      "merchant": "The Coffee Bean & Tea Leaf",
+      "action": "exclude",
+      "reasons": [
+        "expired_promotion"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "selected_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4878",
+      "key": "unstructured",
+      "id": "664c3cb9-f0af-803b-ad0c-b1c80ab906ed",
+      "merchant": "(unparsed)",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "merchant_or_title_unresolved",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:merchant:Too small: expected string to have >=1 characters",
+        "schema:title:Too small: expected string to have >=1 characters",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4414",
+      "key": "unstructured",
+      "id": "a865d03d-fab6-8ff6-ab4f-8e74cb381706",
+      "merchant": "AFTER HOURS",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_all_outlet_enumeration",
+        "incomplete_outlet_audit",
+        "authoritative_merchant_directory_unavailable"
+      ],
+      "categories": [
+        "authoritative_merchant_directory_unavailable",
+        "benefit_title_merchant_parsing",
+        "incomplete_all_outlet_enumeration",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "all_outlets",
+      "outletIssues": [
+        "authoritative_merchant_directory_unavailable"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4413",
+      "key": "unstructured",
+      "id": "2eba8768-f4fb-8b68-a09d-8cb393f2a243",
+      "merchant": "Feast like an emperor with this Ultimate Indulgence Set",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_scope_unresolved"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4877",
+      "key": "unstructured",
+      "id": "9a7983c7-ecff-8f81-ad75-eebc08c5fc50",
+      "merchant": "Burnt Cones",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "requires_split",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "other_blocking_reasons",
+        "requires_split"
+      ],
+      "requiresSplit": true,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4412",
+      "key": "unstructured",
+      "id": "ed00da74-8c0a-84f9-a880-823db7d8898f",
+      "merchant": "Tofu G",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_all_outlet_enumeration",
+        "incomplete_outlet_audit",
+        "authoritative_merchant_directory_unavailable"
+      ],
+      "categories": [
+        "authoritative_merchant_directory_unavailable",
+        "benefit_title_merchant_parsing",
+        "incomplete_all_outlet_enumeration",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "all_outlets",
+      "outletIssues": [
+        "authoritative_merchant_directory_unavailable"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4876",
+      "key": "offer-2d3d6b992500194e-0",
+      "id": "8437b58a-62b0-8d7d-acba-a563ad66a112",
+      "merchant": "$6.50 Fried Chicken Rice (https",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4876",
+      "key": "offer-689f76dfe527a4f6-1",
+      "id": "637a561f-df6a-84f6-a299-d16dc8337244",
+      "merchant": "$8.50 Tom Yum Noodle Soup (https",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4876",
+      "key": "offer-cb3a691ef1dc8f25-2",
+      "id": "eeaf0686-5079-8691-a1c6-21ce9829a0a4",
+      "merchant": "$9.80 Kway Teow Soup with Beef (https",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4876",
+      "key": "offer-26c9eba2f5e9bc05-3",
+      "id": "199f7774-5305-8f66-af4f-2e7e89cf9aff",
+      "merchant": "$10 Sliced Beef Ribeye (https",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4876",
+      "key": "offer-88920be13f447b6c-4",
+      "id": "0a938df2-8272-800d-a7f7-4e3602bd410a",
+      "merchant": "Pork Ribs Soup from $8.80 (https",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit",
+        "outlet_resolution_not_attempted"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4411",
+      "key": "unstructured",
+      "id": "625a08bb-c7d3-80a7-ab7b-0965ed1af4c0",
+      "merchant": "BURNT CONES",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "unresolved_redemption_hours",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "authoritative_merchant_directory_unavailable"
+      ],
+      "categories": [
+        "authoritative_merchant_directory_unavailable",
+        "benefit_title_merchant_parsing",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "authoritative_merchant_directory_unavailable"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4875",
+      "key": "unstructured",
+      "id": "143f6a28-5551-857e-ae31-c7837ea4901b",
+      "merchant": "Carnaby",
+      "action": "unresolved",
+      "reasons": [
+        "unresolved_weekday_restriction",
+        "unknown_expiry_or_start",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "authoritative_merchant_directory_unavailable"
+      ],
+      "categories": [
+        "authoritative_merchant_directory_unavailable",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "named_outlets",
+      "outletIssues": [
+        "authoritative_merchant_directory_unavailable"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4874",
+      "key": "unstructured",
+      "id": "2bd92480-550d-803e-ad82-07d6bf80defe",
+      "merchant": "Captain Kim",
+      "action": "exclude",
+      "reasons": [
+        "expired_promotion"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4872",
+      "key": "unstructured",
+      "id": "d0295dd8-d942-84be-ab61-53c33f9140fa",
+      "merchant": "Kimpson’s Table",
+      "action": "exclude",
+      "reasons": [
+        "expired_promotion"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4871",
+      "key": "unstructured",
+      "id": "d1f486e6-512c-8df3-ab59-6a845395ac95",
+      "merchant": "(unparsed)",
+      "action": "exclude",
+      "reasons": [
+        "online_only_not_for_map"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "online_only",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/sgfooddeals/4870",
+      "key": "unstructured",
+      "id": "c13e2bdb-7675-84d5-a399-fd0a76264a60",
+      "merchant": "7-Eleven",
+      "action": "exclude",
+      "reasons": [
+        "expired_promotion"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4410",
+      "key": "unstructured",
+      "id": "a645231c-b8db-8815-a706-9a4ce3fa5329",
+      "merchant": "McDonald’s",
+      "action": "unresolved",
+      "reasons": [
+        "unresolved_redemption_hours",
+        "unknown_expiry_or_start",
+        "category_unresolved",
+        "schema:category:Invalid option: expected one of \"Meals\"|\"Cafés\"|\"Drinks\"|\"Desserts\"",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_all_outlet_enumeration",
+        "incomplete_outlet_audit",
+        "authoritative_merchant_directory_unavailable"
+      ],
+      "categories": [
+        "authoritative_merchant_directory_unavailable",
+        "incomplete_all_outlet_enumeration",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "all_outlets_with_exclusions",
+      "outletIssues": [
+        "authoritative_merchant_directory_unavailable"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4409",
+      "key": "unstructured",
+      "id": "a0a4d03a-208e-8a4c-a51a-11e5ec28a86b",
+      "merchant": "$61 Never Tasted So Good",
+      "action": "unresolved",
+      "reasons": [
+        "promotional_benefit_not_established",
+        "unknown_expiry_or_start",
+        "schema:benefit:Too small: expected string to have >=1 characters",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "outlet_scope_unresolved",
+        "incomplete_outlet_audit"
+      ],
+      "categories": [
+        "benefit_title_merchant_parsing",
+        "missing_validity",
+        "other_blocking_reasons"
+      ],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_scope_unresolved"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4408",
+      "key": "unstructured",
+      "id": "9c2b3f1c-f544-8116-abcf-eb1ce0329fcc",
+      "merchant": "Sushi Express",
+      "action": "exclude",
+      "reasons": [
+        "expired_promotion"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "unclear",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4407",
+      "key": "unstructured",
+      "id": "f6997664-34bf-8f43-a184-dd0b324a2f03",
+      "merchant": "Smöoy",
+      "action": "exclude",
+      "reasons": [
+        "expired_promotion"
+      ],
+      "categories": [],
+      "requiresSplit": false,
+      "scope": "selected_outlets",
+      "outletIssues": [
+        "outlet_resolution_not_attempted"
+      ]
+    }
+  ]
+}

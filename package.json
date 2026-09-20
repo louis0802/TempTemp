@@ -24,7 +24,8 @@
     "worker": "tsx --env-file-if-exists=.env.local src/ingestion/worker.ts",
     "test:load": "tsx scripts/load-check.ts",
     "test:restore": "tsx scripts/restore-check.ts",
-    "test:corpus": "vitest run tests/corpus"
+    "test:corpus": "vitest run tests/corpus",
+    "analyze:evidence": "node --import tsx scripts/evidence-gaps.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.116.0",
