@@ -8,6 +8,7 @@ import type {
   MerchantBranch,
   SourcePost,
   DirectorySnapshot,
+  MerchantOutletProvider,
 } from "@/ingestion/resolution/types";
 
 export const inbox = JSON.parse(
@@ -73,10 +74,13 @@ export function controlledPipeline(
   );
 }
 /** Captured Genki locator only; coordinates and unsupported merchant coverage are not invented. */
-export function conservativePipeline() {
+export function conservativePipeline(
+  extraProviders: MerchantOutletProvider[] = [],
+) {
   return new PromotionPipeline(
     new PromotionParticipationResolver(
       [
+        ...extraProviders,
         {
           supports: (merchant) => /^genki sushi$/i.test(merchant),
           getSingaporeBranches: async () =>

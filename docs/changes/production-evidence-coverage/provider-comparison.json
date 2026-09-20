@@ -1,0 +1,98 @@
+{
+  "method": "Offline evidence-coverage sensitivity comparison, not a historical production replay: the 20 September captured official Papi directory is applied to corpus evaluation on 17 September. Coordinates deliberately unavailable; no historical availability or real approval inferred.",
+  "before": {
+    "Sources": 136,
+    "Offers": 181,
+    "Approved": 0,
+    "Excluded": 37,
+    "Unresolved": 144,
+    "Requires split": 18,
+    "Failed": 0
+  },
+  "after": {
+    "Sources": 136,
+    "Offers": 181,
+    "Approved": 0,
+    "Excluded": 37,
+    "Unresolved": 144,
+    "Requires split": 18,
+    "Failed": 0
+  },
+  "classificationChanges": [],
+  "evidenceChanges": [
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4478",
+      "key": "unstructured",
+      "merchant": "Papi’s Tacos",
+      "before": "unresolved",
+      "after": "unresolved",
+      "classificationChanged": false,
+      "oldReasons": [
+        "unknown_expiry_or_start",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "authoritative_merchant_directory_unavailable"
+      ],
+      "newReasons": [
+        "unknown_expiry_or_start",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_outlet_audit",
+        "ambiguous_or_missing_participating_branch:149 Tyrwhitt Road",
+        "place_unresolved:Tanjong Pagar:No verified coordinates in corpus fixtures"
+      ],
+      "directoryAudit": {
+        "authoritative": true,
+        "fullyTraversed": true,
+        "officialCount": 4
+      },
+      "evidence": [
+        {
+          "url": "https://www.papis-tacos.com/",
+          "checkedAt": "2026-09-20T15:33:49.000Z",
+          "sourceHash": "5ff472c54cb4ed023efd4261837c1cc6906f9dbdef7b98b8b4dea9d886b4cdc7",
+          "summary": "Official merchant directory; parser validates enumeration against source count and navigation."
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://t.me/tastesoulsg/4471",
+      "key": "unstructured",
+      "merchant": "Papi’s Tacos",
+      "before": "unresolved",
+      "after": "unresolved",
+      "classificationChanged": false,
+      "oldReasons": [
+        "unresolved_redemption_hours",
+        "unknown_expiry_or_start",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_all_outlet_enumeration",
+        "incomplete_outlet_audit",
+        "authoritative_merchant_directory_unavailable"
+      ],
+      "newReasons": [
+        "unresolved_redemption_hours",
+        "unknown_expiry_or_start",
+        "schema:outlets:Too small: expected array to have >=1 items",
+        "incomplete_all_outlet_enumeration",
+        "incomplete_outlet_audit",
+        "place_unresolved:Tanjong Pagar:No verified coordinates in corpus fixtures",
+        "place_unresolved:Seah Street:No verified coordinates in corpus fixtures",
+        "place_unresolved:Katong:No verified coordinates in corpus fixtures",
+        "place_unresolved:Jalan Besar:No verified coordinates in corpus fixtures"
+      ],
+      "directoryAudit": {
+        "authoritative": true,
+        "fullyTraversed": true,
+        "officialCount": 4
+      },
+      "evidence": [
+        {
+          "url": "https://www.papis-tacos.com/",
+          "checkedAt": "2026-09-20T15:33:49.000Z",
+          "sourceHash": "5ff472c54cb4ed023efd4261837c1cc6906f9dbdef7b98b8b4dea9d886b4cdc7",
+          "summary": "Official merchant directory; parser validates enumeration against source count and navigation."
+        }
+      ]
+    }
+  ]
+}

@@ -25,7 +25,8 @@
     "test:load": "tsx scripts/load-check.ts",
     "test:restore": "tsx scripts/restore-check.ts",
     "test:corpus": "vitest run tests/corpus",
-    "analyze:evidence": "node --import tsx scripts/evidence-gaps.ts"
+    "analyze:evidence": "node --import tsx scripts/evidence-gaps.ts",
+    "compare:evidence": "node --import tsx scripts/compare-provider-evidence.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.116.0",

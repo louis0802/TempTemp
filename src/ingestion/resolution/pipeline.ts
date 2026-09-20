@@ -8,6 +8,7 @@ import { PromotionParticipationResolver } from "./outlets";
 import { PromotionEligibilityService } from "./eligibility";
 import { ResolutionCache, digest } from "./cache";
 import { GenkiOutletProvider } from "./directory";
+import { PapisOutletProvider } from "./papis-directory";
 import { GoogleOutletDiscovery } from "./google-discovery";
 import { ApiPlaceResolver } from "./places";
 import type { OutletAudit, ProcessingResult, SourcePost } from "./types";
@@ -211,7 +212,7 @@ const cache = new ResolutionCache();
 export function defaultPromotionPipeline() {
   return new PromotionPipeline(
     new PromotionParticipationResolver(
-      [new GenkiOutletProvider(cache)],
+      [new GenkiOutletProvider(cache), new PapisOutletProvider(cache)],
       new ApiPlaceResolver(cache, {
         googleKey: process.env.GOOGLE_PLACES_API_KEY,
         oneMapToken: process.env.ONEMAP_TOKEN,

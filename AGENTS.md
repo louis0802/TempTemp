@@ -26,3 +26,5 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 - `npm test` includes focused units and original-text golden cases, but excludes the 136-source corpus. Run `npm run test:corpus` separately; it prints deterministic audit/disposition metrics. See `docs/changes/autonomous-ingestion/verification.md` for v7 evidence and controlled-provider limits.
 - Only the exact feed-export media marker is informational; actual media-dependent facts and unknown issue codes still block. When parsing roundup footers, strip only recognized channel metadata, never arbitrary text after an @handle.
+
+- Production directory coverage: `npm run analyze:evidence` regenerates conservative blocker reports; `npm run compare:evidence` performs a separately labelled captured-provider comparison. Papi's Tacos requires its official count, cards and navigation to agree. Preserve source address typos; never fuzzy-match them into participation or change physical outlet identity. See `docs/changes/production-evidence-coverage/verification.md`.
