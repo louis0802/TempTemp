@@ -1,0 +1,45 @@
+name: promotion-around-you
+services:
+  db:
+    image: postgis/postgis:17-3.5
+    platform: linux/amd64
+    environment:
+      POSTGRES_PASSWORD: local-postgres-only
+      POSTGRES_DB: promotions
+    ports: ["127.0.0.1:55432:5432"]
+    volumes:
+      - promotion_db:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/001-auth.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -U postgres -d promotions"]
+      interval: 3s
+      retries: 30
+  auth:
+    restart: on-failure
+    image: supabase/gotrue:v2.177.0
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      GOTRUE_API_HOST: 0.0.0.0
+      GOTRUE_API_PORT: 9999
+      API_EXTERNAL_URL: http://localhost:54321/auth/v1
+      GOTRUE_DB_DRIVER: postgres
+      GOTRUE_DB_DATABASE_URL: postgres://supabase_auth_admin:local-auth-only@db:5432/promotions?search_path=auth
+      GOTRUE_SITE_URL: http://127.0.0.1:3100
+      GOTRUE_URI_ALLOW_LIST: http://127.0.0.1:3100/**
+      GOTRUE_DISABLE_SIGNUP: "true"
+      GOTRUE_JWT_SECRET: local-only-secret-at-least-thirty-two-characters-long
+      GOTRUE_JWT_EXP: 3600
+      GOTRUE_JWT_AUD: authenticated
+      GOTRUE_JWT_ADMIN_ROLES: service_role
+      GOTRUE_EXTERNAL_EMAIL_ENABLED: "true"
+      GOTRUE_MAILER_AUTOCONFIRM: "true"
+  gateway:
+    restart: on-failure
+    image: nginx:1.28-alpine
+    ports: ["127.0.0.1:54321:80"]
+    volumes: ["./nginx.conf:/etc/nginx/conf.d/default.conf:ro"]
+    depends_on: [auth]
+volumes:
+  promotion_db:

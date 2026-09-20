@@ -1,0 +1,35 @@
+node_modules/
+.next/
+.env*
+!.env.example
+*.tsbuildinfo
+playwright-report/
+test-results/
+
+# Generated output and caches
+coverage/
+.nyc_output/
+.cache/
+.turbo/
+out/
+dist/
+*.log
+*.tmp
+*.swp
+.DS_Store
+.idea/
+.vscode/
+# Local data and credentials
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.pem
+*.key
+credentials*.json
+service-account*.json
+.auth/
+playwright/.auth/
+.local/
+# Duplicate generated bundle; extracted corpus inputs remain tracked
+/exports/*.zip

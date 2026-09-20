@@ -1,0 +1,12 @@
+{
+  "exportedAt": "2026-09-16T15:04:22.318Z",
+  "candidateCount": 180,
+  "sourcePostCount": 136,
+  "bySource": {
+    "tastesoulsg": 78,
+    "sgfooddeals": 102
+  },
+  "exportBytes": 399472,
+  "sha256": "660db39adcf6c63c554eecbad0579471046786151f74b4e5ef99aa0c772d3d2a",
+  "validation": "Parsed all JSON files; candidate identities/counts and UTC timestamps verified. No records imported or modified."
+}

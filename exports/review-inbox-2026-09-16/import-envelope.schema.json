@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "minItems": 1,
+  "maxItems": 2,
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "source": {
+        "type": "string",
+        "enum": [
+          "sgfooddeals",
+          "tastesoulsg"
+        ]
+      },
+      "complete": {
+        "type": "boolean",
+        "const": true
+      },
+      "coverageStart": {
+        "type": "string",
+        "format": "date-time",
+        "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))T(?:(?:[01]\\d|2[0-3]):[0-5]\\d:[0-5]\\d(?:\\.\\d+)?(?:Z))$"
+      },
+      "completeThrough": {
+        "type": "string",
+        "format": "date-time",
+        "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))T(?:(?:[01]\\d|2[0-3]):[0-5]\\d:[0-5]\\d(?:\\.\\d+)?(?:Z))$"
+      },
+      "posts": {
+        "maxItems": 10000,
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "messageId": {
+              "type": "integer",
+              "exclusiveMinimum": 0,
+              "maximum": 9007199254740991
+            },
+            "publishedAt": {
+              "type": "string",
+              "format": "date-time",
+              "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))T(?:(?:[01]\\d|2[0-3]):[0-5]\\d:[0-5]\\d(?:\\.\\d+)?(?:Z))$"
+            },
+            "text": {
+              "type": "string",
+              "maxLength": 50000
+            },
+            "candidates": {
+              "maxItems": 100,
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "key": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "promotion": {}
+                },
+                "required": [
+                  "key",
+                  "promotion"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "messageId",
+            "publishedAt",
+            "text",
+            "candidates"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": [
+      "source",
+      "complete",
+      "coverageStart",
+      "completeThrough",
+      "posts"
+    ],
+    "additionalProperties": false
+  },
+  "title": "Around source-post import envelope",
+  "description": "Actual importer envelope. Each source must occur at most once. Promotion objects are validated separately by promotion.schema.json; incomplete objects enter review. Additional business rules appear in import-spec.md."
+}

@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-16T08:14:06.643Z",
+  "profile": "Local Node 24, Docker PostgreSQL/PostGIS; service query path, not HTTP/network; 10 concurrent reads each second for 10 seconds",
+  "offers": 10000,
+  "outlets": 20000,
+  "requests": 100,
+  "p50ms": 84,
+  "p95ms": 106,
+  "maxMs": 160,
+  "targetP95ms": 500
+}

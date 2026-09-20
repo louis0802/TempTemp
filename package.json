@@ -1,0 +1,56 @@
+{
+  "name": "promotion-around-you",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "next dev --port 3100",
+    "build": "next build",
+    "start": "next start --port 3100",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run --exclude 'tests/integration/**' --exclude 'tests/e2e/**' --exclude 'tests/corpus/**'",
+    "test:integration": "vitest run tests/integration",
+    "test:e2e": "playwright test",
+    "db:migrate": "tsx --env-file-if-exists=.env.local scripts/migrate.ts",
+    "ingest": "tsx --env-file-if-exists=.env.local src/ingestion/runner.ts",
+    "local:up": "docker compose -f docker/compose.yml up -d",
+    "local:down": "docker compose -f docker/compose.yml down",
+    "local:setup": "tsx scripts/setup-local.ts",
+    "local:admin": "tsx scripts/setup-local.ts --admin",
+    "format": "prettier --write src scripts tests *.ts *.json *.mjs docker/*.yml",
+    "worker": "tsx --env-file-if-exists=.env.local src/ingestion/worker.ts",
+    "test:load": "tsx scripts/load-check.ts",
+    "test:restore": "tsx scripts/restore-check.ts",
+    "test:corpus": "vitest run tests/corpus"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.116.0",
+    "cheerio": "^1.2.0",
+    "lucide-react": "^1.46.0",
+    "luxon": "^3.7.2",
+    "maplibre-gl": "^6.9.1",
+    "next": "^16.3.5",
+    "pg": "^8.23.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/luxon": "^3.7.5",
+    "@types/node": "^26.5.1",
+    "@types/pg": "^8.23.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.3.5",
+    "prettier": "^3.9.6",
+    "tsx": "^4.23.13",
+    "typescript": "^6.0.3",
+    "vitest": "^5.0.1"
+  },
+  "type": "module"
+}

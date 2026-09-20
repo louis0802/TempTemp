@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-16T08:13:20.856Z",
+  "scope": "Local app schema only; no auth schema or hosted backup policy",
+  "counts": {
+    "posts": "140",
+    "revisions": "140",
+    "candidates": "195",
+    "promotions": "0",
+    "audit": "0"
+  },
+  "archiveBytes": 114706,
+  "elapsedMs": 3017,
+  "result": "passed"
+}

@@ -1,0 +1,9 @@
+# Plan — completed
+1. Inspected resolution modules, service/publication schema, original export, tests, existing project guidance and bundled Next.js testing/TypeScript guides.
+2. Added default-blocking issue policy, classified audit observations and stable source/offer UUIDs. Focused tests passed before continuing.
+3. Extended benefit parsing, URL-prefixed titles, bounded roundup metadata, abbreviated weekdays, structured cutoff and outlet selectors. Golden and focused tests passed incrementally.
+4. Added nine original-text/control golden tests and a separate corpus suite; removed the old non-database inbox integration file, whose coverage moved to these suites. Corpus ownership oracle independently partitions original lines. Added support for the tenth keycap list item discovered in the corpus (181 offers rather than 180).
+5. Fixed terminal attempt outcomes: published / excluded / completed for terminal mixtures, needs_review for unresolved or reconciliation issues. Added four database cases and an approval outcome assertion; preserved reviewed-revision and transactional safeguards.
+6. Reviewed source/test diffs against pre-change copies (workspace has no Git metadata). Tightened channel-footer stripping after review so unknown material footer content is preserved with a blocker. Added regression coverage. Final normal, focused, golden, integration, corpus, typecheck and lint checks passed. See verification.md for commands and results.
+
+AC1–AC7 satisfied. Sushiro intentionally retains requires_split because merchandise ownership between waves is not established. No production providers or evidence were invented. No migration, deployment, worker scheduling or operational replay was performed. The initial integration invocation failed on sandbox socket permissions; the authorized local-service rerun and final complete integration command passed.
