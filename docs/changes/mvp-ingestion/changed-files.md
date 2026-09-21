@@ -1,0 +1,37 @@
+# Changed files
+
+- `.env.example`
+- `AGENTS.md`
+- `data/mvp-promotions.json`
+- `docs/changes/mvp-ingestion/changed-files.md`
+- `docs/changes/mvp-ingestion/conformance.json`
+- `docs/changes/mvp-ingestion/design.md`
+- `docs/changes/mvp-ingestion/intent.md`
+- `docs/changes/mvp-ingestion/non-ready.json`
+- `docs/changes/mvp-ingestion/non-ready.md`
+- `docs/changes/mvp-ingestion/plan.md`
+- `docs/changes/mvp-ingestion/spec.md`
+- `docs/changes/mvp-ingestion/verification.md`
+- `package.json`
+- `scripts/build-mvp-data.ts`
+- `scripts/mvp-conformance.ts`
+- `src/app/api/mvp/promotions/[id]/route.ts`
+- `src/app/api/mvp/promotions/route.ts`
+- `src/app/corpus/page.tsx`
+- `src/app/globals.css`
+- `src/app/mvp/page.tsx`
+- `src/app/page.tsx`
+- `src/components/Explorer.tsx`
+- `src/domain/mvp.ts`
+- `src/domain/promotion.ts`
+- `src/ingestion/mvp/content.ts`
+- `src/ingestion/mvp/corpus.ts`
+- `src/ingestion/mvp/pipeline.ts`
+- `src/ingestion/resolution/google-discovery.ts`
+- `src/server/mvp.ts`
+- `tests/corpus/mvp-conformance-reviewed.json`
+- `tests/corpus/mvp-regression.test.ts`
+- `tests/corpus/post-pattern-categories.json`
+- `tests/e2e/mvp.spec.ts`
+- `tests/helpers/mvp-conformance.ts`
+- `tests/mvp.test.ts`

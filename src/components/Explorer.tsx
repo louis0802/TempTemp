@@ -28,7 +28,14 @@ const defaultBounds: [number, number, number, number] = [
 ];
 const categories = ["All", "Meals", "Cafés", "Drinks", "Desserts"];
 type Place = { name: string; lat: number; lng: number };
-export default function Explorer() {
+export default function Explorer({
+  mvp = false,
+  includeExpired = false,
+}: {
+  mvp?: boolean;
+  includeExpired?: boolean;
+}) {
+  const endpoint = mvp ? "/api/mvp/promotions" : "/api/promotions";
   const [items, setItems] = useState<Listing[]>([]),
     [sources, setSources] = useState<SourceHealth[]>([]),
     [demo, setDemo] = useState(false),
@@ -74,7 +81,8 @@ export default function Explorer() {
         do {
           const q = new URLSearchParams({ bbox: bounds.join(","), category });
           if (cursor) q.set("cursor", cursor);
-          const r = await fetch(`/api/promotions?${q}`, {
+          if (includeExpired) q.set("includeExpired", "true");
+          const r = await fetch(`${endpoint}?${q}`, {
             signal: request.signal,
             cache: "no-store",
           });
@@ -109,7 +117,7 @@ export default function Explorer() {
       clearInterval(timer);
       window.removeEventListener("focus", focus);
     };
-  }, [bounds, category]);
+  }, [bounds, category, endpoint, includeExpired]);
   useEffect(() => {
     if (query.trim().length < 2) return;
     const controller = new AbortController();
@@ -151,10 +159,13 @@ export default function Explorer() {
   useEffect(() => {
     if (!selected) return;
     const controller = new AbortController();
-    fetch(`/api/promotions/${selected}`, {
-      signal: controller.signal,
-      cache: "no-store",
-    })
+    fetch(
+      `${endpoint}/${selected}${includeExpired ? "?includeExpired=true" : ""}`,
+      {
+        signal: controller.signal,
+        cache: "no-store",
+      },
+    )
       .then(async (response) => {
         if (!response.ok)
           throw new Error(
@@ -169,7 +180,7 @@ export default function Explorer() {
         }
       });
     return () => controller.abort();
-  }, [selected, items]);
+  }, [selected, items, endpoint, includeExpired]);
   const choose = useCallback((id: string) => {
     setDetail(null);
     setSelected(id);
@@ -305,19 +316,21 @@ export default function Explorer() {
                 {locationMessage}
               </p>
             )}
-            <div className="categories" aria-label="Filter by category">
-              {categories.map((c) => (
-                <button
-                  key={c}
-                  aria-pressed={category === c}
-                  className={category === c ? "active" : ""}
-                  onClick={() => setCategory(c)}
-                >
-                  {c === "All" && <SlidersHorizontal size={14} />}{" "}
-                  {c === "All" ? "All deals" : c}
-                </button>
-              ))}
-            </div>
+            {!mvp && (
+              <div className="categories" aria-label="Filter by category">
+                {categories.map((c) => (
+                  <button
+                    key={c}
+                    aria-pressed={category === c}
+                    className={category === c ? "active" : ""}
+                    onClick={() => setCategory(c)}
+                  >
+                    {c === "All" && <SlidersHorizontal size={14} />}{" "}
+                    {c === "All" ? "All deals" : c}
+                  </button>
+                ))}
+              </div>
+            )}
             <div className="filter-row">
               <label>
                 <input
@@ -344,6 +357,15 @@ export default function Explorer() {
             </div>
             <Compass size={23} />
           </div>
+          {mvp && (
+            <p className="inline-message mvp-notice">
+              {includeExpired
+                ? "Historical preview includes expired offers. "
+                : ""}
+              Pins show merchant locations, not confirmed promotion
+              participation. Check each offer’s restrictions before visiting.
+            </p>
+          )}
           {demo && (
             <div className="demo-banner">
               <span>DEMO</span> Fictional offers. Not redeemable.
@@ -364,7 +386,7 @@ export default function Explorer() {
                 onClick={() => choose(p.id)}
               >
                 <div
-                  className={`offer-art art-${p.category.toLowerCase().replace("é", "e")}`}
+                  className={`offer-art art-${(p.category ?? "Meals").toLowerCase().replace("é", "e")}`}
                 >
                   <span className="card-number">
                     {i + 1 < 10 ? "0" : ""}
@@ -379,7 +401,9 @@ export default function Explorer() {
                       ●<br />▼
                     </span>
                   )}
-                  <span className="art-category">{p.category}</span>
+                  <span className="art-category">
+                    {p.category ?? "Promotion"}
+                  </span>
                 </div>
                 <div className="offer-summary">
                   <div className="card-topline">
@@ -438,7 +462,9 @@ export default function Explorer() {
             <Check size={14} />
             {demo
               ? "A preview of your next neighbourhood ritual."
-              : "Only verified ongoing offers appear here."}
+              : mvp
+                ? "Merchant locations; check promotion terms before visiting."
+                : "Only verified ongoing offers appear here."}
           </footer>
         </section>
         <section
@@ -452,6 +478,11 @@ export default function Explorer() {
             bounds={bounds}
             onBounds={setBounds}
           />
+          {mvp && (
+            <p className="mvp-map-notice">
+              Merchant locations · Participation not confirmed
+            </p>
+          )}
           <div className="map-top">
             <span>
               <span className="live-dot" />
@@ -534,7 +565,9 @@ export default function Explorer() {
               <X />
             </button>
             <div className="detail-kicker">
-              {demo ? "FICTIONAL EXAMPLE" : current.category.toUpperCase()}
+              {demo
+                ? "FICTIONAL EXAMPLE"
+                : (current.category ?? "Promotion").toUpperCase()}
             </div>
             <p className="detail-merchant">{current.merchant}</p>
             <h2>{current.benefit}</h2>
@@ -575,7 +608,14 @@ export default function Explorer() {
                 <li key={t}>{t}</li>
               ))}
             </ul>
-            <h4>Participating outlets</h4>
+            <h4>{mvp ? "Merchant locations" : "Participating outlets"}</h4>
+            {mvp && (
+              <p>
+                {current.mapCoverageBasis === "source_named_outlets"
+                  ? "Locations named in the source. Check the source terms before visiting."
+                  : "Observed Google merchant locations. Participation and complete chain coverage are not verified."}
+              </p>
+            )}
             {current.outlets.map((o) => (
               <div className="outlet-detail" key={o.id}>
                 <div>
@@ -611,13 +651,15 @@ export default function Explorer() {
                       View source · {s.label} <ArrowUpRight size={15} />
                     </a>
                   ))}
-                  <p>
-                    Offer verified{" "}
-                    {new Date(current.verifiedAt!).toLocaleString("en-SG", {
-                      timeZone: "Asia/Singapore",
-                    })}{" "}
-                    SGT
-                  </p>
+                  {!mvp && (
+                    <p>
+                      Offer verified{" "}
+                      {new Date(current.verifiedAt!).toLocaleString("en-SG", {
+                        timeZone: "Asia/Singapore",
+                      })}{" "}
+                      SGT
+                    </p>
+                  )}
                 </>
               )}
             </div>

@@ -1224,3 +1224,21 @@ h1 {
   width: 100%;
   height: 100%;
 }
+
+.mvp-notice {
+  margin: 0 30px 12px;
+}
+.mvp-map-notice {
+  position: absolute;
+  z-index: 2;
+  top: 76px;
+  left: 20px;
+  max-width: calc(100% - 40px);
+  padding: 8px 12px;
+  border-radius: 6px;
+  background: white;
+  color: var(--jade);
+  font-size: 11px;
+  line-height: 1.5;
+  pointer-events: none;
+}

@@ -1,0 +1,5445 @@
+{
+  "candidateCount": 180,
+  "runtimeCount": 200,
+  "unmatched": [],
+  "extra": [
+    {
+      "id": "00877087-25e9-5380-a7d4-ced8b0c2689a",
+      "sourceUrl": "https://t.me/sgfooddeals/4917",
+      "description": "Bedok - Pasir Ris (https://tco.sg/Q2ZGfJu1X)",
+      "reason": "Original 🔟 tenth section was merged into benchmark ninth candidate; parser correctly retains its own child."
+    }
+  ],
+  "rows": [
+    {
+      "candidateId": "6d59ef28-e626-4928-8fab-dfce7b2b68c2",
+      "sourceUrl": "https://t.me/tastesoulsg/4486",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "ee96612f-410a-53a7-a7f1-d0dbb02648c4"
+      ],
+      "expected": {
+        "offerStructure": "launch_or_ordinary_menu",
+        "datePattern": "no_validity_date",
+        "outletScope": "online_only"
+      },
+      "actual": [
+        {
+          "id": "ee96612f-410a-53a7-a7f1-d0dbb02648c4",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "online_only",
+          "merchant": "Koi Thé",
+          "title": "NEW 3L Sharing Tea Pack ($52)"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "551df953-2f18-4c60-b923-7deb4a54a2d7",
+      "sourceUrl": "https://t.me/tastesoulsg/4485",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "04c0052d-32e6-5018-aaeb-13b5c3290e19"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "all_outlets"
+      },
+      "actual": [
+        {
+          "id": "04c0052d-32e6-5018-aaeb-13b5c3290e19",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-09-14",
+          "endDate": "2026-09-16",
+          "outletScope": "all_outlets",
+          "merchant": "McDonald's",
+          "title": "$6 McSpicy Meal (U.P. $8.30)"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "31c558a9-05cc-4ced-8682-133424e0a6c4",
+      "sourceUrl": "https://t.me/tastesoulsg/4484",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "49696b5f-a03f-5407-a386-a9c5e975b2b0"
+      ],
+      "expected": {
+        "offerStructure": "article_or_nonoffer",
+        "datePattern": "unknown_expiry",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "49696b5f-a03f-5407-a386-a9c5e975b2b0",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "unknown_expiry",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "SIDES by the Sidemen",
+          "title": "Trick or treat? Enjoy a treat with this new Halloween burger, limited time only"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "62a0c360-5c43-44f7-a753-1ec89832b761",
+      "sourceUrl": "https://t.me/sgfooddeals/4934",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "73e4b6b6-b2e0-5926-a592-c994b385e189"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "platform_or_network_scope"
+      },
+      "actual": [
+        {
+          "id": "73e4b6b6-b2e0-5926-a592-c994b385e189",
+          "status": "needs_content_resolution",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-09-14",
+          "endDate": "2026-10-31",
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": ""
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "8e0614ff-a1c1-47f4-b945-7a1058b195e8",
+      "sourceUrl": "https://t.me/sgfooddeals/4933",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "936533e1-035b-5776-a22f-2ac952f31981"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "multiple_date_windows",
+        "outletScope": "selected_outlets"
+      },
+      "actual": [
+        {
+          "id": "936533e1-035b-5776-a22f-2ac952f31981",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "multiple_ranges",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "selected_outlets",
+          "merchant": "Paradise Hotpot",
+          "title": "All-You-Can-Eat from $19.90"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "8241b190-db40-404b-9b3a-516f3075270d",
+      "sourceUrl": "https://t.me/sgfooddeals/4932",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "fd8cc9e2-af8d-55fd-a917-e873fcfabb0e"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "no_validity_date",
+        "outletScope": "all_outlets"
+      },
+      "actual": [
+        {
+          "id": "fd8cc9e2-af8d-55fd-a917-e873fcfabb0e",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "recurring",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "all_outlets",
+          "merchant": "Ajumma's Korean Restaurant",
+          "title": "Meals from $9.90"
+        }
+      ],
+      "differences": [
+        "date_pattern"
+      ]
+    },
+    {
+      "candidateId": "dbf143b6-a24a-43e9-accd-91eef36f9051",
+      "sourceUrl": "https://t.me/sgfooddeals/4931",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "c52875c4-e30a-500a-a049-7d51f1deec51"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "selected_outlets"
+      },
+      "actual": [
+        {
+          "id": "c52875c4-e30a-500a-a049-7d51f1deec51",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-09-13",
+          "endDate": "2026-09-14",
+          "outletScope": "selected_outlets",
+          "merchant": "Smooy",
+          "title": "1-for-1 Classic Cup"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "c8c5aaa7-c35c-43dc-a031-9923490b26a0",
+      "sourceUrl": "https://t.me/sgfooddeals/4930",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "45910e22-329a-566c-a633-f03160f660b8"
+      ],
+      "expected": {
+        "offerStructure": "article_or_nonoffer",
+        "datePattern": "recurring_without_validity_end",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "45910e22-329a-566c-a633-f03160f660b8",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "recurring",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "named_outlets",
+          "merchant": "",
+          "title": ""
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "ad4337d1-80aa-4e0d-8cfb-8b4844581f07",
+      "sourceUrl": "https://t.me/tastesoulsg/4482",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "8a564775-1b0e-5cc5-aac0-0dc7d8619bf2"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "8a564775-1b0e-5cc5-aac0-0dc7d8619bf2",
+          "status": "needs_content_resolution",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Viva Lavender",
+          "title": "A neighbourhood gem serving European-Asian cuisine has just expanded its menu and lunch-time promos"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "798dacf9-b305-4273-a395-a76a06c54ab1",
+      "sourceUrl": "https://t.me/tastesoulsg/4481",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "9cb4e729-234a-5e1e-a78f-a47f89a6a94f"
+      ],
+      "expected": {
+        "offerStructure": "launch_or_ordinary_menu",
+        "datePattern": "single_explicit_date_or_event",
+        "outletScope": "online_only"
+      },
+      "actual": [
+        {
+          "id": "9cb4e729-234a-5e1e-a78f-a47f89a6a94f",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "multiple_ranges",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Nasty Cookie",
+          "title": "NEW Dubai Chewy Cookie Mooncake"
+        }
+      ],
+      "differences": [
+        "date_pattern",
+        "outlet_scope"
+      ]
+    },
+    {
+      "candidateId": "f2400d50-2192-4578-94fb-f476a0d75419",
+      "sourceUrl": "https://t.me/tastesoulsg/4480",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "4629522c-f8d6-548c-acc7-6eac7b16dfd2"
+      ],
+      "expected": {
+        "offerStructure": "launch_or_ordinary_menu",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "4629522c-f8d6-548c-acc7-6eac7b16dfd2",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "multiple_ranges",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "named_outlets",
+          "merchant": "Racines",
+          "title": "NEW Turf & Tide edition Ultimate Brunch Buffet"
+        }
+      ],
+      "differences": [
+        "date_pattern"
+      ]
+    },
+    {
+      "candidateId": "f28a2970-bb28-44e2-b7ac-27a961d0ba96",
+      "sourceUrl": "https://t.me/tastesoulsg/4479",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "0b829177-d6d5-573c-ad4f-b926472413d5"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "0b829177-d6d5-573c-ad4f-b926472413d5",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Dian Xiao Er",
+          "title": "Claypot Sliced Fish Curry and Solo Lunch Sets for just $9.90"
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "f481a335-2476-424f-86bb-a2d22b78af0f",
+      "sourceUrl": "https://t.me/sgfooddeals/4928",
+      "candidateKey": "section-046ac82466a2-2",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "b33f94ce-3b4e-5203-a034-7b6b4db221c4"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "b33f94ce-3b4e-5203-a034-7b6b4db221c4",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Happy Lamb",
+          "title": "Hotpot Buffet from $9.99"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "302f3489-c49b-4b5a-8189-35e04291f4a9",
+      "sourceUrl": "https://t.me/sgfooddeals/4928",
+      "candidateKey": "section-18a5d75a8d97-1",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "b49a1e96-2bf8-5dd1-a9fa-9cd37c349fb4"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "b49a1e96-2bf8-5dd1-a9fa-9cd37c349fb4",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Fame by Dads Corner",
+          "title": "$10 Buffet"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "6e305e3c-a6df-477d-90eb-b13dee6fb41e",
+      "sourceUrl": "https://t.me/sgfooddeals/4928",
+      "candidateKey": "section-2b94e6f40ef4-3",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "10bf71bf-77df-5c21-aa97-c55877f343f8"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "10bf71bf-77df-5c21-aa97-c55877f343f8",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "JEN Shangri-La",
+          "title": "1-for-1 Buffet"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "db175492-a165-42b6-b5c0-b9be7bd7fa2c",
+      "sourceUrl": "https://t.me/sgfooddeals/4928",
+      "candidateKey": "section-96ca402930e5-0",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "7ddbfbf9-8a44-5c53-a58b-da470741d63d"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "7ddbfbf9-8a44-5c53-a58b-da470741d63d",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "21 on Rajah",
+          "title": "2-for-2 Vietnamese Buffet"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "fa9b36c1-fb20-4513-aa5e-0c10a7f03e08",
+      "sourceUrl": "https://t.me/sgfooddeals/4928",
+      "candidateKey": "section-d2b24ceeaf14-4",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "4115736f-11b1-51a1-a257-838c5c523f63"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "4115736f-11b1-51a1-a257-838c5c523f63",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Seoul Garden",
+          "title": "2-for-2 Grill & Hotpot Buffet"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "b636458f-3026-423d-b370-c0ecd5180f62",
+      "sourceUrl": "https://t.me/tastesoulsg/4478",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "49a95712-d7c2-5695-aca8-d22abbebc8b7"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "recurring_without_validity_end",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "49a95712-d7c2-5695-aca8-d22abbebc8b7",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "recurring",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "named_outlets",
+          "merchant": "Papi’s Tacos",
+          "title": "$10 OFF Papi’s Platter"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "b5e1a48b-bdae-4c44-8db0-c4eb566eec92",
+      "sourceUrl": "https://t.me/sgfooddeals/4927",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "dcff1afd-1834-5b26-ac02-5519347d7899",
+        "79a101a4-5b7c-5026-acf0-b3fd5e0629b6",
+        "a3f836a6-c225-526d-ab55-d788a5d2fc4d"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "recurring_without_validity_end",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "dcff1afd-1834-5b26-ac02-5519347d7899",
+          "status": "needs_location",
+          "genuine": true,
+          "datePattern": "single_explicit_date_or_event",
+          "startDate": "2026-09-12",
+          "endDate": "2026-09-12",
+          "outletScope": "named_outlets",
+          "merchant": "Kimpson's Table",
+          "title": "$9.90 Kalguksu"
+        },
+        {
+          "id": "79a101a4-5b7c-5026-acf0-b3fd5e0629b6",
+          "status": "needs_location",
+          "genuine": true,
+          "datePattern": "single_explicit_date_or_event",
+          "startDate": "2026-09-19",
+          "endDate": "2026-09-19",
+          "outletScope": "named_outlets",
+          "merchant": "Kimpson's Table",
+          "title": "$9.90 Kalguksu"
+        },
+        {
+          "id": "a3f836a6-c225-526d-ab55-d788a5d2fc4d",
+          "status": "needs_location",
+          "genuine": true,
+          "datePattern": "single_explicit_date_or_event",
+          "startDate": "2026-09-26",
+          "endDate": "2026-09-26",
+          "outletScope": "named_outlets",
+          "merchant": "Kimpson's Table",
+          "title": "$9.90 Kalguksu"
+        }
+      ],
+      "differences": [
+        "date_pattern"
+      ]
+    },
+    {
+      "candidateId": "2c891c12-7dad-4134-8863-a582f0990c50",
+      "sourceUrl": "https://t.me/tastesoulsg/4477",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "7a0a9aea-47b5-5456-a940-37b19c0e48eb"
+      ],
+      "expected": {
+        "offerStructure": "launch_or_ordinary_menu",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "all_outlets"
+      },
+      "actual": [
+        {
+          "id": "7a0a9aea-47b5-5456-a940-37b19c0e48eb",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "multiple_ranges",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "all_outlets",
+          "merchant": "Sushiro",
+          "title": "NEW Pokémon collab ft. merch with purchase"
+        }
+      ],
+      "differences": [
+        "date_pattern"
+      ]
+    },
+    {
+      "candidateId": "8281b82f-278f-4dcf-869a-d1957cdc61db",
+      "sourceUrl": "https://t.me/tastesoulsg/4476",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "269777e5-60b8-52d1-a870-a1fd3f107ad2"
+      ],
+      "expected": {
+        "offerStructure": "article_or_nonoffer",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "269777e5-60b8-52d1-a870-a1fd3f107ad2",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Estiatorio Milos",
+          "title": "🇬🇷 From sea to table, here are Greek dishes that stood out to us"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "f51fd6b9-1f04-4c1b-9cbb-4b8f8bf7788d",
+      "sourceUrl": "https://t.me/sgfooddeals/4926",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "7b6adad4-b96f-57fd-ad2b-fb9663cd73b8"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "no_validity_date",
+        "outletScope": "selected_outlets"
+      },
+      "actual": [
+        {
+          "id": "7b6adad4-b96f-57fd-ad2b-fb9663cd73b8",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "selected_outlets",
+          "merchant": "Sukiya",
+          "title": "Breakfast Set from $4.90"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "889ef94e-02cd-4aef-a1b8-eb4e03a19a50",
+      "sourceUrl": "https://t.me/tastesoulsg/4475",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "0ec7ecd0-2cbe-567a-afaa-760cdf96ecf1"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "platform_or_network_scope"
+      },
+      "actual": [
+        {
+          "id": "0ec7ecd0-2cbe-567a-afaa-760cdf96ecf1",
+          "status": "needs_content_resolution",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-09-09",
+          "endDate": "2026-10-31",
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": "Up to 15% OFF your total bill with Grab Dine Out at Moonchild, La Levain & more!"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "7443f48e-8dfc-4f29-9447-b049722bbc8e",
+      "sourceUrl": "https://t.me/tastesoulsg/4474",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "d3ad1420-f9dd-5baa-ae24-d6917313649f"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "no_validity_date",
+        "outletScope": "all_outlets"
+      },
+      "actual": [
+        {
+          "id": "d3ad1420-f9dd-5baa-ae24-d6917313649f",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "recurring",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "all_outlets",
+          "merchant": "Ajumma’s",
+          "title": "$9.90++ mains + free flow side dishes + choice of Omija Berry Smoothie / Milk Tea Brûlée Smoothie / Dubai Chewy Cookie"
+        }
+      ],
+      "differences": [
+        "date_pattern"
+      ]
+    },
+    {
+      "candidateId": "8c345e9f-5dd9-46a1-9296-32859969da0b",
+      "sourceUrl": "https://t.me/sgfooddeals/4925",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "b7b2280d-d288-5917-a0e3-08094fb445f4"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "all_outlets"
+      },
+      "actual": [
+        {
+          "id": "b7b2280d-d288-5917-a0e3-08094fb445f4",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-09-08",
+          "endDate": "2026-09-30",
+          "outletScope": "all_outlets",
+          "merchant": "Shiok Burger",
+          "title": "Daily 1-for-1 Deals"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "25f1d495-0d8a-4383-98b6-279d861a7a97",
+      "sourceUrl": "https://t.me/tastesoulsg/4473",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "59b73637-2480-5f48-abe2-a949fc08b51e"
+      ],
+      "expected": {
+        "offerStructure": "article_or_nonoffer",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "59b73637-2480-5f48-abe2-a949fc08b51e",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Dill",
+          "title": "Craving something new? At this restaurant, you can enjoy Nordic flavours with Singapore soul"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "598267ad-570e-43d4-bfc4-f3b98998ae35",
+      "sourceUrl": "https://t.me/tastesoulsg/4472",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "ee2ce870-724d-5cb0-a428-3e9803b3fba5"
+      ],
+      "expected": {
+        "offerStructure": "launch_or_ordinary_menu",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "ee2ce870-724d-5cb0-a428-3e9803b3fba5",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "now_to_date",
+          "startDate": "2026-09-08",
+          "endDate": "2027-01-02",
+          "outletScope": "named_outlets",
+          "merchant": "MilkyShop",
+          "title": "Viral Korean butter sand pop-up lands in SG"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "8bc768f9-4111-4808-aa05-6c32e1a70e0b",
+      "sourceUrl": "https://t.me/tastesoulsg/4471",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "2a1c9f68-4ed2-5863-ad08-72aec98307df"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "single_explicit_date_or_event",
+        "outletScope": "all_outlets"
+      },
+      "actual": [
+        {
+          "id": "2a1c9f68-4ed2-5863-ad08-72aec98307df",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "single_explicit_date_or_event",
+          "startDate": "2026-09-09",
+          "endDate": "2026-09-09",
+          "outletScope": "all_outlets",
+          "merchant": "Papi’s Tacos",
+          "title": "$9.90 for 2 Classic Fish Tacos (U.P. $16)"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "9114b540-77e9-46f1-a83c-26f8e30d75c1",
+      "sourceUrl": "https://t.me/sgfooddeals/4924",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "029eeced-1db8-5ab9-a00d-fe1f69d6ef6a",
+        "514dd7cd-7cca-56be-a55e-bfd2c2dd4eba"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "recurring_without_validity_end",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "029eeced-1db8-5ab9-a00d-fe1f69d6ef6a",
+          "status": "needs_location",
+          "genuine": true,
+          "datePattern": "single_explicit_date_or_event",
+          "startDate": "2026-09-08",
+          "endDate": "2026-09-08",
+          "outletScope": "named_outlets",
+          "merchant": "Brash Boys Coffee",
+          "title": "1-for-1 on All Drinks"
+        },
+        {
+          "id": "514dd7cd-7cca-56be-a55e-bfd2c2dd4eba",
+          "status": "needs_location",
+          "genuine": true,
+          "datePattern": "single_explicit_date_or_event",
+          "startDate": "2026-09-09",
+          "endDate": "2026-09-09",
+          "outletScope": "named_outlets",
+          "merchant": "Brash Boys Coffee",
+          "title": "1-for-1 on All Drinks"
+        }
+      ],
+      "differences": [
+        "date_pattern"
+      ]
+    },
+    {
+      "candidateId": "918bb79c-4aec-44c8-833a-fb39f3182e33",
+      "sourceUrl": "https://t.me/tastesoulsg/4470",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "47aa8224-5d8e-5311-a461-252f8456044b"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "47aa8224-5d8e-5311-a461-252f8456044b",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Dancing Crab",
+          "title": "Why dine solo when you can share the joy? Get 50% off your 2nd Lunch Set"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "3611d0e6-53a2-418f-abf0-7d3f18dcd5ff",
+      "sourceUrl": "https://t.me/tastesoulsg/4469",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "fdd8a03a-3484-5110-a698-b64cdaf15b7e",
+        "dac235bd-d299-5d1b-a039-fbaa8832e050",
+        "781021b6-af3d-5b16-ac50-ea503c66f71f",
+        "3fcde6f3-835e-5c6c-afc9-2b5bc0f0757a"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "today_from_post_date",
+        "outletScope": "all_outlets"
+      },
+      "actual": [
+        {
+          "id": "fdd8a03a-3484-5110-a698-b64cdaf15b7e",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "single_explicit_date_or_event",
+          "startDate": "2026-09-07",
+          "endDate": "2026-09-07",
+          "outletScope": "all_outlets",
+          "merchant": "Shiok Burger",
+          "title": "1-for-1 Classic Garlic Chicken Burger"
+        },
+        {
+          "id": "dac235bd-d299-5d1b-a039-fbaa8832e050",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "single_explicit_date_or_event",
+          "startDate": "2026-09-14",
+          "endDate": "2026-09-14",
+          "outletScope": "all_outlets",
+          "merchant": "Shiok Burger",
+          "title": "1-for-1 Classic Garlic Chicken Burger"
+        },
+        {
+          "id": "781021b6-af3d-5b16-ac50-ea503c66f71f",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "single_explicit_date_or_event",
+          "startDate": "2026-09-21",
+          "endDate": "2026-09-21",
+          "outletScope": "all_outlets",
+          "merchant": "Shiok Burger",
+          "title": "1-for-1 Classic Garlic Chicken Burger"
+        },
+        {
+          "id": "3fcde6f3-835e-5c6c-afc9-2b5bc0f0757a",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "single_explicit_date_or_event",
+          "startDate": "2026-09-28",
+          "endDate": "2026-09-28",
+          "outletScope": "all_outlets",
+          "merchant": "Shiok Burger",
+          "title": "1-for-1 Classic Garlic Chicken Burger"
+        }
+      ],
+      "differences": [
+        "date_pattern"
+      ]
+    },
+    {
+      "candidateId": "d36cf870-7bbb-4926-8651-14f609cc0b96",
+      "sourceUrl": "https://t.me/sgfooddeals/4923",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "2c15e98c-ae4d-56c8-aedb-1430397d0c1a"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "2c15e98c-ae4d-56c8-aedb-1430397d0c1a",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-09-07",
+          "endDate": "2026-09-30",
+          "outletScope": "unspecified",
+          "merchant": "Yo-Chi",
+          "title": "Free $10 Yo-Chi Voucher with Circles.Life"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "2b846900-bd20-4f58-8d69-754fab1d73c9",
+      "sourceUrl": "https://t.me/tastesoulsg/4468",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "0c6d625b-e212-5432-ad7f-ee05fe4a3d3b"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "today_from_post_date",
+        "outletScope": "all_outlets_with_exclusions"
+      },
+      "actual": [
+        {
+          "id": "0c6d625b-e212-5432-ad7f-ee05fe4a3d3b",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "today",
+          "startDate": "2026-09-07",
+          "endDate": "2026-09-07",
+          "outletScope": "all_outlets_with_exclusions",
+          "merchant": "Subway",
+          "title": "Buy 1 Breakfast Wrap + Coffee set & get 1 FREE Breakfast Wrap"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "afa8457c-9bd8-47e8-8e3c-c7ad5d60fa1d",
+      "sourceUrl": "https://t.me/sgfooddeals/4921",
+      "candidateKey": "section-25a4be4d9290-1",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "d80a6e74-ca65-58af-a6dc-94a41fc5ccb6"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "explicit_date_range",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "d80a6e74-ca65-58af-a6dc-94a41fc5ccb6",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": "Choa Chu Kang Night Bazaar (Till 13 Sep)"
+        }
+      ],
+      "differences": [
+        "offer_disposition",
+        "date_pattern"
+      ]
+    },
+    {
+      "candidateId": "7d890419-665a-42f3-b6df-f96563aa6049",
+      "sourceUrl": "https://t.me/sgfooddeals/4921",
+      "candidateKey": "section-53b87951de50-3",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "6c9c9cda-245b-5b39-a973-b5d2602d2482"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "explicit_date_range",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "6c9c9cda-245b-5b39-a973-b5d2602d2482",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": "Jurong Point Food Festival (Till 25 Sep)"
+        }
+      ],
+      "differences": [
+        "offer_disposition",
+        "date_pattern"
+      ]
+    },
+    {
+      "candidateId": "4d85a739-ca4c-4df0-8d9c-8e315258016f",
+      "sourceUrl": "https://t.me/sgfooddeals/4921",
+      "candidateKey": "section-6b0a92171d70-5",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "7c71d767-7624-5961-ab0c-27b32c318f93"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "explicit_date_range",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "7c71d767-7624-5961-ab0c-27b32c318f93",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": "Tampines Night Bazaar (Till 28 Sep)"
+        }
+      ],
+      "differences": [
+        "offer_disposition",
+        "date_pattern"
+      ]
+    },
+    {
+      "candidateId": "5fa9d9b5-4db5-4ea4-b577-f0a0b17d900a",
+      "sourceUrl": "https://t.me/sgfooddeals/4921",
+      "candidateKey": "section-7a7cbaa9c764-2",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "cd905a2b-cc88-5c87-a882-55b2708b523f"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "explicit_date_range",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "cd905a2b-cc88-5c87-a882-55b2708b523f",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": "Redhill Food Bazaar (Till 13 Sep)"
+        }
+      ],
+      "differences": [
+        "offer_disposition",
+        "date_pattern"
+      ]
+    },
+    {
+      "candidateId": "9f2da621-11f9-415a-8696-059421684fdc",
+      "sourceUrl": "https://t.me/sgfooddeals/4921",
+      "candidateKey": "section-8bcc57eb3f55-0",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "7de120dc-578c-518a-a5e9-a26341e776a0"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "explicit_date_range",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "7de120dc-578c-518a-a5e9-a26341e776a0",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": "Yishun NDP Food Fair (Till 6 Sep)"
+        }
+      ],
+      "differences": [
+        "offer_disposition",
+        "date_pattern"
+      ]
+    },
+    {
+      "candidateId": "bccb64d8-d759-4969-846f-2e0f668e7cfe",
+      "sourceUrl": "https://t.me/sgfooddeals/4921",
+      "candidateKey": "section-fec55178cf38-4",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "387ee731-ebab-5f5b-ac90-0e8ec1bc86a0"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "explicit_date_range",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "387ee731-ebab-5f5b-ac90-0e8ec1bc86a0",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "explicit_range",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": "GBTB Mid-Autumn Food Festival (12 - 27 Sep)"
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "5964ce1a-af02-47e1-9545-89fb3228341a",
+      "sourceUrl": "https://t.me/sgfooddeals/4920",
+      "candidateKey": "section-1868c7786d24-3",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "3cf93035-d21e-575f-afe2-f4e0d3ea9fb2"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "3cf93035-d21e-575f-afe2-f4e0d3ea9fb2",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Singapore Chinese Cultural Centre",
+          "title": "Free mooncake samples"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "24112d7d-c571-4e51-a676-d1a96fe8077d",
+      "sourceUrl": "https://t.me/sgfooddeals/4920",
+      "candidateKey": "section-295906cef87a-4",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "4d802ace-4128-580f-a2e6-e609ca55877b"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "4d802ace-4128-580f-a2e6-e609ca55877b",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Takashimaya",
+          "title": "Up to 45% off mooncakes"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "86346d02-758b-4551-a129-e1ecf6c4f663",
+      "sourceUrl": "https://t.me/sgfooddeals/4920",
+      "candidateKey": "section-362e679b1a0f-0",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "99934840-22df-57d5-a22b-3fd1a7ac2ea6"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "99934840-22df-57d5-a22b-3fd1a7ac2ea6",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Andaz",
+          "title": "25% Off mooncakes"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "f5f63073-90c8-4173-84ae-91e5ecbafd61",
+      "sourceUrl": "https://t.me/sgfooddeals/4920",
+      "candidateKey": "section-37381f311d87-2",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "5a6c71f3-b4a5-5c77-adfb-d5b6f550677e"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "5a6c71f3-b4a5-5c77-adfb-d5b6f550677e",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Central Plaza",
+          "title": "Free mooncake & games"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "1488321c-a09f-4dc9-a265-1d1a820e1105",
+      "sourceUrl": "https://t.me/sgfooddeals/4920",
+      "candidateKey": "section-8ecc662052dc-1",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "4f35659b-930a-5d4e-a8a8-097a047ee49d"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "4f35659b-930a-5d4e-a8a8-097a047ee49d",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Chinatown Tai Chong Kok",
+          "title": "Up to 35% off mooncakes"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "d60144e9-e98c-4e00-bb7b-33fc4c181dd8",
+      "sourceUrl": "https://t.me/tastesoulsg/4467",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "66a321c5-9127-56f5-a91e-1a40b0b81f20"
+      ],
+      "expected": {
+        "offerStructure": "article_or_nonoffer",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "66a321c5-9127-56f5-a91e-1a40b0b81f20",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Shin Katsu",
+          "title": "Welcome to a katsu experience straight out of Japan, now located in the CBD"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "227f8cd5-eef7-4eca-8700-8845b100d844",
+      "sourceUrl": "https://t.me/sgfooddeals/4919",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "d48eceda-1ced-55b7-a057-a42dee2d0960"
+      ],
+      "expected": {
+        "offerStructure": "article_or_nonoffer",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "platform_or_network_scope"
+      },
+      "actual": [
+        {
+          "id": "d48eceda-1ced-55b7-a057-a42dee2d0960",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "now_to_date",
+          "startDate": "2026-09-04",
+          "endDate": "2026-12-19",
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": ""
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "8994ad45-4dfe-426c-9c3c-17e14f4984b7",
+      "sourceUrl": "https://t.me/tastesoulsg/4466",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "56c2943c-fc52-5eef-af03-9edfe3a7f899"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "today_from_post_date",
+        "outletScope": "all_outlets_with_exclusions"
+      },
+      "actual": [
+        {
+          "id": "56c2943c-fc52-5eef-af03-9edfe3a7f899",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "today",
+          "startDate": "2026-09-04",
+          "endDate": "2026-09-04",
+          "outletScope": "all_outlets_with_exclusions",
+          "merchant": "4Fingers",
+          "title": "$4 for 4pc Wings & Drumettes"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "060f6e52-7916-43e7-804f-a134cff79a92",
+      "sourceUrl": "https://t.me/tastesoulsg/4464",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "17922e7d-285e-573d-afc3-be1de5e00cb9"
+      ],
+      "expected": {
+        "offerStructure": "article_or_nonoffer",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "17922e7d-285e-573d-afc3-be1de5e00cb9",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Next Door Spanish Cafe",
+          "title": "Who needs to fly to Spain when Spain is next door? Try authentic & traditional Spanish food"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "fd6c628b-31a4-4f4a-8797-e47c2a1160a0",
+      "sourceUrl": "https://t.me/tastesoulsg/4463",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "5f2dd5e5-732d-5368-a954-7130a4dd5457",
+        "47495f09-0ce1-5572-a5bf-3638ea5ca3a2",
+        "c05f7962-50fa-5e96-a653-c3c4750791a3",
+        "826e2cbd-dd1c-5edb-a417-e9645fe2a310"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "single_explicit_date_or_event",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "5f2dd5e5-732d-5368-a954-7130a4dd5457",
+          "status": "needs_location",
+          "genuine": true,
+          "datePattern": "single_explicit_date_or_event",
+          "startDate": "2026-09-05",
+          "endDate": "2026-09-05",
+          "outletScope": "named_outlets",
+          "merchant": "Kimpson’s Table",
+          "title": "$9.90 Korean Noodles (U.P. $15)"
+        },
+        {
+          "id": "47495f09-0ce1-5572-a5bf-3638ea5ca3a2",
+          "status": "needs_location",
+          "genuine": true,
+          "datePattern": "single_explicit_date_or_event",
+          "startDate": "2026-09-12",
+          "endDate": "2026-09-12",
+          "outletScope": "named_outlets",
+          "merchant": "Kimpson’s Table",
+          "title": "$9.90 Korean Noodles (U.P. $15)"
+        },
+        {
+          "id": "c05f7962-50fa-5e96-a653-c3c4750791a3",
+          "status": "needs_location",
+          "genuine": true,
+          "datePattern": "single_explicit_date_or_event",
+          "startDate": "2026-09-19",
+          "endDate": "2026-09-19",
+          "outletScope": "named_outlets",
+          "merchant": "Kimpson’s Table",
+          "title": "$9.90 Korean Noodles (U.P. $15)"
+        },
+        {
+          "id": "826e2cbd-dd1c-5edb-a417-e9645fe2a310",
+          "status": "needs_location",
+          "genuine": true,
+          "datePattern": "single_explicit_date_or_event",
+          "startDate": "2026-09-26",
+          "endDate": "2026-09-26",
+          "outletScope": "named_outlets",
+          "merchant": "Kimpson’s Table",
+          "title": "$9.90 Korean Noodles (U.P. $15)"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "dfe7fbf0-e4a5-4c0a-b95a-dafd7c8ef42e",
+      "sourceUrl": "https://t.me/tastesoulsg/4462",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "7b719363-09c2-5475-a577-f53dcf93480d"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "explicit_date_range",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "7b719363-09c2-5475-a577-f53dcf93480d",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "explicit_range",
+          "startDate": "2026-09-04",
+          "endDate": "2026-09-06",
+          "outletScope": "named_outlets",
+          "merchant": "Kei Kaisendon",
+          "title": "1-for-1 Kaisendon"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "a67b932e-e282-4e45-ad18-97a95680d2cc",
+      "sourceUrl": "https://t.me/sgfooddeals/4918",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "36fd2f36-2573-5176-ad20-ccdf4cf24e5f"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "36fd2f36-2573-5176-ad20-ccdf4cf24e5f",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-09-02",
+          "endDate": "2026-09-06",
+          "outletScope": "named_outlets",
+          "merchant": "Rollney",
+          "title": "1-for-1 Closing Deals & more"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "03b73280-dceb-4e8d-b88d-6b1b86938157",
+      "sourceUrl": "https://t.me/tastesoulsg/4461",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "f8c8e623-3c7f-58f5-a4f6-2eb560e160dc"
+      ],
+      "expected": {
+        "offerStructure": "article_or_nonoffer",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "f8c8e623-3c7f-58f5-a4f6-2eb560e160dc",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Cavern Restaurant",
+          "title": "Singapore’s only cave restaurant is celebrating its first anniversary with a refreshed menu"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "54a3d998-4bfc-4ad9-9154-9a87f3e79528",
+      "sourceUrl": "https://t.me/sgfooddeals/4917",
+      "candidateKey": "section-2d7c2842ba24-7",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "bdc9aa4f-ed5e-5bdc-a7b1-951fbb5bd265"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "bdc9aa4f-ed5e-5bdc-a7b1-951fbb5bd265",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": "Tai Seng - Paya Lebar"
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "a61d2f2a-2a19-438a-842b-0fd6931b08ab",
+      "sourceUrl": "https://t.me/sgfooddeals/4917",
+      "candidateKey": "section-368ead9efe08-8",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "c35cea11-a53d-5fce-a771-93b7f9a610a6"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "c35cea11-a53d-5fce-a771-93b7f9a610a6",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": "Marine Parade - East Coast"
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "c4b0f097-08dc-4475-877a-ca913340b8b0",
+      "sourceUrl": "https://t.me/sgfooddeals/4917",
+      "candidateKey": "section-3efad06ebbc3-2",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "9f23b919-c2f2-50ac-aeee-fc609581f246"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "9f23b919-c2f2-50ac-aeee-fc609581f246",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": "Punggol - Serangoon"
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "983ad689-f8e2-4540-8100-5e3e338fab68",
+      "sourceUrl": "https://t.me/sgfooddeals/4917",
+      "candidateKey": "section-5778803be1d8-5",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "a251e440-1d01-55ac-a7e4-e86b19ad299e"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "a251e440-1d01-55ac-a7e4-e86b19ad299e",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": "Tengah - Jurong"
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "ddf96ef6-a1d5-465b-8821-42b2dbcb309e",
+      "sourceUrl": "https://t.me/sgfooddeals/4917",
+      "candidateKey": "section-9810b0d1bcde-0",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "8b88cba3-7314-54e3-a22b-313838f31e94"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "8b88cba3-7314-54e3-a22b-313838f31e94",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": "Clementi - Redhill"
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "04bfd649-e132-498b-9048-f0f92df1a1c6",
+      "sourceUrl": "https://t.me/sgfooddeals/4917",
+      "candidateKey": "section-a517df66e657-6",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "7637745d-9879-5c17-a6e2-a1b0f7a87a9d"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "7637745d-9879-5c17-a6e2-a1b0f7a87a9d",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": "Woodlands - Sembawang"
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "51043d49-55ed-4b30-98a2-61667dbdb163",
+      "sourceUrl": "https://t.me/sgfooddeals/4917",
+      "candidateKey": "section-b618134a0ec4-3",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "6065be9d-e369-5162-abe6-58ab2c5258be"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "6065be9d-e369-5162-abe6-58ab2c5258be",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": "Farrer Park - Boon Keng"
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "8f6ca5f0-7387-4ed7-9b8b-c3cac08a89a0",
+      "sourceUrl": "https://t.me/sgfooddeals/4917",
+      "candidateKey": "section-b7dc50bba736-4",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "9fe59a2c-e0ad-5840-a3b4-ab29b0baa489"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "9fe59a2c-e0ad-5840-a3b4-ab29b0baa489",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": "Bishan - Toa Payoh"
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "1835c130-c30c-4810-9616-0ee6c7789b4c",
+      "sourceUrl": "https://t.me/sgfooddeals/4917",
+      "candidateKey": "section-f052b6228d66-1",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "116ca8f6-dba6-5fb5-af9d-4c0514db250e"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "116ca8f6-dba6-5fb5-af9d-4c0514db250e",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": "Holland Village - Bukit Panjang"
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "03f444f8-8e6b-463a-9046-c697cefe6701",
+      "sourceUrl": "https://t.me/tastesoulsg/4460",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "ad899e5a-15a8-55ba-af09-0a036de34779"
+      ],
+      "expected": {
+        "offerStructure": "launch_or_ordinary_menu",
+        "datePattern": "now_unknown_end",
+        "outletScope": "all_outlets"
+      },
+      "actual": [
+        {
+          "id": "ad899e5a-15a8-55ba-af09-0a036de34779",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "now_to_date",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "all_outlets",
+          "merchant": "Pepper Lunch",
+          "title": "Fan-favourite Cheesy Omelette RETURNS"
+        }
+      ],
+      "differences": [
+        "date_pattern"
+      ]
+    },
+    {
+      "candidateId": "6089ff84-8ca2-4a52-94ae-2eedfb559977",
+      "sourceUrl": "https://t.me/sgfooddeals/4916",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "05b8403b-5403-5481-a4ac-af2143a43e40"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "all_outlets"
+      },
+      "actual": [
+        {
+          "id": "05b8403b-5403-5481-a4ac-af2143a43e40",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-09-02",
+          "endDate": "2026-09-06",
+          "outletScope": "all_outlets",
+          "merchant": "Captain Kim",
+          "title": "1-for-1 Free flow KBBQ & Hotpot"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "54a1914d-3e6d-45ae-befe-41dfb8967318",
+      "sourceUrl": "https://t.me/tastesoulsg/4459",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "3d02c398-1ea0-53ee-a1f6-191d61a43c3f"
+      ],
+      "expected": {
+        "offerStructure": "launch_or_ordinary_menu",
+        "datePattern": "single_explicit_date_or_event",
+        "outletScope": "selected_outlets"
+      },
+      "actual": [
+        {
+          "id": "3d02c398-1ea0-53ee-a1f6-191d61a43c3f",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "single_explicit_date_or_event",
+          "startDate": "2026-09-03",
+          "endDate": "2026-09-03",
+          "outletScope": "selected_outlets",
+          "merchant": "Guzman y Gomez",
+          "title": "$3 Brekkie Burrito (U.P. $7)"
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "8824bdb8-e89e-432a-9cde-b1028dc4d10d",
+      "sourceUrl": "https://t.me/tastesoulsg/4458",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "5fec663e-1730-5c98-aa07-486ab7fc0ea0"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "explicit_date_range",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "5fec663e-1730-5c98-aa07-486ab7fc0ea0",
+          "status": "needs_content_resolution",
+          "genuine": false,
+          "datePattern": "explicit_range",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Bari Bari Grand",
+          "title": "The doors are open, the deals are hot. Enjoy 5 days of steak promos from 1 to 5 September 2026 at The Capitol"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "8ba3a2b4-62a3-470f-bb0f-6ab040b80b3f",
+      "sourceUrl": "https://t.me/sgfooddeals/4915",
+      "candidateKey": "section-7fe8f5a57073-0",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "11bbba95-7a03-5999-abea-e0486c1a1de8"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "online_only"
+      },
+      "actual": [
+        {
+          "id": "11bbba95-7a03-5999-abea-e0486c1a1de8",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "online_only",
+          "merchant": "foodpanda",
+          "title": "tco.sg/wLGghSyXz (http://tco.sg/wLGghSyXz)"
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "f15c4df0-d8fe-4eea-b074-a7a45df10a38",
+      "sourceUrl": "https://t.me/sgfooddeals/4915",
+      "candidateKey": "section-fc56d778d195-1",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "6ca12cfc-6d2a-534b-a87c-0c05eb28a2d3"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "online_only"
+      },
+      "actual": [
+        {
+          "id": "6ca12cfc-6d2a-534b-a87c-0c05eb28a2d3",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "online_only",
+          "merchant": "GrabFood",
+          "title": "tco.sg/iyavqV2Yp (http://tco.sg/iyavqV2Yp)"
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "d2787696-c507-4835-b3f3-bb485e8247c8",
+      "sourceUrl": "https://t.me/tastesoulsg/4457",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "0fb6d32b-8615-503c-a24f-aa434458c853"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "all_outlets"
+      },
+      "actual": [
+        {
+          "id": "0fb6d32b-8615-503c-a24f-aa434458c853",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-09-01",
+          "endDate": "2026-09-30",
+          "outletScope": "all_outlets",
+          "merchant": "Genki Sushi",
+          "title": "50% OFF Salmon Sashimi"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "0d42c151-d0ee-46db-b03e-d7ad17d06e9b",
+      "sourceUrl": "https://t.me/sgfooddeals/4913",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "697b1e55-4a67-5519-a7ca-c274bbce89ed"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "697b1e55-4a67-5519-a7ca-c274bbce89ed",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": ""
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "d675131a-734f-4580-a8c4-0fc91000f09d",
+      "sourceUrl": "https://t.me/tastesoulsg/4456",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "690b3fb6-aa77-5a1c-a4c0-ccc3a2e3336e"
+      ],
+      "expected": {
+        "offerStructure": "launch_or_ordinary_menu",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "690b3fb6-aa77-5a1c-a4c0-ccc3a2e3336e",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "now_to_date",
+          "startDate": "2026-09-01",
+          "endDate": "2026-09-30",
+          "outletScope": "named_outlets",
+          "merchant": "Coffeehouse by Kobashi",
+          "title": "NEW takeover sourdough flavours"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "10ea2f04-920f-4f2d-9473-f9709c6553fd",
+      "sourceUrl": "https://t.me/tastesoulsg/4455",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "ba7f9e42-0aca-597b-ac34-ebd65bea9534"
+      ],
+      "expected": {
+        "offerStructure": "article_or_nonoffer",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "ba7f9e42-0aca-597b-ac34-ebd65bea9534",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Fangko House",
+          "title": "Explore bold Indonesian flavours with a modern twist at this cafe near Boat Quay"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "67b0a0e9-d609-416d-bc87-829f61f52f99",
+      "sourceUrl": "https://t.me/tastesoulsg/4454",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "df2dc96f-a9fa-519b-a860-0cf85226a143"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "df2dc96f-a9fa-519b-a860-0cf85226a143",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-31",
+          "endDate": "2026-09-06",
+          "outletScope": "named_outlets",
+          "merchant": "Din Tai Fung",
+          "title": "1-for-1 Noodle with Shrimp & Pork Wantons in Peanut Sesame Sauce"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "78961d00-22d9-4b15-8406-d83be4d6fee5",
+      "sourceUrl": "https://t.me/tastesoulsg/4453",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "aa1db2d8-3678-57b1-a7d3-6e8ef09f0b26",
+        "faeea915-05e1-5a2a-a3fa-7b943fba860d"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "multiple_date_windows",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "aa1db2d8-3678-57b1-a7d3-6e8ef09f0b26",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "single_explicit_date_or_event",
+          "startDate": "2026-09-02",
+          "endDate": "2026-09-02",
+          "outletScope": "named_outlets",
+          "merchant": "Hokkaido Baked Cheese Tart",
+          "title": "1-for-1 Original Cheese Tart"
+        },
+        {
+          "id": "faeea915-05e1-5a2a-a3fa-7b943fba860d",
+          "status": "needs_location",
+          "genuine": true,
+          "datePattern": "single_explicit_date_or_event",
+          "startDate": "2026-09-03",
+          "endDate": "2026-09-03",
+          "outletScope": "named_outlets",
+          "merchant": "Hokkaido Baked Cheese Tart",
+          "title": "1-for-1 Original Cheese Tart"
+        }
+      ],
+      "differences": [
+        "date_pattern"
+      ]
+    },
+    {
+      "candidateId": "f7c6ab39-e564-4cf4-8ac0-cce33db718d2",
+      "sourceUrl": "https://t.me/sgfooddeals/4912",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "ecdbbc4b-0004-5234-a652-960f40bf8571"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "recurring_without_validity_end",
+        "outletScope": "all_outlets"
+      },
+      "actual": [
+        {
+          "id": "ecdbbc4b-0004-5234-a652-960f40bf8571",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "recurring",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "all_outlets",
+          "merchant": "Common Grill",
+          "title": "$9.90 Lunch Sets"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "3690a6b2-6b4d-45ca-94be-a100e72470e5",
+      "sourceUrl": "https://t.me/sgfooddeals/4910",
+      "candidateKey": "section-08af4c4f4f7b-3",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "cc4429f6-0af5-5170-af8a-b3a0496fb7b0"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "cc4429f6-0af5-5170-af8a-b3a0496fb7b0",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-29",
+          "endDate": "2026-12-31",
+          "outletScope": "unspecified",
+          "merchant": "Meat Smith",
+          "title": "10% off total bill with min. S$100 spend"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "43c2c307-5e6e-4b22-8e2d-a107197da3cd",
+      "sourceUrl": "https://t.me/sgfooddeals/4910",
+      "candidateKey": "section-08d2c466ccf8-2",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "935dc5ed-d15b-5920-aba2-14fa9c41db46"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "935dc5ed-d15b-5920-aba2-14fa9c41db46",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-29",
+          "endDate": "2026-12-31",
+          "outletScope": "unspecified",
+          "merchant": "Kotuwa",
+          "title": "15% off with min. S$150 spend"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "832c065d-9c70-47cc-8278-47d8b4d61911",
+      "sourceUrl": "https://t.me/sgfooddeals/4910",
+      "candidateKey": "section-2d7b4261176b-0",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "b3bbdff3-d863-5372-ad3f-790881974a21"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "b3bbdff3-d863-5372-ad3f-790881974a21",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-29",
+          "endDate": "2026-12-31",
+          "outletScope": "unspecified",
+          "merchant": "Brasserie Astoria",
+          "title": "Complimentary plate of raraka or baby back ribs with min. S$200 spend"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "26e18b2a-3b46-41c6-aca9-0a1d13c4781f",
+      "sourceUrl": "https://t.me/sgfooddeals/4910",
+      "candidateKey": "section-7af8523cb4f7-1",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "2680ccf2-99fb-51ae-ae77-553e19c41d4f"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "2680ccf2-99fb-51ae-ae77-553e19c41d4f",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-29",
+          "endDate": "2026-12-31",
+          "outletScope": "unspecified",
+          "merchant": "Burnt Ends Bakery",
+          "title": "10% off total bill with min. S$50 spend"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "06400f49-0d3d-47b8-8a28-05bc47545bb5",
+      "sourceUrl": "https://t.me/sgfooddeals/4910",
+      "candidateKey": "section-c1855465211f-4",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "77bdb5d9-f1b6-5775-a38f-9f00535a8c8d"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "77bdb5d9-f1b6-5775-a38f-9f00535a8c8d",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-29",
+          "endDate": "2026-12-31",
+          "outletScope": "unspecified",
+          "merchant": "Nouri",
+          "title": "10% off with min. S$500 spend"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "1a213c26-2180-4a5f-bd0a-736adec3f588",
+      "sourceUrl": "https://t.me/sgfooddeals/4909",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "75b2e30d-30ee-5045-abb2-716f1c17f8d1",
+        "1a51e784-f95b-5537-a866-5907bf01aa64"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "multiple_date_windows",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "75b2e30d-30ee-5045-abb2-716f1c17f8d1",
+          "status": "needs_content_resolution",
+          "genuine": false,
+          "datePattern": "explicit_range",
+          "startDate": "2026-08-27",
+          "endDate": "2026-08-30",
+          "outletScope": "named_outlets",
+          "merchant": "",
+          "title": " — Roadshow"
+        },
+        {
+          "id": "1a51e784-f95b-5537-a866-5907bf01aa64",
+          "status": "needs_content_resolution",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-28",
+          "endDate": "2026-09-30",
+          "outletScope": "named_outlets",
+          "merchant": "",
+          "title": " — $2 Deal"
+        }
+      ],
+      "differences": [
+        "date_pattern",
+        "outlet_scope"
+      ]
+    },
+    {
+      "candidateId": "7dfd7be1-6c2c-40c7-b923-ee8cdc4c6a0b",
+      "sourceUrl": "https://t.me/tastesoulsg/4452",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "e48c6bee-4565-5da9-af09-82a8b1e7fcbb"
+      ],
+      "expected": {
+        "offerStructure": "article_or_nonoffer",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "e48c6bee-4565-5da9-af09-82a8b1e7fcbb",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "More Yogurt",
+          "title": "Your next yogurt spot is now open in Jewel & Waterway Point"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "bc3ae5ef-7ca1-4386-9ee6-0a7534e848a0",
+      "sourceUrl": "https://t.me/sgfooddeals/4908",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "cc744fc3-fd57-5b05-a70e-e12e1caba3ca"
+      ],
+      "expected": {
+        "offerStructure": "article_or_nonoffer",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "cc744fc3-fd57-5b05-a70e-e12e1caba3ca",
+          "status": "exclude",
+          "genuine": true,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Omuplace",
+          "title": "Omurice & Udon from $3.90"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "449ae825-b6cc-44af-9c44-f1d9893295b8",
+      "sourceUrl": "https://t.me/tastesoulsg/4451",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "ec7b2be0-06d2-5d70-a776-e5158779620a"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_unknown_end",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "ec7b2be0-06d2-5d70-a776-e5158779620a",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "named_outlets",
+          "merchant": "Secret Recipe",
+          "title": "1-for-1 Braised Beef Cheek"
+        }
+      ],
+      "differences": [
+        "date_pattern"
+      ]
+    },
+    {
+      "candidateId": "6f272408-4e1b-413d-9a3b-6f14810209d0",
+      "sourceUrl": "https://t.me/tastesoulsg/4450",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "ffaa0963-696f-5878-a114-7d6eb85c30b4"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "ffaa0963-696f-5878-a114-7d6eb85c30b4",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-28",
+          "endDate": "2026-09-30",
+          "outletScope": "unspecified",
+          "merchant": "dorra Slimming",
+          "title": "Free Slimming Kit (worth $80)"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "ddbb67e8-b154-4f80-b241-acd3448cf51f",
+      "sourceUrl": "https://t.me/sgfooddeals/4907",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "096bebcf-8401-54cc-ad1b-92d1fd0b0817"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "096bebcf-8401-54cc-ad1b-92d1fd0b0817",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Kafey Haus",
+          "title": "Specialty Drinks from $2"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "b7d0caab-b756-4b72-beff-d89a2eeee75a",
+      "sourceUrl": "https://t.me/sgfooddeals/4906",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "64498c6e-b756-5f6e-afa5-c4356f7f1b54"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "64498c6e-b756-5f6e-afa5-c4356f7f1b54",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-27",
+          "endDate": "2026-09-05",
+          "outletScope": "named_outlets",
+          "merchant": "Hello Arigato",
+          "title": "$2.99 Drinks"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "1ced405f-ffea-4933-a965-25b5fdbea0ea",
+      "sourceUrl": "https://t.me/tastesoulsg/4449",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "1945ad94-eaad-5047-ae20-46cd648e7e81"
+      ],
+      "expected": {
+        "offerStructure": "article_or_nonoffer",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "1945ad94-eaad-5047-ae20-46cd648e7e81",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Casa Lola",
+          "title": "Step into a Barcelona-inspired bodega where authentic Spanish flavours, grandma’s cooking, and cosy neighbourhood vibes collide"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "ac91a621-5743-478a-aa2f-4b543a818a7d",
+      "sourceUrl": "https://t.me/tastesoulsg/4448",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "695fc18d-d6f3-5d67-a816-1bdbe63dcba6"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "explicit_date_range",
+        "outletScope": "all_outlets_with_exclusions"
+      },
+      "actual": [
+        {
+          "id": "695fc18d-d6f3-5d67-a816-1bdbe63dcba6",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "explicit_range",
+          "startDate": "2026-08-28",
+          "endDate": "2026-08-30",
+          "outletScope": "all_outlets_with_exclusions",
+          "merchant": "Yakiniku Like",
+          "title": "50% OFF 2nd Set Meal"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "1ee6b9ec-4e0d-4a9f-aa32-047cbd2dbcc4",
+      "sourceUrl": "https://t.me/tastesoulsg/4447",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "b20cbea4-1edb-5beb-a54a-5362c7291f7f"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "explicit_date_range",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "b20cbea4-1edb-5beb-a54a-5362c7291f7f",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "explicit_range",
+          "startDate": "2026-08-28",
+          "endDate": "2026-08-30",
+          "outletScope": "named_outlets",
+          "merchant": "Kei Kaisendon",
+          "title": "1-for-1 Kaisendon"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "fe1ce7c8-36be-45fb-9e10-b45b2d68c730",
+      "sourceUrl": "https://t.me/sgfooddeals/4905",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "737105d9-338d-50ee-af7b-9f30be167fb9"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "recurring_without_validity_end",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "737105d9-338d-50ee-af7b-9f30be167fb9",
+          "status": "needs_location",
+          "genuine": true,
+          "datePattern": "single_explicit_date_or_event",
+          "startDate": "2026-08-27",
+          "endDate": "2026-08-27",
+          "outletScope": "named_outlets",
+          "merchant": "Meatsmith",
+          "title": "Free 101 Cheeseburgers"
+        }
+      ],
+      "differences": [
+        "date_pattern"
+      ]
+    },
+    {
+      "candidateId": "2cb1abdc-10fb-49b1-a92e-a27d24f798ad",
+      "sourceUrl": "https://t.me/tastesoulsg/4446",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "d87f59ff-0292-58a4-af7b-a43130a73c35"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "d87f59ff-0292-58a4-af7b-a43130a73c35",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Sip Sip",
+          "title": "Did someone say 1-for-1 cocktails & bottomless truffle fries on Wednesdays? Cheers, ladies! And count yourself in for sips, giggles & good company"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "8c32e550-7180-4d71-8c71-59263a272372",
+      "sourceUrl": "https://t.me/sgfooddeals/4904",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "93450a79-a9ec-5988-a709-13667f9e8ec1",
+        "b48a64e9-e881-5dcf-ab10-e3862299ebae",
+        "8ece97fc-4759-54df-af2b-6b7b77f1bdea"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "multiple_date_windows",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "93450a79-a9ec-5988-a709-13667f9e8ec1",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-26",
+          "endDate": "2026-08-30",
+          "outletScope": "named_outlets",
+          "merchant": "Gelare",
+          "title": "1-for-1 Dessert Deals — Single Scoop Ice Cream"
+        },
+        {
+          "id": "b48a64e9-e881-5dcf-ab10-e3862299ebae",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "explicit_range",
+          "startDate": "2026-08-31",
+          "endDate": "2026-09-06",
+          "outletScope": "named_outlets",
+          "merchant": "Gelare",
+          "title": "1-for-1 Dessert Deals — Coffee & Mocktails"
+        },
+        {
+          "id": "8ece97fc-4759-54df-af2b-6b7b77f1bdea",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "explicit_range",
+          "startDate": "2026-09-07",
+          "endDate": "2026-09-13",
+          "outletScope": "named_outlets",
+          "merchant": "Gelare",
+          "title": "1-for-1 Dessert Deals — Croffles"
+        }
+      ],
+      "differences": [
+        "date_pattern"
+      ]
+    },
+    {
+      "candidateId": "ac514d76-7eae-4887-9ae8-f876eabaafa1",
+      "sourceUrl": "https://t.me/tastesoulsg/4445",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "c0c899da-4767-577e-a8af-58a85795fbc6"
+      ],
+      "expected": {
+        "offerStructure": "launch_or_ordinary_menu",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "selected_outlets"
+      },
+      "actual": [
+        {
+          "id": "c0c899da-4767-577e-a8af-58a85795fbc6",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "now_to_date",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "selected_outlets",
+          "merchant": "7-Eleven",
+          "title": "NEW Onigiri Ice Cream"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "c7d07fc5-4928-4b8e-b7e4-037d7549e522",
+      "sourceUrl": "https://t.me/sgfooddeals/4903",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "8dc6284c-6b2f-5157-a4d3-2640f1544963"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "recurring_without_validity_end",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "8dc6284c-6b2f-5157-a4d3-2640f1544963",
+          "status": "needs_content_resolution",
+          "genuine": false,
+          "datePattern": "recurring",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "named_outlets",
+          "merchant": "",
+          "title": ""
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "af68f283-4d23-41da-b4b6-0947f00ad471",
+      "sourceUrl": "https://t.me/tastesoulsg/4444",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "a0b87f2c-2c53-5ca9-afb0-e051ffadc6dc"
+      ],
+      "expected": {
+        "offerStructure": "unclear_offer",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "a0b87f2c-2c53-5ca9-afb0-e051ffadc6dc",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-26",
+          "endDate": "2026-09-10",
+          "outletScope": "named_outlets",
+          "merchant": "Zapangi Coffee",
+          "title": "Popular coffee & South Korean American-style soft cookie brand pop-up in SG"
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "3f8a72e2-541d-4892-bf71-7c99ffd02380",
+      "sourceUrl": "https://t.me/tastesoulsg/4443",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "928d1ac6-3705-5e94-a8b7-6cf3cb3d6b75"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "928d1ac6-3705-5e94-a8b7-6cf3cb3d6b75",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "OMMA Korean Charcoal BBQ",
+          "title": "Math has never tasted this good: 2 Pax = 20% Off, 3 Pax = 30% Off, 4 Pax = 40% Off. Bring the Whole Crew"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "955805f6-dca8-4a6f-a6d3-f7bbd2fc894f",
+      "sourceUrl": "https://t.me/sgfooddeals/4902",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "c37e7902-2e92-5d6b-ab62-e6b77b44147e"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "c37e7902-2e92-5d6b-ab62-e6b77b44147e",
+          "status": "needs_location",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-25",
+          "endDate": "2026-08-30",
+          "outletScope": "named_outlets",
+          "merchant": "Morganfield's",
+          "title": "1-for-1 Angus Ribeye Steak"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "c2ee579b-8719-4cac-9f18-092cdef8775c",
+      "sourceUrl": "https://t.me/tastesoulsg/4442",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "97371d84-f814-5bf8-a23f-924bf145cc05"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "97371d84-f814-5bf8-a23f-924bf145cc05",
+          "status": "needs_location",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-25",
+          "endDate": "2026-08-31",
+          "outletScope": "named_outlets",
+          "merchant": "MUKAI",
+          "title": "1-for-1 Kaiho Don"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "160fbee3-2fea-4188-8df7-8a62570a9e0f",
+      "sourceUrl": "https://t.me/sgfooddeals/4901",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "2eaaadd5-9b7f-520f-a022-e79af3eb3b43",
+        "1d8f7efb-2caf-591e-a604-082398121426",
+        "f4136a48-2c02-58fd-a1cb-1fab295352b6",
+        "953c6469-e9e5-594a-a150-26626e705568",
+        "12b1bc7a-87af-508e-a9f1-c995c8488a43",
+        "2426f646-5895-5e33-a705-ae2d404854cb"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "single_explicit_date_or_event",
+        "outletScope": "all_outlets"
+      },
+      "actual": [
+        {
+          "id": "2eaaadd5-9b7f-520f-a022-e79af3eb3b43",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "single_explicit_date_or_event",
+          "startDate": "2026-08-25",
+          "endDate": "2026-08-25",
+          "outletScope": "all_outlets",
+          "merchant": "Pizza Hut",
+          "title": "$10 Large Pizza Takeaway Deal"
+        },
+        {
+          "id": "1d8f7efb-2caf-591e-a604-082398121426",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "single_explicit_date_or_event",
+          "startDate": "2026-08-26",
+          "endDate": "2026-08-26",
+          "outletScope": "all_outlets",
+          "merchant": "Pizza Hut",
+          "title": "$10 Large Pizza Takeaway Deal"
+        },
+        {
+          "id": "f4136a48-2c02-58fd-a1cb-1fab295352b6",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "single_explicit_date_or_event",
+          "startDate": "2026-09-01",
+          "endDate": "2026-09-01",
+          "outletScope": "all_outlets",
+          "merchant": "Pizza Hut",
+          "title": "$10 Large Pizza Takeaway Deal"
+        },
+        {
+          "id": "953c6469-e9e5-594a-a150-26626e705568",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "single_explicit_date_or_event",
+          "startDate": "2026-09-02",
+          "endDate": "2026-09-02",
+          "outletScope": "all_outlets",
+          "merchant": "Pizza Hut",
+          "title": "$10 Large Pizza Takeaway Deal"
+        },
+        {
+          "id": "12b1bc7a-87af-508e-a9f1-c995c8488a43",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "single_explicit_date_or_event",
+          "startDate": "2026-09-08",
+          "endDate": "2026-09-08",
+          "outletScope": "all_outlets",
+          "merchant": "Pizza Hut",
+          "title": "$10 Large Pizza Takeaway Deal"
+        },
+        {
+          "id": "2426f646-5895-5e33-a705-ae2d404854cb",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "single_explicit_date_or_event",
+          "startDate": "2026-09-09",
+          "endDate": "2026-09-09",
+          "outletScope": "all_outlets",
+          "merchant": "Pizza Hut",
+          "title": "$10 Large Pizza Takeaway Deal"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "2b603246-7ae9-4da9-9713-6a5fc41d7e2b",
+      "sourceUrl": "https://t.me/tastesoulsg/4441",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "3d8f4845-574d-5f0b-addc-48bd5c431e15"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "all_outlets"
+      },
+      "actual": [
+        {
+          "id": "3d8f4845-574d-5f0b-addc-48bd5c431e15",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-25",
+          "endDate": "2026-08-31",
+          "outletScope": "all_outlets",
+          "merchant": "Domino’s",
+          "title": "FREE Large Pizza (with purchase of Regular Pizza)"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "ed064ffd-fccd-48c5-aec4-4f5704c9497e",
+      "sourceUrl": "https://t.me/tastesoulsg/4440",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "725759b9-1dc9-5f10-a2fa-11994488ff49"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "725759b9-1dc9-5f10-a2fa-11994488ff49",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Baci Baci",
+          "title": "Half off pizza. Half off pasta. Full flavour. Don't miss this latest deal that might just upgrade your next pasta night"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "a0d783fd-e0a9-42bd-b654-19e3d0e66777",
+      "sourceUrl": "https://t.me/tastesoulsg/4439",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "be4db358-1254-5f8e-a435-aeed06e86414"
+      ],
+      "expected": {
+        "offerStructure": "launch_or_ordinary_menu",
+        "datePattern": "no_validity_date",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "be4db358-1254-5f8e-a435-aeed06e86414",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "named_outlets",
+          "merchant": "Sushidan",
+          "title": "NEW outlet opening at Parkway Parade"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "0aa1ed7e-513c-401a-b2ae-c8693b1b331a",
+      "sourceUrl": "https://t.me/sgfooddeals/4900",
+      "candidateKey": "section-e36a6af808a8-0",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "644f0d33-09f5-5600-a9e6-6142ab393af4"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "single_explicit_date_or_event",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "644f0d33-09f5-5600-a9e6-6142ab393af4",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Cai-Ca",
+          "title": "1-for-1 Soy Blend Series"
+        }
+      ],
+      "differences": [
+        "date_pattern",
+        "outlet_scope"
+      ]
+    },
+    {
+      "candidateId": "488ddfae-28ec-4455-8d72-a5d447e72358",
+      "sourceUrl": "https://t.me/sgfooddeals/4900",
+      "candidateKey": "section-f71fc2008a48-1",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "644f0d33-09f5-5600-a9e6-6142ab393af4"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "single_explicit_date_or_event",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "644f0d33-09f5-5600-a9e6-6142ab393af4",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Cai-Ca",
+          "title": "1-for-1 Soy Blend Series"
+        }
+      ],
+      "differences": [
+        "date_pattern",
+        "outlet_scope"
+      ]
+    },
+    {
+      "candidateId": "196f2085-e024-458e-b899-087c1cf5dcb3",
+      "sourceUrl": "https://t.me/tastesoulsg/4438",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "b822b616-39fe-5ada-a4c7-5690c30d318e"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "b822b616-39fe-5ada-a4c7-5690c30d318e",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-24",
+          "endDate": "2026-08-28",
+          "outletScope": "selected_outlets",
+          "merchant": "LiXin Teochew Fishball Noodles",
+          "title": "$5 Michelin Bib Gourmand Fishball Noodles"
+        }
+      ],
+      "differences": [
+        "outlet_scope"
+      ]
+    },
+    {
+      "candidateId": "3a67ef71-dcd3-417e-9760-dda1dc41327b",
+      "sourceUrl": "https://t.me/sgfooddeals/4899",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "2c938b46-a3d9-5619-a9ab-749238cbfc3f"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "single_explicit_date_or_event",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "2c938b46-a3d9-5619-a9ab-749238cbfc3f",
+          "status": "needs_location",
+          "genuine": true,
+          "datePattern": "explicit_range",
+          "startDate": "2026-08-21",
+          "endDate": "2026-09-03",
+          "outletScope": "named_outlets",
+          "merchant": "Sushiro",
+          "title": "1-for-1 Sushi Deals"
+        }
+      ],
+      "differences": [
+        "date_pattern"
+      ]
+    },
+    {
+      "candidateId": "55def2b4-76ce-435f-8f45-694b1404bee9",
+      "sourceUrl": "https://t.me/tastesoulsg/4437",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "5b356d33-5ff1-5670-aace-791ea58dd8fd"
+      ],
+      "expected": {
+        "offerStructure": "article_or_nonoffer",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "5b356d33-5ff1-5670-aace-791ea58dd8fd",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Spicy Noodles SG",
+          "title": "Taiwan-famous noodles store expands its menu with Singapore-exclusive Chicken Soup"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "e988b525-e12a-4c10-aedf-98596b69f3f9",
+      "sourceUrl": "https://t.me/tastesoulsg/4436",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "bcdf6cb5-fc27-579d-a579-68f8f6b93ab2"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "bcdf6cb5-fc27-579d-a579-68f8f6b93ab2",
+          "status": "needs_location",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-21",
+          "endDate": "2026-08-30",
+          "outletScope": "named_outlets",
+          "merchant": "Morganfield’s",
+          "title": "1-for-1 Angus Ribeye Steak (U.P. $42.90++)"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "53664158-1ba2-4fa0-abc9-afdae3462fd1",
+      "sourceUrl": "https://t.me/sgfooddeals/4898",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "27041309-ca18-550e-a214-d18b83ab602d"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "all_outlets"
+      },
+      "actual": [
+        {
+          "id": "27041309-ca18-550e-a214-d18b83ab602d",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-21",
+          "endDate": "2026-09-04",
+          "outletScope": "all_outlets",
+          "merchant": "Chateraise",
+          "title": "5 Treats for $11"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "06add810-7c79-4181-9cfa-f162ebfa601e",
+      "sourceUrl": "https://t.me/tastesoulsg/4435",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "28c83fa3-e513-5011-aedf-1a529453cfc9"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "single_explicit_date_or_event",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "28c83fa3-e513-5011-aedf-1a529453cfc9",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "single_explicit_date_or_event",
+          "startDate": "2026-08-22",
+          "endDate": "2026-08-22",
+          "outletScope": "named_outlets",
+          "merchant": "Gwanghwamun Mijin",
+          "title": "$1 Signature Buckwheat Noodles (U.P. $15)"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "1c30c122-ced3-43bc-82ac-15c8553436ca",
+      "sourceUrl": "https://t.me/sgfooddeals/4897",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "5d1b5a6a-873c-59fb-a617-8d8a57bf7c5b"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "recurring_without_validity_end",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "5d1b5a6a-873c-59fb-a617-8d8a57bf7c5b",
+          "status": "needs_location",
+          "genuine": true,
+          "datePattern": "single_explicit_date_or_event",
+          "startDate": "2026-08-22",
+          "endDate": "2026-08-22",
+          "outletScope": "named_outlets",
+          "merchant": "Gwanghwamun Mijin",
+          "title": "$1 Buckwheat Noodles"
+        }
+      ],
+      "differences": [
+        "date_pattern"
+      ]
+    },
+    {
+      "candidateId": "0f7eff56-4a0b-470a-b39f-299748d49703",
+      "sourceUrl": "https://t.me/tastesoulsg/4434",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "bf414121-9361-5bd6-ab4e-8ddc3110f876"
+      ],
+      "expected": {
+        "offerStructure": "article_or_nonoffer",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "bf414121-9361-5bd6-ab4e-8ddc3110f876",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "San Shu Gong",
+          "title": "Discover the best of Teochew and Cantonese cuisine at New Bahru"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "47120939-156b-4a72-b68d-101ecab82e72",
+      "sourceUrl": "https://t.me/tastesoulsg/4433",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "16618dd9-baee-5dc5-a4ab-498bfd885187"
+      ],
+      "expected": {
+        "offerStructure": "launch_or_ordinary_menu",
+        "datePattern": "now_unknown_end",
+        "outletScope": "all_outlets"
+      },
+      "actual": [
+        {
+          "id": "16618dd9-baee-5dc5-a4ab-498bfd885187",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "now_to_date",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "all_outlets",
+          "merchant": "Potato Corner",
+          "title": "NEW limited Chicken Satay Flavour"
+        }
+      ],
+      "differences": [
+        "date_pattern"
+      ]
+    },
+    {
+      "candidateId": "8931316d-02ca-4a6b-ad55-92ff94ca72db",
+      "sourceUrl": "https://t.me/sgfooddeals/4896",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "9849e87f-4006-5d30-a9c3-3cc6d8065a63"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "9849e87f-4006-5d30-a9c3-3cc6d8065a63",
+          "status": "needs_location",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-20",
+          "endDate": "2026-08-31",
+          "outletScope": "named_outlets",
+          "merchant": "New Ubin Seafood",
+          "title": "50% Off Daily Deals"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "b44d008a-6973-454c-a292-bfa183f1a511",
+      "sourceUrl": "https://t.me/tastesoulsg/4432",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "a00d538d-948f-575d-a271-546218edf568"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "explicit_date_range",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "a00d538d-948f-575d-a271-546218edf568",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "explicit_range",
+          "startDate": "2026-08-21",
+          "endDate": "2026-08-23",
+          "outletScope": "named_outlets",
+          "merchant": "CHAGEE",
+          "title": "Free Tear & Win cup upgrade with every Large Milk Tea purchase"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "6fde275d-91fb-4696-a07d-c9c0f09836b7",
+      "sourceUrl": "https://t.me/tastesoulsg/4431",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "96dd28ff-0b57-5b98-a14e-c82aaf6b2207"
+      ],
+      "expected": {
+        "offerStructure": "article_or_nonoffer",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "96dd28ff-0b57-5b98-a14e-c82aaf6b2207",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Park Side",
+          "title": "A new all-day cafe at Singapore Botanic Gardens with creative brunch, coffee, desserts, and pet-friendly dining"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "fcb3b89c-3f35-4061-9f5b-52353aca1594",
+      "sourceUrl": "https://t.me/sgfooddeals/4895",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "ff4994ee-8b03-5be1-a2cd-3e1ad3efabec"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "ff4994ee-8b03-5be1-a2cd-3e1ad3efabec",
+          "status": "needs_location",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-19",
+          "endDate": "2026-08-23",
+          "outletScope": "named_outlets",
+          "merchant": "Braek Acai & Coffee",
+          "title": "$4 Banana Pudding Hojicha Latte"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "5ba52ba1-74ac-4b25-9949-671af2c10c70",
+      "sourceUrl": "https://t.me/tastesoulsg/4430",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "ce678cf7-e97a-53ba-af36-e138b4be89b2"
+      ],
+      "expected": {
+        "offerStructure": "launch_or_ordinary_menu",
+        "datePattern": "explicit_date_range",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "ce678cf7-e97a-53ba-af36-e138b4be89b2",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "explicit_range",
+          "startDate": "2026-08-20",
+          "endDate": "2026-08-23",
+          "outletScope": "named_outlets",
+          "merchant": "IKEA",
+          "title": "NEW Swedish Meatball Ice-Cream"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "6fadd6cc-a819-4f7e-a117-21d71f2f01bf",
+      "sourceUrl": "https://t.me/sgfooddeals/4894",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "8d6e27d7-6629-51ea-a375-ae6a90bc3e95"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "8d6e27d7-6629-51ea-a375-ae6a90bc3e95",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "FAME by Dad's Corner",
+          "title": "$10 Daily Buffet"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "e359ecd9-5a04-477d-9198-c6d612aaeec5",
+      "sourceUrl": "https://t.me/tastesoulsg/4429",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "d01a2c98-3d71-5947-a3e3-d5810ca21d8d"
+      ],
+      "expected": {
+        "offerStructure": "launch_or_ordinary_menu",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "all_outlets"
+      },
+      "actual": [
+        {
+          "id": "d01a2c98-3d71-5947-a3e3-d5810ca21d8d",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-19",
+          "endDate": "2026-09-29",
+          "outletScope": "all_outlets",
+          "merchant": "KFC",
+          "title": "NEW menu ft. Japanese Nanban Zinger, Chicken Bites, Loaded Fries & Sweet Potato Mochi Balls"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "bef67874-81c0-4842-bb54-3fec6ade7c51",
+      "sourceUrl": "https://t.me/sgfooddeals/4893",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "f1ef64fe-5a4b-5a6c-aeb1-65ec61b8abba"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "all_outlets"
+      },
+      "actual": [
+        {
+          "id": "f1ef64fe-5a4b-5a6c-aeb1-65ec61b8abba",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-18",
+          "endDate": "2026-08-20",
+          "outletScope": "all_outlets",
+          "merchant": "Starbucks",
+          "title": "$1 Second Venti Drink"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "9d3f79d6-fdd6-49d3-a84a-e4fadfa9fdfb",
+      "sourceUrl": "https://t.me/tastesoulsg/4428",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "49d450df-ae6a-5bcb-a02c-e014edbc4693"
+      ],
+      "expected": {
+        "offerStructure": "article_or_nonoffer",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "49d450df-ae6a-5bcb-a02c-e014edbc4693",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "BlackTree",
+          "title": "China’s buzziest Thai Milk Tea brand lands its first outlet in Singapore at 313@somerset"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "60c60e9b-32f8-49cd-9d48-1293241500ae",
+      "sourceUrl": "https://t.me/sgfooddeals/4891",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "2dd60251-a2aa-5b1c-a2f3-ba95038f173e"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "2dd60251-a2aa-5b1c-a2f3-ba95038f173e",
+          "status": "needs_location",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-18",
+          "endDate": "2026-08-23",
+          "outletScope": "named_outlets",
+          "merchant": "POKKA",
+          "title": "Free entry to POKKA’s Greener On Our Side Pop-up"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "e799684b-4d6e-4029-8530-27cb7dee4c3c",
+      "sourceUrl": "https://t.me/tastesoulsg/4427",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "6105b90d-dd9a-55d2-a8fb-b0166651771a"
+      ],
+      "expected": {
+        "offerStructure": "launch_or_ordinary_menu",
+        "datePattern": "unknown_expiry",
+        "outletScope": "all_outlets"
+      },
+      "actual": [
+        {
+          "id": "6105b90d-dd9a-55d2-a8fb-b0166651771a",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "unknown_expiry",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "all_outlets",
+          "merchant": "McDonald’s",
+          "title": "Returning items incl. Samurai Beef Burger, Samurai Chicken Burger, Tamago Samurai Burger (Beef / Chicken) & Seaweed McShaker Fries"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "49333065-b4c7-440d-80be-1c14f470264e",
+      "sourceUrl": "https://t.me/sgfooddeals/4890",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "39187911-d70b-5f34-aa62-8ed9a2f1b16f"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "all_outlets"
+      },
+      "actual": [
+        {
+          "id": "39187911-d70b-5f34-aa62-8ed9a2f1b16f",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-18",
+          "endDate": "2026-08-20",
+          "outletScope": "all_outlets",
+          "merchant": "4Fingers",
+          "title": "$10 Set Meals Are Back"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "f1b5ef8e-2d3d-47b9-8d79-0719be774233",
+      "sourceUrl": "https://t.me/tastesoulsg/4426",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "24c419db-243e-5e69-a338-5aeaf5072c67"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "all_outlets"
+      },
+      "actual": [
+        {
+          "id": "24c419db-243e-5e69-a338-5aeaf5072c67",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-18",
+          "endDate": "2026-08-20",
+          "outletScope": "all_outlets",
+          "merchant": "Jack’s Place",
+          "title": "$12++ 250g N.Z. Striploin Steak (U.P. $28)"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "15aa1ff7-9ba5-40fd-a9b8-e73d4c44218e",
+      "sourceUrl": "https://t.me/sgfooddeals/4889",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "874236b7-bf42-58be-a593-169e3ccbc500"
+      ],
+      "expected": {
+        "offerStructure": "unclear_offer",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "874236b7-bf42-58be-a593-169e3ccbc500",
+          "status": "needs_content_resolution",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": "manual review required.]"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "4e023072-439c-4e67-a6c3-bafd3706f4d5",
+      "sourceUrl": "https://t.me/tastesoulsg/4425",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "67355008-9aa3-562d-af47-b07a64144b6e"
+      ],
+      "expected": {
+        "offerStructure": "article_or_nonoffer",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "67355008-9aa3-562d-af47-b07a64144b6e",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Chin Mee Chin",
+          "title": "101-year-old coffeeshop & heritage bakery with classic breakfast sets, Nasi Lemak, Smashed Chicken Sandwiches, and Cloud Kopi"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "4a709fcd-7018-48d7-a2ec-1c5e4097029e",
+      "sourceUrl": "https://t.me/tastesoulsg/4424",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "88c5a1e4-ff2d-55bc-aeae-f1a434044f50"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "selected_outlets"
+      },
+      "actual": [
+        {
+          "id": "88c5a1e4-ff2d-55bc-aeae-f1a434044f50",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-17",
+          "endDate": "2026-08-21",
+          "outletScope": "selected_outlets",
+          "merchant": "The Coffee Bean & Tea Leaf",
+          "title": "1-for-1 Chocolate of a Thousand Leaves Cake (sliced)"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "79356645-9d15-4226-bca8-bf2566f538af",
+      "sourceUrl": "https://t.me/tastesoulsg/4423",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "6ee7dae0-bf79-5742-a52f-8e5cca40342a"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "recurring_without_validity_end",
+        "outletScope": "all_outlets"
+      },
+      "actual": [
+        {
+          "id": "6ee7dae0-bf79-5742-a52f-8e5cca40342a",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "recurring",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "all_outlets",
+          "merchant": "MOS Burger",
+          "title": "$6.10 Chicken Burger Combo"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "bc563248-5009-4b5b-b0d2-64337b0dfe17",
+      "sourceUrl": "https://t.me/sgfooddeals/4888",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "9c3083d2-4d87-5ce6-a4cf-b50726a6b25c"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "9c3083d2-4d87-5ce6-a4cf-b50726a6b25c",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": ""
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "2d65e39d-8132-450a-b5a4-2a27d0bbd01b",
+      "sourceUrl": "https://t.me/sgfooddeals/4887",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "85013f78-02f6-5d0f-a49f-be204afc9e74"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "recurring_without_validity_end",
+        "outletScope": "all_outlets"
+      },
+      "actual": [
+        {
+          "id": "85013f78-02f6-5d0f-a49f-be204afc9e74",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "recurring",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "all_outlets",
+          "merchant": "Chix Hot Chicken",
+          "title": "$9.99 Burger Set"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "77015c59-a8a3-426a-a494-7fbe4e7b1898",
+      "sourceUrl": "https://t.me/sgfooddeals/4885",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "67eb6c91-e934-5abf-aec7-db145e4cfd49"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "67eb6c91-e934-5abf-aec7-db145e4cfd49",
+          "status": "needs_location",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-14",
+          "endDate": "2026-08-31",
+          "outletScope": "named_outlets",
+          "merchant": "Daya Izakaya",
+          "title": "$0.61 Sushi Deal"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "2e73a8de-609c-434b-bed9-f789d244c796",
+      "sourceUrl": "https://t.me/tastesoulsg/4422",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "6b99ec07-b6a0-5e23-abac-bd6f00729dbf"
+      ],
+      "expected": {
+        "offerStructure": "article_or_nonoffer",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "6b99ec07-b6a0-5e23-abac-bd6f00729dbf",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "POUT Rooftop Cafe",
+          "title": "A hidden rooftop café in Singapore's CBD with skyline views, speciality coffee, artisanal French bakes and creative matcha drinks"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "4c3b1815-5687-4f79-b20f-b329cf8a455c",
+      "sourceUrl": "https://t.me/sgfooddeals/4884",
+      "candidateKey": "section-119be86e1843-4",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "513c40d7-9ca9-5ffb-a1b2-fd63ee418949"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "explicit_date_range",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "513c40d7-9ca9-5ffb-a1b2-fd63ee418949",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "explicit_range",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": "Celebfest Food Festival (21 - 23 Aug)"
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "7ba2ae2b-847a-4ad5-af38-4a502bcdab09",
+      "sourceUrl": "https://t.me/sgfooddeals/4884",
+      "candidateKey": "section-74953efa3386-0",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "fbb7927c-367d-5fc8-aa72-7e8d929a50d4"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "explicit_date_range",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "fbb7927c-367d-5fc8-aa72-7e8d929a50d4",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": "Sentosa GrillFest (Till 16 Aug)"
+        }
+      ],
+      "differences": [
+        "offer_disposition",
+        "date_pattern"
+      ]
+    },
+    {
+      "candidateId": "bf6d75cb-d245-48ac-ba44-ffa0e55f648a",
+      "sourceUrl": "https://t.me/sgfooddeals/4884",
+      "candidateKey": "section-9b68a4fd88e2-5",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "0491417a-92d0-5c7b-a1cc-47f5cee368a1"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "explicit_date_range",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "0491417a-92d0-5c7b-a1cc-47f5cee368a1",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": "Punggol Central Night Bazaar (Till 30 Aug)"
+        }
+      ],
+      "differences": [
+        "offer_disposition",
+        "date_pattern"
+      ]
+    },
+    {
+      "candidateId": "5b2eec3b-4946-4fd6-864c-5e7ce221a0d2",
+      "sourceUrl": "https://t.me/sgfooddeals/4884",
+      "candidateKey": "section-b6553d2d4d40-2",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "cc56581e-177c-543d-a10a-01116c44f74f"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "explicit_date_range",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "cc56581e-177c-543d-a10a-01116c44f74f",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": "Tiong Bahru Food Fair (Till 23 Aug)"
+        }
+      ],
+      "differences": [
+        "offer_disposition",
+        "date_pattern"
+      ]
+    },
+    {
+      "candidateId": "ab3612a3-3ff3-4519-85a7-14ee737064a4",
+      "sourceUrl": "https://t.me/sgfooddeals/4884",
+      "candidateKey": "section-c58572276d34-1",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "bdd48f65-6e46-5c6a-a4ad-20b3903d856d"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "explicit_date_range",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "bdd48f65-6e46-5c6a-a4ad-20b3903d856d",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": "Hougang Food Fair (Till 19 Aug)"
+        }
+      ],
+      "differences": [
+        "offer_disposition",
+        "date_pattern"
+      ]
+    },
+    {
+      "candidateId": "aa4eabc5-dbb3-4889-8aad-b75fc7d776be",
+      "sourceUrl": "https://t.me/sgfooddeals/4884",
+      "candidateKey": "section-fe5798e3ad92-3",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "629350a3-1a4f-5846-a59e-c1d15d5200dc"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "explicit_date_range",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "629350a3-1a4f-5846-a59e-c1d15d5200dc",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "explicit_range",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": "APAC F&B Expo (21 - 23 Aug)"
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "57272908-ceee-4144-9a39-53847ddd864a",
+      "sourceUrl": "https://t.me/tastesoulsg/4421",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "4da6daaf-e489-5303-aa53-4b2f05ae3ac1"
+      ],
+      "expected": {
+        "offerStructure": "launch_or_ordinary_menu",
+        "datePattern": "unknown_expiry",
+        "outletScope": "selected_outlets"
+      },
+      "actual": [
+        {
+          "id": "4da6daaf-e489-5303-aa53-4b2f05ae3ac1",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "unknown_expiry",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "selected_outlets",
+          "merchant": "Starbucks",
+          "title": "NEW Unicorn Frappucino"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "248b41c6-f14c-4f43-8230-1aca0bd150ae",
+      "sourceUrl": "https://t.me/sgfooddeals/4883",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "d5ca53f9-4c11-5551-ad3a-8431a8e0faa4",
+        "9bafe8f2-6a7e-55c7-ae04-d496723fda50"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "multiple_date_windows",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "d5ca53f9-4c11-5551-ad3a-8431a8e0faa4",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-14",
+          "endDate": "2026-08-16",
+          "outletScope": "named_outlets",
+          "merchant": "More Yogurt",
+          "title": "1-for-1 Opening Deals — Jewel Changi Airport"
+        },
+        {
+          "id": "9bafe8f2-6a7e-55c7-ae04-d496723fda50",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "explicit_range",
+          "startDate": "2026-08-17",
+          "endDate": "2026-08-19",
+          "outletScope": "named_outlets",
+          "merchant": "More Yogurt",
+          "title": "1-for-1 Opening Deals — Waterway Point"
+        }
+      ],
+      "differences": [
+        "date_pattern",
+        "outlet_scope"
+      ]
+    },
+    {
+      "candidateId": "a09a0a45-936b-4708-9e7a-257a3ec47ed0",
+      "sourceUrl": "https://t.me/tastesoulsg/4420",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "42960997-67ad-5dcf-a23e-669ae0113609"
+      ],
+      "expected": {
+        "offerStructure": "launch_or_ordinary_menu",
+        "datePattern": "explicit_date_range",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "42960997-67ad-5dcf-a23e-669ae0113609",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "explicit_range",
+          "startDate": "2026-08-17",
+          "endDate": "2026-08-28",
+          "outletScope": "named_outlets",
+          "merchant": "Sushiro",
+          "title": "$1.90++ Salmon Belly Sushi (U.P. $2.30++)"
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "bbddbf85-3514-4beb-a028-30b025e0bc6e",
+      "sourceUrl": "https://t.me/sgfooddeals/4882",
+      "candidateKey": "section-1874ca0a57ee-4",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "e81575f3-dc43-5d0b-a952-0783947d43b5"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "e81575f3-dc43-5d0b-a952-0783947d43b5",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Window on The Park",
+          "title": "1-for-1 Buffet"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "a1869bc5-2ae2-4113-afb0-46c293250cd9",
+      "sourceUrl": "https://t.me/sgfooddeals/4882",
+      "candidateKey": "section-35ed8e945a2b-2",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "15aced3e-9892-54e1-a84d-b4220cac29e9"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "15aced3e-9892-54e1-a84d-b4220cac29e9",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Good Combo Hotpot & BBQ",
+          "title": "Buffet from $19.99"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "9c8fb70b-7490-4b77-9f41-646688f4a299",
+      "sourceUrl": "https://t.me/sgfooddeals/4882",
+      "candidateKey": "section-625286b791fd-3",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "6f195d0d-7849-5d39-ad90-8e41118b9e42"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "6f195d0d-7849-5d39-ad90-8e41118b9e42",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Petite Menu",
+          "title": "$10 Lunch Buffet"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "3d9ab8d3-aa2d-45c9-a79c-85ed2dbf22ff",
+      "sourceUrl": "https://t.me/sgfooddeals/4882",
+      "candidateKey": "section-bab2e6c9a552-0",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "e98017a7-a7b8-589c-a238-eaa274fcd569"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "e98017a7-a7b8-589c-a238-eaa274fcd569",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Carlton City",
+          "title": "1-for-1 Porridge Buffet"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "2d17ab24-d00e-494b-a70c-e9f9639a5b69",
+      "sourceUrl": "https://t.me/sgfooddeals/4882",
+      "candidateKey": "section-e868cd6fa0bc-1",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "10b3d0b9-20fc-51b3-a400-5ac56c6f6ec9"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "10b3d0b9-20fc-51b3-a400-5ac56c6f6ec9",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Family Mookata",
+          "title": "$19.90 Buffet"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "16f61535-8fc8-46d4-b46f-6d753200187f",
+      "sourceUrl": "https://t.me/tastesoulsg/4419",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "915bbc3b-0775-5792-a831-3054ec3917a2"
+      ],
+      "expected": {
+        "offerStructure": "article_or_nonoffer",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "915bbc3b-0775-5792-a831-3054ec3917a2",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "NomNom JB",
+          "title": "🇹🇭 Craving authentic Thai food? This Thai restaurant in Johor Bahru has got you covered"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "f5c6b926-b8eb-4e5f-9bbf-059db7bb4466",
+      "sourceUrl": "https://t.me/sgfooddeals/4881",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "70bf8e46-9a61-5002-ab52-37b84a8be20b"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "explicit_date_range",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "70bf8e46-9a61-5002-ab52-37b84a8be20b",
+          "status": "needs_location",
+          "genuine": true,
+          "datePattern": "explicit_range",
+          "startDate": "2026-08-14",
+          "endDate": "2026-08-16",
+          "outletScope": "named_outlets",
+          "merchant": "Tavola Aperta",
+          "title": "Free Linguine al Limone Pasta"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "186fce6f-6d46-45ba-831c-04703e043996",
+      "sourceUrl": "https://t.me/tastesoulsg/4418",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "27d6edf8-984d-5eea-a9f8-7074c66daf1f",
+        "1d702598-ce9a-506b-ac1d-1503499661f3"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "multiple_date_windows",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "27d6edf8-984d-5eea-a9f8-7074c66daf1f",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "explicit_range",
+          "startDate": "2026-08-14",
+          "endDate": "2026-08-16",
+          "outletScope": "named_outlets",
+          "merchant": "moreyogurt",
+          "title": "1-for-1 selected flavours"
+        },
+        {
+          "id": "1d702598-ce9a-506b-ac1d-1503499661f3",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "explicit_range",
+          "startDate": "2026-08-17",
+          "endDate": "2026-08-19",
+          "outletScope": "named_outlets",
+          "merchant": "moreyogurt",
+          "title": "1-for-1 selected flavours"
+        }
+      ],
+      "differences": [
+        "date_pattern"
+      ]
+    },
+    {
+      "candidateId": "f5e0b594-a86e-4596-994d-266c8c607448",
+      "sourceUrl": "https://t.me/sgfooddeals/4880",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "5637306f-5e37-5389-aa72-cf688debaf33"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "5637306f-5e37-5389-aa72-cf688debaf33",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-13",
+          "endDate": "2026-08-30",
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": ""
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "be833434-453b-4957-9a48-edde107a2646",
+      "sourceUrl": "https://t.me/tastesoulsg/4417",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "acc4424c-2864-5642-ab1b-e51fc842095d"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "explicit_date_range",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "acc4424c-2864-5642-ab1b-e51fc842095d",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "explicit_range",
+          "startDate": "2026-08-14",
+          "endDate": "2026-08-16",
+          "outletScope": "named_outlets",
+          "merchant": "Kei Kaisendon",
+          "title": "1-for-1 Kaisendon"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "f956fdb9-8208-42f6-a997-de8fff4dbd24",
+      "sourceUrl": "https://t.me/sgfooddeals/4879",
+      "candidateKey": "section-0e5bf8171b33-2",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "2d18a973-6f62-5917-a100-120127021fab"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "2d18a973-6f62-5917-a100-120127021fab",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Saizeriya",
+          "title": "$9 Western Lunch Set"
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "9a24b58b-bc32-4e93-ba02-e4af7e41416b",
+      "sourceUrl": "https://t.me/sgfooddeals/4879",
+      "candidateKey": "section-1774bff79114-3",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "c8669045-cdc4-50f1-ad7e-b1227a904ebe"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "c8669045-cdc4-50f1-ad7e-b1227a904ebe",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Shi Li Fang",
+          "title": "$9.90 Hotpot Meal"
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "80d10092-3122-4e8e-a13b-d83c6626f633",
+      "sourceUrl": "https://t.me/sgfooddeals/4879",
+      "candidateKey": "section-2dadf1da4759-1",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "38e1b1fe-2879-5417-ae12-2f86d3211969"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "38e1b1fe-2879-5417-ae12-2f86d3211969",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Katsu-an",
+          "title": "$9.90 Lunch Combo"
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "430b3b51-f721-4b7c-ac73-b641773ad9eb",
+      "sourceUrl": "https://t.me/sgfooddeals/4879",
+      "candidateKey": "section-f062eb5eb250-4",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "4129ea5d-c833-5669-a295-2c1716f55211"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "4129ea5d-c833-5669-a295-2c1716f55211",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "White Restaurant",
+          "title": "Lunch Set from $9.90"
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "2255d037-8122-4714-9140-7eeed6e04096",
+      "sourceUrl": "https://t.me/sgfooddeals/4879",
+      "candidateKey": "section-f43b7f572de1-0",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "05f5126c-a2d5-57a6-adbe-c186640b7f7d"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "05f5126c-a2d5-57a6-adbe-c186640b7f7d",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "ALC Rice Bowls",
+          "title": "$8.80 Rice Bowl"
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "772a3800-1d67-4dda-9b9b-2442241b36eb",
+      "sourceUrl": "https://t.me/tastesoulsg/4416",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "fd68df43-ae56-52c2-a0d0-2ed82b21aea1"
+      ],
+      "expected": {
+        "offerStructure": "article_or_nonoffer",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "fd68df43-ae56-52c2-a0d0-2ed82b21aea1",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Bottega JB",
+          "title": "🇮🇹 Feel like having Italian food without a flight to Rome? Check out this restaurant just across the border"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "bf619172-5bef-47a9-a004-e97a3f8f964e",
+      "sourceUrl": "https://t.me/tastesoulsg/4415",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "f87fe314-7db6-5623-a333-8cd6efeb1fbe"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "selected_outlets"
+      },
+      "actual": [
+        {
+          "id": "f87fe314-7db6-5623-a333-8cd6efeb1fbe",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-12",
+          "endDate": "2026-08-14",
+          "outletScope": "selected_outlets",
+          "merchant": "The Coffee Bean & Tea Leaf",
+          "title": "2 $10 for 2 Choc Cookie Crumble Ice Blended Drinks (SML)"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "136a73e2-445d-41c9-8f88-d6f05569d2aa",
+      "sourceUrl": "https://t.me/sgfooddeals/4878",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "f763a80f-f5ff-5880-ad88-695ca5c44cad"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "f763a80f-f5ff-5880-ad88-695ca5c44cad",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": ""
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "ce65759b-5f13-4390-8d4b-29b728b0830c",
+      "sourceUrl": "https://t.me/tastesoulsg/4414",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "39b3760c-ac54-591b-aa20-12a55d1e9882"
+      ],
+      "expected": {
+        "offerStructure": "launch_or_ordinary_menu",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "all_outlets"
+      },
+      "actual": [
+        {
+          "id": "39b3760c-ac54-591b-aa20-12a55d1e9882",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "now_to_date",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "all_outlets",
+          "merchant": "AFTER HOURS",
+          "title": "NEW Nostalgia series"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "2c619fc2-4ba2-4561-865e-2b047307a63f",
+      "sourceUrl": "https://t.me/tastesoulsg/4413",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "1cc32fdf-c2c1-5344-a683-571d0c6fe11f"
+      ],
+      "expected": {
+        "offerStructure": "article_or_nonoffer",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "1cc32fdf-c2c1-5344-a683-571d0c6fe11f",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Lao Beijing",
+          "title": "Feast like an emperor with this Ultimate Indulgence Set"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "b3b5a294-87d4-4865-a9d6-9781d4016d1d",
+      "sourceUrl": "https://t.me/sgfooddeals/4877",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "70bd9af3-9126-559d-a88c-b67294164c03"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "70bd9af3-9126-559d-a88c-b67294164c03",
+          "status": "needs_location",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-11",
+          "endDate": "2026-08-14",
+          "outletScope": "named_outlets",
+          "merchant": "Burnt Cones",
+          "title": "$1 Scoops"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "7094556c-0caf-4b59-a9ea-a296753533dd",
+      "sourceUrl": "https://t.me/tastesoulsg/4412",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "cdb71103-2a80-594f-a9b3-e9744e696386"
+      ],
+      "expected": {
+        "offerStructure": "launch_or_ordinary_menu",
+        "datePattern": "no_validity_date",
+        "outletScope": "all_outlets"
+      },
+      "actual": [
+        {
+          "id": "cdb71103-2a80-594f-a9b3-e9744e696386",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "all_outlets",
+          "merchant": "Tofu G",
+          "title": "NEW Butter Tteok"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "fecb4be9-1b8a-4c99-a6f5-e2e4248861c1",
+      "sourceUrl": "https://t.me/sgfooddeals/4876",
+      "candidateKey": "section-18689be5fa1c-0",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "da48cc8e-5233-528c-a763-60a5efae344e"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "da48cc8e-5233-528c-a763-60a5efae344e",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": "$6.50 Fried Chicken Rice"
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "1b13cdbb-6331-495f-a64d-1e0e79dbd35c",
+      "sourceUrl": "https://t.me/sgfooddeals/4876",
+      "candidateKey": "section-70b7ba42eda7-1",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "7f205b4c-889b-5d32-a9a9-52f4bfce7af4"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "7f205b4c-889b-5d32-a9a9-52f4bfce7af4",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": "$8.50 Tom Yum Noodle Soup"
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "fb018aab-bab0-44ef-a8f5-86ace8a29e34",
+      "sourceUrl": "https://t.me/sgfooddeals/4876",
+      "candidateKey": "section-a85aa471e1c4-4",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "d21c2122-fdb0-5d96-ad63-0abb282ace25"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "d21c2122-fdb0-5d96-ad63-0abb282ace25",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": "Pork Ribs Soup from $8.80"
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "1e2b0f89-7693-43fe-a7c7-1650d8dc99d5",
+      "sourceUrl": "https://t.me/sgfooddeals/4876",
+      "candidateKey": "section-b288b9a1df47-3",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "e0a18fca-b2f2-58fe-a41a-702d1b9e4f06"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "e0a18fca-b2f2-58fe-a41a-702d1b9e4f06",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": "$10 Sliced Beef Ribeye"
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "41fa9e62-6321-4dc4-92c2-f2524ed38d13",
+      "sourceUrl": "https://t.me/sgfooddeals/4876",
+      "candidateKey": "section-b9ea9f198b7a-2",
+      "mapping": "source URL and original section ordinal",
+      "runtimeIds": [
+        "ddd69ba4-447f-59e8-a7c2-80b962eef5a4"
+      ],
+      "expected": {
+        "offerStructure": "roundup_multi_candidate",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "ddd69ba4-447f-59e8-a7c2-80b962eef5a4",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "",
+          "title": "$9.80 Kway Teow Soup with Beef"
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "e7b33e45-3f2b-45f8-b545-c55e19831432",
+      "sourceUrl": "https://t.me/tastesoulsg/4411",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "d6f5a1a5-0cfb-5f99-a3e5-c6fa6aeb426a"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "d6f5a1a5-0cfb-5f99-a3e5-c6fa6aeb426a",
+          "status": "needs_location",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-11",
+          "endDate": "2026-08-14",
+          "outletScope": "named_outlets",
+          "merchant": "BURNT CONES",
+          "title": "$1 single scoops"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "83ce8a4e-c439-40e3-84b0-2c391877708a",
+      "sourceUrl": "https://t.me/sgfooddeals/4875",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "07055bb0-5afe-5d1c-a532-45311a38a92a"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "recurring_without_validity_end",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "07055bb0-5afe-5d1c-a532-45311a38a92a",
+          "status": "needs_validity",
+          "genuine": true,
+          "datePattern": "explicit_range",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "named_outlets",
+          "merchant": "Carnaby",
+          "title": "1-for-1 Weekday Specials"
+        }
+      ],
+      "differences": [
+        "date_pattern"
+      ]
+    },
+    {
+      "candidateId": "221f48b4-0362-4625-979f-7d3d88d38fcd",
+      "sourceUrl": "https://t.me/sgfooddeals/4874",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "da533e40-6f51-5878-a430-381784ddb6eb"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "da533e40-6f51-5878-a430-381784ddb6eb",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-10",
+          "endDate": "2026-08-30",
+          "outletScope": "named_outlets",
+          "merchant": "Captain Kim",
+          "title": "All-You-Can-Eat Buffet from $12.90"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "dfc46b21-8788-432a-8565-7ea4f734d77d",
+      "sourceUrl": "https://t.me/sgfooddeals/4872",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "c4abbd89-3ca2-5a5f-aff8-79252d8b75be"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "c4abbd89-3ca2-5a5f-aff8-79252d8b75be",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-09",
+          "endDate": "2026-08-10",
+          "outletScope": "unspecified",
+          "merchant": "Kimpson’s Table",
+          "title": "$8.90 Dak Kalguksu"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "dfe71f2a-008c-418b-bed7-d9bc2b1ffd6c",
+      "sourceUrl": "https://t.me/sgfooddeals/4871",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "bf5eaca0-1b09-5cdb-a1a3-0bb5b5fc6d47"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "unknown_expiry",
+        "outletScope": "online_only"
+      },
+      "actual": [
+        {
+          "id": "bf5eaca0-1b09-5cdb-a1a3-0bb5b5fc6d47",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "unknown_expiry",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "online_only",
+          "merchant": "",
+          "title": ""
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "2f33d376-e17d-403c-b224-bacd4ae4fb24",
+      "sourceUrl": "https://t.me/sgfooddeals/4870",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "52733d4a-d700-5632-ad8d-f1f9c494dc30"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "online_only"
+      },
+      "actual": [
+        {
+          "id": "52733d4a-d700-5632-ad8d-f1f9c494dc30",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-08",
+          "endDate": "2026-08-09",
+          "outletScope": "unspecified",
+          "merchant": "7-Eleven",
+          "title": "4-Day Specials Sale up to 55% off"
+        }
+      ],
+      "differences": [
+        "outlet_scope"
+      ]
+    },
+    {
+      "candidateId": "9d4f24b4-0944-4a49-909c-2d00b4cfc036",
+      "sourceUrl": "https://t.me/tastesoulsg/4410",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "5d028ede-3a5f-5d9c-ad92-f886e85ca26f"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "single_explicit_date_or_event",
+        "outletScope": "all_outlets_with_exclusions"
+      },
+      "actual": [
+        {
+          "id": "5d028ede-3a5f-5d9c-ad92-f886e85ca26f",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "single_explicit_date_or_event",
+          "startDate": "2026-08-09",
+          "endDate": "2026-08-09",
+          "outletScope": "all_outlets_with_exclusions",
+          "merchant": "McDonald’s",
+          "title": "FREE Curry Sauce"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "candidateId": "4bdd9904-029c-4b69-bff7-60934d4c67ff",
+      "sourceUrl": "https://t.me/tastesoulsg/4409",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "17746cb8-e88e-5ed0-a976-bc17ed70374f"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "no_validity_date",
+        "outletScope": "unclear"
+      },
+      "actual": [
+        {
+          "id": "17746cb8-e88e-5ed0-a976-bc17ed70374f",
+          "status": "exclude",
+          "genuine": false,
+          "datePattern": "none",
+          "startDate": null,
+          "endDate": null,
+          "outletScope": "unspecified",
+          "merchant": "Pizza Hut's National Day 2026 Bundle Set",
+          "title": "$61 Never Tasted So Good"
+        }
+      ],
+      "differences": [
+        "offer_disposition"
+      ]
+    },
+    {
+      "candidateId": "03a241e2-961c-4fb5-b9b1-f4526100aee4",
+      "sourceUrl": "https://t.me/tastesoulsg/4408",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "1420b112-d9b2-55c4-a279-ab7539ed99b3"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "named_outlets"
+      },
+      "actual": [
+        {
+          "id": "1420b112-d9b2-55c4-a279-ab7539ed99b3",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-07",
+          "endDate": "2026-08-10",
+          "outletScope": "unspecified",
+          "merchant": "Sushi Express",
+          "title": "FREE Salmon Sushi when you wear red & white"
+        }
+      ],
+      "differences": [
+        "outlet_scope"
+      ]
+    },
+    {
+      "candidateId": "913b0d23-15bd-4fd9-acdd-ef7542926612",
+      "sourceUrl": "https://t.me/tastesoulsg/4407",
+      "candidateKey": "unstructured",
+      "mapping": "source URL; procedural steps belong to one promotion",
+      "runtimeIds": [
+        "7d4f3d44-99a3-509f-aee8-a2f485cc72f0"
+      ],
+      "expected": {
+        "offerStructure": "single_promotion",
+        "datePattern": "now_to_explicit_end",
+        "outletScope": "selected_outlets"
+      },
+      "actual": [
+        {
+          "id": "7d4f3d44-99a3-509f-aee8-a2f485cc72f0",
+          "status": "ready",
+          "genuine": true,
+          "datePattern": "now_to_date",
+          "startDate": "2026-08-07",
+          "endDate": "2026-08-09",
+          "outletScope": "selected_outlets",
+          "merchant": "Smöoy",
+          "title": "$6 Cups, Twisters & Smoothies"
+        }
+      ],
+      "differences": []
+    }
+  ]
+}

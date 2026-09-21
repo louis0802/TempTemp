@@ -28,3 +28,7 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 - Only the exact feed-export media marker is informational; actual media-dependent facts and unknown issue codes still block. When parsing roundup footers, strip only recognized channel metadata, never arbitrary text after an @handle.
 
 - Production directory coverage: `npm run analyze:evidence` regenerates conservative blocker reports; `npm run compare:evidence` performs a separately labelled captured-provider comparison. Papi's Tacos requires its official count, cards and navigation to agree. Preserve source address typos; never fuzzy-match them into participation or change physical outlet identity. See `docs/changes/production-evidence-coverage/verification.md`.
+
+- MVP ingestion is separate from strict publication: `npm run build:mvp-data` replays locally cached Google responses; `npm run build:mvp-data -- --google` refreshes missing/stale responses with the configured server key. No cache means explicit needs_location, never synthetic coordinates. `.local/mvp-google/` is ignored.
+- `npm run analyze:mvp` writes benchmark mapping; `npm run test:corpus` includes the reviewed 180-candidate MVP baseline. Do not regenerate `tests/corpus/mvp-conformance-reviewed.json` just to pass tests; review source-backed differences.
+- `/mvp` serves active MVP data; `/corpus` includes expired ready records only in development. `PROMOTION_DATA_SOURCE=mvp` selects MVP on `/`. See `docs/changes/mvp-ingestion/verification.md` for metrics, commands and limits.

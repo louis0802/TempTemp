@@ -18,7 +18,7 @@ const placeSchema = z.object({
       z.object({
         longText: z.string(),
         shortText: z.string().optional(),
-        types: z.array(z.string()),
+        types: z.array(z.string()).default([]),
       }),
     )
     .default([]),
@@ -37,6 +37,19 @@ const words = (s: string) =>
     .trim();
 const contains = (value: string, phrase: string) =>
   !!words(phrase) && ` ${words(value)} `.includes(` ${words(phrase)} `);
+
+/** MVP identity equivalence permits spacing/diacritics, never fuzzy branch addresses. */
+function mvpMerchantMatch(value: string, merchant: string) {
+  const normalize = (s: string) =>
+    words(s.normalize("NFKD").replace(/\p{M}/gu, ""));
+  const tokens = normalize(value).split(" "),
+    target = normalize(merchant).replace(/ /g, "");
+  return tokens.some((_, i) =>
+    tokens
+      .slice(i)
+      .some((_, j) => tokens.slice(i, i + j + 1).join("") === target),
+  );
+}
 const unitOf = (s: string) =>
   s
     .match(/#?\b(?:B\d|\d{1,2})-[\w/-]+/i)?.[0]
@@ -127,6 +140,7 @@ export class GoogleOutletDiscovery implements OutletDiscovery {
     private cache: ResolutionCache,
     private key?: string,
     private fetcher: typeof fetch = fetch,
+    private mvpIdentity = false,
   ) {}
   private async search(query: string) {
     if (!this.key) throw new Error("google_places_api_key_missing");
@@ -235,7 +249,10 @@ export class GoogleOutletDiscovery implements OutletDiscovery {
         const matches = response.value.places.filter(
           (p) =>
             inSingapore(p) &&
-            contains(p.displayName.text, merchant) &&
+            (!this.mvpIdentity || p.businessStatus === "OPERATIONAL") &&
+            (this.mvpIdentity
+              ? mvpMerchantMatch(p.displayName.text, merchant)
+              : contains(p.displayName.text, merchant)) &&
             (!name || namedMatch(p, name)),
         );
         if (name && matches.length !== 1) {

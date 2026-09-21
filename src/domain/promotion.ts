@@ -117,7 +117,10 @@ export const boundsSchema = z
 export const singaporeBounds: [number, number, number, number] = [
   103.6, 1.15, 104.1, 1.5,
 ];
-export type Listing = Promotion & ReturnType<typeof validity>;
+export type Listing = Omit<Promotion, "category"> & {
+  category: Promotion["category"] | null;
+  mapCoverageBasis?: "source_named_outlets" | "google_merchant_locations";
+} & ReturnType<typeof validity>;
 export type SourceHealth = {
   id: string;
   label: string;

@@ -1,0 +1,157 @@
+# Remaining MVP records
+
+Each row is retained in the dataset. Reasons are exact pipeline audit codes.
+
+## needs_validity
+
+- [sgfooddeals/4875](https://t.me/sgfooddeals/4875) — Carnaby: 1-for-1 Weekday Specials (`07055bb0-5afe-5d1c-a532-45311a38a92a`): unresolved_weekday_restriction; unknown_expiry_or_start.
+- [sgfooddeals/4882](https://t.me/sgfooddeals/4882) — Carlton City: 1-for-1 Porridge Buffet (`e98017a7-a7b8-589c-a238-eaa274fcd569`): unknown_expiry_or_start.
+- [sgfooddeals/4882](https://t.me/sgfooddeals/4882) — Family Mookata: $19.90 Buffet (`10b3d0b9-20fc-51b3-a400-5ac56c6f6ec9`): unknown_expiry_or_start.
+- [sgfooddeals/4882](https://t.me/sgfooddeals/4882) — Good Combo Hotpot & BBQ: Buffet from $19.99 (`15aced3e-9892-54e1-a84d-b4220cac29e9`): unknown_expiry_or_start.
+- [sgfooddeals/4882](https://t.me/sgfooddeals/4882) — Petite Menu: $10 Lunch Buffet (`6f195d0d-7849-5d39-ad90-8e41118b9e42`): unknown_expiry_or_start.
+- [sgfooddeals/4882](https://t.me/sgfooddeals/4882) — Window on The Park: 1-for-1 Buffet (`e81575f3-dc43-5d0b-a952-0783947d43b5`): unknown_expiry_or_start.
+- [sgfooddeals/4887](https://t.me/sgfooddeals/4887) — Chix Hot Chicken: $9.99 Burger Set (`85013f78-02f6-5d0f-a49f-be204afc9e74`): unknown_expiry_or_start.
+- [sgfooddeals/4894](https://t.me/sgfooddeals/4894) — FAME by Dad's Corner: $10 Daily Buffet (`8d6e27d7-6629-51ea-a375-ae6a90bc3e95`): unknown_expiry_or_start.
+- [sgfooddeals/4900](https://t.me/sgfooddeals/4900) — Cai-Ca: 1-for-1 Soy Blend Series (`644f0d33-09f5-5600-a9e6-6142ab393af4`): unresolved_redemption_hours; unknown_expiry_or_start.
+- [sgfooddeals/4907](https://t.me/sgfooddeals/4907) — Kafey Haus: Specialty Drinks from $2 (`096bebcf-8401-54cc-ad1b-92d1fd0b0817`): unknown_expiry_or_start.
+- [sgfooddeals/4912](https://t.me/sgfooddeals/4912) — Common Grill: $9.90 Lunch Sets (`ecdbbc4b-0004-5234-a652-960f40bf8571`): unknown_expiry_or_start.
+- [sgfooddeals/4920](https://t.me/sgfooddeals/4920) — Andaz: 25% Off mooncakes (`99934840-22df-57d5-a22b-3fd1a7ac2ea6`): unknown_expiry_or_start.
+- [sgfooddeals/4920](https://t.me/sgfooddeals/4920) — Chinatown Tai Chong Kok: Up to 35% off mooncakes (`4f35659b-930a-5d4e-a8a8-097a047ee49d`): unknown_expiry_or_start.
+- [sgfooddeals/4920](https://t.me/sgfooddeals/4920) — Central Plaza: Free mooncake & games (`5a6c71f3-b4a5-5c77-adfb-d5b6f550677e`): unknown_expiry_or_start.
+- [sgfooddeals/4920](https://t.me/sgfooddeals/4920) — Singapore Chinese Cultural Centre: Free mooncake samples (`3cf93035-d21e-575f-afe2-f4e0d3ea9fb2`): unknown_expiry_or_start.
+- [sgfooddeals/4920](https://t.me/sgfooddeals/4920) — Takashimaya: Up to 45% off mooncakes (`4d802ace-4128-580f-a2e6-e609ca55877b`): unknown_expiry_or_start.
+- [sgfooddeals/4926](https://t.me/sgfooddeals/4926) — Sukiya: Breakfast Set from $4.90 (`7b6adad4-b96f-57fd-ad2b-fb9663cd73b8`): unknown_expiry_or_start.
+- [sgfooddeals/4928](https://t.me/sgfooddeals/4928) — 21 on Rajah: 2-for-2 Vietnamese Buffet (`7ddbfbf9-8a44-5c53-a58b-da470741d63d`): unknown_expiry_or_start.
+- [sgfooddeals/4928](https://t.me/sgfooddeals/4928) — Fame by Dads Corner: $10 Buffet (`b49a1e96-2bf8-5dd1-a9fa-9cd37c349fb4`): unknown_expiry_or_start.
+- [sgfooddeals/4928](https://t.me/sgfooddeals/4928) — Happy Lamb: Hotpot Buffet from $9.99 (`b33f94ce-3b4e-5203-a034-7b6b4db221c4`): unknown_expiry_or_start.
+- [sgfooddeals/4928](https://t.me/sgfooddeals/4928) — JEN Shangri-La: 1-for-1 Buffet (`10bf71bf-77df-5c21-aa97-c55877f343f8`): unknown_expiry_or_start.
+- [sgfooddeals/4928](https://t.me/sgfooddeals/4928) — Seoul Garden: 2-for-2 Grill & Hotpot Buffet (`4115736f-11b1-51a1-a257-838c5c523f63`): unknown_expiry_or_start.
+- [sgfooddeals/4932](https://t.me/sgfooddeals/4932) — Ajumma's Korean Restaurant: Meals from $9.90 (`fd8cc9e2-af8d-55fd-a917-e873fcfabb0e`): unknown_expiry_or_start.
+- [sgfooddeals/4933](https://t.me/sgfooddeals/4933) — Paradise Hotpot: All-You-Can-Eat from $19.90 (`936533e1-035b-5776-a22f-2ac952f31981`): unresolved_redemption_hours; requires_split.
+- [tastesoulsg/4423](https://t.me/tastesoulsg/4423) — MOS Burger: $6.10 Chicken Burger Combo (`6ee7dae0-bf79-5742-a52f-8e5cca40342a`): unknown_expiry_or_start.
+- [tastesoulsg/4440](https://t.me/tastesoulsg/4440) — Baci Baci: Half off pizza. Half off pasta. Full flavour. Don't miss this latest deal that might just upgrade your next pasta night (`725759b9-1dc9-5f10-a2fa-11994488ff49`): unknown_expiry_or_start.
+- [tastesoulsg/4443](https://t.me/tastesoulsg/4443) — OMMA Korean Charcoal BBQ: Math has never tasted this good: 2 Pax = 20% Off, 3 Pax = 30% Off, 4 Pax = 40% Off. Bring the Whole Crew (`928d1ac6-3705-5e94-a8b7-6cf3cb3d6b75`): unknown_expiry_or_start.
+- [tastesoulsg/4446](https://t.me/tastesoulsg/4446) — Sip Sip: Did someone say 1-for-1 cocktails & bottomless truffle fries on Wednesdays? Cheers, ladies! And count yourself in for sips, giggles & good company (`d87f59ff-0292-58a4-af7b-a43130a73c35`): unresolved_weekday_restriction; unknown_expiry_or_start.
+- [tastesoulsg/4451](https://t.me/tastesoulsg/4451) — Secret Recipe: 1-for-1 Braised Beef Cheek (`ec7b2be0-06d2-5d70-a776-e5158779620a`): unknown_expiry_or_start.
+- [tastesoulsg/4470](https://t.me/tastesoulsg/4470) — Dancing Crab: Why dine solo when you can share the joy? Get 50% off your 2nd Lunch Set (`47aa8224-5d8e-5311-a461-252f8456044b`): unknown_expiry_or_start.
+- [tastesoulsg/4474](https://t.me/tastesoulsg/4474) — Ajumma’s: $9.90++ mains + free flow side dishes + choice of Omija Berry Smoothie / Milk Tea Brûlée Smoothie / Dubai Chewy Cookie (`d3ad1420-f9dd-5baa-ae24-d6917313649f`): unknown_expiry_or_start.
+- [tastesoulsg/4478](https://t.me/tastesoulsg/4478) — Papi’s Tacos: $10 OFF Papi’s Platter (`49a95712-d7c2-5695-aca8-d22abbebc8b7`): unknown_expiry_or_start.
+
+## needs_content_resolution
+
+- [sgfooddeals/4889](https://t.me/sgfooddeals/4889) — (merchant unresolved): manual review required.] (`874236b7-bf42-58be-a593-169e3ccbc500`): merchant_unresolved; promotional_benefit_not_established.
+- [sgfooddeals/4903](https://t.me/sgfooddeals/4903) — (merchant unresolved): (title unresolved) (`8dc6284c-6b2f-5157-a4d3-2640f1544963`): merchant_unresolved; title_unresolved; promotional_benefit_not_established.
+- [sgfooddeals/4909](https://t.me/sgfooddeals/4909) — (merchant unresolved):  — Roadshow (`75b2e30d-30ee-5045-abb2-716f1c17f8d1`): merchant_unresolved; promotional_benefit_not_established.
+- [sgfooddeals/4909](https://t.me/sgfooddeals/4909) — (merchant unresolved):  — $2 Deal (`1a51e784-f95b-5537-a866-5907bf01aa64`): merchant_unresolved.
+- [sgfooddeals/4934](https://t.me/sgfooddeals/4934) — (merchant unresolved): (title unresolved) (`73e4b6b6-b2e0-5926-a592-c994b385e189`): merchant_unresolved; title_unresolved.
+- [tastesoulsg/4458](https://t.me/tastesoulsg/4458) — Bari Bari Grand: The doors are open, the deals are hot. Enjoy 5 days of steak promos from 1 to 5 September 2026 at The Capitol (`5fec663e-1730-5c98-aa07-486ab7fc0ea0`): promotional_benefit_not_established.
+- [tastesoulsg/4475](https://t.me/tastesoulsg/4475) — (merchant unresolved): Up to 15% OFF your total bill with Grab Dine Out at Moonchild, La Levain & more! (`0ec7ecd0-2cbe-567a-afaa-760cdf96ecf1`): merchant_unresolved.
+- [tastesoulsg/4482](https://t.me/tastesoulsg/4482) — Viva Lavender: A neighbourhood gem serving European-Asian cuisine has just expanded its menu and lunch-time promos (`8a564775-1b0e-5cc5-aac0-0dc7d8619bf2`): promotional_benefit_not_established.
+
+## needs_location
+
+- [sgfooddeals/4877](https://t.me/sgfooddeals/4877) — Burnt Cones: $1 Scoops (`70bd9af3-9126-559d-a88c-b67294164c03`): google_branch_not_found:Paragon Shopping Centre, B1-15; no_operational_google_location.
+- [sgfooddeals/4881](https://t.me/sgfooddeals/4881) — Tavola Aperta: Free Linguine al Limone Pasta (`70bf8e46-9a61-5002-ab52-37b84a8be20b`): google_branch_not_found:Plaza Singapura, #01-60; no_operational_google_location.
+- [sgfooddeals/4885](https://t.me/sgfooddeals/4885) — Daya Izakaya: $0.61 Sushi Deal (`67eb6c91-e934-5abf-aec7-db145e4cfd49`): google_branch_not_found:254 Jalan Kayu; no_operational_google_location.
+- [sgfooddeals/4891](https://t.me/sgfooddeals/4891) — POKKA: Free entry to POKKA’s Greener On Our Side Pop-up (`2dd60251-a2aa-5b1c-a2f3-ba95038f173e`): google_branch_not_found:Plaza Singapura; google_branch_not_found:Canopy Plaza Level 1; no_operational_google_location.
+- [sgfooddeals/4895](https://t.me/sgfooddeals/4895) — Braek Acai & Coffee: $4 Banana Pudding Hojicha Latte (`ff4994ee-8b03-5be1-a2cd-3e1ad3efabec`): google_branch_not_found:SMU Li Ka Shing Library, B1-25; no_operational_google_location.
+- [sgfooddeals/4896](https://t.me/sgfooddeals/4896) — New Ubin Seafood: 50% Off Daily Deals (`9849e87f-4006-5d30-a9c3-3cc6d8065a63`): google_branch_not_found:30 Victoria Street, #02-01B; no_operational_google_location.
+- [sgfooddeals/4897](https://t.me/sgfooddeals/4897) — Gwanghwamun Mijin: $1 Buckwheat Noodles (`5d1b5a6a-873c-59fb-a617-8d8a57bf7c5b`): google_branch_not_found:47 - 49 Pekin Street, #01-01; no_operational_google_location.
+- [sgfooddeals/4899](https://t.me/sgfooddeals/4899) — Sushiro: 1-for-1 Sushi Deals (`2c938b46-a3d9-5619-a9ab-749238cbfc3f`): google_branch_not_found:Orchard Gateway, B1-07; no_operational_google_location.
+- [sgfooddeals/4902](https://t.me/sgfooddeals/4902) — Morganfield's: 1-for-1 Angus Ribeye Steak (`c37e7902-2e92-5d6b-ab62-e6b77b44147e`): google_branch_not_found:Suntec City outlet; no_operational_google_location.
+- [sgfooddeals/4905](https://t.me/sgfooddeals/4905) — Meatsmith: Free 101 Cheeseburgers (`737105d9-338d-50ee-af7b-9f30be167fb9`): google_branch_not_found:167 - 169 Telok Ayer Street; no_operational_google_location.
+- [sgfooddeals/4924](https://t.me/sgfooddeals/4924) — Brash Boys Coffee: 1-for-1 on All Drinks (`029eeced-1db8-5ab9-a00d-fe1f69d6ef6a`): google_branch_not_found:168 Robinson Road, #01-09; no_operational_google_location.
+- [sgfooddeals/4924](https://t.me/sgfooddeals/4924) — Brash Boys Coffee: 1-for-1 on All Drinks (`514dd7cd-7cca-56be-a55e-bfd2c2dd4eba`): google_branch_not_found:168 Robinson Road, #01-09; no_operational_google_location.
+- [sgfooddeals/4927](https://t.me/sgfooddeals/4927) — Kimpson's Table: $9.90 Kalguksu (`dcff1afd-1834-5b26-ac02-5519347d7899`): google_branch_not_found:Far East Square, #01-01; no_operational_google_location.
+- [sgfooddeals/4927](https://t.me/sgfooddeals/4927) — Kimpson's Table: $9.90 Kalguksu (`79a101a4-5b7c-5026-acf0-b3fd5e0629b6`): google_branch_not_found:Far East Square, #01-01; no_operational_google_location.
+- [sgfooddeals/4927](https://t.me/sgfooddeals/4927) — Kimpson's Table: $9.90 Kalguksu (`a3f836a6-c225-526d-ab55-d788a5d2fc4d`): google_branch_not_found:Far East Square, #01-01; no_operational_google_location.
+- [tastesoulsg/4411](https://t.me/tastesoulsg/4411) — BURNT CONES: $1 single scoops (`d6f5a1a5-0cfb-5f99-a3e5-c6fa6aeb426a`): google_branch_not_found:Paragon, B1-15; no_operational_google_location.
+- [tastesoulsg/4436](https://t.me/tastesoulsg/4436) — Morganfield’s: 1-for-1 Angus Ribeye Steak (U.P. $42.90++) (`bcdf6cb5-fc27-579d-a579-68f8f6b93ab2`): google_branch_not_found:Suntec City, 01-645; no_operational_google_location.
+- [tastesoulsg/4442](https://t.me/tastesoulsg/4442) — MUKAI: 1-for-1 Kaiho Don (`97371d84-f814-5bf8-a23f-924bf145cc05`): google_branch_not_found:Plaza Singapura, B1-07; no_operational_google_location.
+- [tastesoulsg/4453](https://t.me/tastesoulsg/4453) — Hokkaido Baked Cheese Tart: 1-for-1 Original Cheese Tart (`faeea915-05e1-5a2a-a3fa-7b943fba860d`): google_branch_not_found:Changi Airport T3, B2-11; google_branch_not_found:Bugis Junction, B1-K6; no_operational_google_location.
+- [tastesoulsg/4463](https://t.me/tastesoulsg/4463) — Kimpson’s Table: $9.90 Korean Noodles (U.P. $15) (`5f2dd5e5-732d-5368-a954-7130a4dd5457`): google_branch_not_found:Far East Square, 01-01; no_operational_google_location.
+- [tastesoulsg/4463](https://t.me/tastesoulsg/4463) — Kimpson’s Table: $9.90 Korean Noodles (U.P. $15) (`47495f09-0ce1-5572-a5bf-3638ea5ca3a2`): google_branch_not_found:Far East Square, 01-01; no_operational_google_location.
+- [tastesoulsg/4463](https://t.me/tastesoulsg/4463) — Kimpson’s Table: $9.90 Korean Noodles (U.P. $15) (`c05f7962-50fa-5e96-a653-c3c4750791a3`): google_branch_not_found:Far East Square, 01-01; no_operational_google_location.
+- [tastesoulsg/4463](https://t.me/tastesoulsg/4463) — Kimpson’s Table: $9.90 Korean Noodles (U.P. $15) (`826e2cbd-dd1c-5edb-a417-e9645fe2a310`): google_branch_not_found:Far East Square, 01-01; no_operational_google_location.
+
+## exclude
+
+- [sgfooddeals/4871](https://t.me/sgfooddeals/4871) — (merchant unresolved): (title unresolved) (`bf5eaca0-1b09-5cdb-a1a3-0bb5b5fc6d47`): online_only_not_for_map.
+- [sgfooddeals/4876](https://t.me/sgfooddeals/4876) — (merchant unresolved): $6.50 Fried Chicken Rice (`da48cc8e-5233-528c-a763-60a5efae344e`): no_promotional_benefit.
+- [sgfooddeals/4876](https://t.me/sgfooddeals/4876) — (merchant unresolved): $8.50 Tom Yum Noodle Soup (`7f205b4c-889b-5d32-a9a9-52f4bfce7af4`): no_promotional_benefit.
+- [sgfooddeals/4876](https://t.me/sgfooddeals/4876) — (merchant unresolved): $9.80 Kway Teow Soup with Beef (`ddd69ba4-447f-59e8-a7c2-80b962eef5a4`): no_promotional_benefit.
+- [sgfooddeals/4876](https://t.me/sgfooddeals/4876) — (merchant unresolved): $10 Sliced Beef Ribeye (`e0a18fca-b2f2-58fe-a41a-702d1b9e4f06`): no_promotional_benefit.
+- [sgfooddeals/4876](https://t.me/sgfooddeals/4876) — (merchant unresolved): Pork Ribs Soup from $8.80 (`d21c2122-fdb0-5d96-ad63-0abb282ace25`): no_promotional_benefit.
+- [sgfooddeals/4878](https://t.me/sgfooddeals/4878) — (merchant unresolved): (title unresolved) (`f763a80f-f5ff-5880-ad88-695ca5c44cad`): no_promotional_benefit.
+- [sgfooddeals/4879](https://t.me/sgfooddeals/4879) — ALC Rice Bowls: $8.80 Rice Bowl (`05f5126c-a2d5-57a6-adbe-c186640b7f7d`): no_promotional_benefit.
+- [sgfooddeals/4879](https://t.me/sgfooddeals/4879) — Katsu-an: $9.90 Lunch Combo (`38e1b1fe-2879-5417-ae12-2f86d3211969`): no_promotional_benefit.
+- [sgfooddeals/4879](https://t.me/sgfooddeals/4879) — Saizeriya: $9 Western Lunch Set (`2d18a973-6f62-5917-a100-120127021fab`): no_promotional_benefit.
+- [sgfooddeals/4879](https://t.me/sgfooddeals/4879) — Shi Li Fang: $9.90 Hotpot Meal (`c8669045-cdc4-50f1-ad7e-b1227a904ebe`): no_promotional_benefit.
+- [sgfooddeals/4879](https://t.me/sgfooddeals/4879) — White Restaurant: Lunch Set from $9.90 (`4129ea5d-c833-5669-a295-2c1716f55211`): no_promotional_benefit.
+- [sgfooddeals/4880](https://t.me/sgfooddeals/4880) — (merchant unresolved): (title unresolved) (`5637306f-5e37-5389-aa72-cf688debaf33`): no_promotional_benefit.
+- [sgfooddeals/4884](https://t.me/sgfooddeals/4884) — (merchant unresolved): Sentosa GrillFest (Till 16 Aug) (`fbb7927c-367d-5fc8-aa72-7e8d929a50d4`): no_promotional_benefit.
+- [sgfooddeals/4884](https://t.me/sgfooddeals/4884) — (merchant unresolved): Hougang Food Fair (Till 19 Aug) (`bdd48f65-6e46-5c6a-a4ad-20b3903d856d`): no_promotional_benefit.
+- [sgfooddeals/4884](https://t.me/sgfooddeals/4884) — (merchant unresolved): Tiong Bahru Food Fair (Till 23 Aug) (`cc56581e-177c-543d-a10a-01116c44f74f`): no_promotional_benefit.
+- [sgfooddeals/4884](https://t.me/sgfooddeals/4884) — (merchant unresolved): APAC F&B Expo (21 - 23 Aug) (`629350a3-1a4f-5846-a59e-c1d15d5200dc`): no_promotional_benefit.
+- [sgfooddeals/4884](https://t.me/sgfooddeals/4884) — (merchant unresolved): Celebfest Food Festival (21 - 23 Aug) (`513c40d7-9ca9-5ffb-a1b2-fd63ee418949`): no_promotional_benefit.
+- [sgfooddeals/4884](https://t.me/sgfooddeals/4884) — (merchant unresolved): Punggol Central Night Bazaar (Till 30 Aug) (`0491417a-92d0-5c7b-a1cc-47f5cee368a1`): no_promotional_benefit.
+- [sgfooddeals/4888](https://t.me/sgfooddeals/4888) — (merchant unresolved): (title unresolved) (`9c3083d2-4d87-5ce6-a4cf-b50726a6b25c`): no_promotional_benefit.
+- [sgfooddeals/4908](https://t.me/sgfooddeals/4908) — Omuplace: Omurice & Udon from $3.90 (`cc744fc3-fd57-5b05-a70e-e12e1caba3ca`): no_promotional_benefit.
+- [sgfooddeals/4913](https://t.me/sgfooddeals/4913) — (merchant unresolved): (title unresolved) (`697b1e55-4a67-5519-a7ca-c274bbce89ed`): no_promotional_benefit.
+- [sgfooddeals/4915](https://t.me/sgfooddeals/4915) — foodpanda: tco.sg/wLGghSyXz (http://tco.sg/wLGghSyXz) (`11bbba95-7a03-5999-abea-e0486c1a1de8`): online_only_not_for_map.
+- [sgfooddeals/4915](https://t.me/sgfooddeals/4915) — GrabFood: tco.sg/iyavqV2Yp (http://tco.sg/iyavqV2Yp) (`6ca12cfc-6d2a-534b-a87c-0c05eb28a2d3`): online_only_not_for_map.
+- [sgfooddeals/4917](https://t.me/sgfooddeals/4917) — (merchant unresolved): Clementi - Redhill (`8b88cba3-7314-54e3-a22b-313838f31e94`): no_promotional_benefit.
+- [sgfooddeals/4917](https://t.me/sgfooddeals/4917) — (merchant unresolved): Holland Village - Bukit Panjang (`116ca8f6-dba6-5fb5-af9d-4c0514db250e`): no_promotional_benefit.
+- [sgfooddeals/4917](https://t.me/sgfooddeals/4917) — (merchant unresolved): Punggol - Serangoon (`9f23b919-c2f2-50ac-aeee-fc609581f246`): no_promotional_benefit.
+- [sgfooddeals/4917](https://t.me/sgfooddeals/4917) — (merchant unresolved): Farrer Park - Boon Keng (`6065be9d-e369-5162-abe6-58ab2c5258be`): no_promotional_benefit.
+- [sgfooddeals/4917](https://t.me/sgfooddeals/4917) — (merchant unresolved): Bishan - Toa Payoh (`9fe59a2c-e0ad-5840-a3b4-ab29b0baa489`): no_promotional_benefit.
+- [sgfooddeals/4917](https://t.me/sgfooddeals/4917) — (merchant unresolved): Tengah - Jurong (`a251e440-1d01-55ac-a7e4-e86b19ad299e`): no_promotional_benefit.
+- [sgfooddeals/4917](https://t.me/sgfooddeals/4917) — (merchant unresolved): Woodlands - Sembawang (`7637745d-9879-5c17-a6e2-a1b0f7a87a9d`): no_promotional_benefit.
+- [sgfooddeals/4917](https://t.me/sgfooddeals/4917) — (merchant unresolved): Tai Seng - Paya Lebar (`bdc9aa4f-ed5e-5bdc-a7b1-951fbb5bd265`): no_promotional_benefit.
+- [sgfooddeals/4917](https://t.me/sgfooddeals/4917) — (merchant unresolved): Marine Parade - East Coast (`c35cea11-a53d-5fce-a771-93b7f9a610a6`): no_promotional_benefit.
+- [sgfooddeals/4917](https://t.me/sgfooddeals/4917) — (merchant unresolved): Bedok - Pasir Ris (`00877087-25e9-5380-a7d4-ced8b0c2689a`): no_promotional_benefit.
+- [sgfooddeals/4919](https://t.me/sgfooddeals/4919) — (merchant unresolved): (title unresolved) (`d48eceda-1ced-55b7-a057-a42dee2d0960`): no_promotional_benefit.
+- [sgfooddeals/4921](https://t.me/sgfooddeals/4921) — (merchant unresolved): Yishun NDP Food Fair (Till 6 Sep) (`7de120dc-578c-518a-a5e9-a26341e776a0`): no_promotional_benefit.
+- [sgfooddeals/4921](https://t.me/sgfooddeals/4921) — (merchant unresolved): Choa Chu Kang Night Bazaar (Till 13 Sep) (`d80a6e74-ca65-58af-a6dc-94a41fc5ccb6`): no_promotional_benefit.
+- [sgfooddeals/4921](https://t.me/sgfooddeals/4921) — (merchant unresolved): Redhill Food Bazaar (Till 13 Sep) (`cd905a2b-cc88-5c87-a882-55b2708b523f`): no_promotional_benefit.
+- [sgfooddeals/4921](https://t.me/sgfooddeals/4921) — (merchant unresolved): Jurong Point Food Festival (Till 25 Sep) (`6c9c9cda-245b-5b39-a973-b5d2602d2482`): no_promotional_benefit.
+- [sgfooddeals/4921](https://t.me/sgfooddeals/4921) — (merchant unresolved): GBTB Mid-Autumn Food Festival (12 - 27 Sep) (`387ee731-ebab-5f5b-ac90-0e8ec1bc86a0`): no_promotional_benefit.
+- [sgfooddeals/4921](https://t.me/sgfooddeals/4921) — (merchant unresolved): Tampines Night Bazaar (Till 28 Sep) (`7c71d767-7624-5961-ab0c-27b32c318f93`): no_promotional_benefit.
+- [sgfooddeals/4930](https://t.me/sgfooddeals/4930) — (merchant unresolved): (title unresolved) (`45910e22-329a-566c-a633-f03160f660b8`): no_promotional_benefit.
+- [tastesoulsg/4409](https://t.me/tastesoulsg/4409) — Pizza Hut's National Day 2026 Bundle Set: $61 Never Tasted So Good (`17746cb8-e88e-5ed0-a976-bc17ed70374f`): no_promotional_benefit.
+- [tastesoulsg/4412](https://t.me/tastesoulsg/4412) — Tofu G: NEW Butter Tteok (`cdb71103-2a80-594f-a9b3-e9744e696386`): no_promotional_benefit.
+- [tastesoulsg/4413](https://t.me/tastesoulsg/4413) — Lao Beijing: Feast like an emperor with this Ultimate Indulgence Set (`1cc32fdf-c2c1-5344-a683-571d0c6fe11f`): no_promotional_benefit.
+- [tastesoulsg/4414](https://t.me/tastesoulsg/4414) — AFTER HOURS: NEW Nostalgia series (`39b3760c-ac54-591b-aa20-12a55d1e9882`): no_promotional_benefit.
+- [tastesoulsg/4416](https://t.me/tastesoulsg/4416) — Bottega JB: 🇮🇹 Feel like having Italian food without a flight to Rome? Check out this restaurant just across the border (`fd68df43-ae56-52c2-a0d0-2ed82b21aea1`): no_promotional_benefit.
+- [tastesoulsg/4419](https://t.me/tastesoulsg/4419) — NomNom JB: 🇹🇭 Craving authentic Thai food? This Thai restaurant in Johor Bahru has got you covered (`915bbc3b-0775-5792-a831-3054ec3917a2`): no_promotional_benefit.
+- [tastesoulsg/4421](https://t.me/tastesoulsg/4421) — Starbucks: NEW Unicorn Frappucino (`4da6daaf-e489-5303-aa53-4b2f05ae3ac1`): no_promotional_benefit.
+- [tastesoulsg/4422](https://t.me/tastesoulsg/4422) — POUT Rooftop Cafe: A hidden rooftop café in Singapore's CBD with skyline views, speciality coffee, artisanal French bakes and creative matcha drinks (`6b99ec07-b6a0-5e23-abac-bd6f00729dbf`): no_promotional_benefit.
+- [tastesoulsg/4425](https://t.me/tastesoulsg/4425) — Chin Mee Chin: 101-year-old coffeeshop & heritage bakery with classic breakfast sets, Nasi Lemak, Smashed Chicken Sandwiches, and Cloud Kopi (`67355008-9aa3-562d-af47-b07a64144b6e`): no_promotional_benefit.
+- [tastesoulsg/4427](https://t.me/tastesoulsg/4427) — McDonald’s: Returning items incl. Samurai Beef Burger, Samurai Chicken Burger, Tamago Samurai Burger (Beef / Chicken) & Seaweed McShaker Fries (`6105b90d-dd9a-55d2-a8fb-b0166651771a`): no_promotional_benefit.
+- [tastesoulsg/4428](https://t.me/tastesoulsg/4428) — BlackTree: China’s buzziest Thai Milk Tea brand lands its first outlet in Singapore at 313@somerset (`49d450df-ae6a-5bcb-a02c-e014edbc4693`): no_promotional_benefit.
+- [tastesoulsg/4429](https://t.me/tastesoulsg/4429) — KFC: NEW menu ft. Japanese Nanban Zinger, Chicken Bites, Loaded Fries & Sweet Potato Mochi Balls (`d01a2c98-3d71-5947-a3e3-d5810ca21d8d`): no_promotional_benefit.
+- [tastesoulsg/4430](https://t.me/tastesoulsg/4430) — IKEA: NEW Swedish Meatball Ice-Cream (`ce678cf7-e97a-53ba-af36-e138b4be89b2`): no_promotional_benefit.
+- [tastesoulsg/4431](https://t.me/tastesoulsg/4431) — Park Side: A new all-day cafe at Singapore Botanic Gardens with creative brunch, coffee, desserts, and pet-friendly dining (`96dd28ff-0b57-5b98-a14e-c82aaf6b2207`): no_promotional_benefit.
+- [tastesoulsg/4433](https://t.me/tastesoulsg/4433) — Potato Corner: NEW limited Chicken Satay Flavour (`16618dd9-baee-5dc5-a4ab-498bfd885187`): no_promotional_benefit.
+- [tastesoulsg/4434](https://t.me/tastesoulsg/4434) — San Shu Gong: Discover the best of Teochew and Cantonese cuisine at New Bahru (`bf414121-9361-5bd6-ab4e-8ddc3110f876`): no_promotional_benefit.
+- [tastesoulsg/4437](https://t.me/tastesoulsg/4437) — Spicy Noodles SG: Taiwan-famous noodles store expands its menu with Singapore-exclusive Chicken Soup (`5b356d33-5ff1-5670-aace-791ea58dd8fd`): no_promotional_benefit.
+- [tastesoulsg/4439](https://t.me/tastesoulsg/4439) — Sushidan: NEW outlet opening at Parkway Parade (`be4db358-1254-5f8e-a435-aeed06e86414`): no_promotional_benefit.
+- [tastesoulsg/4444](https://t.me/tastesoulsg/4444) — Zapangi Coffee: Popular coffee & South Korean American-style soft cookie brand pop-up in SG (`a0b87f2c-2c53-5ca9-afb0-e051ffadc6dc`): no_promotional_benefit.
+- [tastesoulsg/4445](https://t.me/tastesoulsg/4445) — 7-Eleven: NEW Onigiri Ice Cream (`c0c899da-4767-577e-a8af-58a85795fbc6`): no_promotional_benefit.
+- [tastesoulsg/4449](https://t.me/tastesoulsg/4449) — Casa Lola: Step into a Barcelona-inspired bodega where authentic Spanish flavours, grandma’s cooking, and cosy neighbourhood vibes collide (`1945ad94-eaad-5047-ae20-46cd648e7e81`): no_promotional_benefit.
+- [tastesoulsg/4452](https://t.me/tastesoulsg/4452) — More Yogurt: Your next yogurt spot is now open in Jewel & Waterway Point (`e48c6bee-4565-5da9-af09-82a8b1e7fcbb`): no_promotional_benefit.
+- [tastesoulsg/4455](https://t.me/tastesoulsg/4455) — Fangko House: Explore bold Indonesian flavours with a modern twist at this cafe near Boat Quay (`ba7f9e42-0aca-597b-ac34-ebd65bea9534`): no_promotional_benefit.
+- [tastesoulsg/4456](https://t.me/tastesoulsg/4456) — Coffeehouse by Kobashi: NEW takeover sourdough flavours (`690b3fb6-aa77-5a1c-a4c0-ccc3a2e3336e`): no_promotional_benefit.
+- [tastesoulsg/4460](https://t.me/tastesoulsg/4460) — Pepper Lunch: Fan-favourite Cheesy Omelette RETURNS (`ad899e5a-15a8-55ba-af09-0a036de34779`): no_promotional_benefit.
+- [tastesoulsg/4461](https://t.me/tastesoulsg/4461) — Cavern Restaurant: Singapore’s only cave restaurant is celebrating its first anniversary with a refreshed menu (`f8c8e623-3c7f-58f5-a4f6-2eb560e160dc`): no_promotional_benefit.
+- [tastesoulsg/4464](https://t.me/tastesoulsg/4464) — Next Door Spanish Cafe: Who needs to fly to Spain when Spain is next door? Try authentic & traditional Spanish food (`17922e7d-285e-573d-afc3-be1de5e00cb9`): no_promotional_benefit.
+- [tastesoulsg/4467](https://t.me/tastesoulsg/4467) — Shin Katsu: Welcome to a katsu experience straight out of Japan, now located in the CBD (`66a321c5-9127-56f5-a91e-1a40b0b81f20`): no_promotional_benefit.
+- [tastesoulsg/4472](https://t.me/tastesoulsg/4472) — MilkyShop: Viral Korean butter sand pop-up lands in SG (`ee2ce870-724d-5cb0-a428-3e9803b3fba5`): no_promotional_benefit.
+- [tastesoulsg/4473](https://t.me/tastesoulsg/4473) — Dill: Craving something new? At this restaurant, you can enjoy Nordic flavours with Singapore soul (`59b73637-2480-5f48-abe2-a949fc08b51e`): no_promotional_benefit.
+- [tastesoulsg/4476](https://t.me/tastesoulsg/4476) — Estiatorio Milos: 🇬🇷 From sea to table, here are Greek dishes that stood out to us (`269777e5-60b8-52d1-a870-a1fd3f107ad2`): no_promotional_benefit.
+- [tastesoulsg/4477](https://t.me/tastesoulsg/4477) — Sushiro: NEW Pokémon collab ft. merch with purchase (`7a0a9aea-47b5-5456-a940-37b19c0e48eb`): no_promotional_benefit.
+- [tastesoulsg/4479](https://t.me/tastesoulsg/4479) — Dian Xiao Er: Claypot Sliced Fish Curry and Solo Lunch Sets for just $9.90 (`0b829177-d6d5-573c-ad4f-b926472413d5`): no_promotional_benefit.
+- [tastesoulsg/4480](https://t.me/tastesoulsg/4480) — Racines: NEW Turf & Tide edition Ultimate Brunch Buffet (`4629522c-f8d6-548c-acc7-6eac7b16dfd2`): no_promotional_benefit.
+- [tastesoulsg/4481](https://t.me/tastesoulsg/4481) — Nasty Cookie: NEW Dubai Chewy Cookie Mooncake (`9cb4e729-234a-5e1e-a78f-a47f89a6a94f`): no_promotional_benefit.
+- [tastesoulsg/4484](https://t.me/tastesoulsg/4484) — SIDES by the Sidemen: Trick or treat? Enjoy a treat with this new Halloween burger, limited time only (`49696b5f-a03f-5407-a386-a9c5e975b2b0`): no_promotional_benefit.
+- [tastesoulsg/4486](https://t.me/tastesoulsg/4486) — Koi Thé: NEW 3L Sharing Tea Pack ($52) (`ee96612f-410a-53a7-a7f1-d0dbb02648c4`): online_only_not_for_map.
