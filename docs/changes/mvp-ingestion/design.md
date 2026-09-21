@@ -1,3 +1,5 @@
+> Historical MVP implementation record. Curated inclusion, independent status dimensions and full development preview now follow [curated MVP retention](../curated-mvp-retention/verification.md); earlier exclusion counts and ready-only preview behavior below are superseded.
+
 # MVP ingestion design
 
 Add a separate MvpPromotion domain and pipeline beside the strict resolution pipeline. Reuse PostOfferParser, DateResolver, OutletScopeResolver and GoogleOutletDiscovery/ResolutionCache. MVP-specific text normalization and unambiguous window extraction must not alter strict approval semantics. Preserve the complete owned source span as description and terms. Reuse resolvedPlace identities/coordinates; do not invoke a second geocoder.

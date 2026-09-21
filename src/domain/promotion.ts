@@ -119,6 +119,13 @@ export const singaporeBounds: [number, number, number, number] = [
 ];
 export type Listing = Omit<Promotion, "category"> & {
   category: Promotion["category"] | null;
+  mvpState?: {
+    content: "resolved" | "needs_content_resolution";
+    validity: "resolved" | "needs_validity";
+    map: "ready" | "needs_location" | "online_only";
+    lifecycle: "active" | "expired" | "upcoming" | "unknown";
+    reasons: string[];
+  };
   mapCoverageBasis?: "source_named_outlets" | "google_merchant_locations";
 } & ReturnType<typeof validity>;
 export type SourceHealth = {

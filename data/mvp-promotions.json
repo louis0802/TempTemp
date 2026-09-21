@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "evaluatedAt": "2026-09-21T00:00:00.000+08:00",
   "records": [
     {
@@ -501,6 +501,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "now_to_date",
@@ -512,8 +515,8 @@
       "offerKey": "unstructured",
       "parentKey": "unstructured",
       "merchant": "",
-      "title": "",
-      "benefit": "",
+      "title": "Mr. Farmer 8.8 Grocery Sale from $2.80",
+      "benefit": "Mr. Farmer 8.8 Grocery Sale from $2.80",
       "description": "Mr. Farmer 8.8 Grocery Sale from $2.80 🔥\n\n🔹 Whip up your next meal with quality meats that are ethically & sustainably farmed\n🔹 Browse a wide selection of fresh chickens, ready-to-eat meats, beef & more\n🔹 Limited time only\n📍 Online only\n\nShop here: tco.sg/Vm5ANIsJy (http://tco.sg/Vm5ANIsJy) \n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -523,13 +526,17 @@
       "outletScope": "online_only",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "online_only",
       "lifecycle": "unknown",
       "reasons": [
-        "online_only_not_for_map"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "unknown_expiry",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "c4abbd89-3ca2-5a5f-aff8-79252d8b75be",
@@ -558,6 +565,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "now_to_date",
@@ -598,6 +608,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "now_to_date",
@@ -621,6 +634,9 @@
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unresolved_weekday_restriction",
@@ -636,7 +652,7 @@
       "parentKey": "offer-2d3d6b992500194e-0",
       "merchant": "",
       "title": "$6.50 Fried Chicken Rice",
-      "benefit": "",
+      "benefit": "$6.50 Fried Chicken Rice",
       "description": "$6.50 Fried Chicken Rice (https://tco.sg/tytPCTqjp)",
       "startDate": null,
       "endDate": null,
@@ -646,13 +662,17 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "7f205b4c-889b-5d32-a9a9-52f4bfce7af4",
@@ -661,7 +681,7 @@
       "parentKey": "offer-689f76dfe527a4f6-1",
       "merchant": "",
       "title": "$8.50 Tom Yum Noodle Soup",
-      "benefit": "",
+      "benefit": "$8.50 Tom Yum Noodle Soup",
       "description": "$8.50 Tom Yum Noodle Soup (https://tco.sg/Qm0ItNPNa)",
       "startDate": null,
       "endDate": null,
@@ -671,13 +691,17 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "ddd69ba4-447f-59e8-a7c2-80b962eef5a4",
@@ -686,7 +710,7 @@
       "parentKey": "offer-cb3a691ef1dc8f25-2",
       "merchant": "",
       "title": "$9.80 Kway Teow Soup with Beef",
-      "benefit": "",
+      "benefit": "$9.80 Kway Teow Soup with Beef",
       "description": "$9.80 Kway Teow Soup with Beef (https://tco.sg/7t07px6Ez)",
       "startDate": null,
       "endDate": null,
@@ -696,13 +720,17 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "e0a18fca-b2f2-58fe-a41a-702d1b9e4f06",
@@ -711,7 +739,7 @@
       "parentKey": "offer-26c9eba2f5e9bc05-3",
       "merchant": "",
       "title": "$10 Sliced Beef Ribeye",
-      "benefit": "",
+      "benefit": "$10 Sliced Beef Ribeye",
       "description": "$10 Sliced Beef Ribeye (https://tco.sg/4lEc5ro9y)",
       "startDate": null,
       "endDate": null,
@@ -721,13 +749,17 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "d21c2122-fdb0-5d96-ad63-0abb282ace25",
@@ -736,7 +768,7 @@
       "parentKey": "offer-88920be13f447b6c-4",
       "merchant": "",
       "title": "Pork Ribs Soup from $8.80",
-      "benefit": "",
+      "benefit": "Pork Ribs Soup from $8.80",
       "description": "Pork Ribs Soup from $8.80 (https://tco.sg/0I9J7mmCZ)",
       "startDate": null,
       "endDate": null,
@@ -746,13 +778,17 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "70bd9af3-9126-559d-a88c-b67294164c03",
@@ -775,6 +811,9 @@
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
       "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "expired",
       "reasons": [
         "google_branch_not_found:Paragon Shopping Centre, B1-15",
@@ -789,8 +828,8 @@
       "offerKey": "unstructured",
       "parentKey": "unstructured",
       "merchant": "",
-      "title": "",
-      "benefit": "",
+      "title": "Introducing SG Nightlife & Bars Telegram Channel",
+      "benefit": "Introducing SG Nightlife & Bars Telegram Channel",
       "description": "Introducing SG Nightlife & Bars Telegram Channel 🥂\n\n🔹 Plan the perfect night out with happy hour deals, live music spots, the latest SG parties & more\n\nFind out more: tco.sg/8rfTOW3gh (https://tco.sg/8rfTOW3gh)\n\n@sgfooddeals (https://t.me/sgfooddeals) #shoutout\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -800,13 +839,17 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "05f5126c-a2d5-57a6-adbe-c186640b7f7d",
@@ -815,7 +858,7 @@
       "parentKey": "offer-5f7f0fb2fe8d2138-0",
       "merchant": "ALC Rice Bowls",
       "title": "$8.80 Rice Bowl",
-      "benefit": "",
+      "benefit": "$8.80 Rice Bowl",
       "description": "ALC Rice Bowls: (https://tco.sg/p0fcsGKLO) $8.80 Rice Bowl",
       "startDate": null,
       "endDate": null,
@@ -825,13 +868,16 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "38e1b1fe-2879-5417-ae12-2f86d3211969",
@@ -840,7 +886,7 @@
       "parentKey": "offer-000bbf05755e36c4-1",
       "merchant": "Katsu-an",
       "title": "$9.90 Lunch Combo",
-      "benefit": "",
+      "benefit": "$9.90 Lunch Combo",
       "description": "Katsu-an: (https://tco.sg/6QoggzgFF) $9.90 Lunch Combo",
       "startDate": null,
       "endDate": null,
@@ -850,13 +896,16 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "2d18a973-6f62-5917-a100-120127021fab",
@@ -865,7 +914,7 @@
       "parentKey": "offer-a8cd3b8d3e2b0437-2",
       "merchant": "Saizeriya",
       "title": "$9 Western Lunch Set",
-      "benefit": "",
+      "benefit": "$9 Western Lunch Set",
       "description": "Saizeriya: (https://tco.sg/dlFybU4ac) $9 Western Lunch Set",
       "startDate": null,
       "endDate": null,
@@ -875,13 +924,16 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "c8669045-cdc4-50f1-ad7e-b1227a904ebe",
@@ -890,7 +942,7 @@
       "parentKey": "offer-6c120335f4cca273-3",
       "merchant": "Shi Li Fang",
       "title": "$9.90 Hotpot Meal",
-      "benefit": "",
+      "benefit": "$9.90 Hotpot Meal",
       "description": "Shi Li Fang: (https://tco.sg/vDrh4OQwD) $9.90 Hotpot Meal",
       "startDate": null,
       "endDate": null,
@@ -900,13 +952,16 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "4129ea5d-c833-5669-a295-2c1716f55211",
@@ -915,7 +970,7 @@
       "parentKey": "offer-5ca720daf9280774-4",
       "merchant": "White Restaurant",
       "title": "Lunch Set from $9.90",
-      "benefit": "",
+      "benefit": "Lunch Set from $9.90",
       "description": "White Restaurant: (https://tco.sg/qvdxn4dox) Lunch Set from $9.90",
       "startDate": null,
       "endDate": null,
@@ -925,13 +980,16 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "5637306f-5e37-5389-aa72-cf688debaf33",
@@ -939,8 +997,8 @@
       "offerKey": "unstructured",
       "parentKey": "unstructured",
       "merchant": "",
-      "title": "",
-      "benefit": "",
+      "title": "Dine for Good at Marina Bay Sands this Aug",
+      "benefit": "Dine for Good at Marina Bay Sands this Aug",
       "description": "Dine for Good at Marina Bay Sands this Aug ♥️\n\n🔹 Enjoy special dishes from 12 signature & celebrity chef restaurants while giving back to communities in need\n🔹 Feast on signatures like Yardbird’s Chicken & Waffles, Miracle Coffee’s Kiku Cake & Mango Pineapple Fizz, Origin + Bloom’s Chicken Rendang Sandwich & more\n🔹 All proceeds go to AWWA’s Enabled Living programme (https://tco.sg/mbsawwa)\n📅 Now till 30 Aug\n\nT&Cs apply. Images are for illustration purposes only.\n\nFind out more: tco.sg/mbscharityxsgfd (http://tco.sg/mbscharityxsgfd)\n\n@sgfooddeals (https://t.me/sgfooddeals)\n[Media attached: verify image/video conditions.]",
       "startDate": "2026-08-13",
       "endDate": "2026-08-30",
@@ -950,13 +1008,16 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "expired",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved"
       ],
       "datePattern": "now_to_date",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "70bf8e46-9a61-5002-ab52-37b84a8be20b",
@@ -979,6 +1040,9 @@
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
       "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "expired",
       "reasons": [
         "google_branch_not_found:Plaza Singapura, #01-60",
@@ -1005,6 +1069,9 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unknown_expiry_or_start"
@@ -1030,6 +1097,9 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unknown_expiry_or_start"
@@ -1055,6 +1125,9 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unknown_expiry_or_start"
@@ -1080,6 +1153,9 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unknown_expiry_or_start"
@@ -1105,6 +1181,9 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unknown_expiry_or_start"
@@ -1139,6 +1218,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "now_to_date",
@@ -1171,6 +1253,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "explicit_range",
@@ -1183,7 +1268,7 @@
       "parentKey": "offer-7d55c54782f797a4-0",
       "merchant": "",
       "title": "Sentosa GrillFest (Till 16 Aug)",
-      "benefit": "",
+      "benefit": "Sentosa GrillFest (Till 16 Aug)",
       "description": "Sentosa GrillFest (https://tco.sg/XDsndrIbx) (Till 16 Aug)",
       "startDate": null,
       "endDate": null,
@@ -1193,13 +1278,17 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "bdd48f65-6e46-5c6a-a4ad-20b3903d856d",
@@ -1208,7 +1297,7 @@
       "parentKey": "offer-45b706ca60fe55aa-1",
       "merchant": "",
       "title": "Hougang Food Fair (Till 19 Aug)",
-      "benefit": "",
+      "benefit": "Hougang Food Fair (Till 19 Aug)",
       "description": "Hougang Food Fair (https://tco.sg/5eFeOHp65) (Till 19 Aug)",
       "startDate": null,
       "endDate": null,
@@ -1218,13 +1307,17 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "cc56581e-177c-543d-a10a-01116c44f74f",
@@ -1233,7 +1326,7 @@
       "parentKey": "offer-0ed629beb8b06b30-2",
       "merchant": "",
       "title": "Tiong Bahru Food Fair (Till 23 Aug)",
-      "benefit": "",
+      "benefit": "Tiong Bahru Food Fair (Till 23 Aug)",
       "description": "Tiong Bahru Food Fair (https://tco.sg/IBS14YCvt) (Till 23 Aug)",
       "startDate": null,
       "endDate": null,
@@ -1243,13 +1336,17 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "629350a3-1a4f-5846-a59e-c1d15d5200dc",
@@ -1258,7 +1355,7 @@
       "parentKey": "offer-11f227768bfec4da-3",
       "merchant": "",
       "title": "APAC F&B Expo (21 - 23 Aug)",
-      "benefit": "",
+      "benefit": "APAC F&B Expo (21 - 23 Aug)",
       "description": "APAC F&B Expo (https://tco.sg/BYQIWO4pR) (21 - 23 Aug)",
       "startDate": null,
       "endDate": null,
@@ -1268,13 +1365,17 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "explicit_range",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "513c40d7-9ca9-5ffb-a1b2-fd63ee418949",
@@ -1283,7 +1384,7 @@
       "parentKey": "offer-2ca3077d5ccf2809-4",
       "merchant": "",
       "title": "Celebfest Food Festival (21 - 23 Aug)",
-      "benefit": "",
+      "benefit": "Celebfest Food Festival (21 - 23 Aug)",
       "description": "Celebfest Food Festival (https://tco.sg/NJCCXBj83) (21 - 23 Aug)",
       "startDate": null,
       "endDate": null,
@@ -1293,13 +1394,17 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "explicit_range",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "0491417a-92d0-5c7b-a1cc-47f5cee368a1",
@@ -1308,7 +1413,7 @@
       "parentKey": "offer-a67eaf2c0fdcafb6-5",
       "merchant": "",
       "title": "Punggol Central Night Bazaar (Till 30 Aug)",
-      "benefit": "",
+      "benefit": "Punggol Central Night Bazaar (Till 30 Aug)",
       "description": "Punggol Central Night Bazaar (https://tco.sg/RZcDfmjdP) (Till 30 Aug)",
       "startDate": null,
       "endDate": null,
@@ -1318,13 +1423,17 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "67eb6c91-e934-5abf-aec7-db145e4cfd49",
@@ -1344,6 +1453,9 @@
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
       "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "expired",
       "reasons": [
         "google_branch_not_found:254 Jalan Kayu",
@@ -1379,6 +1491,9 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unknown_expiry_or_start"
@@ -1392,8 +1507,8 @@
       "offerKey": "unstructured",
       "parentKey": "unstructured",
       "merchant": "",
-      "title": "",
-      "benefit": "",
+      "title": "Mixed Rice Personality Quiz",
+      "benefit": "Mixed Rice Personality Quiz",
       "description": "Mixed Rice Personality Quiz 🍚\n\n🔹 Answer a series of fun situational questions that are hyperlocal \n🔹 Discover which mixed rice dish matches your personality\n\nTry it here: tco.sg/mGzRxVnrV (http://tco.sg/mGzRxVnrV)\n\n@sgfooddeals (https://t.me/sgfooddeals) #shoutout\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -1403,13 +1518,17 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "874236b7-bf42-58be-a593-169e3ccbc500",
@@ -1417,7 +1536,7 @@
       "offerKey": "unstructured",
       "parentKey": "unstructured",
       "merchant": "",
-      "title": "manual review required.]",
+      "title": "",
       "benefit": "",
       "description": "[Unsupported or empty post: manual review required.]",
       "startDate": null,
@@ -1429,13 +1548,19 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "merchant_unresolved",
-        "promotional_benefit_not_established"
+        "title_unresolved",
+        "offer_proposition_unresolved",
+        "unsupported_source_text",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "39187911-d70b-5f34-aa62-8ed9a2f1b16f",
@@ -1632,6 +1757,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "now_to_date",
@@ -1655,6 +1783,9 @@
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
       "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "expired",
       "reasons": [
         "google_branch_not_found:Plaza Singapura",
@@ -2166,6 +2297,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "now_to_date",
@@ -2192,6 +2326,9 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unknown_expiry_or_start"
@@ -2217,6 +2354,9 @@
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
       "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "expired",
       "reasons": [
         "google_branch_not_found:SMU Li Ka Shing Library, B1-25",
@@ -2246,6 +2386,9 @@
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
       "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "expired",
       "reasons": [
         "google_branch_not_found:30 Victoria Street, #02-01B",
@@ -2275,6 +2418,9 @@
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
       "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "expired",
       "reasons": [
         "google_branch_not_found:47 - 49 Pekin Street, #01-01",
@@ -2574,6 +2720,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "now_to_date",
@@ -2600,6 +2749,9 @@
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
       "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "expired",
       "reasons": [
         "google_branch_not_found:Orchard Gateway, B1-07",
@@ -2626,6 +2778,9 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unresolved_redemption_hours",
@@ -3093,6 +3248,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "single_explicit_date_or_event",
@@ -3557,6 +3715,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "single_explicit_date_or_event",
@@ -4021,6 +4182,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "single_explicit_date_or_event",
@@ -4485,6 +4649,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "single_explicit_date_or_event",
@@ -4949,6 +5116,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "single_explicit_date_or_event",
@@ -5413,6 +5583,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "single_explicit_date_or_event",
@@ -5436,6 +5609,9 @@
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
       "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "expired",
       "reasons": [
         "google_branch_not_found:Suntec City outlet",
@@ -5450,8 +5626,8 @@
       "offerKey": "unstructured",
       "parentKey": "unstructured",
       "merchant": "",
-      "title": "",
-      "benefit": "",
+      "title": "$35 Unlimited Aus Angus Steak & Fries",
+      "benefit": "$35 Unlimited Aus Angus Steak & Fries",
       "description": "$35 Unlimited Aus Angus Steak & Fries 🥩\n\n🔹 Enjoy free-flow Aus Angus steak & fries with a complimentary drink for just $35 nett\n🔹 Limited to 60 mins of dining time upon service & prior reservations required\n📅 Mon - Fri\n📍 5 Dunlop Street\n\nMore info: tco.sg/UNhXWSmHa (http://tco.sg/UNhXWSmHa)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -5468,14 +5644,16 @@
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
       "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "merchant_unresolved",
-        "title_unresolved",
-        "promotional_benefit_not_established"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "recurring",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "93450a79-a9ec-5988-a709-13667f9e8ec1",
@@ -5507,6 +5685,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "now_to_date",
@@ -5542,6 +5723,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "explicit_range",
@@ -5577,6 +5761,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "explicit_range",
@@ -5600,6 +5787,9 @@
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
       "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "expired",
       "reasons": [
         "google_branch_not_found:167 - 169 Telok Ayer Street",
@@ -5635,6 +5825,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "now_to_date",
@@ -5658,6 +5851,9 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unknown_expiry_or_start"
@@ -5682,10 +5878,13 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
       "genuine": true
@@ -5696,8 +5895,8 @@
       "offerKey": "unstructured-window-0",
       "parentKey": "unstructured",
       "merchant": "",
-      "title": " — Roadshow",
-      "benefit": "",
+      "title": "BRAND’S Ginseng Essence Honey Jelly Strip now at just $2 per strip",
+      "benefit": "BRAND’S Ginseng Essence Honey Jelly Strip now at just $2 per strip",
       "description": "BRAND’S Ginseng Essence Honey Jelly Strip now at just $2 per strip 🍯\n\n🔹 Individual packed for a convenient boost anytime, anywhere\n🔹 Help relieve fatigue, replenish energy & support immunity \n🔹 Ideal for fresh grads, working adults or parents juggling a fast-paced lifestyle\n🔹 Available in 5-strip or 12-strip packs\n🔹 Visit BRAND’S roadshow at Unity VivoCity to discover their new jelly strip & redeem exciting gifts with purchase\n \nShop here: tco.sg/brandsjellyxsgfd (http://tco.sg/brandsjellyxsgfd)\n\n@sgfooddealssg (https://t.me/sgfooddealssg)\n[Media attached: verify image/video conditions.]\n📅 27 - 30 Aug\n📍 Roadshow",
       "startDate": "2026-08-27",
       "endDate": "2026-08-30",
@@ -5708,13 +5907,15 @@
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
       "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "expired",
       "reasons": [
-        "merchant_unresolved",
-        "promotional_benefit_not_established"
+        "merchant_unresolved"
       ],
       "datePattern": "explicit_range",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "1a51e784-f95b-5537-a866-5907bf01aa64",
@@ -5722,8 +5923,8 @@
       "offerKey": "unstructured-window-1",
       "parentKey": "unstructured",
       "merchant": "",
-      "title": " — $2 Deal",
-      "benefit": " — $2 Deal",
+      "title": "BRAND’S Ginseng Essence Honey Jelly Strip now at just $2 per strip",
+      "benefit": "BRAND’S Ginseng Essence Honey Jelly Strip now at just $2 per strip",
       "description": "BRAND’S Ginseng Essence Honey Jelly Strip now at just $2 per strip 🍯\n\n🔹 Individual packed for a convenient boost anytime, anywhere\n🔹 Help relieve fatigue, replenish energy & support immunity \n🔹 Ideal for fresh grads, working adults or parents juggling a fast-paced lifestyle\n🔹 Available in 5-strip or 12-strip packs\n🔹 Visit BRAND’S roadshow at Unity VivoCity to discover their new jelly strip & redeem exciting gifts with purchase\n \nShop here: tco.sg/brandsjellyxsgfd (http://tco.sg/brandsjellyxsgfd)\n\n@sgfooddealssg (https://t.me/sgfooddealssg)\n[Media attached: verify image/video conditions.]\n📅 Now till 30 Sep\n📍 $2 Deal",
       "startDate": "2026-08-28",
       "endDate": "2026-09-30",
@@ -5734,6 +5935,9 @@
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
       "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "active",
       "reasons": [
         "merchant_unresolved"
@@ -5768,6 +5972,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "active",
       "reasons": [],
       "datePattern": "now_to_date",
@@ -5800,6 +6007,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "active",
       "reasons": [],
       "datePattern": "now_to_date",
@@ -5832,6 +6042,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "active",
       "reasons": [],
       "datePattern": "now_to_date",
@@ -5864,6 +6077,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "active",
       "reasons": [],
       "datePattern": "now_to_date",
@@ -5896,6 +6112,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "active",
       "reasons": [],
       "datePattern": "now_to_date",
@@ -5928,6 +6147,9 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unknown_expiry_or_start"
@@ -5941,8 +6163,8 @@
       "offerKey": "unstructured",
       "parentKey": "unstructured",
       "merchant": "",
-      "title": "",
-      "benefit": "",
+      "title": "Join SG Budget Babes for Cute Activities & Shopping Deals",
+      "benefit": "Join SG Budget Babes for Cute Activities & Shopping Deals",
       "description": "Join SG Budget Babes for Cute Activities & Shopping Deals 💖\n\n✨ Stay in the loop for the latest beauty freebies, shopping deals, pop-up markets & more\n\nFind out more: tco.sg/T3AJyOv1b (http://tco.sg/T3AJyOv1b) \n\n@sgweekend (https://t.me/sgweekend) #shoutout\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -5952,13 +6174,17 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "11bbba95-7a03-5999-abea-e0486c1a1de8",
@@ -5966,7 +6192,7 @@
       "offerKey": "offer-4456c582161b69e3-0",
       "parentKey": "offer-4456c582161b69e3-0",
       "merchant": "foodpanda",
-      "title": "tco.sg/wLGghSyXz (http://tco.sg/wLGghSyXz)",
+      "title": "",
       "benefit": "",
       "description": "foodpanda: tco.sg/wLGghSyXz (http://tco.sg/wLGghSyXz)",
       "startDate": null,
@@ -5977,13 +6203,18 @@
       "outletScope": "online_only",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "online_only",
       "lifecycle": "unknown",
       "reasons": [
-        "online_only_not_for_map"
+        "title_unresolved",
+        "offer_proposition_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "6ca12cfc-6d2a-534b-a87c-0c05eb28a2d3",
@@ -5991,7 +6222,7 @@
       "offerKey": "offer-52a22ee086a72908-1",
       "parentKey": "offer-52a22ee086a72908-1",
       "merchant": "GrabFood",
-      "title": "tco.sg/iyavqV2Yp (http://tco.sg/iyavqV2Yp)",
+      "title": "",
       "benefit": "",
       "description": "GrabFood: tco.sg/iyavqV2Yp (http://tco.sg/iyavqV2Yp)",
       "startDate": null,
@@ -6002,13 +6233,18 @@
       "outletScope": "online_only",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "online_only",
       "lifecycle": "unknown",
       "reasons": [
-        "online_only_not_for_map"
+        "title_unresolved",
+        "offer_proposition_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "05b8403b-5403-5481-a4ac-af2143a43e40",
@@ -6053,6 +6289,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "now_to_date",
@@ -6065,7 +6304,7 @@
       "parentKey": "offer-67a8061d38cb3d1a-0",
       "merchant": "",
       "title": "Clementi - Redhill",
-      "benefit": "",
+      "benefit": "Clementi - Redhill",
       "description": "Clementi - Redhill (https://tco.sg/UwtNQlzpk)",
       "startDate": null,
       "endDate": null,
@@ -6075,13 +6314,17 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "116ca8f6-dba6-5fb5-af9d-4c0514db250e",
@@ -6090,7 +6333,7 @@
       "parentKey": "offer-0182ba3405503e18-1",
       "merchant": "",
       "title": "Holland Village - Bukit Panjang",
-      "benefit": "",
+      "benefit": "Holland Village - Bukit Panjang",
       "description": "Holland Village - Bukit Panjang (https://tco.sg/tqxozRgxH)",
       "startDate": null,
       "endDate": null,
@@ -6100,13 +6343,17 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "9f23b919-c2f2-50ac-aeee-fc609581f246",
@@ -6115,7 +6362,7 @@
       "parentKey": "offer-5fa14f89e0bdb176-2",
       "merchant": "",
       "title": "Punggol - Serangoon",
-      "benefit": "",
+      "benefit": "Punggol - Serangoon",
       "description": "Punggol - Serangoon (https://tco.sg/0iKeDLsgR)",
       "startDate": null,
       "endDate": null,
@@ -6125,13 +6372,17 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "6065be9d-e369-5162-abe6-58ab2c5258be",
@@ -6140,7 +6391,7 @@
       "parentKey": "offer-2c5954721b37cbb8-3",
       "merchant": "",
       "title": "Farrer Park - Boon Keng",
-      "benefit": "",
+      "benefit": "Farrer Park - Boon Keng",
       "description": "Farrer Park - Boon Keng (https://tco.sg/5hZMHuxsd)",
       "startDate": null,
       "endDate": null,
@@ -6150,13 +6401,17 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "9fe59a2c-e0ad-5840-a3b4-ab29b0baa489",
@@ -6165,7 +6420,7 @@
       "parentKey": "offer-a0c4a4583fbd078c-4",
       "merchant": "",
       "title": "Bishan - Toa Payoh",
-      "benefit": "",
+      "benefit": "Bishan - Toa Payoh",
       "description": "Bishan - Toa Payoh (https://tco.sg/doDZJoWzG)",
       "startDate": null,
       "endDate": null,
@@ -6175,13 +6430,17 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "a251e440-1d01-55ac-a7e4-e86b19ad299e",
@@ -6190,7 +6449,7 @@
       "parentKey": "offer-a43785a867cf1472-5",
       "merchant": "",
       "title": "Tengah - Jurong",
-      "benefit": "",
+      "benefit": "Tengah - Jurong",
       "description": "Tengah - Jurong (https://tco.sg/PL07GIq41)",
       "startDate": null,
       "endDate": null,
@@ -6200,13 +6459,17 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "7637745d-9879-5c17-a6e2-a1b0f7a87a9d",
@@ -6215,7 +6478,7 @@
       "parentKey": "offer-09f63d65c5fa40a8-6",
       "merchant": "",
       "title": "Woodlands - Sembawang",
-      "benefit": "",
+      "benefit": "Woodlands - Sembawang",
       "description": "Woodlands - Sembawang (https://tco.sg/gQXgss9Ip)",
       "startDate": null,
       "endDate": null,
@@ -6225,13 +6488,17 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "bdc9aa4f-ed5e-5bdc-a7b1-951fbb5bd265",
@@ -6240,7 +6507,7 @@
       "parentKey": "offer-28a39a69b1887ab4-7",
       "merchant": "",
       "title": "Tai Seng - Paya Lebar",
-      "benefit": "",
+      "benefit": "Tai Seng - Paya Lebar",
       "description": "Tai Seng - Paya Lebar (https://tco.sg/ngjuYXlOu)",
       "startDate": null,
       "endDate": null,
@@ -6250,13 +6517,17 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "c35cea11-a53d-5fce-a771-93b7f9a610a6",
@@ -6265,7 +6536,7 @@
       "parentKey": "offer-45aaf726a871ea26-8",
       "merchant": "",
       "title": "Marine Parade - East Coast",
-      "benefit": "",
+      "benefit": "Marine Parade - East Coast",
       "description": "Marine Parade - East Coast (https://tco.sg/U2p4RYCRI)",
       "startDate": null,
       "endDate": null,
@@ -6275,13 +6546,17 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "00877087-25e9-5380-a7d4-ced8b0c2689a",
@@ -6290,7 +6565,7 @@
       "parentKey": "offer-dd86be1e53d68f97-9",
       "merchant": "",
       "title": "Bedok - Pasir Ris",
-      "benefit": "",
+      "benefit": "Bedok - Pasir Ris",
       "description": "Bedok - Pasir Ris (https://tco.sg/Q2ZGfJu1X)",
       "startDate": null,
       "endDate": null,
@@ -6300,13 +6575,17 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "36fd2f36-2573-5176-ad20-ccdf4cf24e5f",
@@ -6335,6 +6614,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "now_to_date",
@@ -6346,8 +6628,8 @@
       "offerKey": "unstructured",
       "parentKey": "unstructured",
       "merchant": "",
-      "title": "",
-      "benefit": "",
+      "title": "DBS PayLah! $3 Cashback at Hawkers is back",
+      "benefit": "DBS PayLah! $3 Cashback at Hawkers is back",
       "description": "DBS PayLah! $3 Cashback at Hawkers is back 🤑\n\n🔘 Register as a DBS PayLah! user (https://tco.sg/WPOvYfNat) & pay by scanning QR codes to get up to $3 cashback \n🔘 Valid at 14,000 participating neighbourhood retail stores, wet markets, hawker centres & kopitiams\n🔘 Limited to first 160,000 redemptions every Saturday\n📅 Now till 19 Dec (Every Sat)\n⏰ 6AM onwards\n\nFind out more: tco.sg/A3U7K6XoV (http://tco.sg/A3U7K6XoV)\n\n@sgadulting101 (https://t.me/sgadulting101) #article\n[Media attached: verify image/video conditions.]",
       "startDate": "2026-09-04",
       "endDate": "2026-12-19",
@@ -6359,13 +6641,16 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "active",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved"
       ],
       "datePattern": "now_to_date",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "99934840-22df-57d5-a22b-3fd1a7ac2ea6",
@@ -6385,6 +6670,9 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unknown_expiry_or_start"
@@ -6410,6 +6698,9 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unknown_expiry_or_start"
@@ -6435,6 +6726,9 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unknown_expiry_or_start"
@@ -6460,6 +6754,9 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unknown_expiry_or_start"
@@ -6485,6 +6782,9 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unknown_expiry_or_start"
@@ -6499,7 +6799,7 @@
       "parentKey": "offer-4adda13f22d40057-0",
       "merchant": "",
       "title": "Yishun NDP Food Fair (Till 6 Sep)",
-      "benefit": "",
+      "benefit": "Yishun NDP Food Fair (Till 6 Sep)",
       "description": "Yishun NDP Food Fair (https://tco.sg/h9SiZox4d) (Till 6 Sep)",
       "startDate": null,
       "endDate": null,
@@ -6509,13 +6809,17 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "d80a6e74-ca65-58af-a6dc-94a41fc5ccb6",
@@ -6524,7 +6828,7 @@
       "parentKey": "offer-068f3bedc73f3c4e-1",
       "merchant": "",
       "title": "Choa Chu Kang Night Bazaar (Till 13 Sep)",
-      "benefit": "",
+      "benefit": "Choa Chu Kang Night Bazaar (Till 13 Sep)",
       "description": "Choa Chu Kang Night Bazaar (https://tco.sg/RTy6GvixK) (Till 13 Sep)",
       "startDate": null,
       "endDate": null,
@@ -6534,13 +6838,17 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "cd905a2b-cc88-5c87-a882-55b2708b523f",
@@ -6549,7 +6857,7 @@
       "parentKey": "offer-ce286effdc764e9d-2",
       "merchant": "",
       "title": "Redhill Food Bazaar (Till 13 Sep)",
-      "benefit": "",
+      "benefit": "Redhill Food Bazaar (Till 13 Sep)",
       "description": "Redhill Food Bazaar (https://tco.sg/vA65A7AVr) (Till 13 Sep)",
       "startDate": null,
       "endDate": null,
@@ -6559,13 +6867,17 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "6c9c9cda-245b-5b39-a973-b5d2602d2482",
@@ -6574,7 +6886,7 @@
       "parentKey": "offer-367be49b4c7032e9-3",
       "merchant": "",
       "title": "Jurong Point Food Festival (Till 25 Sep)",
-      "benefit": "",
+      "benefit": "Jurong Point Food Festival (Till 25 Sep)",
       "description": "Jurong Point Food Festival (https://tco.sg/NnEbPe5Lq) (Till 25 Sep)",
       "startDate": null,
       "endDate": null,
@@ -6584,13 +6896,17 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "387ee731-ebab-5f5b-ac90-0e8ec1bc86a0",
@@ -6599,7 +6915,7 @@
       "parentKey": "offer-505cb957bdcac515-4",
       "merchant": "",
       "title": "GBTB Mid-Autumn Food Festival (12 - 27 Sep)",
-      "benefit": "",
+      "benefit": "GBTB Mid-Autumn Food Festival (12 - 27 Sep)",
       "description": "GBTB Mid-Autumn Food Festival (https://tco.sg/9a7ZvObJ2) (12 - 27 Sep)",
       "startDate": null,
       "endDate": null,
@@ -6609,13 +6925,17 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "explicit_range",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "7c71d767-7624-5961-ab0c-27b32c318f93",
@@ -6624,7 +6944,7 @@
       "parentKey": "offer-c50246e1dd1acda2-5",
       "merchant": "",
       "title": "Tampines Night Bazaar (Till 28 Sep)",
-      "benefit": "",
+      "benefit": "Tampines Night Bazaar (Till 28 Sep)",
       "description": "Tampines Night Bazaar (https://tco.sg/KjdnMo3kJ) (Till 28 Sep)",
       "startDate": null,
       "endDate": null,
@@ -6634,13 +6954,17 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "2c15e98c-ae4d-56c8-aedb-1430397d0c1a",
@@ -6685,6 +7009,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "active",
       "reasons": [],
       "datePattern": "now_to_date",
@@ -6711,6 +7038,9 @@
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
       "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "expired",
       "reasons": [
         "google_branch_not_found:168 Robinson Road, #01-09",
@@ -6740,6 +7070,9 @@
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
       "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "expired",
       "reasons": [
         "google_branch_not_found:168 Robinson Road, #01-09",
@@ -6847,6 +7180,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "active",
       "reasons": [],
       "datePattern": "now_to_date",
@@ -6873,6 +7209,9 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unknown_expiry_or_start"
@@ -6898,6 +7237,9 @@
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
       "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "expired",
       "reasons": [
         "google_branch_not_found:Far East Square, #01-01",
@@ -6924,6 +7266,9 @@
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
       "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "expired",
       "reasons": [
         "google_branch_not_found:Far East Square, #01-01",
@@ -6950,6 +7295,9 @@
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
       "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "upcoming",
       "reasons": [
         "google_branch_not_found:Far East Square, #01-01",
@@ -6976,6 +7324,9 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unknown_expiry_or_start"
@@ -7001,6 +7352,9 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unknown_expiry_or_start"
@@ -7026,6 +7380,9 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unknown_expiry_or_start"
@@ -7051,6 +7408,9 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unknown_expiry_or_start"
@@ -7076,6 +7436,9 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unknown_expiry_or_start"
@@ -7089,8 +7452,8 @@
       "offerKey": "unstructured",
       "parentKey": "unstructured",
       "merchant": "",
-      "title": "",
-      "benefit": "",
+      "title": "SG's Last Kampung Canteen is Closing Down",
+      "benefit": "SG's Last Kampung Canteen is Closing Down",
       "description": "SG's Last Kampung Canteen is Closing Down 🥹\n\n🔹 Boh Geh Canteen in Seletar bids farewell on 18 Sep after 57 years as owner Mr Toh retires\n🔹 Dig into nostalgic home style Cai Png & authentic Nasi Padang before they are gone\n📅 Mon - Fri\n⏰ 6AM - 1.30PM\n📍 Nearby Seletar, 398 Piccadilly\n\nMore info: tco.sg/ywIh02WYN (http://tco.sg/ywIh02WYN) \n\n@sgfooddeals (https://t.me/sgfooddeals) #article\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -7109,13 +7472,17 @@
       "outletScope": "named_outlets",
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "merchant_unresolved",
+        "unknown_expiry_or_start"
       ],
       "datePattern": "recurring",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "c52875c4-e30a-500a-a049-7d51f1deec51",
@@ -7224,6 +7591,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "now_to_date",
@@ -7256,6 +7626,9 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unknown_expiry_or_start"
@@ -7287,6 +7660,9 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unresolved_redemption_hours",
@@ -7301,7 +7677,7 @@
       "offerKey": "unstructured",
       "parentKey": "unstructured",
       "merchant": "",
-      "title": "",
+      "title": "Support Jalan Besar’s small kitchens",
       "benefit": "up to 15% off",
       "description": "Support Jalan Besar’s small kitchens 💚\n\n🔹 Enjoy up to 15% off your total bill with Grab Dine Out at Moonchild, La Levain & more\n🔹 Stack an extra 20% off with code <JB20>\n📅 Now till 31 Oct\n📍 Grab app\n\nT&Cs apply.\n\nFind out more: tco.sg/grabperksxsgfd (http://tco.sg/grabperksxsgfd) \n\n@sgfooddeals (https://t.me/sgfooddeals)\n[Media attached: verify image/video conditions.]",
       "startDate": "2026-09-14",
@@ -7313,10 +7689,12 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "active",
       "reasons": [
-        "merchant_unresolved",
-        "title_unresolved"
+        "merchant_unresolved"
       ],
       "datePattern": "now_to_date",
       "genuine": true
@@ -7428,6 +7806,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "now_to_date",
@@ -7636,6 +8017,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "now_to_date",
@@ -7646,9 +8030,9 @@
       "sourceUrl": "https://t.me/tastesoulsg/4409",
       "offerKey": "unstructured",
       "parentKey": "unstructured",
-      "merchant": "Pizza Hut's National Day 2026 Bundle Set",
-      "title": "$61 Never Tasted So Good",
-      "benefit": "",
+      "merchant": "Pizza Hut",
+      "title": "$61 Never Tasted So Good — Pizza Hut's National Day 2026 Bundle Set",
+      "benefit": "$61 Never Tasted So Good — Pizza Hut's National Day 2026 Bundle Set",
       "description": "🧀 $61 Never Tasted So Good — Pizza Hut's National Day 2026 Bundle Set\n\n🍕 Read more: bit.ly/4whvUu6 (http://bit.ly/4whvUu6)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -7658,13 +8042,16 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "5d028ede-3a5f-5d9c-ad92-f886e85ca26f",
@@ -8165,6 +8552,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "single_explicit_date_or_event",
@@ -8188,6 +8578,9 @@
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
       "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "expired",
       "reasons": [
         "google_branch_not_found:Paragon, B1-15",
@@ -8203,7 +8596,7 @@
       "parentKey": "unstructured",
       "merchant": "Tofu G",
       "title": "NEW Butter Tteok",
-      "benefit": "",
+      "benefit": "NEW Butter Tteok",
       "description": "🍦 Tofu G 🍦\n\n➡️ NEW Butter Tteok\n➡️ Flavours incl. Original & Injeolmi \n📆 Now \n📍 All outlets\n👉 More info: bit.ly/3S1y9ne (http://bit.ly/3S1y9ne)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -8213,13 +8606,16 @@
       "outletScope": "all_outlets",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "1cc32fdf-c2c1-5344-a683-571d0c6fe11f",
@@ -8228,7 +8624,7 @@
       "parentKey": "unstructured",
       "merchant": "Lao Beijing",
       "title": "Feast like an emperor with this Ultimate Indulgence Set",
-      "benefit": "",
+      "benefit": "Feast like an emperor with this Ultimate Indulgence Set",
       "description": "🦆 Feast like an emperor with this Ultimate Indulgence Set — Lao Beijing \n\n🥬 Read more: bit.ly/4wTp27m (http://bit.ly/4wTp27m)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -8238,13 +8634,16 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "39b3760c-ac54-591b-aa20-12a55d1e9882",
@@ -8253,7 +8652,7 @@
       "parentKey": "unstructured",
       "merchant": "AFTER HOURS",
       "title": "NEW Nostalgia series",
-      "benefit": "",
+      "benefit": "NEW Nostalgia series",
       "description": "🍨 AFTER HOURS 🍨\n\n➡️ NEW Nostalgia series \n➡️ Flavours incl. Wang Zai Niu Nai, Paddle Pop Rainbow, Hawflakes & Ribena\n📆 Now - while stocks last\n📍 All outlets\n👉 More info: bit.ly/4z9pj7y (http://bit.ly/4z9pj7y)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -8263,13 +8662,16 @@
       "outletScope": "all_outlets",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "now_to_date",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "f87fe314-7db6-5623-a333-8cd6efeb1fbe",
@@ -8650,6 +9052,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "now_to_date",
@@ -8662,7 +9067,7 @@
       "parentKey": "unstructured",
       "merchant": "Bottega JB",
       "title": "🇮🇹 Feel like having Italian food without a flight to Rome? Check out this restaurant just across the border",
-      "benefit": "",
+      "benefit": "🇮🇹 Feel like having Italian food without a flight to Rome? Check out this restaurant just across the border",
       "description": "🇮🇹 Feel like having Italian food without a flight to Rome? Check out this restaurant just across the border — Bottega JB\n\n🍝 Read more: bit.ly/3Uu9DvF (http://bit.ly/3Uu9DvF)\n\n @confirmgood (https://t.me/confirmgood)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -8672,13 +9077,16 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "acc4424c-2864-5642-ab1b-e51fc842095d",
@@ -8707,6 +9115,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "explicit_range",
@@ -8739,6 +9150,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "explicit_range",
@@ -8771,6 +9185,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "explicit_range",
@@ -8783,7 +9200,7 @@
       "parentKey": "unstructured",
       "merchant": "NomNom JB",
       "title": "🇹🇭 Craving authentic Thai food? This Thai restaurant in Johor Bahru has got you covered",
-      "benefit": "",
+      "benefit": "🇹🇭 Craving authentic Thai food? This Thai restaurant in Johor Bahru has got you covered",
       "description": "🇹🇭 Craving authentic Thai food? This Thai restaurant in Johor Bahru has got you covered — NomNom JB\n\n🥥 Read more: bit.ly/45qNEYT (http://bit.ly/45qNEYT)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -8793,13 +9210,16 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "42960997-67ad-5dcf-a23e-669ae0113609",
@@ -8842,6 +9262,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "explicit_range",
@@ -8854,7 +9277,7 @@
       "parentKey": "unstructured",
       "merchant": "Starbucks",
       "title": "NEW Unicorn Frappucino",
-      "benefit": "",
+      "benefit": "NEW Unicorn Frappucino",
       "description": "🦄 Starbucks 🦄\n\n➡️ NEW Unicorn Frappucino\n➡️ Incl. coconut milk, strawberry acai & mango dragonfruit flavours\n📆 15 Aug - end date unspecified\n📍 Selected outlets\n👉 More info: bit.ly/4zcyiot (http://bit.ly/4zcyiot)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -8864,13 +9287,16 @@
       "outletScope": "selected_outlets",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "unknown_expiry",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "6b99ec07-b6a0-5e23-abac-bd6f00729dbf",
@@ -8879,7 +9305,7 @@
       "parentKey": "unstructured",
       "merchant": "POUT Rooftop Cafe",
       "title": "A hidden rooftop café in Singapore's CBD with skyline views, speciality coffee, artisanal French bakes and creative matcha drinks",
-      "benefit": "",
+      "benefit": "A hidden rooftop café in Singapore's CBD with skyline views, speciality coffee, artisanal French bakes and creative matcha drinks",
       "description": "🥯 A hidden rooftop café in Singapore's CBD with skyline views, speciality coffee, artisanal French bakes and creative matcha drinks — POUT Rooftop Cafe\n\n🍴 Read more: bit.ly/45LAbeB (http://bit.ly/45LAbeB)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -8889,13 +9315,16 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "6ee7dae0-bf79-5742-a52f-8e5cca40342a",
@@ -8917,6 +9346,9 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unknown_expiry_or_start"
@@ -9303,6 +9735,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "now_to_date",
@@ -9315,7 +9750,7 @@
       "parentKey": "unstructured",
       "merchant": "Chin Mee Chin",
       "title": "101-year-old coffeeshop & heritage bakery with classic breakfast sets, Nasi Lemak, Smashed Chicken Sandwiches, and Cloud Kopi",
-      "benefit": "",
+      "benefit": "101-year-old coffeeshop & heritage bakery with classic breakfast sets, Nasi Lemak, Smashed Chicken Sandwiches, and Cloud Kopi",
       "description": "🍞 101-year-old coffeeshop & heritage bakery with classic breakfast sets, Nasi Lemak, Smashed Chicken Sandwiches, and Cloud Kopi — Chin Mee Chin\n\n☕ Read more: bit.ly/4wAlt54 (http://bit.ly/4wAlt54)\n\n @tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -9325,13 +9760,16 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "24c419db-243e-5e69-a338-5aeaf5072c67",
@@ -9448,6 +9886,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "now_to_date",
@@ -9460,7 +9901,7 @@
       "parentKey": "unstructured",
       "merchant": "McDonald’s",
       "title": "Returning items incl. Samurai Beef Burger, Samurai Chicken Burger, Tamago Samurai Burger (Beef / Chicken) & Seaweed McShaker Fries",
-      "benefit": "",
+      "benefit": "Returning items incl. Samurai Beef Burger, Samurai Chicken Burger, Tamago Samurai Burger (Beef / Chicken) & Seaweed McShaker Fries",
       "description": "🍔 McDonald’s 🍔\n\n➡️ Returning items incl. Samurai Beef Burger, Samurai Chicken Burger, Tamago Samurai Burger (Beef / Chicken) & Seaweed McShaker Fries\n➡️ New items incl. Katsu Chicken Tenders, Kyoho Grape Soft Serve & Strawberry Daifuku Pie\n📆 20 Aug - end date unspecified\n📍 All outlets\n👉 More info: bit.ly/4qmO2RP (http://bit.ly/4qmO2RP)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -9470,13 +9911,16 @@
       "outletScope": "all_outlets",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "unknown_expiry",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "49d450df-ae6a-5bcb-a02c-e014edbc4693",
@@ -9485,7 +9929,7 @@
       "parentKey": "unstructured",
       "merchant": "BlackTree",
       "title": "China’s buzziest Thai Milk Tea brand lands its first outlet in Singapore at 313@somerset",
-      "benefit": "",
+      "benefit": "China’s buzziest Thai Milk Tea brand lands its first outlet in Singapore at 313@somerset",
       "description": "🍵 China’s buzziest Thai Milk Tea brand lands its first outlet in Singapore at 313@somerset – BlackTree\n\n🧋 Read more: bit.ly/4xFP3qy (http://bit.ly/4xFP3qy)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -9495,13 +9939,16 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "d01a2c98-3d71-5947-a3e3-d5810ca21d8d",
@@ -9510,7 +9957,7 @@
       "parentKey": "unstructured",
       "merchant": "KFC",
       "title": "NEW menu ft. Japanese Nanban Zinger, Chicken Bites, Loaded Fries & Sweet Potato Mochi Balls",
-      "benefit": "",
+      "benefit": "NEW menu ft. Japanese Nanban Zinger, Chicken Bites, Loaded Fries & Sweet Potato Mochi Balls",
       "description": "❤️ KFC ❤️\n\n➡️ NEW menu ft. Japanese Nanban Zinger, Chicken Bites, Loaded Fries & Sweet Potato Mochi Balls\n➡️ + merch for purchase incl. Reversible Everyday Blind Pouch, Poké Ball Bucket, apparel & more\n📆 Now - 29 Sep\n📍 All outlets\n👉 More info: bit.ly/3SGPQbW (http://bit.ly/3SGPQbW)\n\n@tastesouls (https://t.me/tastesouls)\n[Media attached: verify image/video conditions.]",
       "startDate": "2026-08-19",
       "endDate": "2026-09-29",
@@ -9520,13 +9967,17 @@
       "outletScope": "all_outlets",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "active",
       "reasons": [
-        "no_promotional_benefit"
+        "google_response_not_cached_run_with_google",
+        "no_operational_google_location"
       ],
       "datePattern": "now_to_date",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "ce678cf7-e97a-53ba-af36-e138b4be89b2",
@@ -9535,7 +9986,7 @@
       "parentKey": "unstructured",
       "merchant": "IKEA",
       "title": "NEW Swedish Meatball Ice-Cream",
-      "benefit": "",
+      "benefit": "NEW Swedish Meatball Ice-Cream",
       "description": "🍨 IKEA 🍨\n\n➡️ NEW Swedish Meatball Ice-Cream\n📆 20 - 23 Aug\n📍 IKEA Alexandra Bistro | IKEA Tampines Bistro, L1 & L3 | IKEA Jurong Bistro\n👉 More info: bit.ly/3U9idzU (http://bit.ly/3U9idzU)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": "2026-08-20",
       "endDate": "2026-08-23",
@@ -9545,13 +9996,21 @@
       "outletScope": "named_outlets",
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "expired",
       "reasons": [
-        "no_promotional_benefit"
+        "google_response_not_cached_run_with_google",
+        "google_response_not_cached_run_with_google",
+        "google_response_not_cached_run_with_google",
+        "google_response_not_cached_run_with_google",
+        "google_response_not_cached_run_with_google",
+        "no_operational_google_location"
       ],
       "datePattern": "explicit_range",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "96dd28ff-0b57-5b98-a14e-c82aaf6b2207",
@@ -9560,7 +10019,7 @@
       "parentKey": "unstructured",
       "merchant": "Park Side",
       "title": "A new all-day cafe at Singapore Botanic Gardens with creative brunch, coffee, desserts, and pet-friendly dining",
-      "benefit": "",
+      "benefit": "A new all-day cafe at Singapore Botanic Gardens with creative brunch, coffee, desserts, and pet-friendly dining",
       "description": "☕ A new all-day cafe at Singapore Botanic Gardens with creative brunch, coffee, desserts, and pet-friendly dining — Park Side\n\n🌳 Read more: bit.ly/3SiDczB (http://bit.ly/3SiDczB)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -9570,13 +10029,16 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "a00d538d-948f-575d-a271-546218edf568",
@@ -9613,6 +10075,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "explicit_range",
@@ -9625,7 +10090,7 @@
       "parentKey": "unstructured",
       "merchant": "Potato Corner",
       "title": "NEW limited Chicken Satay Flavour",
-      "benefit": "",
+      "benefit": "NEW limited Chicken Satay Flavour",
       "description": "🍟 Potato Corner 🍟\n\n➡️ NEW limited Chicken Satay Flavour\n➡️ Incl. Satay Fries & Satay Chicken Pops\n📆 Now - end date unspecified\n📍 All outlets\n👉 More info: bit.ly/45HaZFU (http://bit.ly/45HaZFU)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -9635,13 +10100,16 @@
       "outletScope": "all_outlets",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "now_to_date",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "bf414121-9361-5bd6-ab4e-8ddc3110f876",
@@ -9650,7 +10118,7 @@
       "parentKey": "unstructured",
       "merchant": "San Shu Gong",
       "title": "Discover the best of Teochew and Cantonese cuisine at New Bahru",
-      "benefit": "",
+      "benefit": "Discover the best of Teochew and Cantonese cuisine at New Bahru",
       "description": "🥢 Discover the best of Teochew and Cantonese cuisine at New Bahru — San Shu Gong \n\n🥠 Read more: bit.ly/4xR3QPs (http://bit.ly/4xR3QPs)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -9660,13 +10128,16 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "28c83fa3-e513-5011-aedf-1a529453cfc9",
@@ -9695,6 +10166,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "single_explicit_date_or_event",
@@ -9718,6 +10192,9 @@
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
       "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "expired",
       "reasons": [
         "google_branch_not_found:Suntec City, 01-645",
@@ -9733,7 +10210,7 @@
       "parentKey": "unstructured",
       "merchant": "Spicy Noodles SG",
       "title": "Taiwan-famous noodles store expands its menu with Singapore-exclusive Chicken Soup",
-      "benefit": "",
+      "benefit": "Taiwan-famous noodles store expands its menu with Singapore-exclusive Chicken Soup",
       "description": "🐔 Taiwan-famous noodles store expands its menu with Singapore-exclusive Chicken Soup — Spicy Noodles SG\n\n🍜 Read more: bit.ly/4xWNB3q (http://bit.ly/4xWNB3q)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -9743,13 +10220,16 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "b822b616-39fe-5ada-a4c7-5690c30d318e",
@@ -9890,6 +10370,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "now_to_date",
@@ -9902,7 +10385,7 @@
       "parentKey": "unstructured",
       "merchant": "Sushidan",
       "title": "NEW outlet opening at Parkway Parade",
-      "benefit": "",
+      "benefit": "NEW outlet opening at Parkway Parade",
       "description": "🍣 Sushidan 🍣\n\n➡️ NEW outlet opening at Parkway Parade\n➡️ Ft. affordable authentic Edomae sushi\n📆 TBC\n📍 Parkway Parade\n👉 More info: bit.ly/4wKnbRi (http://bit.ly/4wKnbRi)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -9912,13 +10395,16 @@
       "outletScope": "named_outlets",
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "725759b9-1dc9-5f10-a2fa-11994488ff49",
@@ -9927,7 +10413,7 @@
       "parentKey": "unstructured",
       "merchant": "Baci Baci",
       "title": "Half off pizza. Half off pasta. Full flavour. Don't miss this latest deal that might just upgrade your next pasta night",
-      "benefit": "Half off",
+      "benefit": "Half off pizza. Half off pasta. Full flavour. Don't miss this latest deal that might just upgrade your next pasta night",
       "description": "🧀 Half off pizza. Half off pasta. Full flavour. Don't miss this latest deal that might just upgrade your next pasta night – Baci Baci\n\n🍷 Read more: bit.ly/4wGoeBF (http://bit.ly/4wGoeBF)\n\n @tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -9938,6 +10424,9 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unknown_expiry_or_start"
@@ -10332,6 +10821,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "now_to_date",
@@ -10355,6 +10847,9 @@
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
       "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "expired",
       "reasons": [
         "google_branch_not_found:Plaza Singapura, B1-07",
@@ -10381,6 +10876,9 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unknown_expiry_or_start"
@@ -10395,7 +10893,7 @@
       "parentKey": "unstructured",
       "merchant": "Zapangi Coffee",
       "title": "Popular coffee & South Korean American-style soft cookie brand pop-up in SG",
-      "benefit": "",
+      "benefit": "Popular coffee & South Korean American-style soft cookie brand pop-up in SG",
       "description": "🍪 Zapangi Coffee 🍪\n\n➡️ Popular coffee & South Korean American-style soft cookie brand pop-up in SG\n➡️ Cookie flavours incl. salted milk, cheesy chunk, coconut & more\n📆 Now - 10 Sep\n📍 Isetan Scotts Supermarket, B1\n👉 More info: bit.ly/4zD74Yh (http://bit.ly/4zD74Yh)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": "2026-08-26",
       "endDate": "2026-09-10",
@@ -10405,13 +10903,17 @@
       "outletScope": "named_outlets",
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "expired",
       "reasons": [
-        "no_promotional_benefit"
+        "google_response_not_cached_run_with_google",
+        "no_operational_google_location"
       ],
       "datePattern": "now_to_date",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "c0c899da-4767-577e-a8af-58a85795fbc6",
@@ -10420,7 +10922,7 @@
       "parentKey": "unstructured",
       "merchant": "7-Eleven",
       "title": "NEW Onigiri Ice Cream",
-      "benefit": "",
+      "benefit": "NEW Onigiri Ice Cream",
       "description": "🍙 7-Eleven 🍙\n\n➡️ NEW Onigiri Ice Cream\n➡️ Incl. oat & rice flavours with seaweed pieces\n📆 Now - while stocks last\n📍 Selected outlets\n👉 More info: bit.ly/4iuUX9C (http://bit.ly/4iuUX9C)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -10430,13 +10932,16 @@
       "outletScope": "selected_outlets",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "now_to_date",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "d87f59ff-0292-58a4-af7b-a43130a73c35",
@@ -10456,6 +10961,9 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unresolved_weekday_restriction",
@@ -10491,6 +10999,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "explicit_range",
@@ -10619,6 +11130,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "explicit_range",
@@ -10631,7 +11145,7 @@
       "parentKey": "unstructured",
       "merchant": "Casa Lola",
       "title": "Step into a Barcelona-inspired bodega where authentic Spanish flavours, grandma’s cooking, and cosy neighbourhood vibes collide",
-      "benefit": "",
+      "benefit": "Step into a Barcelona-inspired bodega where authentic Spanish flavours, grandma’s cooking, and cosy neighbourhood vibes collide",
       "description": "♨️ Step into a Barcelona-inspired bodega where authentic Spanish flavours, grandma’s cooking, and cosy neighbourhood vibes collide – Casa Lola\n\n🍷 Read more: bit.ly/4gwpWzA (http://bit.ly/4gwpWzA)\n\n @tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -10641,13 +11155,16 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "ffaa0963-696f-5878-a114-7d6eb85c30b4",
@@ -10732,6 +11249,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "active",
       "reasons": [],
       "datePattern": "now_to_date",
@@ -10755,6 +11275,9 @@
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unknown_expiry_or_start"
@@ -10769,7 +11292,7 @@
       "parentKey": "unstructured",
       "merchant": "More Yogurt",
       "title": "Your next yogurt spot is now open in Jewel & Waterway Point",
-      "benefit": "",
+      "benefit": "Your next yogurt spot is now open in Jewel & Waterway Point",
       "description": "🫐 Your next yogurt spot is now open in Jewel & Waterway Point – More Yogurt \n\n🥛 Read more: bit.ly/4wPfSrt (http://bit.ly/4wPfSrt)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -10779,13 +11302,16 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "aa1db2d8-3678-57b1-a7d3-6e8ef09f0b26",
@@ -10814,6 +11340,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "single_explicit_date_or_event",
@@ -10837,6 +11366,9 @@
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
       "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "expired",
       "reasons": [
         "google_branch_not_found:Changi Airport T3, B2-11",
@@ -10873,6 +11405,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "now_to_date",
@@ -10885,7 +11420,7 @@
       "parentKey": "unstructured",
       "merchant": "Fangko House",
       "title": "Explore bold Indonesian flavours with a modern twist at this cafe near Boat Quay",
-      "benefit": "",
+      "benefit": "Explore bold Indonesian flavours with a modern twist at this cafe near Boat Quay",
       "description": "🐔 Explore bold Indonesian flavours with a modern twist at this cafe near Boat Quay – Fangko House\n\n🌶️ Read more: bit.ly/4gsv7ll (http://bit.ly/4gsv7ll)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -10895,13 +11430,16 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "690b3fb6-aa77-5a1c-a4c0-ccc3a2e3336e",
@@ -10910,7 +11448,7 @@
       "parentKey": "unstructured",
       "merchant": "Coffeehouse by Kobashi",
       "title": "NEW takeover sourdough flavours",
-      "benefit": "",
+      "benefit": "NEW takeover sourdough flavours",
       "description": "🥐 Coffeehouse by Kobashi 🥐\n\n➡️ NEW takeover sourdough flavours\n➡️ Incl. Shio’Much Cheese & Zesty Sunburst\n📆 Now - 30 Sep\n🕣 10am - 6pm (Mon - Sat) | 10am - 4pm (Sun)\n📍 79 South Bridge Road\n👉 More info: bit.ly/4xvu4XH (http://bit.ly/4xvu4XH)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": "2026-09-01",
       "endDate": "2026-09-30",
@@ -10920,13 +11458,17 @@
       "outletScope": "named_outlets",
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "active",
       "reasons": [
-        "no_promotional_benefit"
+        "google_response_not_cached_run_with_google",
+        "no_operational_google_location"
       ],
       "datePattern": "now_to_date",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "0fb6d32b-8615-503c-a24f-aa434458c853",
@@ -11115,6 +11657,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "active",
       "reasons": [],
       "datePattern": "now_to_date",
@@ -11127,7 +11672,7 @@
       "parentKey": "unstructured",
       "merchant": "Bari Bari Grand",
       "title": "The doors are open, the deals are hot. Enjoy 5 days of steak promos from 1 to 5 September 2026 at The Capitol",
-      "benefit": "",
+      "benefit": "The doors are open, the deals are hot. Enjoy 5 days of steak promos from 1 to 5 September 2026 at The Capitol",
       "description": "🥩 The doors are open, the deals are hot. Enjoy 5 days of steak promos from 1 to 5 September 2026 at The Capitol – Bari Bari Grand \n\n🍈 Read more: bit.ly/4ion0Yz (http://bit.ly/4ion0Yz)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -11137,13 +11682,16 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "needs_content_resolution",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "promotional_benefit_not_established"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "explicit_range",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "3d02c398-1ea0-53ee-a1f6-191d61a43c3f",
@@ -11348,6 +11896,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "single_explicit_date_or_event",
@@ -11360,7 +11911,7 @@
       "parentKey": "unstructured",
       "merchant": "Pepper Lunch",
       "title": "Fan-favourite Cheesy Omelette RETURNS",
-      "benefit": "",
+      "benefit": "Fan-favourite Cheesy Omelette RETURNS",
       "description": "🍳 Pepper Lunch 🍳\n\n➡️ Fan-favourite Cheesy Omelette RETURNS\n➡️ Incl. Beef Slices Cheesy Omelette, Chicken Steak Cheesy Omelette & Striploin Steak Cheesy Omelette + drink\n📆 Now - end date unspecified\n📍 All outlets\n👉 More info: bit.ly/4yfJkbp (http://bit.ly/4yfJkbp)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -11370,13 +11921,16 @@
       "outletScope": "all_outlets",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "now_to_date",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "f8c8e623-3c7f-58f5-a4f6-2eb560e160dc",
@@ -11385,7 +11939,7 @@
       "parentKey": "unstructured",
       "merchant": "Cavern Restaurant",
       "title": "Singapore’s only cave restaurant is celebrating its first anniversary with a refreshed menu",
-      "benefit": "",
+      "benefit": "Singapore’s only cave restaurant is celebrating its first anniversary with a refreshed menu",
       "description": "🍽️ Singapore’s only cave restaurant is celebrating its first anniversary with a refreshed menu – Cavern Restaurant\n\n🥩 Read more: bit.ly/4ylfzWN (http://bit.ly/4ylfzWN)\n\n @tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -11395,13 +11949,16 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "7b719363-09c2-5475-a577-f53dcf93480d",
@@ -11430,6 +11987,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "explicit_range",
@@ -11453,6 +12013,9 @@
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
       "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "expired",
       "reasons": [
         "google_branch_not_found:Far East Square, 01-01",
@@ -11479,6 +12042,9 @@
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
       "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "expired",
       "reasons": [
         "google_branch_not_found:Far East Square, 01-01",
@@ -11505,6 +12071,9 @@
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
       "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "expired",
       "reasons": [
         "google_branch_not_found:Far East Square, 01-01",
@@ -11531,6 +12100,9 @@
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
       "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "upcoming",
       "reasons": [
         "google_branch_not_found:Far East Square, 01-01",
@@ -11546,7 +12118,7 @@
       "parentKey": "unstructured",
       "merchant": "Next Door Spanish Cafe",
       "title": "Who needs to fly to Spain when Spain is next door? Try authentic & traditional Spanish food",
-      "benefit": "",
+      "benefit": "Who needs to fly to Spain when Spain is next door? Try authentic & traditional Spanish food",
       "description": "🥘 Who needs to fly to Spain when Spain is next door? Try authentic & traditional Spanish food – Next Door Spanish Cafe \n\n🍹 Read more: bit.ly/4h6cOTg (http://bit.ly/4h6cOTg)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -11556,13 +12128,16 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "56c2943c-fc52-5eef-af03-9edfe3a7f899",
@@ -11759,6 +12334,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "today",
@@ -11771,7 +12349,7 @@
       "parentKey": "unstructured",
       "merchant": "Shin Katsu",
       "title": "Welcome to a katsu experience straight out of Japan, now located in the CBD",
-      "benefit": "",
+      "benefit": "Welcome to a katsu experience straight out of Japan, now located in the CBD",
       "description": "🍛 Welcome to a katsu experience straight out of Japan, now located in the CBD – Shin Katsu\n\n🎏 Read more: bit.ly/4zPLos5 (http://bit.ly/4zPLos5)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -11781,13 +12359,16 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "0c6d625b-e212-5432-ad7f-ee05fe4a3d3b",
@@ -12280,6 +12861,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "today",
@@ -12384,6 +12968,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "single_explicit_date_or_event",
@@ -12488,6 +13075,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "single_explicit_date_or_event",
@@ -12592,6 +13182,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "active",
       "reasons": [],
       "datePattern": "single_explicit_date_or_event",
@@ -12696,6 +13289,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "upcoming",
       "reasons": [],
       "datePattern": "single_explicit_date_or_event",
@@ -12719,6 +13315,9 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unknown_expiry_or_start"
@@ -12769,6 +13368,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "single_explicit_date_or_event",
@@ -12781,7 +13383,7 @@
       "parentKey": "unstructured",
       "merchant": "MilkyShop",
       "title": "Viral Korean butter sand pop-up lands in SG",
-      "benefit": "",
+      "benefit": "Viral Korean butter sand pop-up lands in SG",
       "description": "🧈 MilkyShop 🧈\n\n➡️ Viral Korean butter sand pop-up lands in SG\n➡️ Flavours incl. Crème Brûlée, Milk Caramel, Peanut & Matcha\n📆 Now - 2 Jan 2027\n🕣 11am - 9pm\n📍 New Bahru, Factory Block L1\n👉 More info: bit.ly/3TcJAce (http://bit.ly/3TcJAce)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": "2026-09-08",
       "endDate": "2027-01-02",
@@ -12791,13 +13393,18 @@
       "outletScope": "named_outlets",
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "active",
       "reasons": [
-        "no_promotional_benefit"
+        "google_response_not_cached_run_with_google",
+        "google_response_not_cached_run_with_google",
+        "no_operational_google_location"
       ],
       "datePattern": "now_to_date",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "59b73637-2480-5f48-abe2-a949fc08b51e",
@@ -12806,7 +13413,7 @@
       "parentKey": "unstructured",
       "merchant": "Dill",
       "title": "Craving something new? At this restaurant, you can enjoy Nordic flavours with Singapore soul",
-      "benefit": "",
+      "benefit": "Craving something new? At this restaurant, you can enjoy Nordic flavours with Singapore soul",
       "description": "🍴 Craving something new? At this restaurant, you can enjoy Nordic flavours with Singapore soul – Dill\n\n🌿 Read more: bit.ly/3TgezUQ (http://bit.ly/3TgezUQ)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -12816,13 +13423,16 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "d3ad1420-f9dd-5baa-ae24-d6917313649f",
@@ -12848,6 +13458,9 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unknown_expiry_or_start"
@@ -12873,6 +13486,9 @@
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
       "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
       "lifecycle": "active",
       "reasons": [
         "merchant_unresolved"
@@ -12887,7 +13503,7 @@
       "parentKey": "unstructured",
       "merchant": "Estiatorio Milos",
       "title": "🇬🇷 From sea to table, here are Greek dishes that stood out to us",
-      "benefit": "",
+      "benefit": "🇬🇷 From sea to table, here are Greek dishes that stood out to us",
       "description": "🇬🇷 From sea to table, here are Greek dishes that stood out to us — Estiatorio Milos\n\n🦞 Read more: bit.ly/4yrXWV8 (http://bit.ly/4yrXWV8)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -12897,13 +13513,16 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "7a0a9aea-47b5-5456-a940-37b19c0e48eb",
@@ -12912,7 +13531,7 @@
       "parentKey": "unstructured",
       "merchant": "Sushiro",
       "title": "NEW Pokémon collab ft. merch with purchase",
-      "benefit": "",
+      "benefit": "NEW Pokémon collab ft. merch with purchase",
       "description": "🍣 Sushiro 🍣\n\n➡️ NEW Pokémon collab ft. merch with purchase\n➡️ Exclusive merch incl. food picks, stickers, keychain, card case with lanyard & towels\n📆 Now - 30 Sep (Wave 1) | 1 - 22 Oct (Wave 2)\n📍 All outlets\n❗️ T&Cs apply.\n👉 More info: bit.ly/4yxtCsn (http://bit.ly/4yxtCsn)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -12922,13 +13541,16 @@
       "outletScope": "all_outlets",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "requires_split"
       ],
       "datePattern": "multiple_ranges",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "49a95712-d7c2-5695-aca8-d22abbebc8b7",
@@ -12950,6 +13572,9 @@
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
       "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
         "unknown_expiry_or_start"
@@ -12964,7 +13589,7 @@
       "parentKey": "unstructured",
       "merchant": "Dian Xiao Er",
       "title": "Claypot Sliced Fish Curry and Solo Lunch Sets for just $9.90",
-      "benefit": "",
+      "benefit": "Claypot Sliced Fish Curry and Solo Lunch Sets for just $9.90",
       "description": "🍲 Claypot Sliced Fish Curry and Solo Lunch Sets for just $9.90 – Dian Xiao Er\n\n🐤 Read more: bit.ly/4ykZJes (http://bit.ly/4ykZJes)\n\n @tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -12974,13 +13599,16 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "4629522c-f8d6-548c-acc7-6eac7b16dfd2",
@@ -12989,7 +13617,7 @@
       "parentKey": "unstructured",
       "merchant": "Racines",
       "title": "NEW Turf & Tide edition Ultimate Brunch Buffet",
-      "benefit": "",
+      "benefit": "NEW Turf & Tide edition Ultimate Brunch Buffet",
       "description": "🐟 Racines 🐟\n\n➡️ NEW Turf & Tide edition Ultimate Brunch Buffet\n➡️ Incl. hot food, soups, salads, local-inspired French desserts & more\n➡️ Highlights incl. Angus Beef Striploin, Smoke Mussel Salad, Salmon Sashimi & more\n📆 Now - 31 Oct | Every Sat\n🕣 12 - 3pm\n📍 9 Wallich St, Level 5\n❗️ T&Cs apply.\n👉 More info: bit.ly/4xOPyzd (http://bit.ly/4xOPyzd)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -13001,13 +13629,16 @@
       "outletScope": "named_outlets",
       "mapCoverageBasis": "source_named_outlets",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "requires_split"
       ],
       "datePattern": "multiple_ranges",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "9cb4e729-234a-5e1e-a78f-a47f89a6a94f",
@@ -13016,7 +13647,7 @@
       "parentKey": "unstructured",
       "merchant": "Nasty Cookie",
       "title": "NEW Dubai Chewy Cookie Mooncake",
-      "benefit": "",
+      "benefit": "NEW Dubai Chewy Cookie Mooncake",
       "description": "🩵 Nasty Cookie 🩵\n\n➡️ NEW Dubai Chewy Cookie Mooncake\n➡️ Set incl. 4 Dubai Chewy Cookie mooncakes, 4 Dubai Chewy Cookies' spreads & an exclusive cutlery set\n \n📆 Now (Online) | 12 Sep onwards (In-stores)\n📍 Online & In-stores\n👉 Shop here: bit.ly/46TgqC4 (http://bit.ly/46TgqC4)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -13026,13 +13657,16 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "requires_split"
       ],
       "datePattern": "multiple_ranges",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "8a564775-1b0e-5cc5-aac0-0dc7d8619bf2",
@@ -13041,7 +13675,7 @@
       "parentKey": "unstructured",
       "merchant": "Viva Lavender",
       "title": "A neighbourhood gem serving European-Asian cuisine has just expanded its menu and lunch-time promos",
-      "benefit": "",
+      "benefit": "A neighbourhood gem serving European-Asian cuisine has just expanded its menu and lunch-time promos",
       "description": "🍽️ A neighbourhood gem serving European-Asian cuisine has just expanded its menu and lunch-time promos – Viva Lavender \n\n🌃 Read more: bit.ly/46TcSzK (http://bit.ly/46TcSzK)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -13051,13 +13685,16 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "needs_content_resolution",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "promotional_benefit_not_established"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "49696b5f-a03f-5407-a386-a9c5e975b2b0",
@@ -13066,7 +13703,7 @@
       "parentKey": "unstructured",
       "merchant": "SIDES by the Sidemen",
       "title": "Trick or treat? Enjoy a treat with this new Halloween burger, limited time only",
-      "benefit": "",
+      "benefit": "Trick or treat? Enjoy a treat with this new Halloween burger, limited time only",
       "description": "🍔 Trick or treat? Enjoy a treat with this new Halloween burger, limited time only – SIDES by the Sidemen\n\n👻 Read more: bit.ly/46mhH4E (http://bit.ly/46mhH4E)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -13076,13 +13713,16 @@
       "outletScope": "unspecified",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
       "lifecycle": "unknown",
       "reasons": [
-        "no_promotional_benefit"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "unknown_expiry",
-      "genuine": false
+      "genuine": true
     },
     {
       "id": "04c0052d-32e6-5018-aaeb-13b5c3290e19",
@@ -13583,6 +14223,9 @@
         }
       ],
       "status": "ready",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "ready",
       "lifecycle": "expired",
       "reasons": [],
       "datePattern": "now_to_date",
@@ -13595,7 +14238,7 @@
       "parentKey": "unstructured",
       "merchant": "Koi Thé",
       "title": "NEW 3L Sharing Tea Pack ($52)",
-      "benefit": "",
+      "benefit": "NEW 3L Sharing Tea Pack ($52)",
       "description": "🧋 Koi Thé 🧋\n\n➡️ NEW 3L Sharing Tea Pack ($52)\n➡️ Flavours incl. Green Milk Tea, Peach Green Tea, Oolong Milk Tea & more\n➡️ + $8 for topping\n\n📆 Now\n📍 Online\n❗️ T&Cs apply.\n👉 More info: bit.ly/4gTTqJh (http://bit.ly/4gTTqJh)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
       "startDate": null,
       "endDate": null,
@@ -13605,29 +14248,41 @@
       "outletScope": "online_only",
       "mapCoverageBasis": "google_merchant_locations",
       "outlets": [],
-      "status": "exclude",
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "online_only",
       "lifecycle": "unknown",
       "reasons": [
-        "online_only_not_for_map"
+        "unknown_expiry_or_start"
       ],
       "datePattern": "none",
-      "genuine": false
+      "genuine": true
     }
   ],
   "failures": [],
+  "statusCounts": {
+    "ready": 58,
+    "needs_validity": 72,
+    "needs_location": 28,
+    "needs_content_resolution": 42
+  },
   "metrics": {
     "Sources": 136,
     "Parsed offers": 200,
-    "Excluded": 79,
-    "Excluded non-offers": 75,
-    "Excluded online-only": 4,
+    "Total records": 200,
+    "Content resolved": 158,
+    "Validity resolved": 92,
+    "Online only": 4,
+    "Malformed/unsupported": 1,
     "MVP ready": 58,
-    "Needs validity": 32,
-    "Needs content resolution": 8,
-    "Needs location": 23,
+    "Needs validity": 108,
+    "Needs content resolution": 42,
+    "Needs location": 138,
     "Map-ready": 58,
-    "Expired but valid": 68,
-    "Active": 10,
+    "Active": 17,
+    "Expired": 72,
+    "Upcoming": 3,
     "Failed": 0
   }
 }

@@ -1242,3 +1242,17 @@ h1 {
   line-height: 1.5;
   pointer-events: none;
 }
+
+.mvp-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 8px 0;
+}
+.mvp-badges span {
+  font-size: 11px;
+  padding: 3px 6px;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  text-transform: capitalize;
+}

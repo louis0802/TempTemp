@@ -28,59 +28,25 @@ export function mvpContent(offer: ParsedOffer): ParsedOffer {
     p.title = dash[1].trim();
   }
   if (/https?:|^\$|\[Unsupported/.test(p.merchant)) p.merchant = "";
-  const price = /\$\d+(?:\.\d{1,2})?/.test(p.title);
-  const campaign =
-    /[📅📆]\s*(?:Now\s*(?:-|till)|Today|Every|\d)/iu.test(p.text) &&
-    !/end date unspecified|while stocks last/iu.test(
-      p.text.split("\n").find((l) => /[📅📆]/u.test(l)) ?? "",
-    );
-  const special =
-    /anniversary|celebrate|limited to first|usual|U\.?P\.?\s*\$|save\b|promo|deal|\bfor \d+\b/i.test(
-      p.text,
-    );
-  if (
-    !p.genuine &&
-    price &&
-    (campaign || special) &&
-    !/^NEW\b/i.test(p.title)
-  ) {
-    p.benefit = p.title;
-    p.genuine = true;
-  }
-  if (
-    !p.genuine &&
-    /\bcomplimentary\s+(?:plate|drink|dessert)/i.test(p.title)
-  ) {
-    p.benefit = p.title;
-    p.genuine = true;
-  }
-  if (!p.genuine && /half (?:price|off)/i.test(p.title)) {
-    p.benefit = "Half off";
-    p.genuine = true;
-  }
-  const launch = /^NEW\b|\bRETURNS\b|pop-up (?:lands|in)|brand pop-up/i.test(
-    p.title,
+  if (!p.title || /^\s*—/.test(p.title)) p.title = heading;
+  const possessiveCampaign = p.merchant.match(
+    /^(.+?)[’']s\s+(.+(?:Bundle|Set).*)$/i,
   );
-  const nonoffer =
-    /Personality Quiz|Introducing .*Telegram Channel|Dine for Good/i.test(
-      heading,
-    );
-  if (
-    !p.genuine &&
-    /Food (?:Fair|Festival|Bazaar)|Night Bazaar|GrillFest|F&B Expo|\s-\s/.test(
-      heading,
-    ) &&
-    !p.text.includes("\n")
-  )
-    p.nonPromotion = true;
-  if (
-    !p.genuine &&
-    ((editorial && !/\bpromos?\b/i.test(p.title)) ||
-      launch ||
-      nonoffer ||
-      /#shoutout\b/.test(p.text) ||
-      (/\$\d/.test(p.title) && !campaign && !special))
-  )
-    p.nonPromotion = true;
+  if (possessiveCampaign) {
+    p.merchant = possessiveCampaign[1];
+    p.title = heading;
+  }
+  if (/\[Unsupported/i.test(p.text)) {
+    p.merchant = "";
+    p.title = "";
+    p.benefit = "";
+  }
+  // A link alone is not an extracted offer proposition.
+  if (/^(?:https?:\/\/|(?:tco\.sg|bit\.ly)\/)/i.test(p.title)) p.title = "";
+  // Inclusion comes from the curated corpus, not strict savings heuristics.
+  // A source-owned title is a display proposition; never synthesize savings.
+  p.benefit = p.benefit || p.title;
+  p.genuine = true;
+  p.nonPromotion = false;
   return p;
 }

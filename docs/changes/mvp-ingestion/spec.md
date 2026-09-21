@@ -1,3 +1,5 @@
+> Historical MVP implementation record. Curated inclusion, independent status dimensions and full development preview now follow [curated MVP retention](../curated-mvp-retention/verification.md); earlier exclusion counts and ready-only preview behavior below are superseded.
+
 # MVP ingestion specification
 
 1. Every source produces one or more auditable records with stable identity, original child terms, merchant/content, validity, location scope and readiness reasons.

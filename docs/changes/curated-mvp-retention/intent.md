@@ -1,0 +1,3 @@
+# Curated MVP retention intent
+The 136 curated sources establish promotional inclusion. Generic discount heuristics currently exclude 79 of 200 presentation records, hiding fixed prices, bundles, launches and collaborations. Retain every source-owned record so reviewers can inspect the complete dataset without inventing savings, validity or locations.
+Scope is MVP ingestion, presentation, reporting and source-reviewed conformance. Strict verification/publication and Google matching rules remain unchanged. No deployment or recurring collection is requested. Success means zero heuristic exclusions, all 79 exclusions individually audited, complete historical preview and unchanged live eligibility.

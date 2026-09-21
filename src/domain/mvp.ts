@@ -45,14 +45,35 @@ export const mvpPromotionSchema = z
       "needs_validity",
       "needs_content_resolution",
       "needs_location",
-      "exclude",
     ]),
+    contentStatus: z.enum(["resolved", "needs_content_resolution"]),
+    validityStatus: z.enum(["resolved", "needs_validity"]),
+    mapStatus: z.enum(["ready", "needs_location", "online_only"]),
     lifecycle: z.enum(["active", "expired", "upcoming", "unknown"]),
     reasons: z.array(z.string()),
     datePattern: z.string(),
+    // Legacy field: curated inclusion, not verified savings or publication approval.
     genuine: z.boolean(),
   })
   .superRefine((p, ctx) => {
+    if (
+      p.mapStatus === "online_only" &&
+      (p.outlets.length || p.outletScope !== "online_only")
+    )
+      ctx.addIssue({
+        code: "custom",
+        message: "Online-only records cannot have physical outlets",
+      });
+    if (p.outletScope === "online_only" && p.mapStatus !== "online_only")
+      ctx.addIssue({
+        code: "custom",
+        message: "Online-only scope requires online-only map status",
+      });
+    if (p.mapStatus === "ready" && !p.outlets.length)
+      ctx.addIssue({
+        code: "custom",
+        message: "Map-ready requires Google outlets",
+      });
     if (
       p.status === "ready" &&
       (!p.merchant ||
@@ -62,9 +83,10 @@ export const mvpPromotionSchema = z
         !p.startDate ||
         !p.endDate ||
         p.startDate > p.endDate ||
-        !p.outlets.length ||
+        (p.mapStatus !== "online_only" && !p.outlets.length) ||
         p.lifecycle === "unknown" ||
-        p.outletScope === "online_only")
+        p.contentStatus !== "resolved" ||
+        p.validityStatus !== "resolved")
     )
       ctx.addIssue({ code: "custom", message: "Incomplete MVP-ready record" });
   });
@@ -94,8 +116,12 @@ export function visibleMvp(
     .map((p) => ({ ...p, lifecycle: lifecycle(p.startDate, p.endDate, now) }))
     .filter(
       (p) =>
-        p.status === "ready" &&
-        (p.lifecycle === "active" ||
-          (includeExpired && p.lifecycle === "expired")),
+        includeExpired ||
+        (p.status === "ready" &&
+          p.contentStatus === "resolved" &&
+          p.validityStatus === "resolved" &&
+          p.mapStatus === "ready" &&
+          p.outlets.length > 0 &&
+          p.lifecycle === "active"),
     );
 }

@@ -51,12 +51,6 @@ export function conformance(records: MvpPromotion[]) {
         ),
       );
     const differences: string[] = [];
-    const expectedExclude = [
-      "article_or_nonoffer",
-      "launch_or_ordinary_menu",
-    ].includes(b.offerStructure);
-    if (matched.some((p) => (p.status === "exclude") !== expectedExclude))
-      differences.push("offer_disposition");
     const patternMap: Record<string, string[]> = {
       now_to_explicit_end: ["now_to_date"],
       explicit_date_range: ["explicit_range"],

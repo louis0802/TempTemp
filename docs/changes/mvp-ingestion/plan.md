@@ -1,3 +1,5 @@
+> Historical MVP implementation record. Curated inclusion, independent status dimensions and full development preview now follow [curated MVP retention](../curated-mvp-retention/verification.md); earlier exclusion counts and ready-only preview behavior below are superseded.
+
 # MVP ingestion execution plan
 
 - [x] Add independent MVP schema, lifecycle/filtering and pipeline (spec 1–4).

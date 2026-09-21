@@ -260,23 +260,29 @@ export class MvpPipeline {
           lifecycle: lifecycle(dates.startDate, dates.endDate, now),
           reasons: [],
           datePattern: dates.pattern,
-          genuine: offer.genuine,
+          genuine: true,
+          contentStatus: "resolved",
+          validityStatus: "resolved",
+          mapStatus:
+            scope.scope === "online_only" ? "online_only" : "needs_location",
         };
-        if (scope.scope === "online_only" || offer.nonPromotion) {
-          p.status = "exclude";
-          p.reasons = [
-            scope.scope === "online_only"
-              ? "online_only_not_for_map"
-              : "no_promotional_benefit",
-          ];
-        } else if (!offer.merchant || !offer.title || !offer.genuine) {
-          p.status = "needs_content_resolution";
-          p.reasons = [
+        if (
+          !offer.merchant ||
+          !offer.title ||
+          !offer.benefit ||
+          /\[Unsupported/i.test(offer.text)
+        ) {
+          p.contentStatus = "needs_content_resolution";
+          p.reasons.push(
             ...(!offer.merchant ? ["merchant_unresolved"] : []),
             ...(!offer.title ? ["title_unresolved"] : []),
-            ...(!offer.genuine ? ["promotional_benefit_not_established"] : []),
-          ];
-        } else if (
+            ...(!offer.benefit ? ["offer_proposition_unresolved"] : []),
+            ...(/\[Unsupported/i.test(offer.text)
+              ? ["unsupported_source_text"]
+              : []),
+          );
+        }
+        if (
           !dates.startDate ||
           !dates.endDate ||
           dates.issues.some((i) =>
@@ -285,11 +291,18 @@ export class MvpPipeline {
             ),
           )
         ) {
-          p.status = "needs_validity";
-          p.reasons = dates.issues.length
-            ? dates.issues
-            : ["unknown_expiry_or_start"];
-        } else {
+          p.validityStatus = "needs_validity";
+          p.reasons.push(
+            ...(dates.issues.length
+              ? dates.issues
+              : ["unknown_expiry_or_start"]),
+          );
+        }
+        if (
+          p.contentStatus === "resolved" &&
+          p.validityStatus === "resolved" &&
+          p.mapStatus !== "online_only"
+        ) {
           try {
             const snapshot = await this.discovery.discover(
               offer.merchant,
@@ -314,7 +327,7 @@ export class MvpPipeline {
             p.outlets = [...outlets.values()].sort((a, b) =>
               a.googlePlaceId.localeCompare(b.googlePlaceId),
             );
-            p.status = p.outlets.length ? "ready" : "needs_location";
+            p.mapStatus = p.outlets.length ? "ready" : "needs_location";
             p.reasons = p.outlets.length
               ? []
               : [
@@ -329,8 +342,14 @@ export class MvpPipeline {
             ];
           }
         }
-        if (!p.reasons.length && p.status !== "ready")
-          p.reasons = ["content_unresolved"];
+        p.status =
+          p.contentStatus !== "resolved"
+            ? "needs_content_resolution"
+            : p.validityStatus !== "resolved"
+              ? "needs_validity"
+              : p.mapStatus === "needs_location"
+                ? "needs_location"
+                : "ready";
         output.push(mvpPromotionSchema.parse(p));
       }
     return output;

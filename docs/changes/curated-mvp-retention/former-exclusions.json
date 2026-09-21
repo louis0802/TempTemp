@@ -1,0 +1,1075 @@
+[
+  {
+    "id": "bf5eaca0-1b09-5cdb-a1a3-0bb5b5fc6d47",
+    "sourceUrl": "https://t.me/sgfooddeals/4871",
+    "title": "Mr. Farmer 8.8 Grocery Sale from $2.80",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "online_only",
+    "classification": "online-only promotion retained without map pins",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original heading explicitly offers Mr. Farmer groceries from $2.80 online. Retained without pins; current extractor does not isolate the merchant from this unstructured heading and the source gives no expiry."
+  },
+  {
+    "id": "da48cc8e-5233-528c-a763-60a5efae344e",
+    "sourceUrl": "https://t.me/sgfooddeals/4876",
+    "title": "$6.50 Fried Chicken Rice",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Owned child states a dish price but provides only a shortlink, with no merchant identity or bounded validity. Preserve the priced proposition for content review; do not guess the linked merchant."
+  },
+  {
+    "id": "7f205b4c-889b-5d32-a9a9-52f4bfce7af4",
+    "sourceUrl": "https://t.me/sgfooddeals/4876",
+    "title": "$8.50 Tom Yum Noodle Soup",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Owned child states a dish price but provides only a shortlink, with no merchant identity or bounded validity. Preserve the priced proposition for content review; do not guess the linked merchant."
+  },
+  {
+    "id": "ddd69ba4-447f-59e8-a7c2-80b962eef5a4",
+    "sourceUrl": "https://t.me/sgfooddeals/4876",
+    "title": "$9.80 Kway Teow Soup with Beef",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Owned child states a dish price but provides only a shortlink, with no merchant identity or bounded validity. Preserve the priced proposition for content review; do not guess the linked merchant."
+  },
+  {
+    "id": "e0a18fca-b2f2-58fe-a41a-702d1b9e4f06",
+    "sourceUrl": "https://t.me/sgfooddeals/4876",
+    "title": "$10 Sliced Beef Ribeye",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Owned child states a dish price but provides only a shortlink, with no merchant identity or bounded validity. Preserve the priced proposition for content review; do not guess the linked merchant."
+  },
+  {
+    "id": "d21c2122-fdb0-5d96-ad63-0abb282ace25",
+    "sourceUrl": "https://t.me/sgfooddeals/4876",
+    "title": "Pork Ribs Soup from $8.80",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Owned child states a dish price but provides only a shortlink, with no merchant identity or bounded validity. Preserve the priced proposition for content review; do not guess the linked merchant."
+  },
+  {
+    "id": "f763a80f-f5ff-5880-ad88-695ca5c44cad",
+    "sourceUrl": "https://t.me/sgfooddeals/4878",
+    "title": "Introducing SG Nightlife & Bars Telegram Channel",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Channel promotion has no redemption merchant or offer details. Preserve its heading for content review."
+  },
+  {
+    "id": "05f5126c-a2d5-57a6-adbe-c186640b7f7d",
+    "sourceUrl": "https://t.me/sgfooddeals/4879",
+    "title": "$8.80 Rice Bowl",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Each named merchant owns its priced lunch proposition. No campaign dates appear in the original roundup; retain with unknown validity."
+  },
+  {
+    "id": "38e1b1fe-2879-5417-ae12-2f86d3211969",
+    "sourceUrl": "https://t.me/sgfooddeals/4879",
+    "title": "$9.90 Lunch Combo",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Each named merchant owns its priced lunch proposition. No campaign dates appear in the original roundup; retain with unknown validity."
+  },
+  {
+    "id": "2d18a973-6f62-5917-a100-120127021fab",
+    "sourceUrl": "https://t.me/sgfooddeals/4879",
+    "title": "$9 Western Lunch Set",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Each named merchant owns its priced lunch proposition. No campaign dates appear in the original roundup; retain with unknown validity."
+  },
+  {
+    "id": "c8669045-cdc4-50f1-ad7e-b1227a904ebe",
+    "sourceUrl": "https://t.me/sgfooddeals/4879",
+    "title": "$9.90 Hotpot Meal",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Each named merchant owns its priced lunch proposition. No campaign dates appear in the original roundup; retain with unknown validity."
+  },
+  {
+    "id": "4129ea5d-c833-5669-a295-2c1716f55211",
+    "sourceUrl": "https://t.me/sgfooddeals/4879",
+    "title": "Lunch Set from $9.90",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Each named merchant owns its priced lunch proposition. No campaign dates appear in the original roundup; retain with unknown validity."
+  },
+  {
+    "id": "5637306f-5e37-5389-aa72-cf688debaf33",
+    "sourceUrl": "https://t.me/sgfooddeals/4880",
+    "title": "Dine for Good at Marina Bay Sands this Aug",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved"
+    ],
+    "review": "Charity campaign names Marina Bay Sands and multiple restaurants, with Now till 30 Aug. Retain the campaign; single merchant ownership remains unresolved rather than substituting a bank/venue location for participating restaurants."
+  },
+  {
+    "id": "fbb7927c-367d-5fc8-aa72-7e8d929a50d4",
+    "sourceUrl": "https://t.me/sgfooddeals/4884",
+    "title": "Sentosa GrillFest (Till 16 Aug)",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original roundup child names an event and a parenthesized period. Retain event proposition; merchant ownership and the unsupported inline validity structure remain for review. No expiry is invented."
+  },
+  {
+    "id": "bdd48f65-6e46-5c6a-a4ad-20b3903d856d",
+    "sourceUrl": "https://t.me/sgfooddeals/4884",
+    "title": "Hougang Food Fair (Till 19 Aug)",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original roundup child names an event and a parenthesized period. Retain event proposition; merchant ownership and the unsupported inline validity structure remain for review. No expiry is invented."
+  },
+  {
+    "id": "cc56581e-177c-543d-a10a-01116c44f74f",
+    "sourceUrl": "https://t.me/sgfooddeals/4884",
+    "title": "Tiong Bahru Food Fair (Till 23 Aug)",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original roundup child names an event and a parenthesized period. Retain event proposition; merchant ownership and the unsupported inline validity structure remain for review. No expiry is invented."
+  },
+  {
+    "id": "629350a3-1a4f-5846-a59e-c1d15d5200dc",
+    "sourceUrl": "https://t.me/sgfooddeals/4884",
+    "title": "APAC F&B Expo (21 - 23 Aug)",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original roundup child names an event and a parenthesized period. Retain event proposition; merchant ownership and the unsupported inline validity structure remain for review. No expiry is invented."
+  },
+  {
+    "id": "513c40d7-9ca9-5ffb-a1b2-fd63ee418949",
+    "sourceUrl": "https://t.me/sgfooddeals/4884",
+    "title": "Celebfest Food Festival (21 - 23 Aug)",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original roundup child names an event and a parenthesized period. Retain event proposition; merchant ownership and the unsupported inline validity structure remain for review. No expiry is invented."
+  },
+  {
+    "id": "0491417a-92d0-5c7b-a1cc-47f5cee368a1",
+    "sourceUrl": "https://t.me/sgfooddeals/4884",
+    "title": "Punggol Central Night Bazaar (Till 30 Aug)",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original roundup child names an event and a parenthesized period. Retain event proposition; merchant ownership and the unsupported inline validity structure remain for review. No expiry is invented."
+  },
+  {
+    "id": "9c3083d2-4d87-5ce6-a4cf-b50726a6b25c",
+    "sourceUrl": "https://t.me/sgfooddeals/4888",
+    "title": "Mixed Rice Personality Quiz",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Quiz promotion gives no merchant or redemption proposition. Preserve source as content-review record."
+  },
+  {
+    "id": "cc744fc3-fd57-5b05-a70e-e12e1caba3ca",
+    "sourceUrl": "https://t.me/sgfooddeals/4908",
+    "title": "Omurice & Udon from $3.90",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Omuplace owns the from-$3.90 proposition. Article wording does not negate curated inclusion; no bounded validity is stated."
+  },
+  {
+    "id": "697b1e55-4a67-5519-a7ca-c274bbce89ed",
+    "sourceUrl": "https://t.me/sgfooddeals/4913",
+    "title": "Join SG Budget Babes for Cute Activities & Shopping Deals",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Channel invitation contains no specific merchant-owned offer. Retain original heading for content review."
+  },
+  {
+    "id": "11bbba95-7a03-5999-abea-e0486c1a1de8",
+    "sourceUrl": "https://t.me/sgfooddeals/4915",
+    "title": "foodpanda: tco.sg/wLGghSyXz (http://tco.sg/wLGghSyXz)",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "online_only",
+    "classification": "online-only promotion retained without map pins",
+    "reasons": [
+      "title_unresolved",
+      "offer_proposition_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Food Delivery Promo Codes parent contains foodpanda and GrabFood children with only shortlinks. Retain both online-only; specific offer propositions and validity require content resolution, never physical pins."
+  },
+  {
+    "id": "6ca12cfc-6d2a-534b-a87c-0c05eb28a2d3",
+    "sourceUrl": "https://t.me/sgfooddeals/4915",
+    "title": "GrabFood: tco.sg/iyavqV2Yp (http://tco.sg/iyavqV2Yp)",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "online_only",
+    "classification": "online-only promotion retained without map pins",
+    "reasons": [
+      "title_unresolved",
+      "offer_proposition_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Food Delivery Promo Codes parent contains foodpanda and GrabFood children with only shortlinks. Retain both online-only; specific offer propositions and validity require content resolution, never physical pins."
+  },
+  {
+    "id": "8b88cba3-7314-54e3-a22b-313838f31e94",
+    "sourceUrl": "https://t.me/sgfooddeals/4917",
+    "title": "Clementi - Redhill",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source promotes neighbourhood groups. Each child is a geographic group label and link, not a merchant identity; preserve every child for content review, including the tenth original section."
+  },
+  {
+    "id": "116ca8f6-dba6-5fb5-af9d-4c0514db250e",
+    "sourceUrl": "https://t.me/sgfooddeals/4917",
+    "title": "Holland Village - Bukit Panjang",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source promotes neighbourhood groups. Each child is a geographic group label and link, not a merchant identity; preserve every child for content review, including the tenth original section."
+  },
+  {
+    "id": "9f23b919-c2f2-50ac-aeee-fc609581f246",
+    "sourceUrl": "https://t.me/sgfooddeals/4917",
+    "title": "Punggol - Serangoon",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source promotes neighbourhood groups. Each child is a geographic group label and link, not a merchant identity; preserve every child for content review, including the tenth original section."
+  },
+  {
+    "id": "6065be9d-e369-5162-abe6-58ab2c5258be",
+    "sourceUrl": "https://t.me/sgfooddeals/4917",
+    "title": "Farrer Park - Boon Keng",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source promotes neighbourhood groups. Each child is a geographic group label and link, not a merchant identity; preserve every child for content review, including the tenth original section."
+  },
+  {
+    "id": "9fe59a2c-e0ad-5840-a3b4-ab29b0baa489",
+    "sourceUrl": "https://t.me/sgfooddeals/4917",
+    "title": "Bishan - Toa Payoh",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source promotes neighbourhood groups. Each child is a geographic group label and link, not a merchant identity; preserve every child for content review, including the tenth original section."
+  },
+  {
+    "id": "a251e440-1d01-55ac-a7e4-e86b19ad299e",
+    "sourceUrl": "https://t.me/sgfooddeals/4917",
+    "title": "Tengah - Jurong",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source promotes neighbourhood groups. Each child is a geographic group label and link, not a merchant identity; preserve every child for content review, including the tenth original section."
+  },
+  {
+    "id": "7637745d-9879-5c17-a6e2-a1b0f7a87a9d",
+    "sourceUrl": "https://t.me/sgfooddeals/4917",
+    "title": "Woodlands - Sembawang",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source promotes neighbourhood groups. Each child is a geographic group label and link, not a merchant identity; preserve every child for content review, including the tenth original section."
+  },
+  {
+    "id": "bdc9aa4f-ed5e-5bdc-a7b1-951fbb5bd265",
+    "sourceUrl": "https://t.me/sgfooddeals/4917",
+    "title": "Tai Seng - Paya Lebar",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source promotes neighbourhood groups. Each child is a geographic group label and link, not a merchant identity; preserve every child for content review, including the tenth original section."
+  },
+  {
+    "id": "c35cea11-a53d-5fce-a771-93b7f9a610a6",
+    "sourceUrl": "https://t.me/sgfooddeals/4917",
+    "title": "Marine Parade - East Coast",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source promotes neighbourhood groups. Each child is a geographic group label and link, not a merchant identity; preserve every child for content review, including the tenth original section."
+  },
+  {
+    "id": "00877087-25e9-5380-a7d4-ced8b0c2689a",
+    "sourceUrl": "https://t.me/sgfooddeals/4917",
+    "title": "Bedok - Pasir Ris",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source promotes neighbourhood groups. Each child is a geographic group label and link, not a merchant identity; preserve every child for content review, including the tenth original section."
+  },
+  {
+    "id": "d48eceda-1ced-55b7-a057-a42dee2d0960",
+    "sourceUrl": "https://t.me/sgfooddeals/4919",
+    "title": "DBS PayLah! $3 Cashback at Hawkers is back",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved"
+    ],
+    "review": "DBS PayLah cashback is a merchant-network campaign, not an offer at DBS bank branches. Retain source heading and bounded dates; redemption-merchant ownership needs review."
+  },
+  {
+    "id": "7de120dc-578c-518a-a5e9-a26341e776a0",
+    "sourceUrl": "https://t.me/sgfooddeals/4921",
+    "title": "Yishun NDP Food Fair (Till 6 Sep)",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original event child has venue/event wording and inline dates. Retain for content review; current extractor cannot isolate redemption merchant or safely parse this inline period."
+  },
+  {
+    "id": "d80a6e74-ca65-58af-a6dc-94a41fc5ccb6",
+    "sourceUrl": "https://t.me/sgfooddeals/4921",
+    "title": "Choa Chu Kang Night Bazaar (Till 13 Sep)",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original event child has venue/event wording and inline dates. Retain for content review; current extractor cannot isolate redemption merchant or safely parse this inline period."
+  },
+  {
+    "id": "cd905a2b-cc88-5c87-a882-55b2708b523f",
+    "sourceUrl": "https://t.me/sgfooddeals/4921",
+    "title": "Redhill Food Bazaar (Till 13 Sep)",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original event child has venue/event wording and inline dates. Retain for content review; current extractor cannot isolate redemption merchant or safely parse this inline period."
+  },
+  {
+    "id": "6c9c9cda-245b-5b39-a973-b5d2602d2482",
+    "sourceUrl": "https://t.me/sgfooddeals/4921",
+    "title": "Jurong Point Food Festival (Till 25 Sep)",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original event child has venue/event wording and inline dates. Retain for content review; current extractor cannot isolate redemption merchant or safely parse this inline period."
+  },
+  {
+    "id": "387ee731-ebab-5f5b-ac90-0e8ec1bc86a0",
+    "sourceUrl": "https://t.me/sgfooddeals/4921",
+    "title": "GBTB Mid-Autumn Food Festival (12 - 27 Sep)",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original event child has venue/event wording and inline dates. Retain for content review; current extractor cannot isolate redemption merchant or safely parse this inline period."
+  },
+  {
+    "id": "7c71d767-7624-5961-ab0c-27b32c318f93",
+    "sourceUrl": "https://t.me/sgfooddeals/4921",
+    "title": "Tampines Night Bazaar (Till 28 Sep)",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original event child has venue/event wording and inline dates. Retain for content review; current extractor cannot isolate redemption merchant or safely parse this inline period."
+  },
+  {
+    "id": "45910e22-329a-566c-a633-f03160f660b8",
+    "sourceUrl": "https://t.me/sgfooddeals/4930",
+    "title": "SG's Last Kampung Canteen is Closing Down",
+    "previousStatus": "exclude",
+    "status": "needs_content_resolution",
+    "mapStatus": "needs_location",
+    "classification": "unsupported source/extraction requiring content review",
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original body names Boh Geh Canteen and a closing date, but schedule is Mon–Fri with no campaign start. Retain; current heading-based merchant extraction remains unresolved. Closing date is not fabricated into campaign validity."
+  },
+  {
+    "id": "17746cb8-e88e-5ed0-a976-bc17ed70374f",
+    "sourceUrl": "https://t.me/tastesoulsg/4409",
+    "title": "$61 Never Tasted So Good — Pizza Hut's National Day 2026 Bundle Set",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original heading gives $61 and Pizza Hut’s National Day 2026 Bundle Set. Extract Pizza Hut from the possessive campaign heading and preserve the entire source heading as proposition; no dates supplied."
+  },
+  {
+    "id": "cdb71103-2a80-594f-a9b3-e9744e696386",
+    "sourceUrl": "https://t.me/tastesoulsg/4412",
+    "title": "NEW Butter Tteok",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Tofu G and the proposition “NEW Butter Tteok”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "1cc32fdf-c2c1-5344-a683-571d0c6fe11f",
+    "sourceUrl": "https://t.me/tastesoulsg/4413",
+    "title": "Feast like an emperor with this Ultimate Indulgence Set",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Lao Beijing and the proposition “Feast like an emperor with this Ultimate Indulgence Set”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "39b3760c-ac54-591b-aa20-12a55d1e9882",
+    "sourceUrl": "https://t.me/tastesoulsg/4414",
+    "title": "NEW Nostalgia series",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names AFTER HOURS and the proposition “NEW Nostalgia series”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "fd68df43-ae56-52c2-a0d0-2ed82b21aea1",
+    "sourceUrl": "https://t.me/tastesoulsg/4416",
+    "title": "🇮🇹 Feel like having Italian food without a flight to Rome? Check out this restaurant just across the border",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Bottega JB and the proposition “🇮🇹 Feel like having Italian food without a flight to Rome? Check out this restaurant just across the border”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "915bbc3b-0775-5792-a831-3054ec3917a2",
+    "sourceUrl": "https://t.me/tastesoulsg/4419",
+    "title": "🇹🇭 Craving authentic Thai food? This Thai restaurant in Johor Bahru has got you covered",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names NomNom JB and the proposition “🇹🇭 Craving authentic Thai food? This Thai restaurant in Johor Bahru has got you covered”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "4da6daaf-e489-5303-aa53-4b2f05ae3ac1",
+    "sourceUrl": "https://t.me/tastesoulsg/4421",
+    "title": "NEW Unicorn Frappucino",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Starbucks and the proposition “NEW Unicorn Frappucino”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "6b99ec07-b6a0-5e23-abac-bd6f00729dbf",
+    "sourceUrl": "https://t.me/tastesoulsg/4422",
+    "title": "A hidden rooftop café in Singapore's CBD with skyline views, speciality coffee, artisanal French bakes and creative matcha drinks",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names POUT Rooftop Cafe and the proposition “A hidden rooftop café in Singapore's CBD with skyline views, speciality coffee, artisanal French bakes and creative matcha drinks”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "67355008-9aa3-562d-af47-b07a64144b6e",
+    "sourceUrl": "https://t.me/tastesoulsg/4425",
+    "title": "101-year-old coffeeshop & heritage bakery with classic breakfast sets, Nasi Lemak, Smashed Chicken Sandwiches, and Cloud Kopi",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Chin Mee Chin and the proposition “101-year-old coffeeshop & heritage bakery with classic breakfast sets, Nasi Lemak, Smashed Chicken Sandwiches, and Cloud Kopi”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "6105b90d-dd9a-55d2-a8fb-b0166651771a",
+    "sourceUrl": "https://t.me/tastesoulsg/4427",
+    "title": "Returning items incl. Samurai Beef Burger, Samurai Chicken Burger, Tamago Samurai Burger (Beef / Chicken) & Seaweed McShaker Fries",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names McDonald’s and the proposition “Returning items incl. Samurai Beef Burger, Samurai Chicken Burger, Tamago Samurai Burger (Beef / Chicken) & Seaweed McShaker Fries”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "49d450df-ae6a-5bcb-a02c-e014edbc4693",
+    "sourceUrl": "https://t.me/tastesoulsg/4428",
+    "title": "China’s buzziest Thai Milk Tea brand lands its first outlet in Singapore at 313@somerset",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names BlackTree and the proposition “China’s buzziest Thai Milk Tea brand lands its first outlet in Singapore at 313@somerset”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "d01a2c98-3d71-5947-a3e3-d5810ca21d8d",
+    "sourceUrl": "https://t.me/tastesoulsg/4429",
+    "title": "NEW menu ft. Japanese Nanban Zinger, Chicken Bites, Loaded Fries & Sweet Potato Mochi Balls",
+    "previousStatus": "exclude",
+    "status": "needs_location",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "google_response_not_cached_run_with_google",
+      "no_operational_google_location"
+    ],
+    "review": "Original source explicitly names KFC and the proposition “NEW menu ft. Japanese Nanban Zinger, Chicken Bites, Loaded Fries & Sweet Potato Mochi Balls”. Curated launch, collaboration or editorial wording does not remove the offer. Source period is complete; offline Google query has no accepted cached location, so location remains unresolved."
+  },
+  {
+    "id": "ce678cf7-e97a-53ba-af36-e138b4be89b2",
+    "sourceUrl": "https://t.me/tastesoulsg/4430",
+    "title": "NEW Swedish Meatball Ice-Cream",
+    "previousStatus": "exclude",
+    "status": "needs_location",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "google_response_not_cached_run_with_google",
+      "google_response_not_cached_run_with_google",
+      "google_response_not_cached_run_with_google",
+      "google_response_not_cached_run_with_google",
+      "google_response_not_cached_run_with_google",
+      "no_operational_google_location"
+    ],
+    "review": "Original source explicitly names IKEA and the proposition “NEW Swedish Meatball Ice-Cream”. Curated launch, collaboration or editorial wording does not remove the offer. Source period is complete; offline Google query has no accepted cached location, so location remains unresolved."
+  },
+  {
+    "id": "96dd28ff-0b57-5b98-a14e-c82aaf6b2207",
+    "sourceUrl": "https://t.me/tastesoulsg/4431",
+    "title": "A new all-day cafe at Singapore Botanic Gardens with creative brunch, coffee, desserts, and pet-friendly dining",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Park Side and the proposition “A new all-day cafe at Singapore Botanic Gardens with creative brunch, coffee, desserts, and pet-friendly dining”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "16618dd9-baee-5dc5-a4ab-498bfd885187",
+    "sourceUrl": "https://t.me/tastesoulsg/4433",
+    "title": "NEW limited Chicken Satay Flavour",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Potato Corner and the proposition “NEW limited Chicken Satay Flavour”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "bf414121-9361-5bd6-ab4e-8ddc3110f876",
+    "sourceUrl": "https://t.me/tastesoulsg/4434",
+    "title": "Discover the best of Teochew and Cantonese cuisine at New Bahru",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names San Shu Gong and the proposition “Discover the best of Teochew and Cantonese cuisine at New Bahru”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "5b356d33-5ff1-5670-aace-791ea58dd8fd",
+    "sourceUrl": "https://t.me/tastesoulsg/4437",
+    "title": "Taiwan-famous noodles store expands its menu with Singapore-exclusive Chicken Soup",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Spicy Noodles SG and the proposition “Taiwan-famous noodles store expands its menu with Singapore-exclusive Chicken Soup”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "be4db358-1254-5f8e-a435-aeed06e86414",
+    "sourceUrl": "https://t.me/tastesoulsg/4439",
+    "title": "NEW outlet opening at Parkway Parade",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Sushidan and the proposition “NEW outlet opening at Parkway Parade”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "a0b87f2c-2c53-5ca9-afb0-e051ffadc6dc",
+    "sourceUrl": "https://t.me/tastesoulsg/4444",
+    "title": "Popular coffee & South Korean American-style soft cookie brand pop-up in SG",
+    "previousStatus": "exclude",
+    "status": "needs_location",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "google_response_not_cached_run_with_google",
+      "no_operational_google_location"
+    ],
+    "review": "Original source explicitly names Zapangi Coffee and the proposition “Popular coffee & South Korean American-style soft cookie brand pop-up in SG”. Curated launch, collaboration or editorial wording does not remove the offer. Source period is complete; offline Google query has no accepted cached location, so location remains unresolved."
+  },
+  {
+    "id": "c0c899da-4767-577e-a8af-58a85795fbc6",
+    "sourceUrl": "https://t.me/tastesoulsg/4445",
+    "title": "NEW Onigiri Ice Cream",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names 7-Eleven and the proposition “NEW Onigiri Ice Cream”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "1945ad94-eaad-5047-ae20-46cd648e7e81",
+    "sourceUrl": "https://t.me/tastesoulsg/4449",
+    "title": "Step into a Barcelona-inspired bodega where authentic Spanish flavours, grandma’s cooking, and cosy neighbourhood vibes collide",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Casa Lola and the proposition “Step into a Barcelona-inspired bodega where authentic Spanish flavours, grandma’s cooking, and cosy neighbourhood vibes collide”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "e48c6bee-4565-5da9-af09-82a8b1e7fcbb",
+    "sourceUrl": "https://t.me/tastesoulsg/4452",
+    "title": "Your next yogurt spot is now open in Jewel & Waterway Point",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names More Yogurt and the proposition “Your next yogurt spot is now open in Jewel & Waterway Point”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "ba7f9e42-0aca-597b-ac34-ebd65bea9534",
+    "sourceUrl": "https://t.me/tastesoulsg/4455",
+    "title": "Explore bold Indonesian flavours with a modern twist at this cafe near Boat Quay",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Fangko House and the proposition “Explore bold Indonesian flavours with a modern twist at this cafe near Boat Quay”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "690b3fb6-aa77-5a1c-a4c0-ccc3a2e3336e",
+    "sourceUrl": "https://t.me/tastesoulsg/4456",
+    "title": "NEW takeover sourdough flavours",
+    "previousStatus": "exclude",
+    "status": "needs_location",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "google_response_not_cached_run_with_google",
+      "no_operational_google_location"
+    ],
+    "review": "Original source explicitly names Coffeehouse by Kobashi and the proposition “NEW takeover sourdough flavours”. Curated launch, collaboration or editorial wording does not remove the offer. Source period is complete; offline Google query has no accepted cached location, so location remains unresolved."
+  },
+  {
+    "id": "ad899e5a-15a8-55ba-af09-0a036de34779",
+    "sourceUrl": "https://t.me/tastesoulsg/4460",
+    "title": "Fan-favourite Cheesy Omelette RETURNS",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Pepper Lunch and the proposition “Fan-favourite Cheesy Omelette RETURNS”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "f8c8e623-3c7f-58f5-a4f6-2eb560e160dc",
+    "sourceUrl": "https://t.me/tastesoulsg/4461",
+    "title": "Singapore’s only cave restaurant is celebrating its first anniversary with a refreshed menu",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Cavern Restaurant and the proposition “Singapore’s only cave restaurant is celebrating its first anniversary with a refreshed menu”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "17922e7d-285e-573d-afc3-be1de5e00cb9",
+    "sourceUrl": "https://t.me/tastesoulsg/4464",
+    "title": "Who needs to fly to Spain when Spain is next door? Try authentic & traditional Spanish food",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Next Door Spanish Cafe and the proposition “Who needs to fly to Spain when Spain is next door? Try authentic & traditional Spanish food”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "66a321c5-9127-56f5-a91e-1a40b0b81f20",
+    "sourceUrl": "https://t.me/tastesoulsg/4467",
+    "title": "Welcome to a katsu experience straight out of Japan, now located in the CBD",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Shin Katsu and the proposition “Welcome to a katsu experience straight out of Japan, now located in the CBD”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "ee2ce870-724d-5cb0-a428-3e9803b3fba5",
+    "sourceUrl": "https://t.me/tastesoulsg/4472",
+    "title": "Viral Korean butter sand pop-up lands in SG",
+    "previousStatus": "exclude",
+    "status": "needs_location",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "google_response_not_cached_run_with_google",
+      "google_response_not_cached_run_with_google",
+      "no_operational_google_location"
+    ],
+    "review": "Original source explicitly names MilkyShop and the proposition “Viral Korean butter sand pop-up lands in SG”. Curated launch, collaboration or editorial wording does not remove the offer. Source period is complete; offline Google query has no accepted cached location, so location remains unresolved."
+  },
+  {
+    "id": "59b73637-2480-5f48-abe2-a949fc08b51e",
+    "sourceUrl": "https://t.me/tastesoulsg/4473",
+    "title": "Craving something new? At this restaurant, you can enjoy Nordic flavours with Singapore soul",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Dill and the proposition “Craving something new? At this restaurant, you can enjoy Nordic flavours with Singapore soul”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "269777e5-60b8-52d1-a870-a1fd3f107ad2",
+    "sourceUrl": "https://t.me/tastesoulsg/4476",
+    "title": "🇬🇷 From sea to table, here are Greek dishes that stood out to us",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Estiatorio Milos and the proposition “🇬🇷 From sea to table, here are Greek dishes that stood out to us”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "7a0a9aea-47b5-5456-a940-37b19c0e48eb",
+    "sourceUrl": "https://t.me/tastesoulsg/4477",
+    "title": "NEW Pokémon collab ft. merch with purchase",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "requires_split"
+    ],
+    "review": "Original Pokémon merchandise-with-purchase collaboration is an offer. Retain verbatim; two campaign waves do not assign merchandise ownership unambiguously, so requires_split remains needs_validity."
+  },
+  {
+    "id": "0b829177-d6d5-573c-ad4f-b926472413d5",
+    "sourceUrl": "https://t.me/tastesoulsg/4479",
+    "title": "Claypot Sliced Fish Curry and Solo Lunch Sets for just $9.90",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original Dian Xiao Er headline explicitly gives Solo Lunch Sets for $9.90. Retain proposition without requiring savings comparison; no dates stated."
+  },
+  {
+    "id": "4629522c-f8d6-548c-acc7-6eac7b16dfd2",
+    "sourceUrl": "https://t.me/tastesoulsg/4480",
+    "title": "NEW Turf & Tide edition Ultimate Brunch Buffet",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "requires_split"
+    ],
+    "review": "Original Racines campaign has Now–31 Oct plus Every Sat. Preserve source and recurrence; existing parser flags this pipe structure requires_split, so remain needs_validity."
+  },
+  {
+    "id": "9cb4e729-234a-5e1e-a78f-a47f89a6a94f",
+    "sourceUrl": "https://t.me/tastesoulsg/4481",
+    "title": "NEW Dubai Chewy Cookie Mooncake",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "requires_split"
+    ],
+    "review": "Original Nasty Cookie source has online and in-store starts without an expiry. Preserve mixed scope and unknown validity; do not classify it online-only."
+  },
+  {
+    "id": "49696b5f-a03f-5407-a386-a9c5e975b2b0",
+    "sourceUrl": "https://t.me/tastesoulsg/4484",
+    "title": "Trick or treat? Enjoy a treat with this new Halloween burger, limited time only",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "needs_location",
+    "classification": "promotion retained",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names SIDES by the Sidemen and the proposition “Trick or treat? Enjoy a treat with this new Halloween burger, limited time only”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "ee96612f-410a-53a7-a7f1-d0dbb02648c4",
+    "sourceUrl": "https://t.me/tastesoulsg/4486",
+    "title": "NEW 3L Sharing Tea Pack ($52)",
+    "previousStatus": "exclude",
+    "status": "needs_validity",
+    "mapStatus": "online_only",
+    "classification": "online-only promotion retained without map pins",
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original Koi Thé $52 sharing pack explicitly states Online and Now without an end date. Retain online-only with unknown validity and zero pins."
+  }
+]

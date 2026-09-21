@@ -1,3 +1,5 @@
+> Historical MVP implementation record. Curated inclusion, independent status dimensions and full development preview now follow [curated MVP retention](../curated-mvp-retention/verification.md); earlier exclusion counts and ready-only preview behavior below are superseded.
+
 # MVP ingestion verification
 
 Verified 21 September 2026. Implementation and self-review completed. No independent-agent review was performed. No deployment, push, remote change, recurring collection, or strict publication occurred.

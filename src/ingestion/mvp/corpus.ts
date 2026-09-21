@@ -40,30 +40,46 @@ export async function buildCorpus(
   const count = (status: MvpPromotion["status"]) =>
     records.filter((p) => p.status === status).length;
   return {
-    version: 1 as const,
+    version: 2 as const,
     evaluatedAt: now.toISO()!,
     records,
     failures,
+    statusCounts: {
+      ready: count("ready"),
+      needs_validity: count("needs_validity"),
+      needs_location: count("needs_location"),
+      needs_content_resolution: count("needs_content_resolution"),
+    },
     metrics: {
       Sources: sources.length,
       "Parsed offers": records.length,
-      Excluded: count("exclude"),
-      "Excluded non-offers": records.filter((p) =>
-        p.reasons.includes("no_promotional_benefit"),
+      "Total records": records.length,
+      "Content resolved": records.filter((p) => p.contentStatus === "resolved")
+        .length,
+      "Validity resolved": records.filter(
+        (p) => p.validityStatus === "resolved",
       ).length,
-      "Excluded online-only": records.filter((p) =>
-        p.reasons.includes("online_only_not_for_map"),
+      "Online only": records.filter((p) => p.mapStatus === "online_only")
+        .length,
+      "Malformed/unsupported": records.filter((p) =>
+        p.reasons.includes("unsupported_source_text"),
       ).length,
       "MVP ready": count("ready"),
-      "Needs validity": count("needs_validity"),
-      "Needs content resolution": count("needs_content_resolution"),
-      "Needs location": count("needs_location"),
-      "Map-ready": count("ready"),
-      "Expired but valid": records.filter(
-        (p) => p.genuine && p.lifecycle === "expired",
+      "Needs validity": records.filter(
+        (p) => p.validityStatus === "needs_validity",
       ).length,
+      "Needs content resolution": count("needs_content_resolution"),
+      "Needs location": records.filter((p) => p.mapStatus === "needs_location")
+        .length,
+      "Map-ready": records.filter((p) => p.mapStatus === "ready").length,
       Active: records.filter(
-        (p) => p.status === "ready" && p.lifecycle === "active",
+        (p) => p.lifecycle === "active" && p.validityStatus === "resolved",
+      ).length,
+      Expired: records.filter(
+        (p) => p.lifecycle === "expired" && p.validityStatus === "resolved",
+      ).length,
+      Upcoming: records.filter(
+        (p) => p.lifecycle === "upcoming" && p.validityStatus === "resolved",
       ).length,
       Failed: failures.length,
     },

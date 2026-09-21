@@ -89,3 +89,56 @@ test("MVP list and detail APIs filter expiry, with separate historical preview",
     ).status(),
   ).toBe(200);
 });
+
+test("complete corpus renders non-map and incomplete records with safe labels", async ({
+  page,
+}, info) => {
+  await page.route("https://tile.openstreetmap.org/**", (r) =>
+    r.fulfill({
+      contentType: "image/png",
+      body: readFileSync("tests/fixtures/tile.png"),
+    }),
+  );
+  const errors: string[] = [];
+  page.on("pageerror", (e) => errors.push(e.message));
+  await page.goto("/corpus");
+  await expect(
+    page.getByRole("heading", { name: "A good deal is just around." }),
+  ).toBeVisible();
+  await expect(page.locator(".offer-card")).toHaveCount(
+    artifact.records.length,
+  );
+  const online = page
+    .locator(".offer-card")
+    .filter({ hasText: "NEW 3L Sharing Tea Pack ($52)" });
+  await expect(online).toContainText("Online only");
+  await expect(online).toContainText("Needs validity");
+  await online.click();
+  await expect(page.locator(".detail-dialog")).toContainText(
+    "Online-only promotion. No physical map pins.",
+  );
+  await expect(page.locator(".detail-dialog .outlet-detail")).toHaveCount(0);
+  await page.screenshot({
+    path: `test-results/corpus-online-${info.project.name}.png`,
+    fullPage: true,
+  });
+  await page.getByRole("button", { name: "Close offer details" }).click();
+  await expect(page.locator(".offer-list")).not.toContainText("Invalid Date");
+  await expect(page.locator(".offer-list")).toContainText(
+    "Needs content resolution",
+  );
+  await expect(page.locator(".offer-list")).toContainText("Needs location");
+  await expect(page.locator(".offer-list")).toContainText("expired");
+  await expect(page.locator(".offer-list")).toContainText("upcoming");
+  await page
+    .getByRole("button", { name: "Default order", exact: true })
+    .click();
+  await expect(page.locator(".offer-card")).toHaveCount(
+    artifact.records.length,
+  );
+  await page.screenshot({
+    path: `test-results/corpus-list-${info.project.name}.png`,
+    fullPage: true,
+  });
+  expect(errors).toEqual([]);
+});

@@ -4,7 +4,7 @@ import { MvpPipeline } from "@/ingestion/mvp/pipeline";
 import { mvpPromotionSchema, visibleMvp } from "@/domain/mvp";
 import { GoogleOutletDiscovery } from "@/ingestion/resolution/google-discovery";
 import { ResolutionCache } from "@/ingestion/resolution/cache";
-import { getMvpPromotions } from "@/server/mvp";
+import { allowHistory, getMvpPromotions } from "@/server/mvp";
 const now = DateTime.fromISO("2026-09-21T12:00:00+08:00");
 const place = (id = "place-1", extra = {}) => ({
   id,
@@ -134,7 +134,8 @@ describe("MVP validity and locations", () => {
   it("online-only offers have no pins", async () => {
     const { pipeline, fetcher } = setup();
     const [p] = await pipeline.process(source("📅 Today\n📍 Online only"), now);
-    expect(p.status).toBe("exclude");
+    expect(p.status).toBe("ready");
+    expect(p.mapStatus).toBe("online_only");
     expect(p.outlets).toEqual([]);
     expect(fetcher).not.toHaveBeenCalled();
   });
@@ -179,13 +180,20 @@ describe("MVP validity and locations", () => {
     const active = { ...p, startDate: "2026-09-01", endDate: "2026-09-30" };
     expect(visibleMvp([active], false, now)).toHaveLength(1);
     expect(
+      (
+        await getMvpPromotions([103.6, 1.15, 103.7, 1.2], null, false, now, [
+          active,
+        ])
+      ).items,
+    ).toHaveLength(0);
+    expect(
       (await getMvpPromotions([103.6, 1.15, 104.1, 1.5], null, true, now, [p]))
         .items,
     ).toHaveLength(1);
     expect(
       (await getMvpPromotions([103.6, 1.15, 103.7, 1.2], null, true, now, [p]))
         .items,
-    ).toHaveLength(0);
+    ).toHaveLength(1);
     expect(mvpPromotionSchema.safeParse({ ...p, endDate: null }).success).toBe(
       false,
     );
@@ -249,4 +257,127 @@ it("retains restrictions when splitting a finite date list", async () => {
   );
   expect(rows).toHaveLength(2);
   expect(rows.every((p) => p.description.includes("members only"))).toBe(true);
+});
+
+describe("curated inclusion is independent of discount language", () => {
+  it.each([
+    "$9.90 Solo Lunch Set",
+    "$61 National Day Bundle Set",
+    "NEW Pokémon collab ft. merch with purchase",
+    "NEW launch menu",
+    "Festival campaign menu for $18",
+  ])("retains %s as the source proposition", async (title) => {
+    const { pipeline } = setup();
+    const [p] = await pipeline.process(
+      { ...source(""), text: `Example Tea\n➡️ ${title}\n📅 1 Sep - 30 Sep` },
+      now,
+    );
+    expect(p).toMatchObject({
+      status: "ready",
+      benefit: title,
+      contentStatus: "resolved",
+      validityStatus: "resolved",
+      mapStatus: "ready",
+    });
+  });
+  it("retains complete content when Google returns no outlet", async () => {
+    const { pipeline } = setup([{ places: [] }]);
+    const [p] = await pipeline.process(
+      {
+        ...source(""),
+        text: "Example Tea\n➡️ $9.90 Lunch Set\n📅 1 Sep - 30 Sep",
+      },
+      now,
+    );
+    expect(p).toMatchObject({
+      status: "needs_location",
+      contentStatus: "resolved",
+      validityStatus: "resolved",
+      mapStatus: "needs_location",
+    });
+    expect(visibleMvp([p], false, now)).toEqual([]);
+    expect(visibleMvp([p], true, now)).toHaveLength(1);
+  });
+  it("retains online content with unknown validity, without calling Google", async () => {
+    const { pipeline, fetcher } = setup();
+    const [p] = await pipeline.process(
+      {
+        ...source(""),
+        text: "Example Tea\n➡️ NEW $52 Sharing Pack\n📅 Now\n📍 Online only",
+      },
+      now,
+    );
+    expect(p).toMatchObject({
+      status: "needs_validity",
+      contentStatus: "resolved",
+      mapStatus: "online_only",
+      outlets: [],
+      endDate: null,
+    });
+    expect(fetcher).not.toHaveBeenCalled();
+    expect(visibleMvp([p], false, now)).toEqual([]);
+    expect(
+      (await getMvpPromotions([103.6, 1.15, 104.1, 1.5], null, true, now, [p]))
+        .items,
+    ).toHaveLength(1);
+  });
+  it("never serves a ready online-only offer in the physical live feed", async () => {
+    const { pipeline } = setup();
+    const [p] = await pipeline.process(
+      source("📅 1 Sep - 30 Sep\n📍 Online only"),
+      now,
+    );
+    expect(p.status).toBe("ready");
+    expect(visibleMvp([p], false, now)).toEqual([]);
+    expect(
+      mvpPromotionSchema.safeParse({
+        ...p,
+        outlets: [
+          {
+            googlePlaceId: "bad",
+            name: "Bad",
+            address: "Singapore",
+            latitude: 1.3,
+            longitude: 103.85,
+            businessStatus: "OPERATIONAL",
+          },
+        ],
+      }).success,
+    ).toBe(false);
+  });
+  it("preview includes incomplete and upcoming records independently of viewport", async () => {
+    const { pipeline } = setup();
+    const [incomplete] = await pipeline.process(
+      {
+        ...source(""),
+        text: "[Unsupported or empty post: manual review required.]",
+      },
+      now,
+    );
+    const [upcoming] = await pipeline.process(source("📅 1 Oct - 30 Oct"), now);
+    expect(incomplete.status).toBe("needs_content_resolution");
+    const records = [incomplete, upcoming];
+    const preview = await getMvpPromotions(
+      [103.6, 1.15, 103.7, 1.2],
+      null,
+      true,
+      now,
+      records,
+    );
+    expect(preview.items).toHaveLength(2);
+    expect(visibleMvp(records, false, now)).toEqual([]);
+  });
+});
+
+it("production ignores the development-only full corpus preview flag", () => {
+  vi.stubEnv("NODE_ENV", "production");
+  try {
+    expect(
+      allowHistory(
+        new Request("http://localhost/api/mvp/promotions?includeExpired=true"),
+      ),
+    ).toBe(false);
+  } finally {
+    vi.unstubAllEnvs();
+  }
 });

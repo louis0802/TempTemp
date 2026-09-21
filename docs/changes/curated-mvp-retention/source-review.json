@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "bf5eaca0-1b09-5cdb-a1a3-0bb5b5fc6d47",
+    "sourceUrl": "https://t.me/sgfooddeals/4871",
+    "originalText": "Mr. Farmer 8.8 Grocery Sale from $2.80 🔥\n\n🔹 Whip up your next meal with quality meats that are ethically & sustainably farmed\n🔹 Browse a wide selection of fresh chickens, ready-to-eat meats, beef & more\n🔹 Limited time only\n📍 Online only\n\nShop here: tco.sg/Vm5ANIsJy (http://tco.sg/Vm5ANIsJy) \n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+    "ownedText": "Mr. Farmer 8.8 Grocery Sale from $2.80 🔥\n\n🔹 Whip up your next meal with quality meats that are ethically & sustainably farmed\n🔹 Browse a wide selection of fresh chickens, ready-to-eat meats, beef & more\n🔹 Limited time only\n📍 Online only\n\nShop here: tco.sg/Vm5ANIsJy (http://tco.sg/Vm5ANIsJy) \n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "online_only",
+      "merchant": "",
+      "title": "Mr. Farmer 8.8 Grocery Sale from $2.80",
+      "benefit": "Mr. Farmer 8.8 Grocery Sale from $2.80",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original heading explicitly offers Mr. Farmer groceries from $2.80 online. Retained without pins; current extractor does not isolate the merchant from this unstructured heading and the source gives no expiry."
+  },
+  {
+    "id": "da48cc8e-5233-528c-a763-60a5efae344e",
+    "sourceUrl": "https://t.me/sgfooddeals/4876",
+    "originalText": "5 Cheap Eats in Orchard Under $10 🍽\n\n🔹 Satisfy your cravings without breaking the bank at these affordable Orchard food spots:\n1️⃣ $6.50 Fried Chicken Rice (https://tco.sg/tytPCTqjp)\n2️⃣ $8.50 Tom Yum Noodle Soup (https://tco.sg/Qm0ItNPNa)\n3️⃣ $9.80 Kway Teow Soup with Beef (https://tco.sg/7t07px6Ez)\n4️⃣ $10 Sliced Beef Ribeye (https://tco.sg/4lEc5ro9y)\n5️⃣ Pork Ribs Soup from $8.80 (https://tco.sg/0I9J7mmCZ)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+    "ownedText": "$6.50 Fried Chicken Rice (https://tco.sg/tytPCTqjp)",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "$6.50 Fried Chicken Rice",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "$6.50 Fried Chicken Rice",
+      "benefit": "$6.50 Fried Chicken Rice",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Owned child states a dish price but provides only a shortlink, with no merchant identity or bounded validity. Preserve the priced proposition for content review; do not guess the linked merchant."
+  },
+  {
+    "id": "7f205b4c-889b-5d32-a9a9-52f4bfce7af4",
+    "sourceUrl": "https://t.me/sgfooddeals/4876",
+    "originalText": "5 Cheap Eats in Orchard Under $10 🍽\n\n🔹 Satisfy your cravings without breaking the bank at these affordable Orchard food spots:\n1️⃣ $6.50 Fried Chicken Rice (https://tco.sg/tytPCTqjp)\n2️⃣ $8.50 Tom Yum Noodle Soup (https://tco.sg/Qm0ItNPNa)\n3️⃣ $9.80 Kway Teow Soup with Beef (https://tco.sg/7t07px6Ez)\n4️⃣ $10 Sliced Beef Ribeye (https://tco.sg/4lEc5ro9y)\n5️⃣ Pork Ribs Soup from $8.80 (https://tco.sg/0I9J7mmCZ)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+    "ownedText": "$8.50 Tom Yum Noodle Soup (https://tco.sg/Qm0ItNPNa)",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "$8.50 Tom Yum Noodle Soup",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "$8.50 Tom Yum Noodle Soup",
+      "benefit": "$8.50 Tom Yum Noodle Soup",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Owned child states a dish price but provides only a shortlink, with no merchant identity or bounded validity. Preserve the priced proposition for content review; do not guess the linked merchant."
+  },
+  {
+    "id": "ddd69ba4-447f-59e8-a7c2-80b962eef5a4",
+    "sourceUrl": "https://t.me/sgfooddeals/4876",
+    "originalText": "5 Cheap Eats in Orchard Under $10 🍽\n\n🔹 Satisfy your cravings without breaking the bank at these affordable Orchard food spots:\n1️⃣ $6.50 Fried Chicken Rice (https://tco.sg/tytPCTqjp)\n2️⃣ $8.50 Tom Yum Noodle Soup (https://tco.sg/Qm0ItNPNa)\n3️⃣ $9.80 Kway Teow Soup with Beef (https://tco.sg/7t07px6Ez)\n4️⃣ $10 Sliced Beef Ribeye (https://tco.sg/4lEc5ro9y)\n5️⃣ Pork Ribs Soup from $8.80 (https://tco.sg/0I9J7mmCZ)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+    "ownedText": "$9.80 Kway Teow Soup with Beef (https://tco.sg/7t07px6Ez)",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "$9.80 Kway Teow Soup with Beef",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "$9.80 Kway Teow Soup with Beef",
+      "benefit": "$9.80 Kway Teow Soup with Beef",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Owned child states a dish price but provides only a shortlink, with no merchant identity or bounded validity. Preserve the priced proposition for content review; do not guess the linked merchant."
+  },
+  {
+    "id": "e0a18fca-b2f2-58fe-a41a-702d1b9e4f06",
+    "sourceUrl": "https://t.me/sgfooddeals/4876",
+    "originalText": "5 Cheap Eats in Orchard Under $10 🍽\n\n🔹 Satisfy your cravings without breaking the bank at these affordable Orchard food spots:\n1️⃣ $6.50 Fried Chicken Rice (https://tco.sg/tytPCTqjp)\n2️⃣ $8.50 Tom Yum Noodle Soup (https://tco.sg/Qm0ItNPNa)\n3️⃣ $9.80 Kway Teow Soup with Beef (https://tco.sg/7t07px6Ez)\n4️⃣ $10 Sliced Beef Ribeye (https://tco.sg/4lEc5ro9y)\n5️⃣ Pork Ribs Soup from $8.80 (https://tco.sg/0I9J7mmCZ)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+    "ownedText": "$10 Sliced Beef Ribeye (https://tco.sg/4lEc5ro9y)",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "$10 Sliced Beef Ribeye",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "$10 Sliced Beef Ribeye",
+      "benefit": "$10 Sliced Beef Ribeye",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Owned child states a dish price but provides only a shortlink, with no merchant identity or bounded validity. Preserve the priced proposition for content review; do not guess the linked merchant."
+  },
+  {
+    "id": "d21c2122-fdb0-5d96-ad63-0abb282ace25",
+    "sourceUrl": "https://t.me/sgfooddeals/4876",
+    "originalText": "5 Cheap Eats in Orchard Under $10 🍽\n\n🔹 Satisfy your cravings without breaking the bank at these affordable Orchard food spots:\n1️⃣ $6.50 Fried Chicken Rice (https://tco.sg/tytPCTqjp)\n2️⃣ $8.50 Tom Yum Noodle Soup (https://tco.sg/Qm0ItNPNa)\n3️⃣ $9.80 Kway Teow Soup with Beef (https://tco.sg/7t07px6Ez)\n4️⃣ $10 Sliced Beef Ribeye (https://tco.sg/4lEc5ro9y)\n5️⃣ Pork Ribs Soup from $8.80 (https://tco.sg/0I9J7mmCZ)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+    "ownedText": "Pork Ribs Soup from $8.80 (https://tco.sg/0I9J7mmCZ)",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "Pork Ribs Soup from $8.80",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "Pork Ribs Soup from $8.80",
+      "benefit": "Pork Ribs Soup from $8.80",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Owned child states a dish price but provides only a shortlink, with no merchant identity or bounded validity. Preserve the priced proposition for content review; do not guess the linked merchant."
+  },
+  {
+    "id": "f763a80f-f5ff-5880-ad88-695ca5c44cad",
+    "sourceUrl": "https://t.me/sgfooddeals/4878",
+    "originalText": "Introducing SG Nightlife & Bars Telegram Channel 🥂\n\n🔹 Plan the perfect night out with happy hour deals, live music spots, the latest SG parties & more\n\nFind out more: tco.sg/8rfTOW3gh (https://tco.sg/8rfTOW3gh)\n\n@sgfooddeals (https://t.me/sgfooddeals) #shoutout\n[Media attached: verify image/video conditions.]",
+    "ownedText": "Introducing SG Nightlife & Bars Telegram Channel 🥂\n\n🔹 Plan the perfect night out with happy hour deals, live music spots, the latest SG parties & more\n\nFind out more: tco.sg/8rfTOW3gh (https://tco.sg/8rfTOW3gh)\n\n@sgfooddeals (https://t.me/sgfooddeals) #shoutout\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "Introducing SG Nightlife & Bars Telegram Channel",
+      "benefit": "Introducing SG Nightlife & Bars Telegram Channel",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Channel promotion has no redemption merchant or offer details. Preserve its heading for content review."
+  },
+  {
+    "id": "05f5126c-a2d5-57a6-adbe-c186640b7f7d",
+    "sourceUrl": "https://t.me/sgfooddeals/4879",
+    "originalText": "5 Must-Try Value Lunch Sets for Solo Diner 👤\n\n🔹 Treat yourself to affordable lunch sets at these eateries:\n1️⃣ ALC Rice Bowls: (https://tco.sg/p0fcsGKLO) $8.80 Rice Bowl\n2️⃣ Katsu-an: (https://tco.sg/6QoggzgFF) $9.90 Lunch Combo\n3️⃣ Saizeriya: (https://tco.sg/dlFybU4ac) $9 Western Lunch Set\n4️⃣ Shi Li Fang: (https://tco.sg/vDrh4OQwD) $9.90 Hotpot Meal\n5️⃣ White Restaurant: (https://tco.sg/qvdxn4dox) Lunch Set from $9.90\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+    "ownedText": "ALC Rice Bowls: (https://tco.sg/p0fcsGKLO) $8.80 Rice Bowl",
+    "before": {
+      "status": "exclude",
+      "merchant": "ALC Rice Bowls",
+      "title": "$8.80 Rice Bowl",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "ALC Rice Bowls",
+      "title": "$8.80 Rice Bowl",
+      "benefit": "$8.80 Rice Bowl",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Each named merchant owns its priced lunch proposition. No campaign dates appear in the original roundup; retain with unknown validity."
+  },
+  {
+    "id": "38e1b1fe-2879-5417-ae12-2f86d3211969",
+    "sourceUrl": "https://t.me/sgfooddeals/4879",
+    "originalText": "5 Must-Try Value Lunch Sets for Solo Diner 👤\n\n🔹 Treat yourself to affordable lunch sets at these eateries:\n1️⃣ ALC Rice Bowls: (https://tco.sg/p0fcsGKLO) $8.80 Rice Bowl\n2️⃣ Katsu-an: (https://tco.sg/6QoggzgFF) $9.90 Lunch Combo\n3️⃣ Saizeriya: (https://tco.sg/dlFybU4ac) $9 Western Lunch Set\n4️⃣ Shi Li Fang: (https://tco.sg/vDrh4OQwD) $9.90 Hotpot Meal\n5️⃣ White Restaurant: (https://tco.sg/qvdxn4dox) Lunch Set from $9.90\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+    "ownedText": "Katsu-an: (https://tco.sg/6QoggzgFF) $9.90 Lunch Combo",
+    "before": {
+      "status": "exclude",
+      "merchant": "Katsu-an",
+      "title": "$9.90 Lunch Combo",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "Katsu-an",
+      "title": "$9.90 Lunch Combo",
+      "benefit": "$9.90 Lunch Combo",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Each named merchant owns its priced lunch proposition. No campaign dates appear in the original roundup; retain with unknown validity."
+  },
+  {
+    "id": "2d18a973-6f62-5917-a100-120127021fab",
+    "sourceUrl": "https://t.me/sgfooddeals/4879",
+    "originalText": "5 Must-Try Value Lunch Sets for Solo Diner 👤\n\n🔹 Treat yourself to affordable lunch sets at these eateries:\n1️⃣ ALC Rice Bowls: (https://tco.sg/p0fcsGKLO) $8.80 Rice Bowl\n2️⃣ Katsu-an: (https://tco.sg/6QoggzgFF) $9.90 Lunch Combo\n3️⃣ Saizeriya: (https://tco.sg/dlFybU4ac) $9 Western Lunch Set\n4️⃣ Shi Li Fang: (https://tco.sg/vDrh4OQwD) $9.90 Hotpot Meal\n5️⃣ White Restaurant: (https://tco.sg/qvdxn4dox) Lunch Set from $9.90\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+    "ownedText": "Saizeriya: (https://tco.sg/dlFybU4ac) $9 Western Lunch Set",
+    "before": {
+      "status": "exclude",
+      "merchant": "Saizeriya",
+      "title": "$9 Western Lunch Set",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "Saizeriya",
+      "title": "$9 Western Lunch Set",
+      "benefit": "$9 Western Lunch Set",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Each named merchant owns its priced lunch proposition. No campaign dates appear in the original roundup; retain with unknown validity."
+  },
+  {
+    "id": "c8669045-cdc4-50f1-ad7e-b1227a904ebe",
+    "sourceUrl": "https://t.me/sgfooddeals/4879",
+    "originalText": "5 Must-Try Value Lunch Sets for Solo Diner 👤\n\n🔹 Treat yourself to affordable lunch sets at these eateries:\n1️⃣ ALC Rice Bowls: (https://tco.sg/p0fcsGKLO) $8.80 Rice Bowl\n2️⃣ Katsu-an: (https://tco.sg/6QoggzgFF) $9.90 Lunch Combo\n3️⃣ Saizeriya: (https://tco.sg/dlFybU4ac) $9 Western Lunch Set\n4️⃣ Shi Li Fang: (https://tco.sg/vDrh4OQwD) $9.90 Hotpot Meal\n5️⃣ White Restaurant: (https://tco.sg/qvdxn4dox) Lunch Set from $9.90\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+    "ownedText": "Shi Li Fang: (https://tco.sg/vDrh4OQwD) $9.90 Hotpot Meal",
+    "before": {
+      "status": "exclude",
+      "merchant": "Shi Li Fang",
+      "title": "$9.90 Hotpot Meal",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "Shi Li Fang",
+      "title": "$9.90 Hotpot Meal",
+      "benefit": "$9.90 Hotpot Meal",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Each named merchant owns its priced lunch proposition. No campaign dates appear in the original roundup; retain with unknown validity."
+  },
+  {
+    "id": "4129ea5d-c833-5669-a295-2c1716f55211",
+    "sourceUrl": "https://t.me/sgfooddeals/4879",
+    "originalText": "5 Must-Try Value Lunch Sets for Solo Diner 👤\n\n🔹 Treat yourself to affordable lunch sets at these eateries:\n1️⃣ ALC Rice Bowls: (https://tco.sg/p0fcsGKLO) $8.80 Rice Bowl\n2️⃣ Katsu-an: (https://tco.sg/6QoggzgFF) $9.90 Lunch Combo\n3️⃣ Saizeriya: (https://tco.sg/dlFybU4ac) $9 Western Lunch Set\n4️⃣ Shi Li Fang: (https://tco.sg/vDrh4OQwD) $9.90 Hotpot Meal\n5️⃣ White Restaurant: (https://tco.sg/qvdxn4dox) Lunch Set from $9.90\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+    "ownedText": "White Restaurant: (https://tco.sg/qvdxn4dox) Lunch Set from $9.90",
+    "before": {
+      "status": "exclude",
+      "merchant": "White Restaurant",
+      "title": "Lunch Set from $9.90",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "White Restaurant",
+      "title": "Lunch Set from $9.90",
+      "benefit": "Lunch Set from $9.90",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Each named merchant owns its priced lunch proposition. No campaign dates appear in the original roundup; retain with unknown validity."
+  },
+  {
+    "id": "5637306f-5e37-5389-aa72-cf688debaf33",
+    "sourceUrl": "https://t.me/sgfooddeals/4880",
+    "originalText": "Dine for Good at Marina Bay Sands this Aug ♥️\n\n🔹 Enjoy special dishes from 12 signature & celebrity chef restaurants while giving back to communities in need\n🔹 Feast on signatures like Yardbird’s Chicken & Waffles, Miracle Coffee’s Kiku Cake & Mango Pineapple Fizz, Origin + Bloom’s Chicken Rendang Sandwich & more\n🔹 All proceeds go to AWWA’s Enabled Living programme (https://tco.sg/mbsawwa)\n📅 Now till 30 Aug\n\nT&Cs apply. Images are for illustration purposes only.\n\nFind out more: tco.sg/mbscharityxsgfd (http://tco.sg/mbscharityxsgfd)\n\n@sgfooddeals (https://t.me/sgfooddeals)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "Dine for Good at Marina Bay Sands this Aug ♥️\n\n🔹 Enjoy special dishes from 12 signature & celebrity chef restaurants while giving back to communities in need\n🔹 Feast on signatures like Yardbird’s Chicken & Waffles, Miracle Coffee’s Kiku Cake & Mango Pineapple Fizz, Origin + Bloom’s Chicken Rendang Sandwich & more\n🔹 All proceeds go to AWWA’s Enabled Living programme (https://tco.sg/mbsawwa)\n📅 Now till 30 Aug\n\nT&Cs apply. Images are for illustration purposes only.\n\nFind out more: tco.sg/mbscharityxsgfd (http://tco.sg/mbscharityxsgfd)\n\n@sgfooddeals (https://t.me/sgfooddeals)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "Dine for Good at Marina Bay Sands this Aug",
+      "benefit": "Dine for Good at Marina Bay Sands this Aug",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved"
+    ],
+    "review": "Charity campaign names Marina Bay Sands and multiple restaurants, with Now till 30 Aug. Retain the campaign; single merchant ownership remains unresolved rather than substituting a bank/venue location for participating restaurants."
+  },
+  {
+    "id": "fbb7927c-367d-5fc8-aa72-7e8d929a50d4",
+    "sourceUrl": "https://t.me/sgfooddeals/4884",
+    "originalText": "6 Food Events Happening This Aug\n\n🔹 Check out these night bazaars, food fairs & festivals happening around SG:\n1️⃣ Sentosa GrillFest (https://tco.sg/XDsndrIbx) (Till 16 Aug) \n2️⃣ Hougang Food Fair (https://tco.sg/5eFeOHp65) (Till 19 Aug) \n3️⃣ Tiong Bahru Food Fair (https://tco.sg/IBS14YCvt) (Till 23 Aug)\n4️⃣ APAC F&B Expo (https://tco.sg/BYQIWO4pR) (21 - 23 Aug) \n5️⃣ Celebfest Food Festival (https://tco.sg/NJCCXBj83) (21 - 23 Aug)\n6️⃣ Punggol Central Night Bazaar (https://tco.sg/RZcDfmjdP) (Till 30 Aug)\n\n@sgfooddeals (https://t.me/sgfooddeals) #shoutout\n[Media attached: verify image/video conditions.]",
+    "ownedText": "Sentosa GrillFest (https://tco.sg/XDsndrIbx) (Till 16 Aug)",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "Sentosa GrillFest (Till 16 Aug)",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "Sentosa GrillFest (Till 16 Aug)",
+      "benefit": "Sentosa GrillFest (Till 16 Aug)",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original roundup child names an event and a parenthesized period. Retain event proposition; merchant ownership and the unsupported inline validity structure remain for review. No expiry is invented."
+  },
+  {
+    "id": "bdd48f65-6e46-5c6a-a4ad-20b3903d856d",
+    "sourceUrl": "https://t.me/sgfooddeals/4884",
+    "originalText": "6 Food Events Happening This Aug\n\n🔹 Check out these night bazaars, food fairs & festivals happening around SG:\n1️⃣ Sentosa GrillFest (https://tco.sg/XDsndrIbx) (Till 16 Aug) \n2️⃣ Hougang Food Fair (https://tco.sg/5eFeOHp65) (Till 19 Aug) \n3️⃣ Tiong Bahru Food Fair (https://tco.sg/IBS14YCvt) (Till 23 Aug)\n4️⃣ APAC F&B Expo (https://tco.sg/BYQIWO4pR) (21 - 23 Aug) \n5️⃣ Celebfest Food Festival (https://tco.sg/NJCCXBj83) (21 - 23 Aug)\n6️⃣ Punggol Central Night Bazaar (https://tco.sg/RZcDfmjdP) (Till 30 Aug)\n\n@sgfooddeals (https://t.me/sgfooddeals) #shoutout\n[Media attached: verify image/video conditions.]",
+    "ownedText": "Hougang Food Fair (https://tco.sg/5eFeOHp65) (Till 19 Aug)",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "Hougang Food Fair (Till 19 Aug)",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "Hougang Food Fair (Till 19 Aug)",
+      "benefit": "Hougang Food Fair (Till 19 Aug)",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original roundup child names an event and a parenthesized period. Retain event proposition; merchant ownership and the unsupported inline validity structure remain for review. No expiry is invented."
+  },
+  {
+    "id": "cc56581e-177c-543d-a10a-01116c44f74f",
+    "sourceUrl": "https://t.me/sgfooddeals/4884",
+    "originalText": "6 Food Events Happening This Aug\n\n🔹 Check out these night bazaars, food fairs & festivals happening around SG:\n1️⃣ Sentosa GrillFest (https://tco.sg/XDsndrIbx) (Till 16 Aug) \n2️⃣ Hougang Food Fair (https://tco.sg/5eFeOHp65) (Till 19 Aug) \n3️⃣ Tiong Bahru Food Fair (https://tco.sg/IBS14YCvt) (Till 23 Aug)\n4️⃣ APAC F&B Expo (https://tco.sg/BYQIWO4pR) (21 - 23 Aug) \n5️⃣ Celebfest Food Festival (https://tco.sg/NJCCXBj83) (21 - 23 Aug)\n6️⃣ Punggol Central Night Bazaar (https://tco.sg/RZcDfmjdP) (Till 30 Aug)\n\n@sgfooddeals (https://t.me/sgfooddeals) #shoutout\n[Media attached: verify image/video conditions.]",
+    "ownedText": "Tiong Bahru Food Fair (https://tco.sg/IBS14YCvt) (Till 23 Aug)",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "Tiong Bahru Food Fair (Till 23 Aug)",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "Tiong Bahru Food Fair (Till 23 Aug)",
+      "benefit": "Tiong Bahru Food Fair (Till 23 Aug)",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original roundup child names an event and a parenthesized period. Retain event proposition; merchant ownership and the unsupported inline validity structure remain for review. No expiry is invented."
+  },
+  {
+    "id": "629350a3-1a4f-5846-a59e-c1d15d5200dc",
+    "sourceUrl": "https://t.me/sgfooddeals/4884",
+    "originalText": "6 Food Events Happening This Aug\n\n🔹 Check out these night bazaars, food fairs & festivals happening around SG:\n1️⃣ Sentosa GrillFest (https://tco.sg/XDsndrIbx) (Till 16 Aug) \n2️⃣ Hougang Food Fair (https://tco.sg/5eFeOHp65) (Till 19 Aug) \n3️⃣ Tiong Bahru Food Fair (https://tco.sg/IBS14YCvt) (Till 23 Aug)\n4️⃣ APAC F&B Expo (https://tco.sg/BYQIWO4pR) (21 - 23 Aug) \n5️⃣ Celebfest Food Festival (https://tco.sg/NJCCXBj83) (21 - 23 Aug)\n6️⃣ Punggol Central Night Bazaar (https://tco.sg/RZcDfmjdP) (Till 30 Aug)\n\n@sgfooddeals (https://t.me/sgfooddeals) #shoutout\n[Media attached: verify image/video conditions.]",
+    "ownedText": "APAC F&B Expo (https://tco.sg/BYQIWO4pR) (21 - 23 Aug)",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "APAC F&B Expo (21 - 23 Aug)",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "APAC F&B Expo (21 - 23 Aug)",
+      "benefit": "APAC F&B Expo (21 - 23 Aug)",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original roundup child names an event and a parenthesized period. Retain event proposition; merchant ownership and the unsupported inline validity structure remain for review. No expiry is invented."
+  },
+  {
+    "id": "513c40d7-9ca9-5ffb-a1b2-fd63ee418949",
+    "sourceUrl": "https://t.me/sgfooddeals/4884",
+    "originalText": "6 Food Events Happening This Aug\n\n🔹 Check out these night bazaars, food fairs & festivals happening around SG:\n1️⃣ Sentosa GrillFest (https://tco.sg/XDsndrIbx) (Till 16 Aug) \n2️⃣ Hougang Food Fair (https://tco.sg/5eFeOHp65) (Till 19 Aug) \n3️⃣ Tiong Bahru Food Fair (https://tco.sg/IBS14YCvt) (Till 23 Aug)\n4️⃣ APAC F&B Expo (https://tco.sg/BYQIWO4pR) (21 - 23 Aug) \n5️⃣ Celebfest Food Festival (https://tco.sg/NJCCXBj83) (21 - 23 Aug)\n6️⃣ Punggol Central Night Bazaar (https://tco.sg/RZcDfmjdP) (Till 30 Aug)\n\n@sgfooddeals (https://t.me/sgfooddeals) #shoutout\n[Media attached: verify image/video conditions.]",
+    "ownedText": "Celebfest Food Festival (https://tco.sg/NJCCXBj83) (21 - 23 Aug)",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "Celebfest Food Festival (21 - 23 Aug)",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "Celebfest Food Festival (21 - 23 Aug)",
+      "benefit": "Celebfest Food Festival (21 - 23 Aug)",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original roundup child names an event and a parenthesized period. Retain event proposition; merchant ownership and the unsupported inline validity structure remain for review. No expiry is invented."
+  },
+  {
+    "id": "0491417a-92d0-5c7b-a1cc-47f5cee368a1",
+    "sourceUrl": "https://t.me/sgfooddeals/4884",
+    "originalText": "6 Food Events Happening This Aug\n\n🔹 Check out these night bazaars, food fairs & festivals happening around SG:\n1️⃣ Sentosa GrillFest (https://tco.sg/XDsndrIbx) (Till 16 Aug) \n2️⃣ Hougang Food Fair (https://tco.sg/5eFeOHp65) (Till 19 Aug) \n3️⃣ Tiong Bahru Food Fair (https://tco.sg/IBS14YCvt) (Till 23 Aug)\n4️⃣ APAC F&B Expo (https://tco.sg/BYQIWO4pR) (21 - 23 Aug) \n5️⃣ Celebfest Food Festival (https://tco.sg/NJCCXBj83) (21 - 23 Aug)\n6️⃣ Punggol Central Night Bazaar (https://tco.sg/RZcDfmjdP) (Till 30 Aug)\n\n@sgfooddeals (https://t.me/sgfooddeals) #shoutout\n[Media attached: verify image/video conditions.]",
+    "ownedText": "Punggol Central Night Bazaar (https://tco.sg/RZcDfmjdP) (Till 30 Aug)",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "Punggol Central Night Bazaar (Till 30 Aug)",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "Punggol Central Night Bazaar (Till 30 Aug)",
+      "benefit": "Punggol Central Night Bazaar (Till 30 Aug)",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original roundup child names an event and a parenthesized period. Retain event proposition; merchant ownership and the unsupported inline validity structure remain for review. No expiry is invented."
+  },
+  {
+    "id": "9c3083d2-4d87-5ce6-a4cf-b50726a6b25c",
+    "sourceUrl": "https://t.me/sgfooddeals/4888",
+    "originalText": "Mixed Rice Personality Quiz 🍚\n\n🔹 Answer a series of fun situational questions that are hyperlocal \n🔹 Discover which mixed rice dish matches your personality\n\nTry it here: tco.sg/mGzRxVnrV (http://tco.sg/mGzRxVnrV)\n\n@sgfooddeals (https://t.me/sgfooddeals) #shoutout\n[Media attached: verify image/video conditions.]",
+    "ownedText": "Mixed Rice Personality Quiz 🍚\n\n🔹 Answer a series of fun situational questions that are hyperlocal \n🔹 Discover which mixed rice dish matches your personality\n\nTry it here: tco.sg/mGzRxVnrV (http://tco.sg/mGzRxVnrV)\n\n@sgfooddeals (https://t.me/sgfooddeals) #shoutout\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "Mixed Rice Personality Quiz",
+      "benefit": "Mixed Rice Personality Quiz",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Quiz promotion gives no merchant or redemption proposition. Preserve source as content-review record."
+  },
+  {
+    "id": "874236b7-bf42-58be-a593-169e3ccbc500",
+    "sourceUrl": "https://t.me/sgfooddeals/4889",
+    "originalText": "[Unsupported or empty post: manual review required.]",
+    "ownedText": "[Unsupported or empty post: manual review required.]",
+    "before": {
+      "status": "needs_content_resolution",
+      "merchant": "",
+      "title": "manual review required.]",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "",
+      "benefit": "",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "title_unresolved",
+      "offer_proposition_unresolved",
+      "unsupported_source_text",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Source consists solely of the explicit unsupported/empty-post marker. Merchant, title and proposition remain empty and the original marker is preserved in description."
+  },
+  {
+    "id": "8dc6284c-6b2f-5157-a4d3-2640f1544963",
+    "sourceUrl": "https://t.me/sgfooddeals/4903",
+    "originalText": "$35 Unlimited Aus Angus Steak & Fries 🥩\n\n🔹 Enjoy free-flow Aus Angus steak & fries with a complimentary drink for just $35 nett\n🔹 Limited to 60 mins of dining time upon service & prior reservations required\n📅 Mon - Fri\n📍 5 Dunlop Street\n\nMore info: tco.sg/UNhXWSmHa (http://tco.sg/UNhXWSmHa)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+    "ownedText": "$35 Unlimited Aus Angus Steak & Fries 🥩\n\n🔹 Enjoy free-flow Aus Angus steak & fries with a complimentary drink for just $35 nett\n🔹 Limited to 60 mins of dining time upon service & prior reservations required\n📅 Mon - Fri\n📍 5 Dunlop Street\n\nMore info: tco.sg/UNhXWSmHa (http://tco.sg/UNhXWSmHa)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "needs_content_resolution",
+      "merchant": "",
+      "title": "",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "$35 Unlimited Aus Angus Steak & Fries",
+      "benefit": "$35 Unlimited Aus Angus Steak & Fries",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original priced steak offer omits merchant identity. Address alone cannot establish a merchant; content review remains required."
+  },
+  {
+    "id": "cc744fc3-fd57-5b05-a70e-e12e1caba3ca",
+    "sourceUrl": "https://t.me/sgfooddeals/4908",
+    "originalText": "Omuplace: Omurice & Udon from $3.90 🍳\n\n🔹 Score delicious Japanese cuisine in a hawker centre at affordable prices from just $3.90\n🔹 Choose from Miso Udon, Pork Katsu Omurice, Wagyu Hamburg Omurice & more\n\nMore info: tco.sg/3kbj1nVsj (http://tco.sg/3kbj1nVsj) \n\n@sgfooddeals (https://t.me/sgfooddeals) #article\n——————————————————\n🏠 @renodealssg (https://t.me/renodealssg) - Home reno deals\n🇲🇾 @myfoodpromos (https://t.me/myfoodpromos) - M'sia food deals\n🇲🇾 @mymakanmurah (https://t.me/mymakanmurah) - M'sia food deals (In Malay)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "Omuplace: Omurice & Udon from $3.90 🍳\n\n🔹 Score delicious Japanese cuisine in a hawker centre at affordable prices from just $3.90\n🔹 Choose from Miso Udon, Pork Katsu Omurice, Wagyu Hamburg Omurice & more\n\nMore info: tco.sg/3kbj1nVsj (http://tco.sg/3kbj1nVsj) \n\n@sgfooddeals (https://t.me/sgfooddeals) #article\n——————————————————\n🏠 @renodealssg (https://t.me/renodealssg) - Home reno deals\n🇲🇾 @myfoodpromos (https://t.me/myfoodpromos) - M'sia food deals\n🇲🇾 @mymakanmurah (https://t.me/mymakanmurah) - M'sia food deals (In Malay)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "Omuplace",
+      "title": "Omurice & Udon from $3.90",
+      "benefit": "Omurice & Udon from $3.90",
+      "genuine": true
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "Omuplace",
+      "title": "Omurice & Udon from $3.90",
+      "benefit": "Omurice & Udon from $3.90",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Omuplace owns the from-$3.90 proposition. Article wording does not negate curated inclusion; no bounded validity is stated."
+  },
+  {
+    "id": "75b2e30d-30ee-5045-abb2-716f1c17f8d1",
+    "sourceUrl": "https://t.me/sgfooddeals/4909",
+    "originalText": "BRAND’S Ginseng Essence Honey Jelly Strip now at just $2 per strip 🍯\n\n🔹 Individual packed for a convenient boost anytime, anywhere\n🔹 Help relieve fatigue, replenish energy & support immunity \n🔹 Ideal for fresh grads, working adults or parents juggling a fast-paced lifestyle\n🔹 Available in 5-strip or 12-strip packs\n🔹 Visit BRAND’S roadshow at Unity VivoCity to discover their new jelly strip & redeem exciting gifts with purchase\n📅 Roadshow: 27 - 30 Aug\n📅 $2 Deal: Now till 30 Sep\n \nShop here: tco.sg/brandsjellyxsgfd (http://tco.sg/brandsjellyxsgfd)\n\n@sgfooddealssg (https://t.me/sgfooddealssg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "BRAND’S Ginseng Essence Honey Jelly Strip now at just $2 per strip 🍯\n\n🔹 Individual packed for a convenient boost anytime, anywhere\n🔹 Help relieve fatigue, replenish energy & support immunity \n🔹 Ideal for fresh grads, working adults or parents juggling a fast-paced lifestyle\n🔹 Available in 5-strip or 12-strip packs\n🔹 Visit BRAND’S roadshow at Unity VivoCity to discover their new jelly strip & redeem exciting gifts with purchase\n \nShop here: tco.sg/brandsjellyxsgfd (http://tco.sg/brandsjellyxsgfd)\n\n@sgfooddealssg (https://t.me/sgfooddealssg)\n[Media attached: verify image/video conditions.]\n📅 27 - 30 Aug\n📍 Roadshow",
+    "before": {
+      "status": "needs_content_resolution",
+      "merchant": "",
+      "title": " — Roadshow",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "BRAND’S Ginseng Essence Honey Jelly Strip now at just $2 per strip",
+      "benefit": "BRAND’S Ginseng Essence Honey Jelly Strip now at just $2 per strip",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved"
+    ],
+    "review": "BRAND’S product has separately labelled Roadshow and $2 Deal periods. Preserve both owned windows; merchant/redemption ownership extraction remains incomplete, with no invented location."
+  },
+  {
+    "id": "1a51e784-f95b-5537-a866-5907bf01aa64",
+    "sourceUrl": "https://t.me/sgfooddeals/4909",
+    "originalText": "BRAND’S Ginseng Essence Honey Jelly Strip now at just $2 per strip 🍯\n\n🔹 Individual packed for a convenient boost anytime, anywhere\n🔹 Help relieve fatigue, replenish energy & support immunity \n🔹 Ideal for fresh grads, working adults or parents juggling a fast-paced lifestyle\n🔹 Available in 5-strip or 12-strip packs\n🔹 Visit BRAND’S roadshow at Unity VivoCity to discover their new jelly strip & redeem exciting gifts with purchase\n📅 Roadshow: 27 - 30 Aug\n📅 $2 Deal: Now till 30 Sep\n \nShop here: tco.sg/brandsjellyxsgfd (http://tco.sg/brandsjellyxsgfd)\n\n@sgfooddealssg (https://t.me/sgfooddealssg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "BRAND’S Ginseng Essence Honey Jelly Strip now at just $2 per strip 🍯\n\n🔹 Individual packed for a convenient boost anytime, anywhere\n🔹 Help relieve fatigue, replenish energy & support immunity \n🔹 Ideal for fresh grads, working adults or parents juggling a fast-paced lifestyle\n🔹 Available in 5-strip or 12-strip packs\n🔹 Visit BRAND’S roadshow at Unity VivoCity to discover their new jelly strip & redeem exciting gifts with purchase\n \nShop here: tco.sg/brandsjellyxsgfd (http://tco.sg/brandsjellyxsgfd)\n\n@sgfooddealssg (https://t.me/sgfooddealssg)\n[Media attached: verify image/video conditions.]\n📅 Now till 30 Sep\n📍 $2 Deal",
+    "before": {
+      "status": "needs_content_resolution",
+      "merchant": "",
+      "title": " — $2 Deal",
+      "benefit": " — $2 Deal",
+      "genuine": true
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "BRAND’S Ginseng Essence Honey Jelly Strip now at just $2 per strip",
+      "benefit": "BRAND’S Ginseng Essence Honey Jelly Strip now at just $2 per strip",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved"
+    ],
+    "review": "BRAND’S product has separately labelled Roadshow and $2 Deal periods. Preserve both owned windows; merchant/redemption ownership extraction remains incomplete, with no invented location."
+  },
+  {
+    "id": "697b1e55-4a67-5519-a7ca-c274bbce89ed",
+    "sourceUrl": "https://t.me/sgfooddeals/4913",
+    "originalText": "Join SG Budget Babes for Cute Activities & Shopping Deals 💖\n\n✨ Stay in the loop for the latest beauty freebies, shopping deals, pop-up markets & more\n\nFind out more: tco.sg/T3AJyOv1b (http://tco.sg/T3AJyOv1b) \n\n@sgweekend (https://t.me/sgweekend) #shoutout\n[Media attached: verify image/video conditions.]",
+    "ownedText": "Join SG Budget Babes for Cute Activities & Shopping Deals 💖\n\n✨ Stay in the loop for the latest beauty freebies, shopping deals, pop-up markets & more\n\nFind out more: tco.sg/T3AJyOv1b (http://tco.sg/T3AJyOv1b) \n\n@sgweekend (https://t.me/sgweekend) #shoutout\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "Join SG Budget Babes for Cute Activities & Shopping Deals",
+      "benefit": "Join SG Budget Babes for Cute Activities & Shopping Deals",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Channel invitation contains no specific merchant-owned offer. Retain original heading for content review."
+  },
+  {
+    "id": "11bbba95-7a03-5999-abea-e0486c1a1de8",
+    "sourceUrl": "https://t.me/sgfooddeals/4915",
+    "originalText": "Food Delivery Promo Codes (Sep 2026) 🛵\n\n1️⃣ foodpanda: tco.sg/wLGghSyXz (http://tco.sg/wLGghSyXz)\n2️⃣ GrabFood: tco.sg/iyavqV2Yp (http://tco.sg/iyavqV2Yp)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+    "ownedText": "foodpanda: tco.sg/wLGghSyXz (http://tco.sg/wLGghSyXz)",
+    "before": {
+      "status": "exclude",
+      "merchant": "foodpanda",
+      "title": "tco.sg/wLGghSyXz (http://tco.sg/wLGghSyXz)",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "online_only",
+      "merchant": "foodpanda",
+      "title": "",
+      "benefit": "",
+      "genuine": true
+    },
+    "reasons": [
+      "title_unresolved",
+      "offer_proposition_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Food Delivery Promo Codes parent contains foodpanda and GrabFood children with only shortlinks. Retain both online-only; specific offer propositions and validity require content resolution, never physical pins."
+  },
+  {
+    "id": "6ca12cfc-6d2a-534b-a87c-0c05eb28a2d3",
+    "sourceUrl": "https://t.me/sgfooddeals/4915",
+    "originalText": "Food Delivery Promo Codes (Sep 2026) 🛵\n\n1️⃣ foodpanda: tco.sg/wLGghSyXz (http://tco.sg/wLGghSyXz)\n2️⃣ GrabFood: tco.sg/iyavqV2Yp (http://tco.sg/iyavqV2Yp)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+    "ownedText": "GrabFood: tco.sg/iyavqV2Yp (http://tco.sg/iyavqV2Yp)",
+    "before": {
+      "status": "exclude",
+      "merchant": "GrabFood",
+      "title": "tco.sg/iyavqV2Yp (http://tco.sg/iyavqV2Yp)",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "online_only",
+      "merchant": "GrabFood",
+      "title": "",
+      "benefit": "",
+      "genuine": true
+    },
+    "reasons": [
+      "title_unresolved",
+      "offer_proposition_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Food Delivery Promo Codes parent contains foodpanda and GrabFood children with only shortlinks. Retain both online-only; specific offer propositions and validity require content resolution, never physical pins."
+  },
+  {
+    "id": "8b88cba3-7314-54e3-a22b-313838f31e94",
+    "sourceUrl": "https://t.me/sgfooddeals/4917",
+    "originalText": "Join Our New Neighbourhood Groups 🏘\n\n✨ Discover upcoming events, food finds & exclusive deals right in your neighbourhood:\n1️⃣ Clementi - Redhill (https://tco.sg/UwtNQlzpk) \n2️⃣ Holland Village - Bukit Panjang (https://tco.sg/tqxozRgxH) \n3️⃣ Punggol - Serangoon (https://tco.sg/0iKeDLsgR)\n4️⃣ Farrer Park - Boon Keng (https://tco.sg/5hZMHuxsd) \n5️⃣ Bishan - Toa Payoh (https://tco.sg/doDZJoWzG) \n6️⃣ Tengah - Jurong (https://tco.sg/PL07GIq41)\n7️⃣ Woodlands - Sembawang (https://tco.sg/gQXgss9Ip)\n8️⃣ Tai Seng - Paya Lebar (https://tco.sg/ngjuYXlOu)\n9️⃣ Marine Parade - East Coast (https://tco.sg/U2p4RYCRI) \n🔟 Bedok - Pasir Ris (https://tco.sg/Q2ZGfJu1X)\n\n@sgweekend (https://t.me/sgweekend) #shoutout\n[Media attached: verify image/video conditions.]",
+    "ownedText": "Clementi - Redhill (https://tco.sg/UwtNQlzpk)",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "Clementi - Redhill",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "Clementi - Redhill",
+      "benefit": "Clementi - Redhill",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source promotes neighbourhood groups. Each child is a geographic group label and link, not a merchant identity; preserve every child for content review, including the tenth original section."
+  },
+  {
+    "id": "116ca8f6-dba6-5fb5-af9d-4c0514db250e",
+    "sourceUrl": "https://t.me/sgfooddeals/4917",
+    "originalText": "Join Our New Neighbourhood Groups 🏘\n\n✨ Discover upcoming events, food finds & exclusive deals right in your neighbourhood:\n1️⃣ Clementi - Redhill (https://tco.sg/UwtNQlzpk) \n2️⃣ Holland Village - Bukit Panjang (https://tco.sg/tqxozRgxH) \n3️⃣ Punggol - Serangoon (https://tco.sg/0iKeDLsgR)\n4️⃣ Farrer Park - Boon Keng (https://tco.sg/5hZMHuxsd) \n5️⃣ Bishan - Toa Payoh (https://tco.sg/doDZJoWzG) \n6️⃣ Tengah - Jurong (https://tco.sg/PL07GIq41)\n7️⃣ Woodlands - Sembawang (https://tco.sg/gQXgss9Ip)\n8️⃣ Tai Seng - Paya Lebar (https://tco.sg/ngjuYXlOu)\n9️⃣ Marine Parade - East Coast (https://tco.sg/U2p4RYCRI) \n🔟 Bedok - Pasir Ris (https://tco.sg/Q2ZGfJu1X)\n\n@sgweekend (https://t.me/sgweekend) #shoutout\n[Media attached: verify image/video conditions.]",
+    "ownedText": "Holland Village - Bukit Panjang (https://tco.sg/tqxozRgxH)",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "Holland Village - Bukit Panjang",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "Holland Village - Bukit Panjang",
+      "benefit": "Holland Village - Bukit Panjang",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source promotes neighbourhood groups. Each child is a geographic group label and link, not a merchant identity; preserve every child for content review, including the tenth original section."
+  },
+  {
+    "id": "9f23b919-c2f2-50ac-aeee-fc609581f246",
+    "sourceUrl": "https://t.me/sgfooddeals/4917",
+    "originalText": "Join Our New Neighbourhood Groups 🏘\n\n✨ Discover upcoming events, food finds & exclusive deals right in your neighbourhood:\n1️⃣ Clementi - Redhill (https://tco.sg/UwtNQlzpk) \n2️⃣ Holland Village - Bukit Panjang (https://tco.sg/tqxozRgxH) \n3️⃣ Punggol - Serangoon (https://tco.sg/0iKeDLsgR)\n4️⃣ Farrer Park - Boon Keng (https://tco.sg/5hZMHuxsd) \n5️⃣ Bishan - Toa Payoh (https://tco.sg/doDZJoWzG) \n6️⃣ Tengah - Jurong (https://tco.sg/PL07GIq41)\n7️⃣ Woodlands - Sembawang (https://tco.sg/gQXgss9Ip)\n8️⃣ Tai Seng - Paya Lebar (https://tco.sg/ngjuYXlOu)\n9️⃣ Marine Parade - East Coast (https://tco.sg/U2p4RYCRI) \n🔟 Bedok - Pasir Ris (https://tco.sg/Q2ZGfJu1X)\n\n@sgweekend (https://t.me/sgweekend) #shoutout\n[Media attached: verify image/video conditions.]",
+    "ownedText": "Punggol - Serangoon (https://tco.sg/0iKeDLsgR)",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "Punggol - Serangoon",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "Punggol - Serangoon",
+      "benefit": "Punggol - Serangoon",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source promotes neighbourhood groups. Each child is a geographic group label and link, not a merchant identity; preserve every child for content review, including the tenth original section."
+  },
+  {
+    "id": "6065be9d-e369-5162-abe6-58ab2c5258be",
+    "sourceUrl": "https://t.me/sgfooddeals/4917",
+    "originalText": "Join Our New Neighbourhood Groups 🏘\n\n✨ Discover upcoming events, food finds & exclusive deals right in your neighbourhood:\n1️⃣ Clementi - Redhill (https://tco.sg/UwtNQlzpk) \n2️⃣ Holland Village - Bukit Panjang (https://tco.sg/tqxozRgxH) \n3️⃣ Punggol - Serangoon (https://tco.sg/0iKeDLsgR)\n4️⃣ Farrer Park - Boon Keng (https://tco.sg/5hZMHuxsd) \n5️⃣ Bishan - Toa Payoh (https://tco.sg/doDZJoWzG) \n6️⃣ Tengah - Jurong (https://tco.sg/PL07GIq41)\n7️⃣ Woodlands - Sembawang (https://tco.sg/gQXgss9Ip)\n8️⃣ Tai Seng - Paya Lebar (https://tco.sg/ngjuYXlOu)\n9️⃣ Marine Parade - East Coast (https://tco.sg/U2p4RYCRI) \n🔟 Bedok - Pasir Ris (https://tco.sg/Q2ZGfJu1X)\n\n@sgweekend (https://t.me/sgweekend) #shoutout\n[Media attached: verify image/video conditions.]",
+    "ownedText": "Farrer Park - Boon Keng (https://tco.sg/5hZMHuxsd)",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "Farrer Park - Boon Keng",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "Farrer Park - Boon Keng",
+      "benefit": "Farrer Park - Boon Keng",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source promotes neighbourhood groups. Each child is a geographic group label and link, not a merchant identity; preserve every child for content review, including the tenth original section."
+  },
+  {
+    "id": "9fe59a2c-e0ad-5840-a3b4-ab29b0baa489",
+    "sourceUrl": "https://t.me/sgfooddeals/4917",
+    "originalText": "Join Our New Neighbourhood Groups 🏘\n\n✨ Discover upcoming events, food finds & exclusive deals right in your neighbourhood:\n1️⃣ Clementi - Redhill (https://tco.sg/UwtNQlzpk) \n2️⃣ Holland Village - Bukit Panjang (https://tco.sg/tqxozRgxH) \n3️⃣ Punggol - Serangoon (https://tco.sg/0iKeDLsgR)\n4️⃣ Farrer Park - Boon Keng (https://tco.sg/5hZMHuxsd) \n5️⃣ Bishan - Toa Payoh (https://tco.sg/doDZJoWzG) \n6️⃣ Tengah - Jurong (https://tco.sg/PL07GIq41)\n7️⃣ Woodlands - Sembawang (https://tco.sg/gQXgss9Ip)\n8️⃣ Tai Seng - Paya Lebar (https://tco.sg/ngjuYXlOu)\n9️⃣ Marine Parade - East Coast (https://tco.sg/U2p4RYCRI) \n🔟 Bedok - Pasir Ris (https://tco.sg/Q2ZGfJu1X)\n\n@sgweekend (https://t.me/sgweekend) #shoutout\n[Media attached: verify image/video conditions.]",
+    "ownedText": "Bishan - Toa Payoh (https://tco.sg/doDZJoWzG)",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "Bishan - Toa Payoh",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "Bishan - Toa Payoh",
+      "benefit": "Bishan - Toa Payoh",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source promotes neighbourhood groups. Each child is a geographic group label and link, not a merchant identity; preserve every child for content review, including the tenth original section."
+  },
+  {
+    "id": "a251e440-1d01-55ac-a7e4-e86b19ad299e",
+    "sourceUrl": "https://t.me/sgfooddeals/4917",
+    "originalText": "Join Our New Neighbourhood Groups 🏘\n\n✨ Discover upcoming events, food finds & exclusive deals right in your neighbourhood:\n1️⃣ Clementi - Redhill (https://tco.sg/UwtNQlzpk) \n2️⃣ Holland Village - Bukit Panjang (https://tco.sg/tqxozRgxH) \n3️⃣ Punggol - Serangoon (https://tco.sg/0iKeDLsgR)\n4️⃣ Farrer Park - Boon Keng (https://tco.sg/5hZMHuxsd) \n5️⃣ Bishan - Toa Payoh (https://tco.sg/doDZJoWzG) \n6️⃣ Tengah - Jurong (https://tco.sg/PL07GIq41)\n7️⃣ Woodlands - Sembawang (https://tco.sg/gQXgss9Ip)\n8️⃣ Tai Seng - Paya Lebar (https://tco.sg/ngjuYXlOu)\n9️⃣ Marine Parade - East Coast (https://tco.sg/U2p4RYCRI) \n🔟 Bedok - Pasir Ris (https://tco.sg/Q2ZGfJu1X)\n\n@sgweekend (https://t.me/sgweekend) #shoutout\n[Media attached: verify image/video conditions.]",
+    "ownedText": "Tengah - Jurong (https://tco.sg/PL07GIq41)",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "Tengah - Jurong",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "Tengah - Jurong",
+      "benefit": "Tengah - Jurong",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source promotes neighbourhood groups. Each child is a geographic group label and link, not a merchant identity; preserve every child for content review, including the tenth original section."
+  },
+  {
+    "id": "7637745d-9879-5c17-a6e2-a1b0f7a87a9d",
+    "sourceUrl": "https://t.me/sgfooddeals/4917",
+    "originalText": "Join Our New Neighbourhood Groups 🏘\n\n✨ Discover upcoming events, food finds & exclusive deals right in your neighbourhood:\n1️⃣ Clementi - Redhill (https://tco.sg/UwtNQlzpk) \n2️⃣ Holland Village - Bukit Panjang (https://tco.sg/tqxozRgxH) \n3️⃣ Punggol - Serangoon (https://tco.sg/0iKeDLsgR)\n4️⃣ Farrer Park - Boon Keng (https://tco.sg/5hZMHuxsd) \n5️⃣ Bishan - Toa Payoh (https://tco.sg/doDZJoWzG) \n6️⃣ Tengah - Jurong (https://tco.sg/PL07GIq41)\n7️⃣ Woodlands - Sembawang (https://tco.sg/gQXgss9Ip)\n8️⃣ Tai Seng - Paya Lebar (https://tco.sg/ngjuYXlOu)\n9️⃣ Marine Parade - East Coast (https://tco.sg/U2p4RYCRI) \n🔟 Bedok - Pasir Ris (https://tco.sg/Q2ZGfJu1X)\n\n@sgweekend (https://t.me/sgweekend) #shoutout\n[Media attached: verify image/video conditions.]",
+    "ownedText": "Woodlands - Sembawang (https://tco.sg/gQXgss9Ip)",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "Woodlands - Sembawang",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "Woodlands - Sembawang",
+      "benefit": "Woodlands - Sembawang",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source promotes neighbourhood groups. Each child is a geographic group label and link, not a merchant identity; preserve every child for content review, including the tenth original section."
+  },
+  {
+    "id": "bdc9aa4f-ed5e-5bdc-a7b1-951fbb5bd265",
+    "sourceUrl": "https://t.me/sgfooddeals/4917",
+    "originalText": "Join Our New Neighbourhood Groups 🏘\n\n✨ Discover upcoming events, food finds & exclusive deals right in your neighbourhood:\n1️⃣ Clementi - Redhill (https://tco.sg/UwtNQlzpk) \n2️⃣ Holland Village - Bukit Panjang (https://tco.sg/tqxozRgxH) \n3️⃣ Punggol - Serangoon (https://tco.sg/0iKeDLsgR)\n4️⃣ Farrer Park - Boon Keng (https://tco.sg/5hZMHuxsd) \n5️⃣ Bishan - Toa Payoh (https://tco.sg/doDZJoWzG) \n6️⃣ Tengah - Jurong (https://tco.sg/PL07GIq41)\n7️⃣ Woodlands - Sembawang (https://tco.sg/gQXgss9Ip)\n8️⃣ Tai Seng - Paya Lebar (https://tco.sg/ngjuYXlOu)\n9️⃣ Marine Parade - East Coast (https://tco.sg/U2p4RYCRI) \n🔟 Bedok - Pasir Ris (https://tco.sg/Q2ZGfJu1X)\n\n@sgweekend (https://t.me/sgweekend) #shoutout\n[Media attached: verify image/video conditions.]",
+    "ownedText": "Tai Seng - Paya Lebar (https://tco.sg/ngjuYXlOu)",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "Tai Seng - Paya Lebar",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "Tai Seng - Paya Lebar",
+      "benefit": "Tai Seng - Paya Lebar",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source promotes neighbourhood groups. Each child is a geographic group label and link, not a merchant identity; preserve every child for content review, including the tenth original section."
+  },
+  {
+    "id": "c35cea11-a53d-5fce-a771-93b7f9a610a6",
+    "sourceUrl": "https://t.me/sgfooddeals/4917",
+    "originalText": "Join Our New Neighbourhood Groups 🏘\n\n✨ Discover upcoming events, food finds & exclusive deals right in your neighbourhood:\n1️⃣ Clementi - Redhill (https://tco.sg/UwtNQlzpk) \n2️⃣ Holland Village - Bukit Panjang (https://tco.sg/tqxozRgxH) \n3️⃣ Punggol - Serangoon (https://tco.sg/0iKeDLsgR)\n4️⃣ Farrer Park - Boon Keng (https://tco.sg/5hZMHuxsd) \n5️⃣ Bishan - Toa Payoh (https://tco.sg/doDZJoWzG) \n6️⃣ Tengah - Jurong (https://tco.sg/PL07GIq41)\n7️⃣ Woodlands - Sembawang (https://tco.sg/gQXgss9Ip)\n8️⃣ Tai Seng - Paya Lebar (https://tco.sg/ngjuYXlOu)\n9️⃣ Marine Parade - East Coast (https://tco.sg/U2p4RYCRI) \n🔟 Bedok - Pasir Ris (https://tco.sg/Q2ZGfJu1X)\n\n@sgweekend (https://t.me/sgweekend) #shoutout\n[Media attached: verify image/video conditions.]",
+    "ownedText": "Marine Parade - East Coast (https://tco.sg/U2p4RYCRI)",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "Marine Parade - East Coast",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "Marine Parade - East Coast",
+      "benefit": "Marine Parade - East Coast",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source promotes neighbourhood groups. Each child is a geographic group label and link, not a merchant identity; preserve every child for content review, including the tenth original section."
+  },
+  {
+    "id": "00877087-25e9-5380-a7d4-ced8b0c2689a",
+    "sourceUrl": "https://t.me/sgfooddeals/4917",
+    "originalText": "Join Our New Neighbourhood Groups 🏘\n\n✨ Discover upcoming events, food finds & exclusive deals right in your neighbourhood:\n1️⃣ Clementi - Redhill (https://tco.sg/UwtNQlzpk) \n2️⃣ Holland Village - Bukit Panjang (https://tco.sg/tqxozRgxH) \n3️⃣ Punggol - Serangoon (https://tco.sg/0iKeDLsgR)\n4️⃣ Farrer Park - Boon Keng (https://tco.sg/5hZMHuxsd) \n5️⃣ Bishan - Toa Payoh (https://tco.sg/doDZJoWzG) \n6️⃣ Tengah - Jurong (https://tco.sg/PL07GIq41)\n7️⃣ Woodlands - Sembawang (https://tco.sg/gQXgss9Ip)\n8️⃣ Tai Seng - Paya Lebar (https://tco.sg/ngjuYXlOu)\n9️⃣ Marine Parade - East Coast (https://tco.sg/U2p4RYCRI) \n🔟 Bedok - Pasir Ris (https://tco.sg/Q2ZGfJu1X)\n\n@sgweekend (https://t.me/sgweekend) #shoutout\n[Media attached: verify image/video conditions.]",
+    "ownedText": "Bedok - Pasir Ris (https://tco.sg/Q2ZGfJu1X)",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "Bedok - Pasir Ris",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "Bedok - Pasir Ris",
+      "benefit": "Bedok - Pasir Ris",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source promotes neighbourhood groups. Each child is a geographic group label and link, not a merchant identity; preserve every child for content review, including the tenth original section."
+  },
+  {
+    "id": "d48eceda-1ced-55b7-a057-a42dee2d0960",
+    "sourceUrl": "https://t.me/sgfooddeals/4919",
+    "originalText": "DBS PayLah! $3 Cashback at Hawkers is back 🤑\n\n🔘 Register as a DBS PayLah! user (https://tco.sg/WPOvYfNat) & pay by scanning QR codes to get up to $3 cashback \n🔘 Valid at 14,000 participating neighbourhood retail stores, wet markets, hawker centres & kopitiams\n🔘 Limited to first 160,000 redemptions every Saturday\n📅 Now till 19 Dec (Every Sat)\n⏰ 6AM onwards\n\nFind out more: tco.sg/A3U7K6XoV (http://tco.sg/A3U7K6XoV)\n\n@sgadulting101 (https://t.me/sgadulting101) #article\n[Media attached: verify image/video conditions.]",
+    "ownedText": "DBS PayLah! $3 Cashback at Hawkers is back 🤑\n\n🔘 Register as a DBS PayLah! user (https://tco.sg/WPOvYfNat) & pay by scanning QR codes to get up to $3 cashback \n🔘 Valid at 14,000 participating neighbourhood retail stores, wet markets, hawker centres & kopitiams\n🔘 Limited to first 160,000 redemptions every Saturday\n📅 Now till 19 Dec (Every Sat)\n⏰ 6AM onwards\n\nFind out more: tco.sg/A3U7K6XoV (http://tco.sg/A3U7K6XoV)\n\n@sgadulting101 (https://t.me/sgadulting101) #article\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "DBS PayLah! $3 Cashback at Hawkers is back",
+      "benefit": "DBS PayLah! $3 Cashback at Hawkers is back",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved"
+    ],
+    "review": "DBS PayLah cashback is a merchant-network campaign, not an offer at DBS bank branches. Retain source heading and bounded dates; redemption-merchant ownership needs review."
+  },
+  {
+    "id": "7de120dc-578c-518a-a5e9-a26341e776a0",
+    "sourceUrl": "https://t.me/sgfooddeals/4921",
+    "originalText": "6 Food Events Happening This Sep 🎪\n\n🔹 Check out these night bazaars, food fairs & festivals happening around SG:\n1️⃣ Yishun NDP Food Fair (https://tco.sg/h9SiZox4d) (Till 6 Sep) \n2️⃣ Choa Chu Kang Night Bazaar (https://tco.sg/RTy6GvixK) (Till 13 Sep) \n3️⃣ Redhill Food Bazaar (https://tco.sg/vA65A7AVr) (Till 13 Sep) \n4️⃣ Jurong Point Food Festival (https://tco.sg/NnEbPe5Lq) (Till 25 Sep)\n5️⃣ GBTB Mid-Autumn Food Festival (https://tco.sg/9a7ZvObJ2) (12 - 27 Sep)\n6️⃣ Tampines Night Bazaar (https://tco.sg/KjdnMo3kJ) (Till 28 Sep)\n\n@sgfooddeals (https://t.me/sgfooddeals) #shoutout\n[Media attached: verify image/video conditions.]",
+    "ownedText": "Yishun NDP Food Fair (https://tco.sg/h9SiZox4d) (Till 6 Sep)",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "Yishun NDP Food Fair (Till 6 Sep)",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "Yishun NDP Food Fair (Till 6 Sep)",
+      "benefit": "Yishun NDP Food Fair (Till 6 Sep)",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original event child has venue/event wording and inline dates. Retain for content review; current extractor cannot isolate redemption merchant or safely parse this inline period."
+  },
+  {
+    "id": "d80a6e74-ca65-58af-a6dc-94a41fc5ccb6",
+    "sourceUrl": "https://t.me/sgfooddeals/4921",
+    "originalText": "6 Food Events Happening This Sep 🎪\n\n🔹 Check out these night bazaars, food fairs & festivals happening around SG:\n1️⃣ Yishun NDP Food Fair (https://tco.sg/h9SiZox4d) (Till 6 Sep) \n2️⃣ Choa Chu Kang Night Bazaar (https://tco.sg/RTy6GvixK) (Till 13 Sep) \n3️⃣ Redhill Food Bazaar (https://tco.sg/vA65A7AVr) (Till 13 Sep) \n4️⃣ Jurong Point Food Festival (https://tco.sg/NnEbPe5Lq) (Till 25 Sep)\n5️⃣ GBTB Mid-Autumn Food Festival (https://tco.sg/9a7ZvObJ2) (12 - 27 Sep)\n6️⃣ Tampines Night Bazaar (https://tco.sg/KjdnMo3kJ) (Till 28 Sep)\n\n@sgfooddeals (https://t.me/sgfooddeals) #shoutout\n[Media attached: verify image/video conditions.]",
+    "ownedText": "Choa Chu Kang Night Bazaar (https://tco.sg/RTy6GvixK) (Till 13 Sep)",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "Choa Chu Kang Night Bazaar (Till 13 Sep)",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "Choa Chu Kang Night Bazaar (Till 13 Sep)",
+      "benefit": "Choa Chu Kang Night Bazaar (Till 13 Sep)",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original event child has venue/event wording and inline dates. Retain for content review; current extractor cannot isolate redemption merchant or safely parse this inline period."
+  },
+  {
+    "id": "cd905a2b-cc88-5c87-a882-55b2708b523f",
+    "sourceUrl": "https://t.me/sgfooddeals/4921",
+    "originalText": "6 Food Events Happening This Sep 🎪\n\n🔹 Check out these night bazaars, food fairs & festivals happening around SG:\n1️⃣ Yishun NDP Food Fair (https://tco.sg/h9SiZox4d) (Till 6 Sep) \n2️⃣ Choa Chu Kang Night Bazaar (https://tco.sg/RTy6GvixK) (Till 13 Sep) \n3️⃣ Redhill Food Bazaar (https://tco.sg/vA65A7AVr) (Till 13 Sep) \n4️⃣ Jurong Point Food Festival (https://tco.sg/NnEbPe5Lq) (Till 25 Sep)\n5️⃣ GBTB Mid-Autumn Food Festival (https://tco.sg/9a7ZvObJ2) (12 - 27 Sep)\n6️⃣ Tampines Night Bazaar (https://tco.sg/KjdnMo3kJ) (Till 28 Sep)\n\n@sgfooddeals (https://t.me/sgfooddeals) #shoutout\n[Media attached: verify image/video conditions.]",
+    "ownedText": "Redhill Food Bazaar (https://tco.sg/vA65A7AVr) (Till 13 Sep)",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "Redhill Food Bazaar (Till 13 Sep)",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "Redhill Food Bazaar (Till 13 Sep)",
+      "benefit": "Redhill Food Bazaar (Till 13 Sep)",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original event child has venue/event wording and inline dates. Retain for content review; current extractor cannot isolate redemption merchant or safely parse this inline period."
+  },
+  {
+    "id": "6c9c9cda-245b-5b39-a973-b5d2602d2482",
+    "sourceUrl": "https://t.me/sgfooddeals/4921",
+    "originalText": "6 Food Events Happening This Sep 🎪\n\n🔹 Check out these night bazaars, food fairs & festivals happening around SG:\n1️⃣ Yishun NDP Food Fair (https://tco.sg/h9SiZox4d) (Till 6 Sep) \n2️⃣ Choa Chu Kang Night Bazaar (https://tco.sg/RTy6GvixK) (Till 13 Sep) \n3️⃣ Redhill Food Bazaar (https://tco.sg/vA65A7AVr) (Till 13 Sep) \n4️⃣ Jurong Point Food Festival (https://tco.sg/NnEbPe5Lq) (Till 25 Sep)\n5️⃣ GBTB Mid-Autumn Food Festival (https://tco.sg/9a7ZvObJ2) (12 - 27 Sep)\n6️⃣ Tampines Night Bazaar (https://tco.sg/KjdnMo3kJ) (Till 28 Sep)\n\n@sgfooddeals (https://t.me/sgfooddeals) #shoutout\n[Media attached: verify image/video conditions.]",
+    "ownedText": "Jurong Point Food Festival (https://tco.sg/NnEbPe5Lq) (Till 25 Sep)",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "Jurong Point Food Festival (Till 25 Sep)",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "Jurong Point Food Festival (Till 25 Sep)",
+      "benefit": "Jurong Point Food Festival (Till 25 Sep)",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original event child has venue/event wording and inline dates. Retain for content review; current extractor cannot isolate redemption merchant or safely parse this inline period."
+  },
+  {
+    "id": "387ee731-ebab-5f5b-ac90-0e8ec1bc86a0",
+    "sourceUrl": "https://t.me/sgfooddeals/4921",
+    "originalText": "6 Food Events Happening This Sep 🎪\n\n🔹 Check out these night bazaars, food fairs & festivals happening around SG:\n1️⃣ Yishun NDP Food Fair (https://tco.sg/h9SiZox4d) (Till 6 Sep) \n2️⃣ Choa Chu Kang Night Bazaar (https://tco.sg/RTy6GvixK) (Till 13 Sep) \n3️⃣ Redhill Food Bazaar (https://tco.sg/vA65A7AVr) (Till 13 Sep) \n4️⃣ Jurong Point Food Festival (https://tco.sg/NnEbPe5Lq) (Till 25 Sep)\n5️⃣ GBTB Mid-Autumn Food Festival (https://tco.sg/9a7ZvObJ2) (12 - 27 Sep)\n6️⃣ Tampines Night Bazaar (https://tco.sg/KjdnMo3kJ) (Till 28 Sep)\n\n@sgfooddeals (https://t.me/sgfooddeals) #shoutout\n[Media attached: verify image/video conditions.]",
+    "ownedText": "GBTB Mid-Autumn Food Festival (https://tco.sg/9a7ZvObJ2) (12 - 27 Sep)",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "GBTB Mid-Autumn Food Festival (12 - 27 Sep)",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "GBTB Mid-Autumn Food Festival (12 - 27 Sep)",
+      "benefit": "GBTB Mid-Autumn Food Festival (12 - 27 Sep)",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original event child has venue/event wording and inline dates. Retain for content review; current extractor cannot isolate redemption merchant or safely parse this inline period."
+  },
+  {
+    "id": "7c71d767-7624-5961-ab0c-27b32c318f93",
+    "sourceUrl": "https://t.me/sgfooddeals/4921",
+    "originalText": "6 Food Events Happening This Sep 🎪\n\n🔹 Check out these night bazaars, food fairs & festivals happening around SG:\n1️⃣ Yishun NDP Food Fair (https://tco.sg/h9SiZox4d) (Till 6 Sep) \n2️⃣ Choa Chu Kang Night Bazaar (https://tco.sg/RTy6GvixK) (Till 13 Sep) \n3️⃣ Redhill Food Bazaar (https://tco.sg/vA65A7AVr) (Till 13 Sep) \n4️⃣ Jurong Point Food Festival (https://tco.sg/NnEbPe5Lq) (Till 25 Sep)\n5️⃣ GBTB Mid-Autumn Food Festival (https://tco.sg/9a7ZvObJ2) (12 - 27 Sep)\n6️⃣ Tampines Night Bazaar (https://tco.sg/KjdnMo3kJ) (Till 28 Sep)\n\n@sgfooddeals (https://t.me/sgfooddeals) #shoutout\n[Media attached: verify image/video conditions.]",
+    "ownedText": "Tampines Night Bazaar (https://tco.sg/KjdnMo3kJ) (Till 28 Sep)",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "Tampines Night Bazaar (Till 28 Sep)",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "Tampines Night Bazaar (Till 28 Sep)",
+      "benefit": "Tampines Night Bazaar (Till 28 Sep)",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original event child has venue/event wording and inline dates. Retain for content review; current extractor cannot isolate redemption merchant or safely parse this inline period."
+  },
+  {
+    "id": "45910e22-329a-566c-a633-f03160f660b8",
+    "sourceUrl": "https://t.me/sgfooddeals/4930",
+    "originalText": "SG's Last Kampung Canteen is Closing Down 🥹\n\n🔹 Boh Geh Canteen in Seletar bids farewell on 18 Sep after 57 years as owner Mr Toh retires\n🔹 Dig into nostalgic home style Cai Png & authentic Nasi Padang before they are gone\n📅 Mon - Fri\n⏰ 6AM - 1.30PM\n📍 Nearby Seletar, 398 Piccadilly\n\nMore info: tco.sg/ywIh02WYN (http://tco.sg/ywIh02WYN) \n\n@sgfooddeals (https://t.me/sgfooddeals) #article\n[Media attached: verify image/video conditions.]",
+    "ownedText": "SG's Last Kampung Canteen is Closing Down 🥹\n\n🔹 Boh Geh Canteen in Seletar bids farewell on 18 Sep after 57 years as owner Mr Toh retires\n🔹 Dig into nostalgic home style Cai Png & authentic Nasi Padang before they are gone\n📅 Mon - Fri\n⏰ 6AM - 1.30PM\n📍 Nearby Seletar, 398 Piccadilly\n\nMore info: tco.sg/ywIh02WYN (http://tco.sg/ywIh02WYN) \n\n@sgfooddeals (https://t.me/sgfooddeals) #article\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "",
+      "title": "",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "SG's Last Kampung Canteen is Closing Down",
+      "benefit": "SG's Last Kampung Canteen is Closing Down",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original body names Boh Geh Canteen and a closing date, but schedule is Mon–Fri with no campaign start. Retain; current heading-based merchant extraction remains unresolved. Closing date is not fabricated into campaign validity."
+  },
+  {
+    "id": "73e4b6b6-b2e0-5926-a592-c994b385e189",
+    "sourceUrl": "https://t.me/sgfooddeals/4934",
+    "originalText": "Support Jalan Besar’s small kitchens 💚\n\n🔹 Enjoy up to 15% off your total bill with Grab Dine Out at Moonchild, La Levain & more\n🔹 Stack an extra 20% off with code <JB20>\n📅 Now till 31 Oct\n📍 Grab app\n\nT&Cs apply.\n\nFind out more: tco.sg/grabperksxsgfd (http://tco.sg/grabperksxsgfd) \n\n@sgfooddeals (https://t.me/sgfooddeals)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "Support Jalan Besar’s small kitchens 💚\n\n🔹 Enjoy up to 15% off your total bill with Grab Dine Out at Moonchild, La Levain & more\n🔹 Stack an extra 20% off with code <JB20>\n📅 Now till 31 Oct\n📍 Grab app\n\nT&Cs apply.\n\nFind out more: tco.sg/grabperksxsgfd (http://tco.sg/grabperksxsgfd) \n\n@sgfooddeals (https://t.me/sgfooddeals)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "needs_content_resolution",
+      "merchant": "",
+      "title": "",
+      "benefit": "up to 15% off",
+      "genuine": true
+    },
+    "after": {
+      "status": "needs_content_resolution",
+      "contentStatus": "needs_content_resolution",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
+      "merchant": "",
+      "title": "Support Jalan Besar’s small kitchens",
+      "benefit": "up to 15% off",
+      "genuine": true
+    },
+    "reasons": [
+      "merchant_unresolved"
+    ],
+    "review": "Grab Dine Out network names example restaurants but not a single owned redemption merchant. Retain campaign for content review."
+  },
+  {
+    "id": "17746cb8-e88e-5ed0-a976-bc17ed70374f",
+    "sourceUrl": "https://t.me/tastesoulsg/4409",
+    "originalText": "🧀 $61 Never Tasted So Good — Pizza Hut's National Day 2026 Bundle Set\n\n🍕 Read more: bit.ly/4whvUu6 (http://bit.ly/4whvUu6)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🧀 $61 Never Tasted So Good — Pizza Hut's National Day 2026 Bundle Set\n\n🍕 Read more: bit.ly/4whvUu6 (http://bit.ly/4whvUu6)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "Pizza Hut's National Day 2026 Bundle Set",
+      "title": "$61 Never Tasted So Good",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "Pizza Hut",
+      "title": "$61 Never Tasted So Good — Pizza Hut's National Day 2026 Bundle Set",
+      "benefit": "$61 Never Tasted So Good — Pizza Hut's National Day 2026 Bundle Set",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original heading gives $61 and Pizza Hut’s National Day 2026 Bundle Set. Extract Pizza Hut from the possessive campaign heading and preserve the entire source heading as proposition; no dates supplied."
+  },
+  {
+    "id": "cdb71103-2a80-594f-a9b3-e9744e696386",
+    "sourceUrl": "https://t.me/tastesoulsg/4412",
+    "originalText": "🍦 Tofu G 🍦\n\n➡️ NEW Butter Tteok\n➡️ Flavours incl. Original & Injeolmi \n📆 Now \n📍 All outlets\n👉 More info: bit.ly/3S1y9ne (http://bit.ly/3S1y9ne)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🍦 Tofu G 🍦\n\n➡️ NEW Butter Tteok\n➡️ Flavours incl. Original & Injeolmi \n📆 Now \n📍 All outlets\n👉 More info: bit.ly/3S1y9ne (http://bit.ly/3S1y9ne)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "Tofu G",
+      "title": "NEW Butter Tteok",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "Tofu G",
+      "title": "NEW Butter Tteok",
+      "benefit": "NEW Butter Tteok",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Tofu G and the proposition “NEW Butter Tteok”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "1cc32fdf-c2c1-5344-a683-571d0c6fe11f",
+    "sourceUrl": "https://t.me/tastesoulsg/4413",
+    "originalText": "🦆 Feast like an emperor with this Ultimate Indulgence Set — Lao Beijing \n\n🥬 Read more: bit.ly/4wTp27m (http://bit.ly/4wTp27m)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🦆 Feast like an emperor with this Ultimate Indulgence Set — Lao Beijing \n\n🥬 Read more: bit.ly/4wTp27m (http://bit.ly/4wTp27m)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "Lao Beijing",
+      "title": "Feast like an emperor with this Ultimate Indulgence Set",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "Lao Beijing",
+      "title": "Feast like an emperor with this Ultimate Indulgence Set",
+      "benefit": "Feast like an emperor with this Ultimate Indulgence Set",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Lao Beijing and the proposition “Feast like an emperor with this Ultimate Indulgence Set”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "39b3760c-ac54-591b-aa20-12a55d1e9882",
+    "sourceUrl": "https://t.me/tastesoulsg/4414",
+    "originalText": "🍨 AFTER HOURS 🍨\n\n➡️ NEW Nostalgia series \n➡️ Flavours incl. Wang Zai Niu Nai, Paddle Pop Rainbow, Hawflakes & Ribena\n📆 Now - while stocks last\n📍 All outlets\n👉 More info: bit.ly/4z9pj7y (http://bit.ly/4z9pj7y)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🍨 AFTER HOURS 🍨\n\n➡️ NEW Nostalgia series \n➡️ Flavours incl. Wang Zai Niu Nai, Paddle Pop Rainbow, Hawflakes & Ribena\n📆 Now - while stocks last\n📍 All outlets\n👉 More info: bit.ly/4z9pj7y (http://bit.ly/4z9pj7y)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "AFTER HOURS",
+      "title": "NEW Nostalgia series",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "AFTER HOURS",
+      "title": "NEW Nostalgia series",
+      "benefit": "NEW Nostalgia series",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names AFTER HOURS and the proposition “NEW Nostalgia series”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "fd68df43-ae56-52c2-a0d0-2ed82b21aea1",
+    "sourceUrl": "https://t.me/tastesoulsg/4416",
+    "originalText": "🇮🇹 Feel like having Italian food without a flight to Rome? Check out this restaurant just across the border — Bottega JB\n\n🍝 Read more: bit.ly/3Uu9DvF (http://bit.ly/3Uu9DvF)\n\n @confirmgood (https://t.me/confirmgood)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🇮🇹 Feel like having Italian food without a flight to Rome? Check out this restaurant just across the border — Bottega JB\n\n🍝 Read more: bit.ly/3Uu9DvF (http://bit.ly/3Uu9DvF)\n\n @confirmgood (https://t.me/confirmgood)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "Bottega JB",
+      "title": "🇮🇹 Feel like having Italian food without a flight to Rome? Check out this restaurant just across the border",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "Bottega JB",
+      "title": "🇮🇹 Feel like having Italian food without a flight to Rome? Check out this restaurant just across the border",
+      "benefit": "🇮🇹 Feel like having Italian food without a flight to Rome? Check out this restaurant just across the border",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Bottega JB and the proposition “🇮🇹 Feel like having Italian food without a flight to Rome? Check out this restaurant just across the border”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "915bbc3b-0775-5792-a831-3054ec3917a2",
+    "sourceUrl": "https://t.me/tastesoulsg/4419",
+    "originalText": "🇹🇭 Craving authentic Thai food? This Thai restaurant in Johor Bahru has got you covered — NomNom JB\n\n🥥 Read more: bit.ly/45qNEYT (http://bit.ly/45qNEYT)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🇹🇭 Craving authentic Thai food? This Thai restaurant in Johor Bahru has got you covered — NomNom JB\n\n🥥 Read more: bit.ly/45qNEYT (http://bit.ly/45qNEYT)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "NomNom JB",
+      "title": "🇹🇭 Craving authentic Thai food? This Thai restaurant in Johor Bahru has got you covered",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "NomNom JB",
+      "title": "🇹🇭 Craving authentic Thai food? This Thai restaurant in Johor Bahru has got you covered",
+      "benefit": "🇹🇭 Craving authentic Thai food? This Thai restaurant in Johor Bahru has got you covered",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names NomNom JB and the proposition “🇹🇭 Craving authentic Thai food? This Thai restaurant in Johor Bahru has got you covered”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "4da6daaf-e489-5303-aa53-4b2f05ae3ac1",
+    "sourceUrl": "https://t.me/tastesoulsg/4421",
+    "originalText": "🦄 Starbucks 🦄\n\n➡️ NEW Unicorn Frappucino\n➡️ Incl. coconut milk, strawberry acai & mango dragonfruit flavours\n📆 15 Aug - end date unspecified\n📍 Selected outlets\n👉 More info: bit.ly/4zcyiot (http://bit.ly/4zcyiot)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🦄 Starbucks 🦄\n\n➡️ NEW Unicorn Frappucino\n➡️ Incl. coconut milk, strawberry acai & mango dragonfruit flavours\n📆 15 Aug - end date unspecified\n📍 Selected outlets\n👉 More info: bit.ly/4zcyiot (http://bit.ly/4zcyiot)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "Starbucks",
+      "title": "NEW Unicorn Frappucino",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "Starbucks",
+      "title": "NEW Unicorn Frappucino",
+      "benefit": "NEW Unicorn Frappucino",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Starbucks and the proposition “NEW Unicorn Frappucino”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "6b99ec07-b6a0-5e23-abac-bd6f00729dbf",
+    "sourceUrl": "https://t.me/tastesoulsg/4422",
+    "originalText": "🥯 A hidden rooftop café in Singapore's CBD with skyline views, speciality coffee, artisanal French bakes and creative matcha drinks — POUT Rooftop Cafe\n\n🍴 Read more: bit.ly/45LAbeB (http://bit.ly/45LAbeB)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🥯 A hidden rooftop café in Singapore's CBD with skyline views, speciality coffee, artisanal French bakes and creative matcha drinks — POUT Rooftop Cafe\n\n🍴 Read more: bit.ly/45LAbeB (http://bit.ly/45LAbeB)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "POUT Rooftop Cafe",
+      "title": "A hidden rooftop café in Singapore's CBD with skyline views, speciality coffee, artisanal French bakes and creative matcha drinks",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "POUT Rooftop Cafe",
+      "title": "A hidden rooftop café in Singapore's CBD with skyline views, speciality coffee, artisanal French bakes and creative matcha drinks",
+      "benefit": "A hidden rooftop café in Singapore's CBD with skyline views, speciality coffee, artisanal French bakes and creative matcha drinks",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names POUT Rooftop Cafe and the proposition “A hidden rooftop café in Singapore's CBD with skyline views, speciality coffee, artisanal French bakes and creative matcha drinks”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "67355008-9aa3-562d-af47-b07a64144b6e",
+    "sourceUrl": "https://t.me/tastesoulsg/4425",
+    "originalText": "🍞 101-year-old coffeeshop & heritage bakery with classic breakfast sets, Nasi Lemak, Smashed Chicken Sandwiches, and Cloud Kopi — Chin Mee Chin\n\n☕ Read more: bit.ly/4wAlt54 (http://bit.ly/4wAlt54)\n\n @tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🍞 101-year-old coffeeshop & heritage bakery with classic breakfast sets, Nasi Lemak, Smashed Chicken Sandwiches, and Cloud Kopi — Chin Mee Chin\n\n☕ Read more: bit.ly/4wAlt54 (http://bit.ly/4wAlt54)\n\n @tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "Chin Mee Chin",
+      "title": "101-year-old coffeeshop & heritage bakery with classic breakfast sets, Nasi Lemak, Smashed Chicken Sandwiches, and Cloud Kopi",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "Chin Mee Chin",
+      "title": "101-year-old coffeeshop & heritage bakery with classic breakfast sets, Nasi Lemak, Smashed Chicken Sandwiches, and Cloud Kopi",
+      "benefit": "101-year-old coffeeshop & heritage bakery with classic breakfast sets, Nasi Lemak, Smashed Chicken Sandwiches, and Cloud Kopi",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Chin Mee Chin and the proposition “101-year-old coffeeshop & heritage bakery with classic breakfast sets, Nasi Lemak, Smashed Chicken Sandwiches, and Cloud Kopi”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "6105b90d-dd9a-55d2-a8fb-b0166651771a",
+    "sourceUrl": "https://t.me/tastesoulsg/4427",
+    "originalText": "🍔 McDonald’s 🍔\n\n➡️ Returning items incl. Samurai Beef Burger, Samurai Chicken Burger, Tamago Samurai Burger (Beef / Chicken) & Seaweed McShaker Fries\n➡️ New items incl. Katsu Chicken Tenders, Kyoho Grape Soft Serve & Strawberry Daifuku Pie\n📆 20 Aug - end date unspecified\n📍 All outlets\n👉 More info: bit.ly/4qmO2RP (http://bit.ly/4qmO2RP)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🍔 McDonald’s 🍔\n\n➡️ Returning items incl. Samurai Beef Burger, Samurai Chicken Burger, Tamago Samurai Burger (Beef / Chicken) & Seaweed McShaker Fries\n➡️ New items incl. Katsu Chicken Tenders, Kyoho Grape Soft Serve & Strawberry Daifuku Pie\n📆 20 Aug - end date unspecified\n📍 All outlets\n👉 More info: bit.ly/4qmO2RP (http://bit.ly/4qmO2RP)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "McDonald’s",
+      "title": "Returning items incl. Samurai Beef Burger, Samurai Chicken Burger, Tamago Samurai Burger (Beef / Chicken) & Seaweed McShaker Fries",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "McDonald’s",
+      "title": "Returning items incl. Samurai Beef Burger, Samurai Chicken Burger, Tamago Samurai Burger (Beef / Chicken) & Seaweed McShaker Fries",
+      "benefit": "Returning items incl. Samurai Beef Burger, Samurai Chicken Burger, Tamago Samurai Burger (Beef / Chicken) & Seaweed McShaker Fries",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names McDonald’s and the proposition “Returning items incl. Samurai Beef Burger, Samurai Chicken Burger, Tamago Samurai Burger (Beef / Chicken) & Seaweed McShaker Fries”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "49d450df-ae6a-5bcb-a02c-e014edbc4693",
+    "sourceUrl": "https://t.me/tastesoulsg/4428",
+    "originalText": "🍵 China’s buzziest Thai Milk Tea brand lands its first outlet in Singapore at 313@somerset – BlackTree\n\n🧋 Read more: bit.ly/4xFP3qy (http://bit.ly/4xFP3qy)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🍵 China’s buzziest Thai Milk Tea brand lands its first outlet in Singapore at 313@somerset – BlackTree\n\n🧋 Read more: bit.ly/4xFP3qy (http://bit.ly/4xFP3qy)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "BlackTree",
+      "title": "China’s buzziest Thai Milk Tea brand lands its first outlet in Singapore at 313@somerset",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "BlackTree",
+      "title": "China’s buzziest Thai Milk Tea brand lands its first outlet in Singapore at 313@somerset",
+      "benefit": "China’s buzziest Thai Milk Tea brand lands its first outlet in Singapore at 313@somerset",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names BlackTree and the proposition “China’s buzziest Thai Milk Tea brand lands its first outlet in Singapore at 313@somerset”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "d01a2c98-3d71-5947-a3e3-d5810ca21d8d",
+    "sourceUrl": "https://t.me/tastesoulsg/4429",
+    "originalText": "❤️ KFC ❤️\n\n➡️ NEW menu ft. Japanese Nanban Zinger, Chicken Bites, Loaded Fries & Sweet Potato Mochi Balls\n➡️ + merch for purchase incl. Reversible Everyday Blind Pouch, Poké Ball Bucket, apparel & more\n📆 Now - 29 Sep\n📍 All outlets\n👉 More info: bit.ly/3SGPQbW (http://bit.ly/3SGPQbW)\n\n@tastesouls (https://t.me/tastesouls)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "❤️ KFC ❤️\n\n➡️ NEW menu ft. Japanese Nanban Zinger, Chicken Bites, Loaded Fries & Sweet Potato Mochi Balls\n➡️ + merch for purchase incl. Reversible Everyday Blind Pouch, Poké Ball Bucket, apparel & more\n📆 Now - 29 Sep\n📍 All outlets\n👉 More info: bit.ly/3SGPQbW (http://bit.ly/3SGPQbW)\n\n@tastesouls (https://t.me/tastesouls)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "KFC",
+      "title": "NEW menu ft. Japanese Nanban Zinger, Chicken Bites, Loaded Fries & Sweet Potato Mochi Balls",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
+      "merchant": "KFC",
+      "title": "NEW menu ft. Japanese Nanban Zinger, Chicken Bites, Loaded Fries & Sweet Potato Mochi Balls",
+      "benefit": "NEW menu ft. Japanese Nanban Zinger, Chicken Bites, Loaded Fries & Sweet Potato Mochi Balls",
+      "genuine": true
+    },
+    "reasons": [
+      "google_response_not_cached_run_with_google",
+      "no_operational_google_location"
+    ],
+    "review": "Original source explicitly names KFC and the proposition “NEW menu ft. Japanese Nanban Zinger, Chicken Bites, Loaded Fries & Sweet Potato Mochi Balls”. Curated launch, collaboration or editorial wording does not remove the offer. Source period is complete; offline Google query has no accepted cached location, so location remains unresolved."
+  },
+  {
+    "id": "ce678cf7-e97a-53ba-af36-e138b4be89b2",
+    "sourceUrl": "https://t.me/tastesoulsg/4430",
+    "originalText": "🍨 IKEA 🍨\n\n➡️ NEW Swedish Meatball Ice-Cream\n📆 20 - 23 Aug\n📍 IKEA Alexandra Bistro | IKEA Tampines Bistro, L1 & L3 | IKEA Jurong Bistro\n👉 More info: bit.ly/3U9idzU (http://bit.ly/3U9idzU)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🍨 IKEA 🍨\n\n➡️ NEW Swedish Meatball Ice-Cream\n📆 20 - 23 Aug\n📍 IKEA Alexandra Bistro | IKEA Tampines Bistro, L1 & L3 | IKEA Jurong Bistro\n👉 More info: bit.ly/3U9idzU (http://bit.ly/3U9idzU)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "IKEA",
+      "title": "NEW Swedish Meatball Ice-Cream",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
+      "merchant": "IKEA",
+      "title": "NEW Swedish Meatball Ice-Cream",
+      "benefit": "NEW Swedish Meatball Ice-Cream",
+      "genuine": true
+    },
+    "reasons": [
+      "google_response_not_cached_run_with_google",
+      "google_response_not_cached_run_with_google",
+      "google_response_not_cached_run_with_google",
+      "google_response_not_cached_run_with_google",
+      "google_response_not_cached_run_with_google",
+      "no_operational_google_location"
+    ],
+    "review": "Original source explicitly names IKEA and the proposition “NEW Swedish Meatball Ice-Cream”. Curated launch, collaboration or editorial wording does not remove the offer. Source period is complete; offline Google query has no accepted cached location, so location remains unresolved."
+  },
+  {
+    "id": "96dd28ff-0b57-5b98-a14e-c82aaf6b2207",
+    "sourceUrl": "https://t.me/tastesoulsg/4431",
+    "originalText": "☕ A new all-day cafe at Singapore Botanic Gardens with creative brunch, coffee, desserts, and pet-friendly dining — Park Side\n\n🌳 Read more: bit.ly/3SiDczB (http://bit.ly/3SiDczB)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "☕ A new all-day cafe at Singapore Botanic Gardens with creative brunch, coffee, desserts, and pet-friendly dining — Park Side\n\n🌳 Read more: bit.ly/3SiDczB (http://bit.ly/3SiDczB)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "Park Side",
+      "title": "A new all-day cafe at Singapore Botanic Gardens with creative brunch, coffee, desserts, and pet-friendly dining",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "Park Side",
+      "title": "A new all-day cafe at Singapore Botanic Gardens with creative brunch, coffee, desserts, and pet-friendly dining",
+      "benefit": "A new all-day cafe at Singapore Botanic Gardens with creative brunch, coffee, desserts, and pet-friendly dining",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Park Side and the proposition “A new all-day cafe at Singapore Botanic Gardens with creative brunch, coffee, desserts, and pet-friendly dining”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "16618dd9-baee-5dc5-a4ab-498bfd885187",
+    "sourceUrl": "https://t.me/tastesoulsg/4433",
+    "originalText": "🍟 Potato Corner 🍟\n\n➡️ NEW limited Chicken Satay Flavour\n➡️ Incl. Satay Fries & Satay Chicken Pops\n📆 Now - end date unspecified\n📍 All outlets\n👉 More info: bit.ly/45HaZFU (http://bit.ly/45HaZFU)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🍟 Potato Corner 🍟\n\n➡️ NEW limited Chicken Satay Flavour\n➡️ Incl. Satay Fries & Satay Chicken Pops\n📆 Now - end date unspecified\n📍 All outlets\n👉 More info: bit.ly/45HaZFU (http://bit.ly/45HaZFU)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "Potato Corner",
+      "title": "NEW limited Chicken Satay Flavour",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "Potato Corner",
+      "title": "NEW limited Chicken Satay Flavour",
+      "benefit": "NEW limited Chicken Satay Flavour",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Potato Corner and the proposition “NEW limited Chicken Satay Flavour”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "bf414121-9361-5bd6-ab4e-8ddc3110f876",
+    "sourceUrl": "https://t.me/tastesoulsg/4434",
+    "originalText": "🥢 Discover the best of Teochew and Cantonese cuisine at New Bahru — San Shu Gong \n\n🥠 Read more: bit.ly/4xR3QPs (http://bit.ly/4xR3QPs)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🥢 Discover the best of Teochew and Cantonese cuisine at New Bahru — San Shu Gong \n\n🥠 Read more: bit.ly/4xR3QPs (http://bit.ly/4xR3QPs)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "San Shu Gong",
+      "title": "Discover the best of Teochew and Cantonese cuisine at New Bahru",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "San Shu Gong",
+      "title": "Discover the best of Teochew and Cantonese cuisine at New Bahru",
+      "benefit": "Discover the best of Teochew and Cantonese cuisine at New Bahru",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names San Shu Gong and the proposition “Discover the best of Teochew and Cantonese cuisine at New Bahru”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "5b356d33-5ff1-5670-aace-791ea58dd8fd",
+    "sourceUrl": "https://t.me/tastesoulsg/4437",
+    "originalText": "🐔 Taiwan-famous noodles store expands its menu with Singapore-exclusive Chicken Soup — Spicy Noodles SG\n\n🍜 Read more: bit.ly/4xWNB3q (http://bit.ly/4xWNB3q)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🐔 Taiwan-famous noodles store expands its menu with Singapore-exclusive Chicken Soup — Spicy Noodles SG\n\n🍜 Read more: bit.ly/4xWNB3q (http://bit.ly/4xWNB3q)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "Spicy Noodles SG",
+      "title": "Taiwan-famous noodles store expands its menu with Singapore-exclusive Chicken Soup",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "Spicy Noodles SG",
+      "title": "Taiwan-famous noodles store expands its menu with Singapore-exclusive Chicken Soup",
+      "benefit": "Taiwan-famous noodles store expands its menu with Singapore-exclusive Chicken Soup",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Spicy Noodles SG and the proposition “Taiwan-famous noodles store expands its menu with Singapore-exclusive Chicken Soup”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "be4db358-1254-5f8e-a435-aeed06e86414",
+    "sourceUrl": "https://t.me/tastesoulsg/4439",
+    "originalText": "🍣 Sushidan 🍣\n\n➡️ NEW outlet opening at Parkway Parade\n➡️ Ft. affordable authentic Edomae sushi\n📆 TBC\n📍 Parkway Parade\n👉 More info: bit.ly/4wKnbRi (http://bit.ly/4wKnbRi)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🍣 Sushidan 🍣\n\n➡️ NEW outlet opening at Parkway Parade\n➡️ Ft. affordable authentic Edomae sushi\n📆 TBC\n📍 Parkway Parade\n👉 More info: bit.ly/4wKnbRi (http://bit.ly/4wKnbRi)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "Sushidan",
+      "title": "NEW outlet opening at Parkway Parade",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "Sushidan",
+      "title": "NEW outlet opening at Parkway Parade",
+      "benefit": "NEW outlet opening at Parkway Parade",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Sushidan and the proposition “NEW outlet opening at Parkway Parade”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "725759b9-1dc9-5f10-a2fa-11994488ff49",
+    "sourceUrl": "https://t.me/tastesoulsg/4440",
+    "originalText": "🧀 Half off pizza. Half off pasta. Full flavour. Don't miss this latest deal that might just upgrade your next pasta night – Baci Baci\n\n🍷 Read more: bit.ly/4wGoeBF (http://bit.ly/4wGoeBF)\n\n @tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🧀 Half off pizza. Half off pasta. Full flavour. Don't miss this latest deal that might just upgrade your next pasta night – Baci Baci\n\n🍷 Read more: bit.ly/4wGoeBF (http://bit.ly/4wGoeBF)\n\n @tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "needs_validity",
+      "merchant": "Baci Baci",
+      "title": "Half off pizza. Half off pasta. Full flavour. Don't miss this latest deal that might just upgrade your next pasta night",
+      "benefit": "Half off",
+      "genuine": true
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "Baci Baci",
+      "title": "Half off pizza. Half off pasta. Full flavour. Don't miss this latest deal that might just upgrade your next pasta night",
+      "benefit": "Half off pizza. Half off pasta. Full flavour. Don't miss this latest deal that might just upgrade your next pasta night",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original heading literally says half off pizza and pasta. Preserve full wording instead of replacing it with the synthesized shorthand Half off; validity remains unknown."
+  },
+  {
+    "id": "a0b87f2c-2c53-5ca9-afb0-e051ffadc6dc",
+    "sourceUrl": "https://t.me/tastesoulsg/4444",
+    "originalText": "🍪 Zapangi Coffee 🍪\n\n➡️ Popular coffee & South Korean American-style soft cookie brand pop-up in SG\n➡️ Cookie flavours incl. salted milk, cheesy chunk, coconut & more\n📆 Now - 10 Sep\n📍 Isetan Scotts Supermarket, B1\n👉 More info: bit.ly/4zD74Yh (http://bit.ly/4zD74Yh)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🍪 Zapangi Coffee 🍪\n\n➡️ Popular coffee & South Korean American-style soft cookie brand pop-up in SG\n➡️ Cookie flavours incl. salted milk, cheesy chunk, coconut & more\n📆 Now - 10 Sep\n📍 Isetan Scotts Supermarket, B1\n👉 More info: bit.ly/4zD74Yh (http://bit.ly/4zD74Yh)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "Zapangi Coffee",
+      "title": "Popular coffee & South Korean American-style soft cookie brand pop-up in SG",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
+      "merchant": "Zapangi Coffee",
+      "title": "Popular coffee & South Korean American-style soft cookie brand pop-up in SG",
+      "benefit": "Popular coffee & South Korean American-style soft cookie brand pop-up in SG",
+      "genuine": true
+    },
+    "reasons": [
+      "google_response_not_cached_run_with_google",
+      "no_operational_google_location"
+    ],
+    "review": "Original source explicitly names Zapangi Coffee and the proposition “Popular coffee & South Korean American-style soft cookie brand pop-up in SG”. Curated launch, collaboration or editorial wording does not remove the offer. Source period is complete; offline Google query has no accepted cached location, so location remains unresolved."
+  },
+  {
+    "id": "c0c899da-4767-577e-a8af-58a85795fbc6",
+    "sourceUrl": "https://t.me/tastesoulsg/4445",
+    "originalText": "🍙 7-Eleven 🍙\n\n➡️ NEW Onigiri Ice Cream\n➡️ Incl. oat & rice flavours with seaweed pieces\n📆 Now - while stocks last\n📍 Selected outlets\n👉 More info: bit.ly/4iuUX9C (http://bit.ly/4iuUX9C)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🍙 7-Eleven 🍙\n\n➡️ NEW Onigiri Ice Cream\n➡️ Incl. oat & rice flavours with seaweed pieces\n📆 Now - while stocks last\n📍 Selected outlets\n👉 More info: bit.ly/4iuUX9C (http://bit.ly/4iuUX9C)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "7-Eleven",
+      "title": "NEW Onigiri Ice Cream",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "7-Eleven",
+      "title": "NEW Onigiri Ice Cream",
+      "benefit": "NEW Onigiri Ice Cream",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names 7-Eleven and the proposition “NEW Onigiri Ice Cream”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "1945ad94-eaad-5047-ae20-46cd648e7e81",
+    "sourceUrl": "https://t.me/tastesoulsg/4449",
+    "originalText": "♨️ Step into a Barcelona-inspired bodega where authentic Spanish flavours, grandma’s cooking, and cosy neighbourhood vibes collide – Casa Lola\n\n🍷 Read more: bit.ly/4gwpWzA (http://bit.ly/4gwpWzA)\n\n @tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "♨️ Step into a Barcelona-inspired bodega where authentic Spanish flavours, grandma’s cooking, and cosy neighbourhood vibes collide – Casa Lola\n\n🍷 Read more: bit.ly/4gwpWzA (http://bit.ly/4gwpWzA)\n\n @tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "Casa Lola",
+      "title": "Step into a Barcelona-inspired bodega where authentic Spanish flavours, grandma’s cooking, and cosy neighbourhood vibes collide",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "Casa Lola",
+      "title": "Step into a Barcelona-inspired bodega where authentic Spanish flavours, grandma’s cooking, and cosy neighbourhood vibes collide",
+      "benefit": "Step into a Barcelona-inspired bodega where authentic Spanish flavours, grandma’s cooking, and cosy neighbourhood vibes collide",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Casa Lola and the proposition “Step into a Barcelona-inspired bodega where authentic Spanish flavours, grandma’s cooking, and cosy neighbourhood vibes collide”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "e48c6bee-4565-5da9-af09-82a8b1e7fcbb",
+    "sourceUrl": "https://t.me/tastesoulsg/4452",
+    "originalText": "🫐 Your next yogurt spot is now open in Jewel & Waterway Point – More Yogurt \n\n🥛 Read more: bit.ly/4wPfSrt (http://bit.ly/4wPfSrt)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🫐 Your next yogurt spot is now open in Jewel & Waterway Point – More Yogurt \n\n🥛 Read more: bit.ly/4wPfSrt (http://bit.ly/4wPfSrt)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "More Yogurt",
+      "title": "Your next yogurt spot is now open in Jewel & Waterway Point",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "More Yogurt",
+      "title": "Your next yogurt spot is now open in Jewel & Waterway Point",
+      "benefit": "Your next yogurt spot is now open in Jewel & Waterway Point",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names More Yogurt and the proposition “Your next yogurt spot is now open in Jewel & Waterway Point”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "ba7f9e42-0aca-597b-ac34-ebd65bea9534",
+    "sourceUrl": "https://t.me/tastesoulsg/4455",
+    "originalText": "🐔 Explore bold Indonesian flavours with a modern twist at this cafe near Boat Quay – Fangko House\n\n🌶️ Read more: bit.ly/4gsv7ll (http://bit.ly/4gsv7ll)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🐔 Explore bold Indonesian flavours with a modern twist at this cafe near Boat Quay – Fangko House\n\n🌶️ Read more: bit.ly/4gsv7ll (http://bit.ly/4gsv7ll)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "Fangko House",
+      "title": "Explore bold Indonesian flavours with a modern twist at this cafe near Boat Quay",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "Fangko House",
+      "title": "Explore bold Indonesian flavours with a modern twist at this cafe near Boat Quay",
+      "benefit": "Explore bold Indonesian flavours with a modern twist at this cafe near Boat Quay",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Fangko House and the proposition “Explore bold Indonesian flavours with a modern twist at this cafe near Boat Quay”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "690b3fb6-aa77-5a1c-a4c0-ccc3a2e3336e",
+    "sourceUrl": "https://t.me/tastesoulsg/4456",
+    "originalText": "🥐 Coffeehouse by Kobashi 🥐\n\n➡️ NEW takeover sourdough flavours\n➡️ Incl. Shio’Much Cheese & Zesty Sunburst\n📆 Now - 30 Sep\n🕣 10am - 6pm (Mon - Sat) | 10am - 4pm (Sun)\n📍 79 South Bridge Road\n👉 More info: bit.ly/4xvu4XH (http://bit.ly/4xvu4XH)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🥐 Coffeehouse by Kobashi 🥐\n\n➡️ NEW takeover sourdough flavours\n➡️ Incl. Shio’Much Cheese & Zesty Sunburst\n📆 Now - 30 Sep\n🕣 10am - 6pm (Mon - Sat) | 10am - 4pm (Sun)\n📍 79 South Bridge Road\n👉 More info: bit.ly/4xvu4XH (http://bit.ly/4xvu4XH)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "Coffeehouse by Kobashi",
+      "title": "NEW takeover sourdough flavours",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
+      "merchant": "Coffeehouse by Kobashi",
+      "title": "NEW takeover sourdough flavours",
+      "benefit": "NEW takeover sourdough flavours",
+      "genuine": true
+    },
+    "reasons": [
+      "google_response_not_cached_run_with_google",
+      "no_operational_google_location"
+    ],
+    "review": "Original source explicitly names Coffeehouse by Kobashi and the proposition “NEW takeover sourdough flavours”. Curated launch, collaboration or editorial wording does not remove the offer. Source period is complete; offline Google query has no accepted cached location, so location remains unresolved."
+  },
+  {
+    "id": "5fec663e-1730-5c98-aa07-486ab7fc0ea0",
+    "sourceUrl": "https://t.me/tastesoulsg/4458",
+    "originalText": "🥩 The doors are open, the deals are hot. Enjoy 5 days of steak promos from 1 to 5 September 2026 at The Capitol – Bari Bari Grand \n\n🍈 Read more: bit.ly/4ion0Yz (http://bit.ly/4ion0Yz)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🥩 The doors are open, the deals are hot. Enjoy 5 days of steak promos from 1 to 5 September 2026 at The Capitol – Bari Bari Grand \n\n🍈 Read more: bit.ly/4ion0Yz (http://bit.ly/4ion0Yz)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "needs_content_resolution",
+      "merchant": "Bari Bari Grand",
+      "title": "The doors are open, the deals are hot. Enjoy 5 days of steak promos from 1 to 5 September 2026 at The Capitol",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "Bari Bari Grand",
+      "title": "The doors are open, the deals are hot. Enjoy 5 days of steak promos from 1 to 5 September 2026 at The Capitol",
+      "benefit": "The doors are open, the deals are hot. Enjoy 5 days of steak promos from 1 to 5 September 2026 at The Capitol",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original headline gives steak promos from 1 to 5 September 2026 at The Capitol and Bari Bari Grand. Retain proposition; existing date parser does not support this prose date construction, so validity remains unresolved rather than invented."
+  },
+  {
+    "id": "ad899e5a-15a8-55ba-af09-0a036de34779",
+    "sourceUrl": "https://t.me/tastesoulsg/4460",
+    "originalText": "🍳 Pepper Lunch 🍳\n\n➡️ Fan-favourite Cheesy Omelette RETURNS\n➡️ Incl. Beef Slices Cheesy Omelette, Chicken Steak Cheesy Omelette & Striploin Steak Cheesy Omelette + drink\n📆 Now - end date unspecified\n📍 All outlets\n👉 More info: bit.ly/4yfJkbp (http://bit.ly/4yfJkbp)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🍳 Pepper Lunch 🍳\n\n➡️ Fan-favourite Cheesy Omelette RETURNS\n➡️ Incl. Beef Slices Cheesy Omelette, Chicken Steak Cheesy Omelette & Striploin Steak Cheesy Omelette + drink\n📆 Now - end date unspecified\n📍 All outlets\n👉 More info: bit.ly/4yfJkbp (http://bit.ly/4yfJkbp)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "Pepper Lunch",
+      "title": "Fan-favourite Cheesy Omelette RETURNS",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "Pepper Lunch",
+      "title": "Fan-favourite Cheesy Omelette RETURNS",
+      "benefit": "Fan-favourite Cheesy Omelette RETURNS",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Pepper Lunch and the proposition “Fan-favourite Cheesy Omelette RETURNS”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "f8c8e623-3c7f-58f5-a4f6-2eb560e160dc",
+    "sourceUrl": "https://t.me/tastesoulsg/4461",
+    "originalText": "🍽️ Singapore’s only cave restaurant is celebrating its first anniversary with a refreshed menu – Cavern Restaurant\n\n🥩 Read more: bit.ly/4ylfzWN (http://bit.ly/4ylfzWN)\n\n @tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🍽️ Singapore’s only cave restaurant is celebrating its first anniversary with a refreshed menu – Cavern Restaurant\n\n🥩 Read more: bit.ly/4ylfzWN (http://bit.ly/4ylfzWN)\n\n @tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "Cavern Restaurant",
+      "title": "Singapore’s only cave restaurant is celebrating its first anniversary with a refreshed menu",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "Cavern Restaurant",
+      "title": "Singapore’s only cave restaurant is celebrating its first anniversary with a refreshed menu",
+      "benefit": "Singapore’s only cave restaurant is celebrating its first anniversary with a refreshed menu",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Cavern Restaurant and the proposition “Singapore’s only cave restaurant is celebrating its first anniversary with a refreshed menu”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "17922e7d-285e-573d-afc3-be1de5e00cb9",
+    "sourceUrl": "https://t.me/tastesoulsg/4464",
+    "originalText": "🥘 Who needs to fly to Spain when Spain is next door? Try authentic & traditional Spanish food – Next Door Spanish Cafe \n\n🍹 Read more: bit.ly/4h6cOTg (http://bit.ly/4h6cOTg)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🥘 Who needs to fly to Spain when Spain is next door? Try authentic & traditional Spanish food – Next Door Spanish Cafe \n\n🍹 Read more: bit.ly/4h6cOTg (http://bit.ly/4h6cOTg)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "Next Door Spanish Cafe",
+      "title": "Who needs to fly to Spain when Spain is next door? Try authentic & traditional Spanish food",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "Next Door Spanish Cafe",
+      "title": "Who needs to fly to Spain when Spain is next door? Try authentic & traditional Spanish food",
+      "benefit": "Who needs to fly to Spain when Spain is next door? Try authentic & traditional Spanish food",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Next Door Spanish Cafe and the proposition “Who needs to fly to Spain when Spain is next door? Try authentic & traditional Spanish food”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "66a321c5-9127-56f5-a91e-1a40b0b81f20",
+    "sourceUrl": "https://t.me/tastesoulsg/4467",
+    "originalText": "🍛 Welcome to a katsu experience straight out of Japan, now located in the CBD – Shin Katsu\n\n🎏 Read more: bit.ly/4zPLos5 (http://bit.ly/4zPLos5)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🍛 Welcome to a katsu experience straight out of Japan, now located in the CBD – Shin Katsu\n\n🎏 Read more: bit.ly/4zPLos5 (http://bit.ly/4zPLos5)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "Shin Katsu",
+      "title": "Welcome to a katsu experience straight out of Japan, now located in the CBD",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "Shin Katsu",
+      "title": "Welcome to a katsu experience straight out of Japan, now located in the CBD",
+      "benefit": "Welcome to a katsu experience straight out of Japan, now located in the CBD",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Shin Katsu and the proposition “Welcome to a katsu experience straight out of Japan, now located in the CBD”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "ee2ce870-724d-5cb0-a428-3e9803b3fba5",
+    "sourceUrl": "https://t.me/tastesoulsg/4472",
+    "originalText": "🧈 MilkyShop 🧈\n\n➡️ Viral Korean butter sand pop-up lands in SG\n➡️ Flavours incl. Crème Brûlée, Milk Caramel, Peanut & Matcha\n📆 Now - 2 Jan 2027\n🕣 11am - 9pm\n📍 New Bahru, Factory Block L1\n👉 More info: bit.ly/3TcJAce (http://bit.ly/3TcJAce)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🧈 MilkyShop 🧈\n\n➡️ Viral Korean butter sand pop-up lands in SG\n➡️ Flavours incl. Crème Brûlée, Milk Caramel, Peanut & Matcha\n📆 Now - 2 Jan 2027\n🕣 11am - 9pm\n📍 New Bahru, Factory Block L1\n👉 More info: bit.ly/3TcJAce (http://bit.ly/3TcJAce)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "MilkyShop",
+      "title": "Viral Korean butter sand pop-up lands in SG",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_location",
+      "contentStatus": "resolved",
+      "validityStatus": "resolved",
+      "mapStatus": "needs_location",
+      "merchant": "MilkyShop",
+      "title": "Viral Korean butter sand pop-up lands in SG",
+      "benefit": "Viral Korean butter sand pop-up lands in SG",
+      "genuine": true
+    },
+    "reasons": [
+      "google_response_not_cached_run_with_google",
+      "google_response_not_cached_run_with_google",
+      "no_operational_google_location"
+    ],
+    "review": "Original source explicitly names MilkyShop and the proposition “Viral Korean butter sand pop-up lands in SG”. Curated launch, collaboration or editorial wording does not remove the offer. Source period is complete; offline Google query has no accepted cached location, so location remains unresolved."
+  },
+  {
+    "id": "59b73637-2480-5f48-abe2-a949fc08b51e",
+    "sourceUrl": "https://t.me/tastesoulsg/4473",
+    "originalText": "🍴 Craving something new? At this restaurant, you can enjoy Nordic flavours with Singapore soul – Dill\n\n🌿 Read more: bit.ly/3TgezUQ (http://bit.ly/3TgezUQ)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🍴 Craving something new? At this restaurant, you can enjoy Nordic flavours with Singapore soul – Dill\n\n🌿 Read more: bit.ly/3TgezUQ (http://bit.ly/3TgezUQ)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "Dill",
+      "title": "Craving something new? At this restaurant, you can enjoy Nordic flavours with Singapore soul",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "Dill",
+      "title": "Craving something new? At this restaurant, you can enjoy Nordic flavours with Singapore soul",
+      "benefit": "Craving something new? At this restaurant, you can enjoy Nordic flavours with Singapore soul",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Dill and the proposition “Craving something new? At this restaurant, you can enjoy Nordic flavours with Singapore soul”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "269777e5-60b8-52d1-a870-a1fd3f107ad2",
+    "sourceUrl": "https://t.me/tastesoulsg/4476",
+    "originalText": "🇬🇷 From sea to table, here are Greek dishes that stood out to us — Estiatorio Milos\n\n🦞 Read more: bit.ly/4yrXWV8 (http://bit.ly/4yrXWV8)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🇬🇷 From sea to table, here are Greek dishes that stood out to us — Estiatorio Milos\n\n🦞 Read more: bit.ly/4yrXWV8 (http://bit.ly/4yrXWV8)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "Estiatorio Milos",
+      "title": "🇬🇷 From sea to table, here are Greek dishes that stood out to us",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "Estiatorio Milos",
+      "title": "🇬🇷 From sea to table, here are Greek dishes that stood out to us",
+      "benefit": "🇬🇷 From sea to table, here are Greek dishes that stood out to us",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names Estiatorio Milos and the proposition “🇬🇷 From sea to table, here are Greek dishes that stood out to us”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "7a0a9aea-47b5-5456-a940-37b19c0e48eb",
+    "sourceUrl": "https://t.me/tastesoulsg/4477",
+    "originalText": "🍣 Sushiro 🍣\n\n➡️ NEW Pokémon collab ft. merch with purchase\n➡️ Exclusive merch incl. food picks, stickers, keychain, card case with lanyard & towels\n📆 Now - 30 Sep (Wave 1) | 1 - 22 Oct (Wave 2)\n📍 All outlets\n❗️ T&Cs apply.\n👉 More info: bit.ly/4yxtCsn (http://bit.ly/4yxtCsn)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🍣 Sushiro 🍣\n\n➡️ NEW Pokémon collab ft. merch with purchase\n➡️ Exclusive merch incl. food picks, stickers, keychain, card case with lanyard & towels\n📆 Now - 30 Sep (Wave 1) | 1 - 22 Oct (Wave 2)\n📍 All outlets\n❗️ T&Cs apply.\n👉 More info: bit.ly/4yxtCsn (http://bit.ly/4yxtCsn)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "Sushiro",
+      "title": "NEW Pokémon collab ft. merch with purchase",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "Sushiro",
+      "title": "NEW Pokémon collab ft. merch with purchase",
+      "benefit": "NEW Pokémon collab ft. merch with purchase",
+      "genuine": true
+    },
+    "reasons": [
+      "requires_split"
+    ],
+    "review": "Original Pokémon merchandise-with-purchase collaboration is an offer. Retain verbatim; two campaign waves do not assign merchandise ownership unambiguously, so requires_split remains needs_validity."
+  },
+  {
+    "id": "0b829177-d6d5-573c-ad4f-b926472413d5",
+    "sourceUrl": "https://t.me/tastesoulsg/4479",
+    "originalText": "🍲 Claypot Sliced Fish Curry and Solo Lunch Sets for just $9.90 – Dian Xiao Er\n\n🐤 Read more: bit.ly/4ykZJes (http://bit.ly/4ykZJes)\n\n @tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🍲 Claypot Sliced Fish Curry and Solo Lunch Sets for just $9.90 – Dian Xiao Er\n\n🐤 Read more: bit.ly/4ykZJes (http://bit.ly/4ykZJes)\n\n @tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "Dian Xiao Er",
+      "title": "Claypot Sliced Fish Curry and Solo Lunch Sets for just $9.90",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "Dian Xiao Er",
+      "title": "Claypot Sliced Fish Curry and Solo Lunch Sets for just $9.90",
+      "benefit": "Claypot Sliced Fish Curry and Solo Lunch Sets for just $9.90",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original Dian Xiao Er headline explicitly gives Solo Lunch Sets for $9.90. Retain proposition without requiring savings comparison; no dates stated."
+  },
+  {
+    "id": "4629522c-f8d6-548c-acc7-6eac7b16dfd2",
+    "sourceUrl": "https://t.me/tastesoulsg/4480",
+    "originalText": "🐟 Racines 🐟\n\n➡️ NEW Turf & Tide edition Ultimate Brunch Buffet\n➡️ Incl. hot food, soups, salads, local-inspired French desserts & more\n➡️ Highlights incl. Angus Beef Striploin, Smoke Mussel Salad, Salmon Sashimi & more\n📆 Now - 31 Oct | Every Sat\n🕣 12 - 3pm\n📍 9 Wallich St, Level 5\n❗️ T&Cs apply.\n👉 More info: bit.ly/4xOPyzd (http://bit.ly/4xOPyzd)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🐟 Racines 🐟\n\n➡️ NEW Turf & Tide edition Ultimate Brunch Buffet\n➡️ Incl. hot food, soups, salads, local-inspired French desserts & more\n➡️ Highlights incl. Angus Beef Striploin, Smoke Mussel Salad, Salmon Sashimi & more\n📆 Now - 31 Oct | Every Sat\n🕣 12 - 3pm\n📍 9 Wallich St, Level 5\n❗️ T&Cs apply.\n👉 More info: bit.ly/4xOPyzd (http://bit.ly/4xOPyzd)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "Racines",
+      "title": "NEW Turf & Tide edition Ultimate Brunch Buffet",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "Racines",
+      "title": "NEW Turf & Tide edition Ultimate Brunch Buffet",
+      "benefit": "NEW Turf & Tide edition Ultimate Brunch Buffet",
+      "genuine": true
+    },
+    "reasons": [
+      "requires_split"
+    ],
+    "review": "Original Racines campaign has Now–31 Oct plus Every Sat. Preserve source and recurrence; existing parser flags this pipe structure requires_split, so remain needs_validity."
+  },
+  {
+    "id": "9cb4e729-234a-5e1e-a78f-a47f89a6a94f",
+    "sourceUrl": "https://t.me/tastesoulsg/4481",
+    "originalText": "🩵 Nasty Cookie 🩵\n\n➡️ NEW Dubai Chewy Cookie Mooncake\n➡️ Set incl. 4 Dubai Chewy Cookie mooncakes, 4 Dubai Chewy Cookies' spreads & an exclusive cutlery set\n \n📆 Now (Online) | 12 Sep onwards (In-stores)\n📍 Online & In-stores\n👉 Shop here: bit.ly/46TgqC4 (http://bit.ly/46TgqC4)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🩵 Nasty Cookie 🩵\n\n➡️ NEW Dubai Chewy Cookie Mooncake\n➡️ Set incl. 4 Dubai Chewy Cookie mooncakes, 4 Dubai Chewy Cookies' spreads & an exclusive cutlery set\n \n📆 Now (Online) | 12 Sep onwards (In-stores)\n📍 Online & In-stores\n👉 Shop here: bit.ly/46TgqC4 (http://bit.ly/46TgqC4)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "Nasty Cookie",
+      "title": "NEW Dubai Chewy Cookie Mooncake",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "Nasty Cookie",
+      "title": "NEW Dubai Chewy Cookie Mooncake",
+      "benefit": "NEW Dubai Chewy Cookie Mooncake",
+      "genuine": true
+    },
+    "reasons": [
+      "requires_split"
+    ],
+    "review": "Original Nasty Cookie source has online and in-store starts without an expiry. Preserve mixed scope and unknown validity; do not classify it online-only."
+  },
+  {
+    "id": "8a564775-1b0e-5cc5-aac0-0dc7d8619bf2",
+    "sourceUrl": "https://t.me/tastesoulsg/4482",
+    "originalText": "🍽️ A neighbourhood gem serving European-Asian cuisine has just expanded its menu and lunch-time promos – Viva Lavender \n\n🌃 Read more: bit.ly/46TcSzK (http://bit.ly/46TcSzK)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🍽️ A neighbourhood gem serving European-Asian cuisine has just expanded its menu and lunch-time promos – Viva Lavender \n\n🌃 Read more: bit.ly/46TcSzK (http://bit.ly/46TcSzK)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "needs_content_resolution",
+      "merchant": "Viva Lavender",
+      "title": "A neighbourhood gem serving European-Asian cuisine has just expanded its menu and lunch-time promos",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "Viva Lavender",
+      "title": "A neighbourhood gem serving European-Asian cuisine has just expanded its menu and lunch-time promos",
+      "benefit": "A neighbourhood gem serving European-Asian cuisine has just expanded its menu and lunch-time promos",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Viva Lavender owns the menu and lunch-time promotional proposition. Retain original wording; no campaign dates supplied."
+  },
+  {
+    "id": "49696b5f-a03f-5407-a386-a9c5e975b2b0",
+    "sourceUrl": "https://t.me/tastesoulsg/4484",
+    "originalText": "🍔 Trick or treat? Enjoy a treat with this new Halloween burger, limited time only – SIDES by the Sidemen\n\n👻 Read more: bit.ly/46mhH4E (http://bit.ly/46mhH4E)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🍔 Trick or treat? Enjoy a treat with this new Halloween burger, limited time only – SIDES by the Sidemen\n\n👻 Read more: bit.ly/46mhH4E (http://bit.ly/46mhH4E)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "SIDES by the Sidemen",
+      "title": "Trick or treat? Enjoy a treat with this new Halloween burger, limited time only",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "needs_location",
+      "merchant": "SIDES by the Sidemen",
+      "title": "Trick or treat? Enjoy a treat with this new Halloween burger, limited time only",
+      "benefit": "Trick or treat? Enjoy a treat with this new Halloween burger, limited time only",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original source explicitly names SIDES by the Sidemen and the proposition “Trick or treat? Enjoy a treat with this new Halloween burger, limited time only”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
+  },
+  {
+    "id": "ee96612f-410a-53a7-a7f1-d0dbb02648c4",
+    "sourceUrl": "https://t.me/tastesoulsg/4486",
+    "originalText": "🧋 Koi Thé 🧋\n\n➡️ NEW 3L Sharing Tea Pack ($52)\n➡️ Flavours incl. Green Milk Tea, Peach Green Tea, Oolong Milk Tea & more\n➡️ + $8 for topping\n\n📆 Now\n📍 Online\n❗️ T&Cs apply.\n👉 More info: bit.ly/4gTTqJh (http://bit.ly/4gTTqJh)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "ownedText": "🧋 Koi Thé 🧋\n\n➡️ NEW 3L Sharing Tea Pack ($52)\n➡️ Flavours incl. Green Milk Tea, Peach Green Tea, Oolong Milk Tea & more\n➡️ + $8 for topping\n\n📆 Now\n📍 Online\n❗️ T&Cs apply.\n👉 More info: bit.ly/4gTTqJh (http://bit.ly/4gTTqJh)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+    "before": {
+      "status": "exclude",
+      "merchant": "Koi Thé",
+      "title": "NEW 3L Sharing Tea Pack ($52)",
+      "benefit": "",
+      "genuine": false
+    },
+    "after": {
+      "status": "needs_validity",
+      "contentStatus": "resolved",
+      "validityStatus": "needs_validity",
+      "mapStatus": "online_only",
+      "merchant": "Koi Thé",
+      "title": "NEW 3L Sharing Tea Pack ($52)",
+      "benefit": "NEW 3L Sharing Tea Pack ($52)",
+      "genuine": true
+    },
+    "reasons": [
+      "unknown_expiry_or_start"
+    ],
+    "review": "Original Koi Thé $52 sharing pack explicitly states Online and Now without an end date. Retain online-only with unknown validity and zero pins."
+  }
+]

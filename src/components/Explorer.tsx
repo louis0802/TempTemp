@@ -64,7 +64,9 @@ export default function Explorer({
     visible = items
       .filter((p) => !nowOnly || p.redeemableNow)
       .sort((a, b) =>
-        sort ? a.endDate!.localeCompare(b.endDate!) : a.id.localeCompare(b.id),
+        sort
+          ? (a.endDate ?? "9999").localeCompare(b.endDate ?? "9999")
+          : a.id.localeCompare(b.id),
       );
   useEffect(() => {
     let alive = true,
@@ -360,7 +362,7 @@ export default function Explorer({
           {mvp && (
             <p className="inline-message mvp-notice">
               {includeExpired
-                ? "Historical preview includes expired offers. "
+                ? "Curated corpus preview includes all records, including incomplete, online-only, expired and upcoming offers. "
                 : ""}
               Pins show merchant locations, not confirmed promotion
               participation. Check each offer’s restrictions before visiting.
@@ -407,16 +409,38 @@ export default function Explorer({
                 </div>
                 <div className="offer-summary">
                   <div className="card-topline">
-                    <span>{p.merchant}</span>
+                    <span>{p.merchant || "Merchant needs review"}</span>
                     <ArrowUpRight size={16} />
                   </div>
-                  <h3>{p.benefit}</h3>
+                  <h3>{p.benefit || p.title || "Content needs review"}</h3>
                   <p>{p.title}</p>
                   <div className="card-location">
                     <MapPin size={12} />
-                    {p.outlets[0].name}
+                    {p.outlets[0]?.name ??
+                      (p.mvpState?.map === "online_only"
+                        ? "Online only · No map pins"
+                        : "Location unresolved")}
                     {p.outlets.length > 1 ? ` +${p.outlets.length - 1}` : ""}
                   </div>
+                  {p.mvpState && (
+                    <div className="mvp-badges">
+                      {p.mvpState.content !== "resolved" && (
+                        <span>Needs content resolution</span>
+                      )}
+                      {p.mvpState.validity !== "resolved" && (
+                        <span>Needs validity</span>
+                      )}
+                      {p.mvpState.map === "needs_location" && (
+                        <span>Needs location</span>
+                      )}
+                      {p.mvpState.map === "online_only" && (
+                        <span>Online only</span>
+                      )}
+                      {p.mvpState.validity === "resolved" && (
+                        <span>{p.mvpState.lifecycle}</span>
+                      )}
+                    </div>
+                  )}
                   <div className="card-validity">
                     <span
                       className={p.redeemableNow ? "available" : "scheduled"}
@@ -424,14 +448,15 @@ export default function Explorer({
                       {p.redeemableNow ? "Available now" : "See schedule"}
                     </span>
                     <span>
-                      Until{" "}
-                      {new Date(
-                        `${p.endDate}T00:00:00+08:00`,
-                      ).toLocaleDateString("en-SG", {
-                        day: "numeric",
-                        month: "short",
-                        timeZone: "Asia/Singapore",
-                      })}
+                      {p.endDate
+                        ? `Until ${new Date(
+                            `${p.endDate}T00:00:00+08:00`,
+                          ).toLocaleDateString("en-SG", {
+                            day: "numeric",
+                            month: "short",
+                            timeZone: "Asia/Singapore",
+                          })}`
+                        : "Validity incomplete"}
                     </span>
                   </div>
                 </div>
@@ -570,7 +595,9 @@ export default function Explorer({
                 : (current.category ?? "Promotion").toUpperCase()}
             </div>
             <p className="detail-merchant">{current.merchant}</p>
-            <h2>{current.benefit}</h2>
+            <h2>
+              {current.benefit || current.title || "Content needs review"}
+            </h2>
             <h3>{current.title}</h3>
             <p style={{ whiteSpace: "pre-wrap", overflowWrap: "anywhere" }}>
               {current.description
@@ -593,7 +620,8 @@ export default function Explorer({
             <div className="detail-schedule">
               <strong>{current.scheduleLabel}</strong>
               <span>
-                {current.startDate} – {current.endDate} · Singapore time
+                {current.startDate ?? "Start unknown"} –{" "}
+                {current.endDate ?? "End unknown"} · Singapore time
               </span>
               <span>
                 {current.scheduleState}
@@ -602,6 +630,15 @@ export default function Explorer({
                   : ""}
               </span>
             </div>
+            {current.mvpState && (
+              <p className="inline-message">
+                Content: {current.mvpState.content.replaceAll("_", " ")} ·
+                Validity: {current.mvpState.validity.replaceAll("_", " ")} ·
+                Map: {current.mvpState.map.replaceAll("_", " ")}
+                {current.mvpState.reasons.length > 0 &&
+                  ` · ${current.mvpState.reasons.join("; ").replaceAll("_", " ")}`}
+              </p>
+            )}
             <h4>Before you go</h4>
             <ul>
               {current.terms.map((t) => (
@@ -611,9 +648,13 @@ export default function Explorer({
             <h4>{mvp ? "Merchant locations" : "Participating outlets"}</h4>
             {mvp && (
               <p>
-                {current.mapCoverageBasis === "source_named_outlets"
-                  ? "Locations named in the source. Check the source terms before visiting."
-                  : "Observed Google merchant locations. Participation and complete chain coverage are not verified."}
+                {current.mvpState?.map === "online_only"
+                  ? "Online-only promotion. No physical map pins."
+                  : !current.outlets.length
+                    ? "Location unresolved. No physical map pins."
+                    : current.mapCoverageBasis === "source_named_outlets"
+                      ? "Locations named in the source. Check the source terms before visiting."
+                      : "Observed Google merchant locations. Participation and complete chain coverage are not verified."}
               </p>
             )}
             {current.outlets.map((o) => (

@@ -7,6 +7,8 @@ await writeFile(
   JSON.stringify(report, null, 2) + "\n",
 );
 console.log({
+  metrics: artifact.metrics,
+  statuses: artifact.statusCounts,
   candidates: report.candidateCount,
   runtime: report.runtimeCount,
   unmatched: report.unmatched.length,

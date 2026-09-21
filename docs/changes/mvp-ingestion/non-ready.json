@@ -3,10 +3,14 @@
     "id": "bf5eaca0-1b09-5cdb-a1a3-0bb5b5fc6d47",
     "sourceUrl": "https://t.me/sgfooddeals/4871",
     "merchant": "",
-    "title": "",
-    "status": "exclude",
+    "title": "Mr. Farmer 8.8 Grocery Sale from $2.80",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "online_only",
     "reasons": [
-      "online_only_not_for_map"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -15,6 +19,9 @@
     "merchant": "Carnaby",
     "title": "1-for-1 Weekday Specials",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unresolved_weekday_restriction",
       "unknown_expiry_or_start"
@@ -25,9 +32,13 @@
     "sourceUrl": "https://t.me/sgfooddeals/4876",
     "merchant": "",
     "title": "$6.50 Fried Chicken Rice",
-    "status": "exclude",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -35,9 +46,13 @@
     "sourceUrl": "https://t.me/sgfooddeals/4876",
     "merchant": "",
     "title": "$8.50 Tom Yum Noodle Soup",
-    "status": "exclude",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -45,9 +60,13 @@
     "sourceUrl": "https://t.me/sgfooddeals/4876",
     "merchant": "",
     "title": "$9.80 Kway Teow Soup with Beef",
-    "status": "exclude",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -55,9 +74,13 @@
     "sourceUrl": "https://t.me/sgfooddeals/4876",
     "merchant": "",
     "title": "$10 Sliced Beef Ribeye",
-    "status": "exclude",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -65,9 +88,13 @@
     "sourceUrl": "https://t.me/sgfooddeals/4876",
     "merchant": "",
     "title": "Pork Ribs Soup from $8.80",
-    "status": "exclude",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -76,6 +103,9 @@
     "merchant": "Burnt Cones",
     "title": "$1 Scoops",
     "status": "needs_location",
+    "contentStatus": "resolved",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
       "google_branch_not_found:Paragon Shopping Centre, B1-15",
       "no_operational_google_location"
@@ -85,10 +115,14 @@
     "id": "f763a80f-f5ff-5880-ad88-695ca5c44cad",
     "sourceUrl": "https://t.me/sgfooddeals/4878",
     "merchant": "",
-    "title": "",
-    "status": "exclude",
+    "title": "Introducing SG Nightlife & Bars Telegram Channel",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -96,9 +130,12 @@
     "sourceUrl": "https://t.me/sgfooddeals/4879",
     "merchant": "ALC Rice Bowls",
     "title": "$8.80 Rice Bowl",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -106,9 +143,12 @@
     "sourceUrl": "https://t.me/sgfooddeals/4879",
     "merchant": "Katsu-an",
     "title": "$9.90 Lunch Combo",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -116,9 +156,12 @@
     "sourceUrl": "https://t.me/sgfooddeals/4879",
     "merchant": "Saizeriya",
     "title": "$9 Western Lunch Set",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -126,9 +169,12 @@
     "sourceUrl": "https://t.me/sgfooddeals/4879",
     "merchant": "Shi Li Fang",
     "title": "$9.90 Hotpot Meal",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -136,19 +182,25 @@
     "sourceUrl": "https://t.me/sgfooddeals/4879",
     "merchant": "White Restaurant",
     "title": "Lunch Set from $9.90",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
     "id": "5637306f-5e37-5389-aa72-cf688debaf33",
     "sourceUrl": "https://t.me/sgfooddeals/4880",
     "merchant": "",
-    "title": "",
-    "status": "exclude",
+    "title": "Dine for Good at Marina Bay Sands this Aug",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved"
     ]
   },
   {
@@ -157,6 +209,9 @@
     "merchant": "Tavola Aperta",
     "title": "Free Linguine al Limone Pasta",
     "status": "needs_location",
+    "contentStatus": "resolved",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
       "google_branch_not_found:Plaza Singapura, #01-60",
       "no_operational_google_location"
@@ -168,6 +223,9 @@
     "merchant": "Carlton City",
     "title": "1-for-1 Porridge Buffet",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unknown_expiry_or_start"
     ]
@@ -178,6 +236,9 @@
     "merchant": "Family Mookata",
     "title": "$19.90 Buffet",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unknown_expiry_or_start"
     ]
@@ -188,6 +249,9 @@
     "merchant": "Good Combo Hotpot & BBQ",
     "title": "Buffet from $19.99",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unknown_expiry_or_start"
     ]
@@ -198,6 +262,9 @@
     "merchant": "Petite Menu",
     "title": "$10 Lunch Buffet",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unknown_expiry_or_start"
     ]
@@ -208,6 +275,9 @@
     "merchant": "Window on The Park",
     "title": "1-for-1 Buffet",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unknown_expiry_or_start"
     ]
@@ -217,9 +287,13 @@
     "sourceUrl": "https://t.me/sgfooddeals/4884",
     "merchant": "",
     "title": "Sentosa GrillFest (Till 16 Aug)",
-    "status": "exclude",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -227,9 +301,13 @@
     "sourceUrl": "https://t.me/sgfooddeals/4884",
     "merchant": "",
     "title": "Hougang Food Fair (Till 19 Aug)",
-    "status": "exclude",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -237,9 +315,13 @@
     "sourceUrl": "https://t.me/sgfooddeals/4884",
     "merchant": "",
     "title": "Tiong Bahru Food Fair (Till 23 Aug)",
-    "status": "exclude",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -247,9 +329,13 @@
     "sourceUrl": "https://t.me/sgfooddeals/4884",
     "merchant": "",
     "title": "APAC F&B Expo (21 - 23 Aug)",
-    "status": "exclude",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -257,9 +343,13 @@
     "sourceUrl": "https://t.me/sgfooddeals/4884",
     "merchant": "",
     "title": "Celebfest Food Festival (21 - 23 Aug)",
-    "status": "exclude",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -267,9 +357,13 @@
     "sourceUrl": "https://t.me/sgfooddeals/4884",
     "merchant": "",
     "title": "Punggol Central Night Bazaar (Till 30 Aug)",
-    "status": "exclude",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -278,6 +372,9 @@
     "merchant": "Daya Izakaya",
     "title": "$0.61 Sushi Deal",
     "status": "needs_location",
+    "contentStatus": "resolved",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
       "google_branch_not_found:254 Jalan Kayu",
       "no_operational_google_location"
@@ -289,6 +386,9 @@
     "merchant": "Chix Hot Chicken",
     "title": "$9.99 Burger Set",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unknown_expiry_or_start"
     ]
@@ -297,21 +397,31 @@
     "id": "9c3083d2-4d87-5ce6-a4cf-b50726a6b25c",
     "sourceUrl": "https://t.me/sgfooddeals/4888",
     "merchant": "",
-    "title": "",
-    "status": "exclude",
+    "title": "Mixed Rice Personality Quiz",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
     "id": "874236b7-bf42-58be-a593-169e3ccbc500",
     "sourceUrl": "https://t.me/sgfooddeals/4889",
     "merchant": "",
-    "title": "manual review required.]",
+    "title": "",
     "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "merchant_unresolved",
-      "promotional_benefit_not_established"
+      "title_unresolved",
+      "offer_proposition_unresolved",
+      "unsupported_source_text",
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -320,6 +430,9 @@
     "merchant": "POKKA",
     "title": "Free entry to POKKA’s Greener On Our Side Pop-up",
     "status": "needs_location",
+    "contentStatus": "resolved",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
       "google_branch_not_found:Plaza Singapura",
       "google_branch_not_found:Canopy Plaza Level 1",
@@ -332,6 +445,9 @@
     "merchant": "FAME by Dad's Corner",
     "title": "$10 Daily Buffet",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unknown_expiry_or_start"
     ]
@@ -342,6 +458,9 @@
     "merchant": "Braek Acai & Coffee",
     "title": "$4 Banana Pudding Hojicha Latte",
     "status": "needs_location",
+    "contentStatus": "resolved",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
       "google_branch_not_found:SMU Li Ka Shing Library, B1-25",
       "no_operational_google_location"
@@ -353,6 +472,9 @@
     "merchant": "New Ubin Seafood",
     "title": "50% Off Daily Deals",
     "status": "needs_location",
+    "contentStatus": "resolved",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
       "google_branch_not_found:30 Victoria Street, #02-01B",
       "no_operational_google_location"
@@ -364,6 +486,9 @@
     "merchant": "Gwanghwamun Mijin",
     "title": "$1 Buckwheat Noodles",
     "status": "needs_location",
+    "contentStatus": "resolved",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
       "google_branch_not_found:47 - 49 Pekin Street, #01-01",
       "no_operational_google_location"
@@ -375,6 +500,9 @@
     "merchant": "Sushiro",
     "title": "1-for-1 Sushi Deals",
     "status": "needs_location",
+    "contentStatus": "resolved",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
       "google_branch_not_found:Orchard Gateway, B1-07",
       "no_operational_google_location"
@@ -386,6 +514,9 @@
     "merchant": "Cai-Ca",
     "title": "1-for-1 Soy Blend Series",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unresolved_redemption_hours",
       "unknown_expiry_or_start"
@@ -397,6 +528,9 @@
     "merchant": "Morganfield's",
     "title": "1-for-1 Angus Ribeye Steak",
     "status": "needs_location",
+    "contentStatus": "resolved",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
       "google_branch_not_found:Suntec City outlet",
       "no_operational_google_location"
@@ -406,12 +540,14 @@
     "id": "8dc6284c-6b2f-5157-a4d3-2640f1544963",
     "sourceUrl": "https://t.me/sgfooddeals/4903",
     "merchant": "",
-    "title": "",
+    "title": "$35 Unlimited Aus Angus Steak & Fries",
     "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "merchant_unresolved",
-      "title_unresolved",
-      "promotional_benefit_not_established"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -420,6 +556,9 @@
     "merchant": "Meatsmith",
     "title": "Free 101 Cheeseburgers",
     "status": "needs_location",
+    "contentStatus": "resolved",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
       "google_branch_not_found:167 - 169 Telok Ayer Street",
       "no_operational_google_location"
@@ -431,6 +570,9 @@
     "merchant": "Kafey Haus",
     "title": "Specialty Drinks from $2",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unknown_expiry_or_start"
     ]
@@ -440,28 +582,36 @@
     "sourceUrl": "https://t.me/sgfooddeals/4908",
     "merchant": "Omuplace",
     "title": "Omurice & Udon from $3.90",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
     "id": "75b2e30d-30ee-5045-abb2-716f1c17f8d1",
     "sourceUrl": "https://t.me/sgfooddeals/4909",
     "merchant": "",
-    "title": " — Roadshow",
+    "title": "BRAND’S Ginseng Essence Honey Jelly Strip now at just $2 per strip",
     "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
-      "merchant_unresolved",
-      "promotional_benefit_not_established"
+      "merchant_unresolved"
     ]
   },
   {
     "id": "1a51e784-f95b-5537-a866-5907bf01aa64",
     "sourceUrl": "https://t.me/sgfooddeals/4909",
     "merchant": "",
-    "title": " — $2 Deal",
+    "title": "BRAND’S Ginseng Essence Honey Jelly Strip now at just $2 per strip",
     "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
       "merchant_unresolved"
     ]
@@ -472,6 +622,9 @@
     "merchant": "Common Grill",
     "title": "$9.90 Lunch Sets",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unknown_expiry_or_start"
     ]
@@ -480,30 +633,44 @@
     "id": "697b1e55-4a67-5519-a7ca-c274bbce89ed",
     "sourceUrl": "https://t.me/sgfooddeals/4913",
     "merchant": "",
-    "title": "",
-    "status": "exclude",
+    "title": "Join SG Budget Babes for Cute Activities & Shopping Deals",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
     "id": "11bbba95-7a03-5999-abea-e0486c1a1de8",
     "sourceUrl": "https://t.me/sgfooddeals/4915",
     "merchant": "foodpanda",
-    "title": "tco.sg/wLGghSyXz (http://tco.sg/wLGghSyXz)",
-    "status": "exclude",
+    "title": "",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "online_only",
     "reasons": [
-      "online_only_not_for_map"
+      "title_unresolved",
+      "offer_proposition_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
     "id": "6ca12cfc-6d2a-534b-a87c-0c05eb28a2d3",
     "sourceUrl": "https://t.me/sgfooddeals/4915",
     "merchant": "GrabFood",
-    "title": "tco.sg/iyavqV2Yp (http://tco.sg/iyavqV2Yp)",
-    "status": "exclude",
+    "title": "",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "online_only",
     "reasons": [
-      "online_only_not_for_map"
+      "title_unresolved",
+      "offer_proposition_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -511,9 +678,13 @@
     "sourceUrl": "https://t.me/sgfooddeals/4917",
     "merchant": "",
     "title": "Clementi - Redhill",
-    "status": "exclude",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -521,9 +692,13 @@
     "sourceUrl": "https://t.me/sgfooddeals/4917",
     "merchant": "",
     "title": "Holland Village - Bukit Panjang",
-    "status": "exclude",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -531,9 +706,13 @@
     "sourceUrl": "https://t.me/sgfooddeals/4917",
     "merchant": "",
     "title": "Punggol - Serangoon",
-    "status": "exclude",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -541,9 +720,13 @@
     "sourceUrl": "https://t.me/sgfooddeals/4917",
     "merchant": "",
     "title": "Farrer Park - Boon Keng",
-    "status": "exclude",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -551,9 +734,13 @@
     "sourceUrl": "https://t.me/sgfooddeals/4917",
     "merchant": "",
     "title": "Bishan - Toa Payoh",
-    "status": "exclude",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -561,9 +748,13 @@
     "sourceUrl": "https://t.me/sgfooddeals/4917",
     "merchant": "",
     "title": "Tengah - Jurong",
-    "status": "exclude",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -571,9 +762,13 @@
     "sourceUrl": "https://t.me/sgfooddeals/4917",
     "merchant": "",
     "title": "Woodlands - Sembawang",
-    "status": "exclude",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -581,9 +776,13 @@
     "sourceUrl": "https://t.me/sgfooddeals/4917",
     "merchant": "",
     "title": "Tai Seng - Paya Lebar",
-    "status": "exclude",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -591,9 +790,13 @@
     "sourceUrl": "https://t.me/sgfooddeals/4917",
     "merchant": "",
     "title": "Marine Parade - East Coast",
-    "status": "exclude",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -601,19 +804,26 @@
     "sourceUrl": "https://t.me/sgfooddeals/4917",
     "merchant": "",
     "title": "Bedok - Pasir Ris",
-    "status": "exclude",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
     "id": "d48eceda-1ced-55b7-a057-a42dee2d0960",
     "sourceUrl": "https://t.me/sgfooddeals/4919",
     "merchant": "",
-    "title": "",
-    "status": "exclude",
+    "title": "DBS PayLah! $3 Cashback at Hawkers is back",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved"
     ]
   },
   {
@@ -622,6 +832,9 @@
     "merchant": "Andaz",
     "title": "25% Off mooncakes",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unknown_expiry_or_start"
     ]
@@ -632,6 +845,9 @@
     "merchant": "Chinatown Tai Chong Kok",
     "title": "Up to 35% off mooncakes",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unknown_expiry_or_start"
     ]
@@ -642,6 +858,9 @@
     "merchant": "Central Plaza",
     "title": "Free mooncake & games",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unknown_expiry_or_start"
     ]
@@ -652,6 +871,9 @@
     "merchant": "Singapore Chinese Cultural Centre",
     "title": "Free mooncake samples",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unknown_expiry_or_start"
     ]
@@ -662,6 +884,9 @@
     "merchant": "Takashimaya",
     "title": "Up to 45% off mooncakes",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unknown_expiry_or_start"
     ]
@@ -671,9 +896,13 @@
     "sourceUrl": "https://t.me/sgfooddeals/4921",
     "merchant": "",
     "title": "Yishun NDP Food Fair (Till 6 Sep)",
-    "status": "exclude",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -681,9 +910,13 @@
     "sourceUrl": "https://t.me/sgfooddeals/4921",
     "merchant": "",
     "title": "Choa Chu Kang Night Bazaar (Till 13 Sep)",
-    "status": "exclude",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -691,9 +924,13 @@
     "sourceUrl": "https://t.me/sgfooddeals/4921",
     "merchant": "",
     "title": "Redhill Food Bazaar (Till 13 Sep)",
-    "status": "exclude",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -701,9 +938,13 @@
     "sourceUrl": "https://t.me/sgfooddeals/4921",
     "merchant": "",
     "title": "Jurong Point Food Festival (Till 25 Sep)",
-    "status": "exclude",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -711,9 +952,13 @@
     "sourceUrl": "https://t.me/sgfooddeals/4921",
     "merchant": "",
     "title": "GBTB Mid-Autumn Food Festival (12 - 27 Sep)",
-    "status": "exclude",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -721,9 +966,13 @@
     "sourceUrl": "https://t.me/sgfooddeals/4921",
     "merchant": "",
     "title": "Tampines Night Bazaar (Till 28 Sep)",
-    "status": "exclude",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -732,6 +981,9 @@
     "merchant": "Brash Boys Coffee",
     "title": "1-for-1 on All Drinks",
     "status": "needs_location",
+    "contentStatus": "resolved",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
       "google_branch_not_found:168 Robinson Road, #01-09",
       "no_operational_google_location"
@@ -743,6 +995,9 @@
     "merchant": "Brash Boys Coffee",
     "title": "1-for-1 on All Drinks",
     "status": "needs_location",
+    "contentStatus": "resolved",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
       "google_branch_not_found:168 Robinson Road, #01-09",
       "no_operational_google_location"
@@ -754,6 +1009,9 @@
     "merchant": "Sukiya",
     "title": "Breakfast Set from $4.90",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unknown_expiry_or_start"
     ]
@@ -764,6 +1022,9 @@
     "merchant": "Kimpson's Table",
     "title": "$9.90 Kalguksu",
     "status": "needs_location",
+    "contentStatus": "resolved",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
       "google_branch_not_found:Far East Square, #01-01",
       "no_operational_google_location"
@@ -775,6 +1036,9 @@
     "merchant": "Kimpson's Table",
     "title": "$9.90 Kalguksu",
     "status": "needs_location",
+    "contentStatus": "resolved",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
       "google_branch_not_found:Far East Square, #01-01",
       "no_operational_google_location"
@@ -786,6 +1050,9 @@
     "merchant": "Kimpson's Table",
     "title": "$9.90 Kalguksu",
     "status": "needs_location",
+    "contentStatus": "resolved",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
       "google_branch_not_found:Far East Square, #01-01",
       "no_operational_google_location"
@@ -797,6 +1064,9 @@
     "merchant": "21 on Rajah",
     "title": "2-for-2 Vietnamese Buffet",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unknown_expiry_or_start"
     ]
@@ -807,6 +1077,9 @@
     "merchant": "Fame by Dads Corner",
     "title": "$10 Buffet",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unknown_expiry_or_start"
     ]
@@ -817,6 +1090,9 @@
     "merchant": "Happy Lamb",
     "title": "Hotpot Buffet from $9.99",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unknown_expiry_or_start"
     ]
@@ -827,6 +1103,9 @@
     "merchant": "JEN Shangri-La",
     "title": "1-for-1 Buffet",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unknown_expiry_or_start"
     ]
@@ -837,6 +1116,9 @@
     "merchant": "Seoul Garden",
     "title": "2-for-2 Grill & Hotpot Buffet",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unknown_expiry_or_start"
     ]
@@ -845,10 +1127,14 @@
     "id": "45910e22-329a-566c-a633-f03160f660b8",
     "sourceUrl": "https://t.me/sgfooddeals/4930",
     "merchant": "",
-    "title": "",
-    "status": "exclude",
+    "title": "SG's Last Kampung Canteen is Closing Down",
+    "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "merchant_unresolved",
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -857,6 +1143,9 @@
     "merchant": "Ajumma's Korean Restaurant",
     "title": "Meals from $9.90",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unknown_expiry_or_start"
     ]
@@ -867,6 +1156,9 @@
     "merchant": "Paradise Hotpot",
     "title": "All-You-Can-Eat from $19.90",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unresolved_redemption_hours",
       "requires_split"
@@ -876,21 +1168,26 @@
     "id": "73e4b6b6-b2e0-5926-a592-c994b385e189",
     "sourceUrl": "https://t.me/sgfooddeals/4934",
     "merchant": "",
-    "title": "",
+    "title": "Support Jalan Besar’s small kitchens",
     "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
-      "merchant_unresolved",
-      "title_unresolved"
+      "merchant_unresolved"
     ]
   },
   {
     "id": "17746cb8-e88e-5ed0-a976-bc17ed70374f",
     "sourceUrl": "https://t.me/tastesoulsg/4409",
-    "merchant": "Pizza Hut's National Day 2026 Bundle Set",
-    "title": "$61 Never Tasted So Good",
-    "status": "exclude",
+    "merchant": "Pizza Hut",
+    "title": "$61 Never Tasted So Good — Pizza Hut's National Day 2026 Bundle Set",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -899,6 +1196,9 @@
     "merchant": "BURNT CONES",
     "title": "$1 single scoops",
     "status": "needs_location",
+    "contentStatus": "resolved",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
       "google_branch_not_found:Paragon, B1-15",
       "no_operational_google_location"
@@ -909,9 +1209,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4412",
     "merchant": "Tofu G",
     "title": "NEW Butter Tteok",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -919,9 +1222,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4413",
     "merchant": "Lao Beijing",
     "title": "Feast like an emperor with this Ultimate Indulgence Set",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -929,9 +1235,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4414",
     "merchant": "AFTER HOURS",
     "title": "NEW Nostalgia series",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -939,9 +1248,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4416",
     "merchant": "Bottega JB",
     "title": "🇮🇹 Feel like having Italian food without a flight to Rome? Check out this restaurant just across the border",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -949,9 +1261,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4419",
     "merchant": "NomNom JB",
     "title": "🇹🇭 Craving authentic Thai food? This Thai restaurant in Johor Bahru has got you covered",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -959,9 +1274,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4421",
     "merchant": "Starbucks",
     "title": "NEW Unicorn Frappucino",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -969,9 +1287,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4422",
     "merchant": "POUT Rooftop Cafe",
     "title": "A hidden rooftop café in Singapore's CBD with skyline views, speciality coffee, artisanal French bakes and creative matcha drinks",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -980,6 +1301,9 @@
     "merchant": "MOS Burger",
     "title": "$6.10 Chicken Burger Combo",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unknown_expiry_or_start"
     ]
@@ -989,9 +1313,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4425",
     "merchant": "Chin Mee Chin",
     "title": "101-year-old coffeeshop & heritage bakery with classic breakfast sets, Nasi Lemak, Smashed Chicken Sandwiches, and Cloud Kopi",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -999,9 +1326,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4427",
     "merchant": "McDonald’s",
     "title": "Returning items incl. Samurai Beef Burger, Samurai Chicken Burger, Tamago Samurai Burger (Beef / Chicken) & Seaweed McShaker Fries",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -1009,9 +1339,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4428",
     "merchant": "BlackTree",
     "title": "China’s buzziest Thai Milk Tea brand lands its first outlet in Singapore at 313@somerset",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -1019,9 +1352,13 @@
     "sourceUrl": "https://t.me/tastesoulsg/4429",
     "merchant": "KFC",
     "title": "NEW menu ft. Japanese Nanban Zinger, Chicken Bites, Loaded Fries & Sweet Potato Mochi Balls",
-    "status": "exclude",
+    "status": "needs_location",
+    "contentStatus": "resolved",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "google_response_not_cached_run_with_google",
+      "no_operational_google_location"
     ]
   },
   {
@@ -1029,9 +1366,17 @@
     "sourceUrl": "https://t.me/tastesoulsg/4430",
     "merchant": "IKEA",
     "title": "NEW Swedish Meatball Ice-Cream",
-    "status": "exclude",
+    "status": "needs_location",
+    "contentStatus": "resolved",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "google_response_not_cached_run_with_google",
+      "google_response_not_cached_run_with_google",
+      "google_response_not_cached_run_with_google",
+      "google_response_not_cached_run_with_google",
+      "google_response_not_cached_run_with_google",
+      "no_operational_google_location"
     ]
   },
   {
@@ -1039,9 +1384,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4431",
     "merchant": "Park Side",
     "title": "A new all-day cafe at Singapore Botanic Gardens with creative brunch, coffee, desserts, and pet-friendly dining",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -1049,9 +1397,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4433",
     "merchant": "Potato Corner",
     "title": "NEW limited Chicken Satay Flavour",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -1059,9 +1410,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4434",
     "merchant": "San Shu Gong",
     "title": "Discover the best of Teochew and Cantonese cuisine at New Bahru",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -1070,6 +1424,9 @@
     "merchant": "Morganfield’s",
     "title": "1-for-1 Angus Ribeye Steak (U.P. $42.90++)",
     "status": "needs_location",
+    "contentStatus": "resolved",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
       "google_branch_not_found:Suntec City, 01-645",
       "no_operational_google_location"
@@ -1080,9 +1437,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4437",
     "merchant": "Spicy Noodles SG",
     "title": "Taiwan-famous noodles store expands its menu with Singapore-exclusive Chicken Soup",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -1090,9 +1450,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4439",
     "merchant": "Sushidan",
     "title": "NEW outlet opening at Parkway Parade",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -1101,6 +1464,9 @@
     "merchant": "Baci Baci",
     "title": "Half off pizza. Half off pasta. Full flavour. Don't miss this latest deal that might just upgrade your next pasta night",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unknown_expiry_or_start"
     ]
@@ -1111,6 +1477,9 @@
     "merchant": "MUKAI",
     "title": "1-for-1 Kaiho Don",
     "status": "needs_location",
+    "contentStatus": "resolved",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
       "google_branch_not_found:Plaza Singapura, B1-07",
       "no_operational_google_location"
@@ -1122,6 +1491,9 @@
     "merchant": "OMMA Korean Charcoal BBQ",
     "title": "Math has never tasted this good: 2 Pax = 20% Off, 3 Pax = 30% Off, 4 Pax = 40% Off. Bring the Whole Crew",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unknown_expiry_or_start"
     ]
@@ -1131,9 +1503,13 @@
     "sourceUrl": "https://t.me/tastesoulsg/4444",
     "merchant": "Zapangi Coffee",
     "title": "Popular coffee & South Korean American-style soft cookie brand pop-up in SG",
-    "status": "exclude",
+    "status": "needs_location",
+    "contentStatus": "resolved",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "google_response_not_cached_run_with_google",
+      "no_operational_google_location"
     ]
   },
   {
@@ -1141,9 +1517,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4445",
     "merchant": "7-Eleven",
     "title": "NEW Onigiri Ice Cream",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -1152,6 +1531,9 @@
     "merchant": "Sip Sip",
     "title": "Did someone say 1-for-1 cocktails & bottomless truffle fries on Wednesdays? Cheers, ladies! And count yourself in for sips, giggles & good company",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unresolved_weekday_restriction",
       "unknown_expiry_or_start"
@@ -1162,9 +1544,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4449",
     "merchant": "Casa Lola",
     "title": "Step into a Barcelona-inspired bodega where authentic Spanish flavours, grandma’s cooking, and cosy neighbourhood vibes collide",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -1173,6 +1558,9 @@
     "merchant": "Secret Recipe",
     "title": "1-for-1 Braised Beef Cheek",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unknown_expiry_or_start"
     ]
@@ -1182,9 +1570,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4452",
     "merchant": "More Yogurt",
     "title": "Your next yogurt spot is now open in Jewel & Waterway Point",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -1193,6 +1584,9 @@
     "merchant": "Hokkaido Baked Cheese Tart",
     "title": "1-for-1 Original Cheese Tart",
     "status": "needs_location",
+    "contentStatus": "resolved",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
       "google_branch_not_found:Changi Airport T3, B2-11",
       "google_branch_not_found:Bugis Junction, B1-K6",
@@ -1204,9 +1598,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4455",
     "merchant": "Fangko House",
     "title": "Explore bold Indonesian flavours with a modern twist at this cafe near Boat Quay",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -1214,9 +1611,13 @@
     "sourceUrl": "https://t.me/tastesoulsg/4456",
     "merchant": "Coffeehouse by Kobashi",
     "title": "NEW takeover sourdough flavours",
-    "status": "exclude",
+    "status": "needs_location",
+    "contentStatus": "resolved",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "google_response_not_cached_run_with_google",
+      "no_operational_google_location"
     ]
   },
   {
@@ -1224,9 +1625,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4458",
     "merchant": "Bari Bari Grand",
     "title": "The doors are open, the deals are hot. Enjoy 5 days of steak promos from 1 to 5 September 2026 at The Capitol",
-    "status": "needs_content_resolution",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "promotional_benefit_not_established"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -1234,9 +1638,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4460",
     "merchant": "Pepper Lunch",
     "title": "Fan-favourite Cheesy Omelette RETURNS",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -1244,9 +1651,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4461",
     "merchant": "Cavern Restaurant",
     "title": "Singapore’s only cave restaurant is celebrating its first anniversary with a refreshed menu",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -1255,6 +1665,9 @@
     "merchant": "Kimpson’s Table",
     "title": "$9.90 Korean Noodles (U.P. $15)",
     "status": "needs_location",
+    "contentStatus": "resolved",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
       "google_branch_not_found:Far East Square, 01-01",
       "no_operational_google_location"
@@ -1266,6 +1679,9 @@
     "merchant": "Kimpson’s Table",
     "title": "$9.90 Korean Noodles (U.P. $15)",
     "status": "needs_location",
+    "contentStatus": "resolved",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
       "google_branch_not_found:Far East Square, 01-01",
       "no_operational_google_location"
@@ -1277,6 +1693,9 @@
     "merchant": "Kimpson’s Table",
     "title": "$9.90 Korean Noodles (U.P. $15)",
     "status": "needs_location",
+    "contentStatus": "resolved",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
       "google_branch_not_found:Far East Square, 01-01",
       "no_operational_google_location"
@@ -1288,6 +1707,9 @@
     "merchant": "Kimpson’s Table",
     "title": "$9.90 Korean Noodles (U.P. $15)",
     "status": "needs_location",
+    "contentStatus": "resolved",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
       "google_branch_not_found:Far East Square, 01-01",
       "no_operational_google_location"
@@ -1298,9 +1720,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4464",
     "merchant": "Next Door Spanish Cafe",
     "title": "Who needs to fly to Spain when Spain is next door? Try authentic & traditional Spanish food",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -1308,9 +1733,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4467",
     "merchant": "Shin Katsu",
     "title": "Welcome to a katsu experience straight out of Japan, now located in the CBD",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -1319,6 +1747,9 @@
     "merchant": "Dancing Crab",
     "title": "Why dine solo when you can share the joy? Get 50% off your 2nd Lunch Set",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unknown_expiry_or_start"
     ]
@@ -1328,9 +1759,14 @@
     "sourceUrl": "https://t.me/tastesoulsg/4472",
     "merchant": "MilkyShop",
     "title": "Viral Korean butter sand pop-up lands in SG",
-    "status": "exclude",
+    "status": "needs_location",
+    "contentStatus": "resolved",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "google_response_not_cached_run_with_google",
+      "google_response_not_cached_run_with_google",
+      "no_operational_google_location"
     ]
   },
   {
@@ -1338,9 +1774,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4473",
     "merchant": "Dill",
     "title": "Craving something new? At this restaurant, you can enjoy Nordic flavours with Singapore soul",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -1349,6 +1788,9 @@
     "merchant": "Ajumma’s",
     "title": "$9.90++ mains + free flow side dishes + choice of Omija Berry Smoothie / Milk Tea Brûlée Smoothie / Dubai Chewy Cookie",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unknown_expiry_or_start"
     ]
@@ -1359,6 +1801,9 @@
     "merchant": "",
     "title": "Up to 15% OFF your total bill with Grab Dine Out at Moonchild, La Levain & more!",
     "status": "needs_content_resolution",
+    "contentStatus": "needs_content_resolution",
+    "validityStatus": "resolved",
+    "mapStatus": "needs_location",
     "reasons": [
       "merchant_unresolved"
     ]
@@ -1368,9 +1813,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4476",
     "merchant": "Estiatorio Milos",
     "title": "🇬🇷 From sea to table, here are Greek dishes that stood out to us",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -1378,9 +1826,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4477",
     "merchant": "Sushiro",
     "title": "NEW Pokémon collab ft. merch with purchase",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "requires_split"
     ]
   },
   {
@@ -1389,6 +1840,9 @@
     "merchant": "Papi’s Tacos",
     "title": "$10 OFF Papi’s Platter",
     "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
       "unknown_expiry_or_start"
     ]
@@ -1398,9 +1852,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4479",
     "merchant": "Dian Xiao Er",
     "title": "Claypot Sliced Fish Curry and Solo Lunch Sets for just $9.90",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -1408,9 +1865,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4480",
     "merchant": "Racines",
     "title": "NEW Turf & Tide edition Ultimate Brunch Buffet",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "requires_split"
     ]
   },
   {
@@ -1418,9 +1878,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4481",
     "merchant": "Nasty Cookie",
     "title": "NEW Dubai Chewy Cookie Mooncake",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "requires_split"
     ]
   },
   {
@@ -1428,9 +1891,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4482",
     "merchant": "Viva Lavender",
     "title": "A neighbourhood gem serving European-Asian cuisine has just expanded its menu and lunch-time promos",
-    "status": "needs_content_resolution",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "promotional_benefit_not_established"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -1438,9 +1904,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4484",
     "merchant": "SIDES by the Sidemen",
     "title": "Trick or treat? Enjoy a treat with this new Halloween burger, limited time only",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "needs_location",
     "reasons": [
-      "no_promotional_benefit"
+      "unknown_expiry_or_start"
     ]
   },
   {
@@ -1448,9 +1917,12 @@
     "sourceUrl": "https://t.me/tastesoulsg/4486",
     "merchant": "Koi Thé",
     "title": "NEW 3L Sharing Tea Pack ($52)",
-    "status": "exclude",
+    "status": "needs_validity",
+    "contentStatus": "resolved",
+    "validityStatus": "needs_validity",
+    "mapStatus": "online_only",
     "reasons": [
-      "online_only_not_for_map"
+      "unknown_expiry_or_start"
     ]
   }
 ]

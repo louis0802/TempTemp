@@ -9,7 +9,7 @@ import {
 import type { Listing, PromotionResponse } from "@/domain/promotion";
 import { stableId } from "@/ingestion/mvp/pipeline";
 const artifactSchema = z.object({
-  version: z.literal(1),
+  version: z.literal(2),
   records: z.array(mvpPromotionSchema),
 });
 export async function readMvpData() {
@@ -26,6 +26,13 @@ export function mvpListing(p: MvpPromotion): Listing {
   return {
     ...p,
     category: null,
+    mvpState: {
+      content: p.contentStatus,
+      validity: p.validityStatus,
+      map: p.mapStatus,
+      lifecycle: p.lifecycle,
+      reasons: p.reasons,
+    },
     terms: [p.description],
     outlets: p.outlets.map((o) => ({
       id: stableId(o.googlePlaceId),
@@ -72,15 +79,17 @@ export async function getMvpPromotions(
     .filter((p) => !cursor || p.id > cursor)
     .map((p) => ({
       ...p,
-      outlets: p.outlets.filter(
-        (o) =>
-          o.longitude >= w &&
-          o.longitude <= e &&
-          o.latitude >= s &&
-          o.latitude <= n,
-      ),
+      outlets: includeExpired
+        ? p.outlets
+        : p.outlets.filter(
+            (o) =>
+              o.longitude >= w &&
+              o.longitude <= e &&
+              o.latitude >= s &&
+              o.latitude <= n,
+          ),
     }))
-    .filter((p) => p.outlets.length)
+    .filter((p) => includeExpired || p.outlets.length)
     .sort((a, b) => a.id.localeCompare(b.id));
   const items = eligible.slice(0, 200).map(mvpListing);
   return {

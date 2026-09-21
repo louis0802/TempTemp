@@ -60,11 +60,32 @@ await writeFile(
         merchant: p.merchant,
         title: p.title,
         status: p.status,
+        contentStatus: p.contentStatus,
+        validityStatus: p.validityStatus,
+        mapStatus: p.mapStatus,
         reasons: p.reasons,
       })),
     null,
     2,
   ) + "\n",
 );
-console.log(JSON.stringify(artifact.metrics, null, 2));
+await writeFile(
+  "docs/changes/mvp-ingestion/non-ready.md",
+  "# Retained records requiring resolution\n\nAll records remain in the curated presentation dataset. Status uses content → validity → physical location precedence; dimensions can overlap.\n\n" +
+    artifact.records
+      .filter((p) => p.status !== "ready")
+      .map(
+        (p) =>
+          `- **${p.merchant || "Merchant unresolved"}: ${p.title || "Content unresolved"}** — [source](${p.sourceUrl}) — ID: \`${p.id}\`; status: \`${p.status}\`; map: \`${p.mapStatus}\`; reasons: ${p.reasons.join(", ")}.`,
+      )
+      .join("\n") +
+    "\n",
+);
+console.log(
+  JSON.stringify(
+    { ...artifact.metrics, statuses: artifact.statusCounts },
+    null,
+    2,
+  ),
+);
 if (artifact.failures.length) process.exitCode = 1;

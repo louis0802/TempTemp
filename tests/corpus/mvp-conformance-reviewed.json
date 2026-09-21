@@ -15,8 +15,8 @@
       "actual": [
         {
           "id": "ee96612f-410a-53a7-a7f1-d0dbb02648c4",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -26,7 +26,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original Koi Thé $52 sharing pack explicitly states Online and Now without an end date. Retain online-only with unknown validity and zero pins."
     },
     {
       "candidateId": "551df953-2f18-4c60-b923-7deb4a54a2d7",
@@ -69,8 +69,8 @@
       "actual": [
         {
           "id": "49696b5f-a03f-5407-a386-a9c5e975b2b0",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "unknown_expiry",
           "startDate": null,
           "endDate": null,
@@ -80,7 +80,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source explicitly names SIDES by the Sidemen and the proposition “Trick or treat? Enjoy a treat with this new Halloween burger, limited time only”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
     },
     {
       "candidateId": "62a0c360-5c43-44f7-a753-1ec89832b761",
@@ -103,11 +103,11 @@
           "endDate": "2026-10-31",
           "outletScope": "unspecified",
           "merchant": "",
-          "title": ""
+          "title": "Support Jalan Besar’s small kitchens"
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Grab Dine Out network names example restaurants but not a single owned redemption merchant. Retain campaign for content review."
     },
     {
       "candidateId": "8e0614ff-a1c1-47f4-b945-7a1058b195e8",
@@ -206,18 +206,18 @@
       "actual": [
         {
           "id": "45910e22-329a-566c-a633-f03160f660b8",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "recurring",
           "startDate": null,
           "endDate": null,
           "outletScope": "named_outlets",
           "merchant": "",
-          "title": ""
+          "title": "SG's Last Kampung Canteen is Closing Down"
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original body names Boh Geh Canteen and a closing date, but schedule is Mon–Fri with no campaign start. Retain; current heading-based merchant extraction remains unresolved. Closing date is not fabricated into campaign validity."
     },
     {
       "candidateId": "ad4337d1-80aa-4e0d-8cfb-8b4844581f07",
@@ -233,8 +233,8 @@
       "actual": [
         {
           "id": "8a564775-1b0e-5cc5-aac0-0dc7d8619bf2",
-          "status": "needs_content_resolution",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -244,7 +244,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Viva Lavender owns the menu and lunch-time promotional proposition. Retain original wording; no campaign dates supplied."
     },
     {
       "candidateId": "798dacf9-b305-4273-a395-a76a06c54ab1",
@@ -260,8 +260,8 @@
       "actual": [
         {
           "id": "9cb4e729-234a-5e1e-a78f-a47f89a6a94f",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "multiple_ranges",
           "startDate": null,
           "endDate": null,
@@ -274,7 +274,7 @@
         "date_pattern",
         "outlet_scope"
       ],
-      "explanation": "Launch has mixed online/store timing, not a single complete campaign range. Source launch is excluded; online-only label is not assumed for mixed scope."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original Nasty Cookie source has online and in-store starts without an expiry. Preserve mixed scope and unknown validity; do not classify it online-only."
     },
     {
       "candidateId": "f2400d50-2192-4578-94fb-f476a0d75419",
@@ -290,8 +290,8 @@
       "actual": [
         {
           "id": "4629522c-f8d6-548c-acc7-6eac7b16dfd2",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "multiple_ranges",
           "startDate": null,
           "endDate": null,
@@ -303,7 +303,7 @@
       "differences": [
         "date_pattern"
       ],
-      "explanation": "Launch source contains multiple calendar claims; no unambiguous single period is asserted. Excluded as launch without benefit."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original Racines campaign has Now–31 Oct plus Every Sat. Preserve source and recurrence; existing parser flags this pipe structure requires_split, so remain needs_validity."
     },
     {
       "candidateId": "f28a2970-bb28-44e2-b7ac-27a961d0ba96",
@@ -319,8 +319,8 @@
       "actual": [
         {
           "id": "0b829177-d6d5-573c-ad4f-b926472413d5",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -329,10 +329,8 @@
           "title": "Claypot Sliced Fish Curry and Solo Lunch Sets for just $9.90"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Editorial lunch-set price alone does not establish a discount or other promotional benefit."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original Dian Xiao Er headline explicitly gives Solo Lunch Sets for $9.90. Retain proposition without requiring savings comparison; no dates stated."
     },
     {
       "candidateId": "f481a335-2476-424f-86bb-a2d22b78af0f",
@@ -563,8 +561,8 @@
       "actual": [
         {
           "id": "7a0a9aea-47b5-5456-a940-37b19c0e48eb",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "multiple_ranges",
           "startDate": null,
           "endDate": null,
@@ -576,7 +574,7 @@
       "differences": [
         "date_pattern"
       ],
-      "explanation": "Source explicitly states two campaign waves with unresolved product ownership, not a single now-to-end range. Launch without established benefit is excluded."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original Pokémon merchandise-with-purchase collaboration is an offer. Retain verbatim; two campaign waves do not assign merchandise ownership unambiguously, so requires_split remains needs_validity."
     },
     {
       "candidateId": "8281b82f-278f-4dcf-869a-d1957cdc61db",
@@ -592,8 +590,8 @@
       "actual": [
         {
           "id": "269777e5-60b8-52d1-a870-a1fd3f107ad2",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -603,7 +601,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source explicitly names Estiatorio Milos and the proposition “🇬🇷 From sea to table, here are Greek dishes that stood out to us”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
     },
     {
       "candidateId": "f51fd6b9-1f04-4c1b-9cbb-4b8f8bf7788d",
@@ -729,8 +727,8 @@
       "actual": [
         {
           "id": "59b73637-2480-5f48-abe2-a949fc08b51e",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -740,7 +738,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source explicitly names Dill and the proposition “Craving something new? At this restaurant, you can enjoy Nordic flavours with Singapore soul”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
     },
     {
       "candidateId": "598267ad-570e-43d4-bfc4-f3b98998ae35",
@@ -756,8 +754,8 @@
       "actual": [
         {
           "id": "ee2ce870-724d-5cb0-a428-3e9803b3fba5",
-          "status": "exclude",
-          "genuine": false,
+          "status": "location_candidate",
+          "genuine": true,
           "datePattern": "now_to_date",
           "startDate": "2026-09-08",
           "endDate": "2027-01-02",
@@ -767,7 +765,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source explicitly names MilkyShop and the proposition “Viral Korean butter sand pop-up lands in SG”. Curated launch, collaboration or editorial wording does not remove the offer. Source period is complete; offline Google query has no accepted cached location, so location remains unresolved."
     },
     {
       "candidateId": "8bc768f9-4111-4808-aa05-6c32e1a70e0b",
@@ -997,8 +995,8 @@
       "actual": [
         {
           "id": "d80a6e74-ca65-58af-a6dc-94a41fc5ccb6",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -1008,10 +1006,9 @@
         }
       ],
       "differences": [
-        "offer_disposition",
         "date_pattern"
       ],
-      "explanation": "Food fair/bazaar directory children do not establish promotional benefits. Event dates remain source text; no promotion validity is inferred."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original event child has venue/event wording and inline dates. Retain for content review; current extractor cannot isolate redemption merchant or safely parse this inline period."
     },
     {
       "candidateId": "7d890419-665a-42f3-b6df-f96563aa6049",
@@ -1027,8 +1024,8 @@
       "actual": [
         {
           "id": "6c9c9cda-245b-5b39-a973-b5d2602d2482",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -1038,10 +1035,9 @@
         }
       ],
       "differences": [
-        "offer_disposition",
         "date_pattern"
       ],
-      "explanation": "Food fair/bazaar directory children do not establish promotional benefits. Event dates remain source text; no promotion validity is inferred."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original event child has venue/event wording and inline dates. Retain for content review; current extractor cannot isolate redemption merchant or safely parse this inline period."
     },
     {
       "candidateId": "4d85a739-ca4c-4df0-8d9c-8e315258016f",
@@ -1057,8 +1053,8 @@
       "actual": [
         {
           "id": "7c71d767-7624-5961-ab0c-27b32c318f93",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -1068,10 +1064,9 @@
         }
       ],
       "differences": [
-        "offer_disposition",
         "date_pattern"
       ],
-      "explanation": "Food fair/bazaar directory children do not establish promotional benefits. Event dates remain source text; no promotion validity is inferred."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original event child has venue/event wording and inline dates. Retain for content review; current extractor cannot isolate redemption merchant or safely parse this inline period."
     },
     {
       "candidateId": "5fa9d9b5-4db5-4ea4-b577-f0a0b17d900a",
@@ -1087,8 +1082,8 @@
       "actual": [
         {
           "id": "cd905a2b-cc88-5c87-a882-55b2708b523f",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -1098,10 +1093,9 @@
         }
       ],
       "differences": [
-        "offer_disposition",
         "date_pattern"
       ],
-      "explanation": "Food fair/bazaar directory children do not establish promotional benefits. Event dates remain source text; no promotion validity is inferred."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original event child has venue/event wording and inline dates. Retain for content review; current extractor cannot isolate redemption merchant or safely parse this inline period."
     },
     {
       "candidateId": "9f2da621-11f9-415a-8696-059421684fdc",
@@ -1117,8 +1111,8 @@
       "actual": [
         {
           "id": "7de120dc-578c-518a-a5e9-a26341e776a0",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -1128,10 +1122,9 @@
         }
       ],
       "differences": [
-        "offer_disposition",
         "date_pattern"
       ],
-      "explanation": "Food fair/bazaar directory children do not establish promotional benefits. Event dates remain source text; no promotion validity is inferred."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original event child has venue/event wording and inline dates. Retain for content review; current extractor cannot isolate redemption merchant or safely parse this inline period."
     },
     {
       "candidateId": "bccb64d8-d759-4969-846f-2e0f668e7cfe",
@@ -1147,8 +1140,8 @@
       "actual": [
         {
           "id": "387ee731-ebab-5f5b-ac90-0e8ec1bc86a0",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "explicit_range",
           "startDate": null,
           "endDate": null,
@@ -1157,10 +1150,8 @@
           "title": "GBTB Mid-Autumn Food Festival (12 - 27 Sep)"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Food fair/bazaar directory children do not establish promotional benefits. Event dates remain source text; no promotion validity is inferred."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original event child has venue/event wording and inline dates. Retain for content review; current extractor cannot isolate redemption merchant or safely parse this inline period."
     },
     {
       "candidateId": "5964ce1a-af02-47e1-9545-89fb3228341a",
@@ -1311,8 +1302,8 @@
       "actual": [
         {
           "id": "66a321c5-9127-56f5-a91e-1a40b0b81f20",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -1322,7 +1313,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source explicitly names Shin Katsu and the proposition “Welcome to a katsu experience straight out of Japan, now located in the CBD”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
     },
     {
       "candidateId": "227f8cd5-eef7-4eca-8700-8845b100d844",
@@ -1338,18 +1329,18 @@
       "actual": [
         {
           "id": "d48eceda-1ced-55b7-a057-a42dee2d0960",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "now_to_date",
           "startDate": "2026-09-04",
           "endDate": "2026-12-19",
           "outletScope": "unspecified",
           "merchant": "",
-          "title": ""
+          "title": "DBS PayLah! $3 Cashback at Hawkers is back"
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. DBS PayLah cashback is a merchant-network campaign, not an offer at DBS bank branches. Retain source heading and bounded dates; redemption-merchant ownership needs review."
     },
     {
       "candidateId": "8994ad45-4dfe-426c-9c3c-17e14f4984b7",
@@ -1392,8 +1383,8 @@
       "actual": [
         {
           "id": "17922e7d-285e-573d-afc3-be1de5e00cb9",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -1403,7 +1394,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source explicitly names Next Door Spanish Cafe and the proposition “Who needs to fly to Spain when Spain is next door? Try authentic & traditional Spanish food”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
     },
     {
       "candidateId": "fd6c628b-31a4-4f4a-8797-e47c2a1160a0",
@@ -1536,8 +1527,8 @@
       "actual": [
         {
           "id": "f8c8e623-3c7f-58f5-a4f6-2eb560e160dc",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -1547,7 +1538,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source explicitly names Cavern Restaurant and the proposition “Singapore’s only cave restaurant is celebrating its first anniversary with a refreshed menu”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
     },
     {
       "candidateId": "54a3d998-4bfc-4ad9-9154-9a87f3e79528",
@@ -1563,8 +1554,8 @@
       "actual": [
         {
           "id": "bdc9aa4f-ed5e-5bdc-a7b1-951fbb5bd265",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -1573,10 +1564,8 @@
           "title": "Tai Seng - Paya Lebar"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Geographic guide links are non-offers. Original tenth section is retained separately even though the benchmark merged it."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source promotes neighbourhood groups. Each child is a geographic group label and link, not a merchant identity; preserve every child for content review, including the tenth original section."
     },
     {
       "candidateId": "a61d2f2a-2a19-438a-842b-0fd6931b08ab",
@@ -1592,8 +1581,8 @@
       "actual": [
         {
           "id": "c35cea11-a53d-5fce-a771-93b7f9a610a6",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -1602,10 +1591,8 @@
           "title": "Marine Parade - East Coast"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Geographic guide links are non-offers. Original tenth section is retained separately even though the benchmark merged it."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source promotes neighbourhood groups. Each child is a geographic group label and link, not a merchant identity; preserve every child for content review, including the tenth original section."
     },
     {
       "candidateId": "c4b0f097-08dc-4475-877a-ca913340b8b0",
@@ -1621,8 +1608,8 @@
       "actual": [
         {
           "id": "9f23b919-c2f2-50ac-aeee-fc609581f246",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -1631,10 +1618,8 @@
           "title": "Punggol - Serangoon"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Geographic guide links are non-offers. Original tenth section is retained separately even though the benchmark merged it."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source promotes neighbourhood groups. Each child is a geographic group label and link, not a merchant identity; preserve every child for content review, including the tenth original section."
     },
     {
       "candidateId": "983ad689-f8e2-4540-8100-5e3e338fab68",
@@ -1650,8 +1635,8 @@
       "actual": [
         {
           "id": "a251e440-1d01-55ac-a7e4-e86b19ad299e",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -1660,10 +1645,8 @@
           "title": "Tengah - Jurong"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Geographic guide links are non-offers. Original tenth section is retained separately even though the benchmark merged it."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source promotes neighbourhood groups. Each child is a geographic group label and link, not a merchant identity; preserve every child for content review, including the tenth original section."
     },
     {
       "candidateId": "ddf96ef6-a1d5-465b-8821-42b2dbcb309e",
@@ -1679,8 +1662,8 @@
       "actual": [
         {
           "id": "8b88cba3-7314-54e3-a22b-313838f31e94",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -1689,10 +1672,8 @@
           "title": "Clementi - Redhill"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Geographic guide links are non-offers. Original tenth section is retained separately even though the benchmark merged it."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source promotes neighbourhood groups. Each child is a geographic group label and link, not a merchant identity; preserve every child for content review, including the tenth original section."
     },
     {
       "candidateId": "04bfd649-e132-498b-9048-f0f92df1a1c6",
@@ -1708,8 +1689,8 @@
       "actual": [
         {
           "id": "7637745d-9879-5c17-a6e2-a1b0f7a87a9d",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -1718,10 +1699,8 @@
           "title": "Woodlands - Sembawang"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Geographic guide links are non-offers. Original tenth section is retained separately even though the benchmark merged it."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source promotes neighbourhood groups. Each child is a geographic group label and link, not a merchant identity; preserve every child for content review, including the tenth original section."
     },
     {
       "candidateId": "51043d49-55ed-4b30-98a2-61667dbdb163",
@@ -1737,8 +1716,8 @@
       "actual": [
         {
           "id": "6065be9d-e369-5162-abe6-58ab2c5258be",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -1747,10 +1726,8 @@
           "title": "Farrer Park - Boon Keng"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Geographic guide links are non-offers. Original tenth section is retained separately even though the benchmark merged it."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source promotes neighbourhood groups. Each child is a geographic group label and link, not a merchant identity; preserve every child for content review, including the tenth original section."
     },
     {
       "candidateId": "8f6ca5f0-7387-4ed7-9b8b-c3cac08a89a0",
@@ -1766,8 +1743,8 @@
       "actual": [
         {
           "id": "9fe59a2c-e0ad-5840-a3b4-ab29b0baa489",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -1776,10 +1753,8 @@
           "title": "Bishan - Toa Payoh"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Geographic guide links are non-offers. Original tenth section is retained separately even though the benchmark merged it."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source promotes neighbourhood groups. Each child is a geographic group label and link, not a merchant identity; preserve every child for content review, including the tenth original section."
     },
     {
       "candidateId": "1835c130-c30c-4810-9616-0ee6c7789b4c",
@@ -1795,8 +1770,8 @@
       "actual": [
         {
           "id": "116ca8f6-dba6-5fb5-af9d-4c0514db250e",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -1805,10 +1780,8 @@
           "title": "Holland Village - Bukit Panjang"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Geographic guide links are non-offers. Original tenth section is retained separately even though the benchmark merged it."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source promotes neighbourhood groups. Each child is a geographic group label and link, not a merchant identity; preserve every child for content review, including the tenth original section."
     },
     {
       "candidateId": "03f444f8-8e6b-463a-9046-c697cefe6701",
@@ -1824,8 +1797,8 @@
       "actual": [
         {
           "id": "ad899e5a-15a8-55ba-af09-0a036de34779",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "now_to_date",
           "startDate": null,
           "endDate": null,
@@ -1837,7 +1810,7 @@
       "differences": [
         "date_pattern"
       ],
-      "explanation": "Now-to-unspecified-end is recognized as a now-to pattern but still has no complete validity. Launch remains excluded."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source explicitly names Pepper Lunch and the proposition “Fan-favourite Cheesy Omelette RETURNS”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
     },
     {
       "candidateId": "6089ff84-8ca2-4a52-94ae-2eedfb559977",
@@ -1890,10 +1863,8 @@
           "title": "$3 Brekkie Burrito (U.P. $7)"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "$3 versus U.P. $7 explicitly establishes a benefit; this is a genuine single-day promotion, not ordinary menu."
+      "differences": [],
+      "explanation": "Historical offerStructure is descriptive only; source-owned merchant/title, dates, splitting and outlet scope are unchanged from prior source review."
     },
     {
       "candidateId": "8824bdb8-e89e-432a-9cde-b1028dc4d10d",
@@ -1909,8 +1880,8 @@
       "actual": [
         {
           "id": "5fec663e-1730-5c98-aa07-486ab7fc0ea0",
-          "status": "needs_content_resolution",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "explicit_range",
           "startDate": null,
           "endDate": null,
@@ -1920,7 +1891,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original headline gives steak promos from 1 to 5 September 2026 at The Capitol and Bari Bari Grand. Retain proposition; existing date parser does not support this prose date construction, so validity remains unresolved rather than invented."
     },
     {
       "candidateId": "8ba3a2b4-62a3-470f-bb0f-6ab040b80b3f",
@@ -1936,20 +1907,18 @@
       "actual": [
         {
           "id": "11bbba95-7a03-5999-abea-e0486c1a1de8",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
           "outletScope": "online_only",
           "merchant": "foodpanda",
-          "title": "tco.sg/wLGghSyXz (http://tco.sg/wLGghSyXz)"
+          "title": ""
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Food delivery promo-code links are online-only; no physical map pins."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Food Delivery Promo Codes parent contains foodpanda and GrabFood children with only shortlinks. Retain both online-only; specific offer propositions and validity require content resolution, never physical pins."
     },
     {
       "candidateId": "f15c4df0-d8fe-4eea-b074-a7a45df10a38",
@@ -1965,20 +1934,18 @@
       "actual": [
         {
           "id": "6ca12cfc-6d2a-534b-a87c-0c05eb28a2d3",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
           "outletScope": "online_only",
           "merchant": "GrabFood",
-          "title": "tco.sg/iyavqV2Yp (http://tco.sg/iyavqV2Yp)"
+          "title": ""
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Food delivery promo-code links are online-only; no physical map pins."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Food Delivery Promo Codes parent contains foodpanda and GrabFood children with only shortlinks. Retain both online-only; specific offer propositions and validity require content resolution, never physical pins."
     },
     {
       "candidateId": "d2787696-c507-4835-b3f3-bb485e8247c8",
@@ -2021,20 +1988,18 @@
       "actual": [
         {
           "id": "697b1e55-4a67-5519-a7ca-c274bbce89ed",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
           "outletScope": "unspecified",
           "merchant": "",
-          "title": ""
+          "title": "Join SG Budget Babes for Cute Activities & Shopping Deals"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Channel shoutout is a non-offer."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Channel invitation contains no specific merchant-owned offer. Retain original heading for content review."
     },
     {
       "candidateId": "d675131a-734f-4580-a8c4-0fc91000f09d",
@@ -2050,8 +2015,8 @@
       "actual": [
         {
           "id": "690b3fb6-aa77-5a1c-a4c0-ccc3a2e3336e",
-          "status": "exclude",
-          "genuine": false,
+          "status": "location_candidate",
+          "genuine": true,
           "datePattern": "now_to_date",
           "startDate": "2026-09-01",
           "endDate": "2026-09-30",
@@ -2061,7 +2026,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source explicitly names Coffeehouse by Kobashi and the proposition “NEW takeover sourdough flavours”. Curated launch, collaboration or editorial wording does not remove the offer. Source period is complete; offline Google query has no accepted cached location, so location remains unresolved."
     },
     {
       "candidateId": "10ea2f04-920f-4f2d-9473-f9709c6553fd",
@@ -2077,8 +2042,8 @@
       "actual": [
         {
           "id": "ba7f9e42-0aca-597b-ac34-ebd65bea9534",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -2088,7 +2053,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source explicitly names Fangko House and the proposition “Explore bold Indonesian flavours with a modern twist at this cafe near Boat Quay”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
     },
     {
       "candidateId": "67b0a0e9-d609-416d-bc87-829f61f52f99",
@@ -2336,13 +2301,13 @@
         {
           "id": "75b2e30d-30ee-5045-abb2-716f1c17f8d1",
           "status": "needs_content_resolution",
-          "genuine": false,
+          "genuine": true,
           "datePattern": "explicit_range",
           "startDate": "2026-08-27",
           "endDate": "2026-08-30",
           "outletScope": "named_outlets",
           "merchant": "",
-          "title": " — Roadshow"
+          "title": "BRAND’S Ginseng Essence Honey Jelly Strip now at just $2 per strip"
         },
         {
           "id": "1a51e784-f95b-5537-a866-5907bf01aa64",
@@ -2353,14 +2318,14 @@
           "endDate": "2026-09-30",
           "outletScope": "named_outlets",
           "merchant": "",
-          "title": " — $2 Deal"
+          "title": "BRAND’S Ginseng Essence Honey Jelly Strip now at just $2 per strip"
         }
       ],
       "differences": [
         "date_pattern",
         "outlet_scope"
       ],
-      "explanation": "Roadshow and $2 Deal have separately labelled periods. Labels identify activities/products, not verified merchants; content resolution remains required."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. BRAND’S product has separately labelled Roadshow and $2 Deal periods. Preserve both owned windows; merchant/redemption ownership extraction remains incomplete, with no invented location. BRAND’S product has separately labelled Roadshow and $2 Deal periods. Preserve both owned windows; merchant/redemption ownership extraction remains incomplete, with no invented location."
     },
     {
       "candidateId": "7dfd7be1-6c2c-40c7-b923-ee8cdc4c6a0b",
@@ -2376,8 +2341,8 @@
       "actual": [
         {
           "id": "e48c6bee-4565-5da9-af09-82a8b1e7fcbb",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -2387,7 +2352,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source explicitly names More Yogurt and the proposition “Your next yogurt spot is now open in Jewel & Waterway Point”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
     },
     {
       "candidateId": "bc3ae5ef-7ca1-4386-9ee6-0a7534e848a0",
@@ -2403,7 +2368,7 @@
       "actual": [
         {
           "id": "cc744fc3-fd57-5b05-a70e-e12e1caba3ca",
-          "status": "exclude",
+          "status": "needs_validity",
           "genuine": true,
           "datePattern": "none",
           "startDate": null,
@@ -2414,7 +2379,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Omuplace owns the from-$3.90 proposition. Article wording does not negate curated inclusion; no bounded validity is stated."
     },
     {
       "candidateId": "449ae825-b6cc-44af-9c44-f1d9893295b8",
@@ -2540,8 +2505,8 @@
       "actual": [
         {
           "id": "1945ad94-eaad-5047-ae20-46cd648e7e81",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -2551,7 +2516,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source explicitly names Casa Lola and the proposition “Step into a Barcelona-inspired bodega where authentic Spanish flavours, grandma’s cooking, and cosy neighbourhood vibes collide”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
     },
     {
       "candidateId": "ac91a621-5743-478a-aa2f-4b543a818a7d",
@@ -2730,8 +2695,8 @@
       "actual": [
         {
           "id": "c0c899da-4767-577e-a8af-58a85795fbc6",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "now_to_date",
           "startDate": null,
           "endDate": null,
@@ -2741,7 +2706,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source explicitly names 7-Eleven and the proposition “NEW Onigiri Ice Cream”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
     },
     {
       "candidateId": "c7d07fc5-4928-4b8e-b7e4-037d7549e522",
@@ -2758,17 +2723,17 @@
         {
           "id": "8dc6284c-6b2f-5157-a4d3-2640f1544963",
           "status": "needs_content_resolution",
-          "genuine": false,
+          "genuine": true,
           "datePattern": "recurring",
           "startDate": null,
           "endDate": null,
           "outletScope": "named_outlets",
           "merchant": "",
-          "title": ""
+          "title": "$35 Unlimited Aus Angus Steak & Fries"
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original priced steak offer omits merchant identity. Address alone cannot establish a merchant; content review remains required."
     },
     {
       "candidateId": "af68f283-4d23-41da-b4b6-0947f00ad471",
@@ -2784,8 +2749,8 @@
       "actual": [
         {
           "id": "a0b87f2c-2c53-5ca9-afb0-e051ffadc6dc",
-          "status": "exclude",
-          "genuine": false,
+          "status": "location_candidate",
+          "genuine": true,
           "datePattern": "now_to_date",
           "startDate": "2026-08-26",
           "endDate": "2026-09-10",
@@ -2794,10 +2759,8 @@
           "title": "Popular coffee & South Korean American-style soft cookie brand pop-up in SG"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Pop-up product introduction establishes no promotional benefit; exclude rather than treating unclear_offer as genuine."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source explicitly names Zapangi Coffee and the proposition “Popular coffee & South Korean American-style soft cookie brand pop-up in SG”. Curated launch, collaboration or editorial wording does not remove the offer. Source period is complete; offline Google query has no accepted cached location, so location remains unresolved."
     },
     {
       "candidateId": "3f8a72e2-541d-4892-bf71-7c99ffd02380",
@@ -3035,8 +2998,8 @@
       "actual": [
         {
           "id": "be4db358-1254-5f8e-a435-aeed06e86414",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -3046,7 +3009,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source explicitly names Sushidan and the proposition “NEW outlet opening at Parkway Parade”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
     },
     {
       "candidateId": "0aa1ed7e-513c-401a-b2ae-c8693b1b331a",
@@ -3180,8 +3143,8 @@
       "actual": [
         {
           "id": "5b356d33-5ff1-5670-aace-791ea58dd8fd",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -3191,7 +3154,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source explicitly names Spicy Noodles SG and the proposition “Taiwan-famous noodles store expands its menu with Singapore-exclusive Chicken Soup”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
     },
     {
       "candidateId": "e988b525-e12a-4c10-aedf-98596b69f3f9",
@@ -3317,8 +3280,8 @@
       "actual": [
         {
           "id": "bf414121-9361-5bd6-ab4e-8ddc3110f876",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -3328,7 +3291,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source explicitly names San Shu Gong and the proposition “Discover the best of Teochew and Cantonese cuisine at New Bahru”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
     },
     {
       "candidateId": "47120939-156b-4a72-b68d-101ecab82e72",
@@ -3344,8 +3307,8 @@
       "actual": [
         {
           "id": "16618dd9-baee-5dc5-a4ab-498bfd885187",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "now_to_date",
           "startDate": null,
           "endDate": null,
@@ -3357,7 +3320,7 @@
       "differences": [
         "date_pattern"
       ],
-      "explanation": "Now-to-unspecified-end remains incomplete validity, not a fabricated end. Launch is excluded."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source explicitly names Potato Corner and the proposition “NEW limited Chicken Satay Flavour”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
     },
     {
       "candidateId": "8931316d-02ca-4a6b-ad55-92ff94ca72db",
@@ -3427,8 +3390,8 @@
       "actual": [
         {
           "id": "96dd28ff-0b57-5b98-a14e-c82aaf6b2207",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -3438,7 +3401,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source explicitly names Park Side and the proposition “A new all-day cafe at Singapore Botanic Gardens with creative brunch, coffee, desserts, and pet-friendly dining”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
     },
     {
       "candidateId": "fcb3b89c-3f35-4061-9f5b-52353aca1594",
@@ -3481,8 +3444,8 @@
       "actual": [
         {
           "id": "ce678cf7-e97a-53ba-af36-e138b4be89b2",
-          "status": "exclude",
-          "genuine": false,
+          "status": "location_candidate",
+          "genuine": true,
           "datePattern": "explicit_range",
           "startDate": "2026-08-20",
           "endDate": "2026-08-23",
@@ -3492,7 +3455,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source explicitly names IKEA and the proposition “NEW Swedish Meatball Ice-Cream”. Curated launch, collaboration or editorial wording does not remove the offer. Source period is complete; offline Google query has no accepted cached location, so location remains unresolved."
     },
     {
       "candidateId": "6fadd6cc-a819-4f7e-a117-21d71f2f01bf",
@@ -3535,8 +3498,8 @@
       "actual": [
         {
           "id": "d01a2c98-3d71-5947-a3e3-d5810ca21d8d",
-          "status": "exclude",
-          "genuine": false,
+          "status": "location_candidate",
+          "genuine": true,
           "datePattern": "now_to_date",
           "startDate": "2026-08-19",
           "endDate": "2026-09-29",
@@ -3546,7 +3509,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source explicitly names KFC and the proposition “NEW menu ft. Japanese Nanban Zinger, Chicken Bites, Loaded Fries & Sweet Potato Mochi Balls”. Curated launch, collaboration or editorial wording does not remove the offer. Source period is complete; offline Google query has no accepted cached location, so location remains unresolved."
     },
     {
       "candidateId": "bef67874-81c0-4842-bb54-3fec6ade7c51",
@@ -3589,8 +3552,8 @@
       "actual": [
         {
           "id": "49d450df-ae6a-5bcb-a02c-e014edbc4693",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -3600,7 +3563,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source explicitly names BlackTree and the proposition “China’s buzziest Thai Milk Tea brand lands its first outlet in Singapore at 313@somerset”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
     },
     {
       "candidateId": "60c60e9b-32f8-49cd-9d48-1293241500ae",
@@ -3643,8 +3606,8 @@
       "actual": [
         {
           "id": "6105b90d-dd9a-55d2-a8fb-b0166651771a",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "unknown_expiry",
           "startDate": null,
           "endDate": null,
@@ -3654,7 +3617,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source explicitly names McDonald’s and the proposition “Returning items incl. Samurai Beef Burger, Samurai Chicken Burger, Tamago Samurai Burger (Beef / Chicken) & Seaweed McShaker Fries”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
     },
     {
       "candidateId": "49333065-b4c7-440d-80be-1c14f470264e",
@@ -3725,17 +3688,17 @@
         {
           "id": "874236b7-bf42-58be-a593-169e3ccbc500",
           "status": "needs_content_resolution",
-          "genuine": false,
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
           "outletScope": "unspecified",
           "merchant": "",
-          "title": "manual review required.]"
+          "title": ""
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Source consists solely of the explicit unsupported/empty-post marker. Merchant, title and proposition remain empty and the original marker is preserved in description."
     },
     {
       "candidateId": "4e023072-439c-4e67-a6c3-bafd3706f4d5",
@@ -3751,8 +3714,8 @@
       "actual": [
         {
           "id": "67355008-9aa3-562d-af47-b07a64144b6e",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -3762,7 +3725,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source explicitly names Chin Mee Chin and the proposition “101-year-old coffeeshop & heritage bakery with classic breakfast sets, Nasi Lemak, Smashed Chicken Sandwiches, and Cloud Kopi”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
     },
     {
       "candidateId": "4a709fcd-7018-48d7-a2ec-1c5e4097029e",
@@ -3832,20 +3795,18 @@
       "actual": [
         {
           "id": "9c3083d2-4d87-5ce6-a4cf-b50726a6b25c",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
           "outletScope": "unspecified",
           "merchant": "",
-          "title": ""
+          "title": "Mixed Rice Personality Quiz"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Personality quiz is a non-offer, despite the historical single-promotion label."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Quiz promotion gives no merchant or redemption proposition. Preserve source as content-review record."
     },
     {
       "candidateId": "2d65e39d-8132-450a-b5a4-2a27d0bbd01b",
@@ -3915,8 +3876,8 @@
       "actual": [
         {
           "id": "6b99ec07-b6a0-5e23-abac-bd6f00729dbf",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -3926,7 +3887,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source explicitly names POUT Rooftop Cafe and the proposition “A hidden rooftop café in Singapore's CBD with skyline views, speciality coffee, artisanal French bakes and creative matcha drinks”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
     },
     {
       "candidateId": "4c3b1815-5687-4f79-b20f-b329cf8a455c",
@@ -3942,8 +3903,8 @@
       "actual": [
         {
           "id": "513c40d7-9ca9-5ffb-a1b2-fd63ee418949",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "explicit_range",
           "startDate": null,
           "endDate": null,
@@ -3952,10 +3913,8 @@
           "title": "Celebfest Food Festival (21 - 23 Aug)"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Food fair/festival directory children do not establish promotional benefits. Dates embedded in event recommendations do not certify promotion validity."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original roundup child names an event and a parenthesized period. Retain event proposition; merchant ownership and the unsupported inline validity structure remain for review. No expiry is invented."
     },
     {
       "candidateId": "7ba2ae2b-847a-4ad5-af38-4a502bcdab09",
@@ -3971,8 +3930,8 @@
       "actual": [
         {
           "id": "fbb7927c-367d-5fc8-aa72-7e8d929a50d4",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -3982,10 +3941,9 @@
         }
       ],
       "differences": [
-        "offer_disposition",
         "date_pattern"
       ],
-      "explanation": "Food fair/festival directory children do not establish promotional benefits. Dates embedded in event recommendations do not certify promotion validity."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original roundup child names an event and a parenthesized period. Retain event proposition; merchant ownership and the unsupported inline validity structure remain for review. No expiry is invented."
     },
     {
       "candidateId": "bf6d75cb-d245-48ac-ba44-ffa0e55f648a",
@@ -4001,8 +3959,8 @@
       "actual": [
         {
           "id": "0491417a-92d0-5c7b-a1cc-47f5cee368a1",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -4012,10 +3970,9 @@
         }
       ],
       "differences": [
-        "offer_disposition",
         "date_pattern"
       ],
-      "explanation": "Food fair/festival directory children do not establish promotional benefits. Dates embedded in event recommendations do not certify promotion validity."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original roundup child names an event and a parenthesized period. Retain event proposition; merchant ownership and the unsupported inline validity structure remain for review. No expiry is invented."
     },
     {
       "candidateId": "5b2eec3b-4946-4fd6-864c-5e7ce221a0d2",
@@ -4031,8 +3988,8 @@
       "actual": [
         {
           "id": "cc56581e-177c-543d-a10a-01116c44f74f",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -4042,10 +3999,9 @@
         }
       ],
       "differences": [
-        "offer_disposition",
         "date_pattern"
       ],
-      "explanation": "Food fair/festival directory children do not establish promotional benefits. Dates embedded in event recommendations do not certify promotion validity."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original roundup child names an event and a parenthesized period. Retain event proposition; merchant ownership and the unsupported inline validity structure remain for review. No expiry is invented."
     },
     {
       "candidateId": "ab3612a3-3ff3-4519-85a7-14ee737064a4",
@@ -4061,8 +4017,8 @@
       "actual": [
         {
           "id": "bdd48f65-6e46-5c6a-a4ad-20b3903d856d",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -4072,10 +4028,9 @@
         }
       ],
       "differences": [
-        "offer_disposition",
         "date_pattern"
       ],
-      "explanation": "Food fair/festival directory children do not establish promotional benefits. Dates embedded in event recommendations do not certify promotion validity."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original roundup child names an event and a parenthesized period. Retain event proposition; merchant ownership and the unsupported inline validity structure remain for review. No expiry is invented."
     },
     {
       "candidateId": "aa4eabc5-dbb3-4889-8aad-b75fc7d776be",
@@ -4091,8 +4046,8 @@
       "actual": [
         {
           "id": "629350a3-1a4f-5846-a59e-c1d15d5200dc",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "explicit_range",
           "startDate": null,
           "endDate": null,
@@ -4101,10 +4056,8 @@
           "title": "APAC F&B Expo (21 - 23 Aug)"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Food fair/festival directory children do not establish promotional benefits. Dates embedded in event recommendations do not certify promotion validity."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original roundup child names an event and a parenthesized period. Retain event proposition; merchant ownership and the unsupported inline validity structure remain for review. No expiry is invented."
     },
     {
       "candidateId": "57272908-ceee-4144-9a39-53847ddd864a",
@@ -4120,8 +4073,8 @@
       "actual": [
         {
           "id": "4da6daaf-e489-5303-aa53-4b2f05ae3ac1",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "unknown_expiry",
           "startDate": null,
           "endDate": null,
@@ -4131,7 +4084,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source explicitly names Starbucks and the proposition “NEW Unicorn Frappucino”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
     },
     {
       "candidateId": "248b41c6-f14c-4f43-8230-1aca0bd150ae",
@@ -4199,10 +4152,8 @@
           "title": "$1.90++ Salmon Belly Sushi (U.P. $2.30++)"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "A stated promotional benefit takes precedence over the benchmark launch/menu label; preserve source date range."
+      "differences": [],
+      "explanation": "Historical offerStructure is descriptive only; source-owned merchant/title, dates, splitting and outlet scope are unchanged from prior source review."
     },
     {
       "candidateId": "bbddbf85-3514-4beb-a028-30b025e0bc6e",
@@ -4353,8 +4304,8 @@
       "actual": [
         {
           "id": "915bbc3b-0775-5792-a831-3054ec3917a2",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -4364,7 +4315,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source explicitly names NomNom JB and the proposition “🇹🇭 Craving authentic Thai food? This Thai restaurant in Johor Bahru has got you covered”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
     },
     {
       "candidateId": "f5c6b926-b8eb-4e5f-9bbf-059db7bb4466",
@@ -4448,20 +4399,18 @@
       "actual": [
         {
           "id": "5637306f-5e37-5389-aa72-cf688debaf33",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "now_to_date",
           "startDate": "2026-08-13",
           "endDate": "2026-08-30",
           "outletScope": "unspecified",
           "merchant": "",
-          "title": ""
+          "title": "Dine for Good at Marina Bay Sands this Aug"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Charity dining article describes signature dishes, not an established promotional benefit."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Charity campaign names Marina Bay Sands and multiple restaurants, with Now till 30 Aug. Retain the campaign; single merchant ownership remains unresolved rather than substituting a bank/venue location for participating restaurants."
     },
     {
       "candidateId": "be833434-453b-4957-9a48-edde107a2646",
@@ -4504,8 +4453,8 @@
       "actual": [
         {
           "id": "2d18a973-6f62-5917-a100-120127021fab",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -4514,10 +4463,8 @@
           "title": "$9 Western Lunch Set"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Lunch menu price recommendations have no established promotional benefit; ordinary menu is excluded."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Each named merchant owns its priced lunch proposition. No campaign dates appear in the original roundup; retain with unknown validity."
     },
     {
       "candidateId": "9a24b58b-bc32-4e93-ba02-e4af7e41416b",
@@ -4533,8 +4480,8 @@
       "actual": [
         {
           "id": "c8669045-cdc4-50f1-ad7e-b1227a904ebe",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -4543,10 +4490,8 @@
           "title": "$9.90 Hotpot Meal"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Lunch menu price recommendations have no established promotional benefit; ordinary menu is excluded."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Each named merchant owns its priced lunch proposition. No campaign dates appear in the original roundup; retain with unknown validity."
     },
     {
       "candidateId": "80d10092-3122-4e8e-a13b-d83c6626f633",
@@ -4562,8 +4507,8 @@
       "actual": [
         {
           "id": "38e1b1fe-2879-5417-ae12-2f86d3211969",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -4572,10 +4517,8 @@
           "title": "$9.90 Lunch Combo"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Lunch menu price recommendations have no established promotional benefit; ordinary menu is excluded."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Each named merchant owns its priced lunch proposition. No campaign dates appear in the original roundup; retain with unknown validity."
     },
     {
       "candidateId": "430b3b51-f721-4b7c-ac73-b641773ad9eb",
@@ -4591,8 +4534,8 @@
       "actual": [
         {
           "id": "4129ea5d-c833-5669-a295-2c1716f55211",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -4601,10 +4544,8 @@
           "title": "Lunch Set from $9.90"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Lunch menu price recommendations have no established promotional benefit; ordinary menu is excluded."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Each named merchant owns its priced lunch proposition. No campaign dates appear in the original roundup; retain with unknown validity."
     },
     {
       "candidateId": "2255d037-8122-4714-9140-7eeed6e04096",
@@ -4620,8 +4561,8 @@
       "actual": [
         {
           "id": "05f5126c-a2d5-57a6-adbe-c186640b7f7d",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -4630,10 +4571,8 @@
           "title": "$8.80 Rice Bowl"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Lunch menu price recommendations have no established promotional benefit; ordinary menu is excluded."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Each named merchant owns its priced lunch proposition. No campaign dates appear in the original roundup; retain with unknown validity."
     },
     {
       "candidateId": "772a3800-1d67-4dda-9b9b-2442241b36eb",
@@ -4649,8 +4588,8 @@
       "actual": [
         {
           "id": "fd68df43-ae56-52c2-a0d0-2ed82b21aea1",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -4660,7 +4599,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source explicitly names Bottega JB and the proposition “🇮🇹 Feel like having Italian food without a flight to Rome? Check out this restaurant just across the border”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
     },
     {
       "candidateId": "bf619172-5bef-47a9-a004-e97a3f8f964e",
@@ -4703,20 +4642,18 @@
       "actual": [
         {
           "id": "f763a80f-f5ff-5880-ad88-695ca5c44cad",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
           "outletScope": "unspecified",
           "merchant": "",
-          "title": ""
+          "title": "Introducing SG Nightlife & Bars Telegram Channel"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Telegram channel announcement is a non-offer."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Channel promotion has no redemption merchant or offer details. Preserve its heading for content review."
     },
     {
       "candidateId": "ce65759b-5f13-4390-8d4b-29b728b0830c",
@@ -4732,8 +4669,8 @@
       "actual": [
         {
           "id": "39b3760c-ac54-591b-aa20-12a55d1e9882",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "now_to_date",
           "startDate": null,
           "endDate": null,
@@ -4743,7 +4680,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source explicitly names AFTER HOURS and the proposition “NEW Nostalgia series”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
     },
     {
       "candidateId": "2c619fc2-4ba2-4561-865e-2b047307a63f",
@@ -4759,8 +4696,8 @@
       "actual": [
         {
           "id": "1cc32fdf-c2c1-5344-a683-571d0c6fe11f",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -4770,7 +4707,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source explicitly names Lao Beijing and the proposition “Feast like an emperor with this Ultimate Indulgence Set”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
     },
     {
       "candidateId": "b3b5a294-87d4-4865-a9d6-9781d4016d1d",
@@ -4813,8 +4750,8 @@
       "actual": [
         {
           "id": "cdb71103-2a80-594f-a9b3-e9744e696386",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -4824,7 +4761,7 @@
         }
       ],
       "differences": [],
-      "explanation": "Source-owned content, date pattern and scope agree with the benchmark."
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original source explicitly names Tofu G and the proposition “NEW Butter Tteok”. Curated launch, collaboration or editorial wording does not remove the offer. No safely resolved bounded campaign period; retain needs_validity."
     },
     {
       "candidateId": "fecb4be9-1b8a-4c99-a6f5-e2e4248861c1",
@@ -4840,8 +4777,8 @@
       "actual": [
         {
           "id": "da48cc8e-5233-528c-a763-60a5efae344e",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -4850,10 +4787,8 @@
           "title": "$6.50 Fried Chicken Rice"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Roundup lists ordinary dish prices without established benefit or merchant identity. Excluded as menu recommendations."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Owned child states a dish price but provides only a shortlink, with no merchant identity or bounded validity. Preserve the priced proposition for content review; do not guess the linked merchant."
     },
     {
       "candidateId": "1b13cdbb-6331-495f-a64d-1e0e79dbd35c",
@@ -4869,8 +4804,8 @@
       "actual": [
         {
           "id": "7f205b4c-889b-5d32-a9a9-52f4bfce7af4",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -4879,10 +4814,8 @@
           "title": "$8.50 Tom Yum Noodle Soup"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Roundup lists ordinary dish prices without established benefit or merchant identity. Excluded as menu recommendations."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Owned child states a dish price but provides only a shortlink, with no merchant identity or bounded validity. Preserve the priced proposition for content review; do not guess the linked merchant."
     },
     {
       "candidateId": "fb018aab-bab0-44ef-a8f5-86ace8a29e34",
@@ -4898,8 +4831,8 @@
       "actual": [
         {
           "id": "d21c2122-fdb0-5d96-ad63-0abb282ace25",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -4908,10 +4841,8 @@
           "title": "Pork Ribs Soup from $8.80"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Roundup lists ordinary dish prices without established benefit or merchant identity. Excluded as menu recommendations."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Owned child states a dish price but provides only a shortlink, with no merchant identity or bounded validity. Preserve the priced proposition for content review; do not guess the linked merchant."
     },
     {
       "candidateId": "1e2b0f89-7693-43fe-a7c7-1650d8dc99d5",
@@ -4927,8 +4858,8 @@
       "actual": [
         {
           "id": "e0a18fca-b2f2-58fe-a41a-702d1b9e4f06",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -4937,10 +4868,8 @@
           "title": "$10 Sliced Beef Ribeye"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Roundup lists ordinary dish prices without established benefit or merchant identity. Excluded as menu recommendations."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Owned child states a dish price but provides only a shortlink, with no merchant identity or bounded validity. Preserve the priced proposition for content review; do not guess the linked merchant."
     },
     {
       "candidateId": "41fa9e62-6321-4dc4-92c2-f2524ed38d13",
@@ -4956,8 +4885,8 @@
       "actual": [
         {
           "id": "ddd69ba4-447f-59e8-a7c2-80b962eef5a4",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
@@ -4966,10 +4895,8 @@
           "title": "$9.80 Kway Teow Soup with Beef"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Roundup lists ordinary dish prices without established benefit or merchant identity. Excluded as menu recommendations."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Owned child states a dish price but provides only a shortlink, with no merchant identity or bounded validity. Preserve the priced proposition for content review; do not guess the linked merchant."
     },
     {
       "candidateId": "e7b33e45-3f2b-45f8-b545-c55e19831432",
@@ -5095,20 +5022,18 @@
       "actual": [
         {
           "id": "bf5eaca0-1b09-5cdb-a1a3-0bb5b5fc6d47",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_content_resolution",
+          "genuine": true,
           "datePattern": "unknown_expiry",
           "startDate": null,
           "endDate": null,
           "outletScope": "online_only",
           "merchant": "",
-          "title": ""
+          "title": "Mr. Farmer 8.8 Grocery Sale from $2.80"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Online-only exclusion overrides promotion-path display; preserve source for audit."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original heading explicitly offers Mr. Farmer groceries from $2.80 online. Retained without pins; current extractor does not isolate the merchant from this unstructured heading and the source gives no expiry."
     },
     {
       "candidateId": "2f33d376-e17d-403c-b224-bacd4ae4fb24",
@@ -5180,20 +5105,18 @@
       "actual": [
         {
           "id": "17746cb8-e88e-5ed0-a976-bc17ed70374f",
-          "status": "exclude",
-          "genuine": false,
+          "status": "needs_validity",
+          "genuine": true,
           "datePattern": "none",
           "startDate": null,
           "endDate": null,
           "outletScope": "unspecified",
-          "merchant": "Pizza Hut's National Day 2026 Bundle Set",
-          "title": "$61 Never Tasted So Good"
+          "merchant": "Pizza Hut",
+          "title": "$61 Never Tasted So Good — Pizza Hut's National Day 2026 Bundle Set"
         }
       ],
-      "differences": [
-        "offer_disposition"
-      ],
-      "explanation": "Editorial bundle price alone does not establish a promotional reduction or free benefit."
+      "differences": [],
+      "explanation": "Curated inclusion supersedes historical offerStructure disposition. Original heading gives $61 and Pizza Hut’s National Day 2026 Bundle Set. Extract Pizza Hut from the possessive campaign heading and preserve the entire source heading as proposition; no dates supplied."
     },
     {
       "candidateId": "03a241e2-961c-4fb5-b9b1-f4526100aee4",

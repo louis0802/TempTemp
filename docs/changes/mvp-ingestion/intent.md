@@ -1,3 +1,5 @@
+> Historical MVP implementation record. Curated inclusion, independent status dimensions and full development preview now follow [curated MVP retention](../curated-mvp-retention/verification.md); earlier exclusion counts and ready-only preview behavior below are superseded.
+
 # MVP ingestion intent
 
 Turn the existing 136-source corpus into usable physical promotion map data. Users need genuine benefits, complete campaign validity, merchant locations and preserved restrictions. Strict publication remains a separate system. Google locations are observed merchant locations, not verified promotion participation or a complete directory. Category is not a readiness gate.
