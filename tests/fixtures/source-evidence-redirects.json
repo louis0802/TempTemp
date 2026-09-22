@@ -1,0 +1,25 @@
+{
+  "description": "Synthetic transport only; these are NOT observed real destinations or production ownership claims.",
+  "checkedAt": "2026-09-22T00:00:00.000Z",
+  "responses": {
+    "http://tco.sg/api30jmn2": {
+      "status": 302,
+      "location": "https://merchant.example/promo"
+    },
+    "http://bit.ly/4hLYxMq": {
+      "status": 301,
+      "location": "https://merchant.example/promo"
+    },
+    "https://merchant.example/promo": { "status": 200 }
+  },
+  "registry": {
+    "version": 1,
+    "merchants": {
+      "morganfield's": {
+        "primaryDomains": ["merchant.example"],
+        "primarySocialAccounts": [],
+        "secondaryDomains": []
+      }
+    }
+  }
+}

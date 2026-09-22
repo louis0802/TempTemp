@@ -28,7 +28,8 @@
     "analyze:evidence": "node --import tsx scripts/evidence-gaps.ts",
     "compare:evidence": "node --import tsx scripts/compare-provider-evidence.ts",
     "build:mvp-data": "node --import tsx --env-file-if-exists=.env.local scripts/build-mvp-data.ts",
-    "analyze:mvp": "node --import tsx scripts/mvp-conformance.ts"
+    "analyze:mvp": "node --import tsx scripts/mvp-conformance.ts",
+    "analyze:mvp-sources": "node --import tsx scripts/analyze-mvp-sources.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.116.0",

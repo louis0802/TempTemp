@@ -1,0 +1,12 @@
+# Specification
+
+1. Each parsed source offer becomes an independent signal with stable identity, source permalink, merchant/title/benefit/date/location hints, parser issues and outbound links. Signals are discovery claims, never verified promotions.
+2. Extract HTTP(S) links and bare short/domain links, preserve original representations, collapse conservative equivalents, exclude source/channel self-links and non-HTTP schemes. Record whether a link occurs in an offer or only at post level; post-level association does not assert campaign relevance.
+3. Keep original URL, normalized URL, final destination, ordered redirect chain, checked time, status and failure reason. Cache successes and failures. Offline misses are explicit unresolved evidence.
+4. Resolve only curated-post extracted links, reject unsafe schemes/credentials/hosts/IPs at every hop, bound redirects, elapsed time and response consumption. No URL-taking public endpoint.
+5. Primary authority requires an exact merchant registry domain or account match. Merchant-specific secondary entries can classify strong secondary. Known discovery sources remain discovery. Unknown stays unknown. No inferred merchant domains.
+6. Produce a separate, byte-stable artifact from fixed corpus, registry and cache. Evidence state summarizes primary/secondary found, unresolved links, discovery only or no outbound links. Keep failure evidence even if stronger evidence exists.
+7. Morganfield’s two source permalinks remain distinct signals; shared fixture destinations are visible without merging. Future matching may use the same official campaign/T&C URL more strongly than Telegram wording or generic outlets, but still needs reconciliation.
+8. Preserve MVP data bytes, count, map-ready count and all public routes/semantics. No new runtime dependency from public code to evidence.
+
+Acceptance: focused extraction, authority/isolation, redirect/SSRF/bounds/cache/determinism and two-source tests; existing requested regression commands; artifact metrics and public-isolation evidence. No unresolved product decisions. Empty production authority registry is intentional until source-backed ownership is reviewed.
