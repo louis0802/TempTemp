@@ -41,7 +41,9 @@ test("MVP cards, actual map layout and details preserve merchant-location semant
     page.getByRole("heading", { name: "A good deal is just around." }),
   ).toBeVisible();
   await expect(
-    page.getByText("Pins show merchant locations", { exact: false }),
+    page.getByText("Pins show merchant or source-stated locations", {
+      exact: false,
+    }),
   ).toBeVisible();
   await expect(page.getByLabel("Filter by category")).toHaveCount(0);
   await expect(page.locator(".offer-card")).toHaveCount(1);
@@ -141,4 +143,51 @@ test("complete corpus renders non-map and incomplete records with safe labels", 
     fullPage: true,
   });
   expect(errors).toEqual([]);
+});
+
+test("source-location detail preserves source unit and separates the Google anchor", async ({
+  page,
+}, info) => {
+  const p = mvpPromotionSchema.parse(
+    artifact.records.find(
+      (p: { id: string }) => p.id === "70bd9af3-9126-559d-a88c-b67294164c03",
+    ),
+  );
+  const detail = mvpListing(p);
+  expect(p.outlets[0].coordinateBasis).toBe("google_source_location");
+  await page.route("https://tile.openstreetmap.org/**", (r) =>
+    r.fulfill({
+      contentType: "image/png",
+      body: readFileSync("tests/fixtures/tile.png"),
+    }),
+  );
+  await page.route("**/api/mvp/promotions**", (r) =>
+    r.fulfill({
+      json: r.request().url().includes(`/promotions/${p.id}`)
+        ? detail
+        : { items: [detail], nextCursor: null, sources: [], demo: false },
+    }),
+  );
+  await page.goto("/corpus");
+  await expect(
+    page.getByRole("heading", { name: "A good deal is just around." }),
+  ).toBeVisible();
+  await page.locator(".offer-card").click();
+  const dialog = page.locator(".detail-dialog");
+  await expect(dialog).toContainText("Paragon Shopping Centre, B1-15");
+  await expect(dialog).toContainText("Pin marks the source-stated location.");
+  await expect(dialog).toContainText(
+    "merchant operation, unit and promotion participation are not verified",
+  );
+  await expect(
+    dialog.getByRole("link", { name: p.outlets[0].googleFormattedAddress! }),
+  ).toHaveAttribute(
+    "href",
+    new RegExp(`query_place_id=${p.outlets[0].googlePlaceId}`),
+  );
+  await dialog.locator(".outlet-detail").scrollIntoViewIfNeeded();
+  await page.screenshot({
+    path: `test-results/mvp-source-location-${info.project.name}.png`,
+    fullPage: true,
+  });
 });

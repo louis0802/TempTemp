@@ -1,0 +1,1995 @@
+{
+  "summary": {
+    "beforePrimaryNeedsLocation": 28,
+    "afterPrimaryNeedsLocation": 0,
+    "resolvedByMerchantOnly": 2,
+    "resolvedWithSourceFallback": 26,
+    "originallyCacheMissing": 5,
+    "resolvedMerelyByCacheRefresh": 2,
+    "totalMapReady": 86,
+    "artifactEvaluatedAt": "2026-09-21T00:00:00.000+08:00",
+    "activeLiveReadyAtArtifactDate": 13,
+    "activeLiveReadyAtTaskDate": 12
+  },
+  "records": [
+    {
+      "id": "70bd9af3-9126-559d-a88c-b67294164c03",
+      "sourceUrl": "https://t.me/sgfooddeals/4877",
+      "merchant": "Burnt Cones",
+      "sourceLocation": [
+        "Paragon Shopping Centre, B1-15"
+      ],
+      "oldReason": [
+        "google_branch_not_found:Paragon Shopping Centre, B1-15",
+        "no_operational_google_location"
+      ],
+      "originallyCacheMissing": false,
+      "lookups": [
+        {
+          "sourceLocation": "Paragon Shopping Centre, B1-15",
+          "merchantQuery": "Burnt Cones Paragon Shopping Centre, B1-15 Singapore",
+          "merchantResult": "merchant_place_match_failed",
+          "fallbackQuery": "Paragon Shopping Centre Singapore",
+          "fallbackResult": "source_location_coordinate_resolved",
+          "googlePlaceIds": [
+            "ChIJl_sOMpIZ2jERKgmuCf4FCs0"
+          ]
+        }
+      ],
+      "finalCoordinateBasis": [
+        "google_source_location"
+      ],
+      "finalStatus": "ready",
+      "finalMapStatus": "ready",
+      "remainingReasons": [],
+      "outlets": [
+        {
+          "googlePlaceId": "ChIJl_sOMpIZ2jERKgmuCf4FCs0",
+          "name": "Paragon Shopping Centre",
+          "address": "Paragon Shopping Centre, B1-15",
+          "latitude": 1.3039633,
+          "longitude": 103.8360565,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_source_location",
+          "sourceLocation": "Paragon Shopping Centre, B1-15",
+          "googleFormattedAddress": "290 Orchard Rd, Singapore 238859"
+        }
+      ]
+    },
+    {
+      "id": "70bf8e46-9a61-5002-ab52-37b84a8be20b",
+      "sourceUrl": "https://t.me/sgfooddeals/4881",
+      "merchant": "Tavola Aperta",
+      "sourceLocation": [
+        "Plaza Singapura, #01-60"
+      ],
+      "oldReason": [
+        "google_branch_not_found:Plaza Singapura, #01-60",
+        "no_operational_google_location"
+      ],
+      "originallyCacheMissing": false,
+      "lookups": [
+        {
+          "sourceLocation": "Plaza Singapura, #01-60",
+          "merchantQuery": "Tavola Aperta Plaza Singapura, #01-60 Singapore",
+          "merchantResult": "merchant_place_match_failed",
+          "fallbackQuery": "Plaza Singapura Singapore",
+          "fallbackResult": "source_location_coordinate_resolved",
+          "googlePlaceIds": [
+            "ChIJR1Fyfr0Z2jERzwO-AZiJ-HM"
+          ]
+        }
+      ],
+      "finalCoordinateBasis": [
+        "google_source_location"
+      ],
+      "finalStatus": "ready",
+      "finalMapStatus": "ready",
+      "remainingReasons": [],
+      "outlets": [
+        {
+          "googlePlaceId": "ChIJR1Fyfr0Z2jERzwO-AZiJ-HM",
+          "name": "Plaza Singapura",
+          "address": "Plaza Singapura, #01-60",
+          "latitude": 1.3000677999999999,
+          "longitude": 103.84478310000001,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_source_location",
+          "sourceLocation": "Plaza Singapura, #01-60",
+          "googleFormattedAddress": "68 Orchard Rd, Singapore 238839"
+        }
+      ]
+    },
+    {
+      "id": "67eb6c91-e934-5abf-aec7-db145e4cfd49",
+      "sourceUrl": "https://t.me/sgfooddeals/4885",
+      "merchant": "Daya Izakaya",
+      "sourceLocation": [
+        "254 Jalan Kayu"
+      ],
+      "oldReason": [
+        "google_branch_not_found:254 Jalan Kayu",
+        "no_operational_google_location"
+      ],
+      "originallyCacheMissing": false,
+      "lookups": [
+        {
+          "sourceLocation": "254 Jalan Kayu",
+          "merchantQuery": "Daya Izakaya 254 Jalan Kayu Singapore",
+          "merchantResult": "merchant_place_match_failed",
+          "fallbackQuery": "254 Jalan Kayu Singapore",
+          "fallbackResult": "source_location_coordinate_resolved",
+          "googlePlaceIds": [
+            "ChIJpZjQAAQX2jERpBAPeovphN4"
+          ]
+        }
+      ],
+      "finalCoordinateBasis": [
+        "google_source_location"
+      ],
+      "finalStatus": "ready",
+      "finalMapStatus": "ready",
+      "remainingReasons": [],
+      "outlets": [
+        {
+          "googlePlaceId": "ChIJpZjQAAQX2jERpBAPeovphN4",
+          "name": "254 Jalan Kayu",
+          "address": "254 Jalan Kayu",
+          "latitude": 1.3980449,
+          "longitude": 103.8732893,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_source_location",
+          "sourceLocation": "254 Jalan Kayu",
+          "googleFormattedAddress": "254 Jln Kayu, Singapore 799481"
+        }
+      ]
+    },
+    {
+      "id": "2dd60251-a2aa-5b1c-a2f3-ba95038f173e",
+      "sourceUrl": "https://t.me/sgfooddeals/4891",
+      "merchant": "POKKA",
+      "sourceLocation": [
+        "Plaza Singapura, Canopy Plaza Level 1"
+      ],
+      "oldReason": [
+        "google_branch_not_found:Plaza Singapura",
+        "google_branch_not_found:Canopy Plaza Level 1",
+        "no_operational_google_location"
+      ],
+      "originallyCacheMissing": false,
+      "lookups": [
+        {
+          "sourceLocation": "Plaza Singapura, Canopy Plaza Level 1",
+          "merchantQuery": "POKKA Plaza Singapura, Canopy Plaza Level 1 Singapore",
+          "merchantResult": "merchant_place_match_failed",
+          "fallbackQuery": "Plaza Singapura Singapore",
+          "fallbackResult": "source_location_coordinate_resolved",
+          "googlePlaceIds": [
+            "ChIJR1Fyfr0Z2jERzwO-AZiJ-HM"
+          ]
+        }
+      ],
+      "finalCoordinateBasis": [
+        "google_source_location"
+      ],
+      "finalStatus": "ready",
+      "finalMapStatus": "ready",
+      "remainingReasons": [],
+      "outlets": [
+        {
+          "googlePlaceId": "ChIJR1Fyfr0Z2jERzwO-AZiJ-HM",
+          "name": "Plaza Singapura",
+          "address": "Plaza Singapura, Canopy Plaza Level 1",
+          "latitude": 1.3000677999999999,
+          "longitude": 103.84478310000001,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_source_location",
+          "sourceLocation": "Plaza Singapura, Canopy Plaza Level 1",
+          "googleFormattedAddress": "68 Orchard Rd, Singapore 238839"
+        }
+      ]
+    },
+    {
+      "id": "ff4994ee-8b03-5be1-a2cd-3e1ad3efabec",
+      "sourceUrl": "https://t.me/sgfooddeals/4895",
+      "merchant": "Braek Acai & Coffee",
+      "sourceLocation": [
+        "SMU Li Ka Shing Library, B1-25"
+      ],
+      "oldReason": [
+        "google_branch_not_found:SMU Li Ka Shing Library, B1-25",
+        "no_operational_google_location"
+      ],
+      "originallyCacheMissing": false,
+      "lookups": [
+        {
+          "sourceLocation": "SMU Li Ka Shing Library, B1-25",
+          "merchantQuery": "Braek Acai & Coffee SMU Li Ka Shing Library, B1-25 Singapore",
+          "merchantResult": "merchant_place_match_failed",
+          "fallbackQuery": "SMU Li Ka Shing Library Singapore",
+          "fallbackResult": "source_location_coordinate_resolved",
+          "googlePlaceIds": [
+            "ChIJPaRwcKMZ2jERUSouCuWdZLk"
+          ]
+        }
+      ],
+      "finalCoordinateBasis": [
+        "google_source_location"
+      ],
+      "finalStatus": "ready",
+      "finalMapStatus": "ready",
+      "remainingReasons": [],
+      "outlets": [
+        {
+          "googlePlaceId": "ChIJPaRwcKMZ2jERUSouCuWdZLk",
+          "name": "SMU Li Ka Shing Library",
+          "address": "SMU Li Ka Shing Library, B1-25",
+          "latitude": 1.2962087,
+          "longitude": 103.85012069999999,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_source_location",
+          "sourceLocation": "SMU Li Ka Shing Library, B1-25",
+          "googleFormattedAddress": "70 Stamford Rd, Singapore 178901"
+        }
+      ]
+    },
+    {
+      "id": "9849e87f-4006-5d30-a9c3-3cc6d8065a63",
+      "sourceUrl": "https://t.me/sgfooddeals/4896",
+      "merchant": "New Ubin Seafood",
+      "sourceLocation": [
+        "30 Victoria Street, #02-01B"
+      ],
+      "oldReason": [
+        "google_branch_not_found:30 Victoria Street, #02-01B",
+        "no_operational_google_location"
+      ],
+      "originallyCacheMissing": false,
+      "lookups": [
+        {
+          "sourceLocation": "30 Victoria Street, #02-01B",
+          "merchantQuery": "New Ubin Seafood 30 Victoria Street, #02-01B Singapore",
+          "merchantResult": "merchant_place_match_failed",
+          "fallbackQuery": "30 Victoria Street Singapore",
+          "fallbackResult": "source_location_coordinate_resolved",
+          "googlePlaceIds": [
+            "ChIJNfw8b6QZ2jEREbGYft7-Q4A"
+          ]
+        }
+      ],
+      "finalCoordinateBasis": [
+        "google_source_location"
+      ],
+      "finalStatus": "ready",
+      "finalMapStatus": "ready",
+      "remainingReasons": [],
+      "outlets": [
+        {
+          "googlePlaceId": "ChIJNfw8b6QZ2jEREbGYft7-Q4A",
+          "name": "30 Victoria Street",
+          "address": "30 Victoria Street, #02-01B",
+          "latitude": 1.2951469000000002,
+          "longitude": 103.85193319999999,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_source_location",
+          "sourceLocation": "30 Victoria Street, #02-01B",
+          "googleFormattedAddress": "30 Victoria St, Singapore 187996"
+        }
+      ]
+    },
+    {
+      "id": "5d1b5a6a-873c-59fb-a617-8d8a57bf7c5b",
+      "sourceUrl": "https://t.me/sgfooddeals/4897",
+      "merchant": "Gwanghwamun Mijin",
+      "sourceLocation": [
+        "47 - 49 Pekin Street, #01-01"
+      ],
+      "oldReason": [
+        "google_branch_not_found:47 - 49 Pekin Street, #01-01",
+        "no_operational_google_location"
+      ],
+      "originallyCacheMissing": false,
+      "lookups": [
+        {
+          "sourceLocation": "47 - 49 Pekin Street, #01-01",
+          "merchantQuery": "Gwanghwamun Mijin 47 - 49 Pekin Street, #01-01 Singapore",
+          "merchantResult": "merchant_place_match_failed",
+          "fallbackQuery": "47-49 Pekin Street Singapore",
+          "fallbackResult": "source_location_coordinate_resolved",
+          "googlePlaceIds": [
+            "ChIJ1fOtC54Z2jER-rKgFarVuYw"
+          ]
+        }
+      ],
+      "finalCoordinateBasis": [
+        "google_source_location"
+      ],
+      "finalStatus": "ready",
+      "finalMapStatus": "ready",
+      "remainingReasons": [],
+      "outlets": [
+        {
+          "googlePlaceId": "ChIJ1fOtC54Z2jER-rKgFarVuYw",
+          "name": "47-49 Pekin Street",
+          "address": "47 - 49 Pekin Street, #01-01",
+          "latitude": 1.283213,
+          "longitude": 103.84877030000001,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_source_location",
+          "sourceLocation": "47 - 49 Pekin Street, #01-01",
+          "googleFormattedAddress": "47,48,49, Pekin St, #01-01, Singapore 048779"
+        }
+      ]
+    },
+    {
+      "id": "2c938b46-a3d9-5619-a9ab-749238cbfc3f",
+      "sourceUrl": "https://t.me/sgfooddeals/4899",
+      "merchant": "Sushiro",
+      "sourceLocation": [
+        "Orchard Gateway, B1-07"
+      ],
+      "oldReason": [
+        "google_branch_not_found:Orchard Gateway, B1-07",
+        "no_operational_google_location"
+      ],
+      "originallyCacheMissing": false,
+      "lookups": [
+        {
+          "sourceLocation": "Orchard Gateway, B1-07",
+          "merchantQuery": "Sushiro Orchard Gateway, B1-07 Singapore",
+          "merchantResult": "merchant_place_match_failed",
+          "fallbackQuery": "Orchard Gateway Singapore",
+          "fallbackResult": "source_location_coordinate_resolved",
+          "googlePlaceIds": [
+            "ChIJfZmGM5EZ2jERgDzwv5rdA-U"
+          ]
+        }
+      ],
+      "finalCoordinateBasis": [
+        "google_source_location"
+      ],
+      "finalStatus": "ready",
+      "finalMapStatus": "ready",
+      "remainingReasons": [],
+      "outlets": [
+        {
+          "googlePlaceId": "ChIJfZmGM5EZ2jERgDzwv5rdA-U",
+          "name": "Orchard Gateway",
+          "address": "Orchard Gateway, B1-07",
+          "latitude": 1.3007001999999999,
+          "longitude": 103.8394225,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_source_location",
+          "sourceLocation": "Orchard Gateway, B1-07",
+          "googleFormattedAddress": "277 Orchard Rd, Singapore 238858"
+        }
+      ]
+    },
+    {
+      "id": "c37e7902-2e92-5d6b-ab62-e6b77b44147e",
+      "sourceUrl": "https://t.me/sgfooddeals/4902",
+      "merchant": "Morganfield's",
+      "sourceLocation": [
+        "Suntec City outlet"
+      ],
+      "oldReason": [
+        "google_branch_not_found:Suntec City outlet",
+        "no_operational_google_location"
+      ],
+      "originallyCacheMissing": false,
+      "lookups": [
+        {
+          "sourceLocation": "Suntec City outlet",
+          "merchantQuery": "Morganfield's Suntec City outlet Singapore",
+          "merchantResult": "merchant_place_match_failed",
+          "fallbackQuery": "Suntec City Singapore",
+          "fallbackResult": "source_location_coordinate_resolved",
+          "googlePlaceIds": [
+            "ChIJ20X__K4Z2jERRE8GRs-d8HE"
+          ]
+        }
+      ],
+      "finalCoordinateBasis": [
+        "google_source_location"
+      ],
+      "finalStatus": "ready",
+      "finalMapStatus": "ready",
+      "remainingReasons": [],
+      "outlets": [
+        {
+          "googlePlaceId": "ChIJ20X__K4Z2jERRE8GRs-d8HE",
+          "name": "Suntec City",
+          "address": "Suntec City outlet",
+          "latitude": 1.2950324,
+          "longitude": 103.85830150000001,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_source_location",
+          "sourceLocation": "Suntec City outlet",
+          "googleFormattedAddress": "3 Temasek Blvd, Singapore 038983"
+        }
+      ]
+    },
+    {
+      "id": "737105d9-338d-50ee-af7b-9f30be167fb9",
+      "sourceUrl": "https://t.me/sgfooddeals/4905",
+      "merchant": "Meatsmith",
+      "sourceLocation": [
+        "167 - 169 Telok Ayer Street"
+      ],
+      "oldReason": [
+        "google_branch_not_found:167 - 169 Telok Ayer Street",
+        "no_operational_google_location"
+      ],
+      "originallyCacheMissing": false,
+      "lookups": [
+        {
+          "sourceLocation": "167 - 169 Telok Ayer Street",
+          "merchantQuery": "Meatsmith 167 - 169 Telok Ayer Street Singapore",
+          "merchantResult": "merchant_place_match_failed",
+          "fallbackQuery": "167-169 Telok Ayer Street Singapore",
+          "fallbackResult": "source_location_coordinate_resolved",
+          "googlePlaceIds": [
+            "ChIJ2eCjeQ0Z2jERYAf1lGnfLI8"
+          ]
+        }
+      ],
+      "finalCoordinateBasis": [
+        "google_source_location"
+      ],
+      "finalStatus": "ready",
+      "finalMapStatus": "ready",
+      "remainingReasons": [],
+      "outlets": [
+        {
+          "googlePlaceId": "ChIJ2eCjeQ0Z2jERYAf1lGnfLI8",
+          "name": "167-169 Telok Ayer Street",
+          "address": "167 - 169 Telok Ayer Street",
+          "latitude": 1.2801856999999999,
+          "longitude": 103.84746319999999,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_source_location",
+          "sourceLocation": "167 - 169 Telok Ayer Street",
+          "googleFormattedAddress": "167-169 Telok Ayer St, Singapore 068620"
+        }
+      ]
+    },
+    {
+      "id": "029eeced-1db8-5ab9-a00d-fe1f69d6ef6a",
+      "sourceUrl": "https://t.me/sgfooddeals/4924",
+      "merchant": "Brash Boys Coffee",
+      "sourceLocation": [
+        "168 Robinson Road, #01-09"
+      ],
+      "oldReason": [
+        "google_branch_not_found:168 Robinson Road, #01-09",
+        "no_operational_google_location"
+      ],
+      "originallyCacheMissing": false,
+      "lookups": [
+        {
+          "sourceLocation": "168 Robinson Road, #01-09",
+          "merchantQuery": "Brash Boys Coffee 168 Robinson Road, #01-09 Singapore",
+          "merchantResult": "merchant_place_match_failed",
+          "fallbackQuery": "168 Robinson Road Singapore",
+          "fallbackResult": "source_location_coordinate_resolved",
+          "googlePlaceIds": [
+            "ChIJPWWwVRIZ2jERRVpILGfdguA"
+          ]
+        }
+      ],
+      "finalCoordinateBasis": [
+        "google_source_location"
+      ],
+      "finalStatus": "ready",
+      "finalMapStatus": "ready",
+      "remainingReasons": [],
+      "outlets": [
+        {
+          "googlePlaceId": "ChIJPWWwVRIZ2jERRVpILGfdguA",
+          "name": "168 Robinson Road",
+          "address": "168 Robinson Road, #01-09",
+          "latitude": 1.2775187,
+          "longitude": 103.8475466,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_source_location",
+          "sourceLocation": "168 Robinson Road, #01-09",
+          "googleFormattedAddress": "168 Robinson Rd, Singapore 068912"
+        }
+      ]
+    },
+    {
+      "id": "514dd7cd-7cca-56be-a55e-bfd2c2dd4eba",
+      "sourceUrl": "https://t.me/sgfooddeals/4924",
+      "merchant": "Brash Boys Coffee",
+      "sourceLocation": [
+        "168 Robinson Road, #01-09"
+      ],
+      "oldReason": [
+        "google_branch_not_found:168 Robinson Road, #01-09",
+        "no_operational_google_location"
+      ],
+      "originallyCacheMissing": false,
+      "lookups": [
+        {
+          "sourceLocation": "168 Robinson Road, #01-09",
+          "merchantQuery": "Brash Boys Coffee 168 Robinson Road, #01-09 Singapore",
+          "merchantResult": "merchant_place_match_failed",
+          "fallbackQuery": "168 Robinson Road Singapore",
+          "fallbackResult": "source_location_coordinate_resolved",
+          "googlePlaceIds": [
+            "ChIJPWWwVRIZ2jERRVpILGfdguA"
+          ]
+        }
+      ],
+      "finalCoordinateBasis": [
+        "google_source_location"
+      ],
+      "finalStatus": "ready",
+      "finalMapStatus": "ready",
+      "remainingReasons": [],
+      "outlets": [
+        {
+          "googlePlaceId": "ChIJPWWwVRIZ2jERRVpILGfdguA",
+          "name": "168 Robinson Road",
+          "address": "168 Robinson Road, #01-09",
+          "latitude": 1.2775187,
+          "longitude": 103.8475466,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_source_location",
+          "sourceLocation": "168 Robinson Road, #01-09",
+          "googleFormattedAddress": "168 Robinson Rd, Singapore 068912"
+        }
+      ]
+    },
+    {
+      "id": "dcff1afd-1834-5b26-ac02-5519347d7899",
+      "sourceUrl": "https://t.me/sgfooddeals/4927",
+      "merchant": "Kimpson's Table",
+      "sourceLocation": [
+        "Far East Square, #01-01"
+      ],
+      "oldReason": [
+        "google_branch_not_found:Far East Square, #01-01",
+        "no_operational_google_location"
+      ],
+      "originallyCacheMissing": false,
+      "lookups": [
+        {
+          "sourceLocation": "Far East Square, #01-01",
+          "merchantQuery": "Kimpson's Table Far East Square, #01-01 Singapore",
+          "merchantResult": "merchant_place_match_failed",
+          "fallbackQuery": "Far East Square Singapore",
+          "fallbackResult": "source_location_coordinate_resolved",
+          "googlePlaceIds": [
+            "ChIJb_qbYwwZ2jERH9tIsjT57tg"
+          ]
+        }
+      ],
+      "finalCoordinateBasis": [
+        "google_source_location"
+      ],
+      "finalStatus": "ready",
+      "finalMapStatus": "ready",
+      "remainingReasons": [],
+      "outlets": [
+        {
+          "googlePlaceId": "ChIJb_qbYwwZ2jERH9tIsjT57tg",
+          "name": "Far East Square",
+          "address": "Far East Square, #01-01",
+          "latitude": 1.2834477,
+          "longitude": 103.84784309999999,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_source_location",
+          "sourceLocation": "Far East Square, #01-01",
+          "googleFormattedAddress": "26 China St, Singapore 049561"
+        }
+      ]
+    },
+    {
+      "id": "79a101a4-5b7c-5026-acf0-b3fd5e0629b6",
+      "sourceUrl": "https://t.me/sgfooddeals/4927",
+      "merchant": "Kimpson's Table",
+      "sourceLocation": [
+        "Far East Square, #01-01"
+      ],
+      "oldReason": [
+        "google_branch_not_found:Far East Square, #01-01",
+        "no_operational_google_location"
+      ],
+      "originallyCacheMissing": false,
+      "lookups": [
+        {
+          "sourceLocation": "Far East Square, #01-01",
+          "merchantQuery": "Kimpson's Table Far East Square, #01-01 Singapore",
+          "merchantResult": "merchant_place_match_failed",
+          "fallbackQuery": "Far East Square Singapore",
+          "fallbackResult": "source_location_coordinate_resolved",
+          "googlePlaceIds": [
+            "ChIJb_qbYwwZ2jERH9tIsjT57tg"
+          ]
+        }
+      ],
+      "finalCoordinateBasis": [
+        "google_source_location"
+      ],
+      "finalStatus": "ready",
+      "finalMapStatus": "ready",
+      "remainingReasons": [],
+      "outlets": [
+        {
+          "googlePlaceId": "ChIJb_qbYwwZ2jERH9tIsjT57tg",
+          "name": "Far East Square",
+          "address": "Far East Square, #01-01",
+          "latitude": 1.2834477,
+          "longitude": 103.84784309999999,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_source_location",
+          "sourceLocation": "Far East Square, #01-01",
+          "googleFormattedAddress": "26 China St, Singapore 049561"
+        }
+      ]
+    },
+    {
+      "id": "a3f836a6-c225-526d-ab55-d788a5d2fc4d",
+      "sourceUrl": "https://t.me/sgfooddeals/4927",
+      "merchant": "Kimpson's Table",
+      "sourceLocation": [
+        "Far East Square, #01-01"
+      ],
+      "oldReason": [
+        "google_branch_not_found:Far East Square, #01-01",
+        "no_operational_google_location"
+      ],
+      "originallyCacheMissing": false,
+      "lookups": [
+        {
+          "sourceLocation": "Far East Square, #01-01",
+          "merchantQuery": "Kimpson's Table Far East Square, #01-01 Singapore",
+          "merchantResult": "merchant_place_match_failed",
+          "fallbackQuery": "Far East Square Singapore",
+          "fallbackResult": "source_location_coordinate_resolved",
+          "googlePlaceIds": [
+            "ChIJb_qbYwwZ2jERH9tIsjT57tg"
+          ]
+        }
+      ],
+      "finalCoordinateBasis": [
+        "google_source_location"
+      ],
+      "finalStatus": "ready",
+      "finalMapStatus": "ready",
+      "remainingReasons": [],
+      "outlets": [
+        {
+          "googlePlaceId": "ChIJb_qbYwwZ2jERH9tIsjT57tg",
+          "name": "Far East Square",
+          "address": "Far East Square, #01-01",
+          "latitude": 1.2834477,
+          "longitude": 103.84784309999999,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_source_location",
+          "sourceLocation": "Far East Square, #01-01",
+          "googleFormattedAddress": "26 China St, Singapore 049561"
+        }
+      ]
+    },
+    {
+      "id": "d6f5a1a5-0cfb-5f99-a3e5-c6fa6aeb426a",
+      "sourceUrl": "https://t.me/tastesoulsg/4411",
+      "merchant": "BURNT CONES",
+      "sourceLocation": [
+        "Paragon, B1-15"
+      ],
+      "oldReason": [
+        "google_branch_not_found:Paragon, B1-15",
+        "no_operational_google_location"
+      ],
+      "originallyCacheMissing": false,
+      "lookups": [
+        {
+          "sourceLocation": "Paragon, B1-15",
+          "merchantQuery": "BURNT CONES Paragon, B1-15 Singapore",
+          "merchantResult": "merchant_place_match_failed",
+          "fallbackQuery": "Paragon Singapore",
+          "fallbackResult": "source_location_coordinate_resolved",
+          "googlePlaceIds": [
+            "ChIJl_sOMpIZ2jERKgmuCf4FCs0"
+          ]
+        }
+      ],
+      "finalCoordinateBasis": [
+        "google_source_location"
+      ],
+      "finalStatus": "ready",
+      "finalMapStatus": "ready",
+      "remainingReasons": [],
+      "outlets": [
+        {
+          "googlePlaceId": "ChIJl_sOMpIZ2jERKgmuCf4FCs0",
+          "name": "Paragon",
+          "address": "Paragon, B1-15",
+          "latitude": 1.3039633,
+          "longitude": 103.8360565,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_source_location",
+          "sourceLocation": "Paragon, B1-15",
+          "googleFormattedAddress": "290 Orchard Rd, Singapore 238859"
+        }
+      ]
+    },
+    {
+      "id": "d01a2c98-3d71-5947-a3e3-d5810ca21d8d",
+      "sourceUrl": "https://t.me/tastesoulsg/4429",
+      "merchant": "KFC",
+      "sourceLocation": [
+        null
+      ],
+      "oldReason": [
+        "google_response_not_cached_run_with_google",
+        "no_operational_google_location"
+      ],
+      "originallyCacheMissing": true,
+      "lookups": [
+        {
+          "sourceLocation": null,
+          "merchantQuery": "KFC Singapore",
+          "merchantResult": "google_merchant_place_resolved",
+          "fallbackQuery": null,
+          "fallbackResult": "not_attempted",
+          "googlePlaceIds": [
+            "ChIJL3MQpZIZ2jERx85DaJ-fM5o",
+            "ChIJOdXiJAAR2jERF3s8UByMUWc",
+            "ChIJvzidQ2QZ2jERY9WnxKZzc6U",
+            "ChIJsTvNiCwY2jERW3xKp_S2fLQ",
+            "ChIJ4fcFlHgX2jER3eBM5py2mDY",
+            "ChIJu6CFbQAX2jERK0Gg6QYYJ4s",
+            "ChIJFW7js2MU2jERdWrGQJ4Epg8",
+            "ChIJ____r6YX2jERzAoY9SRLfDA",
+            "ChIJvZwHducW2jERNeJEAGO2AO0",
+            "ChIJ2zOiSwsZ2jERJGdSg9Ed4fI",
+            "ChIJJ4D-iA0W2jERaP9rlTiJ-Zo",
+            "ChIJdVOoXAAR2jERKOOkTJ6O4SQ",
+            "ChIJPefJxgkR2jERj5Y-e8gYmt8",
+            "ChIJg5cQRAAb2jERvunYB2ghcpQ",
+            "ChIJOamELlsW2jER6kMM2lblstI",
+            "ChIJHbKxhboZ2jER944Wn7IH0AU",
+            "ChIJFR4RKLQ92jERwwgPR-IFScw",
+            "ChIJqVK--8wZ2jERY43JJwRTYuI",
+            "ChIJgRfcknUb2jERBlq0s0tig3U",
+            "ChIJc0Fo-rI92jERH6itRuw9gxw",
+            "ChIJm1kpYhY92jERMENukRQlZuY",
+            "ChIJYbmijWs92jERQB0FHnB857g",
+            "ChIJByeM-6892jER4Tv-ZzZp8Es",
+            "ChIJXTnYyDsV2jERsngfniq_xOE",
+            "ChIJ4aIpFrMi2jER-gm4WfbN1xQ",
+            "ChIJuyIm9f0X2jERZy_iRbojBYI",
+            "ChIJjVfWj3gX2jERLZ5AI0Ze9TE",
+            "ChIJL4-Is7Eb2jERe0fOAkUH1ss",
+            "ChIJL6rI-mYX2jERjJoRhA94gCI",
+            "ChIJ32SYVQAT2jERS7bhCeUnnD8",
+            "ChIJ6QFkYAIW2jERdMpKKA9o9CA",
+            "ChIJve9xrjcZ2jERFBTsREmWbG4",
+            "ChIJnzw-g-cZ2jERpLm2T2CaNdA",
+            "ChIJ3_Zy4H8V2jERSXMpMT1B5Q4",
+            "ChIJxzbY1z4Q2jERIuHX2G0G95E",
+            "ChIJmRnrx-wP2jERtLem-l0M7Rw",
+            "ChIJUXhrN6MR2jERofOzX7-2eB4",
+            "ChIJvQCp6FUF2jERIYOD-jddkQw",
+            "ChIJc9bJBXoU2jERKiy-J9_NFrg",
+            "ChIJF1YeYb0Z2jERsp652TMwYwE",
+            "ChIJmTc9aR8R2jER9CetxIrOzwE",
+            "ChIJ2xwx_PMR2jERgLRw_KeEIVc",
+            "ChIJP_UblpkP2jERe9vO7hgrLXs",
+            "ChIJQSkW_qAT2jERn4vUMZMXK5Q",
+            "ChIJE62UZx8V2jER0MH_1-sX5ws",
+            "ChIJSSsI58oR2jERCLgvlXU5nNU",
+            "ChIJYxVIfB8T2jER7whqhx4KImE",
+            "ChIJc9hD79AZ2jERox7f6GaC2KM",
+            "ChIJD6EPdaE92jERbUbNytSr7LQ",
+            "ChIJXwEItZIa2jERrUdf7yR4oOY",
+            "ChIJ97RvbRoW2jER8mzx0_D9PjA",
+            "ChIJsx75zI8a2jER0TpRfwfJIUU",
+            "ChIJYbVZRMQR2jERYfGWH4iH93I",
+            "ChIJU2-qn3UT2jERrjloH2v8HhY",
+            "ChIJaz-wlekR2jEResJerRfD48Q",
+            "ChIJb-ErmBYX2jERjdd0QC-4Pa0",
+            "ChIJcZk3aNEb2jER-qA4VBgev0k",
+            "ChIJrbAO1H4Z2jERM3PTK4VJC10",
+            "ChIJq6bvoqgT2jERZEWDFdr5UuQ",
+            "ChIJ7cjSMX0T2jERtyhAXbevl_8"
+          ]
+        }
+      ],
+      "finalCoordinateBasis": [
+        "google_merchant_place"
+      ],
+      "finalStatus": "ready",
+      "finalMapStatus": "ready",
+      "remainingReasons": [],
+      "outlets": [
+        {
+          "googlePlaceId": "ChIJ____r6YX2jERzAoY9SRLfDA",
+          "name": "KFC (NEX)",
+          "address": "23 Serangoon Central, B1-32/33 NEX, Singapore 556083",
+          "latitude": 1.350221,
+          "longitude": 103.8731462,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "23 Serangoon Central, B1-32/33 NEX, Singapore 556083"
+        },
+        {
+          "googlePlaceId": "ChIJ2xwx_PMR2jERgLRw_KeEIVc",
+          "name": "KFC (Yew Tee Point)",
+          "address": "#01-19 / 20, 21 Choa Chu Kang North 6, #01-19 / 20 YewTee Point, Singapore 689578",
+          "latitude": 1.3966929,
+          "longitude": 103.7466795,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "21 Choa Chu Kang North 6, #01-19 / 20 YewTee Point, Singapore 689578"
+        },
+        {
+          "googlePlaceId": "ChIJ2zOiSwsZ2jERJGdSg9Ed4fI",
+          "name": "KFC (Chinatown Point)",
+          "address": "133 New Bridge Rd, #01-35 Chinatown Point, Singapore 059413",
+          "latitude": 1.2853956,
+          "longitude": 103.8452263,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "133 New Bridge Rd, #01-35 Chinatown Point, Singapore 059413"
+        },
+        {
+          "googlePlaceId": "ChIJ3_Zy4H8V2jERSXMpMT1B5Q4",
+          "name": "KFC",
+          "address": "18 Yishun Ave 9, #01-78/79 Junction Nine, Singapore 768897",
+          "latitude": 1.4332205,
+          "longitude": 103.8414882,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "18 Yishun Ave 9, #01-78/79 Junction Nine, Singapore 768897"
+        },
+        {
+          "googlePlaceId": "ChIJ32SYVQAT2jERS7bhCeUnnD8",
+          "name": "KFC (Singapore Zoo Kidzworld)",
+          "address": "80 Mandai Lake Rd, Singapore 729826",
+          "latitude": 1.4025355000000002,
+          "longitude": 103.7963484,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "80 Mandai Lake Rd, Singapore 729826"
+        },
+        {
+          "googlePlaceId": "ChIJ4aIpFrMi2jER-gm4WfbN1xQ",
+          "name": "KFC Bedok Mall",
+          "address": "208D New Upper Changi Rd, #01-01 Bedok Town Square, Singapore 464208",
+          "latitude": 1.3254644000000002,
+          "longitude": 103.9303228,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "208D New Upper Changi Rd, #01-01 Bedok Town Square, Singapore 464208"
+        },
+        {
+          "googlePlaceId": "ChIJ4fcFlHgX2jER3eBM5py2mDY",
+          "name": "KFC Thomson Plaza",
+          "address": "301 Upper Thomson Rd, #01-115, Singapore 574408",
+          "latitude": 1.3547196,
+          "longitude": 103.8306566,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "301 Upper Thomson Rd, #01-115, Singapore 574408"
+        },
+        {
+          "googlePlaceId": "ChIJ6QFkYAIW2jERdMpKKA9o9CA",
+          "name": "KFC (Punggol Plaza)",
+          "address": "168 Punggol Fld, B1-02/03 Punggol Plaza, Singapore 820168",
+          "latitude": 1.3942280000000002,
+          "longitude": 103.913016,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "168 Punggol Fld, B1-02/03 Punggol Plaza, Singapore 820168"
+        },
+        {
+          "googlePlaceId": "ChIJ7cjSMX0T2jERtyhAXbevl_8",
+          "name": "KFC",
+          "address": "#01 - 25, 30 Sembawang Dr, #01 - 25 Sun Plaza, Singapore 757713",
+          "latitude": 1.4480359,
+          "longitude": 103.819285,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "30 Sembawang Dr, #01 - 25 Sun Plaza, Singapore 757713"
+        },
+        {
+          "googlePlaceId": "ChIJ97RvbRoW2jER8mzx0_D9PjA",
+          "name": "KFC (Rivervale Plaza)",
+          "address": "118 Rivervale Dr, #01-31 Rivervale Plaza, Singapore 540118",
+          "latitude": 1.3850654,
+          "longitude": 103.90131029999999,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "118 Rivervale Dr, #01-31 Rivervale Plaza, Singapore 540118"
+        },
+        {
+          "googlePlaceId": "ChIJaz-wlekR2jEResJerRfD48Q",
+          "name": "KFC (Lot One)",
+          "address": "#B1 - 28 / 29, 21 Choa Chu Kang Avenue 4 #B1-28/29 Lot One Shoppers' Mall, 21 Choa Chu Kang Ave 4, B1 - 28 / 29, Singapore 689812",
+          "latitude": 1.3855281,
+          "longitude": 103.7447401,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "21 Choa Chu Kang Avenue 4 #B1-28/29 Lot One Shoppers' Mall, 21 Choa Chu Kang Ave 4, B1 - 28 / 29, Singapore 689812"
+        },
+        {
+          "googlePlaceId": "ChIJb-ErmBYX2jERjdd0QC-4Pa0",
+          "name": "KFC (Junction 8)",
+          "address": "9 Bishan Pl, #01-21 Junction 8, Singapore 579837",
+          "latitude": 1.3503451,
+          "longitude": 103.84849439999999,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "9 Bishan Pl, #01-21 Junction 8, Singapore 579837"
+        },
+        {
+          "googlePlaceId": "ChIJByeM-6892jER4Tv-ZzZp8Es",
+          "name": "KFC",
+          "address": "1 Pasir Ris Central St 3, #01-14/15 White Sands, Singapore 518457",
+          "latitude": 1.3722454,
+          "longitude": 103.94986619999999,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "1 Pasir Ris Central St 3, #01-14/15 White Sands, Singapore 518457"
+        },
+        {
+          "googlePlaceId": "ChIJc0Fo-rI92jERH6itRuw9gxw",
+          "name": "KFC",
+          "address": "4 Tampines Central 5, #01-47 Tampines Mall, Singapore 529510",
+          "latitude": 1.3523786,
+          "longitude": 103.9443313,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "4 Tampines Central 5, #01-47 Tampines Mall, Singapore 529510"
+        },
+        {
+          "googlePlaceId": "ChIJc9bJBXoU2jERKiy-J9_NFrg",
+          "name": "KFC",
+          "address": "701A Yishun Ave 5, #01-02, Singapore 761701",
+          "latitude": 1.4299278,
+          "longitude": 103.82792069999999,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "701A Yishun Ave 5, #01-02, Singapore 761701"
+        },
+        {
+          "googlePlaceId": "ChIJc9hD79AZ2jERox7f6GaC2KM",
+          "name": "KFC (The Towner)",
+          "address": "102 Towner Rd, #01-246/248 The Towner, Singapore 322102",
+          "latitude": 1.3203616000000002,
+          "longitude": 103.86186909999999,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "102 Towner Rd, #01-246/248 The Towner, Singapore 322102"
+        },
+        {
+          "googlePlaceId": "ChIJcZk3aNEb2jER-qA4VBgev0k",
+          "name": "KFC Bukit Merah",
+          "address": "162 Bukit Merah Central, #01-3555 Town Centre, Singapore 150162",
+          "latitude": 1.2839759,
+          "longitude": 103.8171325,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "162 Bukit Merah Central, #01-3555 Town Centre, Singapore 150162"
+        },
+        {
+          "googlePlaceId": "ChIJD6EPdaE92jERbUbNytSr7LQ",
+          "name": "KFC Jewel",
+          "address": "#277, 78 Airport Boulevard B2 - 275, #277 Singapore Changi Airport, Singapore 819666",
+          "latitude": 1.3604703999999999,
+          "longitude": 103.98959200000002,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "78 Airport Boulevard B2 - 275, #277 Singapore Changi Airport, Singapore 819666"
+        },
+        {
+          "googlePlaceId": "ChIJdVOoXAAR2jERKOOkTJ6O4SQ",
+          "name": "KFC (Tengah Plantation)",
+          "address": "126C Tengah Dr, #01-341, Singapore 693126",
+          "latitude": 1.3584391,
+          "longitude": 103.73505159999999,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "126C Tengah Dr, #01-341, Singapore 693126"
+        },
+        {
+          "googlePlaceId": "ChIJE62UZx8V2jER0MH_1-sX5ws",
+          "name": "KFC",
+          "address": "133 Canberra Vw, #01-09 Canberra Plaza, Singapore 750133",
+          "latitude": 1.4435419,
+          "longitude": 103.83028039999999,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "133 Canberra Vw, #01-09 Canberra Plaza, Singapore 750133"
+        },
+        {
+          "googlePlaceId": "ChIJF1YeYb0Z2jERsp652TMwYwE",
+          "name": "KFC (VivoCity)",
+          "address": "1 HarbourFront Walk, B2-32 VivoCity, Singapore 098585",
+          "latitude": 1.2645819999999999,
+          "longitude": 103.82151759999999,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "1 HarbourFront Walk, B2-32 VivoCity, Singapore 098585"
+        },
+        {
+          "googlePlaceId": "ChIJFR4RKLQ92jERwwgPR-IFScw",
+          "name": "Downtown East KFC",
+          "address": "1 Pasir Ris Close, #01-337, E!Avenue@Downtown East, Singapore 519599",
+          "latitude": 1.3778367,
+          "longitude": 103.9550988,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "1 Pasir Ris Close, #01-337, E!Avenue@Downtown East, Singapore 519599"
+        },
+        {
+          "googlePlaceId": "ChIJFW7js2MU2jERdWrGQJ4Epg8",
+          "name": "KFC Northpoint City, South Wing",
+          "address": "1 North Point Drive, #01-173/174, Northpoint City South Wing, Singapore 768019",
+          "latitude": 1.428663,
+          "longitude": 103.8357574,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "1 North Point Drive, #01-173/174, Northpoint City South Wing, Singapore 768019"
+        },
+        {
+          "googlePlaceId": "ChIJg5cQRAAb2jERvunYB2ghcpQ",
+          "name": "KFC (The Star Vista)",
+          "address": "#B1 - 13, 1 Vista Exchange Grn, #B1 - 13, Singapore 138617",
+          "latitude": 1.3069431999999999,
+          "longitude": 103.7884711,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "1 Vista Exchange Grn, #B1 - 13, Singapore 138617"
+        },
+        {
+          "googlePlaceId": "ChIJgRfcknUb2jERBlq0s0tig3U",
+          "name": "KFC (Coronation Shopping Plaza)",
+          "address": "587 Bukit Timah Road, #01-04, Coronation Shopping Plaza, Singapore 269707",
+          "latitude": 1.3236232,
+          "longitude": 103.81027139999999,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "587 Bukit Timah Road, #01-04, Coronation Shopping Plaza, Singapore 269707"
+        },
+        {
+          "googlePlaceId": "ChIJHbKxhboZ2jER944Wn7IH0AU",
+          "name": "KFC Bugis Junction",
+          "address": "#B1 - 09, 200 Victoria St, #B1 - 09 Bugis Junction, Singapore 188021",
+          "latitude": 1.2999829999999999,
+          "longitude": 103.85576309999999,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "200 Victoria St, #B1 - 09 Bugis Junction, Singapore 188021"
+        },
+        {
+          "googlePlaceId": "ChIJJ4D-iA0W2jERaP9rlTiJ-Zo",
+          "name": "KFC (Compass One)",
+          "address": "1 Sengkang Square, #B1-15, Singapore 545078",
+          "latitude": 1.3920652999999998,
+          "longitude": 103.8953892,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "1 Sengkang Square, #B1-15, Singapore 545078"
+        },
+        {
+          "googlePlaceId": "ChIJjVfWj3gX2jERLZ5AI0Ze9TE",
+          "name": "KFC (Potong Pasir Community Club)",
+          "address": "6 Potong Pasir Ave 2, #01-05 Community Club, Singapore 358361",
+          "latitude": 1.3328076,
+          "longitude": 103.8673278,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "6 Potong Pasir Ave 2, #01-05 Community Club, Singapore 358361"
+        },
+        {
+          "googlePlaceId": "ChIJL3MQpZIZ2jERx85DaJ-fM5o",
+          "name": "KFC (Far East Plaza)",
+          "address": "14 Scotts Road, #01-06, Far East Plaza, Singapore 228213",
+          "latitude": 1.3072063999999999,
+          "longitude": 103.83332399999999,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "14 Scotts Road, #01-06, Far East Plaza, Singapore 228213"
+        },
+        {
+          "googlePlaceId": "ChIJL4-Is7Eb2jERe0fOAkUH1ss",
+          "name": "KFC Sentosa",
+          "address": "3 Siloso Rd, #01-01 Sentosa, 098977",
+          "latitude": 1.2544635,
+          "longitude": 103.8192242,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "3 Siloso Rd, #01-01 Sentosa, 098977"
+        },
+        {
+          "googlePlaceId": "ChIJL6rI-mYX2jERjJoRhA94gCI",
+          "name": "KFC (Toa Payoh Mall)",
+          "address": "190 Lor 6 Toa Payoh, #01-578, Mall 310190",
+          "latitude": 1.3328763,
+          "longitude": 103.849373,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "190 Lor 6 Toa Payoh, #01-578, Mall 310190"
+        },
+        {
+          "googlePlaceId": "ChIJm1kpYhY92jERMENukRQlZuY",
+          "name": "KFC",
+          "address": "139 Tampines St. 11, #01-66, Singapore 521139",
+          "latitude": 1.3459153,
+          "longitude": 103.94407950000002,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "139 Tampines St. 11, #01-66, Singapore 521139"
+        },
+        {
+          "googlePlaceId": "ChIJmRnrx-wP2jERtLem-l0M7Rw",
+          "name": "KFC Jurong Point",
+          "address": "#01 - 30, 1 Jurong West Central 2, #01 - 30 Jurong Point, Singapore 648886",
+          "latitude": 1.3396367,
+          "longitude": 103.7064527,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "1 Jurong West Central 2, #01 - 30 Jurong Point, Singapore 648886"
+        },
+        {
+          "googlePlaceId": "ChIJmTc9aR8R2jER9CetxIrOzwE",
+          "name": "KFC - Le Quest",
+          "address": "4 Bukit Batok Street 41, #01-32/33/34/35/36 Le Quest Shopping Mall, Singapore 657991",
+          "latitude": 1.3556827999999999,
+          "longitude": 103.74120239999999,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "4 Bukit Batok Street 41, #01-32/33/34/35/36 Le Quest Shopping Mall, Singapore 657991"
+        },
+        {
+          "googlePlaceId": "ChIJnzw-g-cZ2jERpLm2T2CaNdA",
+          "name": "KFC (Novena Square)",
+          "address": "238 Thomson Rd, #01-16 Novena Square, Singapore 307683",
+          "latitude": 1.3199572,
+          "longitude": 103.8439076,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "238 Thomson Rd, #01-16 Novena Square, Singapore 307683"
+        },
+        {
+          "googlePlaceId": "ChIJOamELlsW2jER6kMM2lblstI",
+          "name": "KFC (Hougang 1)",
+          "address": "1 Hougang Street 91, #01-24/25 Hougang 1, Singapore 538692",
+          "latitude": 1.3755149,
+          "longitude": 103.8798446,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "1 Hougang Street 91, #01-24/25 Hougang 1, Singapore 538692"
+        },
+        {
+          "googlePlaceId": "ChIJOdXiJAAR2jERF3s8UByMUWc",
+          "name": "KFC (JEM)",
+          "address": "50 Jurong Gateway Rd, #B1-02, Singapore 608549",
+          "latitude": 1.3328303,
+          "longitude": 103.7432656,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "50 Jurong Gateway Rd, #B1-02, Singapore 608549"
+        },
+        {
+          "googlePlaceId": "ChIJP_UblpkP2jERe9vO7hgrLXs",
+          "name": "KFC Nanyang CC",
+          "address": "60 Jurong West Street 91, #01-02 Nanyang Community Club, Singapore 649040",
+          "latitude": 1.3424642,
+          "longitude": 103.6926777,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "60 Jurong West Street 91, #01-02 Nanyang Community Club, Singapore 649040"
+        },
+        {
+          "googlePlaceId": "ChIJPefJxgkR2jERj5Y-e8gYmt8",
+          "name": "KFC (Sunshine Place)",
+          "address": "#3, 475 Choa Chu Kang Ave 3, #3, Singapore 680475",
+          "latitude": 1.3775169999999999,
+          "longitude": 103.7394676,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "475 Choa Chu Kang Ave 3, #3, Singapore 680475"
+        },
+        {
+          "googlePlaceId": "ChIJq6bvoqgT2jERZEWDFdr5UuQ",
+          "name": "KFC Causeway Point",
+          "address": "#01 - 40, 1 Woodlands Sq, #01 - 40 Causeway Point, Singapore 738099",
+          "latitude": 1.4360182,
+          "longitude": 103.78642649999999,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "1 Woodlands Sq, #01 - 40 Causeway Point, Singapore 738099"
+        },
+        {
+          "googlePlaceId": "ChIJQSkW_qAT2jERn4vUMZMXK5Q",
+          "name": "KFC Woodlands 888",
+          "address": "888 Woodlands Drive 50, #01-729 888 Plaza, Singapore 730888",
+          "latitude": 1.4373719,
+          "longitude": 103.7952046,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "888 Woodlands Drive 50, #01-729 888 Plaza, Singapore 730888"
+        },
+        {
+          "googlePlaceId": "ChIJqVK--8wZ2jERY43JJwRTYuI",
+          "name": "KFC City Square Mall",
+          "address": "#B1 - 29 / 30, 180 Kitchener Road, #B1-29/30, City Square Mall, 180 Kitchener Rd, #B1 - 29 / 30, Singapore 208539",
+          "latitude": 1.311521,
+          "longitude": 103.8560675,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "180 Kitchener Road, #B1-29/30, City Square Mall, 180 Kitchener Rd, #B1 - 29 / 30, Singapore 208539"
+        },
+        {
+          "googlePlaceId": "ChIJrbAO1H4Z2jERM3PTK4VJC10",
+          "name": "KFC (Tiong Bahru Plaza)",
+          "address": "#B1 - 133, 302 Tiong Bahru Rd, B1 - 133 134, Plaza 168732",
+          "latitude": 1.2866391,
+          "longitude": 103.8274452,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "302 Tiong Bahru Rd, B1 - 133 134, Plaza 168732"
+        },
+        {
+          "googlePlaceId": "ChIJSSsI58oR2jERCLgvlXU5nNU",
+          "name": "KFC Hometeam NS",
+          "address": "2 Bukit Batok West Ave 7, #01-09A HomeTeamNS, Singapore 659003",
+          "latitude": 1.3658359999999998,
+          "longitude": 103.74977109999999,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "2 Bukit Batok West Ave 7, #01-09A HomeTeamNS, Singapore 659003"
+        },
+        {
+          "googlePlaceId": "ChIJsTvNiCwY2jERW3xKp_S2fLQ",
+          "name": "KFC Kallang",
+          "address": "190 Stadium Blvd, Singapore 397800",
+          "latitude": 1.3050019000000002,
+          "longitude": 103.88137640000001,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "190 Stadium Blvd, Singapore 397800"
+        },
+        {
+          "googlePlaceId": "ChIJsx75zI8a2jER0TpRfwfJIUU",
+          "name": "KFC (The Clementi Mall)",
+          "address": "3155 Commonwealth Ave W, B1-32/33, Singapore 129588",
+          "latitude": 1.315412,
+          "longitude": 103.76462,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "3155 Commonwealth Ave W, B1-32/33, Singapore 129588"
+        },
+        {
+          "googlePlaceId": "ChIJU2-qn3UT2jERrjloH2v8HhY",
+          "name": "KFC Admiralty Place",
+          "address": "678A Woodlands Ave 6 04, #01-04 Admiralty Place, Singapore 731678",
+          "latitude": 1.4401399,
+          "longitude": 103.8012009,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "678A Woodlands Ave 6 04, #01-04 Admiralty Place, Singapore 731678"
+        },
+        {
+          "googlePlaceId": "ChIJu6CFbQAX2jERK0Gg6QYYJ4s",
+          "name": "KFC Lentor Modern",
+          "address": "1 Lentor Central, #01-21/22 Lentor Modern, Singapore 788887",
+          "latitude": 1.3855678,
+          "longitude": 103.8347404,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "1 Lentor Central, #01-21/22 Lentor Modern, Singapore 788887"
+        },
+        {
+          "googlePlaceId": "ChIJUXhrN6MR2jERofOzX7-2eB4",
+          "name": "KFC (Bukit Panjang Plaza)",
+          "address": "1 Jelebu Rd, #02-12/13 Bukit Panjang Plaza, Singapore 677743",
+          "latitude": 1.3801545000000002,
+          "longitude": 103.7641072,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "1 Jelebu Rd, #02-12/13 Bukit Panjang Plaza, Singapore 677743"
+        },
+        {
+          "googlePlaceId": "ChIJuyIm9f0X2jERZy_iRbojBYI",
+          "name": "KFC (Reservoir Shopping Centre@Eunos)",
+          "address": "632 Bedok Reservoir Road, #01-872, Reservoir Shopping Centre@Eunos, Singapore 470632",
+          "latitude": 1.3328773999999999,
+          "longitude": 103.9137483,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "632 Bedok Reservoir Road, #01-872, Reservoir Shopping Centre@Eunos, Singapore 470632"
+        },
+        {
+          "googlePlaceId": "ChIJve9xrjcZ2jERFBTsREmWbG4",
+          "name": "KFC PLQ Mall",
+          "address": "10 Paya Lebar Rd, #B1-14 PLQ Mall, Singapore 409057",
+          "latitude": 1.3175284,
+          "longitude": 103.8928037,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "10 Paya Lebar Rd, #B1-14 PLQ Mall, Singapore 409057"
+        },
+        {
+          "googlePlaceId": "ChIJvQCp6FUF2jERIYOD-jddkQw",
+          "name": "KFC Yung Ho",
+          "address": "18 Yung Ho Rd, Singapore 618591",
+          "latitude": 1.3262726000000002,
+          "longitude": 103.723827,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "18 Yung Ho Rd, Singapore 618591"
+        },
+        {
+          "googlePlaceId": "ChIJvzidQ2QZ2jERY9WnxKZzc6U",
+          "name": "KFC Scape",
+          "address": "2 Orchard Link, #02-19/20, Singapore 237978",
+          "latitude": 1.3009537000000002,
+          "longitude": 103.8360739,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "2 Orchard Link, #02-19/20, Singapore 237978"
+        },
+        {
+          "googlePlaceId": "ChIJvZwHducW2jERNeJEAGO2AO0",
+          "name": "KFC (Ang Mo Kio Town Centre)",
+          "address": "715 Ang Mo Kio Ave 6, #01-4000, Singapore 560715",
+          "latitude": 1.3708508,
+          "longitude": 103.8459027,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "715 Ang Mo Kio Ave 6, #01-4000, Singapore 560715"
+        },
+        {
+          "googlePlaceId": "ChIJXTnYyDsV2jERsngfniq_xOE",
+          "name": "KFC (Oasis Terraces)",
+          "address": "681 Punggol Dr., #01-13 Oasis Terraces, Singapore 820681",
+          "latitude": 1.4027855999999999,
+          "longitude": 103.9134258,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "681 Punggol Dr., #01-13 Oasis Terraces, Singapore 820681"
+        },
+        {
+          "googlePlaceId": "ChIJXwEItZIa2jERrUdf7yR4oOY",
+          "name": "KFC (Pasir Panjang Gardens)",
+          "address": "35 Jln Mas Puteh, Pasir Panjang Gardens, Singapore 128635",
+          "latitude": 1.3084179999999999,
+          "longitude": 103.7621411,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "35 Jln Mas Puteh, Pasir Panjang Gardens, Singapore 128635"
+        },
+        {
+          "googlePlaceId": "ChIJxzbY1z4Q2jERIuHX2G0G95E",
+          "name": "KFC West Mall",
+          "address": "1 Bukit Batok Central Link, #01-24/25/43, West Mall, Singapore 658713",
+          "latitude": 1.3500565,
+          "longitude": 103.749223,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "1 Bukit Batok Central Link, #01-24/25/43, West Mall, Singapore 658713"
+        },
+        {
+          "googlePlaceId": "ChIJYbmijWs92jERQB0FHnB857g",
+          "name": "KFC Tampines Grove",
+          "address": "823A Tampines Street 81, #01-02 Tampines Grove, Singapore 521823",
+          "latitude": 1.3487436,
+          "longitude": 103.9336768,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "823A Tampines Street 81, #01-02 Tampines Grove, Singapore 521823"
+        },
+        {
+          "googlePlaceId": "ChIJYbVZRMQR2jERYfGWH4iH93I",
+          "name": "KFC (Keat Hong Shopping Centre)",
+          "address": "253 Choa Chu Kang Ave 1, #01-02 Keat Hong Shopping Centre, Singapore 680253",
+          "latitude": 1.3771319,
+          "longitude": 103.7443043,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "253 Choa Chu Kang Ave 1, #01-02 Keat Hong Shopping Centre, Singapore 680253"
+        },
+        {
+          "googlePlaceId": "ChIJYxVIfB8T2jER7whqhx4KImE",
+          "name": "KFC",
+          "address": "30 Woodlands Ave 1, #01-01/02/18/19 The Woodgrove, Singapore 739065",
+          "latitude": 1.4291794,
+          "longitude": 103.78107820000001,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": null,
+          "googleFormattedAddress": "30 Woodlands Ave 1, #01-01/02/18/19 The Woodgrove, Singapore 739065"
+        }
+      ]
+    },
+    {
+      "id": "ce678cf7-e97a-53ba-af36-e138b4be89b2",
+      "sourceUrl": "https://t.me/tastesoulsg/4430",
+      "merchant": "IKEA",
+      "sourceLocation": [
+        "IKEA Alexandra Bistro",
+        "IKEA Tampines Bistro, L1 & L3",
+        "IKEA Jurong Bistro"
+      ],
+      "oldReason": [
+        "google_response_not_cached_run_with_google",
+        "google_response_not_cached_run_with_google",
+        "google_response_not_cached_run_with_google",
+        "google_response_not_cached_run_with_google",
+        "google_response_not_cached_run_with_google",
+        "no_operational_google_location"
+      ],
+      "originallyCacheMissing": true,
+      "lookups": [
+        {
+          "sourceLocation": "IKEA Alexandra Bistro",
+          "merchantQuery": "IKEA IKEA Alexandra Bistro Singapore",
+          "merchantResult": "google_merchant_place_resolved",
+          "fallbackQuery": null,
+          "fallbackResult": "not_attempted",
+          "googlePlaceIds": [
+            "ChIJ-ZoGPIQb2jERxqNnNgNiNBA"
+          ]
+        },
+        {
+          "sourceLocation": "IKEA Tampines Bistro, L1 & L3",
+          "merchantQuery": "IKEA IKEA Tampines Bistro, L1 & L3 Singapore",
+          "merchantResult": "merchant_place_match_failed",
+          "fallbackQuery": "IKEA Tampines Bistro Singapore",
+          "fallbackResult": "source_location_not_found",
+          "googlePlaceIds": []
+        },
+        {
+          "sourceLocation": "IKEA Jurong Bistro",
+          "merchantQuery": "IKEA IKEA Jurong Bistro Singapore",
+          "merchantResult": "merchant_place_match_failed",
+          "fallbackQuery": "IKEA Jurong Bistro Singapore",
+          "fallbackResult": "source_location_not_found",
+          "googlePlaceIds": []
+        }
+      ],
+      "finalCoordinateBasis": [
+        "google_merchant_place"
+      ],
+      "finalStatus": "ready",
+      "finalMapStatus": "ready",
+      "remainingReasons": [
+        "source_location_not_found:IKEA Tampines Bistro, L1 & L3",
+        "source_location_not_found:IKEA Jurong Bistro"
+      ],
+      "outlets": [
+        {
+          "googlePlaceId": "ChIJ-ZoGPIQb2jERxqNnNgNiNBA",
+          "name": "IKEA Alexandra Bistro",
+          "address": "#Level 1, 317 Alexandra Rd, Level 1, Singapore 159965",
+          "latitude": 1.2879832,
+          "longitude": 103.80586819999999,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_merchant_place",
+          "sourceLocation": "IKEA Alexandra Bistro",
+          "googleFormattedAddress": "317 Alexandra Rd, Level 1, Singapore 159965"
+        }
+      ]
+    },
+    {
+      "id": "bcdf6cb5-fc27-579d-a579-68f8f6b93ab2",
+      "sourceUrl": "https://t.me/tastesoulsg/4436",
+      "merchant": "Morganfield’s",
+      "sourceLocation": [
+        "Suntec City, 01-645"
+      ],
+      "oldReason": [
+        "google_branch_not_found:Suntec City, 01-645",
+        "no_operational_google_location"
+      ],
+      "originallyCacheMissing": false,
+      "lookups": [
+        {
+          "sourceLocation": "Suntec City, 01-645",
+          "merchantQuery": "Morganfield’s Suntec City, 01-645 Singapore",
+          "merchantResult": "merchant_place_match_failed",
+          "fallbackQuery": "Suntec City Singapore",
+          "fallbackResult": "source_location_coordinate_resolved",
+          "googlePlaceIds": [
+            "ChIJ20X__K4Z2jERRE8GRs-d8HE"
+          ]
+        }
+      ],
+      "finalCoordinateBasis": [
+        "google_source_location"
+      ],
+      "finalStatus": "ready",
+      "finalMapStatus": "ready",
+      "remainingReasons": [],
+      "outlets": [
+        {
+          "googlePlaceId": "ChIJ20X__K4Z2jERRE8GRs-d8HE",
+          "name": "Suntec City",
+          "address": "Suntec City, 01-645",
+          "latitude": 1.2950324,
+          "longitude": 103.85830150000001,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_source_location",
+          "sourceLocation": "Suntec City, 01-645",
+          "googleFormattedAddress": "3 Temasek Blvd, Singapore 038983"
+        }
+      ]
+    },
+    {
+      "id": "97371d84-f814-5bf8-a23f-924bf145cc05",
+      "sourceUrl": "https://t.me/tastesoulsg/4442",
+      "merchant": "MUKAI",
+      "sourceLocation": [
+        "Plaza Singapura, B1-07"
+      ],
+      "oldReason": [
+        "google_branch_not_found:Plaza Singapura, B1-07",
+        "no_operational_google_location"
+      ],
+      "originallyCacheMissing": false,
+      "lookups": [
+        {
+          "sourceLocation": "Plaza Singapura, B1-07",
+          "merchantQuery": "MUKAI Plaza Singapura, B1-07 Singapore",
+          "merchantResult": "merchant_place_match_failed",
+          "fallbackQuery": "Plaza Singapura Singapore",
+          "fallbackResult": "source_location_coordinate_resolved",
+          "googlePlaceIds": [
+            "ChIJR1Fyfr0Z2jERzwO-AZiJ-HM"
+          ]
+        }
+      ],
+      "finalCoordinateBasis": [
+        "google_source_location"
+      ],
+      "finalStatus": "ready",
+      "finalMapStatus": "ready",
+      "remainingReasons": [],
+      "outlets": [
+        {
+          "googlePlaceId": "ChIJR1Fyfr0Z2jERzwO-AZiJ-HM",
+          "name": "Plaza Singapura",
+          "address": "Plaza Singapura, B1-07",
+          "latitude": 1.3000677999999999,
+          "longitude": 103.84478310000001,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_source_location",
+          "sourceLocation": "Plaza Singapura, B1-07",
+          "googleFormattedAddress": "68 Orchard Rd, Singapore 238839"
+        }
+      ]
+    },
+    {
+      "id": "a0b87f2c-2c53-5ca9-afb0-e051ffadc6dc",
+      "sourceUrl": "https://t.me/tastesoulsg/4444",
+      "merchant": "Zapangi Coffee",
+      "sourceLocation": [
+        "Isetan Scotts Supermarket, B1"
+      ],
+      "oldReason": [
+        "google_response_not_cached_run_with_google",
+        "no_operational_google_location"
+      ],
+      "originallyCacheMissing": true,
+      "lookups": [
+        {
+          "sourceLocation": "Isetan Scotts Supermarket, B1",
+          "merchantQuery": "Zapangi Coffee Isetan Scotts Supermarket, B1 Singapore",
+          "merchantResult": "merchant_place_match_failed",
+          "fallbackQuery": "Isetan Scotts Supermarket Singapore",
+          "fallbackResult": "source_location_coordinate_resolved",
+          "googlePlaceIds": [
+            "ChIJq6qqqo0Z2jERKymgqUO26zQ"
+          ]
+        }
+      ],
+      "finalCoordinateBasis": [
+        "google_source_location"
+      ],
+      "finalStatus": "ready",
+      "finalMapStatus": "ready",
+      "remainingReasons": [],
+      "outlets": [
+        {
+          "googlePlaceId": "ChIJq6qqqo0Z2jERKymgqUO26zQ",
+          "name": "Isetan Scotts Supermarket",
+          "address": "Isetan Scotts Supermarket, B1",
+          "latitude": 1.3056504,
+          "longitude": 103.83172080000001,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_source_location",
+          "sourceLocation": "Isetan Scotts Supermarket, B1",
+          "googleFormattedAddress": "350 Orchard Rd, Shaw House, Singapore 238868"
+        }
+      ]
+    },
+    {
+      "id": "faeea915-05e1-5a2a-a3fa-7b943fba860d",
+      "sourceUrl": "https://t.me/tastesoulsg/4453",
+      "merchant": "Hokkaido Baked Cheese Tart",
+      "sourceLocation": [
+        "Changi Airport T3, B2-11",
+        "Bugis Junction, B1-K6"
+      ],
+      "oldReason": [
+        "google_branch_not_found:Changi Airport T3, B2-11",
+        "google_branch_not_found:Bugis Junction, B1-K6",
+        "no_operational_google_location"
+      ],
+      "originallyCacheMissing": false,
+      "lookups": [
+        {
+          "sourceLocation": "Changi Airport T3, B2-11",
+          "merchantQuery": "Hokkaido Baked Cheese Tart Changi Airport T3, B2-11 Singapore",
+          "merchantResult": "merchant_place_match_failed",
+          "fallbackQuery": "Changi Airport Terminal 3 Singapore",
+          "fallbackResult": "source_location_not_found",
+          "googlePlaceIds": []
+        },
+        {
+          "sourceLocation": "Bugis Junction, B1-K6",
+          "merchantQuery": "Hokkaido Baked Cheese Tart Bugis Junction, B1-K6 Singapore",
+          "merchantResult": "merchant_place_match_failed",
+          "fallbackQuery": "Bugis Junction Singapore",
+          "fallbackResult": "source_location_coordinate_resolved",
+          "googlePlaceIds": [
+            "ChIJxyqHo7oZ2jERNQtDRIuckqU"
+          ]
+        }
+      ],
+      "finalCoordinateBasis": [
+        "google_source_location"
+      ],
+      "finalStatus": "ready",
+      "finalMapStatus": "ready",
+      "remainingReasons": [
+        "source_location_not_found:Changi Airport T3, B2-11"
+      ],
+      "outlets": [
+        {
+          "googlePlaceId": "ChIJxyqHo7oZ2jERNQtDRIuckqU",
+          "name": "Bugis Junction",
+          "address": "Bugis Junction, B1-K6",
+          "latitude": 1.2993754,
+          "longitude": 103.85552609999999,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_source_location",
+          "sourceLocation": "Bugis Junction, B1-K6",
+          "googleFormattedAddress": "200 Victoria St, Singapore 188021"
+        }
+      ]
+    },
+    {
+      "id": "690b3fb6-aa77-5a1c-a4c0-ccc3a2e3336e",
+      "sourceUrl": "https://t.me/tastesoulsg/4456",
+      "merchant": "Coffeehouse by Kobashi",
+      "sourceLocation": [
+        "79 South Bridge Road"
+      ],
+      "oldReason": [
+        "google_response_not_cached_run_with_google",
+        "no_operational_google_location"
+      ],
+      "originallyCacheMissing": true,
+      "lookups": [
+        {
+          "sourceLocation": "79 South Bridge Road",
+          "merchantQuery": "Coffeehouse by Kobashi 79 South Bridge Road Singapore",
+          "merchantResult": "merchant_place_match_failed",
+          "fallbackQuery": "79 South Bridge Road Singapore",
+          "fallbackResult": "source_location_coordinate_resolved",
+          "googlePlaceIds": [
+            "ChIJUXk-Fz4X2jER_qTp-mtzk_4"
+          ]
+        }
+      ],
+      "finalCoordinateBasis": [
+        "google_source_location"
+      ],
+      "finalStatus": "ready",
+      "finalMapStatus": "ready",
+      "remainingReasons": [],
+      "outlets": [
+        {
+          "googlePlaceId": "ChIJUXk-Fz4X2jER_qTp-mtzk_4",
+          "name": "79 South Bridge Road",
+          "address": "79 South Bridge Road",
+          "latitude": 1.2866622,
+          "longitude": 103.84806309999999,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_source_location",
+          "sourceLocation": "79 South Bridge Road",
+          "googleFormattedAddress": "79 S Bridge Rd, #01-00, Singapura 058709"
+        }
+      ]
+    },
+    {
+      "id": "5f2dd5e5-732d-5368-a954-7130a4dd5457",
+      "sourceUrl": "https://t.me/tastesoulsg/4463",
+      "merchant": "Kimpson’s Table",
+      "sourceLocation": [
+        "Far East Square, 01-01"
+      ],
+      "oldReason": [
+        "google_branch_not_found:Far East Square, 01-01",
+        "no_operational_google_location"
+      ],
+      "originallyCacheMissing": false,
+      "lookups": [
+        {
+          "sourceLocation": "Far East Square, 01-01",
+          "merchantQuery": "Kimpson’s Table Far East Square, 01-01 Singapore",
+          "merchantResult": "merchant_place_match_failed",
+          "fallbackQuery": "Far East Square Singapore",
+          "fallbackResult": "source_location_coordinate_resolved",
+          "googlePlaceIds": [
+            "ChIJb_qbYwwZ2jERH9tIsjT57tg"
+          ]
+        }
+      ],
+      "finalCoordinateBasis": [
+        "google_source_location"
+      ],
+      "finalStatus": "ready",
+      "finalMapStatus": "ready",
+      "remainingReasons": [],
+      "outlets": [
+        {
+          "googlePlaceId": "ChIJb_qbYwwZ2jERH9tIsjT57tg",
+          "name": "Far East Square",
+          "address": "Far East Square, 01-01",
+          "latitude": 1.2834477,
+          "longitude": 103.84784309999999,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_source_location",
+          "sourceLocation": "Far East Square, 01-01",
+          "googleFormattedAddress": "26 China St, Singapore 049561"
+        }
+      ]
+    },
+    {
+      "id": "47495f09-0ce1-5572-a5bf-3638ea5ca3a2",
+      "sourceUrl": "https://t.me/tastesoulsg/4463",
+      "merchant": "Kimpson’s Table",
+      "sourceLocation": [
+        "Far East Square, 01-01"
+      ],
+      "oldReason": [
+        "google_branch_not_found:Far East Square, 01-01",
+        "no_operational_google_location"
+      ],
+      "originallyCacheMissing": false,
+      "lookups": [
+        {
+          "sourceLocation": "Far East Square, 01-01",
+          "merchantQuery": "Kimpson’s Table Far East Square, 01-01 Singapore",
+          "merchantResult": "merchant_place_match_failed",
+          "fallbackQuery": "Far East Square Singapore",
+          "fallbackResult": "source_location_coordinate_resolved",
+          "googlePlaceIds": [
+            "ChIJb_qbYwwZ2jERH9tIsjT57tg"
+          ]
+        }
+      ],
+      "finalCoordinateBasis": [
+        "google_source_location"
+      ],
+      "finalStatus": "ready",
+      "finalMapStatus": "ready",
+      "remainingReasons": [],
+      "outlets": [
+        {
+          "googlePlaceId": "ChIJb_qbYwwZ2jERH9tIsjT57tg",
+          "name": "Far East Square",
+          "address": "Far East Square, 01-01",
+          "latitude": 1.2834477,
+          "longitude": 103.84784309999999,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_source_location",
+          "sourceLocation": "Far East Square, 01-01",
+          "googleFormattedAddress": "26 China St, Singapore 049561"
+        }
+      ]
+    },
+    {
+      "id": "c05f7962-50fa-5e96-a653-c3c4750791a3",
+      "sourceUrl": "https://t.me/tastesoulsg/4463",
+      "merchant": "Kimpson’s Table",
+      "sourceLocation": [
+        "Far East Square, 01-01"
+      ],
+      "oldReason": [
+        "google_branch_not_found:Far East Square, 01-01",
+        "no_operational_google_location"
+      ],
+      "originallyCacheMissing": false,
+      "lookups": [
+        {
+          "sourceLocation": "Far East Square, 01-01",
+          "merchantQuery": "Kimpson’s Table Far East Square, 01-01 Singapore",
+          "merchantResult": "merchant_place_match_failed",
+          "fallbackQuery": "Far East Square Singapore",
+          "fallbackResult": "source_location_coordinate_resolved",
+          "googlePlaceIds": [
+            "ChIJb_qbYwwZ2jERH9tIsjT57tg"
+          ]
+        }
+      ],
+      "finalCoordinateBasis": [
+        "google_source_location"
+      ],
+      "finalStatus": "ready",
+      "finalMapStatus": "ready",
+      "remainingReasons": [],
+      "outlets": [
+        {
+          "googlePlaceId": "ChIJb_qbYwwZ2jERH9tIsjT57tg",
+          "name": "Far East Square",
+          "address": "Far East Square, 01-01",
+          "latitude": 1.2834477,
+          "longitude": 103.84784309999999,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_source_location",
+          "sourceLocation": "Far East Square, 01-01",
+          "googleFormattedAddress": "26 China St, Singapore 049561"
+        }
+      ]
+    },
+    {
+      "id": "826e2cbd-dd1c-5edb-a417-e9645fe2a310",
+      "sourceUrl": "https://t.me/tastesoulsg/4463",
+      "merchant": "Kimpson’s Table",
+      "sourceLocation": [
+        "Far East Square, 01-01"
+      ],
+      "oldReason": [
+        "google_branch_not_found:Far East Square, 01-01",
+        "no_operational_google_location"
+      ],
+      "originallyCacheMissing": false,
+      "lookups": [
+        {
+          "sourceLocation": "Far East Square, 01-01",
+          "merchantQuery": "Kimpson’s Table Far East Square, 01-01 Singapore",
+          "merchantResult": "merchant_place_match_failed",
+          "fallbackQuery": "Far East Square Singapore",
+          "fallbackResult": "source_location_coordinate_resolved",
+          "googlePlaceIds": [
+            "ChIJb_qbYwwZ2jERH9tIsjT57tg"
+          ]
+        }
+      ],
+      "finalCoordinateBasis": [
+        "google_source_location"
+      ],
+      "finalStatus": "ready",
+      "finalMapStatus": "ready",
+      "remainingReasons": [],
+      "outlets": [
+        {
+          "googlePlaceId": "ChIJb_qbYwwZ2jERH9tIsjT57tg",
+          "name": "Far East Square",
+          "address": "Far East Square, 01-01",
+          "latitude": 1.2834477,
+          "longitude": 103.84784309999999,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_source_location",
+          "sourceLocation": "Far East Square, 01-01",
+          "googleFormattedAddress": "26 China St, Singapore 049561"
+        }
+      ]
+    },
+    {
+      "id": "ee2ce870-724d-5cb0-a428-3e9803b3fba5",
+      "sourceUrl": "https://t.me/tastesoulsg/4472",
+      "merchant": "MilkyShop",
+      "sourceLocation": [
+        "New Bahru, Factory Block L1"
+      ],
+      "oldReason": [
+        "google_response_not_cached_run_with_google",
+        "google_response_not_cached_run_with_google",
+        "no_operational_google_location"
+      ],
+      "originallyCacheMissing": true,
+      "lookups": [
+        {
+          "sourceLocation": "New Bahru, Factory Block L1",
+          "merchantQuery": "MilkyShop New Bahru, Factory Block L1 Singapore",
+          "merchantResult": "merchant_place_match_failed",
+          "fallbackQuery": "New Bahru Singapore",
+          "fallbackResult": "source_location_coordinate_resolved",
+          "googlePlaceIds": [
+            "ChIJlwOQpJ4Z2jER5EGYnv1VcvE"
+          ]
+        }
+      ],
+      "finalCoordinateBasis": [
+        "google_source_location"
+      ],
+      "finalStatus": "ready",
+      "finalMapStatus": "ready",
+      "remainingReasons": [],
+      "outlets": [
+        {
+          "googlePlaceId": "ChIJlwOQpJ4Z2jER5EGYnv1VcvE",
+          "name": "New Bahru",
+          "address": "New Bahru, Factory Block L1",
+          "latitude": 1.2927823,
+          "longitude": 103.8391681,
+          "businessStatus": "OPERATIONAL",
+          "coordinateBasis": "google_source_location",
+          "sourceLocation": "New Bahru, Factory Block L1",
+          "googleFormattedAddress": "46 Kim Yam Road New Bahru (School Block, Singapore 239351"
+        }
+      ]
+    }
+  ]
+}

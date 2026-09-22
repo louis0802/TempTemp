@@ -364,8 +364,9 @@ export default function Explorer({
               {includeExpired
                 ? "Curated corpus preview includes all records, including incomplete, online-only, expired and upcoming offers. "
                 : ""}
-              Pins show merchant locations, not confirmed promotion
-              participation. Check each offer’s restrictions before visiting.
+              Pins show merchant or source-stated locations, not confirmed
+              promotion participation. Check each offer’s restrictions before
+              visiting.
             </p>
           )}
           {demo && (
@@ -662,6 +663,26 @@ export default function Explorer({
                 <div>
                   <strong>{o.name}</strong>
                   <p>{o.address}</p>
+                  {o.coordinateBasis === "google_source_location" && (
+                    <p>
+                      Pin marks the source-stated location. Google supplied
+                      venue/address coordinates; merchant operation, unit and
+                      promotion participation are not verified.
+                    </p>
+                  )}
+                  {o.coordinateBasis === "google_source_location" &&
+                    o.googlePlaceId && (
+                      <p>
+                        Google anchor:{" "}
+                        <a
+                          href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(o.googleFormattedAddress ?? o.name)}&query_place_id=${encodeURIComponent(o.googlePlaceId)}`}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          {o.googleFormattedAddress}
+                        </a>
+                      </p>
+                    )}
                 </div>
                 {!demo && (
                   <a

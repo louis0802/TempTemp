@@ -1,3 +1,4 @@
+import { mvpSourceLocations } from "./source-location";
 import { mvpContent } from "./content";
 import { DateTime } from "luxon";
 import {
@@ -259,6 +260,7 @@ export class MvpPipeline {
           status: "needs_location",
           lifecycle: lifecycle(dates.startDate, dates.endDate, now),
           reasons: [],
+          locationAudit: [],
           datePattern: dates.pattern,
           genuine: true,
           contentStatus: "resolved",
@@ -304,12 +306,14 @@ export class MvpPipeline {
           p.mapStatus !== "online_only"
         ) {
           try {
-            const snapshot = await this.discovery.discover(
+            const discover =
+              this.discovery.discoverMvp ?? this.discovery.discover;
+            const snapshot = await discover.call(
+              this.discovery,
               offer.merchant,
-              named
-                ? scope.names.flatMap((n) => n.split(/\s*\|\s*/))
-                : undefined,
+              named ? mvpSourceLocations(plain(scope.raw)) : undefined,
             );
+            p.locationAudit = snapshot.locationAudit ?? [];
             const outlets = new Map<string, MvpPromotion["outlets"][number]>();
             for (const b of snapshot.branches) {
               const r = b.resolvedPlace;
@@ -319,23 +323,32 @@ export class MvpPipeline {
                 address: r?.address,
                 latitude: r?.lat,
                 longitude: r?.lng,
-                businessStatus: r?.businessStatus,
+                businessStatus: r?.businessStatus ?? null,
+                coordinateBasis: b.coordinateBasis ?? "google_merchant_place",
+                sourceLocation: b.sourceLocation ?? null,
+                googleFormattedAddress: b.googleFormattedAddress ?? r?.address,
               });
               if (b.status === "operating" && parsed.success)
-                outlets.set(parsed.data.googlePlaceId, parsed.data);
+                outlets.set(
+                  `${parsed.data.googlePlaceId}:${parsed.data.sourceLocation ?? ""}`,
+                  parsed.data,
+                );
             }
-            p.outlets = [...outlets.values()].sort((a, b) =>
-              a.googlePlaceId.localeCompare(b.googlePlaceId),
+            p.outlets = [...outlets.values()].sort(
+              (a, b) =>
+                a.googlePlaceId.localeCompare(b.googlePlaceId) ||
+                (a.sourceLocation ?? "").localeCompare(b.sourceLocation ?? ""),
             );
             p.mapStatus = p.outlets.length ? "ready" : "needs_location";
-            p.reasons = p.outlets.length
-              ? []
-              : [
-                  ...snapshot.issues.filter(
-                    (i) => i !== "google_search_not_authoritative_enumeration",
-                  ),
-                  "no_operational_google_location",
-                ];
+            p.reasons = [
+              ...new Set(
+                snapshot.issues.filter(
+                  (i) => i !== "google_search_not_authoritative_enumeration",
+                ),
+              ),
+            ];
+            if (!p.outlets.length && !p.reasons.length)
+              p.reasons.push("merchant_place_match_failed");
           } catch (error) {
             p.reasons = [
               error instanceof Error ? error.message : "google_search_failed",

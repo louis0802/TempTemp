@@ -12,8 +12,10 @@ const google = process.argv.includes("--google");
 if (google && !process.env.GOOGLE_PLACES_API_KEY)
   throw new Error("google_places_api_key_missing");
 await mkdir(".local/mvp-google", { recursive: true });
+const providerFailures: string[] = [];
 const cachedFetch: typeof fetch = async (input, init) => {
-  const path = `.local/mvp-google/${digest(init?.body)}.json`;
+  const fields = new Headers(init?.headers).get("X-Goog-FieldMask") ?? "";
+  const path = `.local/mvp-google/${digest(fields.includes("places.types") ? { body: init?.body, fields } : init?.body)}.json`;
   try {
     const cached = JSON.parse(await readFile(path, "utf8")) as {
       text: string;
@@ -24,8 +26,17 @@ const cachedFetch: typeof fetch = async (input, init) => {
   } catch (error) {
     if ((error as NodeJS.ErrnoException).code !== "ENOENT") throw error;
   }
-  if (!google) throw new Error("google_response_not_cached_run_with_google");
-  const response = await fetch(input, init);
+  if (!google) throw new Error("google_cache_missing");
+  let response: Response;
+  try {
+    response = await fetch(input, init);
+  } catch (error) {
+    providerFailures.push(
+      error instanceof Error ? error.message : "google_search_failed",
+    );
+    throw error;
+  }
+  if (!response.ok) providerFailures.push(`Provider HTTP ${response.status}`);
   const text = await response.text();
   if (response.ok)
     await writeFile(path, JSON.stringify({ text, fetchedAt: Date.now() }));
@@ -43,6 +54,11 @@ const artifact = await buildCorpus(
   await readCorpus(),
   now,
 );
+// A transport outage is not evidence that every previously mapped outlet disappeared.
+if (google && providerFailures.length)
+  throw new Error(
+    `Google build failed; previous artifact retained: ${[...new Set(providerFailures)].join("; ")}`,
+  );
 await mkdir("data", { recursive: true });
 await writeFile(
   "data/mvp-promotions.json.tmp",

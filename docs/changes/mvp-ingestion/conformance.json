@@ -540,7 +540,7 @@
       "actual": [
         {
           "id": "dcff1afd-1834-5b26-ac02-5519347d7899",
-          "status": "needs_location",
+          "status": "ready",
           "genuine": true,
           "datePattern": "single_explicit_date_or_event",
           "startDate": "2026-09-12",
@@ -551,7 +551,7 @@
         },
         {
           "id": "79a101a4-5b7c-5026-acf0-b3fd5e0629b6",
-          "status": "needs_location",
+          "status": "ready",
           "genuine": true,
           "datePattern": "single_explicit_date_or_event",
           "startDate": "2026-09-19",
@@ -562,7 +562,7 @@
         },
         {
           "id": "a3f836a6-c225-526d-ab55-d788a5d2fc4d",
-          "status": "needs_location",
+          "status": "ready",
           "genuine": true,
           "datePattern": "single_explicit_date_or_event",
           "startDate": "2026-09-26",
@@ -792,7 +792,7 @@
       "actual": [
         {
           "id": "ee2ce870-724d-5cb0-a428-3e9803b3fba5",
-          "status": "needs_location",
+          "status": "ready",
           "genuine": true,
           "datePattern": "now_to_date",
           "startDate": "2026-09-08",
@@ -849,7 +849,7 @@
       "actual": [
         {
           "id": "029eeced-1db8-5ab9-a00d-fe1f69d6ef6a",
-          "status": "needs_location",
+          "status": "ready",
           "genuine": true,
           "datePattern": "single_explicit_date_or_event",
           "startDate": "2026-09-08",
@@ -860,7 +860,7 @@
         },
         {
           "id": "514dd7cd-7cca-56be-a55e-bfd2c2dd4eba",
-          "status": "needs_location",
+          "status": "ready",
           "genuine": true,
           "datePattern": "single_explicit_date_or_event",
           "startDate": "2026-09-09",
@@ -1473,7 +1473,7 @@
       "actual": [
         {
           "id": "5f2dd5e5-732d-5368-a954-7130a4dd5457",
-          "status": "needs_location",
+          "status": "ready",
           "genuine": true,
           "datePattern": "single_explicit_date_or_event",
           "startDate": "2026-09-05",
@@ -1484,7 +1484,7 @@
         },
         {
           "id": "47495f09-0ce1-5572-a5bf-3638ea5ca3a2",
-          "status": "needs_location",
+          "status": "ready",
           "genuine": true,
           "datePattern": "single_explicit_date_or_event",
           "startDate": "2026-09-12",
@@ -1495,7 +1495,7 @@
         },
         {
           "id": "c05f7962-50fa-5e96-a653-c3c4750791a3",
-          "status": "needs_location",
+          "status": "ready",
           "genuine": true,
           "datePattern": "single_explicit_date_or_event",
           "startDate": "2026-09-19",
@@ -1506,7 +1506,7 @@
         },
         {
           "id": "826e2cbd-dd1c-5edb-a417-e9645fe2a310",
-          "status": "needs_location",
+          "status": "ready",
           "genuine": true,
           "datePattern": "single_explicit_date_or_event",
           "startDate": "2026-09-26",
@@ -2096,7 +2096,7 @@
       "actual": [
         {
           "id": "690b3fb6-aa77-5a1c-a4c0-ccc3a2e3336e",
-          "status": "needs_location",
+          "status": "ready",
           "genuine": true,
           "datePattern": "now_to_date",
           "startDate": "2026-09-01",
@@ -2192,7 +2192,7 @@
         },
         {
           "id": "faeea915-05e1-5a2a-a3fa-7b943fba860d",
-          "status": "needs_location",
+          "status": "ready",
           "genuine": true,
           "datePattern": "single_explicit_date_or_event",
           "startDate": "2026-09-03",
@@ -2687,7 +2687,7 @@
       "actual": [
         {
           "id": "737105d9-338d-50ee-af7b-9f30be167fb9",
-          "status": "needs_location",
+          "status": "ready",
           "genuine": true,
           "datePattern": "single_explicit_date_or_event",
           "startDate": "2026-08-27",
@@ -2855,7 +2855,7 @@
       "actual": [
         {
           "id": "a0b87f2c-2c53-5ca9-afb0-e051ffadc6dc",
-          "status": "needs_location",
+          "status": "ready",
           "genuine": true,
           "datePattern": "now_to_date",
           "startDate": "2026-08-26",
@@ -2911,7 +2911,7 @@
       "actual": [
         {
           "id": "c37e7902-2e92-5d6b-ab62-e6b77b44147e",
-          "status": "needs_location",
+          "status": "ready",
           "genuine": true,
           "datePattern": "now_to_date",
           "startDate": "2026-08-25",
@@ -2939,7 +2939,7 @@
       "actual": [
         {
           "id": "97371d84-f814-5bf8-a23f-924bf145cc05",
-          "status": "needs_location",
+          "status": "ready",
           "genuine": true,
           "datePattern": "now_to_date",
           "startDate": "2026-08-25",
@@ -3231,7 +3231,7 @@
       "actual": [
         {
           "id": "2c938b46-a3d9-5619-a9ab-749238cbfc3f",
-          "status": "needs_location",
+          "status": "ready",
           "genuine": true,
           "datePattern": "explicit_range",
           "startDate": "2026-08-21",
@@ -3289,7 +3289,7 @@
       "actual": [
         {
           "id": "bcdf6cb5-fc27-579d-a579-68f8f6b93ab2",
-          "status": "needs_location",
+          "status": "ready",
           "genuine": true,
           "datePattern": "now_to_date",
           "startDate": "2026-08-21",
@@ -3373,7 +3373,7 @@
       "actual": [
         {
           "id": "5d1b5a6a-873c-59fb-a617-8d8a57bf7c5b",
-          "status": "needs_location",
+          "status": "ready",
           "genuine": true,
           "datePattern": "single_explicit_date_or_event",
           "startDate": "2026-08-22",
@@ -3461,7 +3461,7 @@
       "actual": [
         {
           "id": "9849e87f-4006-5d30-a9c3-3cc6d8065a63",
-          "status": "needs_location",
+          "status": "ready",
           "genuine": true,
           "datePattern": "now_to_date",
           "startDate": "2026-08-20",
@@ -3545,7 +3545,7 @@
       "actual": [
         {
           "id": "ff4994ee-8b03-5be1-a2cd-3e1ad3efabec",
-          "status": "needs_location",
+          "status": "ready",
           "genuine": true,
           "datePattern": "now_to_date",
           "startDate": "2026-08-19",
@@ -3573,7 +3573,7 @@
       "actual": [
         {
           "id": "ce678cf7-e97a-53ba-af36-e138b4be89b2",
-          "status": "needs_location",
+          "status": "ready",
           "genuine": true,
           "datePattern": "explicit_range",
           "startDate": "2026-08-20",
@@ -3629,7 +3629,7 @@
       "actual": [
         {
           "id": "d01a2c98-3d71-5947-a3e3-d5810ca21d8d",
-          "status": "needs_location",
+          "status": "ready",
           "genuine": true,
           "datePattern": "now_to_date",
           "startDate": "2026-08-19",
@@ -3713,7 +3713,7 @@
       "actual": [
         {
           "id": "2dd60251-a2aa-5b1c-a2f3-ba95038f173e",
-          "status": "needs_location",
+          "status": "ready",
           "genuine": true,
           "datePattern": "now_to_date",
           "startDate": "2026-08-18",
@@ -3993,7 +3993,7 @@
       "actual": [
         {
           "id": "67eb6c91-e934-5abf-aec7-db145e4cfd49",
-          "status": "needs_location",
+          "status": "ready",
           "genuine": true,
           "datePattern": "now_to_date",
           "startDate": "2026-08-14",
@@ -4492,7 +4492,7 @@
       "actual": [
         {
           "id": "70bf8e46-9a61-5002-ab52-37b84a8be20b",
-          "status": "needs_location",
+          "status": "ready",
           "genuine": true,
           "datePattern": "explicit_range",
           "startDate": "2026-08-14",
@@ -4898,7 +4898,7 @@
       "actual": [
         {
           "id": "70bd9af3-9126-559d-a88c-b67294164c03",
-          "status": "needs_location",
+          "status": "ready",
           "genuine": true,
           "datePattern": "now_to_date",
           "startDate": "2026-08-11",
@@ -5094,7 +5094,7 @@
       "actual": [
         {
           "id": "d6f5a1a5-0cfb-5f99-a3e5-c6fa6aeb426a",
-          "status": "needs_location",
+          "status": "ready",
           "genuine": true,
           "datePattern": "now_to_date",
           "startDate": "2026-08-11",

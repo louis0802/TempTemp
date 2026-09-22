@@ -10,7 +10,20 @@ export const mvpOutletSchema = z.object({
   address: z.string().min(1),
   latitude: z.number().min(1.15).max(1.5),
   longitude: z.number().min(103.6).max(104.1),
-  businessStatus: z.literal("OPERATIONAL"),
+  businessStatus: z.literal("OPERATIONAL").nullable(),
+  coordinateBasis: z
+    .enum(["google_merchant_place", "google_source_location"])
+    .default("google_merchant_place"),
+  sourceLocation: z.string().min(1).nullable().default(null),
+  googleFormattedAddress: z.string().min(1).optional(),
+});
+export const locationLookupAuditSchema = z.object({
+  sourceLocation: z.string().nullable(),
+  merchantQuery: z.string(),
+  merchantResult: z.string(),
+  fallbackQuery: z.string().nullable(),
+  fallbackResult: z.string(),
+  googlePlaceIds: z.array(z.string()),
 });
 export const mvpPromotionSchema = z
   .object({
@@ -51,11 +64,33 @@ export const mvpPromotionSchema = z
     mapStatus: z.enum(["ready", "needs_location", "online_only"]),
     lifecycle: z.enum(["active", "expired", "upcoming", "unknown"]),
     reasons: z.array(z.string()),
+    locationAudit: z.array(locationLookupAuditSchema).default([]),
     datePattern: z.string(),
     // Legacy field: curated inclusion, not verified savings or publication approval.
     genuine: z.boolean(),
   })
   .superRefine((p, ctx) => {
+    for (const o of p.outlets) {
+      if (
+        o.coordinateBasis === "google_source_location" &&
+        (!o.sourceLocation ||
+          !o.googleFormattedAddress ||
+          o.address !== o.sourceLocation)
+      )
+        ctx.addIssue({
+          code: "custom",
+          message:
+            "Source coordinates require separate Google address and preserved source location",
+        });
+      if (
+        o.coordinateBasis === "google_merchant_place" &&
+        o.businessStatus !== "OPERATIONAL"
+      )
+        ctx.addIssue({
+          code: "custom",
+          message: "Merchant places must be operational",
+        });
+    }
     if (
       p.mapStatus === "online_only" &&
       (p.outlets.length || p.outletScope !== "online_only")

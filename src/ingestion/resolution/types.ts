@@ -21,7 +21,18 @@ export interface Evidence {
   checkedAt: string;
   sourceHash?: string;
 }
+export interface LocationLookupAudit {
+  sourceLocation: string | null;
+  merchantQuery: string;
+  merchantResult: string;
+  fallbackQuery: string | null;
+  fallbackResult: string;
+  googlePlaceIds: string[];
+}
 export interface MerchantBranch {
+  coordinateBasis?: "google_merchant_place" | "google_source_location";
+  sourceLocation?: string;
+  googleFormattedAddress?: string;
   name: string;
   address: string;
   postalCode: string;
@@ -31,6 +42,7 @@ export interface MerchantBranch {
   resolvedPlace?: ResolvedPlace;
 }
 export interface DirectorySnapshot {
+  locationAudit?: LocationLookupAudit[];
   branches: MerchantBranch[];
   authoritative: boolean;
   fullyTraversed: boolean;
@@ -39,6 +51,7 @@ export interface DirectorySnapshot {
   issues: string[];
 }
 export interface OutletDiscovery {
+  discoverMvp?(merchant: string, names?: string[]): Promise<DirectorySnapshot>;
   discover(merchant: string, names?: string[]): Promise<DirectorySnapshot>;
 }
 export interface MerchantOutletProvider {

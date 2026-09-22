@@ -1,4 +1,10 @@
 import { z } from "zod";
+import {
+  streetIdentity,
+  sourceLocationQuery,
+  sameSourceLocation,
+  usableSourceLocation,
+} from "../mvp/source-location";
 import { ResolutionCache, fetchText } from "./cache";
 import type {
   DirectorySnapshot,
@@ -27,7 +33,14 @@ const responseSchema = z.object({
   places: z.array(placeSchema).default([]),
   nextPageToken: z.string().optional(),
 });
-type GooglePlace = z.infer<typeof placeSchema>;
+const mvpPlaceSchema = placeSchema.extend({
+  businessStatus: z.string().optional(),
+  types: z.array(z.string()).optional(),
+});
+const mvpResponseSchema = responseSchema.extend({
+  places: z.array(mvpPlaceSchema).default([]),
+});
+type GooglePlace = z.infer<typeof mvpPlaceSchema>;
 const words = (s: string) =>
   s
     .normalize("NFKC")
@@ -142,10 +155,10 @@ export class GoogleOutletDiscovery implements OutletDiscovery {
     private fetcher: typeof fetch = fetch,
     private mvpIdentity = false,
   ) {}
-  private async search(query: string) {
+  private async search(query: string, mvp = false, sourceLocation = false) {
     if (!this.key) throw new Error("google_places_api_key_missing");
     return this.cache.get(
-      "google-discovery:" + words(query),
+      `google-discovery:${mvp ? "mvp:" : ""}${sourceLocation ? "source:" : ""}${words(query)}`,
       endpoint,
       3600_000,
       async () => {
@@ -156,11 +169,11 @@ export class GoogleOutletDiscovery implements OutletDiscovery {
         let token: string | undefined;
         for (let page = 0; page < 3; page++) {
           const cached = await this.cache.get(
-            `google-discovery-page:${words(query)}:${page}`,
+            `google-discovery-page:${mvp ? "mvp:" : ""}${sourceLocation ? "source:" : ""}${words(query)}:${page}`,
             endpoint,
             3600_000,
             async () =>
-              responseSchema.parse(
+              (mvp ? mvpResponseSchema : responseSchema).parse(
                 JSON.parse(
                   await fetchText(
                     endpoint,
@@ -170,7 +183,8 @@ export class GoogleOutletDiscovery implements OutletDiscovery {
                         "Content-Type": "application/json",
                         "X-Goog-Api-Key": this.key!,
                         "X-Goog-FieldMask":
-                          "places.id,places.displayName,places.formattedAddress,places.businessStatus,places.location,places.addressComponents,nextPageToken",
+                          "places.id,places.displayName,places.formattedAddress,places.businessStatus,places.location,places.addressComponents,nextPageToken" +
+                          (sourceLocation ? ",places.types" : ""),
                       },
                       body: JSON.stringify({
                         textQuery: query,
@@ -224,6 +238,175 @@ export class GoogleOutletDiscovery implements OutletDiscovery {
         };
       },
     );
+  }
+  /** Explicit MVP-only coordinate fallback; strict discover never calls this method. */
+  async discoverMvp(
+    merchant: string,
+    names?: string[],
+  ): Promise<DirectorySnapshot> {
+    const snapshot: DirectorySnapshot = {
+      branches: [],
+      authoritative: false,
+      fullyTraversed: false,
+      pages: [],
+      officialCount: null,
+      issues: [],
+      locationAudit: [],
+    };
+    for (const name of names ?? [""]) {
+      const audit = {
+        sourceLocation: name || null,
+        merchantQuery: `${merchant} ${name} Singapore`.replace(/\s+/g, " "),
+        merchantResult: "",
+        fallbackQuery: null as string | null,
+        fallbackResult: "not_attempted",
+        googlePlaceIds: [] as string[],
+      };
+      snapshot.locationAudit!.push(audit);
+      try {
+        const response = await this.search(audit.merchantQuery, true);
+        snapshot.pages.push(...response.value.pages);
+        if (!response.value.paginationComplete) {
+          audit.merchantResult = "google_search_pagination_incomplete";
+          snapshot.issues.push(audit.merchantResult);
+          continue;
+        }
+        const identities = response.value.places.filter(
+          (p) =>
+            inSingapore(p) &&
+            mvpMerchantMatch(p.displayName.text, merchant) &&
+            (!name || namedMatch(p, name)),
+        );
+        const matches = identities.filter(
+          (p) => p.businessStatus === "OPERATIONAL",
+        );
+        if (matches.length && (!name || matches.length === 1)) {
+          audit.merchantResult = "google_merchant_place_resolved";
+          for (const p of matches) {
+            const branch = toBranch(
+              p,
+              name || p.displayName.text,
+              response.value.placeEvidence[p.id],
+            );
+            snapshot.branches.push({
+              ...branch,
+              coordinateBasis: "google_merchant_place",
+              sourceLocation: name || undefined,
+              googleFormattedAddress: p.formattedAddress,
+            });
+            audit.googlePlaceIds.push(p.id);
+          }
+          continue;
+        }
+        audit.merchantResult = matches.length
+          ? "merchant_place_ambiguous"
+          : identities.length
+            ? "merchant_place_closed_or_unavailable"
+            : "merchant_place_match_failed";
+        if (!name) {
+          audit.fallbackResult = "no_usable_source_location";
+          snapshot.issues.push(audit.merchantResult, audit.fallbackResult);
+          continue;
+        }
+        const query = sourceLocationQuery(name);
+        if (!usableSourceLocation(query)) {
+          audit.fallbackResult = "source_location_too_vague";
+          snapshot.issues.push(`${audit.fallbackResult}:${name}`);
+          continue;
+        }
+        audit.fallbackQuery = `${query} Singapore`;
+        const fallback = await this.search(audit.fallbackQuery, true, true);
+        snapshot.pages.push(...fallback.value.pages);
+        if (!fallback.value.paginationComplete) {
+          audit.fallbackResult = "source_location_pagination_incomplete";
+        } else {
+          let candidates = fallback.value.places.filter(
+            (p) =>
+              inSingapore(p) &&
+              !(p.types ?? []).some((t) =>
+                [
+                  "bus_stop",
+                  "transit_stop",
+                  "parking",
+                  "country",
+                  "locality",
+                  "sublocality",
+                  "neighborhood",
+                  "route",
+                  "postal_code",
+                ].includes(t),
+              ) &&
+              sameSourceLocation(
+                query,
+                p.displayName.text,
+                p.formattedAddress,
+                p.addressComponents,
+                p.types,
+              ),
+          );
+          if (streetIdentity(query)) {
+            // A uniquely identified building/address outranks its tenant listings.
+            // Type only ranks candidates already matching the exact street identity.
+            const anchors = candidates.filter(
+              (p) =>
+                (p.types ?? []).some((t) =>
+                  [
+                    "premise",
+                    "street_address",
+                    "shopping_mall",
+                    "plaza",
+                    "business_center",
+                  ].includes(t),
+                ) &&
+                !unitOf(p.formattedAddress) &&
+                !p.addressComponents.some((c) =>
+                  c.types.includes("subpremise"),
+                ),
+            );
+            if (anchors.length) candidates = anchors;
+          }
+          // Count all identity matches before status filtering: closure does not resolve ambiguity.
+          if (candidates.length > 1)
+            audit.fallbackResult = "source_location_ambiguous";
+          else if (!candidates.length)
+            audit.fallbackResult = "source_location_not_found";
+          else {
+            const p = candidates[0];
+            if (p.businessStatus && p.businessStatus !== "OPERATIONAL")
+              audit.fallbackResult = "source_location_closed_or_unavailable";
+            else {
+              const branch = toBranch(
+                p,
+                query,
+                fallback.value.placeEvidence[p.id],
+              );
+              snapshot.branches.push({
+                ...branch,
+                address: name,
+                unit: unitOf(name),
+                status: "operating",
+                existenceEvidence: [],
+                coordinateBasis: "google_source_location",
+                sourceLocation: name,
+                googleFormattedAddress: p.formattedAddress,
+                resolvedPlace: { ...branch.resolvedPlace!, address: name },
+              });
+              audit.fallbackResult = "source_location_coordinate_resolved";
+              audit.googlePlaceIds.push(p.id);
+            }
+          }
+        }
+        if (audit.fallbackResult !== "source_location_coordinate_resolved")
+          snapshot.issues.push(`${audit.fallbackResult}:${name}`);
+      } catch (error) {
+        const reason =
+          error instanceof Error ? error.message : "google_search_failed";
+        if (audit.fallbackQuery) audit.fallbackResult = reason;
+        else audit.merchantResult = reason;
+        snapshot.issues.push(`${reason}${name ? ":" + name : ""}`);
+      }
+    }
+    return snapshot;
   }
   async discover(
     merchant: string,
