@@ -41,8 +41,9 @@ test("MVP cards, actual map layout and details preserve merchant-location semant
   await expect(
     page.getByRole("heading", { name: "A good deal is just around." }),
   ).toBeVisible();
+  await page.getByText("ⓘ Location info", { exact: true }).click();
   await expect(
-    page.getByText("Pins show merchant or source-stated locations", {
+    page.getByText("Pins may show merchant or source-stated locations.", {
       exact: false,
     }),
   ).toBeVisible();
@@ -383,4 +384,210 @@ test("clicking a shared anchor lists both promotions and opens each exact detail
       exact: true,
     }),
   ).toBeFocused();
+});
+
+test("unified discovery searches outside viewport, fits merchants, opens deals and clears manual context", async ({
+  page,
+}, info) => {
+  await page.route("https://tile.openstreetmap.org/**", (r) =>
+    r.fulfill({
+      contentType: "image/png",
+      body: readFileSync("tests/fixtures/tile.png"),
+    }),
+  );
+  await page.goto("/mvp?includeExpired=true");
+  await expect(
+    page.getByRole("heading", { name: "A good deal is just around." }),
+  ).toBeVisible();
+  const header = page.locator(".results-heading");
+  await expect(header).toContainText("Map area");
+  await expect(
+    page.getByText("Central Singapore", { exact: true }),
+  ).toHaveCount(0);
+  await expect(page.locator(".location-info p").first()).not.toBeVisible();
+  await page.locator(".location-info summary").focus();
+  await page.keyboard.press("Enter");
+  await expect(page.locator(".location-info p").first()).toBeVisible();
+  await page.keyboard.press("Enter");
+  const search = page.getByRole("textbox", {
+    name: "Search merchants, deals or places",
+  });
+  await search.fill("Tampines");
+  await page
+    .getByRole("region", { name: "Places", exact: true })
+    .getByRole("button", { name: /^Tampines/ })
+    .click();
+  await expect(header).toContainText("Tampines");
+  await expect(header).toContainText("deals in this area");
+  await expect(
+    page.locator(".offer-card").filter({ hasText: "Morganfield" }),
+  ).toHaveCount(0);
+  await search.fill("Morganfield");
+  const merchants = page.getByRole("region", {
+    name: "Merchants",
+    exact: true,
+  });
+  await expect(merchants.getByRole("button")).toHaveCount(1);
+  await expect(merchants).toContainText("2 promotions · Suntec City");
+  await page.screenshot({
+    path: `test-results/discovery-search-${info.project.name}.png`,
+    fullPage: true,
+  });
+  await merchants.getByRole("button").click();
+  await expect(page.locator(".merchant-target")).toContainText("Morganfield");
+  await expect(page.locator(".offer-card")).toHaveCount(2);
+  await expect(header).toContainText("2 deals");
+  await expect(page.locator(".map-pin")).toHaveCount(1);
+  await expect(page.locator(".map-pin.selected")).toHaveCount(1);
+  await page.getByRole("button", { name: "Clear merchant filter" }).click();
+  await search.fill("Angus Ribeye");
+  await page
+    .getByRole("region", { name: "Deals", exact: true })
+    .getByRole("button")
+    .first()
+    .click();
+  await expect(page.locator(".detail-dialog h3")).toContainText("Angus Ribeye");
+  await expect(page.locator(".map-pin.selected")).toHaveCount(1);
+  await page.getByRole("button", { name: "Close offer details" }).click();
+  await search.fill("Suntec");
+  await page
+    .getByRole("region", { name: "Promotion locations", exact: true })
+    .getByRole("button", { name: /^Suntec City / })
+    .click();
+  await expect(header).toContainText("Suntec City");
+  await search.fill("Bugis");
+  await page
+    .getByRole("region", { name: "Places", exact: true })
+    .getByRole("button", { name: /^Bugis / })
+    .click();
+  await expect(header).toContainText("Bugis");
+  if (info.project.name === "mobile")
+    await page.getByRole("button", { name: "Map", exact: true }).click();
+  const canvas = page.locator(".maplibregl-canvas");
+  await expect(canvas).toBeVisible();
+  await canvas.focus();
+  await page.keyboard.press("ArrowRight");
+  if (info.project.name === "mobile")
+    await page.getByRole("button", { name: /List/ }).click();
+  await expect(header).toContainText("Map area");
+  await expect(header).not.toContainText("in this area");
+  await search.fill("Genki");
+  await merchants.getByRole("button", { name: /^Genki Sushi/ }).click();
+  await expect(page.locator(".offer-card")).toHaveCount(1);
+  await expect(page.locator(".map-pin.selected")).toHaveCount(21);
+  await page.screenshot({
+    path: `test-results/discovery-${info.project.name}.png`,
+    fullPage: true,
+  });
+});
+
+test("search source privacy, clearing, stale cancellation and partial failure", async ({
+  page,
+}) => {
+  await page.route("https://tile.openstreetmap.org/**", (r) =>
+    r.fulfill({
+      contentType: "image/png",
+      body: readFileSync("tests/fixtures/tile.png"),
+    }),
+  );
+  await page.goto("/mvp");
+  await expect(
+    page.getByRole("heading", { name: "A good deal is just around." }),
+  ).toBeVisible();
+  const search = page.getByRole("textbox", {
+    name: "Search merchants, deals or places",
+  });
+  await search.fill("Morganfield");
+  await expect(page.locator(".search-results")).toContainText(
+    "No merchants or deals found",
+  );
+  await page.route("**/api/places?**", (r) =>
+    r.fulfill({ status: 503, json: { error: "Unavailable" } }),
+  );
+  await search.fill("Genki");
+  await expect(
+    page.getByRole("region", { name: "Merchants", exact: true }),
+  ).toContainText("Genki Sushi");
+  await expect(page.locator(".search-results")).toContainText(
+    "Address search is unavailable",
+  );
+  const before = await page
+    .getByRole("region", { name: "Merchants", exact: true })
+    .innerText();
+  await page.goto("/mvp?showSourceText=true");
+  await search.fill("Genki");
+  await expect(
+    page.getByRole("region", { name: "Merchants", exact: true }),
+  ).toHaveText(before, { useInnerText: true });
+  let release: () => void = () => {};
+  const pending = new Promise<void>((resolve) => {
+    release = resolve;
+  });
+  await page.route("**/api/mvp/search?q=Slow**", async (r) => {
+    await pending;
+    await r.fulfill({
+      json: {
+        items: [
+          {
+            kind: "merchant",
+            id: "old",
+            label: "Old response",
+            context: "",
+            points: [],
+            promotionIds: [],
+            rank: 0,
+          },
+        ],
+      },
+    });
+  });
+  await search.fill("Slow");
+  await page.waitForRequest("**/api/mvp/search?q=Slow**");
+  await search.fill("Genki");
+  await expect(
+    page.getByRole("region", { name: "Merchants", exact: true }),
+  ).toContainText("Genki Sushi");
+  release();
+  await expect(page.locator(".search-results")).not.toContainText(
+    "Old response",
+  );
+  await search.fill("");
+  await expect(page.locator(".search-results")).toHaveCount(0);
+});
+
+test("nearby label survives fitting, clears on zoom and does not persist coordinates", async ({
+  page,
+  context,
+}, info) => {
+  await context.grantPermissions(["geolocation"]);
+  await context.setGeolocation({ latitude: 1.299, longitude: 103.855 });
+  await page.route("https://tile.openstreetmap.org/**", (r) =>
+    r.fulfill({
+      contentType: "image/png",
+      body: readFileSync("tests/fixtures/tile.png"),
+    }),
+  );
+  await page.goto("/mvp");
+  await expect(
+    page.getByRole("heading", { name: "A good deal is just around." }),
+  ).toBeVisible();
+  await page
+    .getByRole("button", { name: "Use my location", exact: true })
+    .click();
+  await expect(page.locator(".results-heading")).toContainText("Near you");
+  await expect(page.locator(".results-heading")).toContainText(
+    "deals in this area",
+  );
+  expect(
+    await page.evaluate(() => ({
+      local: { ...localStorage },
+      session: { ...sessionStorage },
+    })),
+  ).toEqual({ local: {}, session: {} });
+  if (info.project.name === "mobile")
+    await page.getByRole("button", { name: "Map", exact: true }).click();
+  await page.getByRole("button", { name: "Zoom in", exact: true }).click();
+  if (info.project.name === "mobile")
+    await page.getByRole("button", { name: "List", exact: true }).click();
+  await expect(page.locator(".results-heading")).toContainText("Map area");
 });

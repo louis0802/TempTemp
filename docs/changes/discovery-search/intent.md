@@ -1,0 +1,3 @@
+# Discovery search and truthful map context
+Replace the misleading static neighbourhood heading and place-only search so visitors can discover merchants, offers and locations anywhere in Singapore. Success means explicit targets survive programmatic fitting, manual navigation clears them, and search finds eligible records outside the viewport.
+Scope is exactly the header and unified search. Preserve ingestion, artifacts, corpus, parsing, publication, grouping and preview flags. Baseline verified: feat/production-evidence-coverage / ae125c5. Preserve the pre-existing next-env.d.ts edit. Commit locally; no push.

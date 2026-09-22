@@ -11,6 +11,8 @@ import "maplibre-gl/dist/maplibre-gl.css";
 type Props = {
   groups: MapLocationGroup[];
   selected: string | null;
+  highlighted?: string[];
+  onManualMove: () => void;
   onSelect: (group: MapLocationGroup) => void;
   bounds: [number, number, number, number];
   onBounds: (b: [number, number, number, number]) => void;
@@ -18,6 +20,8 @@ type Props = {
 export default function PromotionMap({
   groups,
   selected,
+  highlighted = [],
+  onManualMove,
   onSelect,
   bounds,
   onBounds,
@@ -25,10 +29,22 @@ export default function PromotionMap({
   const container = useRef<HTMLDivElement>(null),
     map = useRef<LibreMap | null>(null),
     markers = useRef<Marker[]>([]);
-  const handlers = useRef({ onSelect, onBounds, selected });
+  const handlers = useRef({
+    onSelect,
+    onBounds,
+    selected,
+    highlighted,
+    onManualMove,
+  });
   useEffect(() => {
-    handlers.current = { onSelect, onBounds, selected };
-  }, [onSelect, onBounds, selected]);
+    handlers.current = {
+      onSelect,
+      onBounds,
+      selected,
+      highlighted,
+      onManualMove,
+    };
+  }, [onSelect, onBounds, selected, highlighted, onManualMove]);
   const [failed, setFailed] = useState(false),
     [ready, setReady] = useState(false);
   const key = process.env.NEXT_PUBLIC_MAPTILER_KEY;
@@ -91,6 +107,10 @@ export default function PromotionMap({
               map.current = null;
             }
           });
+          // User-originated movement only: fitBounds and resize must retain explicit targets.
+          m.on("move", (event) => {
+            if (event.originalEvent) handlers.current.onManualMove();
+          });
           m.on("moveend", () => {
             const b = m.getBounds();
             const next: [number, number, number, number] = [
@@ -139,7 +159,7 @@ export default function PromotionMap({
       markers.current = [];
       groups.forEach((group) => {
         const el = document.createElement("button");
-        el.className = `map-pin ${group.promotions.length > 1 ? "multiple" : ""} ${locationSelected(group, handlers.current.selected) ? "selected" : ""}`;
+        el.className = `map-pin ${group.promotions.length > 1 ? "multiple" : ""} ${locationSelected(group, handlers.current.selected) || handlers.current.highlighted.some((id) => locationSelected(group, id)) ? "selected" : ""}`;
         el.textContent = locationPinText(group);
         el.setAttribute("aria-label", locationLabel(group));
         el.setAttribute("aria-haspopup", "dialog");
@@ -162,10 +182,12 @@ export default function PromotionMap({
       const group = groups.find((g) => g.key === el.dataset.locationKey);
       el.classList.toggle(
         "selected",
-        !!group && locationSelected(group, selected),
+        !!group &&
+          (locationSelected(group, selected) ||
+            highlighted.some((id) => locationSelected(group, id))),
       );
     }
-  }, [groups, selected]);
+  }, [groups, selected, highlighted]);
   if (!schematic && !failed)
     return (
       <div
@@ -240,7 +262,7 @@ export default function PromotionMap({
             data-location-key={group.key}
             aria-label={locationLabel(group)}
             aria-haspopup="dialog"
-            className={`map-pin schematic-pin ${group.promotions.length > 1 ? "multiple" : ""} ${locationSelected(group, selected) ? "selected" : ""}`}
+            className={`map-pin schematic-pin ${group.promotions.length > 1 ? "multiple" : ""} ${locationSelected(group, selected) || highlighted.some((id) => locationSelected(group, id)) ? "selected" : ""}`}
             style={{ left: `${point.x / 10}%`, top: `${point.y / 8}%` }}
             onClick={() => onSelect(group)}
           >

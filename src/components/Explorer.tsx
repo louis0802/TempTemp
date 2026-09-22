@@ -6,12 +6,10 @@ import {
   ArrowDownUp,
   ArrowUpRight,
   Check,
-  ChevronRight,
   Coffee,
   Compass,
   LocateFixed,
   MapPin,
-  Search,
   SlidersHorizontal,
   UtensilsCrossed,
   X,
@@ -21,6 +19,12 @@ import {
   groupMapLocations,
   type MapLocationGroup,
 } from "@/domain/map-locations";
+import DiscoverySearch from "./DiscoverySearch";
+import {
+  targetBounds,
+  type BrowseContext,
+  type SearchResult,
+} from "@/domain/discovery-search";
 import type { MvpViewMode } from "@/domain/mvp";
 const PromotionMap = dynamic(() => import("./map/PromotionMap"), {
   ssr: false,
@@ -59,10 +63,10 @@ export default function Explorer({
     [detail, setDetail] = useState<Listing | null>(null),
     [error, setError] = useState(""),
     [loading, setLoading] = useState(true),
-    [query, setQuery] = useState(""),
-    [places, setPlaces] = useState<Place[]>([]),
-    [searchMessage, setSearchMessage] = useState(""),
-    [area, setArea] = useState("Central Singapore"),
+    [browseContext, setBrowseContext] = useState<BrowseContext>({
+      kind: "map",
+    }),
+    [merchantTarget, setMerchantTarget] = useState<SearchResult | null>(null),
     [locationMessage, setLocationMessage] = useState(""),
     [mobileView, setMobileView] = useState("list"),
     [nowOnly, setNowOnly] = useState(false),
@@ -75,17 +79,23 @@ export default function Explorer({
       ? detail?.id === selected
         ? detail
         : summary
-      : undefined;
+      : detail?.id === selected
+        ? detail
+        : undefined;
   const visible = useMemo(
     () =>
       items
-        .filter((p) => !nowOnly || p.redeemableNow)
+        .filter(
+          (p) =>
+            (!nowOnly || p.redeemableNow) &&
+            (!merchantTarget || merchantTarget.promotionIds.includes(p.id)),
+        )
         .sort((a, b) =>
           sort
             ? (a.endDate ?? "9999").localeCompare(b.endDate ?? "9999")
             : a.id.localeCompare(b.id),
         ),
-    [items, nowOnly, sort],
+    [items, nowOnly, sort, merchantTarget],
   );
   const groups = useMemo(() => groupMapLocations(visible), [visible]);
   const location = groups.find((group) => group.key === locationKey);
@@ -144,33 +154,6 @@ export default function Explorer({
     };
   }, [bounds, category, endpoint, preview]);
   useEffect(() => {
-    if (query.trim().length < 2) return;
-    const controller = new AbortController();
-    const timer = setTimeout(async () => {
-      try {
-        const r = await fetch(`/api/places?q=${encodeURIComponent(query)}`, {
-          signal: controller.signal,
-        });
-        const data = await r.json();
-        if (!r.ok) throw new Error(data.error);
-        setPlaces(data.items);
-        setSearchMessage(
-          data.message ||
-            (!data.items.length
-              ? "No places found. Try a nearby neighbourhood."
-              : ""),
-        );
-      } catch (e) {
-        if (!(e instanceof DOMException && e.name === "AbortError"))
-          setSearchMessage("Search unavailable. Try again.");
-      }
-    }, 250);
-    return () => {
-      clearTimeout(timer);
-      controller.abort();
-    };
-  }, [query]);
-  useEffect(() => {
     if (location || (selected && current)) {
       if (!dialog.current?.open) {
         returnFocus.current = document.activeElement as HTMLElement;
@@ -196,7 +179,8 @@ export default function Explorer({
           throw new Error(
             "This offer is no longer available. Please refresh the list.",
           );
-        setDetail(await response.json());
+        const result = await response.json();
+        if (!controller.signal.aborted) setDetail(result);
       })
       .catch((error) => {
         if (!controller.signal.aborted) {
@@ -223,7 +207,9 @@ export default function Explorer({
     setLocationKey(null);
   }
   function goTo(p: Place) {
-    setArea(p.name);
+    setBrowseContext({ kind: "place", label: p.name });
+    setMerchantTarget(null);
+    closeDetails();
     setBounds(
       p.name === "All Singapore"
         ? [103.6, 1.15, 104.1, 1.5]
@@ -234,9 +220,6 @@ export default function Explorer({
             Math.min(1.5, p.lat + 0.014),
           ],
     );
-    setQuery("");
-    setPlaces([]);
-    setSearchMessage("");
   }
   function locate() {
     if (!navigator.geolocation) {
@@ -260,6 +243,7 @@ export default function Explorer({
           return;
         }
         goTo({ name: "Near you", lat: coords.latitude, lng: coords.longitude });
+        setBrowseContext({ kind: "nearby" });
         setLocationMessage("Showing your area. Your location is not saved.");
       },
       () =>
@@ -309,45 +293,27 @@ export default function Explorer({
             </p>
           </div>
           <div className="discovery-controls">
-            <form
-              className="search"
-              onSubmit={(e) => {
-                e.preventDefault();
-                if (places[0]) goTo(places[0]);
+            <DiscoverySearch
+              mvp={mvp}
+              preview={preview}
+              onLocate={locate}
+              onSelect={(result) => {
+                if (result.kind === "place") {
+                  goTo({ name: result.label, ...result.points[0] });
+                  return;
+                }
+                closeDetails();
+                setMerchantTarget(result.kind === "merchant" ? result : null);
+                setBrowseContext(
+                  result.kind === "location"
+                    ? { kind: "place", label: result.label }
+                    : { kind: "map" },
+                );
+                const next = targetBounds(result.points);
+                if (next) setBounds(next);
+                if (result.kind === "deal") choose(result.id);
               }}
-            >
-              <Search size={19} />
-              <input
-                aria-label="Search neighbourhood"
-                placeholder="Where are you exploring?"
-                value={query}
-                onChange={(e) => {
-                  setQuery(e.target.value);
-                  setPlaces([]);
-                  setSearchMessage("");
-                }}
-                autoComplete="off"
-              />
-              <button
-                type="button"
-                aria-label="Use my location"
-                onClick={locate}
-              >
-                <LocateFixed size={20} />
-              </button>
-            </form>
-            {query.length >= 2 && (places.length > 0 || searchMessage) && (
-              <div className="search-results">
-                {places.map((p) => (
-                  <button key={p.name} onClick={() => goTo(p)}>
-                    <MapPin size={16} />
-                    {p.name}
-                    <ChevronRight size={15} />
-                  </button>
-                ))}
-                {searchMessage && <p role="status">{searchMessage}</p>}
-              </div>
-            )}
+            />
             {locationMessage && (
               <p className="inline-message" role="status">
                 {locationMessage}
@@ -385,24 +351,46 @@ export default function Explorer({
           </div>
           <div className="results-heading">
             <div>
-              <h2>{area}</h2>
+              <h2>
+                {browseContext.kind === "place"
+                  ? browseContext.label
+                  : browseContext.kind === "nearby"
+                    ? "Near you"
+                    : "Map area"}
+              </h2>
               <span aria-live="polite">
                 {loading
                   ? "Finding deals…"
-                  : `${visible.length} ${demo ? "example " : ""}deals to explore`}
+                  : `${visible.length} ${demo ? "example " : ""}deal${visible.length === 1 ? "" : "s"}${browseContext.kind === "map" ? "" : " in this area"}`}
               </span>
             </div>
-            <Compass size={23} />
+            {mvp && (
+              <details className="location-info">
+                <summary>ⓘ Location info</summary>
+                <p>
+                  Pins may show merchant or source-stated locations. Promotion
+                  participation is not independently confirmed. Check each
+                  offer’s terms before visiting.
+                </p>
+                {viewMode === "corpus" && (
+                  <p>
+                    Curated corpus preview includes all records, including
+                    incomplete, online-only, expired and upcoming offers.
+                  </p>
+                )}
+              </details>
+            )}
           </div>
-          {mvp && (
-            <p className="inline-message mvp-notice">
-              {viewMode === "corpus"
-                ? "Curated corpus preview includes all records, including incomplete, online-only, expired and upcoming offers. "
-                : ""}
-              Pins show merchant or source-stated locations, not confirmed
-              promotion participation. Check each offer’s restrictions before
-              visiting.
-            </p>
+          {merchantTarget && (
+            <div className="merchant-target" role="status">
+              Showing {merchantTarget.label}
+              <button
+                onClick={() => setMerchantTarget(null)}
+                aria-label="Clear merchant filter"
+              >
+                Clear <X size={12} />
+              </button>
+            </div>
           )}
           {demo && (
             <div className="demo-banner">
@@ -512,7 +500,8 @@ export default function Explorer({
                   setCategory("All");
                   setNowOnly(false);
                   setBounds(defaultBounds);
-                  setArea("Central Singapore");
+                  setBrowseContext({ kind: "map" });
+                  setMerchantTarget(null);
                 }}
               >
                 Reset discovery
@@ -535,6 +524,12 @@ export default function Explorer({
           <PromotionMap
             groups={groups}
             selected={selected}
+            highlighted={merchantTarget?.promotionIds}
+            onManualMove={() =>
+              setBrowseContext((context) =>
+                context.kind === "map" ? context : { kind: "map" },
+              )
+            }
             onSelect={chooseLocation}
             bounds={bounds}
             onBounds={setBounds}
@@ -552,7 +547,8 @@ export default function Explorer({
             <button
               onClick={() => {
                 setBounds(defaultBounds);
-                setArea("Central Singapore");
+                setBrowseContext({ kind: "map" });
+                setMerchantTarget(null);
               }}
             >
               Reset map <Compass size={16} />

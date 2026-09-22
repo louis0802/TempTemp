@@ -1289,3 +1289,65 @@ h1 {
 .source-text {
   overflow-wrap: anywhere;
 }
+
+/* Discovery search and compact, explicit map context. */
+.search-results {
+  max-height: min(460px, 55dvh);
+  overflow-y: auto;
+}
+.search-results h3 {
+  margin: 0;
+  padding: 10px 12px 5px;
+  font-size: 11px;
+  color: var(--muted);
+}
+.search-results button small {
+  display: block;
+  margin-top: 4px;
+  color: var(--muted);
+  line-height: 1.4;
+}
+.search-results button:hover,
+.search-results button:focus-visible {
+  background: #edf3ef;
+}
+.results-heading {
+  gap: 12px;
+  align-items: flex-start;
+}
+.results-heading h2 {
+  font-size: 14px;
+}
+.location-info {
+  position: relative;
+  font-size: 11px;
+  color: var(--muted);
+}
+.location-info summary {
+  cursor: pointer;
+  white-space: nowrap;
+  padding: 3px;
+}
+.location-info p {
+  position: relative;
+  max-width: 240px;
+  line-height: 1.5;
+}
+.merchant-target {
+  margin: 0 30px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--jade);
+}
+.merchant-target button {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  padding: 6px;
+}
