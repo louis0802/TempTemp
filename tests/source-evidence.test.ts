@@ -295,6 +295,90 @@ describe("safe redirects", () => {
   );
 });
 describe("signals, cache and artifact", () => {
+  it.each([
+    ["primary", final, "primary_found"],
+    [
+      "strong_secondary",
+      "https://mall.example/promo",
+      "strong_secondary_found",
+    ],
+  ] as const)(
+    "roundup %s authority applies only to the offer containing the link",
+    async (authority, destination, expectedState) => {
+      // Same merchant, different offers: ownership alone must not imply campaign relevance.
+      const signals = await createSignals([
+        {
+          url: "https://t.me/sgfooddeals/123",
+          channel: "sgfooddeals",
+          label: "Fixture roundup",
+          publishedAt: checkedAt,
+          text: `1. Merchant A: 1-for-1 lunch\nMore info: ${original}\n2. Merchant A: 50% off dinner`,
+        },
+      ]);
+      expect(signals).toHaveLength(2);
+      expect(signals.map((s) => s.outboundLinks[0].association)).toEqual([
+        "offer",
+        "source_post",
+      ]);
+      const transport = fixture({
+        [original]: { status: 302, location: destination },
+        [destination]: { status: 200 },
+      });
+      const result = await buildSourceEvidence(
+        signals,
+        registry,
+        new SourceRedirectCache(),
+        resolver(transport),
+      );
+      expect(result.records.map((r) => r.state)).toEqual([
+        expectedState,
+        "no_outbound_links",
+      ]);
+      for (const [index, record] of result.records.entries()) {
+        expect(record.evidence[0]).toMatchObject({
+          relation: "source_permalink",
+          association: null,
+        });
+        expect(record.evidence[1]).toMatchObject({
+          relation: "outbound_link",
+          association: index === 0 ? "offer" : "source_post",
+          authority,
+          merchantMatch: "confirmed_registry",
+          normalizedUrl: original,
+          resolvedUrl: destination,
+          redirectChain: [original, destination],
+          resolutionStatus: "resolved",
+          checkedAt,
+          httpStatus: 200,
+          reason: null,
+        });
+      }
+      // The second offer's own evidence controls fallback, even with a stronger post-level source.
+      const ownUrl = "https://unregistered.example/dinner";
+      const withOwnLink = structuredClone(signals[1]);
+      withOwnLink.outboundLinks.push({
+        originalUrl: ownUrl,
+        originalRepresentations: [ownUrl],
+        normalizedUrl: ownUrl,
+        association: "offer",
+      });
+      const cache = new SourceRedirectCache();
+      await cache.resolve(original, resolver(transport));
+      expect(
+        (await buildSourceEvidence([withOwnLink], registry, cache)).records[0]
+          .state,
+      ).toBe("unresolved_links");
+      await cache.resolve(
+        ownUrl,
+        resolver(fixture({ [ownUrl]: { status: 200 } }), [ownUrl]),
+      );
+      expect(
+        (await buildSourceEvidence([withOwnLink], registry, cache)).records[0]
+          .state,
+      ).toBe("discovery_only");
+    },
+  );
+
   it("keeps Morganfield source identities, preserves hints and exposes shared fixture authority without merging", async () => {
     const sources = (await readCorpus()).filter((s) =>
       /\/(4902|4436)$/.test(s.url),

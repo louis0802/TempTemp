@@ -50,6 +50,7 @@ export interface PromotionSourceEvidence extends Classification {
   id: string;
   signalId: string;
   relation: "source_permalink" | "outbound_link";
+  association: SourceLink["association"] | null;
   originalUrl: string;
   normalizedUrl: string;
   resolvedUrl: string | null;

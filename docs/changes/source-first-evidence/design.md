@@ -2,7 +2,7 @@
 
 A standalone `src/ingestion/source-evidence/` module reuses PostOfferParser, DateResolver and OutletScopeResolver directly. Signal granularity follows parser offers, not MVP-specific presentation/window expansion. Thus signal count need not equal the preserved 200 MVP records. No existing parser or public application code changes.
 
-Types distinguish PromotionSignal, SourceLink, resolved links, registry and evidence graph. Hash identity uses source URL + parser key, with evidence IDs using signal ID + normalized link. Dates remain hints, including parser issue diagnostics. Links scoped only to the enclosing post remain explicitly post-level. Source permalink is its own discovery evidence node.
+Types distinguish PromotionSignal, SourceLink, resolved links, registry and evidence graph. Hash identity uses source URL + parser key, with evidence IDs using signal ID + normalized link. Dates remain hints, including parser issue diagnostics. Links scoped only to the enclosing post remain explicitly post-level. Source permalink is its own discovery evidence node with null association. Outbound evidence copies SourceLink.association. State computation filters to relation=outbound_link and association=offer before checking authority or fallback conditions; post-level evidence remains in the graph and aggregate evidence metrics, without promoting the signal.
 
 Registry version 1 holds normalized merchant keys, exact primary domains, exact social host/account identities and merchant-specific secondary domains/kinds. It starts empty rather than inventing ownership. Social hosts cannot be promoted by a domain-only rule. Known Telegram channels are globally classified as discovery; known editorial hosts use a small explicit list.
 

@@ -76,6 +76,7 @@ export async function buildSourceEvidence(
       id: digest([signal.id, signal.sourcePostUrl]),
       signalId: signal.id,
       relation: "source_permalink",
+      association: null,
       originalUrl: signal.sourcePostUrl,
       normalizedUrl: signal.sourcePostUrl,
       resolvedUrl: null,
@@ -93,6 +94,7 @@ export async function buildSourceEvidence(
         id: digest([signal.id, link.normalizedUrl]),
         signalId: signal.id,
         relation: "outbound_link",
+        association: link.association,
         originalUrl: link.originalUrl,
         normalizedUrl: link.normalizedUrl,
         resolvedUrl: resolved.finalUrl,
@@ -108,13 +110,17 @@ export async function buildSourceEvidence(
         ),
       });
     }
-    const state: EvidenceState = evidence.some((e) => e.authority === "primary")
+    // Post-level ownership evidence does not establish relevance to this offer.
+    const relevant = evidence.filter(
+      (e) => e.relation === "outbound_link" && e.association === "offer",
+    );
+    const state: EvidenceState = relevant.some((e) => e.authority === "primary")
       ? "primary_found"
-      : evidence.some((e) => e.authority === "strong_secondary")
+      : relevant.some((e) => e.authority === "strong_secondary")
         ? "strong_secondary_found"
-        : !signal.outboundLinks.length
+        : !relevant.length
           ? "no_outbound_links"
-          : evidence.slice(1).some((e) => e.resolutionStatus !== "resolved")
+          : relevant.some((e) => e.resolutionStatus !== "resolved")
             ? "unresolved_links"
             : "discovery_only";
     records.push({ signal, state, evidence });

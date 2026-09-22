@@ -14,3 +14,14 @@ Checks map to spec: extraction and graph tests (1–3), unsafe target and bounde
 ## Completion notes
 
 All requested checks passed; see verification.md for counts, hashes and the existing build warning. Native resolver runs were exercised through synthetic transport fixtures, with no live external destination claims. Corpus inspection added adjacent-wrapper extraction coverage. Next automatically regenerated next-env.d.ts during build; exact pre-task bytes were preserved using the baseline hash and remain excluded from commit.
+
+## Follow-up: offer-associated authority
+
+Small-fix path for the review of `3fc3860`; existing intent remains unchanged.
+
+- [x] Verify branch/HEAD and hash protected files before editing.
+- [x] Reproduce primary and secondary state leakage with a parsed same-merchant, two-offer roundup.
+- [x] Copy link association to evidence nodes (null on permalink); scope authority and fallback states to offer-associated outbound evidence.
+- [x] Regenerate the offline artifact and verify repeatability, unchanged identities and retained evidence data.
+- [x] Pass focused/full units, typecheck, lint, integration, corpus, MVP analysis and diff checks; synchronize spec/design/verification.
+- [x] Review and prepare the scoped local fix commit, excluding next-env.d.ts; no remote changes.

@@ -84,3 +84,24 @@ The unchanged MVP browser suite passes `/mvp`, includeExpired and showSourceText
 Self-review completed against all spec requirements; no independent agent review was requested. Inspection of real corpus output found adjacent parenthesized links; extraction was corrected and covered by a regression test before regenerating artifacts. Native transport limits and cloud-platform address rejection were additionally tested. The full four-document workflow preceded implementation.
 
 This is provenance only. No production official ownership has yet been curated, and real redirect success rates remain unmeasured. Raw parentheses delimit export URLs; percent-encoded parentheses are retained. No HTML/meta-refresh/JavaScript redirect, arbitrary page metadata, Google search or campaign fact extraction is attempted. Cache has no automatic expiry; deliberate reviewed entry removal enables a retry. Concurrent CLI writers are not supported. Future canonical matching can consume shared official campaign/T&C URLs but must still reconcile relevance and conflicting claims.
+
+## Follow-up verification: offer association (2026-09-22)
+
+Verified baseline `feat/production-evidence-coverage` at `3fc3860`, with only the pre-existing next-env.d.ts modification. Small fix: evidence now retains association (`offer` / `source_post`, null for source_permalink). Every evidence state checks only outbound links associated with the current offer. Post-level links still retain their IDs, authority, resolved destination, redirect chain, timestamp, status and diagnostics. Aggregate evidence metrics still count all retained nodes.
+
+The parameterized regression parses one real-shaped roundup into two offers from the same merchant. Offer A contains the linked official source; Offer B only inherits it at source-post scope. Using the same merchant prevents ownership isolation from hiding relevance leakage. Both primary and strong-secondary variants failed against the baseline with an incorrectly promoted Offer B, then passed after the fix. Tests assert all retained resolution/classification fields and null source-permalink association. Offer B falls back to no_outbound_links, unresolved_links or discovery_only according to its own links, even when strong post-level evidence exists.
+
+Checks actually rerun:
+
+- Focused source evidence + native transport: 46 tests passed.
+- npm test: 309 tests passed across 15 files.
+- npm run typecheck and npm run lint: passed.
+- npm run test:integration: 19 tests passed against the isolated local database.
+- npm run test:corpus: 4 tests passed across 3 files.
+- npm run analyze:mvp: passed; 200 records and 86 map-ready, unchanged benchmark metrics.
+- npm run analyze:mvp-sources -- --offline: two runs byte-identical, SHA-256 `8b61de49ff4a370e3d1e12ebe3221d8eeb84ba31dbb9f92c8131492e592f4fda` (supersedes the initial implementation artifact hash above).
+- git diff --check: passed.
+
+A structural comparison with the baseline artifact proves every complete PromotionSignal and all existing evidence fields/IDs are unchanged. Only the new association fields and four state corrections (unresolved_links → no_outbound_links for signals without offer-associated links) differ. Metrics remain 136 posts / 181 signals, with 190 unique outbound URLs. Registry is still empty and byte-identical (`84aff82b3a6f6cd9c6157abc8092387ae1dd9c693659b999113c8bdff7a6a833`). MVP artifact and next-env.d.ts both match their pre-task hashes recorded above. next-env.d.ts was not edited or regenerated during this follow-up and is excluded from the fix commit.
+
+No public code, redirect resolver, network safeguards, registry semantics, canonical identity or dedup behavior changed. Build and Playwright were not rerun for this isolated follow-up; their earlier results above belong to the original implementation. In particular, avoiding a new Next build preserves the user-owned next-env.d.ts bytes without regeneration. No live external network resolution or remote Git changes were performed. Self-review confirmed the diff matches the requested association boundary.
