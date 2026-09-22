@@ -1,7 +1,7 @@
 "use client";
 import dynamic from "next/dynamic";
 import Link from "next/link";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
   ArrowDownUp,
   ArrowUpRight,
@@ -17,6 +17,11 @@ import {
   X,
 } from "lucide-react";
 import { Listing, PromotionResponse, SourceHealth } from "@/domain/promotion";
+import {
+  groupMapLocations,
+  type MapLocationGroup,
+} from "@/domain/map-locations";
+import type { MvpViewMode } from "@/domain/mvp";
 const PromotionMap = dynamic(() => import("./map/PromotionMap"), {
   ssr: false,
   loading: () => (
@@ -30,11 +35,20 @@ const categories = ["All", "Meals", "Cafés", "Drinks", "Desserts"];
 type Place = { name: string; lat: number; lng: number };
 export default function Explorer({
   mvp = false,
-  includeExpired = false,
+  viewMode = "live",
+  showSourceText = false,
 }: {
   mvp?: boolean;
-  includeExpired?: boolean;
+  viewMode?: MvpViewMode;
+  showSourceText?: boolean;
 }) {
+  const previewQuery = new URLSearchParams();
+  if (viewMode === "corpus") previewQuery.set("view", "corpus");
+  if (viewMode === "live_with_expired")
+    previewQuery.set("includeExpired", "true");
+  if (showSourceText) previewQuery.set("showSourceText", "true");
+  const preview = previewQuery.toString();
+  const [locationKey, setLocationKey] = useState<string | null>(null);
   const endpoint = mvp ? "/api/mvp/promotions" : "/api/promotions";
   const [items, setItems] = useState<Listing[]>([]),
     [sources, setSources] = useState<SourceHealth[]>([]),
@@ -54,20 +68,27 @@ export default function Explorer({
     [nowOnly, setNowOnly] = useState(false),
     [sort, setSort] = useState(false);
   const dialog = useRef<HTMLDialogElement>(null),
-    returnFocus = useRef<HTMLElement | null>(null);
+    returnFocus = useRef<HTMLElement | null>(null),
+    returnLocationKey = useRef<string | null>(null);
   const summary = items.find((p) => p.id === selected),
     current = summary
       ? detail?.id === selected
         ? detail
         : summary
-      : undefined,
-    visible = items
-      .filter((p) => !nowOnly || p.redeemableNow)
-      .sort((a, b) =>
-        sort
-          ? (a.endDate ?? "9999").localeCompare(b.endDate ?? "9999")
-          : a.id.localeCompare(b.id),
-      );
+      : undefined;
+  const visible = useMemo(
+    () =>
+      items
+        .filter((p) => !nowOnly || p.redeemableNow)
+        .sort((a, b) =>
+          sort
+            ? (a.endDate ?? "9999").localeCompare(b.endDate ?? "9999")
+            : a.id.localeCompare(b.id),
+        ),
+    [items, nowOnly, sort],
+  );
+  const groups = useMemo(() => groupMapLocations(visible), [visible]);
+  const location = groups.find((group) => group.key === locationKey);
   useEffect(() => {
     let alive = true,
       controller: AbortController;
@@ -83,7 +104,9 @@ export default function Explorer({
         do {
           const q = new URLSearchParams({ bbox: bounds.join(","), category });
           if (cursor) q.set("cursor", cursor);
-          if (includeExpired) q.set("includeExpired", "true");
+          new URLSearchParams(preview).forEach((value, key) =>
+            q.set(key, value),
+          );
           const r = await fetch(`${endpoint}?${q}`, {
             signal: request.signal,
             cache: "no-store",
@@ -119,7 +142,7 @@ export default function Explorer({
       clearInterval(timer);
       window.removeEventListener("focus", focus);
     };
-  }, [bounds, category, endpoint, includeExpired]);
+  }, [bounds, category, endpoint, preview]);
   useEffect(() => {
     if (query.trim().length < 2) return;
     const controller = new AbortController();
@@ -148,26 +171,26 @@ export default function Explorer({
     };
   }, [query]);
   useEffect(() => {
-    if (selected && current) {
+    if (location || (selected && current)) {
       if (!dialog.current?.open) {
         returnFocus.current = document.activeElement as HTMLElement;
         dialog.current?.showModal();
+      } else if (!dialog.current.contains(document.activeElement)) {
+        dialog.current
+          .querySelector<HTMLButtonElement>(".close-detail")
+          ?.focus();
       }
     } else if (dialog.current?.open) {
       dialog.current.close();
-      returnFocus.current?.focus();
     }
-  }, [selected, current]);
+  }, [selected, current, location]);
   useEffect(() => {
     if (!selected) return;
     const controller = new AbortController();
-    fetch(
-      `${endpoint}/${selected}${includeExpired ? "?includeExpired=true" : ""}`,
-      {
-        signal: controller.signal,
-        cache: "no-store",
-      },
-    )
+    fetch(`${endpoint}/${selected}${preview ? `?${preview}` : ""}`, {
+      signal: controller.signal,
+      cache: "no-store",
+    })
       .then(async (response) => {
         if (!response.ok)
           throw new Error(
@@ -182,11 +205,23 @@ export default function Explorer({
         }
       });
     return () => controller.abort();
-  }, [selected, items, endpoint, includeExpired]);
+  }, [selected, items, endpoint, preview]);
   const choose = useCallback((id: string) => {
+    if (!dialog.current?.open) returnLocationKey.current = null;
+    setLocationKey(null);
     setDetail(null);
     setSelected(id);
   }, []);
+  const chooseLocation = useCallback((group: MapLocationGroup) => {
+    returnLocationKey.current = group.key;
+    setSelected(null);
+    setDetail(null);
+    setLocationKey(group.key);
+  }, []);
+  function closeDetails() {
+    setSelected(null);
+    setLocationKey(null);
+  }
   function goTo(p: Place) {
     setArea(p.name);
     setBounds(
@@ -361,7 +396,7 @@ export default function Explorer({
           </div>
           {mvp && (
             <p className="inline-message mvp-notice">
-              {includeExpired
+              {viewMode === "corpus"
                 ? "Curated corpus preview includes all records, including incomplete, online-only, expired and upcoming offers. "
                 : ""}
               Pins show merchant or source-stated locations, not confirmed
@@ -498,9 +533,9 @@ export default function Explorer({
           aria-label="Map"
         >
           <PromotionMap
-            items={visible}
+            groups={groups}
             selected={selected}
-            onSelect={choose}
+            onSelect={chooseLocation}
             bounds={bounds}
             onBounds={setBounds}
           />
@@ -530,7 +565,7 @@ export default function Explorer({
               </span>
               <div>
                 <strong>Small detours. Good discoveries.</strong>
-                <p>Choose a pin to see the deal and its details.</p>
+                <p>Choose a location to explore its promotions.</p>
               </div>
             </div>
             <button
@@ -578,15 +613,74 @@ export default function Explorer({
       <dialog
         ref={dialog}
         className="detail-dialog"
-        onCancel={() => setSelected(null)}
-        onClose={() => setSelected(null)}
+        aria-labelledby="detail-title"
+        onCancel={closeDetails}
+        onClose={() => {
+          closeDetails();
+          const anchor = returnLocationKey.current
+            ? Array.from(
+                document.querySelectorAll<HTMLElement>("[data-location-key]"),
+              ).find(
+                (el) => el.dataset.locationKey === returnLocationKey.current,
+              )
+            : null;
+          (anchor ?? returnFocus.current)?.focus();
+        }}
       >
-        {current && (
+        {location && (
+          <>
+            <button
+              className="close-detail"
+              aria-label="Close location details"
+              onClick={closeDetails}
+            >
+              <X />
+            </button>
+            <div className="detail-kicker">LOCATION</div>
+            <h2 id="detail-title">{location.name}</h2>
+            <p>{location.address}</p>
+            <h3>
+              {location.promotions.length} promotion
+              {location.promotions.length === 1 ? "" : "s"}
+            </h3>
+            <div className="location-promotions">
+              {location.promotions.map(({ promotion, outlets }) => (
+                <button
+                  className="location-promotion"
+                  key={promotion.id}
+                  onClick={() => choose(promotion.id)}
+                >
+                  <strong>{promotion.merchant}</strong>
+                  <span>{promotion.title || promotion.benefit}</span>
+                  {promotion.benefit &&
+                    promotion.benefit !== promotion.title && (
+                      <small>{promotion.benefit}</small>
+                    )}
+                  <span>
+                    {promotion.mvpState?.lifecycle ??
+                      (promotion.ongoing ? "active" : "See schedule")}{" "}
+                    ·{" "}
+                    {promotion.mvpState?.lifecycle === "expired"
+                      ? "Ended"
+                      : "Until"}{" "}
+                    {promotion.endDate ?? "unknown"}
+                  </span>
+                  {Array.from(
+                    new Set(outlets.map((o) => o.sourceLocation ?? o.address)),
+                  ).map((label) => (
+                    <small key={label}>{label}</small>
+                  ))}
+                </button>
+              ))}
+            </div>
+          </>
+        )}
+        {!location && current && (
           <>
             <button
               className="close-detail"
               aria-label="Close offer details"
-              onClick={() => setSelected(null)}
+              onClick={closeDetails}
             >
               <X />
             </button>
@@ -596,28 +690,35 @@ export default function Explorer({
                 : (current.category ?? "Promotion").toUpperCase()}
             </div>
             <p className="detail-merchant">{current.merchant}</p>
-            <h2>
+            <h2 id="detail-title">
               {current.benefit || current.title || "Content needs review"}
             </h2>
             <h3>{current.title}</h3>
-            <p style={{ whiteSpace: "pre-wrap", overflowWrap: "anywhere" }}>
-              {current.description
-                .split(/(https?:\/\/[^\s<>\)]+)/g)
-                .map((part, index) =>
-                  /^https?:\/\//.test(part) ? (
-                    <a
-                      key={index}
-                      href={part}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {part}
-                    </a>
-                  ) : (
-                    part
-                  ),
+            {(!current.mvpState || showSourceText) && current.description && (
+              <section className="source-text">
+                {current.mvpState && (
+                  <h4>Raw Telegram source · Development debug</h4>
                 )}
-            </p>
+                <p style={{ whiteSpace: "pre-wrap", overflowWrap: "anywhere" }}>
+                  {current.description
+                    .split(/(https?:\/\/[^\s<>\)]+)/g)
+                    .map((part, index) =>
+                      /^https?:\/\//.test(part) ? (
+                        <a
+                          key={index}
+                          href={part}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {part}
+                        </a>
+                      ) : (
+                        part
+                      ),
+                    )}
+                </p>
+              </section>
+            )}
             <div className="detail-schedule">
               <strong>{current.scheduleLabel}</strong>
               <span>
@@ -633,19 +734,30 @@ export default function Explorer({
             </div>
             {current.mvpState && (
               <p className="inline-message">
-                Content: {current.mvpState.content.replaceAll("_", " ")} ·
-                Validity: {current.mvpState.validity.replaceAll("_", " ")} ·
-                Map: {current.mvpState.map.replaceAll("_", " ")}
+                {current.mvpState.lifecycle} · Content:{" "}
+                {current.mvpState.content.replaceAll("_", " ")} · Validity:{" "}
+                {current.mvpState.validity.replaceAll("_", " ")} · Map:{" "}
+                {current.mvpState.map.replaceAll("_", " ")}
                 {current.mvpState.reasons.length > 0 &&
                   ` · ${current.mvpState.reasons.join("; ").replaceAll("_", " ")}`}
               </p>
             )}
-            <h4>Before you go</h4>
-            <ul>
-              {current.terms.map((t) => (
-                <li key={t}>{t}</li>
-              ))}
-            </ul>
+            {current.terms.filter(
+              (t) => !current.mvpState || t !== current.description,
+            ).length > 0 && (
+              <>
+                <h4>Before you go</h4>
+                <ul>
+                  {current.terms
+                    .filter(
+                      (t) => !current.mvpState || t !== current.description,
+                    )
+                    .map((t) => (
+                      <li key={t}>{t}</li>
+                    ))}
+                </ul>
+              </>
+            )}
             <h4>{mvp ? "Merchant locations" : "Participating outlets"}</h4>
             {mvp && (
               <p>
@@ -663,6 +775,9 @@ export default function Explorer({
                 <div>
                   <strong>{o.name}</strong>
                   <p>{o.address}</p>
+                  {o.sourceLocation && o.sourceLocation !== o.address && (
+                    <p>Source location: {o.sourceLocation}</p>
+                  )}
                   {o.coordinateBasis === "google_source_location" && (
                     <p>
                       Pin marks the source-stated location. Google supplied

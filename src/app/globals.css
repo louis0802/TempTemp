@@ -484,13 +484,20 @@ h1 {
 }
 .map-pin {
   border: 4px solid white;
-  width: 37px;
+  min-width: 37px;
+  padding: 0 7px;
   height: 37px;
   border-radius: 50% 50% 50% 4px;
   background: var(--jade);
   color: white;
   box-shadow: 0 3px 9px #24463d30;
   font-weight: 700;
+}
+.map-pin.multiple {
+  z-index: 2;
+}
+.map-pin:focus-visible {
+  z-index: 4;
 }
 .map-pin:hover,
 .map-pin.selected {
@@ -1255,4 +1262,30 @@ h1 {
   border: 1px solid currentColor;
   border-radius: 4px;
   text-transform: capitalize;
+}
+
+.location-promotions {
+  display: grid;
+  gap: 12px;
+  padding-bottom: 16px;
+}
+.location-promotion {
+  display: grid;
+  gap: 7px;
+  width: 100%;
+  text-align: left;
+  border: 1px solid #dce3db;
+  border-radius: 12px;
+  padding: 16px;
+  background: #f6f8f3;
+  color: var(--ink);
+}
+.location-promotion:hover {
+  border-color: var(--jade);
+}
+.location-promotion small {
+  color: #52665d;
+}
+.source-text {
+  overflow-wrap: anywhere;
 }

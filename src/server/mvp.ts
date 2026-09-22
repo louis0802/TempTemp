@@ -5,6 +5,7 @@ import {
   mvpPromotionSchema,
   visibleMvp,
   type MvpPromotion,
+  type MvpViewMode,
 } from "@/domain/mvp";
 import type { Listing, PromotionResponse } from "@/domain/promotion";
 import { stableId } from "@/ingestion/mvp/pipeline";
@@ -69,30 +70,27 @@ export function mvpListing(p: MvpPromotion): Listing {
 export async function getMvpPromotions(
   bounds: number[],
   cursor: string | null,
-  includeExpired = false,
+  mode: MvpViewMode = "live",
   now: DateTime = DateTime.now(),
   records?: MvpPromotion[],
 ): Promise<PromotionResponse> {
   const [w, s, e, n] = bounds;
-  const eligible = visibleMvp(
-    records ?? (await readMvpData()),
-    includeExpired,
-    now,
-  )
+  const eligible = visibleMvp(records ?? (await readMvpData()), mode, now)
     .filter((p) => !cursor || p.id > cursor)
     .map((p) => ({
       ...p,
-      outlets: includeExpired
-        ? p.outlets
-        : p.outlets.filter(
-            (o) =>
-              o.longitude >= w &&
-              o.longitude <= e &&
-              o.latitude >= s &&
-              o.latitude <= n,
-          ),
+      outlets:
+        mode === "corpus"
+          ? p.outlets
+          : p.outlets.filter(
+              (o) =>
+                o.longitude >= w &&
+                o.longitude <= e &&
+                o.latitude >= s &&
+                o.latitude <= n,
+            ),
     }))
-    .filter((p) => includeExpired || p.outlets.length)
+    .filter((p) => mode === "corpus" || p.outlets.length)
     .sort((a, b) => a.id.localeCompare(b.id));
   const items = eligible.slice(0, 200).map(mvpListing);
   return {
@@ -102,6 +100,30 @@ export async function getMvpPromotions(
     demo: false,
   };
 }
-export const allowHistory = (req: Request) =>
-  process.env.NODE_ENV !== "production" &&
-  new URL(req.url).searchParams.get("includeExpired") === "true";
+export function mvpPreviewOptions(q: { get(name: string): string | null }): {
+  mode: MvpViewMode;
+  showSourceText: boolean;
+} {
+  const development = process.env.NODE_ENV !== "production";
+  return {
+    mode:
+      development && q.get("view") === "corpus"
+        ? "corpus"
+        : development && q.get("includeExpired") === "true"
+          ? "live_with_expired"
+          : "live",
+    showSourceText: development && q.get("showSourceText") === "true",
+  };
+}
+// Response copies only: never change the artifact or structured source links.
+export function presentMvpListing(
+  p: Listing,
+  showSourceText: boolean,
+): Listing {
+  const reveal = process.env.NODE_ENV !== "production" && showSourceText;
+  return {
+    ...p,
+    description: reveal ? p.description : "",
+    terms: p.terms.filter((term) => term !== p.description),
+  };
+}

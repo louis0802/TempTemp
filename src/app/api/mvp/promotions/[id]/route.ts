@@ -1,6 +1,11 @@
 import { z } from "zod";
 import { visibleMvp } from "@/domain/mvp";
-import { readMvpData, mvpListing, allowHistory } from "@/server/mvp";
+import {
+  readMvpData,
+  mvpListing,
+  mvpPreviewOptions,
+  presentMvpListing,
+} from "@/server/mvp";
 import { failure, json } from "@/server/http";
 export async function GET(
   req: Request,
@@ -11,10 +16,13 @@ export async function GET(
       .string()
       .uuid()
       .parse((await params).id);
-    const p = visibleMvp(await readMvpData(), allowHistory(req)).find(
+    const options = mvpPreviewOptions(new URL(req.url).searchParams);
+    const p = visibleMvp(await readMvpData(), options.mode).find(
       (p) => p.id === id,
     );
-    return p ? json(mvpListing(p)) : json({ error: "Offer unavailable" }, 404);
+    return p
+      ? json(presentMvpListing(mvpListing(p), options.showSourceText))
+      : json({ error: "Offer unavailable" }, 404);
   } catch (e) {
     return failure(e);
   }

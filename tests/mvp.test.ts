@@ -4,7 +4,7 @@ import { MvpPipeline } from "@/ingestion/mvp/pipeline";
 import { mvpPromotionSchema, visibleMvp } from "@/domain/mvp";
 import { GoogleOutletDiscovery } from "@/ingestion/resolution/google-discovery";
 import { ResolutionCache } from "@/ingestion/resolution/cache";
-import { allowHistory, getMvpPromotions } from "@/server/mvp";
+import { mvpPreviewOptions, getMvpPromotions } from "@/server/mvp";
 const now = DateTime.fromISO("2026-09-21T12:00:00+08:00");
 const place = (id = "place-1", extra = {}) => ({
   id,
@@ -175,24 +175,30 @@ describe("MVP validity and locations", () => {
     const [p] = await pipeline.process(source("📅 Today"), now);
     expect(p.status).toBe("ready");
     expect(p.lifecycle).toBe("expired");
-    expect(visibleMvp([p], false, now)).toEqual([]);
-    expect(visibleMvp([p], true, now)).toHaveLength(1);
+    expect(visibleMvp([p], "live", now)).toEqual([]);
+    expect(visibleMvp([p], "corpus", now)).toHaveLength(1);
     const active = { ...p, startDate: "2026-09-01", endDate: "2026-09-30" };
-    expect(visibleMvp([active], false, now)).toHaveLength(1);
+    expect(visibleMvp([active], "live", now)).toHaveLength(1);
     expect(
       (
-        await getMvpPromotions([103.6, 1.15, 103.7, 1.2], null, false, now, [
+        await getMvpPromotions([103.6, 1.15, 103.7, 1.2], null, "live", now, [
           active,
         ])
       ).items,
     ).toHaveLength(0);
     expect(
-      (await getMvpPromotions([103.6, 1.15, 104.1, 1.5], null, true, now, [p]))
-        .items,
+      (
+        await getMvpPromotions([103.6, 1.15, 104.1, 1.5], null, "corpus", now, [
+          p,
+        ])
+      ).items,
     ).toHaveLength(1);
     expect(
-      (await getMvpPromotions([103.6, 1.15, 103.7, 1.2], null, true, now, [p]))
-        .items,
+      (
+        await getMvpPromotions([103.6, 1.15, 103.7, 1.2], null, "corpus", now, [
+          p,
+        ])
+      ).items,
     ).toHaveLength(1);
     expect(mvpPromotionSchema.safeParse({ ...p, endDate: null }).success).toBe(
       false,
@@ -295,8 +301,8 @@ describe("curated inclusion is independent of discount language", () => {
       validityStatus: "resolved",
       mapStatus: "needs_location",
     });
-    expect(visibleMvp([p], false, now)).toEqual([]);
-    expect(visibleMvp([p], true, now)).toHaveLength(1);
+    expect(visibleMvp([p], "live", now)).toEqual([]);
+    expect(visibleMvp([p], "corpus", now)).toHaveLength(1);
   });
   it("retains online content with unknown validity, without calling Google", async () => {
     const { pipeline, fetcher } = setup();
@@ -315,10 +321,13 @@ describe("curated inclusion is independent of discount language", () => {
       endDate: null,
     });
     expect(fetcher).not.toHaveBeenCalled();
-    expect(visibleMvp([p], false, now)).toEqual([]);
+    expect(visibleMvp([p], "live", now)).toEqual([]);
     expect(
-      (await getMvpPromotions([103.6, 1.15, 104.1, 1.5], null, true, now, [p]))
-        .items,
+      (
+        await getMvpPromotions([103.6, 1.15, 104.1, 1.5], null, "corpus", now, [
+          p,
+        ])
+      ).items,
     ).toHaveLength(1);
   });
   it("never serves a ready online-only offer in the physical live feed", async () => {
@@ -328,7 +337,7 @@ describe("curated inclusion is independent of discount language", () => {
       now,
     );
     expect(p.status).toBe("ready");
-    expect(visibleMvp([p], false, now)).toEqual([]);
+    expect(visibleMvp([p], "live", now)).toEqual([]);
     expect(
       mvpPromotionSchema.safeParse({
         ...p,
@@ -360,12 +369,12 @@ describe("curated inclusion is independent of discount language", () => {
     const preview = await getMvpPromotions(
       [103.6, 1.15, 103.7, 1.2],
       null,
-      true,
+      "corpus",
       now,
       records,
     );
     expect(preview.items).toHaveLength(2);
-    expect(visibleMvp(records, false, now)).toEqual([]);
+    expect(visibleMvp(records, "live", now)).toEqual([]);
   });
 });
 
@@ -373,10 +382,9 @@ it("production ignores the development-only full corpus preview flag", () => {
   vi.stubEnv("NODE_ENV", "production");
   try {
     expect(
-      allowHistory(
-        new Request("http://localhost/api/mvp/promotions?includeExpired=true"),
-      ),
-    ).toBe(false);
+      mvpPreviewOptions(new URLSearchParams("includeExpired=true&view=corpus"))
+        .mode,
+    ).toBe("live");
   } finally {
     vi.unstubAllEnvs();
   }

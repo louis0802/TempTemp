@@ -88,12 +88,12 @@ const summary = {
   artifactEvaluatedAt: artifact.evaluatedAt,
   activeLiveReadyAtArtifactDate: visibleMvp(
     records,
-    false,
+    "live",
     DateTime.fromISO(artifact.evaluatedAt),
   ).length,
   activeLiveReadyAtTaskDate: visibleMvp(
     records,
-    false,
+    "live",
     DateTime.fromISO("2026-09-22T12:00:00+08:00"),
   ).length,
 };

@@ -142,21 +142,23 @@ export function lifecycle(
   const today = now.setZone("Asia/Singapore").toISODate()!;
   return start > today ? "upcoming" : end < today ? "expired" : "active";
 }
+export type MvpViewMode = "live" | "live_with_expired" | "corpus";
 export function visibleMvp(
   records: MvpPromotion[],
-  includeExpired = false,
+  mode: MvpViewMode = "live",
   now: DateTime = DateTime.now(),
 ) {
   return records
     .map((p) => ({ ...p, lifecycle: lifecycle(p.startDate, p.endDate, now) }))
     .filter(
       (p) =>
-        includeExpired ||
+        mode === "corpus" ||
         (p.status === "ready" &&
           p.contentStatus === "resolved" &&
           p.validityStatus === "resolved" &&
           p.mapStatus === "ready" &&
           p.outlets.length > 0 &&
-          p.lifecycle === "active"),
+          (p.lifecycle === "active" ||
+            (mode === "live_with_expired" && p.lifecycle === "expired"))),
     );
 }

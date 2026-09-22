@@ -1,17 +1,22 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-import { Listing } from "@/domain/promotion";
+import {
+  MapLocationGroup,
+  locationLabel,
+  locationSelected,
+  locationPinText,
+} from "@/domain/map-locations";
 import type { Map as LibreMap, Marker } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 type Props = {
-  items: Listing[];
+  groups: MapLocationGroup[];
   selected: string | null;
-  onSelect: (id: string) => void;
+  onSelect: (group: MapLocationGroup) => void;
   bounds: [number, number, number, number];
   onBounds: (b: [number, number, number, number]) => void;
 };
 export default function PromotionMap({
-  items,
+  groups,
   selected,
   onSelect,
   bounds,
@@ -20,10 +25,10 @@ export default function PromotionMap({
   const container = useRef<HTMLDivElement>(null),
     map = useRef<LibreMap | null>(null),
     markers = useRef<Marker[]>([]);
-  const handlers = useRef({ onSelect, onBounds });
+  const handlers = useRef({ onSelect, onBounds, selected });
   useEffect(() => {
-    handlers.current = { onSelect, onBounds };
-  }, [onSelect, onBounds]);
+    handlers.current = { onSelect, onBounds, selected };
+  }, [onSelect, onBounds, selected]);
   const [failed, setFailed] = useState(false),
     [ready, setReady] = useState(false);
   const key = process.env.NEXT_PUBLIC_MAPTILER_KEY;
@@ -132,25 +137,35 @@ export default function PromotionMap({
       if (disposed || !map.current) return;
       markers.current.forEach((m) => m.remove());
       markers.current = [];
-      items.forEach((p, i) =>
-        p.outlets.forEach((o) => {
-          const el = document.createElement("button");
-          el.className = `map-pin ${selected === p.id ? "selected" : ""}`;
-          el.textContent = String(i + 1);
-          el.setAttribute("aria-label", `${p.merchant}, ${o.name}`);
-          el.onclick = () => handlers.current.onSelect(p.id);
-          markers.current.push(
-            new Marker({ element: el })
-              .setLngLat([o.lng, o.lat])
-              .addTo(map.current!),
-          );
-        }),
-      );
+      groups.forEach((group) => {
+        const el = document.createElement("button");
+        el.className = `map-pin ${group.promotions.length > 1 ? "multiple" : ""} ${locationSelected(group, handlers.current.selected) ? "selected" : ""}`;
+        el.textContent = locationPinText(group);
+        el.setAttribute("aria-label", locationLabel(group));
+        el.setAttribute("aria-haspopup", "dialog");
+        el.dataset.locationKey = group.key;
+        el.onclick = () => handlers.current.onSelect(group);
+        markers.current.push(
+          new Marker({ element: el })
+            .setLngLat([group.lng, group.lat])
+            .addTo(map.current!),
+        );
+      });
     });
     return () => {
       disposed = true;
     };
-  }, [items, selected, ready]);
+  }, [groups, ready]);
+  useEffect(() => {
+    for (const marker of markers.current) {
+      const el = marker.getElement();
+      const group = groups.find((g) => g.key === el.dataset.locationKey);
+      el.classList.toggle(
+        "selected",
+        !!group && locationSelected(group, selected),
+      );
+    }
+  }, [groups, selected]);
   if (!schematic && !failed)
     return (
       <div
@@ -217,23 +232,22 @@ export default function PromotionMap({
           );
         })}
       </div>
-      {items.map((p, i) =>
-        p.outlets.map((o) => {
-          const point = project(o.lng, o.lat);
-          return (
-            <button
-              key={`${p.id}-${o.id}`}
-              aria-label={`${p.merchant}, ${o.name}`}
-              className={`map-pin schematic-pin ${selected === p.id ? "selected" : ""}`}
-              style={{ left: `${point.x / 10}%`, top: `${point.y / 8}%` }}
-              onClick={() => onSelect(p.id)}
-            >
-              <span>{i + 1}</span>
-              <b>{p.benefit}</b>
-            </button>
-          );
-        }),
-      )}
+      {groups.map((group) => {
+        const point = project(group.lng, group.lat);
+        return (
+          <button
+            key={group.key}
+            data-location-key={group.key}
+            aria-label={locationLabel(group)}
+            aria-haspopup="dialog"
+            className={`map-pin schematic-pin ${group.promotions.length > 1 ? "multiple" : ""} ${locationSelected(group, selected) ? "selected" : ""}`}
+            style={{ left: `${point.x / 10}%`, top: `${point.y / 8}%` }}
+            onClick={() => onSelect(group)}
+          >
+            {locationPinText(group)}
+          </button>
+        );
+      })}
       <span className="map-disclaimer">
         {failed ? "Map unavailable · " : "Local preview · "}schematic, not for
         navigation
