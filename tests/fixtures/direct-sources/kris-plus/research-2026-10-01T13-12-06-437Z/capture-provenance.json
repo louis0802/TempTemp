@@ -1,0 +1,170 @@
+{
+  "merchant": "kris-plus",
+  "limits": {
+    "maxRequests": 40,
+    "maxListingPages": 5,
+    "maxDetailPages": 20,
+    "maxEvidencePages": 8,
+    "maxBytes": 3000000,
+    "timeoutMs": 12000,
+    "maxRedirects": 3
+  },
+  "jobs": [
+    {
+      "url": "https://www.krisplus.com/en/sg/terms-and-conditions",
+      "purpose": "exact public directory operator legal terms",
+      "kind": "evidence"
+    },
+    {
+      "url": "https://www.singaporeair.com/en_UK/sg/ppsclub-krisflyer/use-miles/krisplus/terms-of-use/",
+      "purpose": "official operator legal declaration",
+      "kind": "evidence"
+    },
+    {
+      "url": "https://www.singaporeair.com/en_UK/ru/ppsclub-krisflyer/use-miles/krisplus/krisplus-cashier/",
+      "purpose": "independent Singapore Airlines corporate linkage to exact directory host",
+      "kind": "evidence"
+    },
+    {
+      "url": "https://www.krisplus.com/en/sg/promotions/birthday-bash-earn-8mpd-d4dade67",
+      "purpose": "directory-linked exact partner campaign detail and multi-merchant scope",
+      "kind": "detail"
+    },
+    {
+      "url": "https://www.krisplus.com/en/sg/promotions/esso-fuels-your-miles-b1ab265f",
+      "purpose": "directory-linked partner campaign detail and participation terms",
+      "kind": "detail"
+    }
+  ],
+  "attempts": [
+    {
+      "url": "https://www.krisplus.com/en/sg/terms-and-conditions",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.singaporeair.com/en_UK/sg/ppsclub-krisflyer/use-miles/krisplus/terms-of-use/",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": 404,
+      "error": "http_404",
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.singaporeair.com/en_UK/ru/ppsclub-krisflyer/use-miles/krisplus/krisplus-cashier/",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": 404,
+      "error": "http_404",
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.krisplus.com/en/sg/promotions/birthday-bash-earn-8mpd-d4dade67",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.krisplus.com/en/sg/promotions/esso-fuels-your-miles-b1ab265f",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    }
+  ],
+  "captures": [
+    {
+      "requestedUrl": "https://www.krisplus.com/en/sg/terms-and-conditions",
+      "finalUrl": "https://www.krisplus.com/en/sg/terms-and-conditions",
+      "capturedAt": "2026-10-01T13:12:06.439Z",
+      "observedAt": "2026-10-01T13:12:06.439Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 94163,
+      "sha256": "2c25e8e9a64b26105b00eb8d0ed4ee7d5867e24ceac8b91056459256adf0be3e",
+      "path": "2c25e8e9a64b26105b00eb8d0ed4ee7d5867e24ceac8b91056459256adf0be3e.html",
+      "purpose": "exact public directory operator legal terms",
+      "kind": "evidence",
+      "accessBlocked": false
+    },
+    {
+      "requestedUrl": "https://www.singaporeair.com/en_UK/sg/ppsclub-krisflyer/use-miles/krisplus/terms-of-use/",
+      "finalUrl": "https://www.singaporeair.com/en_UK/sg/ppsclub-krisflyer/use-miles/krisplus/terms-of-use/",
+      "capturedAt": "2026-10-01T13:12:06.924Z",
+      "observedAt": "2026-10-01T13:12:06.924Z",
+      "httpStatus": 404,
+      "contentType": "text/html",
+      "bytes": 11912,
+      "sha256": "7a8761740bfcf219ff503f45293b4beec084e9dc484843ddad7b2f24c4fd1b6f",
+      "path": "7a8761740bfcf219ff503f45293b4beec084e9dc484843ddad7b2f24c4fd1b6f.html",
+      "purpose": "official operator legal declaration",
+      "kind": "evidence",
+      "accessBlocked": false
+    },
+    {
+      "requestedUrl": "https://www.singaporeair.com/en_UK/ru/ppsclub-krisflyer/use-miles/krisplus/krisplus-cashier/",
+      "finalUrl": "https://www.singaporeair.com/en_UK/ru/ppsclub-krisflyer/use-miles/krisplus/krisplus-cashier/",
+      "capturedAt": "2026-10-01T13:12:07.327Z",
+      "observedAt": "2026-10-01T13:12:07.327Z",
+      "httpStatus": 404,
+      "contentType": "text/html",
+      "bytes": 11911,
+      "sha256": "618723de8419ec51c4f8318dc54cd3e914425c6909b698e7ca7264f73c1915fd",
+      "path": "618723de8419ec51c4f8318dc54cd3e914425c6909b698e7ca7264f73c1915fd.html",
+      "purpose": "independent Singapore Airlines corporate linkage to exact directory host",
+      "kind": "evidence",
+      "accessBlocked": false
+    },
+    {
+      "requestedUrl": "https://www.krisplus.com/en/sg/promotions/birthday-bash-earn-8mpd-d4dade67",
+      "finalUrl": "https://www.krisplus.com/en/sg/promotions/birthday-bash-earn-8mpd-d4dade67",
+      "capturedAt": "2026-10-01T13:12:07.441Z",
+      "observedAt": "2026-10-01T13:12:07.441Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 202290,
+      "sha256": "a328bdbc6741cb816e5900e43f92c63372dacdf8aaaec65d849c9b8eed0a7b8d",
+      "path": "a328bdbc6741cb816e5900e43f92c63372dacdf8aaaec65d849c9b8eed0a7b8d.html",
+      "purpose": "directory-linked exact partner campaign detail and multi-merchant scope",
+      "kind": "detail",
+      "accessBlocked": false
+    },
+    {
+      "requestedUrl": "https://www.krisplus.com/en/sg/promotions/esso-fuels-your-miles-b1ab265f",
+      "finalUrl": "https://www.krisplus.com/en/sg/promotions/esso-fuels-your-miles-b1ab265f",
+      "capturedAt": "2026-10-01T13:12:07.660Z",
+      "observedAt": "2026-10-01T13:12:07.660Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 115088,
+      "sha256": "c42b907057b5c6ec75a61000409e2b273cddf6dd28d2d2b6ac6fca3930b560a1",
+      "path": "c42b907057b5c6ec75a61000409e2b273cddf6dd28d2d2b6ac6fca3930b560a1.html",
+      "purpose": "directory-linked partner campaign detail and participation terms",
+      "kind": "detail",
+      "accessBlocked": false
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://www.singaporeair.com/en_UK/sg/ppsclub-krisflyer/use-miles/krisplus/terms-of-use/",
+      "error": "http_404"
+    },
+    {
+      "url": "https://www.singaporeair.com/en_UK/ru/ppsclub-krisflyer/use-miles/krisplus/krisplus-cashier/",
+      "error": "http_404"
+    }
+  ],
+  "cumulativeCounts": {
+    "listing": 2,
+    "detail": 2,
+    "evidence": 3
+  },
+  "cumulativeAttempts": 7,
+  "note": "Explicit public research roots, ordinary bounded direct transport; no cookies/auth/private APIs/OCR or browser. Research evidence is not production registration."
+}

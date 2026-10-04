@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T03:59:38.644Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://www.shiokburger.com/",
+      "url": "https://www.shiokburger.com/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "cc634a597d17ddf5df37e00eb8eed0f1da9f4704aacfb43120add775d32f8f14.html",
+      "sha256": "cc634a597d17ddf5df37e00eb8eed0f1da9f4704aacfb43120add775d32f8f14",
+      "bytes": 962129,
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+[
+  {
+    "schemaVersion": 1,
+    "candidateId": "direct_e3c83226ffc288a791b7dc01a5f52897436366882bce2b727165f01d57c628eb",
+    "sourceId": "gourmet_carousel_sg",
+    "sourceLabel": "Gourmet Carousel Singapore",
+    "canonicalUrl": "https://www.royalplaza.com.sg/dine/barista",
+    "listingUrl": "https://www.royalplaza.com.sg/dine/barista",
+    "nativeId": "happy-international-coffee-day-2026",
+    "merchant": "Gourmet Carousel",
+    "title": "HAPPY INTERNATIONAL COFFEE DAY 2026",
+    "benefit": "Free Coffee. Any Coffee. All Day.",
+    "description": "Internationl Coffee Day Alert\nFree Coffee. Any Coffee. All Day.\nCelebrate International Coffee Day with a complimentary coffee at Gourmet Carousel\nChoose any coffee-based drink on our Barista menu, hot or iced. Flat white, long black, iced latte: take your pick.\nNo minimum spend. In-house guests and walk-ins are both welcome.\nRegister on the spot using the QR code at the counter.\nJoin us on 1 October, from 7.30am to 6pm.\nTerms and Conditions\nValid on 1 October 2026 only, from 7.30am to 6.00pm, at Gourmet Carousel - Barista Experience. Registration is required to receive a single-use redemption screen. One complimentary coffee per person. Eligible for any coffee-based drink on the Barista menu, hot or iced. No purchase required. No cash value; not exchangeable; while stocks last. Promotion may be amended if operationally necessary.\nYour Data\nWe collect your details to send marketing updates from Royal Plaza on Scotts and Gourmet Carousel, manage your coffee redemption, prevent duplicate claims, and evaluate this campaign. You may withdraw your marketing consent at any time.",
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-01",
+    "weekdays": null,
+    "hours": "07:30–18:00",
+    "locationScope": "named_outlets",
+    "locationNames": [
+      "Gourmet Carousel - Barista Experience"
+    ],
+    "locationWording": "Valid on 1 October 2026 only, from 7.30am to 6.00pm, at Gourmet Carousel - Barista Experience. Registration is required to receive a single-use redemption screen. One complimentary coffee per person. Eligible for any coffee-based drink on the Barista menu, hot or iced. No purchase required. No cash value; not exchangeable; while stocks last. Promotion may be amended if operationally necessary.",
+    "eligibility": [
+      "No minimum spend. In-house guests and walk-ins are both welcome.",
+      "Valid on 1 October 2026 only, from 7.30am to 6.00pm, at Gourmet Carousel - Barista Experience. Registration is required to receive a single-use redemption screen. One complimentary coffee per person. Eligible for any coffee-based drink on the Barista menu, hot or iced. No purchase required. No cash value; not exchangeable; while stocks last. Promotion may be amended if operationally necessary."
+    ],
+    "redemption": [
+      "Register on the spot using the QR code at the counter.",
+      "Valid on 1 October 2026 only, from 7.30am to 6.00pm, at Gourmet Carousel - Barista Experience. Registration is required to receive a single-use redemption screen. One complimentary coffee per person. Eligible for any coffee-based drink on the Barista menu, hot or iced. No purchase required. No cash value; not exchangeable; while stocks last. Promotion may be amended if operationally necessary.",
+      "We collect your details to send marketing updates from Royal Plaza on Scotts and Gourmet Carousel, manage your coffee redemption, prevent duplicate claims, and evaluate this campaign. You may withdraw your marketing consent at any time."
+    ],
+    "terms": [
+      "Valid on 1 October 2026 only, from 7.30am to 6.00pm, at Gourmet Carousel - Barista Experience. Registration is required to receive a single-use redemption screen. One complimentary coffee per person. Eligible for any coffee-based drink on the Barista menu, hot or iced. No purchase required. No cash value; not exchangeable; while stocks last. Promotion may be amended if operationally necessary."
+    ],
+    "observedAt": "2026-10-01T11:52:23.692Z",
+    "publishedAt": null,
+    "extractionStatus": "partial",
+    "issues": [
+      "weekdays_unknown"
+    ],
+    "facts": {
+      "merchant": {
+        "evidenceIds": [
+          "b19923edc109ba4a171c13b497397601db0eae6804afec503b9584fc2670cdc3"
+        ],
+        "selector": ".blocks-about-dining .better-rich-text .bb-callout",
+        "quote": "Celebrate International Coffee Day with a complimentary coffee at Gourmet Carousel"
+      },
+      "title": {
+        "evidenceIds": [
+          "b19923edc109ba4a171c13b497397601db0eae6804afec503b9584fc2670cdc3"
+        ],
+        "selector": ".blocks-about-dining .better-rich-text .bb-callout",
+        "quote": "HAPPY INTERNATIONAL COFFEE DAY 2026"
+      },
+      "benefit": {
+        "evidenceIds": [
+          "b19923edc109ba4a171c13b497397601db0eae6804afec503b9584fc2670cdc3"
+        ],
+        "selector": ".blocks-about-dining .better-rich-text .bb-callout",
+        "quote": "Free Coffee. Any Coffee. All Day."
+      },
+      "description": {
+        "evidenceIds": [
+          "b19923edc109ba4a171c13b497397601db0eae6804afec503b9584fc2670cdc3"
+        ],
+        "selector": ".blocks-about-dining .better-rich-text .bb-callout",
+        "quote": "Internationl Coffee Day Alert\nFree Coffee. Any Coffee. All Day.\nCelebrate International Coffee Day with a complimentary coffee at Gourmet Carousel\nChoose any coffee-based drink on our Barista menu, hot or iced. Flat white, long black, iced latte: take your pick.\nNo minimum spend. In-house guests and walk-ins are both welcome.\nRegister on the spot using the QR code at the counter.\nJoin us on 1 October, from 7.30am to 6pm.\nTerms and Conditions\nValid on 1 October 2026 only, from 7.30am to 6.00pm, at Gourmet Carousel - Barista Experience. Registration is required to receive a single-use redemption screen. One complimentary coffee per person. Eligible for any coffee-based drink on the Barista menu, hot or iced. No purchase required. No cash value; not exchangeable; while stocks last. Promotion may be amended if operationally necessary.\nYour Data\nWe collect your details to send marketing updates from Royal Plaza on Scotts and Gourmet Carousel, manage your coffee redemption, prevent duplicate claims, and evaluate this campaign. You may withdraw your marketing consent at any time."
+      },
+      "terms": {
+        "evidenceIds": [
+          "b19923edc109ba4a171c13b497397601db0eae6804afec503b9584fc2670cdc3"
+        ],
+        "selector": ".blocks-about-dining .better-rich-text .bb-callout",
+        "quote": "Valid on 1 October 2026 only, from 7.30am to 6.00pm, at Gourmet Carousel - Barista Experience. Registration is required to receive a single-use redemption screen. One complimentary coffee per person. Eligible for any coffee-based drink on the Barista menu, hot or iced. No purchase required. No cash value; not exchangeable; while stocks last. Promotion may be amended if operationally necessary."
+      },
+      "validity": {
+        "evidenceIds": [
+          "b19923edc109ba4a171c13b497397601db0eae6804afec503b9584fc2670cdc3"
+        ],
+        "selector": ".blocks-about-dining .better-rich-text .bb-callout",
+        "quote": "Valid on 1 October 2026 only, from 7.30am to 6.00pm, at Gourmet Carousel - Barista Experience. Registration is required to receive a single-use redemption screen. One complimentary coffee per person. Eligible for any coffee-based drink on the Barista menu, hot or iced. No purchase required. No cash value; not exchangeable; while stocks last. Promotion may be amended if operationally necessary."
+      },
+      "hours": {
+        "evidenceIds": [
+          "b19923edc109ba4a171c13b497397601db0eae6804afec503b9584fc2670cdc3"
+        ],
+        "selector": ".blocks-about-dining .better-rich-text .bb-callout",
+        "quote": "Valid on 1 October 2026 only, from 7.30am to 6.00pm, at Gourmet Carousel - Barista Experience. Registration is required to receive a single-use redemption screen. One complimentary coffee per person. Eligible for any coffee-based drink on the Barista menu, hot or iced. No purchase required. No cash value; not exchangeable; while stocks last. Promotion may be amended if operationally necessary."
+      },
+      "locations": {
+        "evidenceIds": [
+          "b19923edc109ba4a171c13b497397601db0eae6804afec503b9584fc2670cdc3"
+        ],
+        "selector": ".blocks-about-dining .better-rich-text .bb-callout",
+        "quote": "Valid on 1 October 2026 only, from 7.30am to 6.00pm, at Gourmet Carousel - Barista Experience. Registration is required to receive a single-use redemption screen. One complimentary coffee per person. Eligible for any coffee-based drink on the Barista menu, hot or iced. No purchase required. No cash value; not exchangeable; while stocks last. Promotion may be amended if operationally necessary."
+      },
+      "eligibility": {
+        "evidenceIds": [
+          "b19923edc109ba4a171c13b497397601db0eae6804afec503b9584fc2670cdc3"
+        ],
+        "selector": ".blocks-about-dining .better-rich-text .bb-callout",
+        "quote": "No minimum spend. In-house guests and walk-ins are both welcome.\nValid on 1 October 2026 only, from 7.30am to 6.00pm, at Gourmet Carousel - Barista Experience. Registration is required to receive a single-use redemption screen. One complimentary coffee per person. Eligible for any coffee-based drink on the Barista menu, hot or iced. No purchase required. No cash value; not exchangeable; while stocks last. Promotion may be amended if operationally necessary."
+      },
+      "redemption": {
+        "evidenceIds": [
+          "b19923edc109ba4a171c13b497397601db0eae6804afec503b9584fc2670cdc3"
+        ],
+        "selector": ".blocks-about-dining .better-rich-text .bb-callout",
+        "quote": "Register on the spot using the QR code at the counter.\nValid on 1 October 2026 only, from 7.30am to 6.00pm, at Gourmet Carousel - Barista Experience. Registration is required to receive a single-use redemption screen. One complimentary coffee per person. Eligible for any coffee-based drink on the Barista menu, hot or iced. No purchase required. No cash value; not exchangeable; while stocks last. Promotion may be amended if operationally necessary.\nWe collect your details to send marketing updates from Royal Plaza on Scotts and Gourmet Carousel, manage your coffee redemption, prevent duplicate claims, and evaluate this campaign. You may withdraw your marketing consent at any time."
+      }
+    },
+    "evidence": [
+      {
+        "id": "b19923edc109ba4a171c13b497397601db0eae6804afec503b9584fc2670cdc3",
+        "sourceId": "gourmet_carousel_sg",
+        "url": "https://www.royalplaza.com.sg/dine/barista",
+        "requestedUrl": "https://www.royalplaza.com.sg/dine/barista",
+        "relation": "listing",
+        "fetchedAt": "2026-10-01T11:52:23.692Z",
+        "contentHash": "46d026678da688edb666fd98b62d6204f73f66c6907c3cc0237fc18f42777a56",
+        "contentType": "text/html",
+        "httpStatus": 200,
+        "notes": []
+      }
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "candidateId": "direct_fdf4e66bd099d89faaadfe14bc4d1f3dc71fce6fed3dc1c3e033e101520394d7",
+    "sourceId": "gourmet_carousel_sg",
+    "sourceLabel": "Gourmet Carousel Singapore",
+    "canonicalUrl": "https://www.royalplaza.com.sg/dine/offers/carousel-pastries",
+    "listingUrl": "https://www.royalplaza.com.sg/dine/offers",
+    "nativeId": null,
+    "merchant": "Gourmet Carousel",
+    "title": "Carousel Moon Pastries",
+    "benefit": "Complimentary islandwide delivery (50+ boxes)",
+    "description": "Meet Carousel Moon Pastries.\nThis Mid-Autumn, Gourmet Carousel reimagines the traditional mooncake with a touch of contemporary creativity. Handcrafted in Carousel's Halal-certified kitchen in Singapore, our Moon Pastries collection brings together familiar Asian flavours, refined craftsmanship and elegant presentation in every bite.\nDiscover six distinctive creations:\nEmerald Dreams 翡翠之梦 - Pandan pastry with smooth red bean filling\nStraits Fusion 南洋月语 - Gula melaka lotus paste with soft mochi\nOndeh Pop 椰香青语 - Pandan coconut filling with cocoa crumbs\nOng Lai Lai 旺萊来 - Sarawak honey pineapple with gold leaf topping\nLotus Blossom 莲韵花香 - Rose lotus paste wrapped in rose-infused pastry\nTeochew Treasures 潮州之宝 - Yam paste with pandan and gula melaka\nPresented in our signature Weavers Basket, this elegant keepsake is designed for gifting, sharing and creating meaningful Mid-Autumn moments with loved ones.\n🚚 Islandwide delivery available\n📍 Self-collection at Royal Plaza on Scotts\n💰 $88 nett per box\n📅 Pre-orders now open, collection from 20 August 2026",
+    "startDate": null,
+    "endDate": null,
+    "weekdays": null,
+    "hours": null,
+    "locationScope": "source_unspecified",
+    "locationNames": [],
+    "locationWording": null,
+    "eligibility": [
+      "Complimentary islandwide delivery to one location is applicable for orders of 50 boxes and above. For bulk orders and enquiries, please contact [email protected]."
+    ],
+    "redemption": [
+      "All orders must be placed at least three days in advance to ensure timely processing and delivery.",
+      "Complimentary islandwide delivery to one location is applicable for orders of 50 boxes and above. For bulk orders and enquiries, please contact [email protected]."
+    ],
+    "terms": [
+      "All orders must be placed at least three days in advance to ensure timely processing and delivery.",
+      "Islandwide delivery available at $35 nett per location.",
+      "Complimentary islandwide delivery to one location is applicable for orders of 50 boxes and above. For bulk orders and enquiries, please contact [email protected]."
+    ],
+    "observedAt": "2026-10-01T11:52:23.692Z",
+    "publishedAt": null,
+    "extractionStatus": "partial",
+    "issues": [
+      "campaign_validity_unspecified",
+      "end_date_unknown",
+      "gourmet_pastry_participation_unresolved",
+      "hours_unknown",
+      "locations_unknown",
+      "start_date_unknown",
+      "weekdays_unknown"
+    ],
+    "facts": {
+      "merchant": {
+        "evidenceIds": [
+          "d38847ad31b3c9b4ea6834271526f40785d266fcbac5a2d644f502bcb9a522b2"
+        ],
+        "selector": ".dine-offer-single .better-rich-text",
+        "quote": "This Mid-Autumn, Gourmet Carousel reimagines the traditional mooncake with a touch of contemporary creativity. Handcrafted in Carousel's Halal-certified kitchen in Singapore, our Moon Pastries collection brings together familiar Asian flavours, refined craftsmanship and elegant presentation in every bite."
+      },
+      "title": {
+        "evidenceIds": [
+          "d38847ad31b3c9b4ea6834271526f40785d266fcbac5a2d644f502bcb9a522b2"
+        ],
+        "selector": ".dine-offer-single .tagline-header-title",
+        "quote": "Carousel Moon Pastries"
+      },
+      "benefit": {
+        "evidenceIds": [
+          "d38847ad31b3c9b4ea6834271526f40785d266fcbac5a2d644f502bcb9a522b2"
+        ],
+        "selector": ".terms-and-conditions li",
+        "quote": "Complimentary islandwide delivery to one location is applicable for orders of 50 boxes and above. For bulk orders and enquiries, please contact [email protected]."
+      },
+      "description": {
+        "evidenceIds": [
+          "d38847ad31b3c9b4ea6834271526f40785d266fcbac5a2d644f502bcb9a522b2"
+        ],
+        "selector": ".dine-offer-single .better-rich-text",
+        "quote": "Meet Carousel Moon Pastries.\nThis Mid-Autumn, Gourmet Carousel reimagines the traditional mooncake with a touch of contemporary creativity. Handcrafted in Carousel's Halal-certified kitchen in Singapore, our Moon Pastries collection brings together familiar Asian flavours, refined craftsmanship and elegant presentation in every bite.\nDiscover six distinctive creations:\nEmerald Dreams 翡翠之梦 - Pandan pastry with smooth red bean filling\nStraits Fusion 南洋月语 - Gula melaka lotus paste with soft mochi\nOndeh Pop 椰香青语 - Pandan coconut filling with cocoa crumbs\nOng Lai Lai 旺萊来 - Sarawak honey pineapple with gold leaf topping\nLotus Blossom 莲韵花香 - Rose lotus paste wrapped in rose-infused pastry\nTeochew Treasures 潮州之宝 - Yam paste with pandan and gula melaka\nPresented in our signature Weavers Basket, this elegant keepsake is designed for gifting, sharing and creating meaningful Mid-Autumn moments with loved ones.\n🚚 Islandwide delivery available\n📍 Self-collection at Royal Plaza on Scotts\n💰 $88 nett per box\n📅 Pre-orders now open, collection from 20 August 2026"
+      },
+      "terms": {
+        "evidenceIds": [
+          "d38847ad31b3c9b4ea6834271526f40785d266fcbac5a2d644f502bcb9a522b2"
+        ],
+        "selector": ".terms-and-conditions li",
+        "quote": "All orders must be placed at least three days in advance to ensure timely processing and delivery.\nIslandwide delivery available at $35 nett per location.\nComplimentary islandwide delivery to one location is applicable for orders of 50 boxes and above. For bulk orders and enquiries, please contact [email protected]."
+      },
+      "eligibility": {
+        "evidenceIds": [
+          "d38847ad31b3c9b4ea6834271526f40785d266fcbac5a2d644f502bcb9a522b2"
+        ],
+        "selector": ".terms-and-conditions li",
+        "quote": "Complimentary islandwide delivery to one location is applicable for orders of 50 boxes and above. For bulk orders and enquiries, please contact [email protected]."
+      },
+      "redemption": {
+        "evidenceIds": [
+          "d38847ad31b3c9b4ea6834271526f40785d266fcbac5a2d644f502bcb9a522b2"
+        ],
+        "selector": ".terms-and-conditions li",
+        "quote": "All orders must be placed at least three days in advance to ensure timely processing and delivery.\nComplimentary islandwide delivery to one location is applicable for orders of 50 boxes and above. For bulk orders and enquiries, please contact [email protected]."
+      }
+    },
+    "evidence": [
+      {
+        "id": "02594cc3f777e4a0f2baa2e1bf30143c56c3993f59407b1df944b73f82d7f1c8",
+        "sourceId": "gourmet_carousel_sg",
+        "url": "https://www.royalplaza.com.sg/dine/offers",
+        "requestedUrl": "https://www.royalplaza.com.sg/dine/offers",
+        "relation": "listing",
+        "fetchedAt": "2026-10-01T11:52:23.692Z",
+        "contentHash": "c341eecd0e55ec940bf5c408b45e7e2d62b9542ab28958067ea7b20d9dc73865",
+        "contentType": "text/html",
+        "httpStatus": 200,
+        "notes": []
+      },
+      {
+        "id": "d38847ad31b3c9b4ea6834271526f40785d266fcbac5a2d644f502bcb9a522b2",
+        "sourceId": "gourmet_carousel_sg",
+        "url": "https://www.royalplaza.com.sg/dine/offers/carousel-pastries",
+        "requestedUrl": "https://www.royalplaza.com.sg/dine/offers/carousel-pastries",
+        "relation": "detail",
+        "fetchedAt": "2026-10-01T11:52:23.692Z",
+        "contentHash": "6468cbdfe9637d7f208759da9441f9dd8fb4a84b87e266ab1f913877e3ff62b4",
+        "contentType": "text/html",
+        "httpStatus": 200,
+        "notes": []
+      }
+    ]
+  }
+]

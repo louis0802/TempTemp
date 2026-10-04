@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "aliases": [
+    {
+      "alias": "Ajumma’s",
+      "canonical": "Ajumma's Korean Restaurant",
+      "basis": "merchant_self_identification",
+      "reason": "Official merchant page title and description explicitly self-identify both historical labels as the same restaurant. No spelling/operator inference.",
+      "url": "https://www.ajummassg.com/",
+      "capture_file": "tests/fixtures/social-sources/official-2026-10-02-network/f7b3a69eed9d6b08ab0d8238a2c3041b8ddfd3bcf7094222b98475cf8d08c9d6.html",
+      "capture_sha256": "f7b3a69eed9d6b08ab0d8238a2c3041b8ddfd3bcf7094222b98475cf8d08c9d6",
+      "assertions": [
+        {
+          "selector": "title",
+          "quote": "Ajumma's Korean Restaurant"
+        },
+        {
+          "selector": "meta[name=\"description\"]",
+          "attribute": "content",
+          "quote": "Ajumma’s is a young fast-casual Korean restaurant established in Singapore, 2014"
+        }
+      ]
+    }
+  ]
+}

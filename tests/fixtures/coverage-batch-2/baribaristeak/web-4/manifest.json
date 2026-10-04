@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T04:04:17.119Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://engroup.com.sg/",
+      "url": "https://engroup.com.sg/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "0fc412a5f25e4c8882c1edb632b8cdd7b28a693d0a29ab96c83046190b5ad259.html",
+      "sha256": "0fc412a5f25e4c8882c1edb632b8cdd7b28a693d0a29ab96c83046190b5ad259",
+      "bytes": 178661,
+      "error": null
+    }
+  ]
+}

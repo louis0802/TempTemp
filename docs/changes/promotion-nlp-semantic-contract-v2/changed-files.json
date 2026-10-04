@@ -1,0 +1,238 @@
+{
+  "scope": "new parallel v2 research artifacts only; pre-existing dirty work untouched",
+  "productionFilesChanged": [],
+  "preservedInitialFiles": 245,
+  "unchangedInitialSnapshotSha256": "89ba6b2d1034965c96ccffa21ed2c013d16deb5f2a9ad5555ebe31ddc3d100bd",
+  "repositoryFiles": [
+    {
+      "path": "docs/changes/promotion-nlp-semantic-contract-v2/benchmark-review.md",
+      "change": "added",
+      "sha256": "af27ffee9f0ecd0e704b4dab35d9fdb32bccc035f6e74f8875341f597e7f6b92"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-semantic-contract-v2/decision.md",
+      "change": "added",
+      "sha256": "e91c31104c37ed3c7662882692d39e1696c15273bac41ac8d5228739a0d1c34f"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-semantic-contract-v2/design.md",
+      "change": "added",
+      "sha256": "d2263878b1a79fb0cd2d08ae8b488a7136c33507d06cb1d3f8ab68c58d55c255"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-semantic-contract-v2/evaluation-metrics.json",
+      "change": "added",
+      "sha256": "56e374b61240cd130d46db95f6db5c0338a8fa7bc4b633433982b53a31d9e073"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-semantic-contract-v2/evaluation.md",
+      "change": "added",
+      "sha256": "5582984a929f22ac4291f6ba93a9842fe4f155d17bd88abf194c063896c5f7a1"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-semantic-contract-v2/failure-analysis.md",
+      "change": "added",
+      "sha256": "7073ccb92725b9f927b09fa3aa2fbf89577d565dfb2dc6943e50abe3a03dee1f"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-semantic-contract-v2/intent.md",
+      "change": "added",
+      "sha256": "d2bf9b8e2d59359d6eb868421eeab0f63c7877ce9e85afbd7f9452afef64f8e8"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-semantic-contract-v2/plan.md",
+      "change": "added",
+      "sha256": "f0c5f71f0df4b280e5069201b444e3ac151cf31cf5ac8f2977fae04fb3588298"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-semantic-contract-v2/prompt.md",
+      "change": "added",
+      "sha256": "e98221c1f9481b34f49178803b30b7793b629b818352d64e3c1085c7bfe0f841"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-semantic-contract-v2/schema.md",
+      "change": "added",
+      "sha256": "ce370d7fa0d2e8b8f95c73a377ec4d7563b0b7efca81b0af6938f22e9ca50d59"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-semantic-contract-v2/semantic-contract.md",
+      "change": "added",
+      "sha256": "240908cbd9eba0840030b3fe7703d807572f76c0976bc82ecdf59fcb67e67c01"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-semantic-contract-v2/source-review.json",
+      "change": "added",
+      "sha256": "3d43186e53ea41a4bfb98c76240e60cc7084a3ac1accc52de0827973e8cff928"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-semantic-contract-v2/spec.md",
+      "change": "added",
+      "sha256": "47a08a47758870cf9f17af3d8e95800b9ab260767bdb03b1892bc4f9735e77ed"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-semantic-contract-v2/v1-v2-comparison.md",
+      "change": "added",
+      "sha256": "74f3802e92a5b48ef0d00ed0920830f4bdd3e8910a3cd018d493c4dfa9f7d3da"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-semantic-contract-v2/verification.md",
+      "change": "added",
+      "sha256": "4585e3f0e481a5e75343042db03d7ac6e836f15e8426a591dd8dee63da309654"
+    },
+    {
+      "path": "scripts/research/promotion-nlp-subagent-v2-evaluation.ts",
+      "change": "added",
+      "sha256": "ef985d69975dc3de5d10613c085e8e6a77492b84db74db2c0166f2c3164b93fe"
+    },
+    {
+      "path": "src/ingestion/promotion-nlp/benchmark-v2.ts",
+      "change": "added",
+      "sha256": "dac034a1c511a1203e380e5254420c10cd33da83fb1117b33b4c3a90991ddf59"
+    },
+    {
+      "path": "src/ingestion/promotion-nlp/prompt-v2.ts",
+      "change": "added",
+      "sha256": "5b1b7a3c0909aaaf77d8aa38bc4c421fa9499fc73a18a6a011a4e7e54b0ee5fd"
+    },
+    {
+      "path": "src/ingestion/promotion-nlp/schema-v2.ts",
+      "change": "added",
+      "sha256": "62d4cddea81d5e13c20c8c132922d86acd6458ab4b13bc1a06058eadb16c7699"
+    },
+    {
+      "path": "src/ingestion/promotion-nlp/validator-v2.ts",
+      "change": "added",
+      "sha256": "7c71447ca7f8d1948a885c01d30a66bcdca4b707ae516c5ab941a3f688490c89"
+    },
+    {
+      "path": "tests/fixtures/promotion-nlp/benchmark-v2.json",
+      "change": "added",
+      "sha256": "51624f31f62ac7af751f788da29a9ad28f31c4d9525cac016529d13d4efb2f5e"
+    },
+    {
+      "path": "tests/promotion-nlp-subagent-v2.test.ts",
+      "change": "added",
+      "sha256": "f74a5590de0a35aae6f7d6de776f8678a44ef849282780e5cdcda03863aee6aa"
+    },
+    {
+      "path": "tests/promotion-nlp-v2.test.ts",
+      "change": "added",
+      "sha256": "56047ac3a0175e55eb52b7e653f50f5c3daff97e65b01d1a85fd5c45f7ff854e"
+    }
+  ],
+  "manifestPath": "docs/changes/promotion-nlp-semantic-contract-v2/changed-files.json",
+  "localRunRoot": ".local/promotion-nlp-subagent-v2/2026-10-03T07-01-35-641Z-258f1bbf-b09c-443b-b714-5d7492cc98f8",
+  "localRunArtifacts": [
+    "blind-tasks.json",
+    "initial-protected-files.json",
+    "launches/03115f8e0384d76cb90fb3aa26820788f6d73c650e06657060094ffaf2fe5b20.json",
+    "launches/0b649d21d73dd63b35b0d65493fba417673559fd862c17a0effbb6bc0e0aa4a4.json",
+    "launches/1496703a936cb160f8b01152cd9c5c18999bdf57a98563553ab67293f7ddb051.json",
+    "launches/1855e42c7a5ce0c50f195aaf3f0dd6f69f9f4091d865fe81816d1081ae2a42e6.json",
+    "launches/28d84d7dbe589158fd910a7b07a6d1efedc78a88755cf8a259d7ec75a84b0a58.json",
+    "launches/35a97c84d15946793f010e12eb77d61e64d754b95f2cc7c6771c62e8b1b95615.json",
+    "launches/3c93ae1f4ea5bc8aaba41dcf0b8bc07c5f3127b704692880202301f8eb0d1a21.json",
+    "launches/4152a8096a5dbc47ce2a946ffce9c2d5e28c87ed4f9ceca817e3238f87b59630.json",
+    "launches/42d6c5995779ed624943eccb25f25cba54551194e7bd0a91958a194314afd46f.json",
+    "launches/47e14f93f46454f94db6384b90d28c4c351b2463e4a8f3f83fdf16b2284828e6.json",
+    "launches/4981beb8f091a0ccbf4f34914e951e838cb80a92fbd58ce5481fdd836feeeff5.json",
+    "launches/4ef420cab96cfb9de2f843176610a0f18ad2659a28c67dea91529c6cd57a2c9a.json",
+    "launches/587b7eedd2580dd91fc8504a8d998ff78da5a2ef43a8911e376267bc0a6dfd8d.json",
+    "launches/587baee8293e120f947a58b43ca4fc76ef43b95ab09d0b7d2e558d3464658d9f.json",
+    "launches/68a98b8904e24dfda71b3763815a0678a736babb8e9e369123df1e55933f5c42.json",
+    "launches/68b8ac3627a155573b9c1029401f6fc17ec2af265d80c629ef4623e794f2befe.json",
+    "launches/6fa5142e39dc2d7fb73cdf149641a044ed65e090592ae5c196f56199984bd1a4.json",
+    "launches/7111b5545893aca804b721b7be0ffa1456f7d844ebae78e7be4cbcecda298631.json",
+    "launches/746a1207cef2a8d994926ce6304da263c7754fdc6ecbe492889c6e33b1d431f7.json",
+    "launches/765fa60fcbcf4df0a2853a1af19ceae69e5bbc19a16e0e54bb2c83a8250686d3.json",
+    "launches/772fe3631faac313970002d34b48011ee50cc52b950376a18885364ad1b40e21.json",
+    "launches/7af25a0e2bb8f9964e17fc5c697cbd953a6412f4f75fe7319db892a58675ac7f.json",
+    "launches/7de8439691e8a705f03e722ddbfb49ffc685a651bfbea2dbde66fb82563bc2b8.json",
+    "launches/7de92979e6a3bb974529b3b12d7ece1897f426e2c0f3d7c4766c988006744f62.json",
+    "launches/8406f34c1182692a7b8baba9c8432dc80284dafcb577ffcbf260ecd1d782d1b4.json",
+    "launches/8db96c4ef3c680d2951eb703542c957b8e9280db6ff8e0df23cf62f84bb929ff.json",
+    "launches/9048979b39d0e2e7add24067068ef1ae45d30f0f307b1eb62c6e9235f24c2635.json",
+    "launches/906a4979632581e569c7253cbfe0a59ad9ac7dc59c3f10fa692f6cd60c976746.json",
+    "launches/9405fb7248c275197fd557a93b7c068f3f3ea2c3efee1adc08823e7b9fd8bd09.json",
+    "launches/9a5759394e32fb504cbedce02ff0f4cd0cbcddbee9a156903ae67578618dea3a.json",
+    "launches/9c76708e53d4165958f8726d5ab6126bf9f42c2b5c7517eba401819dffb84793.json",
+    "launches/9cec2581eb86a6ed32f8ead9b5122c2ac0a03a416b9575b594be185729e9f7f8.json",
+    "launches/9d8c1ce3e87999691163caca9c930b3c075dd8e428e8b5df63b5cd472deb964b.json",
+    "launches/9e5907db4bdb2fdc8dc6010c4b42f7dbed3dcf2ddc053a3cfe27e8a209a63d70.json",
+    "launches/a40d7f6cd63175dfc41c300826259004804445e0670a2e2e3d5fffff45e83ce0.json",
+    "launches/ad484bf7c07a93eeeef4a0aece87e8bad1782bd813d2af1f3f02b3626b56130b.json",
+    "launches/ad52efff207a40271ccf84085be2c39a8c47d9df20dfd21bdf609af9472edb5b.json",
+    "launches/bd5d77363b4613ca7e9ca673b631e4afaf8dab0b1c9919da788269dcc0bdaac6.json",
+    "launches/c433703e28d3264fee2dfdebb6e552cf4f401f92207c6f1fd74d139a9204a837.json",
+    "launches/c4f8f9039d3dd00624854d4d6a88c81265b87f1d09612ee9fc94f5f77b176e63.json",
+    "launches/c987c2888c0ec45ae90b1bf2e8ab2ee322ddabe4a75d8f45c073e9709d417b0c.json",
+    "launches/d0b30522641483e3310f02e4e58868501932551d0bef5c650d2646eaaef1c9db.json",
+    "launches/d98ea3964bd329599c356f9b76bdb166e3d9ec13f6136aa4ed682068a100eef2.json",
+    "launches/e5c46e2ebe17f1dcfecf37cabead4391fa4fe7407e66cf1d51a132c68702f204.json",
+    "launches/e74a3ee9bdf14d9e64bd1f82b0324cdeac1f6208d6bd5de725f2550f08d6f3e9.json",
+    "launches/ef14ff90c7938f72227ff264577d79540a9da80d3c9c7e44c52410b861926024.json",
+    "launches/f3377ea79f2bbf5747d5a7c9818e4066f8875cadf4f851561636d69bb00503aa.json",
+    "launches/f52c1b30d0aaaaa25e7d4f25e7f98350a1a3e5640242c87dee5e18c532021a4b.json",
+    "launches/fa6f8257c2b1fbb6071e4c35211511e049e48cb9800620c20d1bb31095228f0d.json",
+    "manifest.json",
+    "raw-results.json",
+    "raw-seal.json",
+    "records/03115f8e0384d76cb90fb3aa26820788f6d73c650e06657060094ffaf2fe5b20.json",
+    "records/0b649d21d73dd63b35b0d65493fba417673559fd862c17a0effbb6bc0e0aa4a4.json",
+    "records/1496703a936cb160f8b01152cd9c5c18999bdf57a98563553ab67293f7ddb051.json",
+    "records/1855e42c7a5ce0c50f195aaf3f0dd6f69f9f4091d865fe81816d1081ae2a42e6.json",
+    "records/28d84d7dbe589158fd910a7b07a6d1efedc78a88755cf8a259d7ec75a84b0a58.json",
+    "records/35a97c84d15946793f010e12eb77d61e64d754b95f2cc7c6771c62e8b1b95615.json",
+    "records/3c93ae1f4ea5bc8aaba41dcf0b8bc07c5f3127b704692880202301f8eb0d1a21.json",
+    "records/4152a8096a5dbc47ce2a946ffce9c2d5e28c87ed4f9ceca817e3238f87b59630.json",
+    "records/42d6c5995779ed624943eccb25f25cba54551194e7bd0a91958a194314afd46f.json",
+    "records/47e14f93f46454f94db6384b90d28c4c351b2463e4a8f3f83fdf16b2284828e6.json",
+    "records/4981beb8f091a0ccbf4f34914e951e838cb80a92fbd58ce5481fdd836feeeff5.json",
+    "records/4ef420cab96cfb9de2f843176610a0f18ad2659a28c67dea91529c6cd57a2c9a.json",
+    "records/587b7eedd2580dd91fc8504a8d998ff78da5a2ef43a8911e376267bc0a6dfd8d.json",
+    "records/587baee8293e120f947a58b43ca4fc76ef43b95ab09d0b7d2e558d3464658d9f.json",
+    "records/68a98b8904e24dfda71b3763815a0678a736babb8e9e369123df1e55933f5c42.json",
+    "records/68b8ac3627a155573b9c1029401f6fc17ec2af265d80c629ef4623e794f2befe.json",
+    "records/6fa5142e39dc2d7fb73cdf149641a044ed65e090592ae5c196f56199984bd1a4.json",
+    "records/7111b5545893aca804b721b7be0ffa1456f7d844ebae78e7be4cbcecda298631.json",
+    "records/746a1207cef2a8d994926ce6304da263c7754fdc6ecbe492889c6e33b1d431f7.json",
+    "records/765fa60fcbcf4df0a2853a1af19ceae69e5bbc19a16e0e54bb2c83a8250686d3.json",
+    "records/772fe3631faac313970002d34b48011ee50cc52b950376a18885364ad1b40e21.json",
+    "records/7af25a0e2bb8f9964e17fc5c697cbd953a6412f4f75fe7319db892a58675ac7f.json",
+    "records/7de8439691e8a705f03e722ddbfb49ffc685a651bfbea2dbde66fb82563bc2b8.json",
+    "records/7de92979e6a3bb974529b3b12d7ece1897f426e2c0f3d7c4766c988006744f62.json",
+    "records/8406f34c1182692a7b8baba9c8432dc80284dafcb577ffcbf260ecd1d782d1b4.json",
+    "records/8db96c4ef3c680d2951eb703542c957b8e9280db6ff8e0df23cf62f84bb929ff.json",
+    "records/9048979b39d0e2e7add24067068ef1ae45d30f0f307b1eb62c6e9235f24c2635.json",
+    "records/906a4979632581e569c7253cbfe0a59ad9ac7dc59c3f10fa692f6cd60c976746.json",
+    "records/9405fb7248c275197fd557a93b7c068f3f3ea2c3efee1adc08823e7b9fd8bd09.json",
+    "records/9a5759394e32fb504cbedce02ff0f4cd0cbcddbee9a156903ae67578618dea3a.json",
+    "records/9c76708e53d4165958f8726d5ab6126bf9f42c2b5c7517eba401819dffb84793.json",
+    "records/9cec2581eb86a6ed32f8ead9b5122c2ac0a03a416b9575b594be185729e9f7f8.json",
+    "records/9d8c1ce3e87999691163caca9c930b3c075dd8e428e8b5df63b5cd472deb964b.json",
+    "records/9e5907db4bdb2fdc8dc6010c4b42f7dbed3dcf2ddc053a3cfe27e8a209a63d70.json",
+    "records/a40d7f6cd63175dfc41c300826259004804445e0670a2e2e3d5fffff45e83ce0.json",
+    "records/ad484bf7c07a93eeeef4a0aece87e8bad1782bd813d2af1f3f02b3626b56130b.json",
+    "records/ad52efff207a40271ccf84085be2c39a8c47d9df20dfd21bdf609af9472edb5b.json",
+    "records/bd5d77363b4613ca7e9ca673b631e4afaf8dab0b1c9919da788269dcc0bdaac6.json",
+    "records/c433703e28d3264fee2dfdebb6e552cf4f401f92207c6f1fd74d139a9204a837.json",
+    "records/c4f8f9039d3dd00624854d4d6a88c81265b87f1d09612ee9fc94f5f77b176e63.json",
+    "records/c987c2888c0ec45ae90b1bf2e8ab2ee322ddabe4a75d8f45c073e9709d417b0c.json",
+    "records/d0b30522641483e3310f02e4e58868501932551d0bef5c650d2646eaaef1c9db.json",
+    "records/d98ea3964bd329599c356f9b76bdb166e3d9ec13f6136aa4ed682068a100eef2.json",
+    "records/e5c46e2ebe17f1dcfecf37cabead4391fa4fe7407e66cf1d51a132c68702f204.json",
+    "records/e74a3ee9bdf14d9e64bd1f82b0324cdeac1f6208d6bd5de725f2550f08d6f3e9.json",
+    "records/ef14ff90c7938f72227ff264577d79540a9da80d3c9c7e44c52410b861926024.json",
+    "records/f3377ea79f2bbf5747d5a7c9818e4066f8875cadf4f851561636d69bb00503aa.json",
+    "records/f52c1b30d0aaaaa25e7d4f25e7f98350a1a3e5640242c87dee5e18c532021a4b.json",
+    "records/fa6f8257c2b1fbb6071e4c35211511e049e48cb9800620c20d1bb31095228f0d.json",
+    "scores.json",
+    "source-review-seal.json",
+    "source-review.json",
+    "validated-results.json"
+  ],
+  "rawSealSha256": "f5a7a70afd38085ba1c615833ee913432d452e376726c7bc35e39e0e730b248a",
+  "decision": "A",
+  "commits": 0,
+  "pushes": 0
+}

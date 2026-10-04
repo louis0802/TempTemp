@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T04:01:38.061Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://www.instagram.com/gelaresg/",
+      "url": "https://www.instagram.com/gelaresg/",
+      "status": 200,
+      "content_type": "text/html; charset=\"utf-8\"",
+      "redirect_to": null,
+      "file": "664aad7a1e6a49b9198d5cc8bcc8f2d2c1cfc32cd2d14adca24d1fd9885c9584.html",
+      "sha256": "664aad7a1e6a49b9198d5cc8bcc8f2d2c1cfc32cd2d14adca24d1fd9885c9584",
+      "bytes": 861614,
+      "error": null
+    }
+  ]
+}

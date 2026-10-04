@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T04:00:55.574Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://www.more-yogurt.com/index/news",
+      "url": "https://www.more-yogurt.com/index/news",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "redirect_to": null,
+      "file": "3c29c364cdb8e142e0230eac40cc4ee42d431bca2070e8332e18dc140dad6ad7.html",
+      "sha256": "3c29c364cdb8e142e0230eac40cc4ee42d431bca2070e8332e18dc140dad6ad7",
+      "bytes": 12325,
+      "error": null
+    }
+  ]
+}

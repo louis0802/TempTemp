@@ -1,0 +1,667 @@
+{
+  "runId": "2026-10-03T09-56-16-103Z-8c53a050-3330-4cee-87ec-f4bfc68cc3d7",
+  "hashes": {
+    "segmentationSchema": "056099742d21bcf860d2325238e5939ea4e3cdc503c4334528e107d9e7c27e4b",
+    "segmentationPrompt": "637dea6ee5b11fb68fc1ecd699612bbf5a7b017f56185875d0eb62149d3e94a4",
+    "extractionSchema": "4f0fcdc0e3fdccb7df2edcb8cdf593cd9c4b7334778972e067bd65a8ff2dc392",
+    "extractionPrompt": "d851f298263982ca11bad4ecee6b75f1e5033aea5cb0bd204faf59a29a24ca8f",
+    "validator": "fbac3d5865596175e0463a0d5049b95f025b617123b67021ed2baf0fab9f0aec",
+    "benchmark": "fcd2cddd9d8327499d1ab12cd4bb306ba77c4c4ef02e6254ea9b2f43edb8e46a"
+  },
+  "segmentationSeal": "ae4320c80a46b4c2135934abdb8e976ab3f30c685dda4f02fa7eb29470e73b37",
+  "extractionSeal": "a24a8f92bbf7971832d87b1a13dbb3bd9b331076143396724de6f4af7443d153",
+  "sourceCases": 49,
+  "stage1": {
+    "tasks": 49,
+    "freshAgents": 49,
+    "completed": 49,
+    "syntaxMalformed": 0,
+    "schemaMalformed": 0,
+    "executionErrors": 0,
+    "missingResults": 0,
+    "malformedRate": 0,
+    "usable": 47,
+    "exactSpanFailures": 2
+  },
+  "stage2": {
+    "tasks": 78,
+    "freshAgents": 78,
+    "completed": 78,
+    "syntaxMalformed": 8,
+    "schemaMalformed": 2,
+    "executionErrors": 0,
+    "missingResults": 0,
+    "malformedRate": 0.1282051282051282
+  },
+  "totalPropositionUnits": 78,
+  "segmentation": {
+    "expected": 58,
+    "recalled": 46,
+    "unexpected": 34,
+    "merged": 1,
+    "harmfulSplits": 0,
+    "ambiguousAttached": 1,
+    "crossAttachments": 6,
+    "requiredSupportingMissed": 3
+  },
+  "classification": {
+    "units": 78,
+    "truePositives": 26,
+    "promotionPrecision": 0.8387096774193549,
+    "promotionRecall": 0.7878787878787878,
+    "nonPromotionCorrectness": 0.8888888888888888,
+    "uncertainRate": 0.02564102564102564
+  },
+  "usableClassification": {
+    "units": 68,
+    "truePositives": 26,
+    "promotionPrecision": 0.8387096774193549,
+    "promotionRecall": 0.9629629629629629,
+    "nonPromotionCorrectness": 0.8888888888888888,
+    "uncertainRate": 0.029411764705882353
+  },
+  "rawSemanticFlags": {
+    "cross_proposition_leakage": {
+      "events": 0,
+      "cases": []
+    },
+    "invented_dates": {
+      "events": 3,
+      "cases": [
+        "shake_shack_sg-concrete-craze",
+        "mcdonalds_sg-bfmcsaver"
+      ]
+    },
+    "invented_time_boundary": {
+      "events": 0,
+      "cases": []
+    },
+    "incorrect_availability_weekday": {
+      "events": 0,
+      "cases": []
+    },
+    "participation_polarity_errors": {
+      "events": 0,
+      "cases": []
+    },
+    "invented_participating_branch": {
+      "events": 2,
+      "cases": [
+        "shake_shack_sg-national-cheeseburger-day",
+        "shake_shack_sg-pucker-up-for-2-lemonades"
+      ]
+    },
+    "unsupported_positive_scope": {
+      "events": 0,
+      "cases": []
+    },
+    "unstated_year_inference": {
+      "events": 0,
+      "cases": []
+    },
+    "constraint_text_accuracy": {
+      "events": 3,
+      "cases": [
+        "shake_shack_sg-national-cheeseburger-day",
+        "bari_bari_steak_sg-promotions-4",
+        "mcdonalds_sg-bfmcsaver"
+      ]
+    },
+    "constraint_attribute_errors": {
+      "events": 17,
+      "cases": [
+        "pepper_lunch_sg-weekday-lunch",
+        "pepper_lunch_sg-peppie-meal",
+        "shake_shack_sg-national-cheeseburger-day",
+        "shake_shack_sg-shack-meal",
+        "shake_shack_sg-study-breaks-just-got-better",
+        "shake_shack_sg-were-introducing-chicken-sundays",
+        "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-1",
+        "captain_kim_sg-captain-kim-korean-bbq-hotpot-3",
+        "mcdonalds_sg-bfmcsaver",
+        "instagram-DDJfz9bynW-",
+        "instagram-Dc-kxPJzx9B",
+        "shake_shack_sg-meet-our-collab-partners"
+      ]
+    },
+    "benefit_qualifier_loss": {
+      "events": 0,
+      "cases": []
+    },
+    "missing_material_restriction": {
+      "events": 37,
+      "cases": [
+        "pepper_lunch_sg-student-meal",
+        "pepper_lunch_sg-weekday-lunch",
+        "pepper_lunch_sg-peppie-meal",
+        "shake_shack_sg-100-angus-beef-just-for-you",
+        "shake_shack_sg-all-about-chickens",
+        "shake_shack_sg-hello-parkway-parade",
+        "shake_shack_sg-national-cheeseburger-day",
+        "shake_shack_sg-shack-meal",
+        "shake_shack_sg-study-breaks-just-got-better",
+        "shake_shack_sg-were-introducing-chicken-sundays",
+        "captain_kim_sg-captain-kim-delivery",
+        "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-1",
+        "captain_kim_sg-captain-kim-korean-bbq-hotpot-3",
+        "bari_bari_steak_sg-promotions-1",
+        "bari_bari_steak_sg-promotions-4",
+        "instagram-DDJfz9bynW-",
+        "instagram-DdfecQUjNZ5",
+        "shake_shack_sg-flock-this-way",
+        "shake_shack_sg-more-perks-less-fuss",
+        "shake_shack_sg-local-faves-our-treat",
+        "shake_shack_sg-pucker-up-for-2-lemonades"
+      ]
+    }
+  },
+  "acceptedSemanticFlags": {
+    "cross_proposition_leakage": {
+      "events": 0,
+      "cases": []
+    },
+    "invented_dates": {
+      "events": 2,
+      "cases": [
+        "mcdonalds_sg-bfmcsaver"
+      ]
+    },
+    "invented_time_boundary": {
+      "events": 0,
+      "cases": []
+    },
+    "incorrect_availability_weekday": {
+      "events": 0,
+      "cases": []
+    },
+    "participation_polarity_errors": {
+      "events": 0,
+      "cases": []
+    },
+    "invented_participating_branch": {
+      "events": 2,
+      "cases": [
+        "shake_shack_sg-national-cheeseburger-day",
+        "shake_shack_sg-pucker-up-for-2-lemonades"
+      ]
+    },
+    "unsupported_positive_scope": {
+      "events": 0,
+      "cases": []
+    },
+    "unstated_year_inference": {
+      "events": 0,
+      "cases": []
+    },
+    "constraint_text_accuracy": {
+      "events": 0,
+      "cases": []
+    },
+    "constraint_attribute_errors": {
+      "events": 17,
+      "cases": [
+        "pepper_lunch_sg-weekday-lunch",
+        "pepper_lunch_sg-peppie-meal",
+        "shake_shack_sg-national-cheeseburger-day",
+        "shake_shack_sg-shack-meal",
+        "shake_shack_sg-study-breaks-just-got-better",
+        "shake_shack_sg-were-introducing-chicken-sundays",
+        "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-1",
+        "captain_kim_sg-captain-kim-korean-bbq-hotpot-3",
+        "mcdonalds_sg-bfmcsaver",
+        "instagram-DDJfz9bynW-",
+        "instagram-Dc-kxPJzx9B",
+        "shake_shack_sg-meet-our-collab-partners"
+      ]
+    },
+    "benefit_qualifier_loss": {
+      "events": 0,
+      "cases": []
+    },
+    "missing_material_restriction": {
+      "events": 37,
+      "cases": [
+        "pepper_lunch_sg-student-meal",
+        "pepper_lunch_sg-weekday-lunch",
+        "pepper_lunch_sg-peppie-meal",
+        "shake_shack_sg-100-angus-beef-just-for-you",
+        "shake_shack_sg-all-about-chickens",
+        "shake_shack_sg-hello-parkway-parade",
+        "shake_shack_sg-national-cheeseburger-day",
+        "shake_shack_sg-shack-meal",
+        "shake_shack_sg-study-breaks-just-got-better",
+        "shake_shack_sg-were-introducing-chicken-sundays",
+        "captain_kim_sg-captain-kim-delivery",
+        "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-1",
+        "captain_kim_sg-captain-kim-korean-bbq-hotpot-3",
+        "bari_bari_steak_sg-promotions-1",
+        "bari_bari_steak_sg-promotions-4",
+        "instagram-DDJfz9bynW-",
+        "instagram-DdfecQUjNZ5",
+        "shake_shack_sg-flock-this-way",
+        "shake_shack_sg-more-perks-less-fuss",
+        "shake_shack_sg-local-faves-our-treat",
+        "shake_shack_sg-pucker-up-for-2-lemonades"
+      ]
+    }
+  },
+  "sourceRecovery": {
+    "expected": 43,
+    "recovered": 26,
+    "missed": 17,
+    "falsePromotions": 5,
+    "cases": [
+      {
+        "caseId": "pepper_lunch_sg-student-meal",
+        "expected": 2,
+        "recovered": 0,
+        "missed": [
+          "student_before5",
+          "after5"
+        ],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "pepper_lunch_sg-uper-value-deal",
+        "expected": 1,
+        "recovered": 0,
+        "missed": [
+          "offer"
+        ],
+        "falsePromotions": [
+          "deal"
+        ]
+      },
+      {
+        "caseId": "pepper_lunch_sg-weekday-lunch",
+        "expected": 1,
+        "recovered": 1,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "pepper_lunch_sg-dine-with-pride",
+        "expected": 1,
+        "recovered": 0,
+        "missed": [
+          "offer"
+        ],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "pepper_lunch_sg-cheesy-omelette-2",
+        "expected": 0,
+        "recovered": 0,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "pepper_lunch_sg-peppie-meal",
+        "expected": 1,
+        "recovered": 1,
+        "missed": [],
+        "falsePromotions": [
+          "kids-meal-chicken"
+        ]
+      },
+      {
+        "caseId": "pepper_lunch_sg-delivery",
+        "expected": 0,
+        "recovered": 0,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "shake_shack_sg-100-angus-beef-just-for-you",
+        "expected": 1,
+        "recovered": 1,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "shake_shack_sg-all-about-chickens",
+        "expected": 1,
+        "recovered": 1,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "shake_shack_sg-concrete-craze",
+        "expected": 0,
+        "recovered": 0,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "shake_shack_sg-everything-in-our-veggie-shack",
+        "expected": 0,
+        "recovered": 0,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "shake_shack_sg-feeding-a-crowd",
+        "expected": 1,
+        "recovered": 0,
+        "missed": [
+          "offer"
+        ],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "shake_shack_sg-hello-one-fullerton",
+        "expected": 0,
+        "recovered": 0,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "shake_shack_sg-hello-parkway-parade",
+        "expected": 1,
+        "recovered": 1,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "shake_shack_sg-national-cheeseburger-day",
+        "expected": 1,
+        "recovered": 1,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "shake_shack_sg-shack-meal",
+        "expected": 1,
+        "recovered": 1,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "shake_shack_sg-singlish-lingo",
+        "expected": 1,
+        "recovered": 0,
+        "missed": [
+          "offer"
+        ],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "shake_shack_sg-study-breaks-just-got-better",
+        "expected": 1,
+        "recovered": 1,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "shake_shack_sg-this-ones-for-your-mom",
+        "expected": 1,
+        "recovered": 0,
+        "missed": [
+          "offer"
+        ],
+        "falsePromotions": [
+          "mothers-day-bundle"
+        ]
+      },
+      {
+        "caseId": "shake_shack_sg-were-introducing-chicken-sundays",
+        "expected": 1,
+        "recovered": 1,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "shake_shack_sg-zi-char-menu",
+        "expected": 0,
+        "recovered": 0,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "captain_kim_sg-captain-kim-delivery",
+        "expected": 1,
+        "recovered": 1,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-1",
+        "expected": 1,
+        "recovered": 1,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-2",
+        "expected": 3,
+        "recovered": 0,
+        "missed": [
+          "lunch",
+          "dinner",
+          "weekend"
+        ],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-3",
+        "expected": 1,
+        "recovered": 0,
+        "missed": [
+          "offer"
+        ],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-3",
+        "expected": 1,
+        "recovered": 1,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "bari_bari_steak_sg-promotions-1",
+        "expected": 1,
+        "recovered": 1,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "bari_bari_steak_sg-promotions-2",
+        "expected": 2,
+        "recovered": 0,
+        "missed": [
+          "all_day",
+          "tea_time"
+        ],
+        "falsePromotions": [
+          "salad-bar"
+        ]
+      },
+      {
+        "caseId": "bari_bari_steak_sg-promotions-3",
+        "expected": 1,
+        "recovered": 0,
+        "missed": [
+          "offer"
+        ],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "bari_bari_steak_sg-promotions-4",
+        "expected": 1,
+        "recovered": 1,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "bari_bari_steak_sg-promotions-5",
+        "expected": 1,
+        "recovered": 1,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "mcdonalds_sg-McSaver",
+        "expected": 1,
+        "recovered": 0,
+        "missed": [
+          "offer"
+        ],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "mcdonalds_sg-bfmcsaver",
+        "expected": 1,
+        "recovered": 1,
+        "missed": [],
+        "falsePromotions": [
+          "contest"
+        ]
+      },
+      {
+        "caseId": "sushiro_sg-to-the-moon-and-back",
+        "expected": 0,
+        "recovered": 0,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "instagram-DDJfz9bynW-",
+        "expected": 1,
+        "recovered": 1,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "instagram-Dc-kxPJzx9B",
+        "expected": 1,
+        "recovered": 1,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "instagram-DdQA3EChsjx",
+        "expected": 1,
+        "recovered": 0,
+        "missed": [
+          "offer"
+        ],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "instagram-DdfecQUjNZ5",
+        "expected": 1,
+        "recovered": 1,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "shake_shack_sg-flock-this-way",
+        "expected": 1,
+        "recovered": 1,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "shake_shack_sg-meet-our-collab-partners",
+        "expected": 1,
+        "recovered": 1,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "shake_shack_sg-introducing-aloha-shack",
+        "expected": 0,
+        "recovered": 0,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "shake_shack_sg-more-perks-less-fuss",
+        "expected": 1,
+        "recovered": 1,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "shake_shack_sg-local-faves-our-treat",
+        "expected": 1,
+        "recovered": 1,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "shake_shack_sg-pucker-up-for-2-lemonades",
+        "expected": 1,
+        "recovered": 1,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "shake_shack_sg-well-be-right-back",
+        "expected": 0,
+        "recovered": 0,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "shake_shack_sg-our-french-onion-menu",
+        "expected": 0,
+        "recovered": 0,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "fairprice_sg-price-drop-buy-now-weekly-offers-from-20-off",
+        "expected": 1,
+        "recovered": 1,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "fairprice_sg-xtra-wine-flash-sale",
+        "expected": 1,
+        "recovered": 1,
+        "missed": [],
+        "falsePromotions": []
+      },
+      {
+        "caseId": "fairprice_sg-finest-wine",
+        "expected": 1,
+        "recovered": 0,
+        "missed": [
+          "offer"
+        ],
+        "falsePromotions": []
+      }
+    ]
+  },
+  "fieldCorrectness": {
+    "dates": 34,
+    "weekdays": 36,
+    "timeConstraints": 35
+  },
+  "quoteMismatches": 3,
+  "validatorRejections": 52,
+  "semanticCoverage": {
+    "sources": 49,
+    "segmentationUnassessable": [
+      "pepper_lunch_sg-dine-with-pride",
+      "shake_shack_sg-well-be-right-back"
+    ],
+    "extractionUsable": 68,
+    "extractionUnassessable": [
+      "pepper_lunch_sg-student-meal::main-dish-discount",
+      "pepper_lunch_sg-delivery::foodpanda-delivery",
+      "shake_shack_sg-feeding-a-crowd::catering-10-plus-2",
+      "shake_shack_sg-singlish-lingo::singlish-order-promo",
+      "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-2::early_bird",
+      "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-3::four_plus_one",
+      "bari_bari_steak_sg-promotions-3::senior_discount",
+      "mcdonalds_sg-McSaver::mcsaver_meals",
+      "sushiro_sg-to-the-moon-and-back::crab-salmon-wrap",
+      "instagram-DdQA3EChsjx::weekday-nasi-lemak"
+    ]
+  },
+  "sourceReviewRequired": true
+}

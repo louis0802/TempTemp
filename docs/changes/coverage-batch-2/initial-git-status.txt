@@ -1,0 +1,65 @@
+ M AGENTS.md
+ M next-env.d.ts
+ M package.json
+ M src/app/admin/page.tsx
+ M src/app/api/admin/promotions/[id]/review/route.ts
+ M src/app/api/admin/review/route.ts
+ M src/app/api/admin/sources/route.ts
+ M src/components/admin/PromotionForm.tsx
+ M src/domain/promotion.ts
+ M tests/integration/ingestion.test.ts
+?? docs/changes/autonomous-direct-source-ingestion/
+?? docs/changes/coverage-batch-2/
+?? docs/changes/direct-source-adapter-foundation/
+?? docs/changes/direct-source-batch-1/
+?? docs/changes/direct-source-candidate-audit/
+?? docs/changes/gourmet-carousel-direct-source/
+?? docs/changes/merchant-progress-social-sources/
+?? docs/changes/persistent-source-discovery-service/
+?? docs/changes/rev6-runtime-completeness-repair/
+?? docs/changes/revision-5-complete-historical-catch-up/
+?? docs/changes/shake-shack-autonomous-activation/
+?? docs/changes/shake-shack-direct-source/
+?? docs/changes/source-origin-audit/
+?? docs/changes/source-substitution-core-cohort-v6/
+?? docs/changes/source-substitution-observation-v4/
+?? docs/changes/source-substitution-recovery-v5/
+?? docs/research/
+?? scripts/direct-source-ingest.ts
+?? scripts/direct-source-preview.ts
+?? scripts/research/
+?? src/app/api/admin/direct-candidates/
+?? src/ingestion/direct-sources/
+?? supabase/migrations/002_direct_sources.sql
+?? tests/direct-ingestion-isolation.test.ts
+?? tests/direct-publication.test.ts
+?? tests/direct-source-adapters.test.ts
+?? tests/direct-source-audit.test.ts
+?? tests/direct-source-batch-1.test.ts
+?? tests/direct-source-transport.test.ts
+?? tests/e2e/direct-review.spec.ts
+?? tests/fixtures/direct-source-origin.json
+?? tests/fixtures/direct-sources/
+?? tests/fixtures/social-sources/
+?? tests/gourmet-carousel-direct-source.test.ts
+?? tests/helpers/direct-source-fixtures.ts
+?? tests/integration/direct-ingestion.test.ts
+?? tests/merchant-automation-progress.test.ts
+?? tests/merchant-source-map.test.ts
+?? tests/research-discovery.test.ts
+?? tests/research-evaluation.test.ts
+?? tests/research-intervals.test.ts
+?? tests/research-scheduler.test.ts
+?? tests/research-service.test.ts
+?? tests/research-storage.test.ts
+?? tests/research-telegram.test.ts
+?? tests/research-tracker.test.ts
+?? tests/research-v4.test.ts
+?? tests/research-v5.test.ts
+?? tests/research-v6-runtime.test.ts
+?? tests/research-v6.test.ts
+?? tests/shake-shack-activation.test.ts
+?? tests/shake-shack-direct-source.test.ts
+?? tests/social-source-publication-compatibility.test.ts
+?? tests/social-source-research.test.ts
+?? tests/source-origin-audit.test.ts

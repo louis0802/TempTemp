@@ -1,0 +1,19 @@
+{
+  ".local/source-origin-audit/2026-09-30-social-corrected-offline/redirect-cache.json": "ed54f0e90c75ebd3bd73085f2afddad9f69e9ad0f8e1a8e08da9dbd830d55b9d",
+  ".local/source-origin-audit/2026-09-30-social-corrected-offline/audit.json": "a0cb366e8beebc638f0f85e35c28d1acf88ef5718a142d99ced0d5b95fbcd99f",
+  ".local/source-origin-audit/2026-09-30-social-corrected-offline/report.csv": "d1bbf637d46f045d8ae2275e9d502160b1011c981f34da942b5e9202723043dc",
+  ".local/source-origin-audit/2026-09-30-social-corrected-offline/report.md": "70ae8b083cb6edc2281c6aa6d2bed611e841b32e09a7496ea3ce5117b5569ce6",
+  ".local/source-origin-audit/2026-09-30-social-corrected-offline/resolved-links.json": "7a6228b29311dca72d7f5dc19986373fbba68ca99220386ceab00b581adaa7de",
+  ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json": "43ecab993bc5b6640e56c385d9b2a2b13e8f29ae51a94cf0a7eadcef76e08d87",
+  ".local/source-origin-audit/2026-09-30-social-corrected-offline/run.json": "68e9120cc0e4993a5488f7225e3e26de3d7ceb42275f2899a4ba9305276e61e6",
+  ".local/direct-source-audit/2026-09-30T14-13-48-529Z/candidates.json": "7adc0cfe7687a086a393d92eda634793c88f078e2bf58d71cd7228a68fb124c2",
+  ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json": "7db66e5cebf01e304905b0899dee26761eddd4c367b3e83ac28f5d32b3c86b05",
+  ".local/direct-source-audit/2026-09-30T14-13-48-529Z/report.csv": "0a0c28a8819a27a165cae98df3f2b88ca918ed1ee211c79d3bf78c754e2fb2d1",
+  ".local/direct-source-audit/2026-09-30T14-13-48-529Z/report.md": "ddb4089659ff8510d03ee80f8d0c44dac31c2f385e32ebfb77ef93362789b04e",
+  ".local/direct-source-audit/2026-09-30T14-13-48-529Z/protected-input-verification.json": "83669da31278caf93e368686290fddc573c7bb542355270370a0d6807de46bd8",
+  "tests/corpus/review-inbox-regression.test.ts": "850049895d55a07aa8447217ff28c9418233c6c175096bcbc42546abd906843f",
+  "tests/corpus/mvp-conformance-reviewed.json": "680ce13809180fb76715253ceafefb73ba4f53eb88a394d44ed0e6e887918986",
+  "tests/corpus/post-pattern-categories.json": "57fc6d7860e83cb3b8aafdc03fa0e8a887096549909cf16d91035d482e07d51c",
+  "tests/corpus/mvp-location-replay.test.ts": "aaf54f7a3410f1f1c698d85c9a2a08c746856eafc3fbf933c1dbb68fb6d76883",
+  "tests/corpus/mvp-regression.test.ts": "1c472be6132bb2b896deff3d021a984ca7c5f72261366a4b2a7c8d81cc072129"
+}

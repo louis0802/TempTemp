@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T04:01:38.328Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://www.instagram.com/coffeebeansg/",
+      "url": "https://www.instagram.com/coffeebeansg/",
+      "status": 200,
+      "content_type": "text/html; charset=\"utf-8\"",
+      "redirect_to": null,
+      "file": "06ea06f1a7ea344e052faac1a481ca090bebb22762a47aa4703a2ec0648f6b56.html",
+      "sha256": "06ea06f1a7ea344e052faac1a481ca090bebb22762a47aa4703a2ec0648f6b56",
+      "bytes": 823597,
+      "error": null
+    },
+    {
+      "requested_url": "https://www.instagram.com/p/DdgiQp9jdIl/",
+      "url": "https://www.instagram.com/p/DdgiQp9jdIl/",
+      "status": 200,
+      "content_type": "text/html; charset=\"utf-8\"",
+      "redirect_to": null,
+      "file": "5243f9859f567961da82945a0190ca0f371f42b189afc59d9ae4a9f659cec15c.html",
+      "sha256": "5243f9859f567961da82945a0190ca0f371f42b189afc59d9ae4a9f659cec15c",
+      "bytes": 847488,
+      "error": null
+    }
+  ]
+}

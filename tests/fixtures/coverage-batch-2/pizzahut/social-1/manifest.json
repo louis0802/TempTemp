@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T04:01:37.529Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://www.instagram.com/p/DdDr_9tigEc/",
+      "url": "https://www.instagram.com/p/DdDr_9tigEc/",
+      "status": 200,
+      "content_type": "text/html; charset=\"utf-8\"",
+      "redirect_to": null,
+      "file": "f462499a81700beab0d23b0b60a80156836dc0bb12051042d5e5679df88d09a3.html",
+      "sha256": "f462499a81700beab0d23b0b60a80156836dc0bb12051042d5e5679df88d09a3",
+      "bytes": 924751,
+      "error": null
+    }
+  ]
+}

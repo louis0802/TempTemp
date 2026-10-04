@@ -1,0 +1,251 @@
+[
+  {
+    "source": {
+      "id": "gourmet_carousel_sg",
+      "label": "Gourmet Carousel Singapore",
+      "operator": "Royal Plaza on Scotts",
+      "authority": {
+        "ownership": "verified",
+        "evidenceUrls": [
+          "https://www.royalplaza.com.sg/policies/privacy-policy",
+          "https://www.royalplaza.com.sg/dine/barista"
+        ],
+        "review": "docs/changes/gourmet-carousel-direct-source/research.md; tests/fixtures/direct-sources/gourmet-carousel/ownership.json (independent operator/domain declaration and separate Gourmet Carousel Barista venue evidence, 2026-10-01)"
+      },
+      "origin": "https://www.royalplaza.com.sg",
+      "allowedHosts": [
+        "www.royalplaza.com.sg"
+      ],
+      "listingUrls": [
+        "https://www.royalplaza.com.sg/dine/offers",
+        "https://www.royalplaza.com.sg/dine/barista"
+      ],
+      "adapter": "gourmet-carousel",
+      "activationReview": {
+        "enumeration": "partial",
+        "blockers": [
+          "partial_enumeration",
+          "service_page_campaign_outside_listing",
+          "gourmet_service_boundary_unproven"
+        ],
+        "evidenceRefs": [
+          "docs/changes/gourmet-carousel-direct-source/verification.md",
+          "tests/fixtures/direct-sources/gourmet-carousel/research-2026-10-01/capture-provenance.json"
+        ]
+      },
+      "publicationPolicy": {
+        "enabled": false,
+        "merchant": "Gourmet Carousel",
+        "category": "Cafés",
+        "outletStrategy": "official_directory",
+        "autoPublish": false
+      }
+    },
+    "mode": "live",
+    "observedAt": "2026-10-01T11:52:23.692Z",
+    "limits": {
+      "maxRequests": 40,
+      "maxListingPages": 5,
+      "maxDetailPages": 20,
+      "maxEvidencePages": 8,
+      "maxBytes": 3000000,
+      "timeoutMs": 12000,
+      "maxRedirects": 3
+    },
+    "requests": [
+      {
+        "url": "https://www.royalplaza.com.sg/dine/offers",
+        "relation": "listing",
+        "parentUrl": null,
+        "status": 200,
+        "error": null,
+        "redirectTo": null
+      },
+      {
+        "url": "https://www.royalplaza.com.sg/dine/barista",
+        "relation": "listing",
+        "parentUrl": null,
+        "status": 200,
+        "error": null,
+        "redirectTo": null
+      },
+      {
+        "url": "https://www.royalplaza.com.sg/dine/offers/beyond-the-buffet",
+        "relation": "detail",
+        "parentUrl": "https://www.royalplaza.com.sg/dine/offers",
+        "status": 200,
+        "error": null,
+        "redirectTo": null
+      },
+      {
+        "url": "https://www.royalplaza.com.sg/dine/offers/breakfast-buffet",
+        "relation": "detail",
+        "parentUrl": "https://www.royalplaza.com.sg/dine/offers",
+        "status": 200,
+        "error": null,
+        "redirectTo": null
+      },
+      {
+        "url": "https://www.royalplaza.com.sg/dine/offers/carousel-pastries",
+        "relation": "detail",
+        "parentUrl": "https://www.royalplaza.com.sg/dine/offers",
+        "status": 200,
+        "error": null,
+        "redirectTo": null
+      },
+      {
+        "url": "https://www.royalplaza.com.sg/dine/offers/carousel-vouchers",
+        "relation": "detail",
+        "parentUrl": "https://www.royalplaza.com.sg/dine/offers",
+        "status": 200,
+        "error": null,
+        "redirectTo": null
+      },
+      {
+        "url": "https://www.royalplaza.com.sg/dine/offers/dinner-buffet",
+        "relation": "detail",
+        "parentUrl": "https://www.royalplaza.com.sg/dine/offers",
+        "status": 200,
+        "error": null,
+        "redirectTo": null
+      },
+      {
+        "url": "https://www.royalplaza.com.sg/dine/offers/high-tea-buffet",
+        "relation": "detail",
+        "parentUrl": "https://www.royalplaza.com.sg/dine/offers",
+        "status": 200,
+        "error": null,
+        "redirectTo": null
+      },
+      {
+        "url": "https://www.royalplaza.com.sg/dine/offers/lunch-buffet",
+        "relation": "detail",
+        "parentUrl": "https://www.royalplaza.com.sg/dine/offers",
+        "status": 200,
+        "error": null,
+        "redirectTo": null
+      },
+      {
+        "url": "https://www.royalplaza.com.sg/dine/offers/thai-2026",
+        "relation": "detail",
+        "parentUrl": "https://www.royalplaza.com.sg/dine/offers",
+        "status": 200,
+        "error": null,
+        "redirectTo": null
+      }
+    ],
+    "issues": [
+      {
+        "code": "partial_enumeration",
+        "url": "https://www.royalplaza.com.sg/dine/offers",
+        "relation": "listing"
+      },
+      {
+        "code": "service_page_campaign_outside_listing",
+        "url": "https://www.royalplaza.com.sg/dine/offers",
+        "relation": "listing"
+      },
+      {
+        "code": "gourmet_service_boundary_unproven",
+        "url": "https://www.royalplaza.com.sg/dine/offers",
+        "relation": "listing"
+      }
+    ],
+    "gate": {
+      "ownership_verified": true,
+      "ownership_basis": {
+        "ownership": "verified",
+        "evidenceUrls": [
+          "https://www.royalplaza.com.sg/policies/privacy-policy",
+          "https://www.royalplaza.com.sg/dine/barista"
+        ],
+        "review": "docs/changes/gourmet-carousel-direct-source/research.md; tests/fixtures/direct-sources/gourmet-carousel/ownership.json (independent operator/domain declaration and separate Gourmet Carousel Barista venue evidence, 2026-10-01)"
+      },
+      "enumeration_complete": false,
+      "listing_fetch_success": true,
+      "detail_fetch_success": true,
+      "deterministic_extraction": true,
+      "acquisition_ready": false,
+      "classification": {
+        "discovered_articles": 9,
+        "classified_articles": 9,
+        "promotion_articles": 2,
+        "non_promotion_articles": 7,
+        "unresolved_articles": 0,
+        "articles": [
+          {
+            "url": "https://www.royalplaza.com.sg/dine/barista",
+            "evidenceId": "b19923edc109ba4a171c13b497397601db0eae6804afec503b9584fc2670cdc3",
+            "result": "promotion",
+            "reason": "isolated_gourmet_service_campaign"
+          },
+          {
+            "url": "https://www.royalplaza.com.sg/dine/offers/beyond-the-buffet",
+            "evidenceId": "86bd72eae7e709964847e02944f671022078387b90f89ff6afc833e7cb471833",
+            "result": "non_promotion",
+            "reason": "menu_pricing_or_service_without_gourmet_campaign_proposition"
+          },
+          {
+            "url": "https://www.royalplaza.com.sg/dine/offers/breakfast-buffet",
+            "evidenceId": "a2a441854f5af7912b79a5c85af55403320cd5eac17fe7481a488fb53a4c00ab",
+            "result": "non_promotion",
+            "reason": "menu_pricing_or_service_without_gourmet_campaign_proposition"
+          },
+          {
+            "url": "https://www.royalplaza.com.sg/dine/offers/carousel-pastries",
+            "evidenceId": "d38847ad31b3c9b4ea6834271526f40785d266fcbac5a2d644f502bcb9a522b2",
+            "result": "promotion",
+            "reason": "gourmet_seasonal_collection_with_explicit_delivery_benefit"
+          },
+          {
+            "url": "https://www.royalplaza.com.sg/dine/offers/carousel-vouchers",
+            "evidenceId": "1cc318111d631f6e79464452a9f8f25b7957e0561d51277f87378f65a4cb23ec",
+            "result": "non_promotion",
+            "reason": "menu_pricing_or_service_without_gourmet_campaign_proposition"
+          },
+          {
+            "url": "https://www.royalplaza.com.sg/dine/offers/dinner-buffet",
+            "evidenceId": "852e072de0de81cf46f33ebceb1f3bccd382683675bf2967791594aad0022476",
+            "result": "non_promotion",
+            "reason": "menu_pricing_or_service_without_gourmet_campaign_proposition"
+          },
+          {
+            "url": "https://www.royalplaza.com.sg/dine/offers/high-tea-buffet",
+            "evidenceId": "1797782074bbd1f8641ceb2c680d9788c887546fef29e74193a9241ee1e68e51",
+            "result": "non_promotion",
+            "reason": "menu_pricing_or_service_without_gourmet_campaign_proposition"
+          },
+          {
+            "url": "https://www.royalplaza.com.sg/dine/offers/lunch-buffet",
+            "evidenceId": "a55333164452f1372ee89a470fd39f7e910b7e0c8a0a05d6b77b17318ec3638b",
+            "result": "non_promotion",
+            "reason": "other_venue_carousel_campaign_not_gourmet"
+          },
+          {
+            "url": "https://www.royalplaza.com.sg/dine/offers/thai-2026",
+            "evidenceId": "a5bbb78e1cfe772eb0cdc7f0d40bd2fd7cdad3eb4a383529bce00f724f34e15b",
+            "result": "non_promotion",
+            "reason": "other_venue_carousel_campaign_not_gourmet"
+          }
+        ]
+      },
+      "candidate_count": 2,
+      "candidate_issues": {
+        "direct_e3c83226ffc288a791b7dc01a5f52897436366882bce2b727165f01d57c628eb": [
+          "weekdays_unknown"
+        ],
+        "direct_fdf4e66bd099d89faaadfe14bc4d1f3dc71fce6fed3dc1c3e033e101520394d7": [
+          "campaign_validity_unspecified",
+          "end_date_unknown",
+          "gourmet_pastry_participation_unresolved",
+          "hours_unknown",
+          "locations_unknown",
+          "start_date_unknown",
+          "weekdays_unknown"
+        ]
+      },
+      "status": "production-adapter-partial",
+      "production_active": false
+    }
+  }
+]

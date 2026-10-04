@@ -1,0 +1,64 @@
+{
+  "baselineFiles": 4135,
+  "protectedFiles": 4132,
+  "allProtectedUnchanged": true,
+  "unexpectedChanges": [],
+  "beforeAggregateSha256": "d5b902524eb09f9aabd04c98e77bef15575c0c70bcb77ad24e5bfe8ef89e629c",
+  "afterAggregateSha256": "d5b902524eb09f9aabd04c98e77bef15575c0c70bcb77ad24e5bfe8ef89e629c",
+  "groups": {
+    "docs/": {
+      "files": 147,
+      "beforeAggregateSha256": "cebc585e4ac61e42349ba9038c454a4d41940276ddeb38f5a7305806523461e2",
+      "afterAggregateSha256": "cebc585e4ac61e42349ba9038c454a4d41940276ddeb38f5a7305806523461e2",
+      "unchanged": true
+    },
+    "tests/fixtures/": {
+      "files": 107,
+      "beforeAggregateSha256": "98c2af01b83ecc36f1b057c093b2aaac3ac8f0d2945a7c723562df03a1dd39aa",
+      "afterAggregateSha256": "98c2af01b83ecc36f1b057c093b2aaac3ac8f0d2945a7c723562df03a1dd39aa",
+      "unchanged": true
+    },
+    "scripts/research/": {
+      "files": 36,
+      "beforeAggregateSha256": "8ea33b76f287e106de9682b1cbf5cb6e86d59e73c6ed1abc1fa764e40b7f8813",
+      "afterAggregateSha256": "8ea33b76f287e106de9682b1cbf5cb6e86d59e73c6ed1abc1fa764e40b7f8813",
+      "unchanged": true
+    },
+    ".local/source-discovery-service/": {
+      "files": 3665,
+      "beforeAggregateSha256": "77c25b4af8739c6242db6d5fa0d1facaf1ff08938c152e6287266ece3767b8fe",
+      "afterAggregateSha256": "77c25b4af8739c6242db6d5fa0d1facaf1ff08938c152e6287266ece3767b8fe",
+      "unchanged": true
+    },
+    ".local/direct-source-audit/": {
+      "files": 110,
+      "beforeAggregateSha256": "0c77b315149fee3886426c3da3fff9572e91f7c8ab78e86bb27799c6ab049d3a",
+      "afterAggregateSha256": "0c77b315149fee3886426c3da3fff9572e91f7c8ab78e86bb27799c6ab049d3a",
+      "unchanged": true
+    },
+    ".local/source-origin-audit/": {
+      "files": 44,
+      "beforeAggregateSha256": "629f92dc2871f78993eb37f64b7dc6b9818cdc41891395cdaf81ef47786f00e4",
+      "afterAggregateSha256": "629f92dc2871f78993eb37f64b7dc6b9818cdc41891395cdaf81ef47786f00e4",
+      "unchanged": true
+    },
+    "src/ingestion/direct-sources/": {
+      "files": 19,
+      "beforeAggregateSha256": "86d26ed514f6b8b36b7f5eaf7f57d55cb35502ce47e862668be36967a5f00d2e",
+      "afterAggregateSha256": "86d26ed514f6b8b36b7f5eaf7f57d55cb35502ce47e862668be36967a5f00d2e",
+      "unchanged": true
+    }
+  },
+  "nextEnv": {
+    "before": "0f70629890b72a0a82e91972cc032c04b658b26c265373cb711cf576bfbf8fcc",
+    "after": "0f70629890b72a0a82e91972cc032c04b658b26c265373cb711cf576bfbf8fcc"
+  },
+  "preservedPreExistingGuidanceAndPackage": true,
+  "intendedExistingRuntimeEdits": [
+    "src/ingestion/direct-sources/types.ts",
+    "src/ingestion/direct-sources/registry.ts",
+    "src/ingestion/direct-sources/outlet-resolution.ts"
+  ],
+  "newCapturedResponses": 23,
+  "newCaptureHashes": "Validated from all three provenance manifests by merchant unit tests"
+}

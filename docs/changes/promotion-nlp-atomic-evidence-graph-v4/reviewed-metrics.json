@@ -1,0 +1,148 @@
+{
+  "reviewer": "parent self-review; no judge agents or independent/human approval claimed",
+  "runId": "2026-10-03T12-27-12-562Z-9462a1b1-79e5-4fd4-8667-3d2de72e16d1",
+  "sourceCases": 49,
+  "rawSeals": {
+    "1": "7e218bb365b99e077cd362765651bfb23c2bdd0b07f5c782f42e7ab94a114f3b",
+    "2": "cad1c9156a27295ac9f811c2712c59cc1e2a38cb10fffe9a42d77636da68ccdb",
+    "3": "4fb9a227fb4a99ce22da85eb22af4c67605654c3df9c2f4d5341d9d37502c172",
+    "4": "f2cddc0e5b54e488cf088fd4ab1fbc061281d095a784ea888cda171bac60d8ef",
+    "5": "2a69b4df356a80680d2eb6968f41e3cbdb78a1584075610802f976b41103b624"
+  },
+  "benchmarkSha256": "ef7c4b4ef6195e0b0c28f3e62e9f32357dc932bd05f50c65344f80b2e0d7abc7",
+  "frozenScoresSha256": "3b6d5b047d77c499af51450ec49b70fa00e07232e9b56fef35df79c36968888d",
+  "method": "Frozen metrics unchanged. Explicit source-equivalent identity adjudication after five seals, with all raw nodes/constraints/citations kept immutable. Clause representation audit is an UPPER BOUND: punctuation/boilerplate matching and explicitly grouped same-proposition atoms can still miss source operators or role/scope ambiguity. It is not an alternate passing score or proof of semantic safety. Facet completeness separate; every228 requirement records one earliest failing stage.",
+  "sourceEconomicRecovery": {
+    "numerator": 30,
+    "denominator": 43,
+    "value": 0.6976744186046512
+  },
+  "stage2IndependentMinimalIdentityRecall": {
+    "numerator": 45,
+    "denominator": 59,
+    "value": 0.7627118644067796
+  },
+  "localTaxonomyAccuracy": {
+    "numerator": 59,
+    "denominator": 61
+  },
+  "localEconomicPrecision": {
+    "numerator": 34,
+    "denominator": 34
+  },
+  "localEconomicRecall": {
+    "numerator": 34,
+    "denominator": 36
+  },
+  "falseEconomicPropositions": 0,
+  "bfmcsaverContestCorrectness": "unassessable: noStage4 task",
+  "harmfulMergeCases": [
+    "bari_bari_steak_sg-promotions-2"
+  ],
+  "harmfulEconomicSplits": 0,
+  "harmlessEconomicVariants": [
+    "pepper_lunch_sg-uper-value-deal"
+  ],
+  "rawMaterialClauseRepresentationUpperBound": {
+    "numerator": 311,
+    "denominator": 320
+  },
+  "usableMaterialClauseRepresentationUpperBound": {
+    "numerator": 266,
+    "denominator": 320
+  },
+  "constraintTextRepresentationUpperBound": {
+    "numerator": 92,
+    "denominator": 228
+  },
+  "strictConstraintFacetCompletenessUpperBound": {
+    "numerator": 74,
+    "denominator": 228
+  },
+  "earliestConditionFailureCodes": {
+    "ELIGIBILITY_FALSE_NEGATIVE": 8,
+    "NORMALIZATION_INCORRECT": 17,
+    "NORMALIZATION_MISSING": 9,
+    "MALFORMED_OUTPUT": 95,
+    "NODE_MISSING": 5,
+    "EDGE_MISSING": 13,
+    "PROPOSITION_BAD_MERGE": 7
+  },
+  "earliestConditionFailureStages": {
+    "4": 8,
+    "5": 75,
+    "1": 36,
+    "3": 28,
+    "2": 7
+  },
+  "rawNormalizedConstraints": 232,
+  "acceptedNormalizedConstraints": 145,
+  "rawSafetyReview": {
+    "inventedLiteralCampaignDatesObserved": 0,
+    "invalidCampaignDateAssociationObserved": 0,
+    "unstatedYearInferenceObserved": 0,
+    "inventedParticipatingPhysicalIdentitiesObserved": 0,
+    "participationPolarityReversalObserved": 0,
+    "negativeLocationNormalizationCoverage": "none; bothMcSaver sources rejected upstream",
+    "sourceNodeSyntheticBenefitAttemptsRejected": 5,
+    "pointToRangeEndpointSynthesisRejected": 1,
+    "weekdayWeekendTimeAssociationErrorRaw": 1,
+    "rawCollectivePhysicalLabelDomainErrors": 1,
+    "acceptedSyntheticBenefits": 0,
+    "acceptedInventedNumericEndpoints": 0,
+    "knownValidatorFalseRejections": 1,
+    "falseAdditionalSocialConstraintAccepted": 1
+  },
+  "limitations": [
+    "Frozen24/43 misses6 equivalent economic anchors; reviewed30/43 uses same43 cohort and excludes merged Bari groups.",
+    "110 frozen wrong-target assignments are not110 proved semantic wrong edges: many arise from correct unmatched anchors and product/price subdivision.",
+    "Representation upper bounds can overcredit split operators or mixed source groups; they cannot justifyA2.",
+    "Timing facts can survive without repeated constraint strings; literal-array and semantic publication completeness differ.",
+    "Weekend17-17:30 is source-correct but rejected by inherited lexer on pmTimeslots; frozen rejection retained.",
+    "Calendar/polarity absent after rejection is unknown, never proof of retained safety."
+  ],
+  "contractValidNormalizationCohort": {
+    "numerator": 22,
+    "denominator": 43,
+    "value": 0.5116279069767442
+  },
+  "confirmedPublicationCriticalUnsafeAssignments": [
+    {
+      "caseId": "pepper_lunch_sg-uper-value-deal",
+      "evidenceId": "e4",
+      "propositionId": "steak-bites-160g",
+      "actualRelation": "benefit",
+      "expected": "family starting-price claim is context for this higher-priced specific portion, not its promised price",
+      "earliestStage": 3,
+      "code": "EDGE_WRONG_RELATION"
+    },
+    {
+      "caseId": "pepper_lunch_sg-uper-value-deal",
+      "evidenceId": "e4",
+      "propositionId": "steak-bites-200g",
+      "actualRelation": "benefit",
+      "expected": "family starting-price claim is context for this higher-priced specific portion, not its promised price",
+      "earliestStage": 3,
+      "code": "EDGE_WRONG_RELATION"
+    },
+    {
+      "caseId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-2",
+      "evidenceId": "e17",
+      "propositionId": "weekday_dinner_early_bird",
+      "actualRelation": "time",
+      "expected": "mixed independent weekday/weekend clock claims require separate nodes; not a genuinely shared atomic time claim",
+      "earliestStage": 1,
+      "code": "NODE_BAD_BOUNDARY"
+    },
+    {
+      "caseId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-2",
+      "evidenceId": "e17",
+      "propositionId": "weekend_lunch_dinner_early_bird",
+      "actualRelation": "time",
+      "expected": "mixed independent weekday/weekend clock claims require separate nodes; not a genuinely shared atomic time claim",
+      "earliestStage": 1,
+      "code": "NODE_BAD_BOUNDARY"
+    }
+  ],
+  "confirmedCriticalUnsafeAssignmentCountLowerBound": 4
+}

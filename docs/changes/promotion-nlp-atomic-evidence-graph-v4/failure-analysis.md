@@ -1,0 +1,11 @@
+# Failure hypotheses
+V3 independently recovered 28/43 source economic identities (65.12%). Bundled proposition construction hid Bari Salad time/location contamination and fragmented Student Meal economics. Local normalization falsely accepted bfmcsaver contest and omitted Captain Flash this page despite supplied evidence. V4 tests these separately through immutable claims, identity anchors, target/relation edges, entitlement taxonomy and composable constraint normalization.
+Potential new failures: small atomic nodes erase discourse association; headline/product anchor can be detached from generic deal wording; strict full assignment/ID schemas cause whole-source failure; false eligible extra propositions can survive five stages. More stages can improve inspectability while worsening end-to-end survival. All are measured, never assumed resolved.
+
+## Observed V4 failures
+
+Evidence responsibilities are narrower but6 repeated-source quote outputs and1 capitalization-mismatched output close7 whole sources. Stage2 still loses group structure (Bari) and can use support-only nodes as anchors; before5 Student economics are unlinked at3. Explicit edge conservatism becomes excessive even on simple single-offer dates/route/weekday clauses (FairPrice and Shinrai). Mixed source clock clauses can be improperly shared; Dinner then selects the wrong subgroup and synthesizes an endpoint.
+
+Taxonomy is locally conservative and produces no observed false economic units, but2 local economic false negatives and absent primary contest control limit conclusions. Stage5 valid JSON still merges economic clauses into unsupported one-node benefits5 times, omits a merchant citation and adds a social requirement from an invitation. Correct clock values can be rejected by inherited lexer boundary assumptions.
+
+Evaluation failure matters too: exact headlines/required full phrases miss legitimate atomic boundaries and source-valid variants, causing inflated wrong-target counts and artificially low constraint matching. A new benchmark version should test perfect equivalent atomic graphs and semantic role alternatives before freezing; the current frozen results and separately labelled upper-bound/source review remain untouched. These recurring lessons belong in research contracts/future eval design; no protected global/project instructions were modified.

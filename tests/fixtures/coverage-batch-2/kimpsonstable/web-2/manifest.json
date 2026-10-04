@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T03:59:39.131Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://kimpsontable.cococart.co/",
+      "url": "https://kimpsontable.cococart.co/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "redirect_to": null,
+      "file": "b37392b1d7310db5181b1f41ef1c1547448892dcc0b4ac4ee6e8c8621c56c8d1.html",
+      "sha256": "b37392b1d7310db5181b1f41ef1c1547448892dcc0b4ac4ee6e8c8621c56c8d1",
+      "bytes": 221062,
+      "error": null
+    },
+    {
+      "requested_url": "https://www.fareastmalls.com.sg/en/discover/Kimpsons-Table",
+      "url": "https://www.fareastmalls.com.sg/en/discover/Kimpsons-Table",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "redirect_to": null,
+      "file": "5ebe676dbeaa12f72cd25a91550900be753c44f61247237c5f34aa104ea3a023.html",
+      "sha256": "5ebe676dbeaa12f72cd25a91550900be753c44f61247237c5f34aa104ea3a023",
+      "bytes": 57391,
+      "error": null
+    }
+  ]
+}

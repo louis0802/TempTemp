@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T04:00:56.109Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://kingdomfood.sg/captain-kim-korean-bbq-hotpot-tamp-j10/",
+      "url": "https://kingdomfood.sg/captain-kim-korean-bbq-hotpot-tamp-j10/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "120959aa1afdd8b95bf2e8702eca6987a151423e90a2d5f189ed37fd900de10a.html",
+      "sha256": "120959aa1afdd8b95bf2e8702eca6987a151423e90a2d5f189ed37fd900de10a",
+      "bytes": 121812,
+      "error": null
+    },
+    {
+      "requested_url": "https://kingdomfood.sg/captain-kim-korean-bbq-hotpot/",
+      "url": "https://kingdomfood.sg/captain-kim-korean-bbq-hotpot/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "6e650be7043e1984a739e8c9abfe268c782b3267bc47a2c871b144778d6e81c6.html",
+      "sha256": "6e650be7043e1984a739e8c9abfe268c782b3267bc47a2c871b144778d6e81c6",
+      "bytes": 119126,
+      "error": null
+    },
+    {
+      "requested_url": "https://kingdomfood.sg/promotions/",
+      "url": "https://kingdomfood.sg/promotions/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "72684ad8295765a2e48a379c46a5293676a8e8193e48d00b2fbf8c6fcf8ec68b.html",
+      "sha256": "72684ad8295765a2e48a379c46a5293676a8e8193e48d00b2fbf8c6fcf8ec68b",
+      "bytes": 77861,
+      "error": null
+    }
+  ]
+}

@@ -8,6 +8,8 @@ import PromotionForm, {
 } from "@/components/admin/PromotionForm";
 type Candidate = {
   id: string;
+  originKind: "telegram" | "direct";
+  sourceId: string;
   data: Partial<Promotion>;
   issues: string[];
   permalink: string;
@@ -38,6 +40,7 @@ export default function Admin() {
     [editing, setEditing] = useState<{
       promotion: Promotion;
       candidateId?: string;
+      originKind?: "telegram" | "direct";
     } | null>(null),
     [offerCursor, setOfferCursor] = useState<string | null>(null),
     [candidateCursor, setCandidateCursor] = useState<string | null>(null),
@@ -108,7 +111,7 @@ export default function Admin() {
     await task(async () => {
       const r = await fetch(
         editing!.candidateId
-          ? `/api/admin/candidates/${editing!.candidateId}/review`
+          ? `/api/admin/${editing!.originKind === "direct" ? "direct-candidates" : "candidates"}/${editing!.candidateId}/review`
           : `/api/admin/promotions/${editing!.promotion.id}/review`,
         {
           method: "POST",
@@ -283,7 +286,7 @@ export default function Admin() {
                 e.preventDefault();
                 void task(async () => {
                   const response = await fetch(
-                    `/api/admin/candidates/${dismiss.id}/review`,
+                    `/api/admin/${dismiss.originKind === "direct" ? "direct-candidates" : "candidates"}/${dismiss.id}/review`,
                     {
                       method: "POST",
                       headers: {
@@ -406,13 +409,20 @@ export default function Admin() {
                   {c.data?.merchant || c.label || "Source post"} ·{" "}
                   {c.data?.benefit || c.issues[0]?.replaceAll("_", " ")}
                 </summary>
+                <p>
+                  {c.originKind === "direct"
+                    ? "Direct source"
+                    : "Telegram signal"}
+                </p>
                 <p>{c.issues.map((x) => x.replaceAll("_", " ")).join(" · ")}</p>
                 <blockquote className="source-evidence">
                   {c.data?.description || JSON.stringify(c.data)}
                 </blockquote>
                 {c.permalink && (
                   <a href={c.permalink} target="_blank" rel="noreferrer">
-                    Open original post ↗
+                    {c.originKind === "direct"
+                      ? "Open official source ↗"
+                      : "Open original post ↗"}
                   </a>
                 )}
                 <div className="admin-actions">
@@ -423,10 +433,17 @@ export default function Admin() {
                         draftPromotion(c.data, {
                           label: c.label,
                           url: c.permalink,
+                          ...(c.originKind === "direct"
+                            ? { kind: "direct" as const, sourceId: c.sourceId }
+                            : {}),
                         });
                       setEditing({
                         promotion: base,
-                        candidateId: c.existing ? undefined : c.id,
+                        candidateId:
+                          c.originKind === "direct" || !c.existing
+                            ? c.id
+                            : undefined,
+                        originKind: c.originKind,
                       });
                       setDismiss(null);
                     }}

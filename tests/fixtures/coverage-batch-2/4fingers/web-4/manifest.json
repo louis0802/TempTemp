@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T04:04:15.438Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://order.4fingers.com.sg/corp/my_profile",
+      "url": "https://order.4fingers.com.sg/corp/my_profile",
+      "status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "redirect_to": null,
+      "file": "47ac77f54b7348d8cfc65b80f41cd21c5488b49c67e84565a16aebdbe0f3b650.html",
+      "sha256": "47ac77f54b7348d8cfc65b80f41cd21c5488b49c67e84565a16aebdbe0f3b650",
+      "bytes": 118107,
+      "error": null
+    }
+  ]
+}

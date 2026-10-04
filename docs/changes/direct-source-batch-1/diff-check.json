@@ -1,0 +1,59 @@
+{
+  "tracked": {
+    "exitCode": 0,
+    "output": ""
+  },
+  "taskCode": [
+    {
+      "file": "src/ingestion/direct-sources/adapters/dian-xiao-er.ts",
+      "exitCode": 1,
+      "output": ""
+    },
+    {
+      "file": "src/ingestion/direct-sources/adapters/fairprice.ts",
+      "exitCode": 1,
+      "output": ""
+    },
+    {
+      "file": "src/ingestion/direct-sources/adapters/kris-plus.ts",
+      "exitCode": 1,
+      "output": ""
+    },
+    {
+      "file": "scripts/research/build-merchant-source-map.ts",
+      "exitCode": 1,
+      "output": ""
+    },
+    {
+      "file": "scripts/research/merchant-source-map/build.ts",
+      "exitCode": 1,
+      "output": ""
+    },
+    {
+      "file": "src/ingestion/direct-sources/registry.ts",
+      "exitCode": 1,
+      "output": ""
+    },
+    {
+      "file": "src/ingestion/direct-sources/types.ts",
+      "exitCode": 1,
+      "output": ""
+    },
+    {
+      "file": "tests/direct-source-adapters.test.ts",
+      "exitCode": 1,
+      "output": ""
+    },
+    {
+      "file": "tests/merchant-source-map.test.ts",
+      "exitCode": 1,
+      "output": ""
+    },
+    {
+      "file": "tests/direct-source-batch-1.test.ts",
+      "exitCode": 1,
+      "output": ""
+    }
+  ],
+  "rawCaptureFormatting": "Original immutable response bytes excluded from reformatting/checking."
+}

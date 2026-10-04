@@ -1,0 +1,15 @@
+{
+  "observedAt": "2026-10-01T13:12:08.320Z",
+  "pages": {
+    "https://www.dianxiaoer.com.sg/outlets": {
+      "path": "a0824fb364a5a4cc2704db0ed7446d7c5c00d0c791fcb3285b39d19331fa9258.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.dianxiaoer.com.sg/membership": {
+      "path": "b999fba661c41cd6489a50512403b68142166bd579d804ab87eed8e3663d14b5.html",
+      "status": 200,
+      "contentType": "text/html"
+    }
+  }
+}

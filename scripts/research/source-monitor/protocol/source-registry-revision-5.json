@@ -1,0 +1,369 @@
+{
+  "schema_version": "1.0",
+  "protocol_revision": 5,
+  "registered_at": "2026-09-23T15:43:30Z",
+  "selection_basis": "Repeatable public index or bounded current programme, drawn from the two earlier acquisition studies and target-blind public listing checks before Day 0 candidate capture. A post-freeze diagnostic prompted evaluation but did not by itself qualify any source.",
+  "sources": [
+    {
+      "source_id": "singpromos_ongoing",
+      "source_type": "publisher_active_index",
+      "origin_url": "https://singpromos.com/bydate/ontoday/",
+      "enumeration_method": "Traverse On Today and Upcoming pagination for the current date and next 11 days; inspect every in-scope linked card until terminal page or cap.",
+      "enumerable": true,
+      "freshness_visibility": "Current-date heading and per-card active/started/ends labels; detail validity must be checked.",
+      "pagination": "Numbered /page/N/; 9 On Today pages observed on 23 Sep.",
+      "ordering": "Appears editorial/recent but not a reliable publication-time sort; do not stop after first ten.",
+      "reasonable_per_run_cap": {
+        "max_pages": 12,
+        "max_entries": 200
+      },
+      "inspectability": "Listing and linked offer articles readable in current browser check.",
+      "notes": "Earlier first-ten cap could hide lower-page offers; cached RSS lagged the active index. Exclude finance, travel and online-only entries.",
+      "cadence_class": "fresh_publisher",
+      "catch_up_capability": "partial",
+      "catch_up_limitation": "Current listing enumeration does not prove downtime history traversal."
+    },
+    {
+      "source_id": "confirmgood_deals",
+      "source_type": "publisher_date_archive",
+      "origin_url": "https://confirmgood.com/post/category/deals/",
+      "enumeration_method": "Traverse date-labelled Deals cards via Load More until previous observed date plus one overlap batch; inspect in-scope cards.",
+      "enumerable": true,
+      "freshness_visibility": "Visible article dates; category also includes menus, events and stale campaigns.",
+      "pagination": "Load More Posts; exact backend depth is not exposed in text reader.",
+      "ordering": "Reverse visible publication date on first batch; verify at each load.",
+      "reasonable_per_run_cap": {
+        "max_pages": 5,
+        "max_entries": 100
+      },
+      "inspectability": "Article links readable; feed route was inaccessible in prior study.",
+      "notes": "First-ten cap could miss older still-active offers; Day 0 should keep going until cap and record truncation.",
+      "cadence_class": "fresh_publisher",
+      "catch_up_capability": "partial",
+      "catch_up_limitation": "Current listing enumeration does not prove downtime history traversal."
+    },
+    {
+      "source_id": "eatbook_deals",
+      "source_type": "publisher_date_archive",
+      "origin_url": "https://eatbook.sg/category/news/deals/",
+      "enumeration_method": "Traverse dated Deals category and Older Posts to prior observed cutoff plus overlap; split multi-merchant guides into independently redeemable offers.",
+      "enumerable": true,
+      "freshness_visibility": "Article dates visible, but offer validity is only in detail.",
+      "pagination": "Older Posts link and numbered archive pages.",
+      "ordering": "Reverse visible publication date on first page.",
+      "reasonable_per_run_cap": {
+        "max_pages": 5,
+        "max_entries": 100
+      },
+      "inspectability": "Article text readable in earlier and current checks.",
+      "notes": "Category is sparse; first-ten cap can miss active evergreen offers; new menu prices alone are out of scope.",
+      "cadence_class": "fresh_publisher",
+      "catch_up_capability": "partial",
+      "catch_up_limitation": "Current listing enumeration does not prove downtime history traversal."
+    },
+    {
+      "source_id": "mustsharenews_deals",
+      "source_type": "publisher_date_archive",
+      "origin_url": "https://mustsharenews.com/category/deals/",
+      "enumeration_method": "Traverse numbered Deals archive to date cutoff plus overlap; use article absolute dates, never relative archive labels, for freshness context.",
+      "enumerable": true,
+      "freshness_visibility": "Archive reader cache was stale in prior study; current reader crawl is about a month old.",
+      "pagination": "Numbered /page/N/.",
+      "ordering": "Apparently reverse date but cache and duplicate cards make order uncertain.",
+      "reasonable_per_run_cap": {
+        "max_pages": 5,
+        "max_entries": 100
+      },
+      "inspectability": "Some linked articles readable; a stale listing does not prove current coverage.",
+      "notes": "Candidate extraction and stale-index misses possible. Mark freshness failure when archive date does not advance.",
+      "cadence_class": "fresh_publisher",
+      "catch_up_capability": "partial",
+      "catch_up_limitation": "Current listing enumeration does not prove downtime history traversal."
+    },
+    {
+      "source_id": "everydayonsales_food",
+      "source_type": "secondary_date_archive",
+      "origin_url": "https://sg.everydayonsales.com/sales-category/food-restaurant-pub/",
+      "enumeration_method": "Traverse food category pages through prior observed publication date plus overlap; inspect all current/upcoming source-backed offers.",
+      "enumerable": true,
+      "freshness_visibility": "Publication dates and offer dates appear on cards; detail may be inaccessible.",
+      "pagination": "Category archive pagination; terminal depth to be observed in capture.",
+      "ordering": "Newest visible publication dates first on current page.",
+      "reasonable_per_run_cap": {
+        "max_pages": 5,
+        "max_entries": 100
+      },
+      "inspectability": "Listing readable; five of ten prior detail pages had web cache misses.",
+      "notes": "Record listing-only evidence and detail failures; previous first-ten cap was arbitrary.",
+      "cadence_class": "fresh_publisher",
+      "catch_up_capability": "partial",
+      "catch_up_limitation": "Current listing enumeration does not prove downtime history traversal."
+    },
+    {
+      "source_id": "great_world_promotions",
+      "source_type": "mall_active_index",
+      "origin_url": "https://shop.greatworld.com.sg/happenings/promotions/",
+      "enumeration_method": "Traverse All, Dine, Shop and Mall category pages, deduplicate URL, and retain entries whose displayed validity includes today or begins within 11 days.",
+      "enumerable": true,
+      "freshness_visibility": "Card start/end dates are visible in search/current rendered listing; text reader sometimes returns an empty short page.",
+      "pagination": "Numbered /page/N/ and cat query parameters; page 2 was seen in prior study.",
+      "ordering": "Unclear; do not assume newest first.",
+      "reasonable_per_run_cap": {
+        "max_pages": 10,
+        "max_entries": 200
+      },
+      "inspectability": "Prior candidate details readable; current text reader listing intermittently empty.",
+      "notes": "Compare live rendered page with reader; record dynamic/cache inconsistency and cap. Treat campaign bundles as separate merchant offers only when distinct terms are explicit.",
+      "cadence_class": "directory",
+      "catch_up_capability": "partial",
+      "catch_up_limitation": "Current listing enumeration does not prove downtime history traversal."
+    },
+    {
+      "source_id": "capitaland_mall_deals",
+      "source_type": "mall_index_probe",
+      "origin_url": "https://www.capitaland.com/sg/en/shop/malls/deals.html",
+      "enumeration_method": "Attempt all-malls Deals index and visible mall filter; if empty, record failure without substituting a known campaign page.",
+      "enumerable": false,
+      "freshness_visibility": "Navigation exists, but current reader exposes no deal cards.",
+      "pagination": "Unknown until listing works.",
+      "ordering": "Unknown.",
+      "reasonable_per_run_cap": {
+        "max_pages": 4,
+        "max_entries": 100
+      },
+      "inspectability": "A Plaza Singapura campaign detail was readable previously; index is not reliably enumerable.",
+      "notes": "Registered as blocked probe because prior structured candidates came from a campaign. A direct known campaign does not prove broad repeated acquisition.",
+      "cadence_class": "directory",
+      "catch_up_capability": "unsupported",
+      "catch_up_limitation": "Current listing enumeration does not prove downtime history traversal."
+    },
+    {
+      "source_id": "jewel_general_promotions",
+      "source_type": "mall_index_probe",
+      "origin_url": "https://www.jewelchangiairport.com/en/promotion.html",
+      "enumeration_method": "Attempt visible Shopping & Dining promotion filters and See More; if cards remain dynamic/unreadable, record blocked listing.",
+      "enumerable": false,
+      "freshness_visibility": "General page presents filters but no offer cards to text reader.",
+      "pagination": "See More control; depth unknown.",
+      "ordering": "Unknown.",
+      "reasonable_per_run_cap": {
+        "max_pages": 10,
+        "max_entries": 100
+      },
+      "inspectability": "Programme detail pages separately readable.",
+      "notes": "Do not count as covered until rendered listing can be captured reproducibly.",
+      "cadence_class": "directory",
+      "catch_up_capability": "unsupported",
+      "catch_up_limitation": "Current listing enumeration does not prove downtime history traversal."
+    },
+    {
+      "source_id": "jewel_student_privileges",
+      "source_type": "mall_programme_directory",
+      "origin_url": "https://www.jewelchangiairport.com/en/promotion/Student-Privileges.html",
+      "enumeration_method": "Inspect all tenant rows in the fixed programme page and compare page hashes each run; retain active merchant offers.",
+      "enumerable": true,
+      "freshness_visibility": "Programme page has tenant benefits; per-tenant end dates may be absent.",
+      "pagination": "Single page with tenant rows.",
+      "ordering": "Programme grouping, not chronology.",
+      "reasonable_per_run_cap": {
+        "max_pages": 1,
+        "max_entries": 150
+      },
+      "inspectability": "Tenant offer rows readable.",
+      "notes": "A fixed programme may change without article dates; only changed content can establish new first-seen after Day 0.",
+      "cadence_class": "static_campaign",
+      "catch_up_capability": "partial",
+      "catch_up_limitation": "Current listing enumeration does not prove downtime history traversal."
+    },
+    {
+      "source_id": "jewel_ticket_privileges",
+      "source_type": "mall_programme_directory",
+      "origin_url": "https://www.jewelchangiairport.com/en/promotion/exclusively-for-jewel-attractions-ticket-holders.html",
+      "enumeration_method": "Inspect all food/retail tenant rows and the programme date/eligibility on this fixed page each run.",
+      "enumerable": true,
+      "freshness_visibility": "Programme and benefit windows shown, tenant-specific date detail varies.",
+      "pagination": "Single page with tenant rows.",
+      "ordering": "Programme grouping, not chronology.",
+      "reasonable_per_run_cap": {
+        "max_pages": 1,
+        "max_entries": 150
+      },
+      "inspectability": "Prior tenant rows readable.",
+      "notes": "One campaign page can yield multiple independently redeemable merchant benefits.",
+      "cadence_class": "static_campaign",
+      "catch_up_capability": "partial",
+      "catch_up_limitation": "Current listing enumeration does not prove downtime history traversal."
+    },
+    {
+      "source_id": "singapore_river_festival",
+      "source_type": "festival_promotion_directory",
+      "origin_url": "https://www.srf.sg/promotions/",
+      "enumeration_method": "Inspect all alphabetic merchant entries and dated festival terms; repeat daily only while directory is active.",
+      "enumerable": true,
+      "freshness_visibility": "Festival states 1–30 Sep 2026; individual update dates absent.",
+      "pagination": "Single alphabetic directory page.",
+      "ordering": "Alphabetic merchant, not freshness.",
+      "reasonable_per_run_cap": {
+        "max_pages": 1,
+        "max_entries": 150
+      },
+      "inspectability": "Merchant offer text and some linked terms readable.",
+      "notes": "Earlier first-ten cap omitted most of the directory. Price-only specials need an explicit promotion basis.",
+      "cadence_class": "directory",
+      "catch_up_capability": "partial",
+      "catch_up_limitation": "Current listing enumeration does not prove downtime history traversal."
+    },
+    {
+      "source_id": "grab_promo_codes",
+      "source_type": "official_campaign_table",
+      "origin_url": "https://www.grab.com/sg/campaign/grab-promo-codes/",
+      "enumeration_method": "Inspect all Dine Out code rows and other physical-merchant F&B rows; compare complete table each run.",
+      "enumerable": true,
+      "freshness_visibility": "Table publishes validity per code and says updated monthly; updates lack row-level timestamps.",
+      "pagination": "Single table page.",
+      "ordering": "Product category, not chronology.",
+      "reasonable_per_run_cap": {
+        "max_pages": 1,
+        "max_entries": 100
+      },
+      "inspectability": "Official code terms readable; participating merchants may be unspecified.",
+      "notes": "JB20 appears in table, but generic GrabFood delivery codes are out of primary physical-merchant scope.",
+      "cadence_class": "static_campaign",
+      "catch_up_capability": "partial",
+      "catch_up_limitation": "Current listing enumeration does not prove downtime history traversal."
+    },
+    {
+      "source_id": "grab_full_house",
+      "source_type": "official_campaign_probe",
+      "origin_url": "https://www.grab.com/sg/full-house-mission/",
+      "enumeration_method": "Recheck fixed campaign page for changed precinct sections and terms; no general new-campaign enumeration is proven.",
+      "enumerable": false,
+      "freshness_visibility": "Offer terms readable; no per-change publication timestamp.",
+      "pagination": "Single campaign page.",
+      "ordering": "Campaign sections, not chronology.",
+      "reasonable_per_run_cap": {
+        "max_pages": 1,
+        "max_entries": 30
+      },
+      "inspectability": "Official campaign terms readable; restaurant participation may be app-only.",
+      "notes": "This page is a useful monitored fixed campaign, but cannot claim Grab-wide source coverage.",
+      "cadence_class": "static_campaign",
+      "catch_up_capability": "unsupported",
+      "catch_up_limitation": "Current listing enumeration does not prove downtime history traversal."
+    },
+    {
+      "source_id": "grab_dineout_directory",
+      "source_type": "official_location_directory_probe",
+      "origin_url": "https://dineout.grab.com/sg/en",
+      "enumeration_method": "Attempt a fixed Singapore-wide listing with no user location; record only visible cards and pagination, not a guessed national inventory.",
+      "enumerable": false,
+      "freshness_visibility": "Current public results expose offer labels but appear location/sort dependent.",
+      "pagination": "Dynamic list; completeness and depth unknown.",
+      "ordering": "Recommended or distance sort; location dependent.",
+      "reasonable_per_run_cap": {
+        "max_pages": 3,
+        "max_entries": 100
+      },
+      "inspectability": "Merchant detail pages sometimes readable; generic listing may be dynamic.",
+      "notes": "Do not claim all Singapore Dine Out merchants were enumerated.",
+      "cadence_class": "directory",
+      "catch_up_capability": "unsupported",
+      "catch_up_limitation": "Current listing enumeration does not prove downtime history traversal."
+    },
+    {
+      "source_id": "divedeals_food",
+      "source_type": "secondary_deal_directory",
+      "origin_url": "https://divedeals.sg/",
+      "enumeration_method": "Open Food listing from homepage, traverse visible pagination or load-more until terminal page/cap, and inspect each physical merchant offer.",
+      "enumerable": true,
+      "freshness_visibility": "Cards visible; freshness/order not explicit and detail dates vary.",
+      "pagination": "Food section with See All; deeper paging to record during run.",
+      "ordering": "Featured/editorial, not demonstrated chronological.",
+      "reasonable_per_run_cap": {
+        "max_pages": 10,
+        "max_entries": 200
+      },
+      "inspectability": "Prior Shiok Burger and Din Tai Fung details readable; current homepage cards readable.",
+      "notes": "Added for repeatable public Food route, not solely historical benchmark hit.",
+      "cadence_class": "directory",
+      "catch_up_capability": "partial",
+      "catch_up_limitation": "Current listing enumeration does not prove downtime history traversal."
+    },
+    {
+      "source_id": "hsbc_dining",
+      "source_type": "official_card_dining_directory",
+      "origin_url": "https://cardpromotions.hsbc.com.sg/dining/whats-new/",
+      "enumeration_method": "Traverse all What's New dining cards and category/load-more links, then inspect each merchant detail for current validity and terms.",
+      "enumerable": true,
+      "freshness_visibility": "What's New label and detail validity; listing has no per-card publication dates.",
+      "pagination": "Category tabs and possible load-more; observed first page has multiple merchant cards.",
+      "ordering": "Unclear within What's New; do not stop at arbitrary first ten.",
+      "reasonable_per_run_cap": {
+        "max_pages": 8,
+        "max_entries": 200
+      },
+      "inspectability": "Official Brasserie Astoria and Meat Smith details were readable in prior research.",
+      "notes": "Cardholder eligibility does not make a valid physical restaurant benefit out of scope. Added because the directory, not a benchmark URL, is enumerable.",
+      "cadence_class": "directory",
+      "catch_up_capability": "partial",
+      "catch_up_limitation": "Current listing enumeration does not prove downtime history traversal."
+    },
+    {
+      "source_id": "syioknya_central_food",
+      "source_type": "secondary_location_directory",
+      "origin_url": "https://sg.syioknya.com/location/promotion/japanese-food/central-region/",
+      "enumeration_method": "Traverse the fixed Central Region Japanese Food category pagination and inspect current detail cards; do not generalize to all locations/categories.",
+      "enumerable": true,
+      "freshness_visibility": "Listing summaries sometimes include dates, but detail page inspectability varies and location archive caches can lag.",
+      "pagination": "Category/location pages, with /page/N variants observed elsewhere on site.",
+      "ordering": "Unclear; previous Jurong Point page mixed months and merchants.",
+      "reasonable_per_run_cap": {
+        "max_pages": 10,
+        "max_entries": 200
+      },
+      "inspectability": "Listing readable; earlier Genki detail was not inspectable.",
+      "notes": "A specific repeatable location/category route is registered. Broad Syioknya coverage remains unverified.",
+      "cadence_class": "directory",
+      "catch_up_capability": "partial",
+      "catch_up_limitation": "Current listing enumeration does not prove downtime history traversal."
+    },
+    {
+      "source_id": "ordinary_patrons_news",
+      "source_type": "publisher_rolling_roundup",
+      "origin_url": "https://ordinarypatrons.com/fb-news-and-deals/",
+      "enumeration_method": "Inspect every dated section in rolling F&B News and Deals page, compare section content hashes, and retain explicit transactional offers.",
+      "enumerable": true,
+      "freshness_visibility": "Sections have event/offer dates but no reliable update timestamp; older sections remain.",
+      "pagination": "Single rolling roundup page; site homepage links to it.",
+      "ordering": "Newest sections appear first but do not assume update chronology.",
+      "reasonable_per_run_cap": {
+        "max_pages": 1,
+        "max_entries": 100
+      },
+      "inspectability": "Roundup sections readable; page contains many regular menu/new opening stories.",
+      "notes": "Earlier Kimpson article prompted evaluation; independently accessible rolling roundup supports repeated target-blind monitoring.",
+      "cadence_class": "static_campaign",
+      "catch_up_capability": "partial",
+      "catch_up_limitation": "Current listing enumeration does not prove downtime history traversal."
+    },
+    {
+      "source_id": "misslobang_roundup",
+      "source_type": "publisher_roundup_probe",
+      "origin_url": "https://www.misslobang.com/",
+      "enumeration_method": "Inspect homepage for a current-month promotion roundup link; if absent, record no enumerated current roundup.",
+      "enumerable": false,
+      "freshness_visibility": "Earlier June roundup produced candidates in September but was stale for forward collection.",
+      "pagination": "Homepage to dated monthly article if exposed; no dependable index proven.",
+      "ordering": "Unknown.",
+      "reasonable_per_run_cap": {
+        "max_pages": 2,
+        "max_entries": 50
+      },
+      "inspectability": "Earlier monthly article readable.",
+      "notes": "Prior useful general route retained as a probe; do not replay its stale June offers as Day 0.",
+      "cadence_class": "static_campaign",
+      "catch_up_capability": "unsupported",
+      "catch_up_limitation": "Current listing enumeration does not prove downtime history traversal."
+    }
+  ]
+}

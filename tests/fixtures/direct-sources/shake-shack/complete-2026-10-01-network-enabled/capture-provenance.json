@@ -1,0 +1,931 @@
+{
+  "sourceId": "shake_shack_sg",
+  "observedAt": "2026-10-01T10:48:33.000Z",
+  "limits": {
+    "maxRequests": 60,
+    "maxListingPages": 5,
+    "maxDetailPages": 50,
+    "maxEvidencePages": 8,
+    "maxBytes": 3000000,
+    "timeoutMs": 12000,
+    "maxRedirects": 3
+  },
+  "priorCapture": "../capture-provenance.json (historical partial run, retained unchanged)",
+  "capturePurpose": "One registered bounded structural acquisition; no search, recursive article crawling or coordinates",
+  "requests": [
+    {
+      "url": "https://www.shakeshack.com.sg/blog/",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/blog/page/2/",
+      "relation": "listing",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/blog/page/3/",
+      "relation": "listing",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/blog/page/4/",
+      "relation": "listing",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/100-angus-beef-just-for-you/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/2/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/all-about-chickens/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/2/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/boogie-your-way-to-shake-shack-disco-night/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/4/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/clay-workshop/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/3/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/concrete-craze/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/4/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/everything-in-our-veggie-shack/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/4/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/feeding-a-crowd/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/flock-this-way/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/2/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/hello-one-fullerton/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/3/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/hello-parkway-parade/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/introducing-aloha-shack/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/introducing-summer-greek-shack/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/its-caesar-time/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/3/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/local-faves-our-treat/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/2/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/meet-our-collab-partners/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/3/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/more-perks-less-fuss/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/2/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/national-cheeseburger-day/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/new-york-steakhouse/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/2/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/on-popular-demands-shackmeister-is-back/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/3/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/one-day-exclusive-shack-gapore-dog/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/our-french-onion-menu/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/pucker-up-for-2-lemonades/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/2/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/puzzle-shackdown/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/2/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/save-the-date/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/4/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/shack-breakfast/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/4/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/shack-meal/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/shake-shack-x-naeum-inside-our-latest-singapore-chef-collab/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/2/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/shake-shacks-french-bistro-menu/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/3/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/shake-track-club/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/singlish-lingo/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/3/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/study-breaks-just-got-better/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/summer-peach-is-here/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/the-neon-art-bistro-experience/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/3/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/the-veggie-shack-is-back/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/2/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/this-ones-for-your-mom/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/3/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/truffles-back/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/4/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/welcome-to-shack-pickleball/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/3/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/welcome-to-sunshine-shack-flow/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/4/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/well-be-right-back/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/3/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/were-bringing-new-york-to-the-shack-with-dj-kiara/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/2/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/were-hiring-a-chief-lettuce-officer/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/3/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/were-introducing-chicken-sundays/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/2/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/your-summer-reset-starts-here/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/zi-char-menu/",
+      "relation": "detail",
+      "parentUrl": "https://www.shakeshack.com.sg/blog/page/4/",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    }
+  ],
+  "captures": [
+    {
+      "url": "https://www.shakeshack.com.sg/blog/",
+      "requestedUrl": "https://www.shakeshack.com.sg/blog/",
+      "retrievedAt": "2026-10-01T10:48:33.534Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 87663,
+      "contentHash": "04e650afe8974e5de76776381fed62ae6682b64d0f871cf0933ac3cd8851b08c",
+      "purpose": "archive_enumeration"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/blog/page/2/",
+      "requestedUrl": "https://www.shakeshack.com.sg/blog/page/2/",
+      "retrievedAt": "2026-10-01T10:48:34.045Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 85992,
+      "contentHash": "774c9013ff96cb1819f1b642c26682dae45df6d754f8052b705dca68b451a5ac",
+      "purpose": "archive_enumeration"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/blog/page/3/",
+      "requestedUrl": "https://www.shakeshack.com.sg/blog/page/3/",
+      "retrievedAt": "2026-10-01T10:48:34.437Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 85829,
+      "contentHash": "f0881a8a2f9c61261c30545fbe1899387fecb316bfe485121bbeec9c44eab541",
+      "purpose": "archive_enumeration"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/blog/page/4/",
+      "requestedUrl": "https://www.shakeshack.com.sg/blog/page/4/",
+      "retrievedAt": "2026-10-01T10:48:34.917Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 79354,
+      "contentHash": "96b234b54dd57142dbefebffd2c8ecb126602458c295350ca234d10a37a131b7",
+      "purpose": "archive_enumeration"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/100-angus-beef-just-for-you/",
+      "requestedUrl": "https://www.shakeshack.com.sg/100-angus-beef-just-for-you/",
+      "retrievedAt": "2026-10-01T10:48:35.234Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 75911,
+      "contentHash": "56a879f3658a4615cb73215bf9fcad6bdf042a2ae4b389ae62898adbd98aaeab",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/all-about-chickens/",
+      "requestedUrl": "https://www.shakeshack.com.sg/all-about-chickens/",
+      "retrievedAt": "2026-10-01T10:48:35.607Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 74523,
+      "contentHash": "eb6511e5e5730b80a6d7bd15270e1eea66c6e87f3edee8f134c27d8295aa2669",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/boogie-your-way-to-shake-shack-disco-night/",
+      "requestedUrl": "https://www.shakeshack.com.sg/boogie-your-way-to-shake-shack-disco-night/",
+      "retrievedAt": "2026-10-01T10:48:35.897Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 77779,
+      "contentHash": "3e8a422744f25982a5d7fde9c5d6fea98c1b284b73eaf854a9c5e9512864ef8a",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/clay-workshop/",
+      "requestedUrl": "https://www.shakeshack.com.sg/clay-workshop/",
+      "retrievedAt": "2026-10-01T10:48:36.154Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 74447,
+      "contentHash": "07f95b2686211fff1b16f3774aeb548ebd687d98a65ea1fef6e8f41c2543fa28",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/concrete-craze/",
+      "requestedUrl": "https://www.shakeshack.com.sg/concrete-craze/",
+      "retrievedAt": "2026-10-01T10:48:36.415Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 76848,
+      "contentHash": "033df0209cb16c43217bbd401d5953f40b029ad9e620ac598659d36641ac2549",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/everything-in-our-veggie-shack/",
+      "requestedUrl": "https://www.shakeshack.com.sg/everything-in-our-veggie-shack/",
+      "retrievedAt": "2026-10-01T10:48:36.713Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 81671,
+      "contentHash": "ff0434a022569b019842a96926becf667beb78b7cb65d70093224a8751b6a46c",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/feeding-a-crowd/",
+      "requestedUrl": "https://www.shakeshack.com.sg/feeding-a-crowd/",
+      "retrievedAt": "2026-10-01T10:48:37.032Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 73557,
+      "contentHash": "66be15aa1ed505d4e814254bdeb91a726f971bc2788b8d2bf96d1bc31dee1074",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/flock-this-way/",
+      "requestedUrl": "https://www.shakeshack.com.sg/flock-this-way/",
+      "retrievedAt": "2026-10-01T10:48:37.307Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 74103,
+      "contentHash": "d3ef9c09692712863377c97a2d97ad5685d08cbfae609501902c9de4a80dbcdf",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/hello-one-fullerton/",
+      "requestedUrl": "https://www.shakeshack.com.sg/hello-one-fullerton/",
+      "retrievedAt": "2026-10-01T10:48:37.594Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 78374,
+      "contentHash": "cb16bf06717edf9c1590f81211220c45d462c9e19f5ea8fdaa8f9cef0e2f2a81",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/hello-parkway-parade/",
+      "requestedUrl": "https://www.shakeshack.com.sg/hello-parkway-parade/",
+      "retrievedAt": "2026-10-01T10:48:38.024Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 75719,
+      "contentHash": "bfb5928b79f8429ed650a2f14738ee33ade49d6de39dcf45d0bdcf2a9b48726f",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/introducing-aloha-shack/",
+      "requestedUrl": "https://www.shakeshack.com.sg/introducing-aloha-shack/",
+      "retrievedAt": "2026-10-01T10:48:38.354Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 85673,
+      "contentHash": "435e7d469abc4c9587b66bc05c0c1b4e33c945b3701d16b57c3f9a66f0b6a69c",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/introducing-summer-greek-shack/",
+      "requestedUrl": "https://www.shakeshack.com.sg/introducing-summer-greek-shack/",
+      "retrievedAt": "2026-10-01T10:48:38.779Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 84246,
+      "contentHash": "fd918481fbd6320591d2fe6d8097aac5ae637b58898fd8006a1e6b929112c001",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/its-caesar-time/",
+      "requestedUrl": "https://www.shakeshack.com.sg/its-caesar-time/",
+      "retrievedAt": "2026-10-01T10:48:39.093Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 76560,
+      "contentHash": "b644caecf74cd09c1d07b4f8f44e31206085c25815fcdc580824d4c26d5a5b27",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/local-faves-our-treat/",
+      "requestedUrl": "https://www.shakeshack.com.sg/local-faves-our-treat/",
+      "retrievedAt": "2026-10-01T10:48:39.441Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 75625,
+      "contentHash": "f1bef083d729ffa13791c75d5cae225faa6bd648f733201b69f7976bc6eb6fc9",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/meet-our-collab-partners/",
+      "requestedUrl": "https://www.shakeshack.com.sg/meet-our-collab-partners/",
+      "retrievedAt": "2026-10-01T10:48:39.823Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 83835,
+      "contentHash": "e5fa6f0344f6897f0b8074f62036c8a03da04c5fa1dbd57f6632dd15f67f890a",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/more-perks-less-fuss/",
+      "requestedUrl": "https://www.shakeshack.com.sg/more-perks-less-fuss/",
+      "retrievedAt": "2026-10-01T10:48:40.165Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 74788,
+      "contentHash": "e4b9651371f86fa52bc208ffa95eec005fc22ae62ea5d38012ff577e74c54f42",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/national-cheeseburger-day/",
+      "requestedUrl": "https://www.shakeshack.com.sg/national-cheeseburger-day/",
+      "retrievedAt": "2026-10-01T10:48:40.508Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 78425,
+      "contentHash": "11269f1ed6c8280c48f6866a45374c97e75529ca25c6acf3ff9472bc7a0cb561",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/new-york-steakhouse/",
+      "requestedUrl": "https://www.shakeshack.com.sg/new-york-steakhouse/",
+      "retrievedAt": "2026-10-01T10:48:40.878Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 76466,
+      "contentHash": "504ff7ebd5efcd28dada7d274a63e7314c92be5bf2a38c86d792095359db8453",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/on-popular-demands-shackmeister-is-back/",
+      "requestedUrl": "https://www.shakeshack.com.sg/on-popular-demands-shackmeister-is-back/",
+      "retrievedAt": "2026-10-01T10:48:41.198Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 83709,
+      "contentHash": "91d2b925c560c1592b2ac5d3c0c462de76b639ce526dd3e253650bbe40643f59",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/one-day-exclusive-shack-gapore-dog/",
+      "requestedUrl": "https://www.shakeshack.com.sg/one-day-exclusive-shack-gapore-dog/",
+      "retrievedAt": "2026-10-01T10:48:41.463Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 75441,
+      "contentHash": "b4d86e14d4fd9b17d887c64a5410e9d7a9bce868ba214e02446275b54879aa64",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/our-french-onion-menu/",
+      "requestedUrl": "https://www.shakeshack.com.sg/our-french-onion-menu/",
+      "retrievedAt": "2026-10-01T10:48:41.766Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 83792,
+      "contentHash": "f264342e2bb09c3c6f0fbadb79b1f17b83079971152159f366236b5f6de561f2",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/pucker-up-for-2-lemonades/",
+      "requestedUrl": "https://www.shakeshack.com.sg/pucker-up-for-2-lemonades/",
+      "retrievedAt": "2026-10-01T10:48:42.022Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 74984,
+      "contentHash": "9bd48778d195473e8b806a487e0e37003ae323dd0a0a2dcc75577aefb7f26f87",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/puzzle-shackdown/",
+      "requestedUrl": "https://www.shakeshack.com.sg/puzzle-shackdown/",
+      "retrievedAt": "2026-10-01T10:48:42.322Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 75224,
+      "contentHash": "2a77edeef0f2cdad2e4a90b768d452eae11b27e9bf155d2ded959be9c610fc83",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/save-the-date/",
+      "requestedUrl": "https://www.shakeshack.com.sg/save-the-date/",
+      "retrievedAt": "2026-10-01T10:48:42.691Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 78310,
+      "contentHash": "e8992969a2bd4cf2ad6604eb58ecff45e289fa2305613ee8a196c4776c2e178d",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/shack-breakfast/",
+      "requestedUrl": "https://www.shakeshack.com.sg/shack-breakfast/",
+      "retrievedAt": "2026-10-01T10:48:42.979Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 78990,
+      "contentHash": "9b74c07975ad4de54dbcc37c4037f8df35a4ff8446ab4d668aac66f470eebc17",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/shack-meal/",
+      "requestedUrl": "https://www.shakeshack.com.sg/shack-meal/",
+      "retrievedAt": "2026-10-01T10:48:43.260Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 73691,
+      "contentHash": "0078b6cf5d62a26ea1dee061838ed8b12ec61b89274dc32444261db80f5081d4",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/shake-shack-x-naeum-inside-our-latest-singapore-chef-collab/",
+      "requestedUrl": "https://www.shakeshack.com.sg/shake-shack-x-naeum-inside-our-latest-singapore-chef-collab/",
+      "retrievedAt": "2026-10-01T10:48:43.625Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 84004,
+      "contentHash": "c7a2d2dd27a02e969a47827e31120690968667ba54e8d68da3b094c4607dd99e",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/shake-shacks-french-bistro-menu/",
+      "requestedUrl": "https://www.shakeshack.com.sg/shake-shacks-french-bistro-menu/",
+      "retrievedAt": "2026-10-01T10:48:44.030Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 84594,
+      "contentHash": "f10bffe19632b09d8bf35b96b6d5921d0a1454629257bf5d4ee22bab0609a5b7",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/shake-track-club/",
+      "requestedUrl": "https://www.shakeshack.com.sg/shake-track-club/",
+      "retrievedAt": "2026-10-01T10:48:44.293Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 72778,
+      "contentHash": "8d37210518c18cc7f7086c296f68923da378f82cbae3e023dae08188530003c2",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/singlish-lingo/",
+      "requestedUrl": "https://www.shakeshack.com.sg/singlish-lingo/",
+      "retrievedAt": "2026-10-01T10:48:44.575Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 79000,
+      "contentHash": "adccc07b39a476bfc52574b33b4e3c83f041693c74382f14419d6dce03502577",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/study-breaks-just-got-better/",
+      "requestedUrl": "https://www.shakeshack.com.sg/study-breaks-just-got-better/",
+      "retrievedAt": "2026-10-01T10:48:44.911Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 73566,
+      "contentHash": "8763b4c2eeb5d362b981614d36581dcb3b467ff70e7f714cd150a0fae352e3c2",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/summer-peach-is-here/",
+      "requestedUrl": "https://www.shakeshack.com.sg/summer-peach-is-here/",
+      "retrievedAt": "2026-10-01T10:48:45.178Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 77214,
+      "contentHash": "21e28d3c1ed5bb8851304e5ae03db31063409f450b90fca9694ce3cd5ebb6219",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/the-neon-art-bistro-experience/",
+      "requestedUrl": "https://www.shakeshack.com.sg/the-neon-art-bistro-experience/",
+      "retrievedAt": "2026-10-01T10:48:45.451Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 75724,
+      "contentHash": "fb1ebf3d4f92157f6fb8df1721f499b08f348f229163b390d5073ea34c2ac349",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/the-veggie-shack-is-back/",
+      "requestedUrl": "https://www.shakeshack.com.sg/the-veggie-shack-is-back/",
+      "retrievedAt": "2026-10-01T10:48:45.830Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 75486,
+      "contentHash": "37afa13f697c936412d4a4752d69d682ade3ca2bd2d4331bbc109357ef29297c",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/this-ones-for-your-mom/",
+      "requestedUrl": "https://www.shakeshack.com.sg/this-ones-for-your-mom/",
+      "retrievedAt": "2026-10-01T10:48:46.112Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 74741,
+      "contentHash": "e4d33351bdbc94724e73d44e2398063ecfe8b223aeb4355366cdca6d5c963a9d",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/truffles-back/",
+      "requestedUrl": "https://www.shakeshack.com.sg/truffles-back/",
+      "retrievedAt": "2026-10-01T10:48:46.493Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 82509,
+      "contentHash": "9461991f3b436609ab50e8a96a6f3567f15b6d50f4c54150f27cf1cbc8cbe1e4",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/welcome-to-shack-pickleball/",
+      "requestedUrl": "https://www.shakeshack.com.sg/welcome-to-shack-pickleball/",
+      "retrievedAt": "2026-10-01T10:48:46.921Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 79712,
+      "contentHash": "5fec47cd94ed8daf268347b40c29d537385068b17d696735fe71cc388a29f47e",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/welcome-to-sunshine-shack-flow/",
+      "requestedUrl": "https://www.shakeshack.com.sg/welcome-to-sunshine-shack-flow/",
+      "retrievedAt": "2026-10-01T10:48:47.196Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 78282,
+      "contentHash": "788ebcf93d3274fc9b45540bc9d0098fdfa74a529816e5ee6dc16b02fd4e49d2",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/well-be-right-back/",
+      "requestedUrl": "https://www.shakeshack.com.sg/well-be-right-back/",
+      "retrievedAt": "2026-10-01T10:48:47.463Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 77270,
+      "contentHash": "58ec8c1c7b5ae20cecf67f3c3b32760e90487e2a020ec209a5b8f995c47659b2",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/were-bringing-new-york-to-the-shack-with-dj-kiara/",
+      "requestedUrl": "https://www.shakeshack.com.sg/were-bringing-new-york-to-the-shack-with-dj-kiara/",
+      "retrievedAt": "2026-10-01T10:48:47.772Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 74419,
+      "contentHash": "d469f7f0f1e693b7e6694029e0ac7d740d55bc47577b56972f4b37f3e9140a37",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/were-hiring-a-chief-lettuce-officer/",
+      "requestedUrl": "https://www.shakeshack.com.sg/were-hiring-a-chief-lettuce-officer/",
+      "retrievedAt": "2026-10-01T10:48:48.027Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 76133,
+      "contentHash": "064cdc635628d8085c914c1a0c44e615462e161cdcabb20c2847f443de9abc52",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/were-introducing-chicken-sundays/",
+      "requestedUrl": "https://www.shakeshack.com.sg/were-introducing-chicken-sundays/",
+      "retrievedAt": "2026-10-01T10:48:48.288Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 74119,
+      "contentHash": "a251ef38d372f54e3d3e78482fc68a7f7139d9613c429e2708745d0817ff4700",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/your-summer-reset-starts-here/",
+      "requestedUrl": "https://www.shakeshack.com.sg/your-summer-reset-starts-here/",
+      "retrievedAt": "2026-10-01T10:48:48.552Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 79907,
+      "contentHash": "a61ae8c0ba377cc1a322983d4817b562e76ada642f343b8a3b4fa6cbc824467d",
+      "purpose": "article_body_classification"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/zi-char-menu/",
+      "requestedUrl": "https://www.shakeshack.com.sg/zi-char-menu/",
+      "retrievedAt": "2026-10-01T10:48:48.860Z",
+      "fetchedAt": "2026-10-01T10:48:33.000Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "byteLength": 83802,
+      "contentHash": "2eb7ecbaeefd84bf8a6c58358be6b566a29f2b67c05b28dda33ce33ef6774003",
+      "purpose": "article_body_classification"
+    }
+  ]
+}

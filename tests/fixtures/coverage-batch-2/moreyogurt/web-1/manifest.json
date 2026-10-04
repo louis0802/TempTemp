@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T03:58:59.277Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://www.jewelchangiairport.com/en/dine/more-yogurt.html",
+      "url": "https://www.jewelchangiairport.com/en/dine/more-yogurt.html",
+      "status": null,
+      "content_type": null,
+      "redirect_to": null,
+      "file": null,
+      "sha256": null,
+      "bytes": 0,
+      "error": "getaddrinfo ENOTFOUND www.jewelchangiairport.com"
+    },
+    {
+      "requested_url": "https://www.more-yogurt.com/index/about",
+      "url": "https://www.more-yogurt.com/index/about",
+      "status": null,
+      "content_type": null,
+      "redirect_to": null,
+      "file": null,
+      "sha256": null,
+      "bytes": 0,
+      "error": "getaddrinfo ENOTFOUND www.more-yogurt.com"
+    }
+  ]
+}

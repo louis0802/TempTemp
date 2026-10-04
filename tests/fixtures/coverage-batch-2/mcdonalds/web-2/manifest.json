@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T03:59:38.506Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://www.mcdonalds.com.sg/",
+      "url": "https://www.mcdonalds.com.sg/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "11f7859b2408eca383a51a7372a7d63e1df9ddeec62e17c61f6ec61df5b6b646.html",
+      "sha256": "11f7859b2408eca383a51a7372a7d63e1df9ddeec62e17c61f6ec61df5b6b646",
+      "bytes": 54627,
+      "error": null
+    }
+  ]
+}

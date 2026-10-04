@@ -1,0 +1,15 @@
+{
+  "files": {
+    "docs/research/merchant-automation-progress.md": "eb627b37a824c0c069b1498b1a299059f627b9a47c2687afcc39c0fc9a271bf6",
+    "docs/research/merchants.json": "3966a53144f90b0f9bee4ab34719e8859ce9f1dc67f854d318723645af5294c6",
+    "docs/research/report.csv": "32816852fe5cc45406f4dfe88897d89ccfca4ff70916fd1ced22e78c6c164d6b",
+    "docs/research/social-source-inventory.json": "9a42b5f1e32abe52e0b395fc295d40941e1d225d349aa1761c74cd48083fb320",
+    "docs/research/social-source-acquisition-review.json": "4f9c80b3e5337b68c2d996f404578b71b67615cd63c39dd2c17547bdc880ba15",
+    "docs/changes/coverage-batch-2/progress-delta.json": "9a3f5ad2ddd92829d0691c3fe0b2faf1ea349dd8bc382a5c9b5f680137362a98",
+    "docs/changes/coverage-batch-2/replay.json": "8613392f59ef14c5a5549a34811a073a48529f18bce265f75213110c1bb4ff72",
+    "docs/changes/coverage-batch-2/batch-results.md": "a391b93653051f29e00ad58dda89e3636d16efcda5e1b5689a0e380be5ce8e8e",
+    "docs/changes/coverage-batch-2/research-ledger.json": "fe1ac3528a0b9dae5889c01c9a7d0acc629fa1eaa3cb1afd2d4865ed0bc5d239"
+  },
+  "byte_identical": true,
+  "changed": []
+}

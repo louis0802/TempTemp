@@ -1,0 +1,7 @@
+# Constraint contract (frozen before execution)
+
+Frozen attributes: audience, purchase, redemption_channel, social, timing, item, availability, frequency, reservation, exclusion. Each atomic constraint carries text, one or more unique attributes, and an exact evidence quote; text itself must appear verbatim inside quote. Larger sentence evidence and overlapping attributes are permitted.
+
+Audience: qualifying status/age/ID/beneficiary. Purchase: required spending/quantity/paying party. Redemption_channel: app/cashier/dine-in/takeaway/code. Social: follow/post/tag/public-account requirements. Timing: availability/order/seating/notice/deadline conditions. Item: eligible selected/same-price products/modifiers. Availability: stock/limited quantities/confirmation. Frequency: per order/person/week/redemption cap. Reservation: booking/prebooking/confirmation or walk-in requirements. Exclusion: barred combinations/channels/dates/people/outlets or nonexchangeability. Negative clauses may combine exclusion with any applicable attribute.
+
+Administrative disclaimers/amendment rights are not material atomic requirements and can be omitted; the ten-attribute vocabulary does not force them into a misleading general-term surrogate. No eligibility/redemption/terms exclusive role enum. Material economics may be represented in the benefit or a verbatim constraint without losing qualifiers. A constraint attribute mismatch is reported separately from material requirement meaning changes.

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T04:01:37.531Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://www.instagram.com/shiokburger_sg/",
+      "url": "https://www.instagram.com/shiokburger_sg/",
+      "status": 200,
+      "content_type": "text/html; charset=\"utf-8\"",
+      "redirect_to": null,
+      "file": "8da7dc7b15faf4b9bebc9de5445814cb96de35c0ad05092570f006df65b08f72.html",
+      "sha256": "8da7dc7b15faf4b9bebc9de5445814cb96de35c0ad05092570f006df65b08f72",
+      "bytes": 846270,
+      "error": null
+    }
+  ]
+}

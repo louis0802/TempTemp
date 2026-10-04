@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T04:00:55.447Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://www.mcdonalds.com.sg/McSaver",
+      "url": "https://www.mcdonalds.com.sg/McSaver",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "1b43d32ad515bd9bc8cb45f72fcdc2f42d04778e0242cbb9e01f5a21bfb448cc.html",
+      "sha256": "1b43d32ad515bd9bc8cb45f72fcdc2f42d04778e0242cbb9e01f5a21bfb448cc",
+      "bytes": 31521,
+      "error": null
+    },
+    {
+      "requested_url": "https://www.mcdonalds.com.sg/bfmcsaver",
+      "url": "https://www.mcdonalds.com.sg/bfmcsaver",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "19ac06173d7d29ae9b7277f205eb2e5dc432de50e355effe914ffea674b4d656.html",
+      "sha256": "19ac06173d7d29ae9b7277f205eb2e5dc432de50e355effe914ffea674b4d656",
+      "bytes": 40434,
+      "error": null
+    },
+    {
+      "requested_url": "https://www.mcdonalds.com.sg/locate-us",
+      "url": "https://www.mcdonalds.com.sg/locate-us",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "fb51fc3b7a19219bb5ffecb12c0e4d2947d756ceea4a1f4c99bb082284cd5c43.html",
+      "sha256": "fb51fc3b7a19219bb5ffecb12c0e4d2947d756ceea4a1f4c99bb082284cd5c43",
+      "bytes": 27857,
+      "error": null
+    },
+    {
+      "requested_url": "https://www.mcdonalds.com.sg/news-and-updates",
+      "url": "https://www.mcdonalds.com.sg/news-and-updates",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "a54044c7fbfa91d7cd4f4c7cbe39f0b7477bf80eda609ca219d23b94f990815a.html",
+      "sha256": "a54044c7fbfa91d7cd4f4c7cbe39f0b7477bf80eda609ca219d23b94f990815a",
+      "bytes": 38259,
+      "error": null
+    },
+    {
+      "requested_url": "https://www.mcdonalds.com.sg/website-terms",
+      "url": "https://www.mcdonalds.com.sg/website-terms",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "60407a76d68cbda64864824f505940444dd6ed069988b8b67068c559c8e74e73.html",
+      "sha256": "60407a76d68cbda64864824f505940444dd6ed069988b8b67068c559c8e74e73",
+      "bytes": 38086,
+      "error": null
+    }
+  ]
+}

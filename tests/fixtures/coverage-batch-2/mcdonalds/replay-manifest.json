@@ -1,0 +1,35 @@
+{
+  "observedAt": "2026-10-02T08:00:00.000Z",
+  "pages": {
+    "https://www.mcdonalds.com.sg/": {
+      "path": "web-2/11f7859b2408eca383a51a7372a7d63e1df9ddeec62e17c61f6ec61df5b6b646.html",
+      "contentType": "text/html",
+      "status": 200
+    },
+    "https://www.mcdonalds.com.sg/McSaver": {
+      "path": "web-3/1b43d32ad515bd9bc8cb45f72fcdc2f42d04778e0242cbb9e01f5a21bfb448cc.html",
+      "contentType": "text/html",
+      "status": 200
+    },
+    "https://www.mcdonalds.com.sg/bfmcsaver": {
+      "path": "web-3/19ac06173d7d29ae9b7277f205eb2e5dc432de50e355effe914ffea674b4d656.html",
+      "contentType": "text/html",
+      "status": 200
+    },
+    "https://www.mcdonalds.com.sg/locate-us": {
+      "path": "web-3/fb51fc3b7a19219bb5ffecb12c0e4d2947d756ceea4a1f4c99bb082284cd5c43.html",
+      "contentType": "text/html",
+      "status": 200
+    },
+    "https://www.mcdonalds.com.sg/news-and-updates": {
+      "path": "web-3/a54044c7fbfa91d7cd4f4c7cbe39f0b7477bf80eda609ca219d23b94f990815a.html",
+      "contentType": "text/html",
+      "status": 200
+    },
+    "https://www.mcdonalds.com.sg/website-terms": {
+      "path": "web-3/60407a76d68cbda64864824f505940444dd6ed069988b8b67068c559c8e74e73.html",
+      "contentType": "text/html",
+      "status": 200
+    }
+  }
+}

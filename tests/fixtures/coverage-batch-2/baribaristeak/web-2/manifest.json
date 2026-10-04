@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T03:59:41.326Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://baribaristeak.com.sg/",
+      "url": "https://baribaristeak.com.sg/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "d22a4cf20300796172cb0e7a062d28afec424dd6eb5e4ee03f8279491d91deba.html",
+      "sha256": "d22a4cf20300796172cb0e7a062d28afec424dd6eb5e4ee03f8279491d91deba",
+      "bytes": 163874,
+      "error": null
+    },
+    {
+      "requested_url": "https://baribaristeak.com.sg/locations/",
+      "url": "https://baribaristeak.com.sg/locations/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "79c87087e93cdfeeca487eca183a19329f268dfe357830af0e79e348bae8ac63.html",
+      "sha256": "79c87087e93cdfeeca487eca183a19329f268dfe357830af0e79e348bae8ac63",
+      "bytes": 140394,
+      "error": null
+    }
+  ]
+}

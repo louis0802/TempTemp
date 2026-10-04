@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T04:00:59.303Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://www.keikaisendon.com/find-us/",
+      "url": "https://www.keikaisendon.com/find-us/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "402c5b9f32b689bd5e7d210678ae1c36b3bfb52ec0f932a314f2bc69b42c1372.html",
+      "sha256": "402c5b9f32b689bd5e7d210678ae1c36b3bfb52ec0f932a314f2bc69b42c1372",
+      "bytes": 209021,
+      "error": null
+    },
+    {
+      "requested_url": "https://www.keikaisendon.com/terms-conditions/",
+      "url": "https://www.keikaisendon.com/terms-conditions/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "8f6c7a41af67ec7025fec41943a5cdd8c34940b6734456caa1d5d7a7eb82c5c5.html",
+      "sha256": "8f6c7a41af67ec7025fec41943a5cdd8c34940b6734456caa1d5d7a7eb82c5c5",
+      "bytes": 100385,
+      "error": null
+    }
+  ]
+}

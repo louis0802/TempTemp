@@ -1,0 +1,56 @@
+{
+  "focused": {
+    "files": 7,
+    "tests": 163,
+    "result": "passed"
+  },
+  "unit": {
+    "files": 37,
+    "tests": 647,
+    "command": "npm test -- --maxWorkers=1",
+    "result": "passed",
+    "parallel_run_limitations": [
+      "research-v4 15000ms timeout",
+      "research-v6-runtime 5000ms timeout",
+      "cleanup ENOTEMPTY following timeout"
+    ],
+    "timeouts_and_assertions_unchanged": true
+  },
+  "integration": {
+    "files": 2,
+    "tests": 53,
+    "result": "passed",
+    "disposable_local_databases_only": true
+  },
+  "corpus": {
+    "files": 3,
+    "tests": 4,
+    "result": "passed"
+  },
+  "typecheck": "passed",
+  "scoped_eslint": "passed",
+  "full_lint": {
+    "result": "five existing unrelated scratch errors",
+    "files": [
+      ".local/source-substitution-pilot/inspect.ts",
+      ".local/source-substitution-pilot/upstream.ts"
+    ]
+  },
+  "scoped_prettier": "passed",
+  "git_diff_check": "passed",
+  "untracked_code_whitespace_check_files": 16,
+  "source_policy": {
+    "shake_shack_sg": {
+      "enabled": true,
+      "autoPublish": true
+    },
+    "paradise_group_sg": {
+      "enabled": false,
+      "autoPublish": false
+    }
+  },
+  "no_production_ingest": true,
+  "no_telegram_recollection": true,
+  "no_scheduler_or_worker": true,
+  "no_commit_or_push": true
+}

@@ -1,0 +1,192 @@
+{
+  "output": ".local/merchant-source-map/gourmet-carousel-2026-10-01-shadow",
+  "before": {
+    "merchant_count": 139,
+    "distinct_adapter_counts": {
+      "enabled": 2,
+      "shadow": 1
+    },
+    "historical_merchant_count": 138,
+    "adapter_status_counts": {
+      "enabled": 2,
+      "none": 135,
+      "shadow": 2
+    },
+    "autonomous_status_counts": {
+      "disabled_shadow": 2,
+      "enabled": 2,
+      "not_onboarded": 135
+    },
+    "source_family_counts": {
+      "app_deeplink_only": 1,
+      "app_deeplink_with_public_directory": 1,
+      "corporate_html_promotion_directory": 1,
+      "json_backed_retail_promotions": 1,
+      "platform_static_campaign": 1,
+      "wix_promotion_collection": 1,
+      "woocommerce_sale_catalog": 1,
+      "wordpress_dated_promotions": 1,
+      "wordpress_promotion_directory": 3
+    },
+    "unresolved_record_count": 67
+  },
+  "after": {
+    "merchant_count": 139,
+    "distinct_adapter_counts": {
+      "enabled": 2,
+      "shadow": 2
+    },
+    "historical_merchant_count": 138,
+    "adapter_status_counts": {
+      "enabled": 2,
+      "none": 134,
+      "shadow": 3
+    },
+    "autonomous_status_counts": {
+      "disabled_shadow": 3,
+      "enabled": 2,
+      "not_onboarded": 134
+    },
+    "source_family_counts": {
+      "app_deeplink_only": 1,
+      "app_deeplink_with_public_directory": 1,
+      "corporate_html_promotion_directory": 1,
+      "json_backed_retail_promotions": 1,
+      "platform_static_campaign": 1,
+      "wix_promotion_collection": 1,
+      "woocommerce_sale_catalog": 1,
+      "wordpress_dated_promotions": 1,
+      "wordpress_promotion_directory": 3
+    },
+    "unresolved_record_count": 67
+  },
+  "changedRows": [
+    "Gourmet Carousel"
+  ],
+  "beforeGourmet": {
+    "merchant": "Gourmet Carousel",
+    "normalized_merchant": "gourmetcarousel",
+    "merchant_labels": [
+      "Gourmet Carousel"
+    ],
+    "operator": null,
+    "operator_source_families": [
+      "Royal Plaza on Scotts"
+    ],
+    "historical_signal_count": 1,
+    "historical_offer_count": 1,
+    "observed_direct_domains": [
+      "royalplaza.com.sg"
+    ],
+    "observed_direct_candidate_count": 1,
+    "ownership_status": "verified",
+    "enumerability_status": "partial",
+    "historical_enumerability_status": "partial",
+    "extraction_status": "semi_structured",
+    "adapter_status": "none",
+    "direct_source_id": null,
+    "source_family": [
+      "corporate_html_promotion_directory"
+    ],
+    "publication_enabled": false,
+    "autonomous_ingestion_status": "not_onboarded",
+    "known_blockers": [
+      "Monitor service-page changes as well as offer cards; no claim of complete hotel campaign coverage"
+    ],
+    "evidence_refs": [
+      ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#2c4a2a34b21c820e8c6fd1d1bdae8cd968f8982fc73f9519c08dbf2e51fb483d",
+      ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#2c4a2a34b21c820e8c6fd1d1bdae8cd968f8982fc73f9519c08dbf2e51fb483d",
+      "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-00",
+      "https://www.royalplaza.com.sg/dine/barista?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+    ],
+    "source_observations": [
+      {
+        "candidate_url": "https://www.royalplaza.com.sg/dine/barista?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+        "domain": "royalplaza.com.sg",
+        "ownership_status": "verified",
+        "enumerable": "partial",
+        "extraction": "semi_structured",
+        "family": "corporate_html_promotion_directory",
+        "app_findings": null
+      }
+    ]
+  },
+  "afterGourmet": {
+    "merchant": "Gourmet Carousel",
+    "normalized_merchant": "gourmetcarousel",
+    "merchant_labels": [
+      "Gourmet Carousel"
+    ],
+    "operator": "Royal Plaza on Scotts",
+    "operator_source_families": [
+      "Royal Plaza on Scotts"
+    ],
+    "historical_signal_count": 1,
+    "historical_offer_count": 1,
+    "observed_direct_domains": [
+      "royalplaza.com.sg"
+    ],
+    "observed_direct_candidate_count": 1,
+    "ownership_status": "verified",
+    "enumerability_status": "partial",
+    "historical_enumerability_status": "partial",
+    "extraction_status": "semi_structured",
+    "adapter_status": "shadow",
+    "direct_source_id": "gourmet_carousel_sg",
+    "source_family": [
+      "corporate_html_promotion_directory"
+    ],
+    "publication_enabled": false,
+    "autonomous_ingestion_status": "disabled_shadow",
+    "known_blockers": [
+      "gourmet_service_boundary_unproven",
+      "partial_enumeration",
+      "service_page_campaign_outside_listing"
+    ],
+    "evidence_refs": [
+      ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#2c4a2a34b21c820e8c6fd1d1bdae8cd968f8982fc73f9519c08dbf2e51fb483d",
+      ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#2c4a2a34b21c820e8c6fd1d1bdae8cd968f8982fc73f9519c08dbf2e51fb483d",
+      "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-00",
+      "docs/changes/gourmet-carousel-direct-source/research.md; tests/fixtures/direct-sources/gourmet-carousel/ownership.json (independent operator/domain declaration and separate Gourmet Carousel Barista venue evidence, 2026-10-01)",
+      "docs/changes/gourmet-carousel-direct-source/verification.md",
+      "https://www.royalplaza.com.sg/dine/barista",
+      "https://www.royalplaza.com.sg/dine/barista?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "https://www.royalplaza.com.sg/policies/privacy-policy",
+      "tests/fixtures/direct-sources/gourmet-carousel/research-2026-10-01/capture-provenance.json"
+    ],
+    "source_observations": [
+      {
+        "candidate_url": "https://www.royalplaza.com.sg/dine/barista?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+        "domain": "royalplaza.com.sg",
+        "ownership_status": "verified",
+        "enumerable": "partial",
+        "extraction": "semi_structured",
+        "family": "corporate_html_promotion_directory",
+        "app_findings": null
+      }
+    ]
+  },
+  "frozenInputsUnchanged": true,
+  "provenance": {
+    "inputs": [
+      {
+        "file": "tests/corpus/mvp-conformance-reviewed.json",
+        "sha256": "680ce13809180fb76715253ceafefb73ba4f53eb88a394d44ed0e6e887918986"
+      },
+      {
+        "file": ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json",
+        "sha256": "43ecab993bc5b6640e56c385d9b2a2b13e8f29ae51a94cf0a7eadcef76e08d87"
+      },
+      {
+        "file": ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json",
+        "sha256": "7db66e5cebf01e304905b0899dee26761eddd4c367b3e83ac28f5d32b3c86b05"
+      },
+      {
+        "file": "docs/research/merchant-source-map-review.json",
+        "sha256": "0ad4ad7269e90f92548a1dec7ade62a26ea31c56ea07c734f9e1680d8e3151d1"
+      }
+    ],
+    "registry_sha256": "3f456afb00e2fe7c46610a7f8c9b43f37c7b5bf4eef192d9d1a95973c50e8683",
+    "original_signal_provenance": "Previously captured one_off_refresh signals, now frozen local replay; not new Telegram collection."
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "captures": [
+    {
+      "requestedUrl": "https://www.royalplaza.com.sg/dine",
+      "finalUrl": "https://www.royalplaza.com.sg/dine",
+      "capturedAt": "2026-10-01T11:39:52.912Z",
+      "observedAt": "2026-10-01T11:39:52.912Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 334991,
+      "sha256": "6f1b842257c30373b81bbb8cc67b12a8cdcec87ebf9d5676ad7c90f5e03141e8",
+      "path": "dining.html",
+      "purpose": "venue navigation and distinct hotel dining services"
+    },
+    {
+      "requestedUrl": "https://www.royalplaza.com.sg/dine/offers",
+      "finalUrl": "https://www.royalplaza.com.sg/dine/offers",
+      "capturedAt": "2026-10-01T11:39:53.291Z",
+      "observedAt": "2026-10-01T11:39:53.291Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 184047,
+      "sha256": "218194281a2f82b97585134e78faf574de4eb26bd844a5df6c41f10a139ceb81",
+      "path": "offers.html",
+      "purpose": "eight static mixed dining offer cards; service campaign absence"
+    },
+    {
+      "requestedUrl": "https://www.royalplaza.com.sg/dine/barista",
+      "finalUrl": "https://www.royalplaza.com.sg/dine/barista",
+      "capturedAt": "2026-10-01T11:39:53.663Z",
+      "observedAt": "2026-10-01T11:39:53.663Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 147530,
+      "sha256": "213ee552ed76b610bc279480f85e281d1fc8fd7de20246a39c297feda82a3e39",
+      "path": "barista.html",
+      "purpose": "Gourmet Carousel venue and isolated Coffee Day campaign"
+    },
+    {
+      "requestedUrl": "https://www.royalplaza.com.sg/policies/privacy-policy",
+      "finalUrl": "https://www.royalplaza.com.sg/policies/privacy-policy",
+      "capturedAt": "2026-10-01T11:39:56.025Z",
+      "observedAt": "2026-10-01T11:39:56.025Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 206476,
+      "sha256": "059c8bc1b4ded26af67a68f867403584bc294d76ec37902dc00e040927897111",
+      "path": "privacy.html",
+      "purpose": "independent operator/domain declaration"
+    },
+    {
+      "requestedUrl": "https://www.royalplaza.com.sg/dine/carousel",
+      "finalUrl": "https://www.royalplaza.com.sg/dine/carousel",
+      "capturedAt": "2026-10-01T11:39:56.649Z",
+      "observedAt": "2026-10-01T11:39:56.649Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 335008,
+      "sha256": "4a6e4549650a134a947b47cf76c655817bf776a14c8cfc228e776562aa7a9a92",
+      "path": "carousel-alias.html",
+      "purpose": "requested historical-style alias returns Dining; not venue authority"
+    }
+  ],
+  "note": "Initial bounded research, five explicitly registered roots. No asset fetching/OCR/recursive crawl. Sandbox DNS failed before authorized network observation."
+}

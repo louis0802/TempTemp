@@ -1,0 +1,14 @@
+# Observable requirements
+
+1. Accept only bounded campaign-isolated text with source/campaign identity, evidence ID, selector and optional context hints. Hints, URL dates, observation and publication timestamps cannot establish campaign facts.
+2. Return promotion/non-promotion/uncertain and the existing merchant, title, benefit, dates, weekdays, hours, outlet scope/names/wording, eligibility, redemption and terms. Each semantic value carries an exact source quote. Unknown facts remain null or empty lists.
+3. Reject malformed output, unsupported enums, missing/nonmatching quotes, invalid/reversed calendar dates, duplicate/out-of-range weekdays, unsupported hours and invented outlets. All-outlet scope needs explicit unrestricted all-outlet wording; named scope needs names; selected scope can remain unresolved.
+4. Distinguish accepted and rejected facts and issues. Non-promotions cannot emit promotion facts. Uncertain or research output cannot become publication-ready.
+5. Map accepted facts through existing candidate/provenance semantics. Preserve evidence ID/selector/exact quote. Registry merchant identity is separately identified context; a conflicting explicit merchant raises review rather than overriding configuration.
+6. Review captured evidence across Pepper Lunch, Shake Shack, Captain Kim (venue and takeaway layouts), McDonald's, Sushiro, Bari Bari, clean FairPrice text and captured Instagram captions where available. Aim for 40–60 distinct cases, fewer if genuinely isolated reviewed blocks are insufficient. Check full gold facts and explicit unknowns against captures, never equate parser output with truth.
+7. Explicitly cover Bari listing-card/related-post exclusion, McDonald's secondary contest dates, Sushiro missing years, positive economic benefits/restrictions and negative/ambiguous text. Record unsupported schedule restrictions and dataset gaps.
+8. Replay checked provider outputs offline without keys/network. Live mode alone calls one hosted provider once per selected case with strict schema, bounded sizes and timeout, no retries. Store immutable local runs with results, failures, metadata and report, without secrets.
+9. Report classification, per-field and high-risk metrics, raw unsupported values, validator catches and survivors; compare current parser/raw/validated/gold without privileging the parser. Report A/B/C/D readiness from actual evidence.
+10. Preserve existing behavior and run focused tests plus direct/publication/persistence/social/progress/batch/integration/corpus regressions, typecheck, lint, build, format and diff checks. Distinguish blocked checks from passing ones.
+
+No consequential product choices remain open. Structural validation cannot establish semantic entailment or correct primary-campaign association merely from a substring. Report these limits and use benchmark-only readiness without adequate live evidence.

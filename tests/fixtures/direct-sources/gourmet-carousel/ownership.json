@@ -1,0 +1,28 @@
+{
+  "operator": "Royal Plaza on Scotts",
+  "operatorOwnership": "verified",
+  "operatorEvidence": {
+    "url": "https://www.royalplaza.com.sg/policies/privacy-policy",
+    "selector": ".rich-text",
+    "basis": "Policy explicitly names Royal Plaza on Scotts as we/us/our when using royalplaza.com.sg; reconfirms frozen verified operator assessment.",
+    "capture": "research-2026-10-01/privacy.html"
+  },
+  "merchant": "Gourmet Carousel",
+  "venueEvidence": {
+    "url": "https://www.royalplaza.com.sg/dine/barista",
+    "selectors": [
+      ".blocks-hero h1",
+      ".blocks-about-dining .better-rich-text > p",
+      ".blocks-about-dining .timing"
+    ],
+    "exactVenue": "Gourmet Carousel - Barista Experience",
+    "address": "Level 1 (Lobby), Royal Plaza on Scotts, 25 Scotts Road, 228220",
+    "relationship": "Part of Carousel, Royal Plaza on Scotts\u2019 award-winning restaurant. Halal-certified.",
+    "capture": "research-2026-10-01/barista.html"
+  },
+  "limits": [
+    "Does not equate Gourmet Carousel counter with Carousel buffet restaurant",
+    "Does not prove complete Gourmet service enumeration",
+    "Operator ownership alone never establishes campaign participation"
+  ]
+}

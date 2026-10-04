@@ -1,0 +1,11 @@
+# Specification
+
+A source can produce zero to eight independent propositions. Stage 1 identifies exact contiguous central/supporting clauses, with ambiguous association left unassigned. It performs no fact extraction. Stage 2 independently classifies each sealed unit as promotion, non_promotion or uncertain and extracts only its local evidence. It receives neutral hints, the proposition and supporting quotes; no full source, siblings, unassigned context, gold or previous outputs.
+
+AC1: preserve all 49 source envelopes/capture hashes and protected V1/V2/production bytes; no acquisition or release action.
+AC2: exactly 49 fresh Stage-1 gpt-6-luna/medium agents, fork_context=false, concurrency at most four, no retry/fallback/repair; persist first raw output then seal before automatic Stage-2 generation. Every structurally/evidence-valid sealed proposition becomes exactly one fresh Stage-2 task under the same configuration. Malformed or invalid segmentation is unassessable and receives no repaired tasks. Seal extraction before scoring gold.
+AC3: exact local evidence, explicit-year/calendar checks, range/before/after/opening_to times, explicit positive location scope and participation polarity, physical names, verbatim atomic constraints with composable frozen attributes, material economic qualifiers. Unknowns remain unknown. No primary-proposition or associationQuote extraction fields.
+AC4: frozen source-reviewed benchmark allows equivalent boundaries but detects harmful merges, splits and attachments. Report stage-specific reliability and semantic metrics plus source-level recovery, false promotions, restrictions and safety failures with explicit denominators. Review every usable unit and all nine requested case families; compare unchanged sealed V2 evidence.
+AC5: prelaunch focused/all-NLP/full-unit/type/lint/format/whitespace checks, provenance and input-isolation regressions, post-run integrity and acceptance review, requested documentation and file ledger.
+
+A2 requires zero reviewed leakage, polarity reversal, invented dates/numeric time boundaries/participating physical identities/unstated years/operational weekdays, conservative ambiguity and no material restriction meaning change. Unassessable outputs are reported, never treated as semantic successes. Recommendation cannot exceed A2; B/C/D remain outside scope.

@@ -29,7 +29,18 @@
     "compare:evidence": "node --import tsx scripts/compare-provider-evidence.ts",
     "build:mvp-data": "node --import tsx --env-file-if-exists=.env.local scripts/build-mvp-data.ts",
     "analyze:mvp": "node --import tsx scripts/mvp-conformance.ts",
-    "analyze:mvp-sources": "node --import tsx scripts/analyze-mvp-sources.ts"
+    "analyze:mvp-sources": "node --import tsx scripts/analyze-mvp-sources.ts",
+    "research:monitor": "node --import tsx scripts/research/source-monitor-worker.ts run",
+    "research:monitor:preflight": "node --import tsx scripts/research/source-monitor-worker.ts preflight",
+    "research:monitor:status": "node --import tsx scripts/research/source-monitor-worker.ts status",
+    "research:monitor:metrics": "node --import tsx scripts/research/source-monitor-worker.ts metrics",
+    "research:monitor:test": "vitest run tests/research-*.test.ts tests/preview.test.ts",
+    "research:monitor:tracker": "node --import tsx scripts/research/source-monitor-worker.ts tracker",
+    "research:source-origin:audit": "node --import tsx scripts/research/source-origin-audit.ts",
+    "research:merchant-progress": "node --import tsx scripts/research/merchant-automation-progress.ts",
+    "direct-sources:preview": "node --import tsx scripts/direct-source-preview.ts",
+    "direct-sources:ingest": "node --import tsx scripts/direct-source-ingest.ts",
+    "research:promotion-nlp": "node --import tsx --env-file-if-exists=.env.local scripts/research/promotion-nlp-benchmark.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.116.0",

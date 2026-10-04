@@ -1,0 +1,26 @@
+{
+  "sourceId": "shake_shack_sg",
+  "observedAt": "2026-10-01T06:02:36.539Z",
+  "limits": {
+    "maxRequests": 60,
+    "maxListingPages": 5,
+    "maxDetailPages": 50,
+    "maxEvidencePages": 8,
+    "maxBytes": 3000000,
+    "timeoutMs": 12000,
+    "maxRedirects": 3
+  },
+  "priorCapture": "../capture-provenance.json (historical partial run, retained unchanged)",
+  "capturePurpose": "One registered bounded structural acquisition; no search, recursive article crawling or coordinates",
+  "requests": [
+    {
+      "url": "https://www.shakeshack.com.sg/blog/",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": null,
+      "error": "getaddrinfo ENOTFOUND www.shakeshack.com.sg",
+      "redirectTo": null
+    }
+  ],
+  "captures": []
+}

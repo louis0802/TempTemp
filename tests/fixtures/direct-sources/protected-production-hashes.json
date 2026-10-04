@@ -1,0 +1,8 @@
+{
+  "src/domain/promotion.ts": "7c7e7a20cc51e82f44f56ad5ec93de9251aaedc7a7f1efd296696984afff5637",
+  "src/ingestion/service.ts": "62f5bc4486dfc5c197688db606bedad3e7de1c5abc8f0d008050619555ada0a5",
+  "src/ingestion/live.ts": "50a999974d5c8ebdf120f84cdcd72060350c41223ae51752ea1f049d3b097d13",
+  "src/ingestion/sources/approved-json.ts": "3dd44e25a728a71bacaf28a2df4e677c42c5225121dd59e274faa5c6a517cad7",
+  "data/merchant-source-registry.json": "84aff82b3a6f6cd9c6157abc8092387ae1dd9c693659b999113c8bdff7a6a833",
+  "src/ingestion/source-evidence/resolver.ts": "4b48d5f81fd0b03eff8a4aff2396b79f13aaddb6d2f3d0d2925f6bbc6701ccad"
+}

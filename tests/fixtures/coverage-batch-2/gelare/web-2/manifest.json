@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T03:59:39.774Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://www.gelare.com.sg/",
+      "url": "https://www.gelare.com.sg/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "58c4fd4a7dc4ccb4b22d6abf02312418422ce7a72e6f5b056c59eb7b45e01ba8.html",
+      "sha256": "58c4fd4a7dc4ccb4b22d6abf02312418422ce7a72e6f5b056c59eb7b45e01ba8",
+      "bytes": 50046,
+      "error": null
+    },
+    {
+      "requested_url": "https://www.gelare.com.sg/promotions/",
+      "url": "https://www.gelare.com.sg/promotions/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "021a0465574a275cabfdb890ad4330f5d3a9610e82b6e6b65859df83eb428be6.html",
+      "sha256": "021a0465574a275cabfdb890ad4330f5d3a9610e82b6e6b65859df83eb428be6",
+      "bytes": 53946,
+      "error": null
+    }
+  ]
+}

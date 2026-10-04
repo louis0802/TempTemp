@@ -1,0 +1,53 @@
+{
+  "source": "Existing 2026-09-30 adapter-foundation capture; bytes copied unchanged, no new crawl",
+  "captures": [
+    {
+      "url": "https://www.pepperlunch.com.sg/promo/student-meal/",
+      "contentHash": "c5552155b5280d17316bc58ca55d5049367247215ab457845738651a1164937f",
+      "bytes": 90200,
+      "fetchedAt": "2026-09-30T14:58:22.881Z"
+    },
+    {
+      "url": "https://www.pepperlunch.com.sg/promo/uper-value-deal/",
+      "contentHash": "18b779b4c6ffd17af56ea37ccdc7336a68857bc8b56f1c5d3f587cc6ddde95f6",
+      "bytes": 90149,
+      "fetchedAt": "2026-09-30T14:58:22.881Z"
+    },
+    {
+      "url": "https://www.pepperlunch.com.sg/promo/weekday-lunch/",
+      "contentHash": "9f9ded0bd9ca4f259640e5b47952e431003453009308c08b13e19eb7b8a9a60a",
+      "bytes": 89757,
+      "fetchedAt": "2026-09-30T14:58:22.881Z"
+    },
+    {
+      "url": "https://www.pepperlunch.com.sg/promo/dine-with-pride/",
+      "contentHash": "dc9d44f7079249a25087fc8b703bb7c842edf158b96e9601c54fd313795d3b36",
+      "bytes": 90022,
+      "fetchedAt": "2026-09-30T14:58:22.881Z"
+    },
+    {
+      "url": "https://www.pepperlunch.com.sg/promo/cheesy-omelette-2/",
+      "contentHash": "9c25b6a493900d126f62f3f6101f5dee63b15f6fa313d40edceb9be683d9111f",
+      "bytes": 90121,
+      "fetchedAt": "2026-09-30T14:58:22.881Z"
+    },
+    {
+      "url": "https://www.pepperlunch.com.sg/promo/",
+      "contentHash": "a59ce8651d7ab5be061ab6adeca10b8ef0ed59235f9c8e4f09de8d3a1f072103",
+      "bytes": 116086,
+      "fetchedAt": "2026-09-30T14:58:22.881Z"
+    },
+    {
+      "url": "https://www.pepperlunch.com.sg/promo/peppie-meal/",
+      "contentHash": "3a63b6c58d2cc7e9989913235795472d181e93263a5902cdb9f907c268b36e22",
+      "bytes": 90015,
+      "fetchedAt": "2026-09-30T14:58:22.881Z"
+    },
+    {
+      "url": "https://www.pepperlunch.com.sg/promo/delivery/",
+      "contentHash": "f5634d381d51b61187da30ad5b174401718ca6ae27641b451a68a57e26e765c7",
+      "bytes": 92819,
+      "fetchedAt": "2026-09-30T14:58:22.881Z"
+    }
+  ]
+}

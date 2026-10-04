@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T04:00:56.128Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://www.gelare.com.sg/contact-us/",
+      "url": "https://www.gelare.com.sg/contact-us/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "6eebb53518573136c6321ab1ad517341856f15e21eb175035c3155e258113bab.html",
+      "sha256": "6eebb53518573136c6321ab1ad517341856f15e21eb175035c3155e258113bab",
+      "bytes": 62698,
+      "error": null
+    },
+    {
+      "requested_url": "https://www.gelare.com.sg/our-story/",
+      "url": "https://www.gelare.com.sg/our-story/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "abfa93a7edfe21f1234a8ac19a9cd13046725a1df4274e43574aa92715ec89ea.html",
+      "sha256": "abfa93a7edfe21f1234a8ac19a9cd13046725a1df4274e43574aa92715ec89ea",
+      "bytes": 74615,
+      "error": null
+    }
+  ]
+}

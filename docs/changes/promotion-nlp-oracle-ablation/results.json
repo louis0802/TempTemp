@@ -1,0 +1,418 @@
+{
+  "summaries": {
+    "a": {
+      "arm": "a",
+      "conditionalQuality": "conditional quality GIVEN perfect reviewed upstream input (reviewed benchmark oracle)",
+      "agents": 49,
+      "tasks": 49,
+      "completed": 49,
+      "malformed": 0,
+      "contractInvalid": 0,
+      "propositionRecall": {
+        "numerator": 44,
+        "denominator": 59,
+        "value": 0.7457627118644068
+      },
+      "propositionPrecision": {
+        "numerator": 48,
+        "denominator": 49,
+        "value": 0.9795918367346939
+      },
+      "economicRecall": {
+        "numerator": 37,
+        "denominator": 43,
+        "value": 0.8604651162790697
+      },
+      "nonEconomicRecall": {
+        "numerator": 7,
+        "denominator": 16,
+        "value": 0.4375
+      },
+      "harmfulMerges": 1,
+      "harmfulEconomicMerges": 1,
+      "harmfulSplits": 1,
+      "unmatchedPropositions": 0
+    },
+    "b": {
+      "arm": "b",
+      "conditionalQuality": "conditional quality GIVEN perfect reviewed upstream input (reviewed benchmark oracle)",
+      "agents": 49,
+      "tasks": 49,
+      "completed": 49,
+      "malformed": 0,
+      "contractInvalid": 0,
+      "materialEdgeRecall": {
+        "numerator": 251,
+        "denominator": 339,
+        "value": 0.7404129793510325
+      },
+      "criticalPrecision": {
+        "numerator": 251,
+        "denominator": 339,
+        "value": 0.7404129793510325
+      },
+      "wrongTargetEdges": 74,
+      "publicationCriticalWrongTargetEdges": 4,
+      "wrongRelationEdges": 31,
+      "missingMaterialEdges": 88,
+      "sharedEvidenceRecall": {
+        "numerator": 31,
+        "denominator": 31,
+        "value": 1
+      }
+    },
+    "c": {
+      "arm": "c",
+      "conditionalQuality": "conditional quality GIVEN perfect reviewed upstream input (reviewed benchmark oracle)",
+      "agents": 59,
+      "tasks": 59,
+      "completed": 59,
+      "malformed": 0,
+      "contractInvalid": 0,
+      "confusion": {
+        "economic_offer": {
+          "economic_offer": 36,
+          "contest_or_chance": 0,
+          "editorial": 0,
+          "product_launch": 0,
+          "store_announcement": 0,
+          "service_information": 0,
+          "event_or_activity": 0,
+          "uncertain": 7,
+          "missing": 0
+        },
+        "contest_or_chance": {
+          "economic_offer": 0,
+          "contest_or_chance": 2,
+          "editorial": 0,
+          "product_launch": 0,
+          "store_announcement": 0,
+          "service_information": 0,
+          "event_or_activity": 0,
+          "uncertain": 0,
+          "missing": 0
+        },
+        "editorial": {
+          "economic_offer": 0,
+          "contest_or_chance": 0,
+          "editorial": 1,
+          "product_launch": 0,
+          "store_announcement": 0,
+          "service_information": 0,
+          "event_or_activity": 0,
+          "uncertain": 1,
+          "missing": 0
+        },
+        "product_launch": {
+          "economic_offer": 0,
+          "contest_or_chance": 0,
+          "editorial": 0,
+          "product_launch": 0,
+          "store_announcement": 0,
+          "service_information": 0,
+          "event_or_activity": 0,
+          "uncertain": 6,
+          "missing": 0
+        },
+        "store_announcement": {
+          "economic_offer": 0,
+          "contest_or_chance": 0,
+          "editorial": 0,
+          "product_launch": 0,
+          "store_announcement": 2,
+          "service_information": 0,
+          "event_or_activity": 0,
+          "uncertain": 0,
+          "missing": 0
+        },
+        "service_information": {
+          "economic_offer": 0,
+          "contest_or_chance": 0,
+          "editorial": 0,
+          "product_launch": 0,
+          "store_announcement": 0,
+          "service_information": 2,
+          "event_or_activity": 0,
+          "uncertain": 1,
+          "missing": 0
+        },
+        "event_or_activity": {
+          "economic_offer": 0,
+          "contest_or_chance": 0,
+          "editorial": 0,
+          "product_launch": 0,
+          "store_announcement": 0,
+          "service_information": 0,
+          "event_or_activity": 0,
+          "uncertain": 0,
+          "missing": 0
+        },
+        "uncertain": {
+          "economic_offer": 0,
+          "contest_or_chance": 0,
+          "editorial": 0,
+          "product_launch": 0,
+          "store_announcement": 0,
+          "service_information": 0,
+          "event_or_activity": 0,
+          "uncertain": 1,
+          "missing": 0
+        }
+      },
+      "economicPrecision": {
+        "numerator": 36,
+        "denominator": 36,
+        "value": 1
+      },
+      "economicRecall": {
+        "numerator": 36,
+        "denominator": 43,
+        "value": 0.8372093023255814
+      },
+      "falseEconomic": 0
+    },
+    "d": {
+      "arm": "d",
+      "conditionalQuality": "conditional quality GIVEN perfect reviewed upstream input (reviewed benchmark oracle)",
+      "agents": 43,
+      "tasks": 43,
+      "completed": 43,
+      "malformed": 0,
+      "contractInvalid": 10,
+      "contractValid": {
+        "numerator": 33,
+        "denominator": 43,
+        "value": 0.7674418604651163
+      },
+      "materialConstraintRecall": {
+        "numerator": 167,
+        "denominator": 228,
+        "value": 0.7324561403508771
+      },
+      "annotatedFactAccuracy": {
+        "numerator": 238,
+        "denominator": 244,
+        "value": 0.9754098360655737
+      },
+      "unsupportedCriticalFacts": 11,
+      "dateInventions": 0,
+      "timeInventions": 1,
+      "polarityErrors": 0,
+      "unannotatedConstraintRecords": 21
+    },
+    "e": {
+      "arm": "e",
+      "conditionalQuality": "Stage 2 GIVEN deterministic literal span inventory",
+      "agents": 49,
+      "tasks": 49,
+      "completed": 49,
+      "malformed": 0,
+      "contractInvalid": 0,
+      "propositionRecall": {
+        "numerator": 45,
+        "denominator": 59,
+        "value": 0.7627118644067796
+      },
+      "propositionPrecision": {
+        "numerator": 54,
+        "denominator": 88,
+        "value": 0.6136363636363636
+      },
+      "economicRecall": {
+        "numerator": 35,
+        "denominator": 43,
+        "value": 0.813953488372093
+      },
+      "nonEconomicRecall": {
+        "numerator": 10,
+        "denominator": 16,
+        "value": 0.625
+      },
+      "harmfulMerges": 4,
+      "harmfulEconomicMerges": 3,
+      "harmfulSplits": 7,
+      "unmatchedPropositions": 30
+    }
+  },
+  "thresholds": {
+    "aRecall": 0.95,
+    "aEconomicMerges": 0,
+    "bRecall": 0.95,
+    "bWrongTargets": 0,
+    "cRecall": 0.95,
+    "cFalseEconomic": 0,
+    "dRecall": 0.95,
+    "dContracts": 0.9,
+    "dUnsupported": 0,
+    "dInventedEndpoints": 0,
+    "dPolarity": 0,
+    "eGap": 0.05
+  },
+  "gapPercentagePoints": 1.6949152542372836,
+  "recommendation": "STOP_AUTONOMOUS_EXTRACTION",
+  "deterministicStage1ResearchViable": true,
+  "A2Authorized": false,
+  "verification": {
+    "agents": 249,
+    "protectedFiles": 1872,
+    "seals": {
+      "a": "7be5f35373de05ffbbf6eb593759947dc3d61d65bcff731771b52f646939b95e",
+      "b": "e3edf85866bb27cf46bce629eff73a4b1f1628006ca6b376372f3a6b1fba71a0",
+      "c": "8779acc3dc61f0caa4d2a4f5036f79d914661c8cafe5d435e540d3f40e3026fb",
+      "d": "ce09ed453aad0e35530e7a4219eef6df9425a14653ba36cae6ffff98bb90a2d7",
+      "e": "bc1ef04d8c031a91b60b7af02b7747453e9fb44ce773b9be934e7653fc9d0b1a"
+    },
+    "benchmarkSha256": "ef7c4b4ef6195e0b0c28f3e62e9f32357dc932bd05f50c65344f80b2e0d7abc7",
+    "oracleProjectionSha256": "2491c0dc57bf3f79d323833a87d77d1a4934032699507564584e2df021d4f765",
+    "scorerSha256": "d9a8168cd22a70e44b20847407f1d841311780fafc203d9064d9dc6e58496b57",
+    "config": {
+      "model": "gpt-6-luna",
+      "reasoningEffort": "medium",
+      "forkContext": false,
+      "concurrency": 4,
+      "retries": 0,
+      "fallback": null
+    },
+    "oraclePerfect": true
+  },
+  "counterfactualCeilings": [
+    {
+      "boundary": "C1",
+      "economic": {
+        "numerator": 37,
+        "denominator": 43,
+        "value": 0.8604651162790697
+      },
+      "material": {
+        "numerator": 192,
+        "denominator": 228,
+        "value": 0.8421052631578947
+      }
+    },
+    {
+      "boundary": "C2",
+      "economic": {
+        "numerator": 35,
+        "denominator": 43,
+        "value": 0.813953488372093
+      },
+      "material": {
+        "numerator": 185,
+        "denominator": 228,
+        "value": 0.8114035087719298
+      }
+    },
+    {
+      "boundary": "C3",
+      "economic": {
+        "numerator": 32,
+        "denominator": 43,
+        "value": 0.7441860465116279
+      },
+      "material": {
+        "numerator": 157,
+        "denominator": 228,
+        "value": 0.6885964912280702
+      }
+    },
+    {
+      "boundary": "C4",
+      "economic": {
+        "numerator": 30,
+        "denominator": 43,
+        "value": 0.6976744186046512
+      },
+      "material": {
+        "numerator": 149,
+        "denominator": 228,
+        "value": 0.6535087719298246
+      }
+    }
+  ],
+  "identityContractDistribution": {
+    "STAGE1_EVIDENCE_LOSS": 6,
+    "STAGE2_IDENTITY_LOSS": 2,
+    "STAGE3_OWNERSHIP_LOSS": 3,
+    "STAGE4_ELIGIBILITY_LOSS": 2,
+    "STAGE5_NORMALIZATION_LOSS": 8,
+    "SURVIVES": 22
+  },
+  "materialDistribution": {
+    "STAGE1_EVIDENCE_LOSS": 36,
+    "STAGE2_IDENTITY_LOSS": 7,
+    "STAGE3_OWNERSHIP_LOSS": 28,
+    "STAGE4_ELIGIBILITY_LOSS": 8,
+    "STAGE5_NORMALIZATION_LOSS": 75,
+    "SURVIVES": 74
+  },
+  "derivedPositiveTargetPrecision": {
+    "numerator": 251,
+    "denominator": 277,
+    "value": 0.9061371841155235
+  },
+  "finalReport": {
+    "1": "Benchmark-v4 SHA `ef7c4b4ef6195e0b0c28f3e62e9f32357dc932bd05f50c65344f80b2e0d7abc7`; unchanged.",
+    "2": "Oracle projection SHA `2491c0dc57bf3f79d323833a87d77d1a4934032699507564584e2df021d4f765`.",
+    "3": "Frozen ablation scorer SHA `d9a8168cd22a70e44b20847407f1d841311780fafc203d9064d9dc6e58496b57`; projection/task-builder code shares this module hash.",
+    "4": "O0: clauses350/350, identities59/59, edges369/369, edge precision369/369, taxonomy59/59, annotated facts244/244, constraints228/228.",
+    "5": "Yes: 100% on every fully annotated O0 metric before any subagent. Unannotated merchant/title/benefit are not invented.",
+    "6": "37/43 (86.05%)",
+    "7": "35/43 (81.40%)",
+    "8": "32/43 (74.42%)",
+    "9": "30/43 (69.77%)",
+    "10": "C1 192/228; C2 185/228; C3 157/228; C4 149/228; prior reviewed optimistic bounds.",
+    "11": "Identity contract ledger {'STAGE1_EVIDENCE_LOSS': 6, 'STAGE2_IDENTITY_LOSS': 2, 'STAGE3_OWNERSHIP_LOSS': 3, 'STAGE4_ELIGIBILITY_LOSS': 2, 'STAGE5_NORMALIZATION_LOSS': 8, 'SURVIVES': 22}; conditions {'STAGE1_EVIDENCE_LOSS': 36, 'STAGE2_IDENTITY_LOSS': 7, 'STAGE3_OWNERSHIP_LOSS': 28, 'STAGE4_ELIGIBILITY_LOSS': 8, 'STAGE5_NORMALIZATION_LOSS': 75, 'SURVIVES': 74}. Full rows and stricter complete-annotation ledger separate.",
+    "12": "1195 spans; max 82/source, <=200.",
+    "13": "320/320 (100.00%)",
+    "14": "59/59 (100.00%)",
+    "15": "49 launched / 49 completed / 0 JSON-schema malformed; 0 contract-invalid.",
+    "16": "44/59 (74.58%)",
+    "17": "1 confirmed harmful merge: Student Meal; harmful economic merges1.",
+    "18": "1 frozen one-to-many split: Local Faves weekly variants; not automatically harmful.",
+    "19": "49 / 49 / 0 malformed; 0 contract-invalid.",
+    "20": "251/339 (74.04%)",
+    "21": "4 benchmark nonempty wrong targets; ≥2 definite unsafe Student Meal errors. Positive-target precision251/277=90.61%; empty abstentions are separate.",
+    "22": "88 missing material assignments.",
+    "23": "59 / 59 / 0 malformed; 0 contract-invalid.",
+    "24": "Full eight-class + missing confusion matrix in arm-c-taxonomy.md and results.json; economic36 correct/7 uncertain; contest2 correct; editorial1 correct/1 uncertain; product_launch6 uncertain; stores2 correct; service2 correct/1 uncertain; uncertain1 correct.",
+    "25": "36/36 (100.00%)",
+    "26": "36/43 (83.72%)",
+    "27": "0 false economic classifications.",
+    "28": "bfmcsaver challenge = contest_or_chance; meal = economic_offer.",
+    "29": "43 / 43 / 0 malformed; 10 contract-invalid (one inherited false clock rejection).",
+    "30": "33/43 (76.74%)",
+    "31": "167/228 (73.25%) required constraint-array/facets; structured-fact/split-text retention separate.",
+    "32": "11 frozen flags: 6 merchant provenance, 1 benefit citation, 3 source-equivalent scope labels, 1 invented range. Additional source-reviewed physical/redemption-domain errors described above; not 11 invented economic facts.",
+    "33": "0 invented dates/years; 1 invented point-to-range17:30–17:30. Correct weekend range falsely rejected by inherited lexer.",
+    "34": "0 polarity reversals; physical-domain errors PH/Gebiz plus collective outlet labels. Named/selected scope flags3 retain correct branch sets.",
+    "35": "49 / 49 / 0 malformed; 0 contract-invalid.",
+    "36": "45/59 (76.27%)",
+    "37": "Signed E−A +1.69pp; absolute 1.69pp.",
+    "38": "Yes for offline research/review inventory in this cohort; meets predeclared A-gap. Autonomous publication not established; E economic recall35/43 vs A37/43.",
+    "39": "A merges the before-5 Student Meal and after-5 discount (0/2 independent identities); E separates them (2/2). B correctly owns the after-5 clock/Card/weekday clauses, but assigns Dine-in only and Applicable for Student Meal Dishes only to the after-5 proposition; the before-5 clock is unassigned. C returns economic_offer for both. D retains the correct separate weekday/time facts and Card text, with no before/after crossing; constraint-array/facet recall is 1/2 and 2/6. These lower constraint counts do not mean all schedule information vanished.",
+    "40": "A separates all-day and tea-time (2/2), so the V4 merge is avoidable with reviewed oracle evidence in this sample. B shares discount, price, weekday and dine-in correctly, owns the tea-time clock, but leaves all six branch/name-group clauses unassigned. D retains correct per-group names and tea-time 14:00–17:00, with no time on all-day; selected_outlets plus complete named rules is source-equivalent to reviewed named_outlets. All-day is rejected for an uncited merchant. E yields only 1/2 benchmark identities; the other anchors are generic discount paragraphs rather than an independently identifiable tea-time anchor.",
+    "41": "Deterministic spans contain Flash this page and Takeaway only. A/E identify the offer; B links both conditions to it; C is economic_offer; D is contract-valid with literal 20% OFF All Regular Items, Flash this page/redemption_action, and Takeaway only/redemption_channel (2/2). There is no Flash omission under oracle ownership in this run.",
+    "42": "A/E split the recurring offer into four weekly units. This is one frozen one-to-many split flag; weekly source-supported subdivisions are not automatically harmful economic inventions. B leaves the operational Monday app check unassigned/context, rather than availability weekday. C is economic_offer. D retains all 8 conditions and weekdays=null; no Monday availability or inferred year. Weekly variant completeness is not proven by the minimal identity score.",
+    "43": "A recovers editorial and fries identities (2/2); E also matches both alongside source-supported unannotated product units. B correctly owns the quiz clause to fries, while merchandise context uses a benefit relation outside frozen editorial context alternatives. C correctly returns editorial but abstains uncertain on the fries entitlement. D, independently given economic eligibility, retains complimentary fries and the quiz/redemption action (1/1), contract-valid.",
+    "44": "A emits no proposition. E emits three source-supported menu products; minimum-gold matching flags a split/cross-anchor ambiguity. C returns uncertain rather than reviewed product_launch. It remains non-economic, so there is no false economic publication. No D task, no normalized year; source dates have no year and no year is inferred.",
+    "45": "A/E recover the economic identity. B correctly owns the negative location clause. D retains all three physical exclusions and all four constraints with no positive scope or polarity reversal, but an uncited merchant makes the output contract-invalid. bfmcsaver is separately valid as noted above.",
+    "46": "Stage5 normalization/completeness/provenance.",
+    "47": "Stage3 ownership; Stage2 independent identities also weak.",
+    "48": "Conditional stage capability/representation weaknesses plus compounded upstream survival. Not mainly orchestration alone.",
+    "49": "No further general-LLM autonomous extraction architecture expansion justified by this study. Bounded review/enrichment and deterministic inventory refinement remain useful.",
+    "50": "STOP_AUTONOMOUS_EXTRACTION. Deterministic Stage1 replacement supported only within research/reviewer scope.",
+    "51": "A2 remains unauthorized.",
+    "52": "Bounded strict-output/API provenance control could be useful if separately authorized; all current outputs schema-readable, so it is not a semantic cure. None executed.",
+    "53": "V1–V4 byte-identical; 1872 preexisting substantive/prior-run files verified.",
+    "54": "Protected production files unchanged.",
+    "55": "Activation unchanged.",
+    "56": "direct-source-v2 unchanged.",
+    "57": "No DB operation.",
+    "58": "No fresh acquisition.",
+    "59": "No Telegram recollection.",
+    "60": "No OCR/media analysis.",
+    "61": "No hosted model API call; only the explicitly requested Codex subagent transport.",
+    "62": "No commit.",
+    "63": "No push."
+  }
+}

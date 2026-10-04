@@ -1,0 +1,184 @@
+{
+  "captures": [
+    {
+      "requestedUrl": "https://www.royalplaza.com.sg/dine/offers/thai-2026",
+      "finalUrl": "https://www.royalplaza.com.sg/dine/offers/thai-2026",
+      "capturedAt": "2026-10-01T11:43:12.148Z",
+      "observedAt": "2026-10-01T11:43:12.148Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 165517,
+      "sha256": "f3a0ce893e744d651bc787855147f61daa83d13765bec2754d352497e1a5d263",
+      "path": "thai-2026.html",
+      "purpose": "Classify visible dining card without assigning operator campaigns to Gourmet Carousel"
+    },
+    {
+      "requestedUrl": "https://www.royalplaza.com.sg/dine/offers/carousel-pastries",
+      "finalUrl": "https://www.royalplaza.com.sg/dine/offers/carousel-pastries",
+      "capturedAt": "2026-10-01T11:43:12.418Z",
+      "observedAt": "2026-10-01T11:43:12.418Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 142190,
+      "sha256": "f71284f8fe137b7b4922ac86e6d5416092f95e8fb3be6c7e275df2b49dcafbbe",
+      "path": "carousel-pastries.html",
+      "purpose": "Classify visible dining card without assigning operator campaigns to Gourmet Carousel"
+    },
+    {
+      "requestedUrl": "https://www.royalplaza.com.sg/dine/offers/carousel-vouchers",
+      "finalUrl": "https://www.royalplaza.com.sg/dine/offers/carousel-vouchers",
+      "capturedAt": "2026-10-01T11:43:12.736Z",
+      "observedAt": "2026-10-01T11:43:12.736Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 176290,
+      "sha256": "9589c2788ac83c2fabcd26060fde7aea0d3088fd737d2504fa351f039609e7d1",
+      "path": "carousel-vouchers.html",
+      "purpose": "Classify visible dining card without assigning operator campaigns to Gourmet Carousel"
+    },
+    {
+      "requestedUrl": "https://www.royalplaza.com.sg/dine/offers/beyond-the-buffet",
+      "finalUrl": "https://www.royalplaza.com.sg/dine/offers/beyond-the-buffet",
+      "capturedAt": "2026-10-01T11:43:13.111Z",
+      "observedAt": "2026-10-01T11:43:13.111Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 130739,
+      "sha256": "367f8788e52cf050a6bbbd913c87a32aa9537512143661177b3e08dbe8723d23",
+      "path": "beyond-the-buffet.html",
+      "purpose": "Classify visible dining card without assigning operator campaigns to Gourmet Carousel"
+    },
+    {
+      "requestedUrl": "https://www.royalplaza.com.sg/dine/offers/dinner-buffet",
+      "finalUrl": "https://www.royalplaza.com.sg/dine/offers/dinner-buffet",
+      "capturedAt": "2026-10-01T11:43:13.339Z",
+      "observedAt": "2026-10-01T11:43:13.339Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 162116,
+      "sha256": "e736bfd0c790f0362f72371f361d92226e926b045b61dea022fa53bd0612dddd",
+      "path": "dinner-buffet.html",
+      "purpose": "Classify visible dining card without assigning operator campaigns to Gourmet Carousel"
+    },
+    {
+      "requestedUrl": "https://www.royalplaza.com.sg/dine/offers/lunch-buffet",
+      "finalUrl": "https://www.royalplaza.com.sg/dine/offers/lunch-buffet",
+      "capturedAt": "2026-10-01T11:43:13.642Z",
+      "observedAt": "2026-10-01T11:43:13.642Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 161827,
+      "sha256": "2f66b71cd8c7db0a4739a913d521f7ae70879d42ea44262feebb7c941e0076a4",
+      "path": "lunch-buffet.html",
+      "purpose": "Classify visible dining card without assigning operator campaigns to Gourmet Carousel"
+    },
+    {
+      "requestedUrl": "https://www.royalplaza.com.sg/dine/offers/high-tea-buffet",
+      "finalUrl": "https://www.royalplaza.com.sg/dine/offers/high-tea-buffet",
+      "capturedAt": "2026-10-01T11:43:13.866Z",
+      "observedAt": "2026-10-01T11:43:13.866Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 147870,
+      "sha256": "c31a7a284ba956c6f67325444e12eca7c81baab57a2418d250715bd2c0c8c637",
+      "path": "high-tea-buffet.html",
+      "purpose": "Classify visible dining card without assigning operator campaigns to Gourmet Carousel"
+    },
+    {
+      "requestedUrl": "https://www.royalplaza.com.sg/dine/offers/breakfast-buffet",
+      "finalUrl": "https://www.royalplaza.com.sg/dine/offers/breakfast-buffet",
+      "capturedAt": "2026-10-01T11:43:14.220Z",
+      "observedAt": "2026-10-01T11:43:14.220Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 152047,
+      "sha256": "c76d888a2fcdfc63be99a978577cf391c8d904b877d8cd968e8a587d71cf2d66",
+      "path": "breakfast-buffet.html",
+      "purpose": "Classify visible dining card without assigning operator campaigns to Gourmet Carousel"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://www.royalplaza.com.sg/dine/offers",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.royalplaza.com.sg/dine/offers/thai-2026",
+      "relation": "detail",
+      "parentUrl": "https://www.royalplaza.com.sg/dine/offers",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.royalplaza.com.sg/dine/offers/carousel-pastries",
+      "relation": "detail",
+      "parentUrl": "https://www.royalplaza.com.sg/dine/offers",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.royalplaza.com.sg/dine/offers/carousel-vouchers",
+      "relation": "detail",
+      "parentUrl": "https://www.royalplaza.com.sg/dine/offers",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.royalplaza.com.sg/dine/offers/beyond-the-buffet",
+      "relation": "detail",
+      "parentUrl": "https://www.royalplaza.com.sg/dine/offers",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.royalplaza.com.sg/dine/offers/dinner-buffet",
+      "relation": "detail",
+      "parentUrl": "https://www.royalplaza.com.sg/dine/offers",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.royalplaza.com.sg/dine/offers/lunch-buffet",
+      "relation": "detail",
+      "parentUrl": "https://www.royalplaza.com.sg/dine/offers",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.royalplaza.com.sg/dine/offers/high-tea-buffet",
+      "relation": "detail",
+      "parentUrl": "https://www.royalplaza.com.sg/dine/offers",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.royalplaza.com.sg/dine/offers/breakfast-buffet",
+      "relation": "detail",
+      "parentUrl": "https://www.royalplaza.com.sg/dine/offers",
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    }
+  ],
+  "limits": {
+    "maxRequests": 40,
+    "maxListingPages": 5,
+    "maxDetailPages": 20,
+    "maxEvidencePages": 8,
+    "maxBytes": 3000000,
+    "timeoutMs": 12000,
+    "maxRedirects": 3
+  },
+  "cachedParent": "research-2026-10-01/offers.html; no repeated listing request"
+}

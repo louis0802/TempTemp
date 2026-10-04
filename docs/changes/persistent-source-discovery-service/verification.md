@@ -1,0 +1,24 @@
+# Verification — 2026-09-24
+
+## Evidence
+
+| Check | Result |
+| --- | --- |
+| Research and existing preview tests | `npm run research:monitor:test`: 8 files, 54 tests passed. Fixture tests cover baseline exclusion, actual first-seen, late historical posts, channel failures, slow polls, restart gaps, hourly/daily scheduling, crash recovery, source row/card extraction, discovery caps/details/partial coverage, review gates, and seals. No test uses live sites. |
+| Broader unit regression | `npm test`: 23 files, 359 tests passed. Integration, e2e and corpus suites are excluded by this project command. |
+| Type and scoped lint | `npm run typecheck` passed; `npx eslint scripts/research/source-monitor-worker.ts scripts/research/source-monitor/*.ts tests/research-*.test.ts` passed. |
+| Fixture preflight | `tests/research-service.test.ts` calls `preflightResearchService` with mocked public previews and checks protocol/registry, writable root, state schema, and no `state.json` creation. Corrupt state is rejected without reset. A live-site preflight was not run in the restricted workspace. |
+| Restart and sealing | Temporary-root integration fixture resumed across Singapore midnight, kept the original post first-seen timestamp, recorded a 3h25m restart gap, and verified a closed day's `OBSERVATIONS_SEALED`. A separate fixture recovered missed days after the close/open crash window. Storage tests verify atomic writes, orphan temporary files, stale process lock, hash checks, and sealed write refusal. |
+| Production isolation | Only research runtime imports from `src/ingestion/` are the read-only `collectPreview()` import in `telegram.ts` and `service.ts`. No research module imports ingestion service/live/worker, publication code, `pg`, Supabase, or an application DB writer. Tests run without DB configuration. `npm run worker` and `npm run ingest` scripts were not changed or invoked. |
+| Research CLI | `npm run research:monitor:status` returned an uninitialized default root without creating state. `npm run research:monitor:metrics` returned zero synchronized intervals and null scoring metrics. The continuous worker was not left running. |
+| Historical data | `python3 .local/source-discovery-monitor/monitor.py verify 2026-09-23T154330Z` passed (19 snapshots, 13 candidates, benchmark unavailable). SHA-256 of its `SEALED` marker remained `f0e2f6ff29957527785a11a3c78a12ad4e8862f08943e56a210b42fc0d9a5f0f`; failed rehearsal `2026-09-24T160000Z/run.json` remained `05b0bf4dee50e69b5a1c8d00587c880b49b55e69b963e5777d757f9552c26ba2`. New service data uses a different ignored root. |
+| Protocol | Tracked revision-2 copy SHA-256 remains `ed64377133b6db8711e1080b89977a78096f7833361cc0984b804cb9994d2abe`; frozen registry copy remains `0f8de1c9e590d10f4c4709ec526f2587d478f4623230fa227a3d7de1edc6f4c9`. New revision 3 is pinned to `0ba848c3a55123d3a12e6d4d4425c1f46f7084a12d894f7552ba868c832a32db`. |
+| Git | `git diff --check` passed. Branch `research/source-substitution-pilot`, HEAD `8c8b278ccd1d5d0c1430a699b20b18d185e3887f`. No commit or push. The pre-existing `next-env.d.ts` diff remains exactly the `.next/types` → `.next/dev/types` imports; file SHA-256 before and after is `0f70629890b72a0a82e91972cc032c04b658b26c265373cb711cf576bfbf8fcc`. |
+
+## Acceptance assessment
+
+S1–S2: durable atomic state, per-channel observation, baseline/restart semantics and hourly timing are fixture-verified. S3: target-blind discovery attempts all registered sources, parses repeatable listing structures where captured evidence supports them, keeps every card and detail attempt, and exposes incomplete category routes/dynamic pages/failed fetches rather than claiming complete coverage. S4: ordered acquisition and raw Telegram freezes, separate observation and final seals, and write refusal are fixture-verified. S5: daily/cumulative metric arithmetic and exclusion of incomplete intervals are unit-tested; no actual multi-day research observations or recall claim exists yet. S6: fixture preflight/status and scheduler/restart tests pass. S7: import scan, unchanged production scripts and historical hash checks support isolation.
+
+## Limits
+
+This delivery makes continuous local evidence collection runnable, but it has not been started against live public sites. All 14 registry entries marked enumerable have a first-pass listing adapter; required category/tab traversal, dynamic indexes, and ambiguous table facts still produce explicitly partial snapshots and may need future source-specific work. Candidate proposals use conservative rule-based extraction; researchers must supply source-side validity/fact reviews, Telegram offer adjudication, and matches before a day becomes scored. Public preview observations cannot prove that transient or deleted posts were seen. Comparative lead/lag is bounded by daily independent acquisition cadence.

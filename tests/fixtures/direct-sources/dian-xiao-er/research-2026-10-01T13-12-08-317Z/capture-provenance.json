@@ -1,0 +1,80 @@
+{
+  "merchant": "dian-xiao-er",
+  "limits": {
+    "maxRequests": 40,
+    "maxListingPages": 5,
+    "maxDetailPages": 20,
+    "maxEvidencePages": 8,
+    "maxBytes": 3000000,
+    "timeoutMs": 12000,
+    "maxRedirects": 3
+  },
+  "jobs": [
+    {
+      "url": "https://www.dianxiaoer.com.sg/outlets",
+      "purpose": "official physical outlet directory, independent of campaign wording",
+      "kind": "evidence"
+    },
+    {
+      "url": "https://www.dianxiaoer.com.sg/membership",
+      "purpose": "official membership/operator declarations separate from campaign gallery",
+      "kind": "evidence"
+    }
+  ],
+  "attempts": [
+    {
+      "url": "https://www.dianxiaoer.com.sg/outlets",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.dianxiaoer.com.sg/membership",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    }
+  ],
+  "captures": [
+    {
+      "requestedUrl": "https://www.dianxiaoer.com.sg/outlets",
+      "finalUrl": "https://www.dianxiaoer.com.sg/outlets",
+      "capturedAt": "2026-10-01T13:12:08.320Z",
+      "observedAt": "2026-10-01T13:12:08.320Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 550921,
+      "sha256": "a0824fb364a5a4cc2704db0ed7446d7c5c00d0c791fcb3285b39d19331fa9258",
+      "path": "a0824fb364a5a4cc2704db0ed7446d7c5c00d0c791fcb3285b39d19331fa9258.html",
+      "purpose": "official physical outlet directory, independent of campaign wording",
+      "kind": "evidence",
+      "accessBlocked": false
+    },
+    {
+      "requestedUrl": "https://www.dianxiaoer.com.sg/membership",
+      "finalUrl": "https://www.dianxiaoer.com.sg/membership",
+      "capturedAt": "2026-10-01T13:12:10.460Z",
+      "observedAt": "2026-10-01T13:12:10.460Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 478117,
+      "sha256": "b999fba661c41cd6489a50512403b68142166bd579d804ab87eed8e3663d14b5",
+      "path": "b999fba661c41cd6489a50512403b68142166bd579d804ab87eed8e3663d14b5.html",
+      "purpose": "official membership/operator declarations separate from campaign gallery",
+      "kind": "evidence",
+      "accessBlocked": false
+    }
+  ],
+  "failures": [],
+  "cumulativeCounts": {
+    "listing": 1,
+    "detail": 0,
+    "evidence": 3
+  },
+  "cumulativeAttempts": 4,
+  "note": "Explicit public research roots, ordinary bounded direct transport; no cookies/auth/private APIs/OCR or browser. Research evidence is not production registration."
+}

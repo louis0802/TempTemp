@@ -1,0 +1,1545 @@
+{
+  "version": 1,
+  "provenance": [
+    {
+      "file": ".local/source-origin-audit/2026-09-30-social-corrected-offline/audit.json",
+      "sha256": "a0cb366e8beebc638f0f85e35c28d1acf88ef5718a142d99ced0d5b95fbcd99f"
+    },
+    {
+      "file": "docs/changes/coverage-batch-2/social-capture-manifests.json",
+      "sha256": "1de810b38baa8e825a5e54933ec186ab6644d557655694d50b747cb8d67d0d1d"
+    },
+    {
+      "file": "docs/research/social-source-authority-review.json",
+      "sha256": "18e2c72f2daeed4773eff6f7213bb5d2ccdfefcda07dd4a86d67d5493273a92e"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/4fingers/social-2/c42798ae973373bd89c1ae6460b5bd5d05fc2465a46138bb5f617180b733db71.html",
+      "sha256": "c42798ae973373bd89c1ae6460b5bd5d05fc2465a46138bb5f617180b733db71"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/4fingers/social-2/manifest.json",
+      "sha256": "4086e7469e19f2dbd1b35c4669aa91c2ee4ddbf9e37705491b08cf9fd7962319"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/4fingers/web-1/manifest.json",
+      "sha256": "4b93a1c55b8e6e9c53af1ea0ead7f40a4605e2868b150550283f041bce872905"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/4fingers/web-2/e5ad4aafed92193d51d8cd04daa8a7c0e1e68b24950d70341f15f207c397c9f3.html",
+      "sha256": "e5ad4aafed92193d51d8cd04daa8a7c0e1e68b24950d70341f15f207c397c9f3"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/4fingers/web-2/e5ad4aafed92193d51d8cd04daa8a7c0e1e68b24950d70341f15f207c397c9f3.html",
+      "sha256": "e5ad4aafed92193d51d8cd04daa8a7c0e1e68b24950d70341f15f207c397c9f3"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/4fingers/web-2/manifest.json",
+      "sha256": "8e54dc41d1ae26132494bcb951595a0b05340decaaea6837b217d52b359aa367"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/4fingers/web-4/47ac77f54b7348d8cfc65b80f41cd21c5488b49c67e84565a16aebdbe0f3b650.html",
+      "sha256": "47ac77f54b7348d8cfc65b80f41cd21c5488b49c67e84565a16aebdbe0f3b650"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/4fingers/web-4/manifest.json",
+      "sha256": "49a20ac66a8e7ca935b89b929665100b36d4cc262d98003005a08d22677a16db"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/baribaristeak/social-1/1333510ba88ff6c2a335cc9ebde4d31dbd43ff81b66f734d674665b5a5dd54a0.html",
+      "sha256": "1333510ba88ff6c2a335cc9ebde4d31dbd43ff81b66f734d674665b5a5dd54a0"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/baribaristeak/social-1/5cf40ec5139d7ad83e9cf5ef0ba9243d870508a74651d9ce02996112ea18c4d4.html",
+      "sha256": "5cf40ec5139d7ad83e9cf5ef0ba9243d870508a74651d9ce02996112ea18c4d4"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/baribaristeak/social-1/bc8c8df9ac5ee6d31573e1a4dfff4e040f86733afc66759e3703f0605ea08b38.html",
+      "sha256": "bc8c8df9ac5ee6d31573e1a4dfff4e040f86733afc66759e3703f0605ea08b38"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/baribaristeak/social-1/d1b506418caa115d5ce6a391477d1ad9c0f6eb910f3a6a8b26920297d897d5df.html",
+      "sha256": "d1b506418caa115d5ce6a391477d1ad9c0f6eb910f3a6a8b26920297d897d5df"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/baribaristeak/social-1/manifest.json",
+      "sha256": "c0d94f0c1583b85cc237cdd7b40f790e301822a29e6dc77580e299e6b72c5e7c"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/baribaristeak/web-1/manifest.json",
+      "sha256": "de2d130ed61fbaa4265abf66a4c3abe4d9888989bde6a7fc03d502574cacd24d"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/baribaristeak/web-2/79c87087e93cdfeeca487eca183a19329f268dfe357830af0e79e348bae8ac63.html",
+      "sha256": "79c87087e93cdfeeca487eca183a19329f268dfe357830af0e79e348bae8ac63"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/baribaristeak/web-2/d22a4cf20300796172cb0e7a062d28afec424dd6eb5e4ee03f8279491d91deba.html",
+      "sha256": "d22a4cf20300796172cb0e7a062d28afec424dd6eb5e4ee03f8279491d91deba"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/baribaristeak/web-2/manifest.json",
+      "sha256": "dad30a08980d5ee72e532a7a5c848e7cf35f8f7723a0aef99851b0893295ec26"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/baribaristeak/web-3/3b4ba27215b0eb62b972b74d8d85aa8f4c4fab08008dfe6242f58828c4bbd0c4.html",
+      "sha256": "3b4ba27215b0eb62b972b74d8d85aa8f4c4fab08008dfe6242f58828c4bbd0c4"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/baribaristeak/web-3/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.html",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/baribaristeak/web-3/f9c13ab276bf44b6f229f66004f7b6e8d47e75b2255d2879149f6ca8ad1aab5b.html",
+      "sha256": "f9c13ab276bf44b6f229f66004f7b6e8d47e75b2255d2879149f6ca8ad1aab5b"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/baribaristeak/web-3/manifest.json",
+      "sha256": "1afe2b08cda10e3b77e04a02fa2ea5a166b5e0b1c0b3521ec3ae4fb51783d636"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/baribaristeak/web-4/0fc412a5f25e4c8882c1edb632b8cdd7b28a693d0a29ab96c83046190b5ad259.html",
+      "sha256": "0fc412a5f25e4c8882c1edb632b8cdd7b28a693d0a29ab96c83046190b5ad259"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/baribaristeak/web-4/manifest.json",
+      "sha256": "e878405d543b465dedfc04706132f98be299222d55eba83bdbd92b03c94d5a1f"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/captainkim/details-1/78b3eb3f344239173d26bc6df0730d64b2716d055b7bf14bb7cdc6aba50b42e5.html",
+      "sha256": "78b3eb3f344239173d26bc6df0730d64b2716d055b7bf14bb7cdc6aba50b42e5"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/captainkim/details-1/manifest.json",
+      "sha256": "8fd7d351e75fa5684c2a870f62b2fd819d616fdc15bc79bc16fe0b54c5a5be66"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/captainkim/web-1/manifest.json",
+      "sha256": "57322ca588e0594283b43dfdc3205c7057a4fbab669beab651d281d3c11d05e1"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/captainkim/web-2/8b618ac5ee4da1c4aed92994bc4211cd7fd85eb47dd8658b7f590e15653640ef.html",
+      "sha256": "8b618ac5ee4da1c4aed92994bc4211cd7fd85eb47dd8658b7f590e15653640ef"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/captainkim/web-2/manifest.json",
+      "sha256": "0a0e12bb4fd196b22ea3305417efe4727920d022a5887a7307b54f7bfa3489d3"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/captainkim/web-3/120959aa1afdd8b95bf2e8702eca6987a151423e90a2d5f189ed37fd900de10a.html",
+      "sha256": "120959aa1afdd8b95bf2e8702eca6987a151423e90a2d5f189ed37fd900de10a"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/captainkim/web-3/6e650be7043e1984a739e8c9abfe268c782b3267bc47a2c871b144778d6e81c6.html",
+      "sha256": "6e650be7043e1984a739e8c9abfe268c782b3267bc47a2c871b144778d6e81c6"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/captainkim/web-3/72684ad8295765a2e48a379c46a5293676a8e8193e48d00b2fbf8c6fcf8ec68b.html",
+      "sha256": "72684ad8295765a2e48a379c46a5293676a8e8193e48d00b2fbf8c6fcf8ec68b"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/captainkim/web-3/manifest.json",
+      "sha256": "eb4a66039661fb018bddecf98d86fba8379caf7f0a3ab972295070dddfc95e78"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/captainkim/web-4/362618d80fb209d4ff0b00d25921c5bc47999768960c4a3ae67e54f0c97e879c.html",
+      "sha256": "362618d80fb209d4ff0b00d25921c5bc47999768960c4a3ae67e54f0c97e879c"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/captainkim/web-4/c828383ee36c3e60926d4c9e6fa93f1277eb1ecc8fa69e892367c662ff386c0b.html",
+      "sha256": "c828383ee36c3e60926d4c9e6fa93f1277eb1ecc8fa69e892367c662ff386c0b"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/captainkim/web-4/manifest.json",
+      "sha256": "8b78d518cd345c74f414bf444de11f6e0d7fdef12a6f49dcbc0d8dd923970cf7"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/gelare/social-1/664aad7a1e6a49b9198d5cc8bcc8f2d2c1cfc32cd2d14adca24d1fd9885c9584.html",
+      "sha256": "664aad7a1e6a49b9198d5cc8bcc8f2d2c1cfc32cd2d14adca24d1fd9885c9584"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/gelare/social-1/manifest.json",
+      "sha256": "d46f75056d2831fb613ad50853462bd46527c410ddc82c43750c44b1d18442af"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/gelare/web-1/manifest.json",
+      "sha256": "03b4aeeca8e1dce518a748ed2cb9cdb3b6ce4e0c7c7257564ebe94f6a8cad7ce"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/gelare/web-2/021a0465574a275cabfdb890ad4330f5d3a9610e82b6e6b65859df83eb428be6.html",
+      "sha256": "021a0465574a275cabfdb890ad4330f5d3a9610e82b6e6b65859df83eb428be6"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/gelare/web-2/58c4fd4a7dc4ccb4b22d6abf02312418422ce7a72e6f5b056c59eb7b45e01ba8.html",
+      "sha256": "58c4fd4a7dc4ccb4b22d6abf02312418422ce7a72e6f5b056c59eb7b45e01ba8"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/gelare/web-2/manifest.json",
+      "sha256": "66b2a6dd66b4008d21fda9a97a4eb522c25d9a5354ef29d5651c7e74aae3c9ea"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/gelare/web-3/6eebb53518573136c6321ab1ad517341856f15e21eb175035c3155e258113bab.html",
+      "sha256": "6eebb53518573136c6321ab1ad517341856f15e21eb175035c3155e258113bab"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/gelare/web-3/abfa93a7edfe21f1234a8ac19a9cd13046725a1df4274e43574aa92715ec89ea.html",
+      "sha256": "abfa93a7edfe21f1234a8ac19a9cd13046725a1df4274e43574aa92715ec89ea"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/gelare/web-3/manifest.json",
+      "sha256": "3d8a2015fe25cf7f877f124b1e3ee421c38272565d8a15d6ac9b73bd4ba0fbf1"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/keikaisendon/social-1/a21d6c9fe84f081050dbf1f5a2836195698f23e0abeaf512c224a01283a5a101.html",
+      "sha256": "a21d6c9fe84f081050dbf1f5a2836195698f23e0abeaf512c224a01283a5a101"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/keikaisendon/social-1/da472c095863a50465185024f1997f1bf85edb32402c401c16aa8ee79206e433.html",
+      "sha256": "da472c095863a50465185024f1997f1bf85edb32402c401c16aa8ee79206e433"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/keikaisendon/social-1/e376e6c59bb1777b5c50ad1ca78fe9d270649c98af2b022c6d5444d2e353e2c3.html",
+      "sha256": "e376e6c59bb1777b5c50ad1ca78fe9d270649c98af2b022c6d5444d2e353e2c3"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/keikaisendon/social-1/manifest.json",
+      "sha256": "9f425bee801cfb5d7ccab9df87a7365f9631c2fe18584ee27007e4c6158edc4c"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/keikaisendon/web-1/manifest.json",
+      "sha256": "b590eef7f2fd62e6e1971c06566cb05558960a2bd894839c376fef7439faa615"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/keikaisendon/web-2/e1032fe612f65b385131f603ed0cb423ce28a4334c5f1f7c9fa97a336e6fc833.html",
+      "sha256": "e1032fe612f65b385131f603ed0cb423ce28a4334c5f1f7c9fa97a336e6fc833"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/keikaisendon/web-2/manifest.json",
+      "sha256": "83b05695b0abc13247764ed4a2bb74ee8067235fb766d475ffeea76cfc90f686"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/keikaisendon/web-3/402c5b9f32b689bd5e7d210678ae1c36b3bfb52ec0f932a314f2bc69b42c1372.html",
+      "sha256": "402c5b9f32b689bd5e7d210678ae1c36b3bfb52ec0f932a314f2bc69b42c1372"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/keikaisendon/web-3/8f6c7a41af67ec7025fec41943a5cdd8c34940b6734456caa1d5d7a7eb82c5c5.html",
+      "sha256": "8f6c7a41af67ec7025fec41943a5cdd8c34940b6734456caa1d5d7a7eb82c5c5"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/keikaisendon/web-3/manifest.json",
+      "sha256": "95e8de56f81c4036bc8224d536e40e5c3ee2afcb7b3c36117356910b7a862a8f"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/kimpsonstable/social-1/831a973d97d6d3b11c35b8297a0df1a3b1d4bae221261a3972f42e9f85ef07d5.html",
+      "sha256": "831a973d97d6d3b11c35b8297a0df1a3b1d4bae221261a3972f42e9f85ef07d5"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/kimpsonstable/social-1/manifest.json",
+      "sha256": "fc10079b2f34877374d792b5811b65da6ad6440110743e4d871645d5ced781df"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/kimpsonstable/web-1/manifest.json",
+      "sha256": "ec7c0db91b135160418cbdf956b75011d2f440520e2a045193e54f04dfe9e80e"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/kimpsonstable/web-2/5ebe676dbeaa12f72cd25a91550900be753c44f61247237c5f34aa104ea3a023.html",
+      "sha256": "5ebe676dbeaa12f72cd25a91550900be753c44f61247237c5f34aa104ea3a023"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/kimpsonstable/web-2/b37392b1d7310db5181b1f41ef1c1547448892dcc0b4ac4ee6e8c8621c56c8d1.html",
+      "sha256": "b37392b1d7310db5181b1f41ef1c1547448892dcc0b4ac4ee6e8c8621c56c8d1"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/kimpsonstable/web-2/manifest.json",
+      "sha256": "4af20326575a1048e3cfe46243d9276916d4a4cc470785fa96c0cb14683352a7"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/mcdonalds/social-1/6f679128edcf08ee10c55840bf03ba8432b0070b359f9a99ed202ca704e050e3.html",
+      "sha256": "6f679128edcf08ee10c55840bf03ba8432b0070b359f9a99ed202ca704e050e3"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/mcdonalds/social-1/a109165630e778eb62e139931f035477362c673052d5dd21e8254e76e2a8a24a.html",
+      "sha256": "a109165630e778eb62e139931f035477362c673052d5dd21e8254e76e2a8a24a"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/mcdonalds/social-1/d7d7a65d56ead1713179985ca74cfe4f6f9656c167441f8895cf3f1ff5941366.html",
+      "sha256": "d7d7a65d56ead1713179985ca74cfe4f6f9656c167441f8895cf3f1ff5941366"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/mcdonalds/social-1/manifest.json",
+      "sha256": "f1aa78fcda3b7ded4d20a76fab3d2a71301c9384464f24694ad10ae2cda6a237"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/mcdonalds/web-1/manifest.json",
+      "sha256": "8cd0de8618f3d857333d9aa9b404046ca1d28b778206d02a24c70bcb49f3393e"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/mcdonalds/web-2/11f7859b2408eca383a51a7372a7d63e1df9ddeec62e17c61f6ec61df5b6b646.html",
+      "sha256": "11f7859b2408eca383a51a7372a7d63e1df9ddeec62e17c61f6ec61df5b6b646"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/mcdonalds/web-2/manifest.json",
+      "sha256": "ea12ed918e6d00f7a69ab8accb0feee4b75b421e18553e5956ffeee1840c6d06"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/mcdonalds/web-3/19ac06173d7d29ae9b7277f205eb2e5dc432de50e355effe914ffea674b4d656.html",
+      "sha256": "19ac06173d7d29ae9b7277f205eb2e5dc432de50e355effe914ffea674b4d656"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/mcdonalds/web-3/1b43d32ad515bd9bc8cb45f72fcdc2f42d04778e0242cbb9e01f5a21bfb448cc.html",
+      "sha256": "1b43d32ad515bd9bc8cb45f72fcdc2f42d04778e0242cbb9e01f5a21bfb448cc"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/mcdonalds/web-3/60407a76d68cbda64864824f505940444dd6ed069988b8b67068c559c8e74e73.html",
+      "sha256": "60407a76d68cbda64864824f505940444dd6ed069988b8b67068c559c8e74e73"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/mcdonalds/web-3/a54044c7fbfa91d7cd4f4c7cbe39f0b7477bf80eda609ca219d23b94f990815a.html",
+      "sha256": "a54044c7fbfa91d7cd4f4c7cbe39f0b7477bf80eda609ca219d23b94f990815a"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/mcdonalds/web-3/fb51fc3b7a19219bb5ffecb12c0e4d2947d756ceea4a1f4c99bb082284cd5c43.html",
+      "sha256": "fb51fc3b7a19219bb5ffecb12c0e4d2947d756ceea4a1f4c99bb082284cd5c43"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/mcdonalds/web-3/manifest.json",
+      "sha256": "9162637672a4ec3e0093116f780bb315e1f9967e15a8ac33bf05803d9c0ae294"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/moreyogurt/web-1/manifest.json",
+      "sha256": "42bc1e1f6f8c9ba04d3f42351d2cfea2ec6b54c22c23a4754b3dec17255e7adc"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/moreyogurt/web-2/174c87fc940258ec62aa20a47c433550d0bed353362a952661368a512b8d1865.html",
+      "sha256": "174c87fc940258ec62aa20a47c433550d0bed353362a952661368a512b8d1865"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/moreyogurt/web-2/53fe8424656c861835ab0a687dc5e58b66eff52b910869687db3acce0f829318.html",
+      "sha256": "53fe8424656c861835ab0a687dc5e58b66eff52b910869687db3acce0f829318"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/moreyogurt/web-2/manifest.json",
+      "sha256": "d3236ddc378cfc535ea5b89de6e8d8fe63feb21e0ff5f17256d749f99d19725a"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/moreyogurt/web-3/3c29c364cdb8e142e0230eac40cc4ee42d431bca2070e8332e18dc140dad6ad7.html",
+      "sha256": "3c29c364cdb8e142e0230eac40cc4ee42d431bca2070e8332e18dc140dad6ad7"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/moreyogurt/web-3/manifest.json",
+      "sha256": "1cc83a6dc063d1e1cca07e15c93d9334e0caa76684dd630c5d129dffa87a2a61"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/pizzahut/social-1/f462499a81700beab0d23b0b60a80156836dc0bb12051042d5e5679df88d09a3.html",
+      "sha256": "f462499a81700beab0d23b0b60a80156836dc0bb12051042d5e5679df88d09a3"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/pizzahut/social-1/manifest.json",
+      "sha256": "91657bc0de065123a0f4ba2c27ed804d1da18f24a55e89037249e33897bf23db"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/pizzahut/web-1/manifest.json",
+      "sha256": "159d56c7a6c2267c275b72a19d7e084a4e429d557d81cadd63967c193618dacf"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/pizzahut/web-2/567678567cb0b0995127c359ce8348522bdec59d5872ca45bfaa7e85dbc48ffa.html",
+      "sha256": "567678567cb0b0995127c359ce8348522bdec59d5872ca45bfaa7e85dbc48ffa"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/pizzahut/web-2/manifest.json",
+      "sha256": "7fb57938e4f0563db5952ec9435bdff9edfc243c4099495ecf75711903e8c1c0"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/pizzahut/web-4/d0542ee2fdd7697614e285cb09fc0c960bfd6faf8740527c3bd80a7ecc735d1e.html",
+      "sha256": "d0542ee2fdd7697614e285cb09fc0c960bfd6faf8740527c3bd80a7ecc735d1e"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/pizzahut/web-4/d0542ee2fdd7697614e285cb09fc0c960bfd6faf8740527c3bd80a7ecc735d1e.html",
+      "sha256": "d0542ee2fdd7697614e285cb09fc0c960bfd6faf8740527c3bd80a7ecc735d1e"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/pizzahut/web-4/manifest.json",
+      "sha256": "ec5d4120669b8bd6e261a6388f5fe38024505e4d71f0eca18a159aeda4d2ee95"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/pizzahut/web-4/manifest.json",
+      "sha256": "ec5d4120669b8bd6e261a6388f5fe38024505e4d71f0eca18a159aeda4d2ee95"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/pizzahut/web-5/567678567cb0b0995127c359ce8348522bdec59d5872ca45bfaa7e85dbc48ffa.html",
+      "sha256": "567678567cb0b0995127c359ce8348522bdec59d5872ca45bfaa7e85dbc48ffa"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/pizzahut/web-5/567678567cb0b0995127c359ce8348522bdec59d5872ca45bfaa7e85dbc48ffa.html",
+      "sha256": "567678567cb0b0995127c359ce8348522bdec59d5872ca45bfaa7e85dbc48ffa"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/pizzahut/web-5/567678567cb0b0995127c359ce8348522bdec59d5872ca45bfaa7e85dbc48ffa.html",
+      "sha256": "567678567cb0b0995127c359ce8348522bdec59d5872ca45bfaa7e85dbc48ffa"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/pizzahut/web-5/manifest.json",
+      "sha256": "29d8ad7f6eeb7c23ec64c76857ce95bc0c4a95b00cdb6be380fbe864ff750f93"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/shiokburger/social-1/8da7dc7b15faf4b9bebc9de5445814cb96de35c0ad05092570f006df65b08f72.html",
+      "sha256": "8da7dc7b15faf4b9bebc9de5445814cb96de35c0ad05092570f006df65b08f72"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/shiokburger/social-1/manifest.json",
+      "sha256": "e2dd1bbf95e98f34897f290260e08449cb7f5173a8e125991ce40f80bb4b6593"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/shiokburger/web-1/manifest.json",
+      "sha256": "9335e831b4dd43dd1da9bf01659b0f6b7abd45d3dcb5f5c32c4fedbae63e342c"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/shiokburger/web-2/cc634a597d17ddf5df37e00eb8eed0f1da9f4704aacfb43120add775d32f8f14.html",
+      "sha256": "cc634a597d17ddf5df37e00eb8eed0f1da9f4704aacfb43120add775d32f8f14"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/shiokburger/web-2/manifest.json",
+      "sha256": "4f4722c9b75bed52408907e2bf4b5127cb7fee1b8fb398d1d72a76e935bbd565"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/sushiro/social-1/5ecdbe8d83dfd14558d264833b37d675ade5fbe0b703ed86eb3b86bdddb05a2d.html",
+      "sha256": "5ecdbe8d83dfd14558d264833b37d675ade5fbe0b703ed86eb3b86bdddb05a2d"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/sushiro/social-1/c53962cf6ffab321fa51f3fbe22c7f46c667464fa94a9b1528c986c26a0357b3.html",
+      "sha256": "c53962cf6ffab321fa51f3fbe22c7f46c667464fa94a9b1528c986c26a0357b3"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/sushiro/social-1/manifest.json",
+      "sha256": "64f1d7440b68ce6c1f3fc6875e16aa4b510d732ff4493ce27e812a3954bb11ae"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/sushiro/web-1/manifest.json",
+      "sha256": "d4bd11428cd081dbab0b05697ec87415e296c42c52ab3394cc1f61b04a64f461"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/sushiro/web-2/a29f69c6bb4056fc8d5b542b510982e3f67bea9e3cdbc47aba6c4dfb9c46227e.html",
+      "sha256": "a29f69c6bb4056fc8d5b542b510982e3f67bea9e3cdbc47aba6c4dfb9c46227e"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/sushiro/web-2/d2a36725711a67a56fcd8b4e0900e35a1f069ed0bd69e1d23147cb2462c7201c.html",
+      "sha256": "d2a36725711a67a56fcd8b4e0900e35a1f069ed0bd69e1d23147cb2462c7201c"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/sushiro/web-2/manifest.json",
+      "sha256": "bfb17b0bb12361891e1cd3eef57a8a908b2f20c3bdd47ed8d3625002188b9b81"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/sushiro/web-3/6efacde0d6bf8f16f6cc01505b9cb643ea797bed376372cf5e274090edb2a1e4.html",
+      "sha256": "6efacde0d6bf8f16f6cc01505b9cb643ea797bed376372cf5e274090edb2a1e4"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/sushiro/web-3/7b7d5120c91d45284ce565f841fcbfab8c606e39fdc06e03a6b02fd526676733.html",
+      "sha256": "7b7d5120c91d45284ce565f841fcbfab8c606e39fdc06e03a6b02fd526676733"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/sushiro/web-3/manifest.json",
+      "sha256": "3374adac88098bd7adcaf51ffb5750c2800c3b181eed9b045e6857236a27d5cd"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/social-1/06ea06f1a7ea344e052faac1a481ca090bebb22762a47aa4703a2ec0648f6b56.html",
+      "sha256": "06ea06f1a7ea344e052faac1a481ca090bebb22762a47aa4703a2ec0648f6b56"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/social-1/5243f9859f567961da82945a0190ca0f371f42b189afc59d9ae4a9f659cec15c.html",
+      "sha256": "5243f9859f567961da82945a0190ca0f371f42b189afc59d9ae4a9f659cec15c"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/social-1/manifest.json",
+      "sha256": "f43b956918499b68368ca02ba505c1978ebcabcd886e63e997d41751262ecdc0"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/web-1/manifest.json",
+      "sha256": "ccffdea217138d9319b352b6d0920ac3e73a1a6cf4b9e064c1a1fd43ddb62148"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/web-2/bd9425f9c29eeb5a55e744d7a630ff199259b301ef99dfe05aff22a87ba87a19.html",
+      "sha256": "bd9425f9c29eeb5a55e744d7a630ff199259b301ef99dfe05aff22a87ba87a19"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/web-2/manifest.json",
+      "sha256": "5562a8352e6d01ce504503a5a4ac13eb05078c3e4194cedf27961884c27a765d"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/web-3/79401a6e2e16b35007c275b055abd2c79127176daaa1f7023c54ca6b73d6ccd9.html",
+      "sha256": "79401a6e2e16b35007c275b055abd2c79127176daaa1f7023c54ca6b73d6ccd9"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/web-3/da0075fbddc8601ecab2b93b1c76cbf8ca9c50431003f4205b034b25dd94e6ec.html",
+      "sha256": "da0075fbddc8601ecab2b93b1c76cbf8ca9c50431003f4205b034b25dd94e6ec"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/web-3/manifest.json",
+      "sha256": "8707f85379211ef35ec0140c20a3338b95a379431d430c81e99cd7cf277c4227"
+    },
+    {
+      "file": "tests/fixtures/social-sources/instagram-2026-10-02/0c33cbeaee16d0b976cad3c4c955c6c1e64c3310a467378aa228e4235189cbbd.html",
+      "sha256": "0c33cbeaee16d0b976cad3c4c955c6c1e64c3310a467378aa228e4235189cbbd"
+    },
+    {
+      "file": "tests/fixtures/social-sources/instagram-2026-10-02/38cad557cb4de87b6ab263f12da3a3bd18c1a242d8e550b8820035cc2c878322.html",
+      "sha256": "38cad557cb4de87b6ab263f12da3a3bd18c1a242d8e550b8820035cc2c878322"
+    },
+    {
+      "file": "tests/fixtures/social-sources/instagram-2026-10-02/90d7caba73192f6110a81440b4f85c409071a0087fa7eb5ef01d7a7002519855.html",
+      "sha256": "90d7caba73192f6110a81440b4f85c409071a0087fa7eb5ef01d7a7002519855"
+    },
+    {
+      "file": "tests/fixtures/social-sources/instagram-2026-10-02/9b7ee95414c063b60f90a74e69d1a51d62010e45a4899a11bfa1ae1a507f593e.html",
+      "sha256": "9b7ee95414c063b60f90a74e69d1a51d62010e45a4899a11bfa1ae1a507f593e"
+    },
+    {
+      "file": "tests/fixtures/social-sources/instagram-2026-10-02/b8a9c64ae12fb643690c7ecacd692261fd58db662185d4824c3cbce299e76b52.html",
+      "sha256": "b8a9c64ae12fb643690c7ecacd692261fd58db662185d4824c3cbce299e76b52"
+    },
+    {
+      "file": "tests/fixtures/social-sources/instagram-2026-10-02/c59c9667ca91bf1278e488919ee635d60260d8734ced9b9bf24fa6027273d467.html",
+      "sha256": "c59c9667ca91bf1278e488919ee635d60260d8734ced9b9bf24fa6027273d467"
+    },
+    {
+      "file": "tests/fixtures/social-sources/instagram-2026-10-02/d4e6906d14df0c893690ee09be1ee02cf95b4ee3d8e23c04754e8f6c945d824d.html",
+      "sha256": "d4e6906d14df0c893690ee09be1ee02cf95b4ee3d8e23c04754e8f6c945d824d"
+    },
+    {
+      "file": "tests/fixtures/social-sources/instagram-2026-10-02/e7ba16a236a178f3edc66abf2252ddea31c780a702915e01604662da358bb1c8.html",
+      "sha256": "e7ba16a236a178f3edc66abf2252ddea31c780a702915e01604662da358bb1c8"
+    },
+    {
+      "file": "tests/fixtures/social-sources/instagram-2026-10-02/manifest.json",
+      "sha256": "676e068614ec884359c27e24c2a704673effa014edd57a26cc1dfadc4d6618ad"
+    },
+    {
+      "file": "tests/fixtures/social-sources/official-2026-10-02-network/4a02095bf25eb7129b633d6ba3c7265999986ada608ff4d921474bed8e36f4af.html",
+      "sha256": "4a02095bf25eb7129b633d6ba3c7265999986ada608ff4d921474bed8e36f4af"
+    },
+    {
+      "file": "tests/fixtures/social-sources/official-2026-10-02-network/651bb741bd34e9d92d0d1b4dbd023ad02ea0ed9878cd94d3bb597a9c284e706a.html",
+      "sha256": "651bb741bd34e9d92d0d1b4dbd023ad02ea0ed9878cd94d3bb597a9c284e706a"
+    },
+    {
+      "file": "tests/fixtures/social-sources/official-2026-10-02-network/8701ff1cbeb838c5bf5c5c3977e4b2fab350e1d1afb8a4399e5779b20789f9cf.html",
+      "sha256": "8701ff1cbeb838c5bf5c5c3977e4b2fab350e1d1afb8a4399e5779b20789f9cf"
+    },
+    {
+      "file": "tests/fixtures/social-sources/official-2026-10-02-network/ed7b56e1c676f657d48379fb43cdc259fe2fec94a6a50facfdd3e58ea1f4aac3.html",
+      "sha256": "ed7b56e1c676f657d48379fb43cdc259fe2fec94a6a50facfdd3e58ea1f4aac3"
+    },
+    {
+      "file": "tests/fixtures/social-sources/official-2026-10-02-network/f7b3a69eed9d6b08ab0d8238a2c3041b8ddfd3bcf7094222b98475cf8d08c9d6.html",
+      "sha256": "f7b3a69eed9d6b08ab0d8238a2c3041b8ddfd3bcf7094222b98475cf8d08c9d6"
+    },
+    {
+      "file": "tests/fixtures/social-sources/official-2026-10-02-network/manifest.json",
+      "sha256": "af42dd821e157e46280159291b8608b7542fbde2fb3539485ce5d388ec0ba2a2"
+    }
+  ],
+  "summary": {
+    "merchants_with_social_candidates": 21,
+    "exact_account_candidates": 18,
+    "instagram_account_candidates": 16,
+    "verified_instagram_accounts": 14,
+    "unverified_instagram_accounts": 2,
+    "account_unresolved_content_records": 8,
+    "excluded_records": 35
+  },
+  "accounts": [
+    {
+      "merchant": "4Fingers",
+      "normalized_merchant": "4fingers",
+      "platform": "instagram",
+      "account": "gimme4fingers",
+      "ownership": "verified",
+      "blockers": [],
+      "evidence_refs": [
+        "https://order.4fingers.com.sg/corp/my_profile",
+        "tests/fixtures/coverage-batch-2/4fingers/web-4/47ac77f54b7348d8cfc65b80f41cd21c5488b49c67e84565a16aebdbe0f3b650.html",
+        "tests/fixtures/coverage-batch-2/4fingers/web-4/manifest.json"
+      ],
+      "signal_ids": [],
+      "canonical_candidate_urls": [
+        "https://www.instagram.com/gimme4fingers/"
+      ],
+      "transport_final_urls": [],
+      "content_association": "unproven",
+      "account_result": "exact_account_verified"
+    },
+    {
+      "merchant": "Ajumma's Korean Restaurant",
+      "normalized_merchant": "ajummaskoreanrestaurant",
+      "platform": "instagram",
+      "account": "ajummasg",
+      "ownership": "verified",
+      "blockers": [],
+      "evidence_refs": [
+        "https://www.ajummassg.com/",
+        "tests/fixtures/social-sources/instagram-2026-10-02/9b7ee95414c063b60f90a74e69d1a51d62010e45a4899a11bfa1ae1a507f593e.html",
+        "tests/fixtures/social-sources/official-2026-10-02-network/f7b3a69eed9d6b08ab0d8238a2c3041b8ddfd3bcf7094222b98475cf8d08c9d6.html",
+        "tests/fixtures/social-sources/official-2026-10-02-network/manifest.json"
+      ],
+      "signal_ids": [
+        "20c3a0c128c2a30e6e649b9c83b0e9e1bc2c71cd7a880b716613524b0ab28943"
+      ],
+      "canonical_candidate_urls": [
+        "https://www.instagram.com/p/Dc-kxPJzx9B/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+      ],
+      "transport_final_urls": [
+        "https://www.facebook.com/unsupportedbrowser"
+      ],
+      "content_association": "independently_verified",
+      "account_result": "exact_account_verified"
+    },
+    {
+      "merchant": "Bari Bari Steak",
+      "normalized_merchant": "baribaristeak",
+      "platform": "facebook",
+      "account": "61583504727882",
+      "ownership": "verified",
+      "blockers": [],
+      "evidence_refs": [
+        "https://baribaristeak.com.sg/",
+        "tests/fixtures/coverage-batch-2/baribaristeak/social-1/5cf40ec5139d7ad83e9cf5ef0ba9243d870508a74651d9ce02996112ea18c4d4.html",
+        "tests/fixtures/coverage-batch-2/baribaristeak/web-2/d22a4cf20300796172cb0e7a062d28afec424dd6eb5e4ee03f8279491d91deba.html",
+        "tests/fixtures/coverage-batch-2/baribaristeak/web-2/manifest.json"
+      ],
+      "signal_ids": [
+        "9ce240c76b2b0b286ca4f62bb61af07d272b7e662411f210d51124d4fa1360cd"
+      ],
+      "canonical_candidate_urls": [
+        "https://www.facebook.com/reel/2213996399456039?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+      ],
+      "transport_final_urls": [
+        "https://www.facebook.com/unsupportedbrowser"
+      ],
+      "content_association": "independently_verified",
+      "account_result": "exact_account_verified"
+    },
+    {
+      "merchant": "Bari Bari Steak",
+      "normalized_merchant": "baribaristeak",
+      "platform": "instagram",
+      "account": "baribaristeaksg",
+      "ownership": "verified",
+      "blockers": [],
+      "evidence_refs": [
+        "https://baribaristeak.com.sg/",
+        "tests/fixtures/coverage-batch-2/baribaristeak/social-1/bc8c8df9ac5ee6d31573e1a4dfff4e040f86733afc66759e3703f0605ea08b38.html",
+        "tests/fixtures/coverage-batch-2/baribaristeak/social-1/d1b506418caa115d5ce6a391477d1ad9c0f6eb910f3a6a8b26920297d897d5df.html",
+        "tests/fixtures/coverage-batch-2/baribaristeak/web-2/d22a4cf20300796172cb0e7a062d28afec424dd6eb5e4ee03f8279491d91deba.html",
+        "tests/fixtures/coverage-batch-2/baribaristeak/web-2/manifest.json"
+      ],
+      "signal_ids": [
+        "3d2d04aa073b6b79b46faa22eecc80f36216cedda95b632ba1f99c1d44d022f9",
+        "a041b1bb0fcbd4fa6c24dc5feddc0a43365f70ba21522fe9f87b17c83fbc1f36"
+      ],
+      "canonical_candidate_urls": [
+        "https://www.instagram.com/p/DdF3_bwEeGK/?hl=en&utm_source=Telegram&utm_medium=TS&utm_campaign=TS_BariBariSteak-1f1",
+        "https://www.instagram.com/p/DdbNN-YicMs/?utm_source=telegram&utm_medium=TS"
+      ],
+      "transport_final_urls": [
+        "https://www.facebook.com/unsupportedbrowser"
+      ],
+      "content_association": "independently_verified",
+      "account_result": "exact_account_verified"
+    },
+    {
+      "merchant": "Captain Kim",
+      "normalized_merchant": "captainkim",
+      "platform": "instagram",
+      "account": "captainkimsg",
+      "ownership": "verified",
+      "blockers": [],
+      "evidence_refs": [
+        "https://kingdomfood.sg/captain-kim-korean-bbq-hotpot-tamp-j10/",
+        "tests/fixtures/coverage-batch-2/captainkim/web-3/120959aa1afdd8b95bf2e8702eca6987a151423e90a2d5f189ed37fd900de10a.html",
+        "tests/fixtures/coverage-batch-2/captainkim/web-3/manifest.json"
+      ],
+      "signal_ids": [],
+      "canonical_candidate_urls": [
+        "https://www.instagram.com/captainkimsg/"
+      ],
+      "transport_final_urls": [],
+      "content_association": "unproven",
+      "account_result": "exact_account_verified"
+    },
+    {
+      "merchant": "D'Cuisine",
+      "normalized_merchant": "dcuisine",
+      "platform": "tiktok",
+      "account": "dcuisines.restaurant",
+      "ownership": "unverified",
+      "blockers": [
+        "ownership_unverified"
+      ],
+      "evidence_refs": [],
+      "signal_ids": [
+        "f27a1414fc5e8120f9d0dc8ff3e82e13dca03bbdfed6be93e18eab9549c8bf6b"
+      ],
+      "canonical_candidate_urls": [
+        "https://www.tiktok.com/@dcuisines.restaurant/photo/7676695985245981960?is_from_webapp=1&sender_device=pc&utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+      ],
+      "transport_final_urls": [
+        "https://www.tiktok.com/@dcuisines.restaurant/photo/7676695985245981960?is_from_webapp=1&sender_device=pc&utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+      ],
+      "content_association": "account_scoped",
+      "account_result": "exact_account_unverified"
+    },
+    {
+      "merchant": "Gelare",
+      "normalized_merchant": "gelare",
+      "platform": "instagram",
+      "account": "gelaresg",
+      "ownership": "verified",
+      "blockers": [],
+      "evidence_refs": [
+        "https://www.gelare.com.sg/",
+        "tests/fixtures/coverage-batch-2/gelare/web-2/58c4fd4a7dc4ccb4b22d6abf02312418422ce7a72e6f5b056c59eb7b45e01ba8.html",
+        "tests/fixtures/coverage-batch-2/gelare/web-2/manifest.json"
+      ],
+      "signal_ids": [],
+      "canonical_candidate_urls": [
+        "https://www.instagram.com/gelaresg/"
+      ],
+      "transport_final_urls": [],
+      "content_association": "unproven",
+      "account_result": "exact_account_verified"
+    },
+    {
+      "merchant": "Kei Kaisendon",
+      "normalized_merchant": "keikaisendon",
+      "platform": "instagram",
+      "account": "keikaisendon",
+      "ownership": "verified",
+      "blockers": [],
+      "evidence_refs": [
+        "https://www.keikaisendon.com/",
+        "tests/fixtures/coverage-batch-2/keikaisendon/web-2/e1032fe612f65b385131f603ed0cb423ce28a4334c5f1f7c9fa97a336e6fc833.html",
+        "tests/fixtures/coverage-batch-2/keikaisendon/web-2/manifest.json"
+      ],
+      "signal_ids": [
+        "01a86f729ce87c846a7468ae9b8020d6fc03e12c9aaac3913c876177a9efc265",
+        "ee71f4aa796e50924583c8acb225842c62a2bd49fb7b381a997ebbcb0ccb8bca"
+      ],
+      "canonical_candidate_urls": [
+        "https://www.instagram.com/p/DdMLD32Ivbz/?utm_source=telegram&utm_medium=TS",
+        "https://www.instagram.com/p/DdWQHfKBdiK/?utm_source=telegram&utm_medium=TS"
+      ],
+      "transport_final_urls": [
+        "https://www.facebook.com/unsupportedbrowser"
+      ],
+      "content_association": "unproven",
+      "account_result": "exact_account_verified"
+    },
+    {
+      "merchant": "Kimpson's Table",
+      "normalized_merchant": "kimpsonstable",
+      "platform": "instagram",
+      "account": "kimpsonstable.sg",
+      "ownership": "unverified",
+      "blockers": [
+        "ownership_unverified"
+      ],
+      "evidence_refs": [
+        "docs/changes/coverage-batch-2/research.md",
+        "https://www.fareastmalls.com.sg/en/discover/Kimpsons-Table",
+        "tests/fixtures/coverage-batch-2/kimpsonstable/web-2/5ebe676dbeaa12f72cd25a91550900be753c44f61247237c5f34aa104ea3a023.html"
+      ],
+      "signal_ids": [],
+      "canonical_candidate_urls": [
+        "https://www.instagram.com/kimpsonstable.sg/"
+      ],
+      "transport_final_urls": [],
+      "content_association": "unproven",
+      "account_result": "exact_account_unverified"
+    },
+    {
+      "merchant": "Kimpson's Table",
+      "normalized_merchant": "kimpsonstable",
+      "platform": "instagram",
+      "account": "kimpsonstable",
+      "ownership": "verified",
+      "blockers": [],
+      "evidence_refs": [
+        "https://kimpsontable.cococart.co/",
+        "tests/fixtures/coverage-batch-2/kimpsonstable/web-2/b37392b1d7310db5181b1f41ef1c1547448892dcc0b4ac4ee6e8c8621c56c8d1.html",
+        "tests/fixtures/coverage-batch-2/kimpsonstable/web-2/manifest.json"
+      ],
+      "signal_ids": [],
+      "canonical_candidate_urls": [
+        "https://www.instagram.com/kimpsonstable/"
+      ],
+      "transport_final_urls": [],
+      "content_association": "unproven",
+      "account_result": "exact_account_verified"
+    },
+    {
+      "merchant": "McDonald's",
+      "normalized_merchant": "mcdonalds",
+      "platform": "instagram",
+      "account": "mcdsg",
+      "ownership": "verified",
+      "blockers": [],
+      "evidence_refs": [
+        "https://www.mcdonalds.com.sg/",
+        "tests/fixtures/coverage-batch-2/mcdonalds/social-1/6f679128edcf08ee10c55840bf03ba8432b0070b359f9a99ed202ca704e050e3.html",
+        "tests/fixtures/coverage-batch-2/mcdonalds/social-1/a109165630e778eb62e139931f035477362c673052d5dd21e8254e76e2a8a24a.html",
+        "tests/fixtures/coverage-batch-2/mcdonalds/web-2/11f7859b2408eca383a51a7372a7d63e1df9ddeec62e17c61f6ec61df5b6b646.html",
+        "tests/fixtures/coverage-batch-2/mcdonalds/web-2/manifest.json"
+      ],
+      "signal_ids": [
+        "63d46e9e0f72c89156680ff4da845edcec52c915025e2c4e3944f0b5d874db9c",
+        "ee402a73e9b362c1d71a2e66faaa3fad27345e64e34b08c3d11dcd675bdefd6b"
+      ],
+      "canonical_candidate_urls": [
+        "https://www.instagram.com/p/DdQIFcCB6TP/?utm_source=Telegram&utm_medium=TS&utm_campaign=TS_$6McSpicy",
+        "https://www.instagram.com/p/Ddp7EmljAbm/?utm_source=telegram&utm_medium=TS"
+      ],
+      "transport_final_urls": [
+        "https://www.facebook.com/unsupportedbrowser"
+      ],
+      "content_association": "independently_verified",
+      "account_result": "exact_account_verified"
+    },
+    {
+      "merchant": "Pizza Hut",
+      "normalized_merchant": "pizzahut",
+      "platform": "instagram",
+      "account": "pizzahut_sg",
+      "ownership": "unverified",
+      "blockers": [
+        "ownership_unverified"
+      ],
+      "evidence_refs": [
+        "https://www.pizzahut.com.sg/",
+        "tests/fixtures/coverage-batch-2/pizzahut/social-1/f462499a81700beab0d23b0b60a80156836dc0bb12051042d5e5679df88d09a3.html",
+        "tests/fixtures/coverage-batch-2/pizzahut/web-2/567678567cb0b0995127c359ce8348522bdec59d5872ca45bfaa7e85dbc48ffa.html",
+        "tests/fixtures/coverage-batch-2/pizzahut/web-2/manifest.json"
+      ],
+      "signal_ids": [
+        "12ceb8992cb9337f5b8ac44c00051e07100bf5524974a713d34fdd52d3ffd6ca"
+      ],
+      "canonical_candidate_urls": [
+        "https://www.instagram.com/p/DdDr_9tigEc/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+      ],
+      "transport_final_urls": [
+        "https://www.facebook.com/unsupportedbrowser"
+      ],
+      "content_association": "independently_verified",
+      "account_result": "exact_account_unverified"
+    },
+    {
+      "merchant": "SHINRAI",
+      "normalized_merchant": "shinrai",
+      "platform": "instagram",
+      "account": "shinrai.sg",
+      "ownership": "verified",
+      "blockers": [],
+      "evidence_refs": [
+        "https://www.shinrai.sg/",
+        "tests/fixtures/social-sources/instagram-2026-10-02/d4e6906d14df0c893690ee09be1ee02cf95b4ee3d8e23c04754e8f6c945d824d.html",
+        "tests/fixtures/social-sources/official-2026-10-02-network/4a02095bf25eb7129b633d6ba3c7265999986ada608ff4d921474bed8e36f4af.html",
+        "tests/fixtures/social-sources/official-2026-10-02-network/manifest.json"
+      ],
+      "signal_ids": [
+        "9109c3090156de7bf9e4c037cad90eba9146ab9997597f1a0371d292c5ed7a3a"
+      ],
+      "canonical_candidate_urls": [
+        "https://www.instagram.com/p/DDJfz9bynW-/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+      ],
+      "transport_final_urls": [
+        "https://www.facebook.com/unsupportedbrowser"
+      ],
+      "content_association": "independently_verified",
+      "account_result": "exact_account_verified"
+    },
+    {
+      "merchant": "Shiok Burger",
+      "normalized_merchant": "shiokburger",
+      "platform": "instagram",
+      "account": "shiokburger_sg",
+      "ownership": "verified",
+      "blockers": [],
+      "evidence_refs": [
+        "https://www.shiokburger.com/",
+        "tests/fixtures/coverage-batch-2/shiokburger/web-2/cc634a597d17ddf5df37e00eb8eed0f1da9f4704aacfb43120add775d32f8f14.html",
+        "tests/fixtures/coverage-batch-2/shiokburger/web-2/manifest.json"
+      ],
+      "signal_ids": [],
+      "canonical_candidate_urls": [
+        "https://www.instagram.com/shiokburger_sg/"
+      ],
+      "transport_final_urls": [],
+      "content_association": "unproven",
+      "account_result": "exact_account_verified"
+    },
+    {
+      "merchant": "Sinpopo Brand",
+      "normalized_merchant": "sinpopobrand",
+      "platform": "instagram",
+      "account": "sinpopobrand",
+      "ownership": "verified",
+      "blockers": [],
+      "evidence_refs": [
+        "https://www.sinpopo.com/",
+        "tests/fixtures/social-sources/instagram-2026-10-02/b8a9c64ae12fb643690c7ecacd692261fd58db662185d4824c3cbce299e76b52.html",
+        "tests/fixtures/social-sources/official-2026-10-02-network/651bb741bd34e9d92d0d1b4dbd023ad02ea0ed9878cd94d3bb597a9c284e706a.html",
+        "tests/fixtures/social-sources/official-2026-10-02-network/manifest.json"
+      ],
+      "signal_ids": [
+        "e40cd2a0ae3f949195bd45de2327c4861a478b619ab6f1228bc6f533c9ec2bfe"
+      ],
+      "canonical_candidate_urls": [
+        "https://www.instagram.com/p/DdQA3EChsjx/?hl=en&utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+      ],
+      "transport_final_urls": [
+        "https://www.facebook.com/unsupportedbrowser"
+      ],
+      "content_association": "independently_verified",
+      "account_result": "exact_account_verified"
+    },
+    {
+      "merchant": "Starbucks",
+      "normalized_merchant": "starbucks",
+      "platform": "instagram",
+      "account": "starbuckssg",
+      "ownership": "verified",
+      "blockers": [],
+      "evidence_refs": [
+        "https://www.starbucks.com.sg/",
+        "tests/fixtures/social-sources/instagram-2026-10-02/0c33cbeaee16d0b976cad3c4c955c6c1e64c3310a467378aa228e4235189cbbd.html",
+        "tests/fixtures/social-sources/official-2026-10-02-network/ed7b56e1c676f657d48379fb43cdc259fe2fec94a6a50facfdd3e58ea1f4aac3.html",
+        "tests/fixtures/social-sources/official-2026-10-02-network/manifest.json"
+      ],
+      "signal_ids": [
+        "1c71b56962e0d2ae811b3ee993278164ee02526673af4083e70f630a1751f3f5"
+      ],
+      "canonical_candidate_urls": [
+        "https://www.instagram.com/p/DdfecQUjNZ5/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+      ],
+      "transport_final_urls": [
+        "https://www.facebook.com/unsupportedbrowser"
+      ],
+      "content_association": "independently_verified",
+      "account_result": "exact_account_verified"
+    },
+    {
+      "merchant": "Sushiro",
+      "normalized_merchant": "sushiro",
+      "platform": "instagram",
+      "account": "sushirosingapore",
+      "ownership": "verified",
+      "blockers": [],
+      "evidence_refs": [
+        "https://www.sushiro.com.sg/promo/",
+        "tests/fixtures/coverage-batch-2/sushiro/social-1/5ecdbe8d83dfd14558d264833b37d675ade5fbe0b703ed86eb3b86bdddb05a2d.html",
+        "tests/fixtures/coverage-batch-2/sushiro/web-2/d2a36725711a67a56fcd8b4e0900e35a1f069ed0bd69e1d23147cb2462c7201c.html",
+        "tests/fixtures/coverage-batch-2/sushiro/web-2/manifest.json"
+      ],
+      "signal_ids": [
+        "ab23c3152aa09a6d8ad2f60fe95a955c18e0ca1700f7842de8cdcd5f606c4373"
+      ],
+      "canonical_candidate_urls": [
+        "https://www.instagram.com/p/Ddp3ov4Fwng/?img_index=1&utm_source=telegram&utm_medium=TS"
+      ],
+      "transport_final_urls": [
+        "https://www.facebook.com/unsupportedbrowser"
+      ],
+      "content_association": "independently_verified",
+      "account_result": "exact_account_verified"
+    },
+    {
+      "merchant": "The Coffee Bean & Tea Leaf",
+      "normalized_merchant": "thecoffeebeantealeaf",
+      "platform": "instagram",
+      "account": "coffeebeansg",
+      "ownership": "verified",
+      "blockers": [],
+      "evidence_refs": [
+        "https://www.coffeebean.com.sg/",
+        "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/social-1/5243f9859f567961da82945a0190ca0f371f42b189afc59d9ae4a9f659cec15c.html",
+        "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/web-2/bd9425f9c29eeb5a55e744d7a630ff199259b301ef99dfe05aff22a87ba87a19.html",
+        "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/web-2/manifest.json"
+      ],
+      "signal_ids": [
+        "4c005bb0edfba511e19c02ecbfa3c117cd17f3c8afdd81a0087b67ca15969021"
+      ],
+      "canonical_candidate_urls": [
+        "https://www.instagram.com/p/DdgiQp9jdIl/?hl=en&utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+      ],
+      "transport_final_urls": [
+        "https://www.facebook.com/unsupportedbrowser"
+      ],
+      "content_association": "independently_verified",
+      "account_result": "exact_account_verified"
+    }
+  ],
+  "account_unresolved_content": [
+    {
+      "signal_id": "01a86f729ce87c846a7468ae9b8020d6fc03e12c9aaac3913c876177a9efc265",
+      "merchant": "Kei Kaisendon",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/DdWQHfKBdiK/?utm_source=telegram&utm_medium=TS",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "reason": "post_account_association_unproven"
+    },
+    {
+      "signal_id": "254d12f026a43d1897f4e6f93cd90643c045f162f44b3f78a4ed9db18e6c617e",
+      "merchant": "Poke Theory",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/DdiCeMoDVZk/?utm_source=telegram&utm_medium=TS",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "reason": "post_account_association_unproven"
+    },
+    {
+      "signal_id": "2e55e033777322682f4cfc759ae06309795c309811e103bc8265af801393f53b",
+      "merchant": "BOMUL Samgyetang",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/DdjTKPTzKUo/?utm_source=telegram&utm_medium=TS",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "reason": "post_account_association_unproven"
+    },
+    {
+      "signal_id": "38a4ef3d9994b7efe2e198280e588752c8f651556d10a13def6420083e92790c",
+      "merchant": "Marche",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/DdSzWl-jaY0/?hl=en&utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "reason": "post_account_association_unproven"
+    },
+    {
+      "signal_id": "843448b3de68694d6ce8c9827bfb829aaae606fc79c2ef02cde935c899f46005",
+      "merchant": "Tofu G Gelato",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/DdYsy1NyTF_/?utm_source=Telegram&utm_medium=TS&utm_campaign=TS_TofuGSuntec",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "reason": "post_account_association_unproven"
+    },
+    {
+      "signal_id": "8e98643bed778e409af3758d8944e3c0ee50768f4b3706ddeb3a597fe824bcab",
+      "merchant": "Beard Papa's",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/DdsjWF1jKhg/?utm_source=telegram&utm_medium=oct2026&utm_campaign=sgfooddeals",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "reason": "post_account_association_unproven"
+    },
+    {
+      "signal_id": "bf1086a22656949df94dbd4af4640ceaea9d046286ac806b85c94af7dbc20808",
+      "merchant": "Beard Papa’s",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/DdsjWF1jKhg/?utm_source=telegram&utm_medium=TS&utm_content=beard+papa%27s+1for1+bugis",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "reason": "post_account_association_unproven"
+    },
+    {
+      "signal_id": "ee71f4aa796e50924583c8acb225842c62a2bd49fb7b381a997ebbcb0ccb8bca",
+      "merchant": "Kei Kaisendon",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/DdMLD32Ivbz/?utm_source=telegram&utm_medium=TS",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "reason": "post_account_association_unproven"
+    }
+  ],
+  "excluded_records": [
+    {
+      "signal_id": "22d330504665493a941f07e00ea3646d7954414cd56b30ddbe1552435acc4953",
+      "url": "https://www.instagram.com/p/Dc-kxPJzx9B/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "context_or_non_promotion_discovery"
+    },
+    {
+      "signal_id": "22d330504665493a941f07e00ea3646d7954414cd56b30ddbe1552435acc4953",
+      "url": "https://www.instagram.com/p/DclNIIIj1Xk/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "context_or_non_promotion_discovery"
+    },
+    {
+      "signal_id": "22d330504665493a941f07e00ea3646d7954414cd56b30ddbe1552435acc4953",
+      "url": "https://www.instagram.com/p/DctAeflziKI/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "context_or_non_promotion_discovery"
+    },
+    {
+      "signal_id": "274976a1345abb6f7f690a04fde88c0aeec826f8dfe862a766f04822c59d3905",
+      "url": "https://www.instagram.com/p/DaDPBKmT1p9/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "merchant_identity_unresolved"
+    },
+    {
+      "signal_id": "293766e81f551b78d311eb34bd9676a0a890b7492f2e1de00d66266f2ee020d3",
+      "url": "https://www.instagram.com/p/Dc-kxPJzx9B/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "context_or_non_promotion_discovery"
+    },
+    {
+      "signal_id": "293766e81f551b78d311eb34bd9676a0a890b7492f2e1de00d66266f2ee020d3",
+      "url": "https://www.instagram.com/p/DclNIIIj1Xk/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "merchant_identity_unresolved"
+    },
+    {
+      "signal_id": "293766e81f551b78d311eb34bd9676a0a890b7492f2e1de00d66266f2ee020d3",
+      "url": "https://www.instagram.com/p/DctAeflziKI/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "context_or_non_promotion_discovery"
+    },
+    {
+      "signal_id": "2c4a2a34b21c820e8c6fd1d1bdae8cd968f8982fc73f9519c08dbf2e51fb483d",
+      "url": "https://www.facebook.com/share/p/1C5yPtNv4u/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "context_or_non_promotion_discovery"
+    },
+    {
+      "signal_id": "2c4a2a34b21c820e8c6fd1d1bdae8cd968f8982fc73f9519c08dbf2e51fb483d",
+      "url": "https://www.instagram.com/p/Dd0AjG3E06V/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "context_or_non_promotion_discovery"
+    },
+    {
+      "signal_id": "2c4a2a34b21c820e8c6fd1d1bdae8cd968f8982fc73f9519c08dbf2e51fb483d",
+      "url": "https://www.instagram.com/p/Dd5Grf1CMnZ/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "context_or_non_promotion_discovery"
+    },
+    {
+      "signal_id": "5423e94bf822765ebd5acdd10a1bad17969d217404e656753abff9e8ac9f6078",
+      "url": "https://www.instagram.com/p/Ddyc8V6gZis/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "merchant_identity_unresolved"
+    },
+    {
+      "signal_id": "68e5dff33f05ba3fb2caf4489a3e924142ddd1c0dc131094800fb2209afcff14",
+      "url": "https://www.instagram.com/p/Dc-kxPJzx9B/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "context_or_non_promotion_discovery"
+    },
+    {
+      "signal_id": "68e5dff33f05ba3fb2caf4489a3e924142ddd1c0dc131094800fb2209afcff14",
+      "url": "https://www.instagram.com/p/DclNIIIj1Xk/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "context_or_non_promotion_discovery"
+    },
+    {
+      "signal_id": "68e5dff33f05ba3fb2caf4489a3e924142ddd1c0dc131094800fb2209afcff14",
+      "url": "https://www.instagram.com/p/DctAeflziKI/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "context_or_non_promotion_discovery"
+    },
+    {
+      "signal_id": "857085fe541899b1ace9d6d2ed7973673b473d01d9dceeed4fb6129f3fd8ca02",
+      "url": "https://www.instagram.com/p/Dc-kxPJzx9B/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "context_or_non_promotion_discovery"
+    },
+    {
+      "signal_id": "857085fe541899b1ace9d6d2ed7973673b473d01d9dceeed4fb6129f3fd8ca02",
+      "url": "https://www.instagram.com/p/DclNIIIj1Xk/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "context_or_non_promotion_discovery"
+    },
+    {
+      "signal_id": "857085fe541899b1ace9d6d2ed7973673b473d01d9dceeed4fb6129f3fd8ca02",
+      "url": "https://www.instagram.com/p/DctAeflziKI/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "merchant_identity_unresolved"
+    },
+    {
+      "signal_id": "899707055b1bd4c0becd5d1100970b92baa4e097f59daf9aba9cce9d52f6de00",
+      "url": "https://www.facebook.com/share/p/1C5yPtNv4u/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "merchant_identity_unresolved"
+    },
+    {
+      "signal_id": "899707055b1bd4c0becd5d1100970b92baa4e097f59daf9aba9cce9d52f6de00",
+      "url": "https://www.instagram.com/p/Dd0AjG3E06V/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "context_or_non_promotion_discovery"
+    },
+    {
+      "signal_id": "899707055b1bd4c0becd5d1100970b92baa4e097f59daf9aba9cce9d52f6de00",
+      "url": "https://www.instagram.com/p/Dd5Grf1CMnZ/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "context_or_non_promotion_discovery"
+    },
+    {
+      "signal_id": "9e1694c30a20e0c67588124c25742de9893c2402806d2aa9e23877d4feb40e4f",
+      "url": "https://www.instagram.com/p/Dc-kxPJzx9B/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "context_or_non_promotion_discovery"
+    },
+    {
+      "signal_id": "9e1694c30a20e0c67588124c25742de9893c2402806d2aa9e23877d4feb40e4f",
+      "url": "https://www.instagram.com/p/DclNIIIj1Xk/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "context_or_non_promotion_discovery"
+    },
+    {
+      "signal_id": "9e1694c30a20e0c67588124c25742de9893c2402806d2aa9e23877d4feb40e4f",
+      "url": "https://www.instagram.com/p/DctAeflziKI/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "context_or_non_promotion_discovery"
+    },
+    {
+      "signal_id": "a88b70a217b1d9031629e6691210653089748a924d5aaeae59dc91e0683650ec",
+      "url": "https://www.facebook.com/share/p/1C5yPtNv4u/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "context_or_non_promotion_discovery"
+    },
+    {
+      "signal_id": "a88b70a217b1d9031629e6691210653089748a924d5aaeae59dc91e0683650ec",
+      "url": "https://www.instagram.com/p/Dd0AjG3E06V/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "context_or_non_promotion_discovery"
+    },
+    {
+      "signal_id": "a88b70a217b1d9031629e6691210653089748a924d5aaeae59dc91e0683650ec",
+      "url": "https://www.instagram.com/p/Dd5Grf1CMnZ/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "merchant_identity_unresolved"
+    },
+    {
+      "signal_id": "b58a5aa36888356a6034ca2f93cda1336fdf876f75f526b235c90cc6d2aa64c1",
+      "url": "https://www.facebook.com/share/p/1C5yPtNv4u/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "context_or_non_promotion_discovery"
+    },
+    {
+      "signal_id": "b58a5aa36888356a6034ca2f93cda1336fdf876f75f526b235c90cc6d2aa64c1",
+      "url": "https://www.instagram.com/p/Dd0AjG3E06V/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "merchant_identity_unresolved"
+    },
+    {
+      "signal_id": "b58a5aa36888356a6034ca2f93cda1336fdf876f75f526b235c90cc6d2aa64c1",
+      "url": "https://www.instagram.com/p/Dd5Grf1CMnZ/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "context_or_non_promotion_discovery"
+    },
+    {
+      "signal_id": "dbc1f962254eb4f16b44dc193a2994f8ebe10b9ea8797d81082101a4eb6ab024",
+      "url": "https://www.instagram.com/p/Dc-kxPJzx9B/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "merchant_identity_unresolved"
+    },
+    {
+      "signal_id": "dbc1f962254eb4f16b44dc193a2994f8ebe10b9ea8797d81082101a4eb6ab024",
+      "url": "https://www.instagram.com/p/DclNIIIj1Xk/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "context_or_non_promotion_discovery"
+    },
+    {
+      "signal_id": "dbc1f962254eb4f16b44dc193a2994f8ebe10b9ea8797d81082101a4eb6ab024",
+      "url": "https://www.instagram.com/p/DctAeflziKI/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "context_or_non_promotion_discovery"
+    },
+    {
+      "signal_id": "f9c1b5ae655ad2f933638dfa9ef01fad5dd93baaf91155221bc5e9f973986a6d",
+      "url": "https://www.instagram.com/p/Dc-kxPJzx9B/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "context_or_non_promotion_discovery"
+    },
+    {
+      "signal_id": "f9c1b5ae655ad2f933638dfa9ef01fad5dd93baaf91155221bc5e9f973986a6d",
+      "url": "https://www.instagram.com/p/DclNIIIj1Xk/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "context_or_non_promotion_discovery"
+    },
+    {
+      "signal_id": "f9c1b5ae655ad2f933638dfa9ef01fad5dd93baaf91155221bc5e9f973986a6d",
+      "url": "https://www.instagram.com/p/DctAeflziKI/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "reason": "context_or_non_promotion_discovery"
+    }
+  ],
+  "content_resolution": [
+    {
+      "signal_id": "b58a5aa36888356a6034ca2f93cda1336fdf876f75f526b235c90cc6d2aa64c1",
+      "merchant": "Borderless Coffee (https",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/Dd0AjG3E06V/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "outcome": "exact_account_unresolved",
+      "account": null,
+      "evidence_refs": []
+    },
+    {
+      "signal_id": "a88b70a217b1d9031629e6691210653089748a924d5aaeae59dc91e0683650ec",
+      "merchant": "Cedele (https",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/Dd5Grf1CMnZ/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "outcome": "exact_account_unresolved",
+      "account": null,
+      "evidence_refs": []
+    },
+    {
+      "signal_id": "899707055b1bd4c0becd5d1100970b92baa4e097f59daf9aba9cce9d52f6de00",
+      "merchant": "luckin coffee (https",
+      "platform": "facebook",
+      "canonical_candidate_url": "https://www.facebook.com/share/p/1C5yPtNv4u/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "outcome": "exact_account_unresolved",
+      "account": null,
+      "evidence_refs": []
+    },
+    {
+      "signal_id": "5423e94bf822765ebd5acdd10a1bad17969d217404e656753abff9e8ac9f6078",
+      "merchant": "",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/Ddyc8V6gZis/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "outcome": "exact_account_unresolved",
+      "account": null,
+      "evidence_refs": []
+    },
+    {
+      "signal_id": "ab23c3152aa09a6d8ad2f60fe95a955c18e0ca1700f7842de8cdcd5f606c4373",
+      "merchant": "Sushiro",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/Ddp3ov4Fwng/?img_index=1&utm_source=telegram&utm_medium=TS",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "outcome": "exact_account_verified",
+      "account": "sushirosingapore",
+      "evidence_refs": [
+        "tests/fixtures/coverage-batch-2/sushiro/social-1/5ecdbe8d83dfd14558d264833b37d675ade5fbe0b703ed86eb3b86bdddb05a2d.html"
+      ]
+    },
+    {
+      "signal_id": "f27a1414fc5e8120f9d0dc8ff3e82e13dca03bbdfed6be93e18eab9549c8bf6b",
+      "merchant": "D'Cuisine",
+      "platform": "tiktok",
+      "canonical_candidate_url": "https://www.tiktok.com/@dcuisines.restaurant/photo/7676695985245981960?is_from_webapp=1&sender_device=pc&utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "transport_final_url": "https://www.tiktok.com/@dcuisines.restaurant/photo/7676695985245981960?is_from_webapp=1&sender_device=pc&utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "outcome": "exact_account_unresolved",
+      "account": null,
+      "evidence_refs": []
+    },
+    {
+      "signal_id": "8e98643bed778e409af3758d8944e3c0ee50768f4b3706ddeb3a597fe824bcab",
+      "merchant": "Beard Papa's",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/DdsjWF1jKhg/?utm_source=telegram&utm_medium=oct2026&utm_campaign=sgfooddeals",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "outcome": "exact_account_unresolved",
+      "account": null,
+      "evidence_refs": []
+    },
+    {
+      "signal_id": "274976a1345abb6f7f690a04fde88c0aeec826f8dfe862a766f04822c59d3905",
+      "merchant": "",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/DaDPBKmT1p9/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "outcome": "exact_account_unresolved",
+      "account": null,
+      "evidence_refs": []
+    },
+    {
+      "signal_id": "9109c3090156de7bf9e4c037cad90eba9146ab9997597f1a0371d292c5ed7a3a",
+      "merchant": "SHINRAI",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/DDJfz9bynW-/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "outcome": "exact_account_verified",
+      "account": "shinrai.sg",
+      "evidence_refs": [
+        "tests/fixtures/social-sources/instagram-2026-10-02/d4e6906d14df0c893690ee09be1ee02cf95b4ee3d8e23c04754e8f6c945d824d.html"
+      ]
+    },
+    {
+      "signal_id": "bf1086a22656949df94dbd4af4640ceaea9d046286ac806b85c94af7dbc20808",
+      "merchant": "Beard Papa’s",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/DdsjWF1jKhg/?utm_source=telegram&utm_medium=TS&utm_content=beard+papa%27s+1for1+bugis",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "outcome": "exact_account_unresolved",
+      "account": null,
+      "evidence_refs": []
+    },
+    {
+      "signal_id": "e40cd2a0ae3f949195bd45de2327c4861a478b619ab6f1228bc6f533c9ec2bfe",
+      "merchant": "Sinpopo Brand",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/DdQA3EChsjx/?hl=en&utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "outcome": "exact_account_verified",
+      "account": "sinpopobrand",
+      "evidence_refs": [
+        "tests/fixtures/social-sources/instagram-2026-10-02/b8a9c64ae12fb643690c7ecacd692261fd58db662185d4824c3cbce299e76b52.html"
+      ]
+    },
+    {
+      "signal_id": "63d46e9e0f72c89156680ff4da845edcec52c915025e2c4e3944f0b5d874db9c",
+      "merchant": "McDonald’s",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/Ddp7EmljAbm/?utm_source=telegram&utm_medium=TS",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "outcome": "exact_account_verified",
+      "account": "mcdsg",
+      "evidence_refs": [
+        "tests/fixtures/coverage-batch-2/mcdonalds/social-1/a109165630e778eb62e139931f035477362c673052d5dd21e8254e76e2a8a24a.html"
+      ]
+    },
+    {
+      "signal_id": "2e55e033777322682f4cfc759ae06309795c309811e103bc8265af801393f53b",
+      "merchant": "BOMUL Samgyetang",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/DdjTKPTzKUo/?utm_source=telegram&utm_medium=TS",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "outcome": "exact_account_unresolved",
+      "account": null,
+      "evidence_refs": []
+    },
+    {
+      "signal_id": "38a4ef3d9994b7efe2e198280e588752c8f651556d10a13def6420083e92790c",
+      "merchant": "Marche",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/DdSzWl-jaY0/?hl=en&utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "outcome": "exact_account_unresolved",
+      "account": null,
+      "evidence_refs": []
+    },
+    {
+      "signal_id": "1c71b56962e0d2ae811b3ee993278164ee02526673af4083e70f630a1751f3f5",
+      "merchant": "Starbucks",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/DdfecQUjNZ5/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "outcome": "exact_account_verified",
+      "account": "starbuckssg",
+      "evidence_refs": [
+        "tests/fixtures/social-sources/instagram-2026-10-02/0c33cbeaee16d0b976cad3c4c955c6c1e64c3310a467378aa228e4235189cbbd.html"
+      ]
+    },
+    {
+      "signal_id": "4c005bb0edfba511e19c02ecbfa3c117cd17f3c8afdd81a0087b67ca15969021",
+      "merchant": "The Coffee Bean & Tea Leaf",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/DdgiQp9jdIl/?hl=en&utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "outcome": "exact_account_verified",
+      "account": "coffeebeansg",
+      "evidence_refs": [
+        "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/social-1/5243f9859f567961da82945a0190ca0f371f42b189afc59d9ae4a9f659cec15c.html"
+      ]
+    },
+    {
+      "signal_id": "a041b1bb0fcbd4fa6c24dc5feddc0a43365f70ba21522fe9f87b17c83fbc1f36",
+      "merchant": "Bari Bari Steak",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/DdbNN-YicMs/?utm_source=telegram&utm_medium=TS",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "outcome": "exact_account_verified",
+      "account": "baribaristeaksg",
+      "evidence_refs": [
+        "tests/fixtures/coverage-batch-2/baribaristeak/social-1/bc8c8df9ac5ee6d31573e1a4dfff4e040f86733afc66759e3703f0605ea08b38.html"
+      ]
+    },
+    {
+      "signal_id": "254d12f026a43d1897f4e6f93cd90643c045f162f44b3f78a4ed9db18e6c617e",
+      "merchant": "Poke Theory",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/DdiCeMoDVZk/?utm_source=telegram&utm_medium=TS",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "outcome": "exact_account_unresolved",
+      "account": null,
+      "evidence_refs": []
+    },
+    {
+      "signal_id": "dbc1f962254eb4f16b44dc193a2994f8ebe10b9ea8797d81082101a4eb6ab024",
+      "merchant": "Ajumma Off-Peak Deals (http",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/Dc-kxPJzx9B/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "outcome": "exact_account_verified",
+      "account": "ajummasg",
+      "evidence_refs": [
+        "tests/fixtures/social-sources/instagram-2026-10-02/9b7ee95414c063b60f90a74e69d1a51d62010e45a4899a11bfa1ae1a507f593e.html"
+      ]
+    },
+    {
+      "signal_id": "293766e81f551b78d311eb34bd9676a0a890b7492f2e1de00d66266f2ee020d3",
+      "merchant": "Jollibee Shiok Savers Sets (https",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/DclNIIIj1Xk/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "outcome": "exact_account_unresolved",
+      "account": null,
+      "evidence_refs": []
+    },
+    {
+      "signal_id": "857085fe541899b1ace9d6d2ed7973673b473d01d9dceeed4fb6129f3fd8ca02",
+      "merchant": "Kimpson's Table Korean Noodles (https",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/DctAeflziKI/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "outcome": "exact_account_unresolved",
+      "account": null,
+      "evidence_refs": []
+    },
+    {
+      "signal_id": "12ceb8992cb9337f5b8ac44c00051e07100bf5524974a713d34fdd52d3ffd6ca",
+      "merchant": "Pizza Hut",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/DdDr_9tigEc/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "outcome": "exact_account_unverified",
+      "account": "pizzahut_sg",
+      "evidence_refs": [
+        "tests/fixtures/coverage-batch-2/pizzahut/social-1/f462499a81700beab0d23b0b60a80156836dc0bb12051042d5e5679df88d09a3.html"
+      ]
+    },
+    {
+      "signal_id": "843448b3de68694d6ce8c9827bfb829aaae606fc79c2ef02cde935c899f46005",
+      "merchant": "Tofu G Gelato",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/DdYsy1NyTF_/?utm_source=Telegram&utm_medium=TS&utm_campaign=TS_TofuGSuntec",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "outcome": "exact_account_unresolved",
+      "account": null,
+      "evidence_refs": []
+    },
+    {
+      "signal_id": "01a86f729ce87c846a7468ae9b8020d6fc03e12c9aaac3913c876177a9efc265",
+      "merchant": "Kei Kaisendon",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/DdWQHfKBdiK/?utm_source=telegram&utm_medium=TS",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "outcome": "exact_account_unresolved",
+      "account": null,
+      "evidence_refs": [
+        "tests/fixtures/coverage-batch-2/keikaisendon/social-1/e376e6c59bb1777b5c50ad1ca78fe9d270649c98af2b022c6d5444d2e353e2c3.html"
+      ]
+    },
+    {
+      "signal_id": "ee71f4aa796e50924583c8acb225842c62a2bd49fb7b381a997ebbcb0ccb8bca",
+      "merchant": "Kei Kaisendon",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/DdMLD32Ivbz/?utm_source=telegram&utm_medium=TS",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "outcome": "exact_account_unresolved",
+      "account": null,
+      "evidence_refs": [
+        "tests/fixtures/coverage-batch-2/keikaisendon/social-1/da472c095863a50465185024f1997f1bf85edb32402c401c16aa8ee79206e433.html"
+      ]
+    },
+    {
+      "signal_id": "9ce240c76b2b0b286ca4f62bb61af07d272b7e662411f210d51124d4fa1360cd",
+      "merchant": "Bari Bari Steak",
+      "platform": "facebook",
+      "canonical_candidate_url": "https://www.facebook.com/reel/2213996399456039?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "outcome": "exact_account_verified",
+      "account": "61583504727882",
+      "evidence_refs": [
+        "tests/fixtures/coverage-batch-2/baribaristeak/social-1/5cf40ec5139d7ad83e9cf5ef0ba9243d870508a74651d9ce02996112ea18c4d4.html"
+      ]
+    },
+    {
+      "signal_id": "ee402a73e9b362c1d71a2e66faaa3fad27345e64e34b08c3d11dcd675bdefd6b",
+      "merchant": "McDonald's",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/DdQIFcCB6TP/?utm_source=Telegram&utm_medium=TS&utm_campaign=TS_$6McSpicy",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "outcome": "exact_account_verified",
+      "account": "mcdsg",
+      "evidence_refs": [
+        "tests/fixtures/coverage-batch-2/mcdonalds/social-1/6f679128edcf08ee10c55840bf03ba8432b0070b359f9a99ed202ca704e050e3.html"
+      ]
+    },
+    {
+      "signal_id": "3d2d04aa073b6b79b46faa22eecc80f36216cedda95b632ba1f99c1d44d022f9",
+      "merchant": "Bari Bari Steak",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/DdF3_bwEeGK/?hl=en&utm_source=Telegram&utm_medium=TS&utm_campaign=TS_BariBariSteak-1f1",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "outcome": "exact_account_verified",
+      "account": "baribaristeaksg",
+      "evidence_refs": [
+        "tests/fixtures/coverage-batch-2/baribaristeak/social-1/d1b506418caa115d5ce6a391477d1ad9c0f6eb910f3a6a8b26920297d897d5df.html"
+      ]
+    },
+    {
+      "signal_id": "20c3a0c128c2a30e6e649b9c83b0e9e1bc2c71cd7a880b716613524b0ab28943",
+      "merchant": "Ajumma's Korean Restaurant",
+      "platform": "instagram",
+      "canonical_candidate_url": "https://www.instagram.com/p/Dc-kxPJzx9B/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "outcome": "exact_account_verified",
+      "account": "ajummasg",
+      "evidence_refs": [
+        "tests/fixtures/social-sources/instagram-2026-10-02/9b7ee95414c063b60f90a74e69d1a51d62010e45a4899a11bfa1ae1a507f593e.html"
+      ]
+    }
+  ]
+}

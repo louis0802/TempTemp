@@ -1,0 +1,447 @@
+{
+  "version": 1,
+  "before": {
+    "merchant_count": 139,
+    "distinct_adapter_counts": {
+      "enabled": 2,
+      "shadow": 5
+    },
+    "historical_merchant_count": 138,
+    "registry_only_merchant_count": 1,
+    "progress_counts": {
+      "auto_enabled": 2,
+      "shadow_only": 5,
+      "blocked": 5,
+      "source_candidate": 13,
+      "not_assessed": 113
+    },
+    "auto_enabled_percentage": 1.45,
+    "merchants_with_verified_instagram_candidate": 4,
+    "merchants_with_unverified_instagram_candidate": 11,
+    "source_counts": {
+      "enabled_source_definitions": 2,
+      "shadow_source_definitions": 5,
+      "blocked_research_assessments": 5,
+      "social_account_candidates": 5
+    },
+    "adapter_status_counts": {
+      "enabled": 2,
+      "none": 131,
+      "shadow": 6
+    },
+    "autonomous_status_counts": {
+      "disabled_shadow": 6,
+      "enabled": 2,
+      "not_onboarded": 131
+    },
+    "source_family_counts": {
+      "app_deeplink_only": 1,
+      "app_deeplink_with_public_directory": 1,
+      "corporate_html_promotion_directory": 1,
+      "json_backed_retail_promotions": 1,
+      "platform_static_campaign": 1,
+      "wix_promotion_collection": 1,
+      "woocommerce_sale_catalog": 1,
+      "wordpress_dated_promotions": 1,
+      "wordpress_promotion_directory": 3
+    },
+    "unresolved_record_count": 67
+  },
+  "after": {
+    "merchant_count": 138,
+    "distinct_adapter_counts": {
+      "enabled": 2,
+      "shadow": 9
+    },
+    "historical_merchant_count": 137,
+    "registry_only_merchant_count": 1,
+    "progress_counts": {
+      "auto_enabled": 2,
+      "shadow_only": 9,
+      "blocked": 10,
+      "source_candidate": 10,
+      "not_assessed": 106
+    },
+    "auto_enabled_percentage": 1.46,
+    "merchants_with_verified_instagram_candidate": 14,
+    "merchants_with_unverified_instagram_candidate": 8,
+    "source_counts": {
+      "enabled_source_definitions": 2,
+      "shadow_source_definitions": 9,
+      "blocked_research_assessments": 24,
+      "social_account_candidates": 18
+    },
+    "adapter_status_counts": {
+      "enabled": 2,
+      "none": 126,
+      "shadow": 10
+    },
+    "autonomous_status_counts": {
+      "disabled_shadow": 10,
+      "enabled": 2,
+      "not_onboarded": 126
+    },
+    "source_family_counts": {
+      "app_deeplink_only": 1,
+      "app_deeplink_with_public_directory": 1,
+      "corporate_html_promotion_directory": 6,
+      "headless_static_catalogue": 1,
+      "json_backed_retail_promotions": 1,
+      "merchant_campaign_page": 1,
+      "platform_static_campaign": 1,
+      "unknown": 1,
+      "wix_promotion_collection": 1,
+      "woocommerce_sale_catalog": 1,
+      "wordpress_dated_promotions": 1,
+      "wordpress_promotion_directory": 7
+    },
+    "unresolved_record_count": 67
+  },
+  "delta": {
+    "auto_enabled": 0,
+    "shadow_only": 4,
+    "blocked": 5,
+    "source_candidate": -3,
+    "not_assessed": -7
+  },
+  "aliases": [
+    {
+      "alias": "Ajumma’s",
+      "canonical": "Ajumma's Korean Restaurant",
+      "basis": "merchant_self_identification",
+      "reason": "Official merchant page title and description explicitly self-identify both historical labels as the same restaurant. No spelling/operator inference.",
+      "url": "https://www.ajummassg.com/",
+      "capture_file": "tests/fixtures/social-sources/official-2026-10-02-network/f7b3a69eed9d6b08ab0d8238a2c3041b8ddfd3bcf7094222b98475cf8d08c9d6.html",
+      "capture_sha256": "f7b3a69eed9d6b08ab0d8238a2c3041b8ddfd3bcf7094222b98475cf8d08c9d6",
+      "assertions": [
+        {
+          "selector": "title",
+          "quote": "Ajumma's Korean Restaurant"
+        },
+        {
+          "selector": "meta[name=\"description\"]",
+          "attribute": "content",
+          "quote": "Ajumma’s is a young fast-casual Korean restaurant established in Singapore, 2014"
+        }
+      ]
+    }
+  ],
+  "moved_out_of_not_assessed": [
+    "Kimpson's Table",
+    "More Yogurt",
+    "Shiok Burger",
+    "Gelare",
+    "4Fingers",
+    "Captain Kim"
+  ],
+  "moved_out_of_source_candidate": [
+    "McDonald's",
+    "Sushiro",
+    "Bari Bari Steak",
+    "The Coffee Bean & Tea Leaf"
+  ],
+  "rows": [
+    {
+      "merchant": "Kimpson's Table",
+      "tg_signals": 3,
+      "tg_offers": 8,
+      "web_state": "blocked",
+      "social_state": "instagram:kimpsonstable.sg:candidate; instagram:kimpsonstable:blocked",
+      "ownership": "unverified; verified",
+      "enumeration": "not_enumerable",
+      "candidates": 0,
+      "excluded": 0,
+      "review": 0,
+      "ready": 0,
+      "final_progress": "source_candidate",
+      "next_action": "verify_instagram_ownership",
+      "main_blockers": [
+        "automated_access_permission_unestablished",
+        "bounded_feed_boundary_unproven",
+        "current_venue_account_ownership_unverified",
+        "ownership_unverified",
+        "post_account_association_unproven",
+        "promotion_directory_absent",
+        "public_feed_not_exposed",
+        "storefront_closed"
+      ]
+    },
+    {
+      "merchant": "More Yogurt",
+      "tg_signals": 3,
+      "tg_offers": 5,
+      "web_state": "blocked",
+      "social_state": "no merchant-controlled link verified",
+      "ownership": "probable",
+      "enumeration": "not_established",
+      "candidates": 0,
+      "excluded": 0,
+      "review": 0,
+      "ready": 0,
+      "final_progress": "blocked",
+      "next_action": "blocked_no_safe_public_source",
+      "main_blockers": [
+        "global_news_not_singapore_campaign_authority",
+        "singapore_operator_and_domain_unverified",
+        "singapore_outlet_directory_unavailable"
+      ]
+    },
+    {
+      "merchant": "Shiok Burger",
+      "tg_signals": 2,
+      "tg_offers": 5,
+      "web_state": "blocked",
+      "social_state": "instagram:shiokburger_sg:blocked",
+      "ownership": "verified",
+      "enumeration": "not_enumerable",
+      "candidates": 0,
+      "excluded": 0,
+      "review": 0,
+      "ready": 0,
+      "final_progress": "blocked",
+      "next_action": "blocked_no_safe_public_source",
+      "main_blockers": [
+        "automated_access_permission_unestablished",
+        "bounded_feed_boundary_unproven",
+        "official_outlet_directory_unavailable",
+        "post_account_association_unproven",
+        "promotion_directory_absent",
+        "unknown_continuation"
+      ]
+    },
+    {
+      "merchant": "Gelare",
+      "tg_signals": 1,
+      "tg_offers": 3,
+      "web_state": "blocked",
+      "social_state": "instagram:gelaresg:blocked",
+      "ownership": "verified",
+      "enumeration": "gallery_visible",
+      "candidates": 0,
+      "excluded": 0,
+      "review": 0,
+      "ready": 0,
+      "final_progress": "blocked",
+      "next_action": "blocked_no_safe_public_source",
+      "main_blockers": [
+        "automated_access_permission_unestablished",
+        "bounded_feed_boundary_unproven",
+        "image_only_campaign_facts",
+        "opaque_gallery_titles",
+        "post_account_association_unproven",
+        "safe_textual_acquisition_unavailable",
+        "unknown_continuation"
+      ]
+    },
+    {
+      "merchant": "4Fingers",
+      "tg_signals": 2,
+      "tg_offers": 2,
+      "web_state": "blocked",
+      "social_state": "instagram:gimme4fingers:blocked",
+      "ownership": "verified",
+      "enumeration": "not_enumerable",
+      "candidates": 0,
+      "excluded": 0,
+      "review": 0,
+      "ready": 0,
+      "final_progress": "blocked",
+      "next_action": "blocked_no_safe_public_source",
+      "main_blockers": [
+        "automated_access_permission_unestablished",
+        "bounded_feed_boundary_unproven",
+        "no_public_bounded_enumeration",
+        "post_account_association_unproven",
+        "public_promotion_html_js_shell",
+        "unknown_continuation"
+      ]
+    },
+    {
+      "merchant": "Captain Kim",
+      "tg_signals": 2,
+      "tg_offers": 2,
+      "web_state": "shadow",
+      "social_state": "instagram:captainkimsg:blocked",
+      "ownership": "verified",
+      "enumeration": "partial",
+      "candidates": 7,
+      "excluded": 1,
+      "review": 6,
+      "ready": 0,
+      "final_progress": "shadow_only",
+      "next_action": "resolve_web_enumeration",
+      "main_blockers": [
+        "automated_access_permission_unestablished",
+        "bounded_feed_boundary_unproven",
+        "captain_campaigns_outside_central_index",
+        "image_text_equivalence_unproven",
+        "post_account_association_unproven",
+        "unknown_continuation",
+        "venue_page_scope_requires_review"
+      ]
+    },
+    {
+      "merchant": "Pizza Hut",
+      "tg_signals": 3,
+      "tg_offers": 8,
+      "web_state": "blocked",
+      "social_state": "instagram:pizzahut_sg:candidate",
+      "ownership": "probable; unverified",
+      "enumeration": "not_enumerable",
+      "candidates": 0,
+      "excluded": 0,
+      "review": 0,
+      "ready": 0,
+      "final_progress": "source_candidate",
+      "next_action": "verify_instagram_ownership",
+      "main_blockers": [
+        "automated_access_permission_unestablished",
+        "blocked_public_access",
+        "bounded_feed_boundary_unproven",
+        "exact_social_ownership_backlink_unavailable",
+        "location_dependent_commerce_unresolved",
+        "ownership_unverified",
+        "public_promotion_html_js_shell",
+        "unknown_continuation"
+      ]
+    },
+    {
+      "merchant": "Kei Kaisendon",
+      "tg_signals": 5,
+      "tg_offers": 5,
+      "web_state": "blocked",
+      "social_state": "instagram:keikaisendon:blocked; instagram:account unresolved:candidate; instagram:account unresolved:candidate",
+      "ownership": "unverified; verified",
+      "enumeration": "not_enumerable",
+      "candidates": 0,
+      "excluded": 0,
+      "review": 0,
+      "ready": 0,
+      "final_progress": "source_candidate",
+      "next_action": "verify_instagram_ownership",
+      "main_blockers": [
+        "automated_access_permission_unestablished",
+        "bounded_feed_boundary_unproven",
+        "cached_social_widget_not_authoritative_feed",
+        "exact_account_unresolved",
+        "ownership_unverified",
+        "post_account_association_unproven",
+        "promotion_directory_absent",
+        "unknown_continuation"
+      ]
+    },
+    {
+      "merchant": "McDonald's",
+      "tg_signals": 4,
+      "tg_offers": 4,
+      "web_state": "shadow",
+      "social_state": "instagram:mcdsg:blocked",
+      "ownership": "verified",
+      "enumeration": "partial",
+      "candidates": 2,
+      "excluded": 0,
+      "review": 2,
+      "ready": 0,
+      "final_progress": "shadow_only",
+      "next_action": "resolve_web_enumeration",
+      "main_blockers": [
+        "automated_access_permission_unestablished",
+        "bounded_feed_boundary_unproven",
+        "mcd_campaigns_outside_news_directory",
+        "mcd_news_load_more_unresolved",
+        "multiple_propositions_require_review",
+        "official_outlet_directory_app_only",
+        "unknown_continuation"
+      ]
+    },
+    {
+      "merchant": "Sushiro",
+      "tg_signals": 4,
+      "tg_offers": 4,
+      "web_state": "shadow",
+      "social_state": "instagram:sushirosingapore:blocked",
+      "ownership": "verified",
+      "enumeration": "partial",
+      "candidates": 1,
+      "excluded": 0,
+      "review": 1,
+      "ready": 0,
+      "final_progress": "shadow_only",
+      "next_action": "resolve_web_enumeration",
+      "main_blockers": [
+        "automated_access_permission_unestablished",
+        "bounded_feed_boundary_unproven",
+        "outlet_participation_unstated",
+        "sushiro_directory_boundary_unproven",
+        "unknown_continuation",
+        "validity_year_unstated"
+      ]
+    },
+    {
+      "merchant": "Bari Bari Steak",
+      "tg_signals": 3,
+      "tg_offers": 3,
+      "web_state": "shadow",
+      "social_state": "facebook:61583504727882:candidate; instagram:baribaristeaksg:blocked",
+      "ownership": "verified",
+      "enumeration": "partial",
+      "candidates": 5,
+      "excluded": 0,
+      "review": 5,
+      "ready": 0,
+      "final_progress": "shadow_only",
+      "next_action": "resolve_web_enumeration",
+      "main_blockers": [
+        "automated_access_permission_unestablished",
+        "bari_grid_continuation_unproven",
+        "bounded_feed_boundary_unproven",
+        "campaign_validity_unspecified",
+        "detail_campaign_body_unassociated",
+        "outlet_time_groups_require_review",
+        "unknown_continuation"
+      ]
+    },
+    {
+      "merchant": "The Coffee Bean & Tea Leaf",
+      "tg_signals": 3,
+      "tg_offers": 3,
+      "web_state": "blocked",
+      "social_state": "instagram:coffeebeansg:blocked",
+      "ownership": "verified",
+      "enumeration": "not_enumerable",
+      "candidates": 0,
+      "excluded": 0,
+      "review": 0,
+      "ready": 0,
+      "final_progress": "blocked",
+      "next_action": "blocked_no_safe_public_source",
+      "main_blockers": [
+        "app_voucher_validity_not_public",
+        "automated_access_permission_unestablished",
+        "bounded_feed_boundary_unproven",
+        "commerce_catalogue_not_campaigns",
+        "promotion_directory_absent",
+        "unknown_continuation"
+      ]
+    }
+  ],
+  "newly_enabled": [],
+  "newly_shadow": [
+    "Captain Kim",
+    "McDonald's",
+    "Sushiro",
+    "Bari Bari Steak"
+  ],
+  "newly_blocked": [
+    "More Yogurt",
+    "Shiok Burger",
+    "Gelare",
+    "4Fingers",
+    "The Coffee Bean & Tea Leaf"
+  ],
+  "remaining_candidates": [
+    "Kimpson's Table",
+    "Pizza Hut",
+    "Kei Kaisendon"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "merchant": "fairprice",
+  "limits": {
+    "maxRequests": 40,
+    "maxListingPages": 5,
+    "maxDetailPages": 20,
+    "maxEvidencePages": 8,
+    "maxBytes": 3000000,
+    "timeoutMs": 12000,
+    "maxRedirects": 3
+  },
+  "jobs": [
+    {
+      "url": "https://promotions.fairprice.com.sg/price-drop-buy-now-weekly-offers-from-20-off/",
+      "purpose": "exact catalogue-detail rendering and product/participation boundary",
+      "kind": "detail"
+    },
+    {
+      "url": "https://promotions.fairprice.com.sg/made-in-singapore/",
+      "purpose": "second exact catalogue-detail rendering sample",
+      "kind": "detail"
+    }
+  ],
+  "attempts": [
+    {
+      "url": "https://promotions.fairprice.com.sg/price-drop-buy-now-weekly-offers-from-20-off/",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://promotions.fairprice.com.sg/made-in-singapore/",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    }
+  ],
+  "captures": [
+    {
+      "requestedUrl": "https://promotions.fairprice.com.sg/price-drop-buy-now-weekly-offers-from-20-off/",
+      "finalUrl": "https://promotions.fairprice.com.sg/price-drop-buy-now-weekly-offers-from-20-off/",
+      "capturedAt": "2026-10-01T13:15:24.997Z",
+      "observedAt": "2026-10-01T13:15:24.997Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 216492,
+      "sha256": "5b3e5ef9c763f95ebf9222bffe1387325df054956f5e2f6340c697246f642cbb",
+      "path": "5b3e5ef9c763f95ebf9222bffe1387325df054956f5e2f6340c697246f642cbb.html",
+      "purpose": "exact catalogue-detail rendering and product/participation boundary",
+      "kind": "detail",
+      "accessBlocked": false
+    },
+    {
+      "requestedUrl": "https://promotions.fairprice.com.sg/made-in-singapore/",
+      "finalUrl": "https://promotions.fairprice.com.sg/made-in-singapore/",
+      "capturedAt": "2026-10-01T13:15:25.394Z",
+      "observedAt": "2026-10-01T13:15:25.394Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 215975,
+      "sha256": "92cc2a2febd09b2d586fae78aa66b39ca4c882cc41df76bf3f32aa9522bcde1d",
+      "path": "92cc2a2febd09b2d586fae78aa66b39ca4c882cc41df76bf3f32aa9522bcde1d.html",
+      "purpose": "second exact catalogue-detail rendering sample",
+      "kind": "detail",
+      "accessBlocked": false
+    }
+  ],
+  "failures": [],
+  "cumulativeCounts": {
+    "listing": 3,
+    "detail": 2,
+    "evidence": 1
+  },
+  "cumulativeAttempts": 6,
+  "note": "Explicit public research roots, ordinary bounded direct transport; no cookies/auth/private APIs/OCR or browser. Research evidence is not production registration."
+}

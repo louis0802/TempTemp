@@ -1,0 +1,40 @@
+{
+  "observedAt": "2026-09-30T14:00:00.000Z",
+  "pages": {
+    "https://www.pepperlunch.com.sg/promo/": {
+      "path": "pepper-listing.html",
+      "contentType": "text/html",
+      "status": 200
+    },
+    "https://www.pepperlunch.com.sg/promo/uper-value-deal/": {
+      "path": "pepper-detail.html",
+      "contentType": "text/html",
+      "status": 200
+    },
+    "https://www.paradisegp.com/": {
+      "path": "paradise-listing.html",
+      "contentType": "text/html",
+      "status": 200
+    },
+    "https://www.paradisegp.com/paradise-hotpot/": {
+      "path": "paradise-hotpot.html",
+      "contentType": "text/html",
+      "status": 200
+    },
+    "https://www.paradisegp.com/promotions/mondayismembersday/": {
+      "path": "paradise-detail.html",
+      "contentType": "text/html",
+      "status": 200
+    },
+    "https://www.paradisegp.com/promotions/celebrating-paradise-gourmet-rewards-15th-anniversary/": {
+      "path": "paradise-anniversary.html",
+      "contentType": "text/html",
+      "status": 200
+    },
+    "https://www.paradisegp.com/wp-content/uploads/Viewing-All-you-can-eat-90mins_6pp.pdf": {
+      "path": "paradise-menu.pdf",
+      "contentType": "application/pdf",
+      "status": 200
+    }
+  }
+}

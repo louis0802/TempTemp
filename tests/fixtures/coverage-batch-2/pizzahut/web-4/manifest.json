@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T04:04:16.131Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://www.instagram.com/pizzahut_sg/",
+      "url": "https://www.instagram.com/pizzahut_sg/",
+      "status": 200,
+      "content_type": "text/html; charset=\"utf-8\"",
+      "redirect_to": null,
+      "file": "d0542ee2fdd7697614e285cb09fc0c960bfd6faf8740527c3bd80a7ecc735d1e.html",
+      "sha256": "d0542ee2fdd7697614e285cb09fc0c960bfd6faf8740527c3bd80a7ecc735d1e",
+      "bytes": 867694,
+      "error": null
+    },
+    {
+      "requested_url": "https://www.pizzahut.com.sg/assets/index-3bea1b12.js",
+      "url": "https://www.pizzahut.com.sg/assets/index-3bea1b12.js",
+      "status": null,
+      "content_type": null,
+      "redirect_to": null,
+      "file": null,
+      "sha256": null,
+      "bytes": 0,
+      "error": "response_too_large"
+    }
+  ]
+}

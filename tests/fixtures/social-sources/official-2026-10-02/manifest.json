@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-01T18:35:28.204Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://poketheory.com.sg/",
+      "url": "https://poketheory.com.sg/",
+      "status": null,
+      "content_type": null,
+      "redirect_to": null,
+      "file": null,
+      "sha256": null,
+      "bytes": 0,
+      "error": "getaddrinfo ENOTFOUND poketheory.com.sg"
+    },
+    {
+      "requested_url": "https://www.ajummassg.com/",
+      "url": "https://www.ajummassg.com/",
+      "status": null,
+      "content_type": null,
+      "redirect_to": null,
+      "file": null,
+      "sha256": null,
+      "bytes": 0,
+      "error": "getaddrinfo ENOTFOUND www.ajummassg.com"
+    },
+    {
+      "requested_url": "https://www.beardpapa.com.sg/",
+      "url": "https://www.beardpapa.com.sg/",
+      "status": null,
+      "content_type": null,
+      "redirect_to": null,
+      "file": null,
+      "sha256": null,
+      "bytes": 0,
+      "error": "getaddrinfo ENOTFOUND www.beardpapa.com.sg"
+    },
+    {
+      "requested_url": "https://www.shinrai.sg/",
+      "url": "https://www.shinrai.sg/",
+      "status": null,
+      "content_type": null,
+      "redirect_to": null,
+      "file": null,
+      "sha256": null,
+      "bytes": 0,
+      "error": "getaddrinfo ENOTFOUND www.shinrai.sg"
+    },
+    {
+      "requested_url": "https://www.sinpopo.com/",
+      "url": "https://www.sinpopo.com/",
+      "status": null,
+      "content_type": null,
+      "redirect_to": null,
+      "file": null,
+      "sha256": null,
+      "bytes": 0,
+      "error": "getaddrinfo ENOTFOUND www.sinpopo.com"
+    },
+    {
+      "requested_url": "https://www.starbucks.com.sg/",
+      "url": "https://www.starbucks.com.sg/",
+      "status": null,
+      "content_type": null,
+      "redirect_to": null,
+      "file": null,
+      "sha256": null,
+      "bytes": 0,
+      "error": "getaddrinfo ENOTFOUND www.starbucks.com.sg"
+    }
+  ]
+}

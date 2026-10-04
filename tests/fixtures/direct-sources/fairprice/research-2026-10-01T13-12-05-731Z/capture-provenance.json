@@ -1,0 +1,85 @@
+{
+  "merchant": "fairprice",
+  "limits": {
+    "maxRequests": 40,
+    "maxListingPages": 5,
+    "maxDetailPages": 20,
+    "maxEvidencePages": 8,
+    "maxBytes": 3000000,
+    "timeoutMs": 12000,
+    "maxRedirects": 3
+  },
+  "jobs": [
+    {
+      "url": "https://www.fairprice.com.sg/weekly-promotions",
+      "purpose": "official linked weekly campaign catalogues",
+      "kind": "listing"
+    },
+    {
+      "url": "https://help.fairprice.com.sg/hc/en-us/articles/360025882372-Terms-Conditions",
+      "purpose": "independent legal operator declaration naming exact website",
+      "kind": "evidence"
+    }
+  ],
+  "attempts": [
+    {
+      "url": "https://www.fairprice.com.sg/weekly-promotions",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://help.fairprice.com.sg/hc/en-us/articles/360025882372-Terms-Conditions",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": 403,
+      "error": "http_403",
+      "redirectTo": null
+    }
+  ],
+  "captures": [
+    {
+      "requestedUrl": "https://www.fairprice.com.sg/weekly-promotions",
+      "finalUrl": "https://www.fairprice.com.sg/weekly-promotions",
+      "capturedAt": "2026-10-01T13:12:05.733Z",
+      "observedAt": "2026-10-01T13:12:05.733Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 181608,
+      "sha256": "de5d490deac380207e0546646376e4cb0934bb9839ebf9dd73bb0c512ea93aff",
+      "path": "de5d490deac380207e0546646376e4cb0934bb9839ebf9dd73bb0c512ea93aff.html",
+      "purpose": "official linked weekly campaign catalogues",
+      "kind": "listing",
+      "accessBlocked": false
+    },
+    {
+      "requestedUrl": "https://help.fairprice.com.sg/hc/en-us/articles/360025882372-Terms-Conditions",
+      "finalUrl": "https://help.fairprice.com.sg/hc/en-us/articles/360025882372-Terms-Conditions",
+      "capturedAt": "2026-10-01T13:12:06.094Z",
+      "observedAt": "2026-10-01T13:12:06.094Z",
+      "httpStatus": 403,
+      "contentType": "text/html",
+      "bytes": 5745,
+      "sha256": "ab10f28912e1582c1da44fff310b5490c37384f4e5b6c2c765a93c74c9f5b7ef",
+      "path": "ab10f28912e1582c1da44fff310b5490c37384f4e5b6c2c765a93c74c9f5b7ef.html",
+      "purpose": "independent legal operator declaration naming exact website",
+      "kind": "evidence",
+      "accessBlocked": true
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://help.fairprice.com.sg/hc/en-us/articles/360025882372-Terms-Conditions",
+      "error": "http_403"
+    }
+  ],
+  "cumulativeCounts": {
+    "listing": 3,
+    "detail": 0,
+    "evidence": 1
+  },
+  "cumulativeAttempts": 4,
+  "note": "Explicit public research roots, ordinary bounded direct transport; no cookies/auth/private APIs/OCR or browser. Research evidence is not production registration."
+}

@@ -1,0 +1,335 @@
+{
+  "runId": "2026-10-03T12-27-12-562Z-9462a1b1-79e5-4fd4-8667-3d2de72e16d1",
+  "sourceCases": 49,
+  "stageExecution": {
+    "1": {
+      "tasks": 49,
+      "launched": 49,
+      "completed": 49,
+      "syntaxMalformed": 0,
+      "structuralMalformed": 7,
+      "usable": 42,
+      "validationIssues": {
+        "duplicate_evidence_quote": 6,
+        "non_source_evidence": 1
+      },
+      "outputItems": 887
+    },
+    "2": {
+      "tasks": 42,
+      "launched": 42,
+      "completed": 42,
+      "syntaxMalformed": 0,
+      "structuralMalformed": 0,
+      "usable": 42,
+      "validationIssues": {},
+      "outputItems": 65
+    },
+    "3": {
+      "tasks": 42,
+      "launched": 42,
+      "completed": 42,
+      "syntaxMalformed": 2,
+      "structuralMalformed": 0,
+      "usable": 40,
+      "validationIssues": {
+        "syntax_malformed": 2
+      },
+      "outputItems": 624
+    },
+    "4": {
+      "tasks": 61,
+      "launched": 61,
+      "completed": 61,
+      "syntaxMalformed": 0,
+      "structuralMalformed": 0,
+      "usable": 61,
+      "validationIssues": {},
+      "outputItems": null
+    },
+    "5": {
+      "tasks": 34,
+      "launched": 34,
+      "completed": 34,
+      "syntaxMalformed": 0,
+      "structuralMalformed": 8,
+      "usable": 26,
+      "validationIssues": {
+        "nonverbatim_benefit": 5,
+        "unsupported_time_semantics": 2,
+        "nonlocal_fact_evidence": 1,
+        "nonverbatim_merchant": 1
+      },
+      "outputItems": null
+    }
+  },
+  "metrics": {
+    "cases": 49,
+    "malformedByStage": [
+      {
+        "stage": 1,
+        "numerator": 7,
+        "denominator": 49,
+        "value": 0.14285714285714285
+      },
+      {
+        "stage": 2,
+        "numerator": 0,
+        "denominator": 49,
+        "value": 0
+      },
+      {
+        "stage": 3,
+        "numerator": 2,
+        "denominator": 49,
+        "value": 0.04081632653061224
+      },
+      {
+        "stage": 4,
+        "numerator": 0,
+        "denominator": 49,
+        "value": 0
+      },
+      {
+        "stage": 5,
+        "numerator": 7,
+        "denominator": 49,
+        "value": 0.14285714285714285
+      }
+    ],
+    "materialNodeRecall": {
+      "numerator": 249,
+      "denominator": 320,
+      "value": 0.778125
+    },
+    "propositionRecall": {
+      "numerator": 36,
+      "denominator": 59,
+      "value": 0.6101694915254238
+    },
+    "harmfulSplits": 0,
+    "harmfulMerges": 0,
+    "edgePrecision": {
+      "numerator": 145,
+      "denominator": 293,
+      "value": 0.4948805460750853
+    },
+    "edgeRecall": {
+      "numerator": 145,
+      "denominator": 369,
+      "value": 0.39295392953929537
+    },
+    "edgeWrongTarget": 110,
+    "edgeWrongRelation": 38,
+    "edgeMissingMaterial": 54,
+    "taxonomyAccuracy": {
+      "numerator": 31,
+      "denominator": 34,
+      "value": 0.9117647058823529
+    },
+    "taxonomyConfusion": {
+      "economic_offer": {
+        "economic_offer": 24,
+        "contest_or_chance": 0,
+        "editorial": 0,
+        "product_launch": 0,
+        "store_announcement": 0,
+        "service_information": 0,
+        "event_or_activity": 0,
+        "uncertain": 3
+      },
+      "contest_or_chance": {
+        "economic_offer": 0,
+        "contest_or_chance": 1,
+        "editorial": 0,
+        "product_launch": 0,
+        "store_announcement": 0,
+        "service_information": 0,
+        "event_or_activity": 0,
+        "uncertain": 0
+      },
+      "editorial": {
+        "economic_offer": 0,
+        "contest_or_chance": 0,
+        "editorial": 0,
+        "product_launch": 0,
+        "store_announcement": 0,
+        "service_information": 0,
+        "event_or_activity": 0,
+        "uncertain": 0
+      },
+      "product_launch": {
+        "economic_offer": 0,
+        "contest_or_chance": 0,
+        "editorial": 0,
+        "product_launch": 4,
+        "store_announcement": 0,
+        "service_information": 0,
+        "event_or_activity": 0,
+        "uncertain": 0
+      },
+      "store_announcement": {
+        "economic_offer": 0,
+        "contest_or_chance": 0,
+        "editorial": 0,
+        "product_launch": 0,
+        "store_announcement": 0,
+        "service_information": 0,
+        "event_or_activity": 0,
+        "uncertain": 0
+      },
+      "service_information": {
+        "economic_offer": 0,
+        "contest_or_chance": 0,
+        "editorial": 0,
+        "product_launch": 0,
+        "store_announcement": 0,
+        "service_information": 1,
+        "event_or_activity": 0,
+        "uncertain": 0
+      },
+      "event_or_activity": {
+        "economic_offer": 0,
+        "contest_or_chance": 0,
+        "editorial": 0,
+        "product_launch": 0,
+        "store_announcement": 0,
+        "service_information": 0,
+        "event_or_activity": 0,
+        "uncertain": 0
+      },
+      "uncertain": {
+        "economic_offer": 0,
+        "contest_or_chance": 0,
+        "editorial": 0,
+        "product_launch": 0,
+        "store_announcement": 0,
+        "service_information": 0,
+        "event_or_activity": 0,
+        "uncertain": 1
+      }
+    },
+    "economicPropositionPrecision": {
+      "numerator": 24,
+      "denominator": 34,
+      "value": 0.7058823529411765
+    },
+    "economicPropositionRecall": {
+      "numerator": 24,
+      "denominator": 43,
+      "value": 0.5581395348837209
+    },
+    "falseEconomicPropositions": 0,
+    "normalizedFactAccuracy": {
+      "numerator": 95,
+      "denominator": 119,
+      "value": 0.7983193277310925
+    },
+    "materialConstraintRecall": {
+      "numerator": 41,
+      "denominator": 228,
+      "value": 0.17982456140350878
+    },
+    "safety": {
+      "invented_validity": {
+        "errors": 0,
+        "assessed": 34,
+        "denominator": 34,
+        "unassessed": 26,
+        "rate": {
+          "numerator": 0,
+          "denominator": 34,
+          "value": 0
+        }
+      },
+      "invalid_validity_association": {
+        "errors": 0,
+        "assessed": 10,
+        "denominator": 10,
+        "unassessed": 50,
+        "rate": {
+          "numerator": 0,
+          "denominator": 10,
+          "value": 0
+        }
+      },
+      "invented_numeric_time_endpoint": {
+        "errors": 0,
+        "assessed": 6,
+        "denominator": 6,
+        "unassessed": 26,
+        "rate": {
+          "numerator": 0,
+          "denominator": 6,
+          "value": 0
+        }
+      },
+      "wrong_schedule_association": {
+        "errors": 5,
+        "assessed": 34,
+        "denominator": 34,
+        "unassessed": 26,
+        "rate": {
+          "numerator": 5,
+          "denominator": 34,
+          "value": 0.14705882352941177
+        }
+      },
+      "participation_polarity_reversal": {
+        "errors": 0,
+        "assessed": 1,
+        "denominator": 1,
+        "unassessed": 26,
+        "rate": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0
+        }
+      },
+      "invented_participating_identity": {
+        "errors": 0,
+        "assessed": 1,
+        "denominator": 1,
+        "unassessed": 26,
+        "rate": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0
+        }
+      },
+      "unstated_year_inference": {
+        "errors": 0,
+        "assessed": 10,
+        "denominator": 10,
+        "unassessed": 26,
+        "rate": {
+          "numerator": 0,
+          "denominator": 10,
+          "value": 0
+        }
+      },
+      "benefit_qualifier_loss": {
+        "errors": 0,
+        "assessed": 2,
+        "denominator": 2,
+        "unassessed": 26,
+        "rate": {
+          "numerator": 0,
+          "denominator": 2,
+          "value": 0
+        }
+      }
+    },
+    "earliestFailures": {
+      "NODE_BAD_BOUNDARY": 18,
+      "EDGE_WRONG_TARGET": 28,
+      "EDGE_WRONG_RELATION": 34,
+      "ELIGIBILITY_FALSE_NEGATIVE": 12,
+      "NODE_MISSING": 20,
+      "NORMALIZATION_MISSING": 12,
+      "PROPOSITION_MISSING": 70,
+      "MALFORMED_OUTPUT": 116,
+      "NORMALIZATION_INCORRECT": 10
+    }
+  }
+}

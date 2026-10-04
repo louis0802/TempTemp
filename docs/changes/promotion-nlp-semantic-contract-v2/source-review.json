@@ -1,0 +1,3764 @@
+{
+  "reviewer": "parent source review after persisted seal; no independent judge",
+  "frozenDefinitionsSha256": "240908cbd9eba0840030b3fe7703d807572f76c0976bc82ecdf59fcb67e67c01",
+  "annotationSha256": "51624f31f62ac7af751f788da29a9ad28f31c4d9525cac016529d13d4efb2f5e",
+  "rawSealSha256": "f5a7a70afd38085ba1c615833ee913432d452e376726c7bc35e39e0e730b248a",
+  "caseCount": 49,
+  "parseableOutputs": 40,
+  "unassessableMalformed": 9,
+  "semanticCountsRawParseable": {
+    "primary_secondary_association_errors": {
+      "events": 2,
+      "cases": [
+        "pepper_lunch_sg-student-meal",
+        "shake_shack_sg-meet-our-collab-partners"
+      ]
+    },
+    "participation_polarity_errors": {
+      "events": 0,
+      "cases": []
+    },
+    "invented_validity_facts": {
+      "events": 0,
+      "cases": []
+    },
+    "invented_participating_location_identity": {
+      "events": 0,
+      "cases": []
+    },
+    "unsupported_positive_location_scope": {
+      "events": 0,
+      "cases": []
+    },
+    "unrelated_schedule_association": {
+      "events": 1,
+      "cases": [
+        "bari_bari_steak_sg-promotions-1"
+      ]
+    },
+    "restriction_role_errors": {
+      "events": 10,
+      "cases": [
+        "instagram-DDJfz9bynW-",
+        "instagram-DdQA3EChsjx",
+        "mcdonalds_sg-McSaver",
+        "pepper_lunch_sg-dine-with-pride",
+        "pepper_lunch_sg-student-meal",
+        "shake_shack_sg-feeding-a-crowd",
+        "shake_shack_sg-national-cheeseburger-day",
+        "shake_shack_sg-singlish-lingo"
+      ]
+    },
+    "benefit_qualifier_loss": {
+      "events": 0,
+      "cases": []
+    },
+    "primary_classification_errors": {
+      "events": 5,
+      "cases": [
+        "fairprice_sg-xtra-wine-flash-sale",
+        "mcdonalds_sg-bfmcsaver",
+        "pepper_lunch_sg-weekday-lunch",
+        "shake_shack_sg-concrete-craze",
+        "shake_shack_sg-everything-in-our-veggie-shack"
+      ]
+    },
+    "cross_campaign_contamination": {
+      "events": 1,
+      "cases": [
+        "pepper_lunch_sg-student-meal"
+      ]
+    },
+    "unstated_year_inference": {
+      "events": 0,
+      "cases": []
+    }
+  },
+  "semanticCountsSurviving": {
+    "primary_secondary_association_errors": {
+      "events": 2,
+      "cases": [
+        "pepper_lunch_sg-student-meal",
+        "shake_shack_sg-meet-our-collab-partners"
+      ]
+    },
+    "participation_polarity_errors": {
+      "events": 0,
+      "cases": []
+    },
+    "invented_validity_facts": {
+      "events": 0,
+      "cases": []
+    },
+    "invented_participating_location_identity": {
+      "events": 0,
+      "cases": []
+    },
+    "unsupported_positive_location_scope": {
+      "events": 0,
+      "cases": []
+    },
+    "unrelated_schedule_association": {
+      "events": 1,
+      "cases": [
+        "bari_bari_steak_sg-promotions-1"
+      ]
+    },
+    "restriction_role_errors": {
+      "events": 7,
+      "cases": [
+        "instagram-DDJfz9bynW-",
+        "mcdonalds_sg-McSaver",
+        "pepper_lunch_sg-student-meal",
+        "shake_shack_sg-feeding-a-crowd",
+        "shake_shack_sg-national-cheeseburger-day",
+        "shake_shack_sg-singlish-lingo"
+      ]
+    },
+    "benefit_qualifier_loss": {
+      "events": 0,
+      "cases": []
+    },
+    "primary_classification_errors": {
+      "events": 6,
+      "cases": [
+        "fairprice_sg-xtra-wine-flash-sale",
+        "mcdonalds_sg-bfmcsaver",
+        "pepper_lunch_sg-weekday-lunch",
+        "shake_shack_sg-concrete-craze",
+        "shake_shack_sg-everything-in-our-veggie-shack",
+        "shake_shack_sg-introducing-aloha-shack"
+      ]
+    },
+    "cross_campaign_contamination": {
+      "events": 1,
+      "cases": [
+        "pepper_lunch_sg-student-meal"
+      ]
+    },
+    "unstated_year_inference": {
+      "events": 0,
+      "cases": []
+    }
+  },
+  "malformedReadableObservations": [
+    {
+      "caseId": "shake_shack_sg-local-faves-our-treat",
+      "metric": "primary_secondary_association_errors / unrelated_schedule_association",
+      "verbatimUntouchedExcerpt": "\"weekdays\":{\"value\":[1],\"quote\":\"every Monday\"",
+      "reason": "App-check/release Monday is visibly still represented as promotion weekday. No brace/token removed; no repaired parse; excluded from numeric parseable metrics."
+    }
+  ],
+  "dateMetricDefinition": "invented_validity_facts is normalized campaign start/end dates; numeric hour invention is separately unrelated_schedule_association and fails broader campaign-availability conservatism.",
+  "locationMetricDefinition": "Count invented physical participating identities; generic coverage-as-name and holiday-as-outlet domain errors are explicit separate errors, not new physical branches.",
+  "limitations": [
+    "Nine malformed outputs are unassessable; zero parseable errors does not mean safety proven over all 49.",
+    "Frozen scorer lacks complete primary-quote and restriction-association checks; parent review adds two unflagged association cases.",
+    "Restriction anchor overlap is not a semantic oracle; cashier subclause and full outlet labels need separate review.",
+    "Malformed-readable observations are qualitative, not syntax-repaired structured scoring."
+  ],
+  "cases": [
+    {
+      "caseId": "pepper_lunch_sg-student-meal",
+      "sourceTextSha256": "6b0d67ea577166036a5bfedf2e37f3545fd29ae9c270a17c18d7c1d0ca68d339",
+      "sourceCaptureSha256": "c5552155b5280d17316bc58ca55d5049367247215ab457845738651a1164937f",
+      "rawOutputSha256": "356ce3ab8a668f7fa41d94686cf271f6ac2c662cc8f2b2e03c5da3f57716545e",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "15% after-5pm main-menu proposition, weekdays and student-card/cashier conditions supported. Benefit loses field acceptance because value differs from full quote. Dine-in only association points to before-5pm Student Meal Dishes, not the selected after-5pm proposition; ambiguous association must be omitted. Cashier subclause is a valid redemption channel, dismissing its broad-anchor role flag.",
+      "automatedFlagDispositions": [
+        {
+          "proposedFinding": {
+            "metric": "restriction_role_errors",
+            "field": "restrictions.2",
+            "value": "purchase_requirement",
+            "expected": [
+              "eligibility"
+            ],
+            "quote": "One main dish per valid Student Card presented by the student himself/herself at the cashier."
+          },
+          "disposition": "confirmed",
+          "sourceReviewReason": "Confirmed against unchanged captured source and frozen definition."
+        },
+        {
+          "proposedFinding": {
+            "metric": "restriction_role_errors",
+            "field": "restrictions.5",
+            "value": "redemption_channel",
+            "expected": [
+              "eligibility"
+            ],
+            "quote": "at the cashier"
+          },
+          "disposition": "dismissed",
+          "sourceReviewReason": "Cashier subclause is correct redemption_channel; whole-card annotation overlap falsely suggests eligibility."
+        }
+      ],
+      "confirmedSemanticFindings": [
+        {
+          "metric": "restriction_role_errors",
+          "field": "restrictions.2",
+          "value": "purchase_requirement",
+          "expected": [
+            "eligibility"
+          ],
+          "quote": "One main dish per valid Student Card presented by the student himself/herself at the cashier.",
+          "survivedValidation": true,
+          "reviewReason": "Confirmed against unchanged captured source and frozen definition."
+        },
+        {
+          "metric": "primary_secondary_association_errors",
+          "field": "restrictions.7",
+          "value": "Dine-in only",
+          "quote": "Dine-in only (Applicable for Student Meal Dishes only, Mon-Fri, opening till 5pm).",
+          "expected": null,
+          "survivedValidation": true,
+          "reviewReason": "Selected proposition is after-5pm main-menu discount; association quote explicitly limits dine-in to before-5pm Student Meal Dishes. Association is ambiguous and contract requires omission.",
+          "origin": "parent source review, not frozen automatic flag"
+        },
+        {
+          "metric": "cross_campaign_contamination",
+          "field": "restrictions.7",
+          "value": "Dine-in only",
+          "quote": "Dine-in only (Applicable for Student Meal Dishes only, Mon-Fri, opening till 5pm).",
+          "expected": null,
+          "survivedValidation": true,
+          "reviewReason": "A restriction from a distinct Student Meal Dishes proposition is assigned to the selected main-menu discount.",
+          "origin": "parent source review, not frozen automatic flag"
+        }
+      ],
+      "restrictionReview": [
+        {
+          "index": 0,
+          "text": "after 5pm",
+          "role": "timing_requirement",
+          "quote": "Get a 15% OFF any main dish from the main menu after 5pm.",
+          "associationQuote": "Get a 15% OFF any main dish from the main menu after 5pm.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "timing_requirement",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 1,
+          "text": "excluding public holidays and eve of Lunar New Year",
+          "role": "exclusion",
+          "quote": "excluding public holidays and eve of Lunar New Year",
+          "associationQuote": "Available on weekdays only, excluding public holidays and eve of Lunar New Year.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "exclusion",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 2,
+          "text": "One main dish per valid Student Card presented by the student himself/herself at the cashier.",
+          "role": "purchase_requirement",
+          "quote": "One main dish per valid Student Card presented by the student himself/herself at the cashier.",
+          "associationQuote": "Get a 15% OFF any main dish from the main menu after 5pm. Available on weekdays only, excluding public holidays and eve of Lunar New Year. One main dish per valid Student Card presented by the student himself/herself at the cashier.",
+          "roleVerdict": "incorrect_role",
+          "expectedRole": "eligibility",
+          "reason": "The controlling condition is a valid student card presented by the student, not a required purchase quantity.",
+          "accepted": true
+        },
+        {
+          "index": 3,
+          "text": "Valid Student Card",
+          "role": "eligibility",
+          "quote": "valid Student Card",
+          "associationQuote": "One main dish per valid Student Card presented by the student himself/herself at the cashier.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "eligibility",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": false
+        },
+        {
+          "index": 4,
+          "text": "presented by the student himself/herself",
+          "role": "eligibility",
+          "quote": "presented by the student himself/herself",
+          "associationQuote": "One main dish per valid Student Card presented by the student himself/herself at the cashier.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "eligibility",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 5,
+          "text": "at the cashier",
+          "role": "redemption_channel",
+          "quote": "at the cashier",
+          "associationQuote": "One main dish per valid Student Card presented by the student himself/herself at the cashier.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "redemption_channel",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 6,
+          "text": "Valid at Pepper Lunch restaurants only.",
+          "role": "redemption_channel",
+          "quote": "Valid at Pepper Lunch restaurants only.",
+          "associationQuote": "Get a 15% OFF any main dish from the main menu after 5pm. Valid at Pepper Lunch restaurants only.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "redemption_channel",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": false
+        },
+        {
+          "index": 7,
+          "text": "Dine-in only",
+          "role": "redemption_channel",
+          "quote": "Dine-in only",
+          "associationQuote": "Dine-in only (Applicable for Student Meal Dishes only, Mon-Fri, opening till 5pm).",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "redemption_channel",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        }
+      ],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [
+        "Frozen restriction anchors are source-wide role anchors, not exhaustive proposition-association gold. Review finds an unencoded association ambiguity without changing annotation/role definitions."
+      ],
+      "comparison": {
+        "category": "regressed",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "promotion",
+        "v2RawClassification": "promotion",
+        "v2AcceptedClassification": "promotion",
+        "mixedOutcomeDisclosed": false,
+        "reason": "15% after-5pm main-menu proposition, weekdays and student-card/cashier conditions supported. Benefit loses field acceptance because value differs from full quote. Dine-in only association points to before-5pm Student Meal Dishes, not the selected after-5pm proposition; ambiguous association must be omitted. Cashier subclause is a valid redemption channel, dismissing its broad-anchor role flag."
+      }
+    },
+    {
+      "caseId": "pepper_lunch_sg-uper-value-deal",
+      "sourceTextSha256": "2b84b963aac43315e505c1b0b73da453bd506cf2d25a84f102b79dd80d4dfdd0",
+      "sourceCaptureSha256": "18b779b4c6ffd17af56ea37ccdc7336a68857bc8b56f1c5d3f587cc6ddde95f6",
+      "rawOutputSha256": "79c1d3f76139bbfc2efe2691344c8191c51b84d0928682884d10081fe8c174a8",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Correct source economic bundle, starting price and calendar values; both dates and combinability restriction are rejected for noncontiguous invented association quotes. Date values are not invented; accepted coverage is lost.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [
+        {
+          "index": 0,
+          "text": "Not valid with other promotions, vouchers and mobile payment with rebates or discounts.",
+          "role": "exclusion",
+          "quote": "Not valid with other promotions, vouchers and mobile payment with rebates or discounts.",
+          "associationQuote": "from just $9.90. Not valid with other promotions, vouchers and mobile payment with rebates or discounts.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "exclusion",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": false
+        }
+      ],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "malformed in v1",
+        "alsoMalformedInV1": true,
+        "alsoMalformedInV2": false,
+        "v1Classification": "uncertain",
+        "v2RawClassification": "promotion",
+        "v2AcceptedClassification": "promotion",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Correct source economic bundle, starting price and calendar values; both dates and combinability restriction are rejected for noncontiguous invented association quotes. Date values are not invented; accepted coverage is lost."
+      }
+    },
+    {
+      "caseId": "pepper_lunch_sg-weekday-lunch",
+      "sourceTextSha256": "3bc8fd60e20ab0485d79b1b2b5213e85b35f52205840849652b783b4a71bc116",
+      "sourceCaptureSha256": "9f9ded0bd9ca4f259640e5b47952e431003453009308c08b13e19eb7b8a9a60a",
+      "rawOutputSha256": "171a50e09ae7f5bfb6afc207bd5e92476c97fd5e59d3ee4372d95dcaba816eda",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Returns uncertain with no facts. Conservative due absent quantified/media benefit, but the frozen reviewed explicit deal classification is promotion; retain that scoring discrepancy.",
+      "automatedFlagDispositions": [
+        {
+          "proposedFinding": {
+            "metric": "primary_classification_errors",
+            "field": "classification",
+            "value": "uncertain",
+            "expected": "promotion",
+            "quote": null
+          },
+          "disposition": "confirmed",
+          "sourceReviewReason": "Confirmed against unchanged captured source and frozen definition."
+        }
+      ],
+      "confirmedSemanticFindings": [
+        {
+          "metric": "primary_classification_errors",
+          "field": "classification",
+          "value": "uncertain",
+          "expected": "promotion",
+          "quote": null,
+          "survivedValidation": true,
+          "reviewReason": "Confirmed against unchanged captured source and frozen definition."
+        }
+      ],
+      "restrictionReview": [],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "regressed",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "promotion",
+        "v2RawClassification": "uncertain",
+        "v2AcceptedClassification": "uncertain",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Returns uncertain with no facts. Conservative due absent quantified/media benefit, but the frozen reviewed explicit deal classification is promotion; retain that scoring discrepancy."
+      }
+    },
+    {
+      "caseId": "pepper_lunch_sg-dine-with-pride",
+      "sourceTextSha256": "1dcf13e8538e184b850c90da512ef6c40e2030757f66aa169b6a5eb573fddec4",
+      "sourceCaptureSha256": "dc9d44f7079249a25087fc8b703bb7c842edf158b96e9601c54fd313795d3b36",
+      "rawOutputSha256": "2f7772bb9456e0e6f58a7306fd046b750519576bf34158a778c6d2fd9519dbb9",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Discount/all-outlet/daily facts supported. Holiday names wrongly occupy excluded locationRules; they are date exclusions, not physical locations. Several source-supported constraints are rejected for non-exact association evidence.",
+      "automatedFlagDispositions": [
+        {
+          "proposedFinding": {
+            "metric": "restriction_role_errors",
+            "field": "restrictions.2",
+            "value": "purchase_requirement",
+            "expected": [
+              "item_restriction"
+            ],
+            "quote": "Limited to 1 ala carte main dish per person."
+          },
+          "disposition": "confirmed",
+          "sourceReviewReason": "Confirmed against unchanged captured source and frozen definition."
+        }
+      ],
+      "confirmedSemanticFindings": [
+        {
+          "metric": "restriction_role_errors",
+          "field": "restrictions.2",
+          "value": "purchase_requirement",
+          "expected": [
+            "item_restriction"
+          ],
+          "quote": "Limited to 1 ala carte main dish per person.",
+          "survivedValidation": false,
+          "reviewReason": "Confirmed against unchanged captured source and frozen definition."
+        }
+      ],
+      "restrictionReview": [
+        {
+          "index": 0,
+          "text": "Applicable to NSmen only.",
+          "role": "eligibility",
+          "quote": "Applicable to NSmen only.",
+          "associationQuote": "Dine with Pride Attention NSmen! enjoy 15% off all ala carte main dishes, available daily at all Pepper Lunch Restaurant outlets.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "eligibility",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 1,
+          "text": "For dine-in only.",
+          "role": "redemption_channel",
+          "quote": "For dine-in only.",
+          "associationQuote": "enjoy 15% off all ala carte main dishes, available daily at all Pepper Lunch Restaurant outlets.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "redemption_channel",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 2,
+          "text": "Limited to 1 ala carte main dish per person.",
+          "role": "purchase_requirement",
+          "quote": "Limited to 1 ala carte main dish per person.",
+          "associationQuote": "*Discount applies to the ala carte main dishes. Limited to 1 ala carte main dish per person.",
+          "roleVerdict": "incorrect_role",
+          "expectedRole": "item_restriction",
+          "reason": "One dish per person is a cap, not a minimum purchase prerequisite.",
+          "accepted": false
+        },
+        {
+          "index": 3,
+          "text": "Not valid with other privileges, discounts, or promotions.",
+          "role": "exclusion",
+          "quote": "Not valid with other privileges, discounts, or promotions.",
+          "associationQuote": "15% off all ala carte main dishes. Not valid with other privileges, discounts, or promotions.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "exclusion",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": false
+        },
+        {
+          "index": 4,
+          "text": "Customer is required to present 11B to enjoy the discount.",
+          "role": "eligibility",
+          "quote": "Customer is required to present 11B to enjoy the discount.",
+          "associationQuote": "Applicable to NSmen only. Customer is required to present 11B to enjoy the discount.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "eligibility",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": false
+        }
+      ],
+      "locationRuleDomainErrors": [
+        {
+          "field": "locationRules.0",
+          "values": [
+            "eve of Chinese New Year",
+            "public holidays"
+          ],
+          "reason": "Dates placed in outlet-location rules; actual polarity reversal count remains zero."
+        }
+      ],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "malformed in v1",
+        "alsoMalformedInV1": true,
+        "alsoMalformedInV2": false,
+        "v1Classification": "uncertain",
+        "v2RawClassification": "promotion",
+        "v2AcceptedClassification": "promotion",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Discount/all-outlet/daily facts supported. Holiday names wrongly occupy excluded locationRules; they are date exclusions, not physical locations. Several source-supported constraints are rejected for non-exact association evidence."
+      }
+    },
+    {
+      "caseId": "pepper_lunch_sg-cheesy-omelette-2",
+      "sourceTextSha256": "1b2d3579d334a2f4c6fea275c4389126a7546566d1fda707826575e5ed91f170",
+      "sourceCaptureSha256": "9c25b6a493900d126f62f3f6101f5dee63b15f6fa313d40edceb9be683d9111f",
+      "rawOutputSha256": "85e6e0fad692fe4beaab4805f6b88caf1cecd009c78f51564a2f043ca953e50d",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Ordinary product return correctly non_promotion; no inferred promotion facts.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "improved",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "uncertain",
+        "v2RawClassification": "non_promotion",
+        "v2AcceptedClassification": "non_promotion",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Ordinary product return correctly non_promotion; no inferred promotion facts."
+      }
+    },
+    {
+      "caseId": "pepper_lunch_sg-peppie-meal",
+      "sourceTextSha256": "d19e19a004b2ffe13592d2ed810e872fb4833fd25ee28a1c7a442268f4425ead",
+      "sourceCaptureSha256": "3a63b6c58d2cc7e9989913235795472d181e93263a5902cdb9f907c268b36e22",
+      "rawOutputSha256": "e7ce16cf08e4dfb6af57c1d018827fd2551b99df76bf033b2aaaaf224c01b1de",
+      "structuredSemanticsAssessable": false,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Malformed extra closing brace. No repair or semantic scoring; visible payload is not treated as a usable result.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "malformed in v2",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": true,
+        "v1Classification": "promotion",
+        "v2RawClassification": null,
+        "v2AcceptedClassification": "uncertain",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Malformed extra closing brace. No repair or semantic scoring; visible payload is not treated as a usable result."
+      }
+    },
+    {
+      "caseId": "pepper_lunch_sg-delivery",
+      "sourceTextSha256": "68fb157f307f9fb896a822903a22d11ab71c0d8a5ae8b2698cdf85ace99a56e7",
+      "sourceCaptureSha256": "f5634d381d51b61187da30ad5b174401718ca6ae27641b451a68a57e26e765c7",
+      "rawOutputSha256": "0f094edd3f21e05ecdc31af06619598c221b53a1a6faa024e4168262b7e4678c",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Delivery service announcement correctly non_promotion; mentioned service locations do not become promotion outlets.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "unchanged",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "non_promotion",
+        "v2RawClassification": "non_promotion",
+        "v2AcceptedClassification": "non_promotion",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Delivery service announcement correctly non_promotion; mentioned service locations do not become promotion outlets."
+      }
+    },
+    {
+      "caseId": "shake_shack_sg-100-angus-beef-just-for-you",
+      "sourceTextSha256": "ffcf00b496063dce8801182934f64f6c166ed0b91101fc0a5ef40d456b6fcf0d",
+      "sourceCaptureSha256": "56a879f3658a4615cb73215bf9fcad6bdf042a2ae4b389ae62898adbd98aaeab",
+      "rawOutputSha256": "3befe03bfb0c53a0beace00bd9d6ca4798a130e394b42c3481056431b05396a3",
+      "structuredSemanticsAssessable": false,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Malformed extra closing brace; no repair or date/outlet scoring.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "malformed in v2",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": true,
+        "v1Classification": "promotion",
+        "v2RawClassification": null,
+        "v2AcceptedClassification": "uncertain",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Malformed extra closing brace; no repair or date/outlet scoring."
+      }
+    },
+    {
+      "caseId": "shake_shack_sg-all-about-chickens",
+      "sourceTextSha256": "cfbe807827114461ae2e555837a00ba89470f79159297fd10827dd5080ece435",
+      "sourceCaptureSha256": "eb6511e5e5730b80a6d7bd15270e1eea66c6e87f3edee8f134c27d8295aa2669",
+      "rawOutputSha256": "011e0ac410e16f46b8460c00d7ef31d775a4333ada740a7eecc9b9ca24eb519c",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Bundle from $30.80, source primary bundle including complimentary chicken, explicit one-day dates/all-outlet coverage and channels supported. Concise Chicken bundle title is source-supported; no wrong primary. Benefit field is only starting price; fuller economic proposition is in primary quote.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [
+        {
+          "index": 0,
+          "text": "Offer is valid for dine-in and take-away.",
+          "role": "redemption_channel",
+          "quote": "Offer is valid for dine-in and take-away.",
+          "associationQuote": "Here’s what’s in the bundle (From $30.80): Choice of 1 Burger Complimentary Chicken Shack Choice of Fries Choice of Bites Choice of 2 Drinks",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "redemption_channel",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 1,
+          "text": "Offer is valid in the Shack and via the Happy Point app.",
+          "role": "redemption_channel",
+          "quote": "Offer is valid in the Shack and via the Happy Point app.",
+          "associationQuote": "Here’s what’s in the bundle (From $30.80): Choice of 1 Burger Complimentary Chicken Shack Choice of Fries Choice of Bites Choice of 2 Drinks",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "redemption_channel",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 2,
+          "text": "Offer not valid for orders made through third-party delivery apps.",
+          "role": "exclusion",
+          "quote": "Offer not valid for orders made through third-party delivery apps.",
+          "associationQuote": "Here’s what’s in the bundle (From $30.80): Choice of 1 Burger Complimentary Chicken Shack Choice of Fries Choice of Bites Choice of 2 Drinks",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "exclusion",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 3,
+          "text": "Offer is not valid in conjunction with any other vouchers.",
+          "role": "exclusion",
+          "quote": "Offer is not valid in conjunction with any other vouchers.",
+          "associationQuote": "Here’s what’s in the bundle (From $30.80): Choice of 1 Burger Complimentary Chicken Shack Choice of Fries Choice of Bites Choice of 2 Drinks",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "exclusion",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 4,
+          "text": "Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items.",
+          "role": "general_term",
+          "quote": "Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items.",
+          "associationQuote": "Here’s what’s in the bundle (From $30.80): Choice of 1 Burger Complimentary Chicken Shack Choice of Fries Choice of Bites Choice of 2 Drinks",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "general_term",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 5,
+          "text": "Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice.",
+          "role": "general_term",
+          "quote": "Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice.",
+          "associationQuote": "Here’s what’s in the bundle (From $30.80): Choice of 1 Burger Complimentary Chicken Shack Choice of Fries Choice of Bites Choice of 2 Drinks",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "general_term",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        }
+      ],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "improved",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "promotion",
+        "v2RawClassification": "promotion",
+        "v2AcceptedClassification": "promotion",
+        "mixedOutcomeDisclosed": true,
+        "reason": "Bundle from $30.80, source primary bundle including complimentary chicken, explicit one-day dates/all-outlet coverage and channels supported. Concise Chicken bundle title is source-supported; no wrong primary. Benefit field is only starting price; fuller economic proposition is in primary quote."
+      }
+    },
+    {
+      "caseId": "shake_shack_sg-concrete-craze",
+      "sourceTextSha256": "c3db6e9b8bb1b1d214d3d649575e096d844256e2246d15c8d7f5c36011cf8887",
+      "sourceCaptureSha256": "033df0209cb16c43217bbd401d5953f40b029ad9e620ac598659d36641ac2549",
+      "rawOutputSha256": "54cb15ea81e0025f5aea01d96a3bec2d0f2b933c13d86d6dedb2acc83a81e28b",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Returns non_promotion rather than frozen uncertain, with no benefit/date. Removes v1 secondary activity date/benefit promotion, but does not implement the intended uncertainty label.",
+      "automatedFlagDispositions": [
+        {
+          "proposedFinding": {
+            "metric": "primary_classification_errors",
+            "field": "classification",
+            "value": "non_promotion",
+            "expected": "uncertain",
+            "quote": "Some fun activities that you can participate in to get a concrete of your choice*"
+          },
+          "disposition": "confirmed",
+          "sourceReviewReason": "Confirmed against unchanged captured source and frozen definition."
+        }
+      ],
+      "confirmedSemanticFindings": [
+        {
+          "metric": "primary_classification_errors",
+          "field": "classification",
+          "value": "non_promotion",
+          "expected": "uncertain",
+          "quote": "Some fun activities that you can participate in to get a concrete of your choice*",
+          "survivedValidation": true,
+          "reviewReason": "Confirmed against unchanged captured source and frozen definition."
+        }
+      ],
+      "restrictionReview": [],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "improved",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "promotion",
+        "v2RawClassification": "non_promotion",
+        "v2AcceptedClassification": "non_promotion",
+        "mixedOutcomeDisclosed": true,
+        "reason": "Returns non_promotion rather than frozen uncertain, with no benefit/date. Removes v1 secondary activity date/benefit promotion, but does not implement the intended uncertainty label."
+      }
+    },
+    {
+      "caseId": "shake_shack_sg-everything-in-our-veggie-shack",
+      "sourceTextSha256": "ccb03c2dd13a718d4668b4dbf2d37e1e18af98dffc81adfee9c8151e7b2b32b5",
+      "sourceCaptureSha256": "ff0434a022569b019842a96926becf667beb78b7cb65d70093224a8751b6a46c",
+      "rawOutputSha256": "d634bc72aae0a3c36daf3b961f08d3a798302ab9e09acb356d61e269811ec386",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Returns non_promotion rather than frozen uncertain, with no contest benefit/dates. Product/editorial proposition no longer becomes a definite secondary contest promotion.",
+      "automatedFlagDispositions": [
+        {
+          "proposedFinding": {
+            "metric": "primary_classification_errors",
+            "field": "classification",
+            "value": "non_promotion",
+            "expected": "uncertain",
+            "quote": "Everything in our Veggie Shack From Garden to Grill"
+          },
+          "disposition": "confirmed",
+          "sourceReviewReason": "Confirmed against unchanged captured source and frozen definition."
+        }
+      ],
+      "confirmedSemanticFindings": [
+        {
+          "metric": "primary_classification_errors",
+          "field": "classification",
+          "value": "non_promotion",
+          "expected": "uncertain",
+          "quote": "Everything in our Veggie Shack From Garden to Grill",
+          "survivedValidation": true,
+          "reviewReason": "Confirmed against unchanged captured source and frozen definition."
+        }
+      ],
+      "restrictionReview": [],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "improved",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "promotion",
+        "v2RawClassification": "non_promotion",
+        "v2AcceptedClassification": "non_promotion",
+        "mixedOutcomeDisclosed": true,
+        "reason": "Returns non_promotion rather than frozen uncertain, with no contest benefit/dates. Product/editorial proposition no longer becomes a definite secondary contest promotion."
+      }
+    },
+    {
+      "caseId": "shake_shack_sg-feeding-a-crowd",
+      "sourceTextSha256": "f38a8e5e647fb1b51e3b70af00cb159196b0d36664db74b909917a40feea296e",
+      "sourceCaptureSha256": "66be15aa1ed505d4e814254bdeb91a726f971bc2788b8d2bf96d1bc31dee1074",
+      "rawOutputSha256": "f6cfb685be45fc7c3893f20b9b660e3bd2b761ee6ebc9f7d9746c59ba330a0dd",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Buy-10/get-2 economic proposition supported; null scope correct. Same-price selected-item requirement correctly item_restriction; item availability incorrectly general_term. Delivery threshold incentive omitted from primary benefit, safely avoiding mixing additional proposition.",
+      "automatedFlagDispositions": [
+        {
+          "proposedFinding": {
+            "metric": "restriction_role_errors",
+            "field": "restrictions.1",
+            "value": "general_term",
+            "expected": [
+              "item_restriction"
+            ],
+            "quote": "Promotion is applicable to selected items of the same price and is subject to item availability."
+          },
+          "disposition": "confirmed",
+          "sourceReviewReason": "Confirmed against unchanged captured source and frozen definition."
+        }
+      ],
+      "confirmedSemanticFindings": [
+        {
+          "metric": "restriction_role_errors",
+          "field": "restrictions.1",
+          "value": "general_term",
+          "expected": [
+            "item_restriction"
+          ],
+          "quote": "Promotion is applicable to selected items of the same price and is subject to item availability.",
+          "survivedValidation": true,
+          "reviewReason": "Confirmed against unchanged captured source and frozen definition."
+        }
+      ],
+      "restrictionReview": [
+        {
+          "index": 0,
+          "text": "Promotion is applicable to selected items of the same price",
+          "role": "item_restriction",
+          "quote": "Promotion is applicable to selected items of the same price and is subject to item availability.",
+          "associationQuote": "With Shake Shack Catering, order 10 of your favorite items and enjoy another 2 on us!",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "item_restriction",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 1,
+          "text": "is subject to item availability",
+          "role": "general_term",
+          "quote": "Promotion is applicable to selected items of the same price and is subject to item availability.",
+          "associationQuote": "With Shake Shack Catering, order 10 of your favorite items and enjoy another 2 on us!",
+          "roleVerdict": "incorrect_role",
+          "expectedRole": "item_restriction",
+          "reason": "Item availability is explicitly part of item restriction in the frozen role definition.",
+          "accepted": true
+        },
+        {
+          "index": 2,
+          "text": "Catering requests are subject to confirmation.",
+          "role": "general_term",
+          "quote": "Catering requests are subject to confirmation.",
+          "associationQuote": "With Shake Shack Catering, order 10 of your favorite items and enjoy another 2 on us!",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "general_term",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 3,
+          "text": "A minimum of 72 hours’ advance notice is recommended.",
+          "role": "timing_requirement",
+          "quote": "A minimum of 72 hours’ advance notice is recommended.",
+          "associationQuote": "With Shake Shack Catering, order 10 of your favorite items and enjoy another 2 on us!",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "timing_requirement",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 4,
+          "text": "Promotion is valid for pickup orders only.",
+          "role": "redemption_channel",
+          "quote": "Promotion is valid for pickup orders only.",
+          "associationQuote": "With Shake Shack Catering, order 10 of your favorite items and enjoy another 2 on us!",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "redemption_channel",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 5,
+          "text": "Promotion cannot be used in conjunction with other promotions or discounts.",
+          "role": "exclusion",
+          "quote": "Promotion cannot be used in conjunction with other promotions or discounts.",
+          "associationQuote": "With Shake Shack Catering, order 10 of your favorite items and enjoy another 2 on us!",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "exclusion",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 6,
+          "text": "Shake Shack Singapore reserves the right to amend or withdraw the promotion at any time without prior notice.",
+          "role": "general_term",
+          "quote": "Shake Shack Singapore reserves the right to amend or withdraw the promotion at any time without prior notice.",
+          "associationQuote": "With Shake Shack Catering, order 10 of your favorite items and enjoy another 2 on us!",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "general_term",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        }
+      ],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "improved",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "promotion",
+        "v2RawClassification": "promotion",
+        "v2AcceptedClassification": "promotion",
+        "mixedOutcomeDisclosed": true,
+        "reason": "Buy-10/get-2 economic proposition supported; null scope correct. Same-price selected-item requirement correctly item_restriction; item availability incorrectly general_term. Delivery threshold incentive omitted from primary benefit, safely avoiding mixing additional proposition."
+      }
+    },
+    {
+      "caseId": "shake_shack_sg-hello-one-fullerton",
+      "sourceTextSha256": "13ced2c4310f83b62036df835eba6bc2246ca3b719600d97f64e0c89c070a4c4",
+      "sourceCaptureSha256": "cb16bf06717edf9c1590f81211220c45d462c9e19f5ea8fdaa8f9cef0e2f2a81",
+      "rawOutputSha256": "c7cb7b25d0797d1a578627a2c374dac5dc91e2d1800c2403ca05c2400390e6e2",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Opening/editorial content correctly non_promotion; no inferred venue promotion.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "unchanged",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "non_promotion",
+        "v2RawClassification": "non_promotion",
+        "v2AcceptedClassification": "non_promotion",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Opening/editorial content correctly non_promotion; no inferred venue promotion."
+      }
+    },
+    {
+      "caseId": "shake_shack_sg-hello-parkway-parade",
+      "sourceTextSha256": "367af42852e4b0bea816b7bbb89e0aa521d90499485de14d9ecc689faab86aaa",
+      "sourceCaptureSha256": "bfb5928b79f8429ed650a2f14738ee33ade49d6de39dcf45d0bdcf2a9b48726f",
+      "rawOutputSha256": "4f9abde63e4a1879f8b8a4ead643b2d1f56a27c228cdda7af53ccb90f6097332",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Opening discount/minimum $16/explicit validity and full Parkway Parade label supported. Longer label is the same physical outlet, not invention. App/code/exclusion/frequency terms supported; no canonical shortening required.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [
+        {
+          "index": 0,
+          "text": "minimum $16 purchase",
+          "role": "purchase_requirement",
+          "quote": "Promo code is applicable with minimum $16 purchase",
+          "associationQuote": "From 11 September to 10 October, enjoy 10% OFF* with a minimum spend of $16 when you use promo code: PPOPENING.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "purchase_requirement",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 1,
+          "text": "redeemable exclusively via the Happy Point Singapore app",
+          "role": "redemption_channel",
+          "quote": "is redeemable exclusively via the Happy Point Singapore app",
+          "associationQuote": "Promo code is applicable with minimum $16 purchase and is redeemable exclusively via the Happy Point Singapore app; the promo code is not valid on third-party delivery platforms.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "redemption_channel",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 2,
+          "text": "the promo code is not valid on third-party delivery platforms",
+          "role": "exclusion",
+          "quote": "the promo code is not valid on third-party delivery platforms",
+          "associationQuote": "Promo code is applicable with minimum $16 purchase and is redeemable exclusively via the Happy Point Singapore app; the promo code is not valid on third-party delivery platforms.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "exclusion",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 3,
+          "text": "limited to one use per order",
+          "role": "timing_requirement",
+          "quote": "is limited to one use per order",
+          "associationQuote": "Redemption is valid at Parkway Parade Shake Shack Singapore outlet and is limited to one use per order.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "timing_requirement",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 4,
+          "text": "This promotion cannot be combined with any other offers or promotions.",
+          "role": "exclusion",
+          "quote": "This promotion cannot be combined with any other offers or promotions.",
+          "associationQuote": "This promotion cannot be combined with any other offers or promotions.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "exclusion",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 5,
+          "text": "Shake Shack Singapore is not responsible for lost, stolen, expired, or misused codes",
+          "role": "general_term",
+          "quote": "Shake Shack Singapore is not responsible for lost, stolen, expired, or misused codes",
+          "associationQuote": "Shake Shack Singapore is not responsible for lost, stolen, expired, or misused codes, and reserves the right to amend or end the promotion without prior notice.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "general_term",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 6,
+          "text": "reserves the right to amend or end the promotion without prior notice",
+          "role": "general_term",
+          "quote": "reserves the right to amend or end the promotion without prior notice",
+          "associationQuote": "reserves the right to amend or end the promotion without prior notice.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "general_term",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        }
+      ],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "schema-role difference only",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "promotion",
+        "v2RawClassification": "promotion",
+        "v2AcceptedClassification": "promotion",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Opening discount/minimum $16/explicit validity and full Parkway Parade label supported. Longer label is the same physical outlet, not invention. App/code/exclusion/frequency terms supported; no canonical shortening required."
+      }
+    },
+    {
+      "caseId": "shake_shack_sg-national-cheeseburger-day",
+      "sourceTextSha256": "5c76ef5246e4b73137a34bd779e34e131e3fc7e95536ac5952efa7018ce57546",
+      "sourceCaptureSha256": "11269f1ed6c8280c48f6866a45374c97e75529ca25c6acf3ff9472bc7a0cb561",
+      "rawOutputSha256": "21f97e4191b75ccc92a817866354bd51ca421da2c2da1893e90db13a7a308302",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Correct primary burger/free-patty, dates and all-outlet scope. Generic all Shake Shack Singapore outlets is a scope statement, not a named physical identity. Do not count it as a new physical branch, but retain location-rule domain error. Stocks-last role incorrect.",
+      "automatedFlagDispositions": [
+        {
+          "proposedFinding": {
+            "metric": "invented_participating_location_identity",
+            "field": "locationRules.0",
+            "value": "all Shake Shack Singapore outlets",
+            "expected": [],
+            "quote": "Valid at all Shake Shack Singapore outlets."
+          },
+          "disposition": "dismissed",
+          "sourceReviewReason": "Generic all-outlet coverage phrase is not a named physical branch; domain misuse reported separately, not fabricated physical identity."
+        },
+        {
+          "proposedFinding": {
+            "metric": "restriction_role_errors",
+            "field": "restrictions.0",
+            "value": "general_term",
+            "expected": [
+              "timing_requirement",
+              "item_restriction"
+            ],
+            "quote": "Promotion is valid from 14 to 18 September 2026, while stocks last."
+          },
+          "disposition": "confirmed",
+          "sourceReviewReason": "Confirmed against unchanged captured source and frozen definition."
+        }
+      ],
+      "confirmedSemanticFindings": [
+        {
+          "metric": "restriction_role_errors",
+          "field": "restrictions.0",
+          "value": "general_term",
+          "expected": [
+            "timing_requirement",
+            "item_restriction"
+          ],
+          "quote": "Promotion is valid from 14 to 18 September 2026, while stocks last.",
+          "survivedValidation": true,
+          "reviewReason": "Confirmed against unchanged captured source and frozen definition."
+        }
+      ],
+      "restrictionReview": [
+        {
+          "index": 0,
+          "text": "while stocks last",
+          "role": "general_term",
+          "quote": "Promotion is valid from 14 to 18 September 2026, while stocks last.",
+          "associationQuote": "Promotion is valid from 14 to 18 September 2026, while stocks last.",
+          "roleVerdict": "incorrect_role",
+          "expectedRole": "item_restriction",
+          "reason": "While stocks last is item availability, not a residual administrative term.",
+          "accepted": true
+        },
+        {
+          "index": 1,
+          "text": "Promotion is available exclusively through the Happy Point Singapore app",
+          "role": "redemption_channel",
+          "quote": "Promotion is available exclusively through the Happy Point Singapore app",
+          "associationQuote": "Promotion is available exclusively through the Happy Point Singapore app and is not valid on third-party delivery platforms.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "redemption_channel",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 2,
+          "text": "not valid on third-party delivery platforms",
+          "role": "exclusion",
+          "quote": "not valid on third-party delivery platforms",
+          "associationQuote": "Promotion is available exclusively through the Happy Point Singapore app and is not valid on third-party delivery platforms.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "exclusion",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 3,
+          "text": "Promotion is valid for ShackBurger and SmokeShack only",
+          "role": "item_restriction",
+          "quote": "Promotion is valid for ShackBurger and SmokeShack only",
+          "associationQuote": "Promotion is valid for ShackBurger and SmokeShack only, with a second beef patty included at no additional charge.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "item_restriction",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 4,
+          "text": "Top-up charges apply to any additional beef patties beyond two, as well as selected modifiers.",
+          "role": "item_restriction",
+          "quote": "Top-up charges apply to any additional beef patties beyond two, as well as selected modifiers.",
+          "associationQuote": "Top-up charges apply to any additional beef patties beyond two, as well as selected modifiers.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "item_restriction",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 5,
+          "text": "Shake Shack Singapore reserves the right to amend or terminate the promotion without prior notice.",
+          "role": "general_term",
+          "quote": "Shake Shack Singapore reserves the right to amend or terminate the promotion without prior notice.",
+          "associationQuote": "Shake Shack Singapore reserves the right to amend or terminate the promotion without prior notice.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "general_term",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        }
+      ],
+      "locationRuleDomainErrors": [
+        {
+          "field": "locationRules.0",
+          "values": [
+            "all Shake Shack Singapore outlets"
+          ],
+          "reason": "All-outlet scope sentence duplicated as a named-location identity; no new physical branch invented."
+        }
+      ],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "regressed",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "promotion",
+        "v2RawClassification": "promotion",
+        "v2AcceptedClassification": "promotion",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Correct primary burger/free-patty, dates and all-outlet scope. Generic all Shake Shack Singapore outlets is a scope statement, not a named physical identity. Do not count it as a new physical branch, but retain location-rule domain error. Stocks-last role incorrect."
+      }
+    },
+    {
+      "caseId": "shake_shack_sg-shack-meal",
+      "sourceTextSha256": "877c5f8134ae9d5a8261d543f3ad6c09931b7ecd5dacd3cedce6ffa20f00baf2",
+      "sourceCaptureSha256": "0078b6cf5d62a26ea1dee061838ed8b12ec61b89274dc32444261db80f5081d4",
+      "rawOutputSha256": "202ec5c53065ea985e4af94f0a6426e621380844533169a886f1e8d1b7ddc55a",
+      "structuredSemanticsAssessable": false,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Malformed extra brace. Visible generic outlet-list entry noted qualitatively; no repaired JSON or semantic metrics.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "malformed in v2",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": true,
+        "v1Classification": "promotion",
+        "v2RawClassification": null,
+        "v2AcceptedClassification": "uncertain",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Malformed extra brace. Visible generic outlet-list entry noted qualitatively; no repaired JSON or semantic metrics."
+      }
+    },
+    {
+      "caseId": "shake_shack_sg-singlish-lingo",
+      "sourceTextSha256": "9e204f6a5207d29ca0f7ffe5c16a8e04892724d16624841b4c1ee154aaec4f22",
+      "sourceCaptureSha256": "adccc07b39a476bfc52574b33b4e3c83f041693c74382f14419d6dce03502577",
+      "rawOutputSha256": "566bf83ec9f3009af0b39415ee3577bec2f658bc6ebd6b73164e0fdf8425b8f3",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Primary free lemonade offer/dates/all-outlet coverage supported. Generic all-outlet phrase wrongly occupies named-location rule; not a fabricated physical branch. Spoken ordering phrase misclassified as social requirement; availability misclassified; synthesized quantity-cap quote rejected.",
+      "automatedFlagDispositions": [
+        {
+          "proposedFinding": {
+            "metric": "invented_participating_location_identity",
+            "field": "locationRules.0",
+            "value": "all Shake Shack outlets in Singapore",
+            "expected": [],
+            "quote": "at all Shake Shack outlets in Singapore"
+          },
+          "disposition": "dismissed",
+          "sourceReviewReason": "Generic all-outlet coverage phrase is not a named physical branch; domain misuse reported separately, not fabricated physical identity."
+        },
+        {
+          "proposedFinding": {
+            "metric": "restriction_role_errors",
+            "field": "restrictions.0",
+            "value": "social_requirement",
+            "expected": [
+              "redemption_channel",
+              "purchase_requirement"
+            ],
+            "quote": "Guests must use one of the accepted Singlish words (“Shiok,” “Dabao,” “Zi Char,” or “Makan”) when ordering any Zi Char burger to qualify for the promotion."
+          },
+          "disposition": "confirmed",
+          "sourceReviewReason": "Confirmed against unchanged captured source and frozen definition."
+        },
+        {
+          "proposedFinding": {
+            "metric": "restriction_role_errors",
+            "field": "restrictions.5",
+            "value": "general_term",
+            "expected": [
+              "item_restriction"
+            ],
+            "quote": "Promotion is valid while stocks last."
+          },
+          "disposition": "confirmed",
+          "sourceReviewReason": "Confirmed against unchanged captured source and frozen definition."
+        }
+      ],
+      "confirmedSemanticFindings": [
+        {
+          "metric": "restriction_role_errors",
+          "field": "restrictions.0",
+          "value": "social_requirement",
+          "expected": [
+            "redemption_channel",
+            "purchase_requirement"
+          ],
+          "quote": "Guests must use one of the accepted Singlish words (“Shiok,” “Dabao,” “Zi Char,” or “Makan”) when ordering any Zi Char burger to qualify for the promotion.",
+          "survivedValidation": true,
+          "reviewReason": "Confirmed against unchanged captured source and frozen definition."
+        },
+        {
+          "metric": "restriction_role_errors",
+          "field": "restrictions.5",
+          "value": "general_term",
+          "expected": [
+            "item_restriction"
+          ],
+          "quote": "Promotion is valid while stocks last.",
+          "survivedValidation": true,
+          "reviewReason": "Confirmed against unchanged captured source and frozen definition."
+        },
+        {
+          "metric": "restriction_role_errors",
+          "field": "restrictions.1",
+          "value": "purchase_requirement",
+          "quote": "Each qualifying order will receive one (1) complimentary Buah Long Long Lemonade per guest per visit, regardless of the number of burgers ordered.",
+          "expected": null,
+          "survivedValidation": false,
+          "reviewReason": "Per-guest/visit cap is not a purchase prerequisite; synthesized sentence is also rejected by exact-quote checks.",
+          "origin": "parent source review, not frozen automatic flag"
+        }
+      ],
+      "restrictionReview": [
+        {
+          "index": 0,
+          "text": "Guests must use one of the accepted Singlish words (“Shiok,” “Dabao,” “Zi Char,” or “Makan”) when ordering any Zi Char burger to qualify for the promotion.",
+          "role": "social_requirement",
+          "quote": "Guests must use one of the accepted Singlish words (“Shiok,” “Dabao,” “Zi Char,” or “Makan”) when ordering any Zi Char burger to qualify for the promotion.",
+          "associationQuote": "Guests must use one of the accepted Singlish words (“Shiok,” “Dabao,” “Zi Char,” or “Makan”) when ordering any Zi Char burger to qualify for the promotion.",
+          "roleVerdict": "incorrect_role",
+          "expectedRole": "redemption_channel",
+          "reason": "Spoken Singlish ordering phrase is a redemption method, not a social account action.",
+          "accepted": true
+        },
+        {
+          "index": 1,
+          "text": "Each qualifying order will receive one (1) complimentary Buah Long Long Lemonade per guest per visit, regardless of the number of burgers ordered.",
+          "role": "purchase_requirement",
+          "quote": "Each qualifying order will receive one (1) complimentary Buah Long Long Lemonade per guest per visit, regardless of the number of burgers ordered.",
+          "associationQuote": "Each qualifying order will receive one (1) complimentary Buah Long Long Lemonade per guest per visit, regardless of the number of burgers ordered.",
+          "roleVerdict": "incorrect_role",
+          "expectedRole": "item_restriction",
+          "reason": "Per-guest/visit cap is not a purchase prerequisite; synthesized sentence is also rejected by exact-quote checks.",
+          "accepted": false
+        },
+        {
+          "index": 2,
+          "text": "This promotion is valid for both dine-in and takeaway orders.",
+          "role": "redemption_channel",
+          "quote": "This promotion is valid for both dine-in and takeaway orders.",
+          "associationQuote": "This promotion is valid for both dine-in and takeaway orders.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "redemption_channel",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 3,
+          "text": "Not applicable for delivery orders.",
+          "role": "exclusion",
+          "quote": "Not applicable for delivery orders.",
+          "associationQuote": "Not applicable for delivery orders.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "exclusion",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 4,
+          "text": "Complimentary beverages are not transferable, redeemable for cash, or exchangeable for any other items.",
+          "role": "general_term",
+          "quote": "Complimentary beverages are not transferable, redeemable for cash, or exchangeable for any other items.",
+          "associationQuote": "Complimentary beverages are not transferable, redeemable for cash, or exchangeable for any other items.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "general_term",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 5,
+          "text": "Promotion is valid while stocks last.",
+          "role": "general_term",
+          "quote": "Promotion is valid while stocks last.",
+          "associationQuote": "Promotion is valid while stocks last.",
+          "roleVerdict": "incorrect_role",
+          "expectedRole": "item_restriction",
+          "reason": "Stocks-last availability belongs to item restriction.",
+          "accepted": true
+        },
+        {
+          "index": 6,
+          "text": "Shake Shack reserves the right to replace the complimentary beverage with a similar item of equal value in the event of unforeseen circumstances.",
+          "role": "general_term",
+          "quote": "Shake Shack reserves the right to replace the complimentary beverage with a similar item of equal value in the event of unforeseen circumstances.",
+          "associationQuote": "Shake Shack reserves the right to replace the complimentary beverage with a similar item of equal value in the event of unforeseen circumstances.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "general_term",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 7,
+          "text": "Shake Shack reserves the right to modify or cancel the promotion at any time without prior notice.",
+          "role": "general_term",
+          "quote": "Shake Shack reserves the right to modify or cancel the promotion at any time without prior notice.",
+          "associationQuote": "Shake Shack reserves the right to modify or cancel the promotion at any time without prior notice.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "general_term",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 8,
+          "text": "In the event of any disputes, Shake Shack’s decision will be fina",
+          "role": "general_term",
+          "quote": "In the event of any disputes, Shake Shack’s decision will be fina",
+          "associationQuote": "In the event of any disputes, Shake Shack’s decision will be fina",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "general_term",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        }
+      ],
+      "locationRuleDomainErrors": [
+        {
+          "field": "locationRules.0",
+          "values": [
+            "all Shake Shack outlets in Singapore"
+          ],
+          "reason": "All-outlet scope sentence duplicated as a named-location identity; no new physical branch invented."
+        }
+      ],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "malformed in v1",
+        "alsoMalformedInV1": true,
+        "alsoMalformedInV2": false,
+        "v1Classification": "uncertain",
+        "v2RawClassification": "promotion",
+        "v2AcceptedClassification": "promotion",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Primary free lemonade offer/dates/all-outlet coverage supported. Generic all-outlet phrase wrongly occupies named-location rule; not a fabricated physical branch. Spoken ordering phrase misclassified as social requirement; availability misclassified; synthesized quantity-cap quote rejected."
+      }
+    },
+    {
+      "caseId": "shake_shack_sg-study-breaks-just-got-better",
+      "sourceTextSha256": "e11ed9d53fbb57550bb3ed2a7753632d72cffc2b35d4659f3b3bbc566001483d",
+      "sourceCaptureSha256": "8763b4c2eeb5d362b981614d36581dcb3b467ff70e7f714cd150a0fae352e3c2",
+      "rawOutputSha256": "05412db669696f035c8459cd8ebeb523ae8f5f96a4126b92fcf1f245b8f0713e",
+      "structuredSemanticsAssessable": false,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Malformed extra closing brace; venue/weekday/constraint content not counted as usable extraction.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "malformed in v2",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": true,
+        "v1Classification": "promotion",
+        "v2RawClassification": null,
+        "v2AcceptedClassification": "uncertain",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Malformed extra closing brace; venue/weekday/constraint content not counted as usable extraction."
+      }
+    },
+    {
+      "caseId": "shake_shack_sg-this-ones-for-your-mom",
+      "sourceTextSha256": "9d77fdf7c12cf26871bcf7e1eb681692a8925e1308531a31425ae0c4f4337549",
+      "sourceCaptureSha256": "e4d33351bdbc94724e73d44e2398063ecfe8b223aeb4355366cdca6d5c963a9d",
+      "rawOutputSha256": "ec5e194d148329707edff45e77eac18bfd2c4d144c5013d6480f7c28a5b88cd4",
+      "structuredSemanticsAssessable": false,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Malformed suffix token; no token stripping, year/date scoring or semantic repair.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "malformed in v2",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": true,
+        "v1Classification": "promotion",
+        "v2RawClassification": null,
+        "v2AcceptedClassification": "uncertain",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Malformed suffix token; no token stripping, year/date scoring or semantic repair."
+      }
+    },
+    {
+      "caseId": "shake_shack_sg-were-introducing-chicken-sundays",
+      "sourceTextSha256": "d7dbbadb808d929a923558ab8e3cded6ce9a21e64c66fa44379d2cdc608158b2",
+      "sourceCaptureSha256": "a251ef38d372f54e3d3e78482fc68a7f7139d9613c429e2708745d0817ff4700",
+      "rawOutputSha256": "7e01c28cc6ff26a7897f598572f90813b57eedabf87a0e12717e14836396dd83",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Correct primary free chicken, Sunday and all-outlet coverage. Explicit 2025 dates are unnecessarily null; source app-channel text is not verbatim and rejected. Safe omissions are quality regressions, not invented validity.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [
+        {
+          "index": 0,
+          "text": "any chicken sandwich purchase",
+          "role": "purchase_requirement",
+          "quote": "Offer applies with any chicken sandwich purchase.",
+          "associationQuote": "Every Sunday from 30 November to 28 December, we are offering a Free Chicken Shack with any chicken sandwich purchase with promo code: CHICKENSUNDAY.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "purchase_requirement",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 1,
+          "text": "promo code: CHICKENSUNDAY",
+          "role": "redemption_channel",
+          "quote": "with promo code: CHICKENSUNDAY",
+          "associationQuote": "Every Sunday from 30 November to 28 December, we are offering a Free Chicken Shack with any chicken sandwich purchase with promo code: CHICKENSUNDAY.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "redemption_channel",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 2,
+          "text": "only via Happy Point Singapore in-app orders",
+          "role": "redemption_channel",
+          "quote": "The offer is only valid via Happy Point Singapore in-app orders.",
+          "associationQuote": "The offer is only valid via Happy Point Singapore in-app orders.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "redemption_channel",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": false
+        },
+        {
+          "index": 3,
+          "text": "Offer not valid for orders made through third-party delivery apps.",
+          "role": "exclusion",
+          "quote": "Offer not valid for orders made through third-party delivery apps.",
+          "associationQuote": "Offer not valid for orders made through third-party delivery apps.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "exclusion",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 4,
+          "text": "Offer is not valid in conjunction with any other vouchers.",
+          "role": "exclusion",
+          "quote": "Offer is not valid in conjunction with any other vouchers.",
+          "associationQuote": "Offer is not valid in conjunction with any other vouchers.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "exclusion",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 5,
+          "text": "Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items.",
+          "role": "general_term",
+          "quote": "Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items.",
+          "associationQuote": "Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "general_term",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        }
+      ],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "regressed",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "promotion",
+        "v2RawClassification": "promotion",
+        "v2AcceptedClassification": "promotion",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Correct primary free chicken, Sunday and all-outlet coverage. Explicit 2025 dates are unnecessarily null; source app-channel text is not verbatim and rejected. Safe omissions are quality regressions, not invented validity."
+      }
+    },
+    {
+      "caseId": "shake_shack_sg-zi-char-menu",
+      "sourceTextSha256": "4f3421be5aaa5941557539ce3418e6e866416f03ec3402cd5bf8eba58259d581",
+      "sourceCaptureSha256": "2eb7ecbaeefd84bf8a6c58358be6b566a29f2b67c05b28dda33ce33ef6774003",
+      "rawOutputSha256": "7452fe26c07a1d5f25383eb1961d6f8be3d031e8e21cc0e13584d94b5e1a5764",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Ordinary menu/editorial content correctly non_promotion; no implicit economic benefit from limited-time menu wording.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "improved",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "promotion",
+        "v2RawClassification": "non_promotion",
+        "v2AcceptedClassification": "non_promotion",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Ordinary menu/editorial content correctly non_promotion; no implicit economic benefit from limited-time menu wording."
+      }
+    },
+    {
+      "caseId": "captain_kim_sg-captain-kim-delivery",
+      "sourceTextSha256": "9486574743423aae9f017fd7254c0323570cfbc95ff87f09ea8bdb6d52b73ac4",
+      "sourceCaptureSha256": "8b618ac5ee4da1c4aed92994bc4211cd7fd85eb47dd8658b7f590e15653640ef",
+      "rawOutputSha256": "5a0c8e950f2e0e998d032d81ad1e5639efc8758f1ddaf36c679b8f5a53b3f265",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Same contract works for takeaway 20% promotion with null merchant/venue/dates. Takeaway-only retained; Flash this page redemption requirement omitted. Compatibility is partial constraint coverage, not a full fidelity claim.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [
+        {
+          "index": 0,
+          "text": "Takeaway only!",
+          "role": "redemption_channel",
+          "quote": "Takeaway only!",
+          "associationQuote": "Flash this page to enjoy 20% OFF All Regular Items - Takeaway only!",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "redemption_channel",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        }
+      ],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "regressed",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "promotion",
+        "v2RawClassification": "promotion",
+        "v2AcceptedClassification": "promotion",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Same contract works for takeaway 20% promotion with null merchant/venue/dates. Takeaway-only retained; Flash this page redemption requirement omitted. Compatibility is partial constraint coverage, not a full fidelity claim."
+      }
+    },
+    {
+      "caseId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-1",
+      "sourceTextSha256": "1135f893a1b1fd371292186d7bf8250ac03a3eed544defc9740e78a48e02806f",
+      "sourceCaptureSha256": "120959aa1afdd8b95bf2e8702eca6987a151423e90a2d5f189ed37fd900de10a",
+      "rawOutputSha256": "41635d70083d69e4155c77948d73c482a83f7e53ff96a1978d89fbb17c080c1d",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Student venue promotion retains correct October dates/Monday plus student ID/age, minimum 3, booking code, social follow and dining duration under correct roles. No venue inferred from hints.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [
+        {
+          "index": 0,
+          "text": "MUST prebook on web link and key in “2+1M” under Reservation Notes.",
+          "role": "redemption_channel",
+          "quote": "Guest coming for 2+1 Student Monday Promo MUST prebook on web link and key in “2+1M” under Reservation Notes.",
+          "associationQuote": "Guest coming for 2+1 Student Monday Promo MUST prebook on web link and key in “2+1M” under Reservation Notes.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "redemption_channel",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 1,
+          "text": "All Guests have to follow our FB/IG page to enjoy the promo.",
+          "role": "social_requirement",
+          "quote": "All Guests have to follow our FB/IG page to enjoy the promo.",
+          "associationQuote": "All Guests have to follow our FB/IG page to enjoy the promo.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "social_requirement",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 2,
+          "text": "Valid Student Pass must be presented upon request and age not exceeding 23.",
+          "role": "eligibility",
+          "quote": "Valid Student Pass must be presented upon request and age not exceeding 23.",
+          "associationQuote": "Guest coming for 2+1 Student Monday Promo MUST prebook on web link and key in “2+1M” under Reservation Notes.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "eligibility",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 3,
+          "text": "Limited to 80mins dining time.",
+          "role": "timing_requirement",
+          "quote": "Limited to 80mins dining time.",
+          "associationQuote": "Guest coming for 2+1 Student Monday Promo MUST prebook on web link and key in “2+1M” under Reservation Notes.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "timing_requirement",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 4,
+          "text": "Min 3 students to dine in.",
+          "role": "purchase_requirement",
+          "quote": "Min 3 students to dine in.",
+          "associationQuote": "Example: To enjoy 2+1 must be minimum of 3 student diners;",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "purchase_requirement",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 5,
+          "text": "Not applicable for use with any other promos, vouchers & discounts.",
+          "role": "exclusion",
+          "quote": "Not applicable for use with any other promos, vouchers & discounts.",
+          "associationQuote": "Guest coming for 2+1 Student Monday Promo MUST prebook on web link and key in “2+1M” under Reservation Notes.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "exclusion",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        }
+      ],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "improved",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "promotion",
+        "v2RawClassification": "promotion",
+        "v2AcceptedClassification": "promotion",
+        "mixedOutcomeDisclosed": true,
+        "reason": "Student venue promotion retains correct October dates/Monday plus student ID/age, minimum 3, booking code, social follow and dining duration under correct roles. No venue inferred from hints."
+      }
+    },
+    {
+      "caseId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-2",
+      "sourceTextSha256": "5a878b5c85ecfcabd3dbc29315d4768dd3461013880f7ee527ec8ae4e7a5dbd8",
+      "sourceCaptureSha256": "120959aa1afdd8b95bf2e8702eca6987a151423e90a2d5f189ed37fd900de10a",
+      "rawOutputSha256": "5ef0789f4d37a49581e79c34cbead1a1a29ac4bff3498e13bf63f35a13201b63",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Early Bird venue promotion retains correct October dates and explicit timing constraints for multiple groups; global weekdays/hours null. Minimum 2 paying pax, booking/host and social follow retained. No source_unspecified manufactured.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [
+        {
+          "index": 0,
+          "text": "Guest coming for Early Bird Promo MUST prebook on web link and key in “EB” under Reservation Notes.",
+          "role": "redemption_channel",
+          "quote": "Guest coming for Early Bird Promo MUST prebook on web link and key in “EB” under Reservation Notes.",
+          "associationQuote": "Guest coming for Early Bird Promo MUST prebook on web link and key in “EB” under Reservation Notes.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "redemption_channel",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 1,
+          "text": "Prior to entry guests have to inform host that they are using the promo before entering.",
+          "role": "redemption_channel",
+          "quote": "Prior to entry guests have to inform host that they are using the promo before entering.",
+          "associationQuote": "Prior to entry guests have to inform host that they are using the promo before entering.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "redemption_channel",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 2,
+          "text": "Guests MUST follow our Facebook / Instagram to enjoy the promo.",
+          "role": "social_requirement",
+          "quote": "Guests MUST follow our Facebook / Instagram to enjoy the promo.",
+          "associationQuote": "Guests MUST follow our Facebook / Instagram to enjoy the promo.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "social_requirement",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 3,
+          "text": "Limited to 80mins dining time.",
+          "role": "timing_requirement",
+          "quote": "Limited to 80mins dining time.",
+          "associationQuote": "Limited to 80mins dining time.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "timing_requirement",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 4,
+          "text": "Min 2 paying pax to dine in.",
+          "role": "purchase_requirement",
+          "quote": "Min 2 paying pax to dine in.",
+          "associationQuote": "Min 2 paying pax to dine in.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "purchase_requirement",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 5,
+          "text": "Lunch discount is only applicable during 11:30am – 12pm timeslots.",
+          "role": "timing_requirement",
+          "quote": "Lunch discount is only applicable during 11:30am – 12pm timeslots.",
+          "associationQuote": "Lunch discount is only applicable during 11:30am – 12pm timeslots.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "timing_requirement",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 6,
+          "text": "Dinner discount is only applicable during Weekday 5:30pm timeslots (Weekends & PH 5pm – 5:30pm).",
+          "role": "timing_requirement",
+          "quote": "Dinner discount is only applicable during Weekday 5:30pm timeslots (Weekends & PH 5pm – 5:30pm).",
+          "associationQuote": "Dinner discount is only applicable during Weekday 5:30pm timeslots (Weekends & PH 5pm – 5:30pm).",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "timing_requirement",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 7,
+          "text": "Not applicable with other promos, vouchers & discounts.",
+          "role": "exclusion",
+          "quote": "Not applicable with other promos, vouchers & discounts.",
+          "associationQuote": "Not applicable with other promos, vouchers & discounts.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "exclusion",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        }
+      ],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "improved",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "promotion",
+        "v2RawClassification": "promotion",
+        "v2AcceptedClassification": "promotion",
+        "mixedOutcomeDisclosed": true,
+        "reason": "Early Bird venue promotion retains correct October dates and explicit timing constraints for multiple groups; global weekdays/hours null. Minimum 2 paying pax, booking/host and social follow retained. No source_unspecified manufactured."
+      }
+    },
+    {
+      "caseId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-3",
+      "sourceTextSha256": "1527da749bbcd3d0f6d6e9a3a1697bcffa0e6003805fbda5cd581d0fb0c8d08b",
+      "sourceCaptureSha256": "120959aa1afdd8b95bf2e8702eca6987a151423e90a2d5f189ed37fd900de10a",
+      "rawOutputSha256": "62c4b6332932d031be164e4846b841c678723f19a88c160ee04ba37077385096",
+      "structuredSemanticsAssessable": false,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Malformed response contains extra material and invalid escaping. No repair/retry; visible merchant string null and concatenated associations not accepted as facts.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "malformed in v2",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": true,
+        "v1Classification": "promotion",
+        "v2RawClassification": null,
+        "v2AcceptedClassification": "uncertain",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Malformed response contains extra material and invalid escaping. No repair/retry; visible merchant string null and concatenated associations not accepted as facts."
+      }
+    },
+    {
+      "caseId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-3",
+      "sourceTextSha256": "d55bc4c8a6d8737676ae6b00086d034bed272ea9face565bb38ab123c4bf50f9",
+      "sourceCaptureSha256": "6e650be7043e1984a739e8c9abfe268c782b3267bc47a2c871b144778d6e81c6",
+      "rawOutputSha256": "db9d4e10e02d6428efb63a026a51d67422f25886a5b55977b68b2a875832a6b8",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "September 4+1 correctly promotion with explicit dates/days, lowest-paying diner eligibility, social follow, host method and duration. Paying party remains explicit in verbatim primary benefit; lack of separate purchase restriction is normalization coverage, not an invented fact.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [
+        {
+          "index": 0,
+          "text": "Guest have to inform host that they are using the promo before entering.",
+          "role": "redemption_channel",
+          "quote": "Guest have to inform host that they are using the promo before entering.",
+          "associationQuote": "Guest have to inform host that they are using the promo before entering.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "redemption_channel",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 1,
+          "text": "Limited to 90 mins dining time.",
+          "role": "timing_requirement",
+          "quote": "Limited to 90 mins dining time.",
+          "associationQuote": "Limited to 90 mins dining time.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "timing_requirement",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 2,
+          "text": "Guests have to leave by the stipulated timing to enjoy the promo.",
+          "role": "timing_requirement",
+          "quote": "Guests have to leave by the stipulated timing to enjoy the promo.",
+          "associationQuote": "Guests have to leave by the stipulated timing to enjoy the promo.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "timing_requirement",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 3,
+          "text": "Not applicable with other promos, vouchers & discounts.",
+          "role": "exclusion",
+          "quote": "Not applicable with other promos, vouchers & discounts.",
+          "associationQuote": "Not applicable with other promos, vouchers & discounts.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "exclusion",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 4,
+          "text": "Free pax has to be the lowest paying diner.",
+          "role": "eligibility",
+          "quote": "Free pax has to be the lowest paying diner.",
+          "associationQuote": "1 pax dines free with every 4 other full-paying pax.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "eligibility",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 5,
+          "text": "Guests MUST follow our Facebook / Instagram to enjoy the promo.",
+          "role": "social_requirement",
+          "quote": "Guests MUST follow our Facebook / Instagram to enjoy the promo.",
+          "associationQuote": "Guests MUST follow our Facebook / Instagram to enjoy the promo.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "social_requirement",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        }
+      ],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "schema-role difference only",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "promotion",
+        "v2RawClassification": "promotion",
+        "v2AcceptedClassification": "promotion",
+        "mixedOutcomeDisclosed": false,
+        "reason": "September 4+1 correctly promotion with explicit dates/days, lowest-paying diner eligibility, social follow, host method and duration. Paying party remains explicit in verbatim primary benefit; lack of separate purchase restriction is normalization coverage, not an invented fact."
+      }
+    },
+    {
+      "caseId": "bari_bari_steak_sg-promotions-1",
+      "sourceTextSha256": "e5744346a599ced21acea1a3d34b25a73b307c5631d94e5fe49a3232ef25b37f",
+      "sourceCaptureSha256": "f9c13ab276bf44b6f229f66004f7b6e8d47e75b2255d2879149f6ca8ad1aab5b",
+      "rawOutputSha256": "734b750b43717e916001fc4d79f2ffc821600b9cef33f818457436bd72abae2f",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Correct branch source label Tampines 1 outlet names the known Tampines 1 identity. Midnight is invented from Opening to 5PM and survives structural quote validation; primary hours must be null. Qualifiers preserved in raw text; benefit field rejected only because value differs from quote. No sibling-card contamination.",
+      "automatedFlagDispositions": [
+        {
+          "proposedFinding": {
+            "metric": "unrelated_schedule_association",
+            "field": "hours",
+            "value": "00:00–17:00",
+            "expected": null,
+            "quote": "Opening to 5PM"
+          },
+          "disposition": "confirmed",
+          "sourceReviewReason": "Confirmed against unchanged captured source and frozen definition."
+        },
+        {
+          "proposedFinding": {
+            "metric": "invented_participating_location_identity",
+            "field": "locationRules.0",
+            "value": "Tampines 1 outlet",
+            "expected": [
+              "Tampines 1"
+            ],
+            "quote": "Exclusively at Tampines 1 outlet."
+          },
+          "disposition": "dismissed",
+          "sourceReviewReason": "Supported full Tampines 1 source label is canonical normalization only."
+        }
+      ],
+      "confirmedSemanticFindings": [
+        {
+          "metric": "unrelated_schedule_association",
+          "field": "hours",
+          "value": "00:00–17:00",
+          "expected": null,
+          "quote": "Opening to 5PM",
+          "survivedValidation": true,
+          "reviewReason": "Confirmed against unchanged captured source and frozen definition."
+        }
+      ],
+      "restrictionReview": [
+        {
+          "index": 0,
+          "text": "Excludes PH & Eve of PH",
+          "role": "exclusion",
+          "quote": "Excludes PH & Eve of PH",
+          "associationQuote": "Weekday Lunch Specials (Tampines 1 Exclusive) Elevate your midday lunch break with our complete Teppan Lunch Sets starting from $13.90! Save up to 26% off regular menu prices.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "exclusion",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 1,
+          "text": "T&Cs apply.",
+          "role": "general_term",
+          "quote": "T&Cs apply.",
+          "associationQuote": "Weekday Lunch Specials (Tampines 1 Exclusive) Elevate your midday lunch break with our complete Teppan Lunch Sets starting from $13.90! Save up to 26% off regular menu prices.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "general_term",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        }
+      ],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [
+        "Invented availability boundary 00:00 survived validator; campaign date error metric is date-only, but this availability error fails the wider intent/A2 conservatism gate."
+      ],
+      "comparison": {
+        "category": "regressed",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "promotion",
+        "v2RawClassification": "promotion",
+        "v2AcceptedClassification": "promotion",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Correct branch source label Tampines 1 outlet names the known Tampines 1 identity. Midnight is invented from Opening to 5PM and survives structural quote validation; primary hours must be null. Qualifiers preserved in raw text; benefit field rejected only because value differs from quote. No sibling-card contamination."
+      }
+    },
+    {
+      "caseId": "bari_bari_steak_sg-promotions-2",
+      "sourceTextSha256": "c528a98af032b6a7815918c821566761502fc9f9afb505829c857b42deef200c",
+      "sourceCaptureSha256": "f9c13ab276bf44b6f229f66004f7b6e8d47e75b2255d2879149f6ca8ad1aab5b",
+      "rawOutputSha256": "23a0458942451925e150d5bee4b366b1c7f4516db13a219b6c34530423aaa6f0",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "All four locations supported in the exact isolated salad-bar card; their group association quotes preserve all-day versus tea-time. Global hours null. v2 named_outlets is frozen positive semantics, not altered v1 selected scope. Benefit wording source-supported but rejected by equality contract.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [
+        {
+          "index": 0,
+          "text": "Valid exclusively for dine-in.",
+          "role": "redemption_channel",
+          "quote": "Valid exclusively for dine-in.",
+          "associationQuote": "For a limited time, enjoy 23% savings and pile your bowl high with crisp veggies, tasty toppings, and delicious dressings for just $12.90++ (U.P. $16.90++).",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "redemption_channel",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 1,
+          "text": "Not valid in conjunction with other ongoing promotions, discounts, vouchers, or privileges.",
+          "role": "exclusion",
+          "quote": "Not valid in conjunction with other ongoing promotions, discounts, vouchers, or privileges.",
+          "associationQuote": "For a limited time, enjoy 23% savings and pile your bowl high with crisp veggies, tasty toppings, and delicious dressings for just $12.90++ (U.P. $16.90++).",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "exclusion",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 2,
+          "text": "The Management reserves the right to amend or terminate the offer without prior notice.",
+          "role": "general_term",
+          "quote": "The Management reserves the right to amend or terminate the offer without prior notice.",
+          "associationQuote": "The Management reserves the right to amend or terminate the offer without prior notice.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "general_term",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        }
+      ],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "malformed in v1",
+        "alsoMalformedInV1": true,
+        "alsoMalformedInV2": false,
+        "v1Classification": "uncertain",
+        "v2RawClassification": "promotion",
+        "v2AcceptedClassification": "promotion",
+        "mixedOutcomeDisclosed": false,
+        "reason": "All four locations supported in the exact isolated salad-bar card; their group association quotes preserve all-day versus tea-time. Global hours null. v2 named_outlets is frozen positive semantics, not altered v1 selected scope. Benefit wording source-supported but rejected by equality contract."
+      }
+    },
+    {
+      "caseId": "bari_bari_steak_sg-promotions-3",
+      "sourceTextSha256": "7b4a3e42c82a16d935c76ec9291db63b74c13f83d8b52eedd7e34b79358384c1",
+      "sourceCaptureSha256": "f9c13ab276bf44b6f229f66004f7b6e8d47e75b2255d2879149f6ca8ad1aab5b",
+      "rawOutputSha256": "09289db7c3db496f7018d63e82f940cd29baf78512406d47b3f1821475f43e29",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Senior venue/card facts supported. opening–17:00 is not a valid numeric single range and lacks quotes, rejected. It does not invent a numeric opening time; dismiss automated unrelated-schedule value-mismatch flag as representational failure. Mixed age/dine-in and weekday/holiday clauses retain source conditions, noted as grouping limitations.",
+      "automatedFlagDispositions": [
+        {
+          "proposedFinding": {
+            "metric": "unrelated_schedule_association",
+            "field": "hours",
+            "value": "opening–17:00",
+            "expected": null,
+            "quote": null
+          },
+          "disposition": "dismissed",
+          "sourceReviewReason": "Non-numeric opening range is a rejected representation, not a numeric invented opening hour or unrelated schedule."
+        }
+      ],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [
+        {
+          "index": 0,
+          "text": "Valid for dine-in customers aged 60 and above.",
+          "role": "eligibility",
+          "quote": "Valid for dine-in customers aged 60 and above.",
+          "associationQuote": "exclusive 20% discount on the total bill during weekdays!",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "eligibility",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 1,
+          "text": "A valid proof of age must be presented for verification.",
+          "role": "eligibility",
+          "quote": "A valid proof of age must be presented for verification.",
+          "associationQuote": "exclusive 20% discount on the total bill during weekdays!",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "eligibility",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 2,
+          "text": "Available from Monday to Thursday, from opening until 5pm only, excluding public holidays.",
+          "role": "timing_requirement",
+          "quote": "Available from Monday to Thursday, from opening until 5pm only, excluding public holidays.",
+          "associationQuote": "exclusive 20% discount on the total bill during weekdays!",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "timing_requirement",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 3,
+          "text": "Discount is applied to the total bill prior to the addition of GST and service charge.",
+          "role": "general_term",
+          "quote": "Discount is applied to the total bill prior to the addition of GST and service charge.",
+          "associationQuote": "exclusive 20% discount on the total bill during weekdays!",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "general_term",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 4,
+          "text": "Not valid in conjunction with any other ongoing promotions, discounts, vouchers, or privileges.",
+          "role": "exclusion",
+          "quote": "Not valid in conjunction with any other ongoing promotions, discounts, vouchers, or privileges.",
+          "associationQuote": "exclusive 20% discount on the total bill during weekdays!",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "exclusion",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 5,
+          "text": "The management reserves the right to amend or terminate the offer without prior notice.",
+          "role": "general_term",
+          "quote": "The management reserves the right to amend or terminate the offer without prior notice.",
+          "associationQuote": "exclusive 20% discount on the total bill during weekdays!",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "general_term",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        }
+      ],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [
+        "Rejected unsupported hour representation; global accepted hours remain null.",
+        "Mixed role packing: conditions remain source-supported but atomic decomposition incomplete."
+      ],
+      "comparison": {
+        "category": "schema-role difference only",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "promotion",
+        "v2RawClassification": "promotion",
+        "v2AcceptedClassification": "promotion",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Senior venue/card facts supported. opening–17:00 is not a valid numeric single range and lacks quotes, rejected. It does not invent a numeric opening time; dismiss automated unrelated-schedule value-mismatch flag as representational failure. Mixed age/dine-in and weekday/holiday clauses retain source conditions, noted as grouping limitations."
+      }
+    },
+    {
+      "caseId": "bari_bari_steak_sg-promotions-4",
+      "sourceTextSha256": "1091aa4deffeefef1a2fbdcae46c196b5261e4f5b01df5a53f8992d4e18e785d",
+      "sourceCaptureSha256": "f9c13ab276bf44b6f229f66004f7b6e8d47e75b2255d2879149f6ca8ad1aab5b",
+      "rawOutputSha256": "c33233f56b288826c081bbc4a80fa8e2318f9a4bff1e524f716bd0a5f957ac3a",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Correct 15% branch/day/hour and seated/order-before requirement. Dine-in restriction rejected because association quote changes source wording. Mixed timing/holiday sentence assigned exclusion: both source facts retained but atomic split not achieved; record packing difference rather than invention.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [
+        {
+          "index": 0,
+          "text": "Valid exclusively for dine-in at the Tampines 1 outlet only.",
+          "role": "redemption_channel",
+          "quote": "Valid exclusively for dine-in at the Tampines 1 outlet only.",
+          "associationQuote": "Valid exclusively for dine-in at the Tampines 1 outlet.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "redemption_channel",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": false
+        },
+        {
+          "index": 1,
+          "text": "Available daily from 5pm to 6pm only (excluding Public Holidays)*.",
+          "role": "exclusion",
+          "quote": "Available daily from 5pm to 6pm only (excluding Public Holidays)*.",
+          "associationQuote": "Available daily from 5pm to 6pm only (excluding Public Holidays)*.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "exclusion",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 2,
+          "text": "Customers must be seated and have orders placed within this window to enjoy the discount.",
+          "role": "timing_requirement",
+          "quote": "Customers must be seated and have orders placed within this window to enjoy the discount.",
+          "associationQuote": "Customers must be seated and have orders placed within this window to enjoy the discount.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "timing_requirement",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 3,
+          "text": "Discount is applied to the total bill prior to the addition of GST and service charge.",
+          "role": "general_term",
+          "quote": "Discount is applied to the total bill prior to the addition of GST and service charge.",
+          "associationQuote": "get 15% OFF your total bill with our Early Bird Dinner Promo",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "general_term",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 4,
+          "text": "Not valid in conjunction with any other ongoing promotions, discounts, vouchers, or privileges.",
+          "role": "exclusion",
+          "quote": "Not valid in conjunction with any other ongoing promotions, discounts, vouchers, or privileges.",
+          "associationQuote": "get 15% OFF your total bill with our Early Bird Dinner Promo",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "exclusion",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 5,
+          "text": "Image(s) for illustration purposes only.",
+          "role": "general_term",
+          "quote": "Image(s) for illustration purposes only.",
+          "associationQuote": "get 15% OFF your total bill with our Early Bird Dinner Promo",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "general_term",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 6,
+          "text": "The management reserves the right to amend or terminate the offer without prior notice.",
+          "role": "general_term",
+          "quote": "The management reserves the right to amend or terminate the offer without prior notice.",
+          "associationQuote": "get 15% OFF your total bill with our Early Bird Dinner Promo",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "general_term",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        }
+      ],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [
+        "Mixed role packing: conditions remain source-supported but atomic decomposition incomplete."
+      ],
+      "comparison": {
+        "category": "regressed",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "promotion",
+        "v2RawClassification": "promotion",
+        "v2AcceptedClassification": "promotion",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Correct 15% branch/day/hour and seated/order-before requirement. Dine-in restriction rejected because association quote changes source wording. Mixed timing/holiday sentence assigned exclusion: both source facts retained but atomic split not achieved; record packing difference rather than invention."
+      }
+    },
+    {
+      "caseId": "bari_bari_steak_sg-promotions-5",
+      "sourceTextSha256": "9e81a75160ad2dfe9864dd50dd8d597d5476eb4db16dd5cd455a85a9a4f4612b",
+      "sourceCaptureSha256": "f9c13ab276bf44b6f229f66004f7b6e8d47e75b2255d2879149f6ca8ad1aab5b",
+      "rawOutputSha256": "4d58b552f1a08c61e890175a05eca78c279ee8c6085f934b289b496d78b776bc",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Own isolated drinks 1-for-1 caption only; no sibling venue/date/hour facts. No merchant inferred.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "unchanged",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "promotion",
+        "v2RawClassification": "promotion",
+        "v2AcceptedClassification": "promotion",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Own isolated drinks 1-for-1 caption only; no sibling venue/date/hour facts. No merchant inferred."
+      }
+    },
+    {
+      "caseId": "mcdonalds_sg-McSaver",
+      "sourceTextSha256": "6827dd7acd8b2bc6ca5490bd17e2ea52097cba9614704182105d8982ff4ac163",
+      "sourceCaptureSha256": "1b43d32ad515bd9bc8cb45f72fcdc2f42d04778e0242cbb9e01f5a21bfb448cc",
+      "rawOutputSha256": "a0d76775db1d186e8c0c144ea86ae53f1bfdecf1a6e243fc643e0bbb4adb80db",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "McSaver stays promotion. Lido/Gardens/Changi are excluded and positive scope null. Benefit field rejected for value/quote inequality; primary quote retains $5 offer. Delivery exclusion preserved; stocks-last role incorrect.",
+      "automatedFlagDispositions": [
+        {
+          "proposedFinding": {
+            "metric": "restriction_role_errors",
+            "field": "restrictions.2",
+            "value": "general_term",
+            "expected": [
+              "timing_requirement"
+            ],
+            "quote": "while stocks last"
+          },
+          "disposition": "confirmed",
+          "sourceReviewReason": "Confirmed against unchanged captured source and frozen definition."
+        }
+      ],
+      "confirmedSemanticFindings": [
+        {
+          "metric": "restriction_role_errors",
+          "field": "restrictions.2",
+          "value": "general_term",
+          "expected": [
+            "timing_requirement"
+          ],
+          "quote": "while stocks last",
+          "survivedValidation": true,
+          "reviewReason": "Confirmed against unchanged captured source and frozen definition."
+        }
+      ],
+      "restrictionReview": [
+        {
+          "index": 0,
+          "text": "Choose between familiar favourites like Smoky Beef, Filet-O-Fish® or McChicken® Meals",
+          "role": "item_restriction",
+          "quote": "Choose between familiar favourites like Smoky Beef, Filet-O-Fish® or McChicken® Meals",
+          "associationQuote": "McSaver™ meals at just $5!",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "item_restriction",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 1,
+          "text": "Promotional price is available after breakfast hours",
+          "role": "timing_requirement",
+          "quote": "Promotional price is available after breakfast hours",
+          "associationQuote": "McSaver™ meals at just $5!",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "timing_requirement",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 2,
+          "text": "while stocks last",
+          "role": "general_term",
+          "quote": "while stocks last",
+          "associationQuote": "Promotional price is available after breakfast hours and while stocks last.",
+          "roleVerdict": "incorrect_role",
+          "expectedRole": "item_restriction",
+          "reason": "Stocks-last availability belongs to item restriction, despite the broader annotation sentence also containing timing.",
+          "accepted": true
+        },
+        {
+          "index": 3,
+          "text": "The promotional price is not available via delivery",
+          "role": "exclusion",
+          "quote": "The promotional price is not available via delivery",
+          "associationQuote": "The promotional price is not available via delivery and in the following outlets: Lido, Gardens by the Bay and Changi Airport (Jewel, T2, T3).",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "exclusion",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 4,
+          "text": "McDonald’s reserves the right to change the promotional price without prior notice.",
+          "role": "general_term",
+          "quote": "McDonald’s reserves the right to change the promotional price without prior notice.",
+          "associationQuote": "The promotional price is not available via delivery and in the following outlets: Lido, Gardens by the Bay and Changi Airport (Jewel, T2, T3).",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "general_term",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 5,
+          "text": "Terms and Conditions apply.",
+          "role": "general_term",
+          "quote": "Terms and Conditions apply.",
+          "associationQuote": "McSaver™ meals at just $5!",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "general_term",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        }
+      ],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "improved",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "promotion",
+        "v2RawClassification": "promotion",
+        "v2AcceptedClassification": "promotion",
+        "mixedOutcomeDisclosed": true,
+        "reason": "McSaver stays promotion. Lido/Gardens/Changi are excluded and positive scope null. Benefit field rejected for value/quote inequality; primary quote retains $5 offer. Delivery exclusion preserved; stocks-last role incorrect."
+      }
+    },
+    {
+      "caseId": "mcdonalds_sg-bfmcsaver",
+      "sourceTextSha256": "d4c31f2850bdf7ce59029dd55da06818f421e748d73efc623300f7617540eaf5",
+      "sourceCaptureSha256": "19ac06173d7d29ae9b7277f205eb2e5dc432de50e355effe914ffea674b4d656",
+      "rawOutputSha256": "171a50e09ae7f5bfb6afc207bd5e92476c97fd5e59d3ee4372d95dcaba816eda",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Returns uncertain/empty for mixed meal/contest source. Meal/contest dates both null; no excluded venue becomes positive. All explicit exclusions are omitted, so polarity safety is conservative abstention, not complete extraction. Recall/coverage loss disclosed.",
+      "automatedFlagDispositions": [
+        {
+          "proposedFinding": {
+            "metric": "primary_classification_errors",
+            "field": "classification",
+            "value": "uncertain",
+            "expected": "promotion",
+            "quote": null
+          },
+          "disposition": "confirmed",
+          "sourceReviewReason": "Confirmed against unchanged captured source and frozen definition."
+        }
+      ],
+      "confirmedSemanticFindings": [
+        {
+          "metric": "primary_classification_errors",
+          "field": "classification",
+          "value": "uncertain",
+          "expected": "promotion",
+          "quote": null,
+          "survivedValidation": true,
+          "reviewReason": "Confirmed against unchanged captured source and frozen definition."
+        }
+      ],
+      "restrictionReview": [],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "improved",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "promotion",
+        "v2RawClassification": "uncertain",
+        "v2AcceptedClassification": "uncertain",
+        "mixedOutcomeDisclosed": true,
+        "reason": "Returns uncertain/empty for mixed meal/contest source. Meal/contest dates both null; no excluded venue becomes positive. All explicit exclusions are omitted, so polarity safety is conservative abstention, not complete extraction. Recall/coverage loss disclosed."
+      }
+    },
+    {
+      "caseId": "sushiro_sg-to-the-moon-and-back",
+      "sourceTextSha256": "f98c24f3a4738b5a617ba335e6cbd61e8bfe8e85dd1f071f10718c39aa22be5e",
+      "sourceCaptureSha256": "7b7d5120c91d45284ce565f841fcbfab8c606e39fdc06e03a6b02fd526676733",
+      "rawOutputSha256": "54bacb6af0bbf51417f366d490c330e771d3f45a3b47d91afdbdc7deac23913e",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Sushiro product launch correctly non_promotion; no year inferred, no price-variation location used as participation.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "improved",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "promotion",
+        "v2RawClassification": "non_promotion",
+        "v2AcceptedClassification": "non_promotion",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Sushiro product launch correctly non_promotion; no year inferred, no price-variation location used as participation."
+      }
+    },
+    {
+      "caseId": "instagram-DDJfz9bynW-",
+      "sourceTextSha256": "29656ef7b5ace5e9541d118075657396db476ff4c82093e7fa8f69de7de85594",
+      "sourceCaptureSha256": "d4e6906d14df0c893690ee09be1ee02cf95b4ee3d8e23c04754e8f6c945d824d",
+      "rawOutputSha256": "43f7387e3b0964b8a50d859dbb85befe9794db9e668c04e5b97e8d8366464146",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "1-for-1 Sunday caption correctly extracted with dine-in and social-follow roles; scope null and merchant hint/handle not inferred. Per-booking condition wrongly purchase requirement under frozen frequency definition.",
+      "automatedFlagDispositions": [
+        {
+          "proposedFinding": {
+            "metric": "restriction_role_errors",
+            "field": "restrictions.2",
+            "value": "purchase_requirement",
+            "expected": [
+              "timing_requirement"
+            ],
+            "quote": "1-for-1 valid for each dish per booking."
+          },
+          "disposition": "confirmed",
+          "sourceReviewReason": "Confirmed against unchanged captured source and frozen definition."
+        }
+      ],
+      "confirmedSemanticFindings": [
+        {
+          "metric": "restriction_role_errors",
+          "field": "restrictions.2",
+          "value": "purchase_requirement",
+          "expected": [
+            "timing_requirement"
+          ],
+          "quote": "1-for-1 valid for each dish per booking.",
+          "survivedValidation": true,
+          "reviewReason": "Confirmed against unchanged captured source and frozen definition."
+        }
+      ],
+      "restrictionReview": [
+        {
+          "index": 0,
+          "text": "Dine-in only",
+          "role": "redemption_channel",
+          "quote": "Dine-in only",
+          "associationQuote": "Get 2 portions of our Salmon Yukke for just $8.80 every Sunday! Fresh, flavorful, and perfect for sharing (or keeping all to yourself) 📅 Every Sunday | Dine-in only",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "redemption_channel",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 1,
+          "text": "Follow us on Instagram (@shinrai.sg)",
+          "role": "social_requirement",
+          "quote": "Follow us on Instagram (@shinrai.sg)",
+          "associationQuote": "📸 Follow us on Instagram (@shinrai.sg) to enjoy this exclusive deal!",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "social_requirement",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 2,
+          "text": "1-for-1 valid for each dish per booking.",
+          "role": "purchase_requirement",
+          "quote": "1-for-1 valid for each dish per booking.",
+          "associationQuote": "T&Cs apply. 1-for-1 valid for each dish per booking.",
+          "roleVerdict": "incorrect_role",
+          "expectedRole": "timing_requirement",
+          "reason": "Per-booking campaign frequency is not a required purchase.",
+          "accepted": true
+        },
+        {
+          "index": 3,
+          "text": "Not combinable with other promotions or discounts.",
+          "role": "exclusion",
+          "quote": "Not combinable with other promotions or discounts.",
+          "associationQuote": "Not combinable with other promotions or discounts.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "exclusion",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        }
+      ],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "improved",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "promotion",
+        "v2RawClassification": "promotion",
+        "v2AcceptedClassification": "promotion",
+        "mixedOutcomeDisclosed": true,
+        "reason": "1-for-1 Sunday caption correctly extracted with dine-in and social-follow roles; scope null and merchant hint/handle not inferred. Per-booking condition wrongly purchase requirement under frozen frequency definition."
+      }
+    },
+    {
+      "caseId": "instagram-Dc-kxPJzx9B",
+      "sourceTextSha256": "85221d54ba9a1925fca5b2ecf18dc77277cc4ce57b359a1cc33b903c47532439",
+      "sourceCaptureSha256": "9b7ee95414c063b60f90a74e69d1a51d62010e45a4899a11bfa1ae1a507f593e",
+      "rawOutputSha256": "77fcdedd29db758f818f366743cfa8d6c1cfb1631fb51457eec03d0013d9833f",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Off-peak bundle/weekdays/14:00–17:00 correct; dine-in channel and holiday exclusion do not create scope. Cookie limit role correct but association is noncontiguous and rejected, losing constraint coverage.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [
+        {
+          "index": 0,
+          "text": "Valid for dine-in only",
+          "role": "redemption_channel",
+          "quote": "Valid for dine-in only",
+          "associationQuote": "$9.90++ gets you a main + free-flow side dishes + your choice of K-TREAT - Omija Berry Smoothie, Milk Tea Brûlée Smoothie or a Dubai Chewy Cookie. Yep. All that for $9.90++. Weekdays, 2–5PM. (Valid for dine-in only)",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "redemption_channel",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 1,
+          "text": "Excluding public holidays",
+          "role": "exclusion",
+          "quote": "Excluding public holidays",
+          "associationQuote": "Weekdays, 2–5PM. (Valid for dine-in only) (Excluding public holidays)",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "exclusion",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 2,
+          "text": "Dubai Chewy Cookie available in limited quantities daily",
+          "role": "item_restriction",
+          "quote": "Dubai Chewy Cookie available in limited quantities daily",
+          "associationQuote": "$9.90++ gets you a main + free-flow side dishes + your choice of K-TREAT - Omija Berry Smoothie, Milk Tea Brûlée Smoothie or a Dubai Chewy Cookie. Yep. All that for $9.90++. Dubai Chewy Cookie available in limited quantities daily.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "item_restriction",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": false
+        }
+      ],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "improved",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "promotion",
+        "v2RawClassification": "promotion",
+        "v2AcceptedClassification": "promotion",
+        "mixedOutcomeDisclosed": true,
+        "reason": "Off-peak bundle/weekdays/14:00–17:00 correct; dine-in channel and holiday exclusion do not create scope. Cookie limit role correct but association is noncontiguous and rejected, losing constraint coverage."
+      }
+    },
+    {
+      "caseId": "instagram-DdQA3EChsjx",
+      "sourceTextSha256": "cd82a9312062648d42f7e9c7e662ee2b4e602dd8f90e9ab7a999ded1cc46d4cf",
+      "sourceCaptureSha256": "b8a9c64ae12fb643690c7ecacd692261fd58db662185d4824c3cbce299e76b52",
+      "rawOutputSha256": "44e05afcca6c4d584542c5a1704f69861f4c476db15ebff2096b56eca996312c",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Sinpopo 1-for-1/weekdays/11:00–12:00 correct, no year inference. Reservation mislabeled timing requirement and its association quote fabricated by concatenation; condition rejected. Item list is source-supported.",
+      "automatedFlagDispositions": [
+        {
+          "proposedFinding": {
+            "metric": "restriction_role_errors",
+            "field": "restrictions.1",
+            "value": "timing_requirement",
+            "expected": [
+              "redemption_channel"
+            ],
+            "quote": "Reservation is required to enjoy our Nasi Lemak promotion."
+          },
+          "disposition": "confirmed",
+          "sourceReviewReason": "Confirmed against unchanged captured source and frozen definition."
+        }
+      ],
+      "confirmedSemanticFindings": [
+        {
+          "metric": "restriction_role_errors",
+          "field": "restrictions.1",
+          "value": "timing_requirement",
+          "expected": [
+            "redemption_channel"
+          ],
+          "quote": "Reservation is required to enjoy our Nasi Lemak promotion.",
+          "survivedValidation": false,
+          "reviewReason": "Confirmed against unchanged captured source and frozen definition."
+        }
+      ],
+      "restrictionReview": [
+        {
+          "index": 0,
+          "text": "11AM–12PM only",
+          "role": "timing_requirement",
+          "quote": "11AM–12PM only",
+          "associationQuote": "Starting 14 September, enjoy 1 for 1 Nasi Lemak at Sinpopo Brand — now with three well loved favourites to choose from! Available weekdays, 11AM–12PM only, bring a friend and enjoy twice the Nasi Lemak goodness for the price of one.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "timing_requirement",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 1,
+          "text": "Reservation is required",
+          "role": "timing_requirement",
+          "quote": "Reservation is required to enjoy our Nasi Lemak promotion.",
+          "associationQuote": "Starting 14 September, enjoy 1 for 1 Nasi Lemak at Sinpopo Brand — now with three well loved favourites to choose from! Reservation is required to enjoy our Nasi Lemak promotion.",
+          "roleVerdict": "incorrect_role",
+          "expectedRole": "redemption_channel",
+          "reason": "Required reservation is a redemption method, not a time deadline; malformed association evidence rejects this item.",
+          "accepted": false
+        },
+        {
+          "index": 2,
+          "text": "Nasi Lemak Sambal Prawn Nasi Lemak Ayam Berempah Nasi Lemak Ayam Rendang",
+          "role": "item_restriction",
+          "quote": "Nasi Lemak Sambal Prawn Nasi Lemak Ayam Berempah Nasi Lemak Ayam Rendang",
+          "associationQuote": "Starting 14 September, enjoy 1 for 1 Nasi Lemak at Sinpopo Brand — now with three well loved favourites to choose from!",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "item_restriction",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        }
+      ],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "regressed",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "promotion",
+        "v2RawClassification": "promotion",
+        "v2AcceptedClassification": "promotion",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Sinpopo 1-for-1/weekdays/11:00–12:00 correct, no year inference. Reservation mislabeled timing requirement and its association quote fabricated by concatenation; condition rejected. Item list is source-supported."
+      }
+    },
+    {
+      "caseId": "instagram-DdfecQUjNZ5",
+      "sourceTextSha256": "a07591addf8f9062ef0efb64023da69e9f3d1f45089a27393bda0cc434c0798a",
+      "sourceCaptureSha256": "0c33cbeaee16d0b976cad3c4c955c6c1e64c3310a467378aa228e4235189cbbd",
+      "rawOutputSha256": "ec8a5c38a34387918c642923a74fb9aac2fb3c9da274e0c9ce94a862e1dca2a5",
+      "structuredSemanticsAssessable": false,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Malformed suffix token; no repair and no usable Starbucks eligibility/hour/scope extraction.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "malformed in v2",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": true,
+        "v1Classification": "promotion",
+        "v2RawClassification": null,
+        "v2AcceptedClassification": "uncertain",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Malformed suffix token; no repair and no usable Starbucks eligibility/hour/scope extraction."
+      }
+    },
+    {
+      "caseId": "shake_shack_sg-flock-this-way",
+      "sourceTextSha256": "03de84ebdb52d17f82d847e50225b06ff4cb39b4c2ff325b95862f188ee5f946",
+      "sourceCaptureSha256": "d3ef9c09692712863377c97a2d97ad5685d08cbfae609501902c9de4a80dbcdf",
+      "rawOutputSha256": "7f6397294baf6d574c75fe09de376c3a0c89fb11f1856904f0bf7cce7e8549e0",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Chicken trio economic offer, dates and all-outlet scope supported. App/dine-in/takeaway/exclusions retained correctly. No new location identity or qualifier lost.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [
+        {
+          "index": 0,
+          "text": "when you order through the Happy Point Singapore app",
+          "role": "redemption_channel",
+          "quote": "when you order through the Happy Point Singapore app",
+          "associationQuote": "From 12 to 30 November 2025, get our Chicken Shack, Hot Chicken and Saenchae Gochujang Chicken — all for just $23.9 (U.P $33.80) when you order through the Happy Point Singapore app.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "redemption_channel",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 1,
+          "text": "Offer is valid for dine-in and take-away.",
+          "role": "redemption_channel",
+          "quote": "Offer is valid for dine-in and take-away.",
+          "associationQuote": "Offer is valid for dine-in and take-away.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "redemption_channel",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 2,
+          "text": "The offer is only valid via Happy Point Singapore in-app orders.",
+          "role": "redemption_channel",
+          "quote": "The offer is only valid via Happy Point Singapore in-app orders.",
+          "associationQuote": "The offer is only valid via Happy Point Singapore in-app orders.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "redemption_channel",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 3,
+          "text": "Offer not valid for orders made through third-party delivery apps.",
+          "role": "exclusion",
+          "quote": "Offer not valid for orders made through third-party delivery apps.",
+          "associationQuote": "Offer not valid for orders made through third-party delivery apps.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "exclusion",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 4,
+          "text": "Offer is not valid in conjunction with any other vouchers.",
+          "role": "exclusion",
+          "quote": "Offer is not valid in conjunction with any other vouchers.",
+          "associationQuote": "Offer is not valid in conjunction with any other vouchers.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "exclusion",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 5,
+          "text": "Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items.",
+          "role": "general_term",
+          "quote": "Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items.",
+          "associationQuote": "Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "general_term",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        },
+        {
+          "index": 6,
+          "text": "Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice.",
+          "role": "general_term",
+          "quote": "Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice.",
+          "associationQuote": "Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "general_term",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        }
+      ],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "improved",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "promotion",
+        "v2RawClassification": "promotion",
+        "v2AcceptedClassification": "promotion",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Chicken trio economic offer, dates and all-outlet scope supported. App/dine-in/takeaway/exclusions retained correctly. No new location identity or qualifier lost."
+      }
+    },
+    {
+      "caseId": "shake_shack_sg-meet-our-collab-partners",
+      "sourceTextSha256": "56e0f7662719544a5903451d6c9ed3f6eaaacc16e6ecbb113f18961ff1c297ca",
+      "sourceCaptureSha256": "e5fa6f0344f6897f0b8074f62036c8a03da04c5fa1dbd57f6632dd15f67f890a",
+      "rawOutputSha256": "35bf69d861818bc7072e5240291f6250974378fcd94c78ef1157b064b6037ed0",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Classification evidence quotes complimentary fries but primaryProposition.quote selects unrelated merchandise editorial. No economic incentive belongs to the declared primary quote; definite promotion is internally misassociated and survives validation. Source review finds this unflagged error; frozen scorer primary-anchor checking is incomplete.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [
+        {
+          "metric": "primary_secondary_association_errors",
+          "field": "primaryProposition",
+          "value": "In celebration of Singapore culture, we’ve teamed up with local artist tobyato to design an exclusive range of merchandise.",
+          "quote": "Get complimentary White pepper fries* on us when you put your knowledge about our local collab to the test",
+          "expected": null,
+          "survivedValidation": true,
+          "reviewReason": "Declared primary is merchandise editorial while classification economic evidence is the separate fries offer. Primary quote does not identify the economic proposition.",
+          "origin": "parent source review, not frozen automatic flag"
+        }
+      ],
+      "restrictionReview": [],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "regressed",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "promotion",
+        "v2RawClassification": "promotion",
+        "v2AcceptedClassification": "promotion",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Classification evidence quotes complimentary fries but primaryProposition.quote selects unrelated merchandise editorial. No economic incentive belongs to the declared primary quote; definite promotion is internally misassociated and survives validation. Source review finds this unflagged error; frozen scorer primary-anchor checking is incomplete."
+      }
+    },
+    {
+      "caseId": "shake_shack_sg-introducing-aloha-shack",
+      "sourceTextSha256": "a2e05661557014e743f9417dccefcaded834604af2b2ae1e87542d972aa3e79f",
+      "sourceCaptureSha256": "435e7d469abc4c9587b66bc05c0c1b4e33c945b3701d16b57c3f9a66f0b6a69c",
+      "rawOutputSha256": "b03474ab3d9ac9c8ccb614a5802c2cb8ee42590cf3d5a5d829b81d34e3d32159",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Raw non_promotion label correct, but quote omits source punctuation Introducing: and is not exact. Validator returns uncertain; evidence-induced classification regression, not semantic promotion invention.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [
+        {
+          "metric": "primary_classification_errors",
+          "field": "classification",
+          "value": "uncertain",
+          "quote": null,
+          "expected": "non_promotion",
+          "survivedValidation": true,
+          "rawPresent": false,
+          "reviewReason": "Correct raw non-promotion label has non-exact quote; validator downgrades to uncertain. This is evidence-induced accepted classification error, not raw label error."
+        }
+      ],
+      "restrictionReview": [],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "regressed",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "non_promotion",
+        "v2RawClassification": "non_promotion",
+        "v2AcceptedClassification": "uncertain",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Raw non_promotion label correct, but quote omits source punctuation Introducing: and is not exact. Validator returns uncertain; evidence-induced classification regression, not semantic promotion invention."
+      }
+    },
+    {
+      "caseId": "shake_shack_sg-more-perks-less-fuss",
+      "sourceTextSha256": "a141bee5e0836d87a5de0dffca9fb01bd44f0383e08ef9dbd92e30a2ac5f93ac",
+      "sourceCaptureSha256": "e4b9651371f86fa52bc208ffa95eec005fc22ae62ea5d38012ff577e74c54f42",
+      "rawOutputSha256": "076631c78d8651df105f4c50c319caa396a5b18b38c535c1d96da71c9b252137",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "2% reward benefit supported. Merchant Shake Shack does not appear in merchant quote your next Shack order and is rejected. Explicit hint identity is not inferred into accepted merchant. Redemption clause supported.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [
+        {
+          "index": 0,
+          "text": "use your Happy Dollars on your next Shack order",
+          "role": "redemption_channel",
+          "quote": "use your Happy Dollars on your next Shack order",
+          "associationQuote": "Earn 2% back on what you spend, and use your Happy Dollars on your next Shack order.",
+          "roleVerdict": "source_supported_role",
+          "expectedRole": "redemption_channel",
+          "reason": "Source-supported role under frozen definition; source wording/evidence checked. Mixed clauses are recorded as packing differences, not silently rewritten.",
+          "accepted": true
+        }
+      ],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "improved",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "promotion",
+        "v2RawClassification": "promotion",
+        "v2AcceptedClassification": "promotion",
+        "mixedOutcomeDisclosed": true,
+        "reason": "2% reward benefit supported. Merchant Shake Shack does not appear in merchant quote your next Shack order and is rejected. Explicit hint identity is not inferred into accepted merchant. Redemption clause supported."
+      }
+    },
+    {
+      "caseId": "shake_shack_sg-local-faves-our-treat",
+      "sourceTextSha256": "ed8d6805ca9cb530dc57c2cd83f2de28ee1f2bd995a3d8aac28ebc34ce767c02",
+      "sourceCaptureSha256": "f1bef083d729ffa13791c75d5cae225faa6bd648f733201b69f7976bc6eb6fc9",
+      "rawOutputSha256": "0bf32c447cf11d29abba04213ddcbb2447b4be614b1c7f1892965fd219dcbcf4",
+      "structuredSemanticsAssessable": false,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Malformed raw response preserved. Untouched literal text visibly contains weekdays value [1] supported by app-check every Monday wording, repeating v1 wrong schedule association. This is a qualitative malformed-output observation only; not parsed/repaired or included in usable-output metrics.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "malformed in v2",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": true,
+        "v1Classification": "promotion",
+        "v2RawClassification": null,
+        "v2AcceptedClassification": "uncertain",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Malformed raw response preserved. Untouched literal text visibly contains weekdays value [1] supported by app-check every Monday wording, repeating v1 wrong schedule association. This is a qualitative malformed-output observation only; not parsed/repaired or included in usable-output metrics."
+      }
+    },
+    {
+      "caseId": "shake_shack_sg-pucker-up-for-2-lemonades",
+      "sourceTextSha256": "78bceae959bb4eccabf0bb4793eb9b5011252b04dc51a0f07a9c067323064585",
+      "sourceCaptureSha256": "9bd48778d195473e8b806a487e0e37003ae323dd0a0a2dcc75577aefb7f26f87",
+      "rawOutputSha256": "5c38b512fc8f63e2a11f79a9b936eddee2b179366d785bba25aca7e6d895d168",
+      "structuredSemanticsAssessable": false,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Malformed extra closing brace in both runs; v2 also visibly paraphrases channel quotes. Neither result made usable by repair.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "malformed in v2",
+        "alsoMalformedInV1": true,
+        "alsoMalformedInV2": true,
+        "v1Classification": "uncertain",
+        "v2RawClassification": null,
+        "v2AcceptedClassification": "uncertain",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Malformed extra closing brace in both runs; v2 also visibly paraphrases channel quotes. Neither result made usable by repair."
+      }
+    },
+    {
+      "caseId": "shake_shack_sg-well-be-right-back",
+      "sourceTextSha256": "4f70214d524aadaadf2e7d105ba5d0eb6b10b64f6cd0f9e8e02debc41f0a3d53",
+      "sourceCaptureSha256": "58ec8c1c7b5ae20cecf67f3c3b32760e90487e2a020ec209a5b8f995c47659b2",
+      "rawOutputSha256": "b88829d0377fc3a532bb89a61b13df0fa61127f1a38a2c1ede5beb7c3a77a5c9",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "App downtime correctly non_promotion; no dates repurposed into campaign validity.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "unchanged",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "non_promotion",
+        "v2RawClassification": "non_promotion",
+        "v2AcceptedClassification": "non_promotion",
+        "mixedOutcomeDisclosed": false,
+        "reason": "App downtime correctly non_promotion; no dates repurposed into campaign validity."
+      }
+    },
+    {
+      "caseId": "shake_shack_sg-our-french-onion-menu",
+      "sourceTextSha256": "ff3cee1aaae947935e639e5f32ae75b4dbb55072d0be33fb4e5ff3d61eddaf8c",
+      "sourceCaptureSha256": "f264342e2bb09c3c6f0fbadb79b1f17b83079971152159f366236b5f6de561f2",
+      "rawOutputSha256": "0dbb0ba13af5a279c7bac2047b90e33d7e0cc4b10f22fd54a214ed08bcde3805",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Ordinary French Onion launch correctly non_promotion; no economic incentive inferred.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "unchanged",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "non_promotion",
+        "v2RawClassification": "non_promotion",
+        "v2AcceptedClassification": "non_promotion",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Ordinary French Onion launch correctly non_promotion; no economic incentive inferred."
+      }
+    },
+    {
+      "caseId": "fairprice_sg-price-drop-buy-now-weekly-offers-from-20-off",
+      "sourceTextSha256": "69243e823f1374050e339da28cef031b6b6484d15364da98494dd3d1c54ed7e3",
+      "sourceCaptureSha256": "de5d490deac380207e0546646376e4cb0934bb9839ebf9dd73bb0c512ea93aff",
+      "rawOutputSha256": "3bf949883bd8a3b68c59aec8c3ccfb2a959b104b80cc99e0ffb395be080489a7",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Raw From 20% qualifier correctly preserved, unlike v1; dates and primary source quote supported. Benefit field rejected because value is not the whole supplied quote; preservation is not claimed as full accepted-benefit coverage.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "improved",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "promotion",
+        "v2RawClassification": "promotion",
+        "v2AcceptedClassification": "promotion",
+        "mixedOutcomeDisclosed": true,
+        "reason": "Raw From 20% qualifier correctly preserved, unlike v1; dates and primary source quote supported. Benefit field rejected because value is not the whole supplied quote; preservation is not claimed as full accepted-benefit coverage."
+      }
+    },
+    {
+      "caseId": "fairprice_sg-xtra-wine-flash-sale",
+      "sourceTextSha256": "42c0db444df5bb76f792b75b8ca9da687e74e449164430dc9ee2d3db180b2159",
+      "sourceCaptureSha256": "de5d490deac380207e0546646376e4cb0934bb9839ebf9dd73bb0c512ea93aff",
+      "rawOutputSha256": "171a50e09ae7f5bfb6afc207bd5e92476c97fd5e59d3ee4372d95dcaba816eda",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Explicit wine deal card returns uncertain/empty. No contextual merchant or unquantified benefit invented, but classification and two explicit dates missed relative to frozen gold.",
+      "automatedFlagDispositions": [
+        {
+          "proposedFinding": {
+            "metric": "primary_classification_errors",
+            "field": "classification",
+            "value": "uncertain",
+            "expected": "promotion",
+            "quote": null
+          },
+          "disposition": "confirmed",
+          "sourceReviewReason": "Confirmed against unchanged captured source and frozen definition."
+        }
+      ],
+      "confirmedSemanticFindings": [
+        {
+          "metric": "primary_classification_errors",
+          "field": "classification",
+          "value": "uncertain",
+          "expected": "promotion",
+          "quote": null,
+          "survivedValidation": true,
+          "reviewReason": "Confirmed against unchanged captured source and frozen definition."
+        }
+      ],
+      "restrictionReview": [],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [],
+      "comparison": {
+        "category": "regressed",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "promotion",
+        "v2RawClassification": "uncertain",
+        "v2AcceptedClassification": "uncertain",
+        "mixedOutcomeDisclosed": false,
+        "reason": "Explicit wine deal card returns uncertain/empty. No contextual merchant or unquantified benefit invented, but classification and two explicit dates missed relative to frozen gold."
+      }
+    },
+    {
+      "caseId": "fairprice_sg-finest-wine",
+      "sourceTextSha256": "f2c8b8499038419b872cb0156149f45c34b4a155ca8c19e178bf9e60f5743c50",
+      "sourceCaptureSha256": "de5d490deac380207e0546646376e4cb0934bb9839ebf9dd73bb0c512ea93aff",
+      "rawOutputSha256": "ff5e150221114e4032cb42748b4eabee793ca13725e7f169666094536698863e",
+      "structuredSemanticsAssessable": true,
+      "reviewedFields": [
+        "classification",
+        "primaryProposition",
+        "merchant",
+        "dates",
+        "weekdays",
+        "hours",
+        "positive_scope",
+        "location_polarity_identity",
+        "every_restriction",
+        "benefit_qualifiers",
+        "source_boundary"
+      ],
+      "summary": "Deal card/explicit October dates supported. Wine Deals is generic marketing wording in benefit, not a quantified incentive; should stay null under v2 prompt. Finest is literal source text but merchant semantic role is ambiguous, not proof of FairPrice Finest registry identity. Neither infer broader merchant nor label a numeric economic hallucination.",
+      "automatedFlagDispositions": [],
+      "confirmedSemanticFindings": [],
+      "restrictionReview": [],
+      "locationRuleDomainErrors": [],
+      "additionalObservations": [
+        "Generic benefit-slot wording despite no quantified incentive.",
+        "Merchant semantic-role ambiguity for literal Finest; not proof of FairPrice Finest."
+      ],
+      "comparison": {
+        "category": "improved",
+        "alsoMalformedInV1": false,
+        "alsoMalformedInV2": false,
+        "v1Classification": "promotion",
+        "v2RawClassification": "promotion",
+        "v2AcceptedClassification": "promotion",
+        "mixedOutcomeDisclosed": true,
+        "reason": "Deal card/explicit October dates supported. Wine Deals is generic marketing wording in benefit, not a quantified incentive; should stay null under v2 prompt. Finest is literal source text but merchant semantic role is ambiguous, not proof of FairPrice Finest registry identity. Neither infer broader merchant nor label a numeric economic hallucination."
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "observedAt": "2026-10-01T13:09:18.822Z",
+  "pages": {
+    "https://www.fairprice.com.sg/promotions": {
+      "path": "b9ca9ac5408770eec90f7c11e10c7ba2096b9bcb79d9d36ee962336c1935f091.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.fairprice.com.sg/events/weekly-promotions/": {
+      "path": "040f38798c005d4583c035d5e8df3cea1b746d4d6fdb449cc60f37ebeb7cefc1.html",
+      "status": 404,
+      "contentType": "text/html"
+    }
+  }
+}

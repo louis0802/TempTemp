@@ -1,0 +1,296 @@
+{
+  "merchant": "kris-plus",
+  "limits": {
+    "maxRequests": 40,
+    "maxListingPages": 5,
+    "maxDetailPages": 20,
+    "maxEvidencePages": 8,
+    "maxBytes": 3000000,
+    "timeoutMs": 12000,
+    "maxRedirects": 3
+  },
+  "jobs": [
+    {
+      "url": "https://www.krisplus.com/en/sg/promotions/birthday-gift-box-25a03eca",
+      "purpose": "exact public directory-linked campaign detail; captured first-page subset",
+      "kind": "detail"
+    },
+    {
+      "url": "https://www.krisplus.com/en/sg/promotions/birthday-bash-weekly-deals-de9b2667",
+      "purpose": "exact public directory-linked campaign detail; captured first-page subset",
+      "kind": "detail"
+    },
+    {
+      "url": "https://www.krisplus.com/en/sg/promotions/birthday-bash-get-dollar-10-back-f014103d",
+      "purpose": "exact public directory-linked campaign detail; captured first-page subset",
+      "kind": "detail"
+    },
+    {
+      "url": "https://www.krisplus.com/en/sg/promotions/new-capitastar-rewards-4216080b",
+      "purpose": "exact public directory-linked campaign detail; captured first-page subset",
+      "kind": "detail"
+    },
+    {
+      "url": "https://www.krisplus.com/en/sg/promotions/superboost-your-rewards-1ded9979",
+      "purpose": "exact public directory-linked campaign detail; captured first-page subset",
+      "kind": "detail"
+    },
+    {
+      "url": "https://www.krisplus.com/en/sg/promotions/krisflyer-experiences-98304f50",
+      "purpose": "exact public directory-linked campaign detail; captured first-page subset",
+      "kind": "detail"
+    },
+    {
+      "url": "https://www.krisplus.com/en/sg/promotions/singapore-grand-prix-5afc62e0",
+      "purpose": "exact public directory-linked campaign detail; captured first-page subset",
+      "kind": "detail"
+    },
+    {
+      "url": "https://www.krisplus.com/en/sg/promotions/ready-new-phone-e13156bc",
+      "purpose": "exact public directory-linked campaign detail; captured first-page subset",
+      "kind": "detail"
+    },
+    {
+      "url": "https://www.krisplus.com/en/sg/promotions/win-150-000-miles-at-istudio-45333941",
+      "purpose": "exact public directory-linked campaign detail; captured first-page subset",
+      "kind": "detail"
+    },
+    {
+      "url": "https://www.krisplus.com/en/sg/promotions/zouk-group-a7e4bccf",
+      "purpose": "exact public directory-linked campaign detail; captured first-page subset",
+      "kind": "detail"
+    }
+  ],
+  "attempts": [
+    {
+      "url": "https://www.krisplus.com/en/sg/promotions/birthday-gift-box-25a03eca",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.krisplus.com/en/sg/promotions/birthday-bash-weekly-deals-de9b2667",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.krisplus.com/en/sg/promotions/birthday-bash-get-dollar-10-back-f014103d",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.krisplus.com/en/sg/promotions/new-capitastar-rewards-4216080b",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.krisplus.com/en/sg/promotions/superboost-your-rewards-1ded9979",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.krisplus.com/en/sg/promotions/krisflyer-experiences-98304f50",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.krisplus.com/en/sg/promotions/singapore-grand-prix-5afc62e0",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.krisplus.com/en/sg/promotions/ready-new-phone-e13156bc",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.krisplus.com/en/sg/promotions/win-150-000-miles-at-istudio-45333941",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.krisplus.com/en/sg/promotions/zouk-group-a7e4bccf",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    }
+  ],
+  "captures": [
+    {
+      "requestedUrl": "https://www.krisplus.com/en/sg/promotions/birthday-gift-box-25a03eca",
+      "finalUrl": "https://www.krisplus.com/en/sg/promotions/birthday-gift-box-25a03eca",
+      "capturedAt": "2026-10-01T13:15:26.510Z",
+      "observedAt": "2026-10-01T13:15:26.510Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 110513,
+      "sha256": "ba5b78a4c93087f3ee455185c2e1d790826ddf4fa804781bfcdb37f063307265",
+      "path": "ba5b78a4c93087f3ee455185c2e1d790826ddf4fa804781bfcdb37f063307265.html",
+      "purpose": "exact public directory-linked campaign detail; captured first-page subset",
+      "kind": "detail",
+      "accessBlocked": false
+    },
+    {
+      "requestedUrl": "https://www.krisplus.com/en/sg/promotions/birthday-bash-weekly-deals-de9b2667",
+      "finalUrl": "https://www.krisplus.com/en/sg/promotions/birthday-bash-weekly-deals-de9b2667",
+      "capturedAt": "2026-10-01T13:15:27.029Z",
+      "observedAt": "2026-10-01T13:15:27.029Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 110150,
+      "sha256": "1d7cb698d72bc0aa392bb14bcded210d026b5a052868c4af6d5458e9589e0b1c",
+      "path": "1d7cb698d72bc0aa392bb14bcded210d026b5a052868c4af6d5458e9589e0b1c.html",
+      "purpose": "exact public directory-linked campaign detail; captured first-page subset",
+      "kind": "detail",
+      "accessBlocked": false
+    },
+    {
+      "requestedUrl": "https://www.krisplus.com/en/sg/promotions/birthday-bash-get-dollar-10-back-f014103d",
+      "finalUrl": "https://www.krisplus.com/en/sg/promotions/birthday-bash-get-dollar-10-back-f014103d",
+      "capturedAt": "2026-10-01T13:15:27.462Z",
+      "observedAt": "2026-10-01T13:15:27.462Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 96996,
+      "sha256": "1fc0b8a0298d6bd6789755df0fbd726597db3dea9eddd74ddfe07290a4263e64",
+      "path": "1fc0b8a0298d6bd6789755df0fbd726597db3dea9eddd74ddfe07290a4263e64.html",
+      "purpose": "exact public directory-linked campaign detail; captured first-page subset",
+      "kind": "detail",
+      "accessBlocked": false
+    },
+    {
+      "requestedUrl": "https://www.krisplus.com/en/sg/promotions/new-capitastar-rewards-4216080b",
+      "finalUrl": "https://www.krisplus.com/en/sg/promotions/new-capitastar-rewards-4216080b",
+      "capturedAt": "2026-10-01T13:15:27.926Z",
+      "observedAt": "2026-10-01T13:15:27.926Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 111510,
+      "sha256": "8f7b071ec0ded0d2c987d92c8413f2945bb8afcdc330c056e45a0cfba8f72fdd",
+      "path": "8f7b071ec0ded0d2c987d92c8413f2945bb8afcdc330c056e45a0cfba8f72fdd.html",
+      "purpose": "exact public directory-linked campaign detail; captured first-page subset",
+      "kind": "detail",
+      "accessBlocked": false
+    },
+    {
+      "requestedUrl": "https://www.krisplus.com/en/sg/promotions/superboost-your-rewards-1ded9979",
+      "finalUrl": "https://www.krisplus.com/en/sg/promotions/superboost-your-rewards-1ded9979",
+      "capturedAt": "2026-10-01T13:15:28.327Z",
+      "observedAt": "2026-10-01T13:15:28.327Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 111459,
+      "sha256": "8682e74b14f8d4124cb4bfef3e0ae657ad7b7a36202c50cfae60d31cc241a304",
+      "path": "8682e74b14f8d4124cb4bfef3e0ae657ad7b7a36202c50cfae60d31cc241a304.html",
+      "purpose": "exact public directory-linked campaign detail; captured first-page subset",
+      "kind": "detail",
+      "accessBlocked": false
+    },
+    {
+      "requestedUrl": "https://www.krisplus.com/en/sg/promotions/krisflyer-experiences-98304f50",
+      "finalUrl": "https://www.krisplus.com/en/sg/promotions/krisflyer-experiences-98304f50",
+      "capturedAt": "2026-10-01T13:15:28.964Z",
+      "observedAt": "2026-10-01T13:15:28.964Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 139995,
+      "sha256": "08b07d299d3d0c254e837fc984e9c3751242dc495a4982ea249148e49a8dd959",
+      "path": "08b07d299d3d0c254e837fc984e9c3751242dc495a4982ea249148e49a8dd959.html",
+      "purpose": "exact public directory-linked campaign detail; captured first-page subset",
+      "kind": "detail",
+      "accessBlocked": false
+    },
+    {
+      "requestedUrl": "https://www.krisplus.com/en/sg/promotions/singapore-grand-prix-5afc62e0",
+      "finalUrl": "https://www.krisplus.com/en/sg/promotions/singapore-grand-prix-5afc62e0",
+      "capturedAt": "2026-10-01T13:15:29.508Z",
+      "observedAt": "2026-10-01T13:15:29.508Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 90654,
+      "sha256": "75a58dac26a1ae051ba53ef66751d78cc8ce2a48df2bd5093938f2295042f5b3",
+      "path": "75a58dac26a1ae051ba53ef66751d78cc8ce2a48df2bd5093938f2295042f5b3.html",
+      "purpose": "exact public directory-linked campaign detail; captured first-page subset",
+      "kind": "detail",
+      "accessBlocked": false
+    },
+    {
+      "requestedUrl": "https://www.krisplus.com/en/sg/promotions/ready-new-phone-e13156bc",
+      "finalUrl": "https://www.krisplus.com/en/sg/promotions/ready-new-phone-e13156bc",
+      "capturedAt": "2026-10-01T13:15:29.864Z",
+      "observedAt": "2026-10-01T13:15:29.864Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 102907,
+      "sha256": "4f960fd99399b2fcfe0ca93a0834b936d7f8cbe9a59628e1a87a0340e086f36e",
+      "path": "4f960fd99399b2fcfe0ca93a0834b936d7f8cbe9a59628e1a87a0340e086f36e.html",
+      "purpose": "exact public directory-linked campaign detail; captured first-page subset",
+      "kind": "detail",
+      "accessBlocked": false
+    },
+    {
+      "requestedUrl": "https://www.krisplus.com/en/sg/promotions/win-150-000-miles-at-istudio-45333941",
+      "finalUrl": "https://www.krisplus.com/en/sg/promotions/win-150-000-miles-at-istudio-45333941",
+      "capturedAt": "2026-10-01T13:15:30.358Z",
+      "observedAt": "2026-10-01T13:15:30.358Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 131201,
+      "sha256": "8084a28860d5615d1fc67144023ef75510aa9a0e0b314de5a9cb442c1082d0f9",
+      "path": "8084a28860d5615d1fc67144023ef75510aa9a0e0b314de5a9cb442c1082d0f9.html",
+      "purpose": "exact public directory-linked campaign detail; captured first-page subset",
+      "kind": "detail",
+      "accessBlocked": false
+    },
+    {
+      "requestedUrl": "https://www.krisplus.com/en/sg/promotions/zouk-group-a7e4bccf",
+      "finalUrl": "https://www.krisplus.com/en/sg/promotions/zouk-group-a7e4bccf",
+      "capturedAt": "2026-10-01T13:15:30.844Z",
+      "observedAt": "2026-10-01T13:15:30.844Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 118213,
+      "sha256": "961e4e9887661ff82cf0a675b2a643e48e5be31c8aff617562b04bad97e9fce0",
+      "path": "961e4e9887661ff82cf0a675b2a643e48e5be31c8aff617562b04bad97e9fce0.html",
+      "purpose": "exact public directory-linked campaign detail; captured first-page subset",
+      "kind": "detail",
+      "accessBlocked": false
+    }
+  ],
+  "failures": [],
+  "cumulativeCounts": {
+    "listing": 2,
+    "detail": 12,
+    "evidence": 3
+  },
+  "cumulativeAttempts": 17,
+  "note": "Explicit public research roots, ordinary bounded direct transport; no cookies/auth/private APIs/OCR or browser. Research evidence is not production registration."
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "sourceId": "fairprice_sg",
+    "merchant": "FairPrice",
+    "ownership": "verified",
+    "sourceFamily": "json_backed_retail_promotions",
+    "adapter": "fairprice",
+    "finalState": "shadow",
+    "enumeration": "partial",
+    "blockers": [
+      "partial_enumeration",
+      "catalogue_product_set_unresolved",
+      "catalogue_detail_facts_unavailable",
+      "physical_participation_unresolved"
+    ],
+    "roots": [
+      "https://www.fairprice.com.sg/weekly-promotions"
+    ],
+    "operator": "NTUC FairPrice Co-operative Limited",
+    "evidenceRefs": [
+      "docs/changes/direct-source-batch-1/research.md",
+      "docs/changes/direct-source-batch-1/research-ledger.json"
+    ]
+  },
+  {
+    "sourceId": "kris_plus_sg",
+    "merchant": "Kris+",
+    "ownership": "verified",
+    "sourceFamily": "app_deeplink_with_public_directory",
+    "adapter": "kris-plus",
+    "finalState": "shadow",
+    "enumeration": "partial",
+    "blockers": [
+      "partial_enumeration",
+      "unresolved_load_more",
+      "campaign_offer_scopes_unresolved",
+      "partner_publication_configuration_unmodeled"
+    ],
+    "roots": [
+      "https://www.krisplus.com/en/sg/promotions"
+    ],
+    "operator": "Kris+ Pte Ltd",
+    "evidenceRefs": [
+      "docs/changes/direct-source-batch-1/research.md",
+      "docs/changes/direct-source-batch-1/research-ledger.json"
+    ]
+  },
+  {
+    "sourceId": "dian_xiao_er_sg",
+    "merchant": "Dian Xiao Er",
+    "ownership": "probable",
+    "sourceFamily": "wix_promotion_collection",
+    "adapter": "dian-xiao-er",
+    "finalState": "shadow",
+    "enumeration": "partial",
+    "blockers": [
+      "ownership_unverified",
+      "partial_enumeration",
+      "lightbox_mapping_unresolved",
+      "image_only_campaign_facts"
+    ],
+    "roots": [
+      "https://www.dianxiaoer.com.sg/promo"
+    ],
+    "operator": "Dian Xiao Er (legal operator not independently established)",
+    "evidenceRefs": [
+      "docs/changes/direct-source-batch-1/research.md",
+      "docs/changes/direct-source-batch-1/research-ledger.json"
+    ]
+  },
+  {
+    "sourceId": "cs_foods_sg",
+    "merchant": "CS Foods",
+    "ownership": "verified",
+    "sourceFamily": "woocommerce_sale_catalog",
+    "adapter": null,
+    "finalState": "blocked",
+    "enumeration": "partial",
+    "blockers": [
+      "access_blocked",
+      "campaign_validity_unavailable",
+      "sale_catalogue_not_complete_campaign_enumeration"
+    ],
+    "roots": [
+      "https://csfoods.sg/unbeatable-halal-meat-sale/"
+    ],
+    "operator": "Chee Song Foods Pte Ltd",
+    "evidenceRefs": [
+      "docs/changes/direct-source-batch-1/research.md",
+      "docs/changes/direct-source-batch-1/research-ledger.json"
+    ]
+  }
+]

@@ -6,7 +6,7 @@ const date = z
   .regex(/^\d{4}-\d{2}-\d{2}$/)
   .refine((v) => DateTime.fromISO(v).isValid, "Invalid calendar date");
 const time = z.string().regex(/^([01]\d|2[0-3]):[0-5]\d$/);
-export const sourceSchema = z.object({
+export const legacySourceSchema = z.object({
   label: z.string().min(1).max(100),
   url: z.url().refine((v) => {
     const u = new URL(v);
@@ -17,6 +17,20 @@ export const sourceSchema = z.object({
     );
   }, "Expected selected Telegram channel post"),
 });
+export const directSourceSchema = z.object({
+  kind: z.literal("direct"),
+  sourceKind: z
+    .enum(["merchant_web", "merchant_social", "issuer_platform"])
+    .optional(),
+  platform: z.enum(["instagram", "facebook", "tiktok"]).optional(),
+  sourceId: z.string().min(1).max(100),
+  label: z.string().min(1).max(100),
+  url: z.url().refine((value) => {
+    const url = new URL(value);
+    return url.protocol === "https:" && !url.username && !url.password;
+  }, "Expected HTTPS official source"),
+});
+export const sourceSchema = z.union([directSourceSchema, legacySourceSchema]);
 export const outletSchema = z.object({
   id: z.string().uuid(),
   name: z.string().min(1).max(200),

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T04:11:58.215Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://www.instagram.com/gimme4fingers/",
+      "url": "https://www.instagram.com/gimme4fingers/",
+      "status": 200,
+      "content_type": "text/html; charset=\"utf-8\"",
+      "redirect_to": null,
+      "file": "c42798ae973373bd89c1ae6460b5bd5d05fc2465a46138bb5f617180b733db71.html",
+      "sha256": "c42798ae973373bd89c1ae6460b5bd5d05fc2465a46138bb5f617180b733db71",
+      "bytes": 855264,
+      "error": null
+    }
+  ]
+}

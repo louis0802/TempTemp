@@ -1,0 +1,30 @@
+{
+  "observedAt": "2026-10-01T13:09:21.832Z",
+  "pages": {
+    "https://www.dianxiaoer.com.sg/promo": {
+      "path": "research-2026-10-01T13-09-22-239Z/d4de82a67f34a0dc549401a6d3f64c2abad8769835399d93b54ae613ebd2d2d9.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.dianxiaoer.com.sg/": {
+      "path": "research-2026-10-01T13-09-22-239Z/0e35a158011a8906f5d11f547692d4b68198b04777366af5d01ddbcc3ba02d6f.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.dianxiaoer.com.sg/outlets": {
+      "path": "research-2026-10-01T13-12-08-317Z/a0824fb364a5a4cc2704db0ed7446d7c5c00d0c791fcb3285b39d19331fa9258.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.dianxiaoer.com.sg/membership": {
+      "path": "research-2026-10-01T13-12-08-317Z/b999fba661c41cd6489a50512403b68142166bd579d804ab87eed8e3663d14b5.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.dianxiaoer.com.sg/promo?lightbox=dataItem-msxym06a": {
+      "path": "research-2026-10-01T13-15-31-211Z/8d91a5f6da8dfa62e8d1092944f04a14262a48e66bc6e2b74fcef653445246cc.html",
+      "status": 200,
+      "contentType": "text/html"
+    }
+  }
+}

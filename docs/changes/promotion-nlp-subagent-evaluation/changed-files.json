@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "files": [
+    "scripts/research/promotion-nlp-subagent-evaluation.ts",
+    "tests/promotion-nlp-subagent.test.ts",
+    "docs/changes/promotion-nlp-subagent-evaluation/changed-files.json",
+    "docs/changes/promotion-nlp-subagent-evaluation/decision.md",
+    "docs/changes/promotion-nlp-subagent-evaluation/design.md",
+    "docs/changes/promotion-nlp-subagent-evaluation/intent.md",
+    "docs/changes/promotion-nlp-subagent-evaluation/methodology.md",
+    "docs/changes/promotion-nlp-subagent-evaluation/plan.md",
+    "docs/changes/promotion-nlp-subagent-evaluation/results.md",
+    "docs/changes/promotion-nlp-subagent-evaluation/semantic-review.md",
+    "docs/changes/promotion-nlp-subagent-evaluation/spec.md",
+    "docs/changes/promotion-nlp-subagent-evaluation/verification.md"
+  ],
+  "productionFilesChanged": [],
+  "benchmarkGoldChanged": false,
+  "promptSchemaValidatorScorerChanged": false,
+  "preExistingDirtyChangesPreserved": true,
+  "ignoredRunDirectory": "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/promotion-nlp-subagent/2026-10-02T12-38-23-377Z-ebde54a7-5856-4b50-8752-395c50bb7cfe"
+}

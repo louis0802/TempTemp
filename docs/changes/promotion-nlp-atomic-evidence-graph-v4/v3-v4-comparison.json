@@ -1,0 +1,403 @@
+{
+  "sourceCases": 49,
+  "categoryCounts": {
+    "improved": 13,
+    "similar": 11,
+    "regressed": 20,
+    "mixed": 5
+  },
+  "cases": [
+    {
+      "caseId": "pepper_lunch_sg-student-meal",
+      "category": "improved",
+      "v3EconomicCohortRecovered": 0,
+      "v4EconomicCohortRecovered": 1,
+      "v3Summary": "Student Meal before/after units are isolated, so before-5pm dine-in text cannot enter the after-5pm task. But before-5pm economics were fragmented into a separate student-deals unit: product unit non_promotion, deals unit uncertain. After-5pm response is syntax malformed; no successful after-offer extraction or semantic fix is claimed from readable text.",
+      "v4Summary": "Before/after anchors coexist. Captured student-deals clause left unlinked, making before5 locally uncertain; after5 usable. Earliest economic omission3, not classifier error on impoverished local input."
+    },
+    {
+      "caseId": "pepper_lunch_sg-uper-value-deal",
+      "category": "improved",
+      "v3EconomicCohortRecovered": 1,
+      "v4EconomicCohortRecovered": 1,
+      "v3Summary": "Alternative central price/bundle wording is the same source promotion; frozen anchor missed it. Explicit September/October dates and exclusion now survive. Benefit $9.90 is specifically the 120g variant, yet value omits 120g/from and the campaign has other higher-priced portions: one material qualifier/portion-loss risk, despite 120g appearing in its evidence quote.",
+      "v4Summary": "Three complete portion-price variants are harmless source equivalents, like V3 Peppie variants. Fixed portion/price pairs fix V3 unqualified9.90 risk; minimum headline matcher misses them."
+    },
+    {
+      "caseId": "pepper_lunch_sg-weekday-lunch",
+      "category": "similar",
+      "v3EconomicCohortRecovered": 1,
+      "v4EconomicCohortRecovered": 1,
+      "v3Summary": "Explicit unquantified weekday deal recovered; weekdays, dine-in, holiday/combinability exclusion and availability are correct. Separate soup item/availability clauses are valid atomic decomposition, not attribute errors.",
+      "v4Summary": "All immutable source/local outputs reviewed. See identity map, execution failures and full normalization/condition audit; minimum-gold boundaries/facets remain distinct from source semantics."
+    },
+    {
+      "caseId": "pepper_lunch_sg-dine-with-pride",
+      "category": "improved",
+      "v3EconomicCohortRecovered": 0,
+      "v4EconomicCohortRecovered": 1,
+      "v3Summary": "Segmentation exact span fails: Dine-in only. changes the source case of dine-in. Whole source rejected, no Stage-2 retry or corrected segment. Prior usable V2 offer is now unassessable.",
+      "v4Summary": "Equivalent anchor omits enjoy prefix. NSmen cap/ID/negative clauses survive; daily normalized weekdays missing despite literal daily constraint."
+    },
+    {
+      "caseId": "pepper_lunch_sg-cheesy-omelette-2",
+      "category": "similar",
+      "v3EconomicCohortRecovered": 0,
+      "v4EconomicCohortRecovered": 0,
+      "v3Summary": "Product return remains non_promotion. Raw title violates empty non-promotion contract and is dropped; no accepted promotion facts.",
+      "v4Summary": "All immutable source/local outputs reviewed. See identity map, execution failures and full normalization/condition audit; minimum-gold boundaries/facets remain distinct from source semantics."
+    },
+    {
+      "caseId": "pepper_lunch_sg-peppie-meal",
+      "category": "regressed",
+      "v3EconomicCohortRecovered": 1,
+      "v4EconomicCohortRecovered": 0,
+      "v3Summary": "Two same-price beef/chicken variants are acceptable source-equivalent boundaries and represent one gold offer. Both classify correctly, retain audience/channel/stock/scope. Beef output loses eve-of-Chinese-New-Year exclusion as a constraint; chicken preserves it. Kids-present timing + audience is reasonable overlap.",
+      "v4Summary": "All immutable source/local outputs reviewed. See identity map, execution failures and full normalization/condition audit; minimum-gold boundaries/facets remain distinct from source semantics."
+    },
+    {
+      "caseId": "pepper_lunch_sg-delivery",
+      "category": "improved",
+      "v3EconomicCohortRecovered": 0,
+      "v4EconomicCohortRecovered": 0,
+      "v3Summary": "GrabFood/Foodpanda/Express service subdivisions are source-equivalent non-promotion boundaries. Two usable non-promotions, one schema-malformed Foodpanda unit. Named delivery areas never become accepted promotion participation.",
+      "v4Summary": "All immutable source/local outputs reviewed. See identity map, execution failures and full normalization/condition audit; minimum-gold boundaries/facets remain distinct from source semantics."
+    },
+    {
+      "caseId": "shake_shack_sg-100-angus-beef-just-for-you",
+      "category": "regressed",
+      "v3EconomicCohortRecovered": 1,
+      "v4EconomicCohortRecovered": 1,
+      "v3Summary": "Bundle offer is now usable. Purchase prerequisite and exclusions retained, but normalized dates and an explicit-year validity constraint are omitted despite sealed source support. Free-item benefit does not assert the bundle price, so absence of From $28.90 is not a price-qualifier loss.",
+      "v4Summary": "Story/offer separate; synthetic combined benefit rejected. Raw collective outlet label is domain error, not physical branch invention."
+    },
+    {
+      "caseId": "shake_shack_sg-all-about-chickens",
+      "category": "regressed",
+      "v3EconomicCohortRecovered": 1,
+      "v4EconomicCohortRecovered": 1,
+      "v3Summary": "One-day bundle dates, all-outlet scope and channels correct. Benefit quote drops source parentheses, fails literal evidence and becomes null. No invented date or price; omission after rejection is distinct from qualifier loss.",
+      "v4Summary": "All immutable source/local outputs reviewed. See identity map, execution failures and full normalization/condition audit; minimum-gold boundaries/facets remain distinct from source semantics."
+    },
+    {
+      "caseId": "shake_shack_sg-concrete-craze",
+      "category": "similar",
+      "v3EconomicCohortRecovered": 0,
+      "v4EconomicCohortRecovered": 0,
+      "v3Summary": "Editorial/local-partner units non_promotion, activity uncertain. Raw activity endDate is campaign/activity end, not proven redemption validity; coherence rejection removes it. Campaign end and voucher issuance remain separated from accepted validity.",
+      "v4Summary": "All immutable source/local outputs reviewed. See identity map, execution failures and full normalization/condition audit; minimum-gold boundaries/facets remain distinct from source semantics."
+    },
+    {
+      "caseId": "shake_shack_sg-everything-in-our-veggie-shack",
+      "category": "improved",
+      "v3EconomicCohortRecovered": 0,
+      "v4EconomicCohortRecovered": 0,
+      "v3Summary": "Contest correctly non_promotion with no prize/validity. Original Veggie product editorial is left unassigned; Hibiscus product is a harmless extra unit. No assumed year or contest-to-product transfer.",
+      "v4Summary": "All immutable source/local outputs reviewed. See identity map, execution failures and full normalization/condition audit; minimum-gold boundaries/facets remain distinct from source semantics."
+    },
+    {
+      "caseId": "shake_shack_sg-feeding-a-crowd",
+      "category": "improved",
+      "v3EconomicCohortRecovered": 0,
+      "v4EconomicCohortRecovered": 1,
+      "v3Summary": "Catering economics and main conditions segmented together; submission instruction and ancillary complimentary delivery/$500 threshold wrongly left unassigned. Extraction has unmodified suffix token and remains syntax malformed. No repaired usable catering result.",
+      "v4Summary": "Catering deal and additional free-delivery-above500 are separately valid economic propositions. Minimum gold incorrectly treats the second as missing/incorrect support for the first."
+    },
+    {
+      "caseId": "shake_shack_sg-hello-one-fullerton",
+      "category": "mixed",
+      "v3EconomicCohortRecovered": 0,
+      "v4EconomicCohortRecovered": 0,
+      "v3Summary": "Opening/artwork/dessert units all non_promotion; extra editorial boundaries are harmless. Raw titles are dropped under coherence rule. No scenic venue names become positive promotion outlets.",
+      "v4Summary": "All immutable source/local outputs reviewed. See identity map, execution failures and full normalization/condition audit; minimum-gold boundaries/facets remain distinct from source semantics."
+    },
+    {
+      "caseId": "shake_shack_sg-hello-parkway-parade",
+      "category": "regressed",
+      "v3EconomicCohortRecovered": 1,
+      "v4EconomicCohortRecovered": 0,
+      "v3Summary": "Parkway opening offer and full literal branch label are correct. $16 minimum/code/app/per-order/exclusions retained. Dates conservative null in date fields but explicit-year validity remains a timing constraint. Longer outlet label is not invented identity.",
+      "v4Summary": "All immutable source/local outputs reviewed. See identity map, execution failures and full normalization/condition audit; minimum-gold boundaries/facets remain distinct from source semantics."
+    },
+    {
+      "caseId": "shake_shack_sg-national-cheeseburger-day",
+      "category": "improved",
+      "v3EconomicCohortRecovered": 1,
+      "v4EconomicCohortRecovered": 1,
+      "v3Summary": "Free-patty economics, validity and all-outlet coverage correct. Generic collective Shake Shack Singapore outlets wrongly survives physical-name filtering: domain error, not invented physical branch. Additional modifier top-up clause is paraphrased, rejected, and missing from accepted constraints. Atomic stock and extra-patty top-up roles are source-supported.",
+      "v4Summary": "All immutable source/local outputs reviewed. See identity map, execution failures and full normalization/condition audit; minimum-gold boundaries/facets remain distinct from source semantics."
+    },
+    {
+      "caseId": "shake_shack_sg-shack-meal",
+      "category": "regressed",
+      "v3EconomicCohortRecovered": 1,
+      "v4EconomicCohortRecovered": 0,
+      "v3Summary": "Starting-from $15.10 benefit, weekdays/11–14/app/scope/exclusions correct. starting from $15.10 tagged purchase is an attribute error: price is not a spending prerequisite. PH exclusion alone is reasonable; item top-up need not carry an unrelated channel attribute.",
+      "v4Summary": "All immutable source/local outputs reviewed. See identity map, execution failures and full normalization/condition audit; minimum-gold boundaries/facets remain distinct from source semantics."
+    },
+    {
+      "caseId": "shake_shack_sg-singlish-lingo",
+      "category": "improved",
+      "v3EconomicCohortRecovered": 0,
+      "v4EconomicCohortRecovered": 1,
+      "v3Summary": "Source offer remains isolated but extraction suffix makes JSON malformed. No repair. Readable wording does not establish viable syntax or semantic stability.",
+      "v4Summary": "All immutable source/local outputs reviewed. See identity map, execution failures and full normalization/condition audit; minimum-gold boundaries/facets remain distinct from source semantics."
+    },
+    {
+      "caseId": "shake_shack_sg-study-breaks-just-got-better",
+      "category": "similar",
+      "v3EconomicCohortRecovered": 1,
+      "v4EconomicCohortRecovered": 1,
+      "v3Summary": "Student fries offer, purchase, student ID/audience, named outlets and weekdays correct. Audience + redemption_channel for ID presentation is valid overlap; equivalent point-of-purchase evidence retains the redemption action.",
+      "v4Summary": "All immutable source/local outputs reviewed. See identity map, execution failures and full normalization/condition audit; minimum-gold boundaries/facets remain distinct from source semantics."
+    },
+    {
+      "caseId": "shake_shack_sg-this-ones-for-your-mom",
+      "category": "regressed",
+      "v3EconomicCohortRecovered": 1,
+      "v4EconomicCohortRecovered": 1,
+      "v3Summary": "Mother bundle central wording plus supporting free-item list is an acceptable boundary, not a false promotion. Missing year remains unknown. Merchant string not contiguous in supplied quote is rejected. From $30.80 tagged purchase mislabels starting price; cap purchase overlap is harmless.",
+      "v4Summary": "All immutable source/local outputs reviewed. See identity map, execution failures and full normalization/condition audit; minimum-gold boundaries/facets remain distinct from source semantics."
+    },
+    {
+      "caseId": "shake_shack_sg-were-introducing-chicken-sundays",
+      "category": "regressed",
+      "v3EconomicCohortRecovered": 1,
+      "v4EconomicCohortRecovered": 0,
+      "v3Summary": "Free chicken purchase/code economics, explicit dates, Sunday, all outlets/app and exclusions supported. Code is already preserved in benefit; calendar fields represent validity. Missing repeated channel/date clauses are coverage differences, not separate semantic inventions.",
+      "v4Summary": "All immutable source/local outputs reviewed. See identity map, execution failures and full normalization/condition audit; minimum-gold boundaries/facets remain distinct from source semantics."
+    },
+    {
+      "caseId": "shake_shack_sg-zi-char-menu",
+      "category": "similar",
+      "v3EconomicCohortRecovered": 0,
+      "v4EconomicCohortRecovered": 0,
+      "v3Summary": "Zi Char menu plus product subdivisions all non_promotion. Five extra menu-item units are unnecessary but harmless. Raw merchant inferred from hint with null evidence is rejected by coherence; no year/date/scope accepted.",
+      "v4Summary": "All immutable source/local outputs reviewed. See identity map, execution failures and full normalization/condition audit; minimum-gold boundaries/facets remain distinct from source semantics."
+    },
+    {
+      "caseId": "captain_kim_sg-captain-kim-delivery",
+      "category": "regressed",
+      "v3EconomicCohortRecovered": 1,
+      "v4EconomicCohortRecovered": 1,
+      "v3Summary": "Takeaway 20% regular-items offer correctly classified and scoped without inventing venue. Flash this page was supplied but omitted: material redemption requirement still missing, as in V2.",
+      "v4Summary": "Flash this page absent at1; takeaway captured but unlinked at3. Benefit alone survives. Not a Stage5 Flash omission."
+    },
+    {
+      "caseId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-1",
+      "category": "regressed",
+      "v3EconomicCohortRecovered": 1,
+      "v4EconomicCohortRecovered": 1,
+      "v3Summary": "Student 2+1 retains dates/Monday/ID/age/social/booking-code/minimum-three/duration. Benefit quote rewrites literal 2+1M and is rejected. Reservation + channel and minimum-party + dine-in overlap are valid. Repeated negative-booking sentence is covered by positive mandatory booking clause.",
+      "v4Summary": "All immutable source/local outputs reviewed. See identity map, execution failures and full normalization/condition audit; minimum-gold boundaries/facets remain distinct from source semantics."
+    },
+    {
+      "caseId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-2",
+      "category": "mixed",
+      "v3EconomicCohortRecovered": 0,
+      "v4EconomicCohortRecovered": 3,
+      "v3Summary": "Captain Early Bird merges three price/day/time groups into one unit. This is a risky Stage-1 merge. Extraction schema fails on bare null locationScope; visible degenerate 17:30–17:30 range is qualitative only, never repaired or counted as usable numeric invention.",
+      "v4Summary": "Three groups discovered. Mixed weekday/weekend time node assigned to both; weekday normalization invents17:30-17:30 and transfers weekend17-17:30. Weekend correct range falsely rejected by pmTimeslots lexer. No raw output repaired."
+    },
+    {
+      "caseId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-3",
+      "category": "improved",
+      "v3EconomicCohortRecovered": 0,
+      "v4EconomicCohortRecovered": 1,
+      "v3Summary": "October 4+1 malformed syntax again. No usable eligibility/benefit/date output or claimed improvement.",
+      "v4Summary": "All immutable source/local outputs reviewed. See identity map, execution failures and full normalization/condition audit; minimum-gold boundaries/facets remain distinct from source semantics."
+    },
+    {
+      "caseId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-3",
+      "category": "mixed",
+      "v3EconomicCohortRecovered": 1,
+      "v4EconomicCohortRecovered": 1,
+      "v3Summary": "September 4+1 economics/dates/days/party/social/duration supported. Lowest-paying free diner tagged purchase instead of audience changes eligibility meaning. Host clause pluralizes literal Guest, fails exact quote and drops the mandatory host action.",
+      "v4Summary": "All immutable source/local outputs reviewed. See identity map, execution failures and full normalization/condition audit; minimum-gold boundaries/facets remain distinct from source semantics."
+    },
+    {
+      "caseId": "bari_bari_steak_sg-promotions-1",
+      "category": "regressed",
+      "v3EconomicCohortRecovered": 1,
+      "v4EconomicCohortRecovered": 1,
+      "v3Summary": "Bari Lunch correctly opening_to end 17:00, Monday–Friday and Tampines 1; up-to qualifier retained. No midnight or inferred lower bound. Only one source card used.",
+      "v4Summary": "Raw opening_to17:00 correct, no midnight; entire output rejected for synthetic price+savings benefit. No usable Lunch success."
+    },
+    {
+      "caseId": "bari_bari_steak_sg-promotions-2",
+      "category": "mixed",
+      "v3EconomicCohortRecovered": 0,
+      "v4EconomicCohortRecovered": 0,
+      "v3Summary": "Bari Salad Bar combines all-day Tampines/VivoCity and tea-time Junction/Great World groups. Frozen central-anchor scorer misses this merged unit. Accepted flat timeConstraints 14–17 applies with all four participating names and no group-specific constraint: one surviving cross-proposition time/location leakage case. Names themselves are real/source-supported; benefit ellipsis is rejected.",
+      "v4Summary": "Bari source groups distinct at1 but one generic proposition at2. Both groups linked to it. Constraints retain literal group/time text and no global14-17 range is emitted, but two independent identities and branch-specific scheduling are absent. Earliest harmful merge2."
+    },
+    {
+      "caseId": "bari_bari_steak_sg-promotions-3",
+      "category": "improved",
+      "v3EconomicCohortRecovered": 0,
+      "v4EconomicCohortRecovered": 1,
+      "v3Summary": "Senior offer Stage 1 alternative central discount wording is valid. Stage-2 JSON has an extra object after the first root and is malformed. Readable opening_to cannot be counted as structured semantic success.",
+      "v4Summary": "Usable opening_to17:00, age/proof/dinein and Tampines1. Positive selected/named tag difference is not physical branch invention."
+    },
+    {
+      "caseId": "bari_bari_steak_sg-promotions-4",
+      "category": "regressed",
+      "v3EconomicCohortRecovered": 1,
+      "v4EconomicCohortRecovered": 1,
+      "v3Summary": "Bari Dinner duplicates the same supported 17–18 range harmlessly; no invented clock. Dine-in text capitalized/rewritten fails exact containment and is dropped. Total-bill-before-GST clause tagged purchase incorrectly categorizes price calculation as purchase prerequisite.",
+      "v4Summary": "Most critical time, venue, seating/order, dinein and exclusion nodes left unlinked at3. Stage5 cannot recover full-source conditions."
+    },
+    {
+      "caseId": "bari_bari_steak_sg-promotions-5",
+      "category": "similar",
+      "v3EconomicCohortRecovered": 1,
+      "v4EconomicCohortRecovered": 1,
+      "v3Summary": "Isolated drinks 1-for-1 offer correctly classified with no inherited sibling venue/date/hour or contextual merchant.",
+      "v4Summary": "All immutable source/local outputs reviewed. See identity map, execution failures and full normalization/condition audit; minimum-gold boundaries/facets remain distinct from source semantics."
+    },
+    {
+      "caseId": "mcdonalds_sg-McSaver",
+      "category": "similar",
+      "v3EconomicCohortRecovered": 0,
+      "v4EconomicCohortRecovered": 0,
+      "v3Summary": "McSaver economic and product units separated; all exclusions stay in economic input. Economic extraction is syntax malformed, so exclusions visibly readable are not a usable preservation result. Three product units non_promotion.",
+      "v4Summary": "Stage1 duplicate Gluten nodes. Exclusions raw-present, no downstream polarity preservation claim."
+    },
+    {
+      "caseId": "mcdonalds_sg-bfmcsaver",
+      "category": "regressed",
+      "v3EconomicCohortRecovered": 1,
+      "v4EconomicCohortRecovered": 0,
+      "v3Summary": "Breakfast meal unit independently promotion with null campaign dates, excluded Mandai/Lido/Gardens/Changi, no positive scope. Contest is separately scoped but wrongly classified promotion; its own submission dates become invalid economic-promotion validity. No contest-to-meal leakage. Route activity tagged purchase is a local attribute error; prize promise tagged exclusion has unrelated quote and is rejected.",
+      "v4Summary": "Stage1 duplicate allergen/Gluten nodes. Meal/contest/dates/exclusions captured but no4/5 execution. bfmcsaver contest correctness unassessable."
+    },
+    {
+      "caseId": "sushiro_sg-to-the-moon-and-back",
+      "category": "improved",
+      "v3EconomicCohortRecovered": 0,
+      "v4EconomicCohortRecovered": 0,
+      "v3Summary": "Sushiro products remain non_promotion in two usable units; third unit syntax malformed. No inferred year or price-variation participation survives; partial reliability regression.",
+      "v4Summary": "Two product_launch, one locally uncertain; all non-economic. Price-variation unlinked context, no normalized dates/year/participating scope."
+    },
+    {
+      "caseId": "instagram-DDJfz9bynW-",
+      "category": "regressed",
+      "v3EconomicCohortRecovered": 1,
+      "v4EconomicCohortRecovered": 1,
+      "v3Summary": "Shinrai Sunday incentive/dine-in/follow/frequency correct, no year/scope invention. Uppercase merchant from handle fails literal support. Per-booking frequency + reservation is reasonable composable overlap and does not assert a new fabricated clause.",
+      "v4Summary": "Sunday/dinein/follow captured but unlinked3; genuine condition-loss regression. Unknown year/null physical scope remain."
+    },
+    {
+      "caseId": "instagram-Dc-kxPJzx9B",
+      "category": "similar",
+      "v3EconomicCohortRecovered": 1,
+      "v4EconomicCohortRecovered": 1,
+      "v3Summary": "Off-peak economics, weekday 14–17, dine-in/PH exclusion and limited cookie quantity retained. availability + timing for daily quantity is source-supported; item attribute omission is taxonomy imperfection, not changed condition.",
+      "v4Summary": "Weekday14-17, dinein/PH, limited cookie and full benefit retained; no unstated year."
+    },
+    {
+      "caseId": "instagram-DdQA3EChsjx",
+      "category": "improved",
+      "v3EconomicCohortRecovered": 0,
+      "v4EconomicCohortRecovered": 1,
+      "v3Summary": "Sinpopo reservation/11–12/no-year content readable, but extra brace makes extraction syntax malformed. No repair or reservation success claimed.",
+      "v4Summary": "Reservation and11-12 now usable, year unknown. Marketing bring-a-friend invitation becomes false social constraint at5."
+    },
+    {
+      "caseId": "instagram-DdfecQUjNZ5",
+      "category": "regressed",
+      "v3EconomicCohortRecovered": 1,
+      "v4EconomicCohortRecovered": 0,
+      "v3Summary": "Starbucks now usable with explicit 14–20 range, unknown year, null physical scope, voucher cap and in-store channel. Rewards membership restriction omitted: material eligibility loss. No blanket outlet scope from channel.",
+      "v4Summary": "Stage1 duplicate date/time nodes. No downstream membership or channel success claimed."
+    },
+    {
+      "caseId": "shake_shack_sg-flock-this-way",
+      "category": "similar",
+      "v3EconomicCohortRecovered": 1,
+      "v4EconomicCohortRecovered": 1,
+      "v3Summary": "Chicken trio benefit, explicit dates and all-outlet/app/channel/exclusions correct. No qualifier/identity leakage. Repeated source timing/app clauses need not be duplicated as constraints when already represented.",
+      "v4Summary": "All immutable source/local outputs reviewed. See identity map, execution failures and full normalization/condition audit; minimum-gold boundaries/facets remain distinct from source semantics."
+    },
+    {
+      "caseId": "shake_shack_sg-meet-our-collab-partners",
+      "category": "regressed",
+      "v3EconomicCohortRecovered": 1,
+      "v4EconomicCohortRecovered": 0,
+      "v3Summary": "Editorial merchandise and fries incentive are independent units/classifications. No editorial-to-fries fact transfer. Fries knowledge-test redemption action wrongly tagged timing, a local material meaning error; segmentation alone does not fix it.",
+      "v4Summary": "Stage1 one capitalization-mismatched product quote rejects whole source despite literal fries/action. Collab taxonomy/isolation not exercised."
+    },
+    {
+      "caseId": "shake_shack_sg-introducing-aloha-shack",
+      "category": "similar",
+      "v3EconomicCohortRecovered": 0,
+      "v4EconomicCohortRecovered": 0,
+      "v3Summary": "Aloha product subdivisions all non_promotion; collective menu anchor not central, a harmless source-equivalent boundary. Four extra product units. All no-date/no-benefit/scope; raw titles dropped by coherence.",
+      "v4Summary": "All immutable source/local outputs reviewed. See identity map, execution failures and full normalization/condition audit; minimum-gold boundaries/facets remain distinct from source semantics."
+    },
+    {
+      "caseId": "shake_shack_sg-more-perks-less-fuss",
+      "category": "similar",
+      "v3EconomicCohortRecovered": 1,
+      "v4EconomicCohortRecovered": 1,
+      "v3Summary": "Cashback economic unit correct, tier perks non_promotion. Original app-update editorial left unassigned. Happy Point app/download context necessary for channel was also unassigned; next-Shack-order redemption condition supplied but omitted from facts/constraints.",
+      "v4Summary": "All immutable source/local outputs reviewed. See identity map, execution failures and full normalization/condition audit; minimum-gold boundaries/facets remain distinct from source semantics."
+    },
+    {
+      "caseId": "shake_shack_sg-local-faves-our-treat",
+      "category": "regressed",
+      "v3EconomicCohortRecovered": 1,
+      "v4EconomicCohortRecovered": 0,
+      "v3Summary": "Local Faves weekly campaign is usable; Monday check remains in central quote (one nonconservative Stage-1 operational attachment) but weekdays/date fields null, so actual Monday availability error gone in this usable output. Burger purchase/frequency/exclusions correct. Login, QR and cashier steps wrongly unassigned and absent from accepted output.",
+      "v4Summary": "Stage1 repeated login/banner/QR/context quotes. Monday never reaches availability, but end-to-end result is unassessable, not successful disambiguation."
+    },
+    {
+      "caseId": "shake_shack_sg-pucker-up-for-2-lemonades",
+      "category": "regressed",
+      "v3EconomicCohortRecovered": 1,
+      "v4EconomicCohortRecovered": 1,
+      "v3Summary": "$2 small lemonade, explicit dates, all-outlet/app/channels/exclusions correct. Collective Shake Shack outlets in Singapore survives physical-name filter incorrectly. It is a generic domain error, not an invented physical outlet.",
+      "v4Summary": "Correct raw dates/scope; non-null merchant has null citation. Entire unit rejected without repair."
+    },
+    {
+      "caseId": "shake_shack_sg-well-be-right-back",
+      "category": "improved",
+      "v3EconomicCohortRecovered": 0,
+      "v4EconomicCohortRecovered": 0,
+      "v3Summary": "Downtime source segmentation contains one nonexact Your account... capitalized/rephrased quote; whole source unassessable. No repaired segments; prior usable non-promotion control loses reliability.",
+      "v4Summary": "All immutable source/local outputs reviewed. See identity map, execution failures and full normalization/condition audit; minimum-gold boundaries/facets remain distinct from source semantics."
+    },
+    {
+      "caseId": "shake_shack_sg-our-french-onion-menu",
+      "category": "regressed",
+      "v3EconomicCohortRecovered": 0,
+      "v4EconomicCohortRecovered": 0,
+      "v3Summary": "French Onion menu and product units all non_promotion with no accepted promotion facts. Five extra product units. Raw merchant quote with ellipsis is nonexact and merchant hint is not evidence; coherence drops raw title/merchant facts.",
+      "v4Summary": "All immutable source/local outputs reviewed. See identity map, execution failures and full normalization/condition audit; minimum-gold boundaries/facets remain distinct from source semantics."
+    },
+    {
+      "caseId": "fairprice_sg-price-drop-buy-now-weekly-offers-from-20-off",
+      "category": "regressed",
+      "v3EconomicCohortRecovered": 1,
+      "v4EconomicCohortRecovered": 1,
+      "v3Summary": "FairPrice weekly From 20% qualifier and explicit-year dates correctly accepted, no hint-only merchant/scope. Short economic central span harmless.",
+      "v4Summary": "From qualifier retained; captured explicit range unlinked3 and dates missing."
+    },
+    {
+      "caseId": "fairprice_sg-xtra-wine-flash-sale",
+      "category": "regressed",
+      "v3EconomicCohortRecovered": 1,
+      "v4EconomicCohortRecovered": 1,
+      "v3Summary": "Xtra generic explicit wine deal correctly promotion, unquantified benefit null; stated September dates supported. Improves V2 uncertain omission.",
+      "v4Summary": "Shorter deal heading is same identity. Date range oversplit without its operator/year scope; dates then unlinked3. No inferred year."
+    },
+    {
+      "caseId": "fairprice_sg-finest-wine",
+      "category": "mixed",
+      "v3EconomicCohortRecovered": 0,
+      "v4EconomicCohortRecovered": 0,
+      "v3Summary": "Finest explicit monthly wine deal left wholly unassigned, zero units. Stage-1 recall failure misses promotion and stated calendar range without a Stage-2 task.",
+      "v4Summary": "Explicit generic deal discovered but uncertain at4; false negative under frozen unquantified-deal rule."
+    }
+  ]
+}

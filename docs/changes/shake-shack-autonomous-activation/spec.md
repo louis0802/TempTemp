@@ -1,0 +1,12 @@
+# Observable requirements
+
+1. Both production preview and ingest automatically use a registry-only Shake budget: 5 listings, 50 details, 60 requests, default 8 related evidence pages. Other sources retain defaults. Network safety remains 3 MB, 12 seconds, 3 redirects and exact hosts. Explicit test budgets can only tighten.
+2. Traverse every exposed numbered archive page, reject unknown controls/structure, classify each unique discovered article body using terms AND explicit economic proposition. No title-only, LLM, recursive or search discovery. Report discovered/classified/promotion/non-promotion/unresolved counts and URL ledger. All details must succeed; exceeding capacity remains shadow without another budget increase.
+3. Capture one bounded live structural run into a new immutable fixture set, with URL/time/status/type/length/hash/purpose. Prior captures remain distinct. At least two offline runs must yield identical semantic bytes.
+4. Evaluate at the run observation's Asia/Singapore calendar date. An unambiguous explicit end before that date is exclude/expired_campaign; missing or ambiguous validity stays review. Active and upcoming proceed through the unchanged fact/outlet gate. Publication metadata never supplies validity.
+5. Expired promotions persist audit items/revisions/artifacts and excluded candidates, with no resolver, review inbox or Promotion writes/title matching. Source byte changes permit normal re-evaluation. Editorial articles never become candidates.
+6. Processor v2 may reinterpret unchanged bytes without changing revision identity; repeated v2 replay is idempotent; completed reviewer decisions survive. Preserve conservative managed updates/admin corrections/generic dedupe/conflict rules.
+7. Keep enabled/autoPublish false until live completeness, deterministic replay, ownership, acquisition readiness, twelve official branches, lifecycle and captured current/future generic gate are proved. If any condition fails report exact blocker. Persistence validation uses disposable local PostgreSQL/PostGIS only.
+8. Rebuild merchant map from identical frozen inputs, deriving enabled/shadow from registry and current blocker evidence. JSON/Markdown/CSV replay must match; merchant row count stays stable.
+
+Acceptance evidence maps to all numbered requirements in verification.md and focused tests. Archive counts and final decision are observed values, not permanent hard-coded production truth. No unresolved product decision; activation remains an evidence-dependent decision.

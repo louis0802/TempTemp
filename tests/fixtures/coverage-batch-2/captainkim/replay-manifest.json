@@ -1,0 +1,35 @@
+{
+  "observedAt": "2026-10-02T08:00:00.000Z",
+  "pages": {
+    "https://kingdomfood.sg/captain-kim-delivery/": {
+      "path": "web-2/8b618ac5ee4da1c4aed92994bc4211cd7fd85eb47dd8658b7f590e15653640ef.html",
+      "contentType": "text/html",
+      "status": 200
+    },
+    "https://kingdomfood.sg/captain-kim-korean-bbq-hotpot-tamp-j10/": {
+      "path": "web-3/120959aa1afdd8b95bf2e8702eca6987a151423e90a2d5f189ed37fd900de10a.html",
+      "contentType": "text/html",
+      "status": 200
+    },
+    "https://kingdomfood.sg/captain-kim-korean-bbq-hotpot/": {
+      "path": "web-3/6e650be7043e1984a739e8c9abfe268c782b3267bc47a2c871b144778d6e81c6.html",
+      "contentType": "text/html",
+      "status": 200
+    },
+    "https://kingdomfood.sg/promotions/": {
+      "path": "web-3/72684ad8295765a2e48a379c46a5293676a8e8193e48d00b2fbf8c6fcf8ec68b.html",
+      "contentType": "text/html",
+      "status": 200
+    },
+    "https://kingdomfood.sg/captain-kim-butchery/": {
+      "path": "web-4/c828383ee36c3e60926d4c9e6fa93f1277eb1ecc8fa69e892367c662ff386c0b.html",
+      "contentType": "text/html",
+      "status": 200
+    },
+    "https://kingdomfood.sg/terms-of-use-privacy-policy/": {
+      "path": "web-4/362618d80fb209d4ff0b00d25921c5bc47999768960c4a3ae67e54f0c97e879c.html",
+      "contentType": "text/html",
+      "status": 200
+    }
+  }
+}

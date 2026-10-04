@@ -1,0 +1,15 @@
+{
+  "observedAt": "2026-10-01T13:12:13.005Z",
+  "pages": {
+    "https://csfoods.sg/csfoods-terms-and-conditions/": {
+      "path": "f2e3e583c55a38f3cec0459fbe828f3bba13ef26b6010a1225ab43f51d8f1c5d.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://csfoods.sg/shop/finger-food/potato/mccain-original-shoestring-6-6-mm-fries/": {
+      "path": "62955a2201c8d6fd1fa590f2873a8c303e60788cec86d7047c1c1dc74aacfa2e.html",
+      "status": 403,
+      "contentType": "text/html"
+    }
+  }
+}

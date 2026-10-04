@@ -1,0 +1,21 @@
+{
+  "initialProtectedFiles": 1063,
+  "initialFilesChanged": [],
+  "frozenFilesVerified": 13,
+  "sourceCaptureFilesVerified": 41,
+  "freshAgents": 127,
+  "priorAgentOverlap": 0,
+  "allAgentsClosedByOrchestration": true,
+  "reviewedSources": 49,
+  "reviewedUnits": 78,
+  "reviewedUsableUnits": 68,
+  "reviewedConstraints": 124,
+  "productionImportsOfV3": [],
+  "hostedModelApiCalls": 0,
+  "databaseOperations": 0,
+  "freshAcquisition": false,
+  "commitPerformed": false,
+  "pushPerformed": false,
+  "stage1Seal": "ae4320c80a46b4c2135934abdb8e976ab3f30c685dda4f02fa7eb29470e73b37",
+  "stage2Seal": "a24a8f92bbf7971832d87b1a13dbb3bd9b331076143396724de6f4af7443d153"
+}

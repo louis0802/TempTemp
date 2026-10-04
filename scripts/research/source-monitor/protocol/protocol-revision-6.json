@@ -1,0 +1,204 @@
+{
+  "schema_version": "1.0",
+  "revision": 6,
+  "study_start_at": "2026-09-23T15:43:30Z",
+  "timezone": "Asia/Singapore",
+  "observation_window": {
+    "cadence": "Telegram hourly scheduled slots; fresh publishers every 3 Singapore wall-clock hours; directories and static campaigns once per Singapore calendar day.",
+    "day_0_interval_start_at": "2026-09-23T15:43:30Z",
+    "day_0_interval_end_at": "2026-09-24T16:00:00Z",
+    "later_intervals": "Singapore calendar-day [00:00, next 00:00) intervals. A service started after midnight has a partial first interval. Actual capture times are retained separately.",
+    "candidate_window": "Enumerate all newly published or updated entries since the previous completed source snapshot where reliable dates exist; also inspect all visible offers whose validity includes the current Singapore date or begins within 11 days. On Day 0, use the latter rule as the baseline.",
+    "benchmark_window": "Assign revision-6 content by source publication time to Singapore logical day; actual first_seen_at remains receipt time. Unknown source event dates cannot establish historical day assignment; retain actual receipt-day content and explicit historical recovery limitations."
+  },
+  "source_registry_file": "source-registry-revision-6.json",
+  "source_registry_policy": "Revision 6 preserves all 19 registered sources and cadence classes, freezes three core_replacement roles independently of benchmark performance, and classifies all others as supplemental.",
+  "enumeration_rules": {
+    "general": "Use only each registry origin/index and linked pagination, categories or merchant/offer details. Never query with Telegram post text, benchmark merchants plus offer terms, exact benchmark title, or known target URL. Record every attempted listing, ordering, total visible, pages traversed, and cap truncation. Do not use search results as a hidden substitute for a blocked index.",
+    "dated_archives": "Traverse reverse-publication-date pages through the previous run's observed cutoff plus one overlap page; inspect every within-window card, even if the first page contains irrelevant content. Day 0 traverses the registered page cap or until a reliably older publication-date boundary is reached.",
+    "active_offer_indexes": "Traverse all pages/rows marked active for the current local date and all upcoming offers beginning within 11 days, up to source-specific page/entry safety caps. If the cap is hit before a terminal page, mark truncated=true.",
+    "undated_indexes": "Compare the complete registered bounded listing against the previous snapshot by canonical URL and visible content hash; inspect new or changed entries and recheck current candidate validity. Day 0 captures the bounded baseline; an untraversed tail is explicitly unknown.",
+    "detail_failure": "Retain the listing row and URL with inspectable=false, but do not assert candidate validity from an inaccessible detail page unless the listing itself explicitly contains merchant, benefit, compatible dates and scope."
+  },
+  "per_source_caps": "Unchanged per-source caps in source-registry-revision-6.json apply to each pass. Incomplete enumeration remains visible.",
+  "scope_rules": {
+    "include": "Singapore physical-merchant transactional promotion with explicit discount, multi-buy, free item, or campaign price; card/member eligibility is allowed when the physical merchant and offer are identifiable.",
+    "exclude": "Regular new menu at normal fixed price, points-only accumulation, finance products, travel, telecom subscriptions, online-only offers, ticketed cultural or attraction events, and general editorial recommendations without an offer.",
+    "candidate_temporal_scope": "Capture current and upcoming offers within 11 days, plus new/updated entries in the observation interval even if later adjudicated stale; retain exclusions in source snapshots rather than fabricating candidates."
+  },
+  "candidate_deduplication_rules": "Before benchmark access, normalize merchant, benefit mechanic and value, product or campaign, physical location/outlet scope, eligibility, redemption, and overlapping validity. Merge identical offers across sources into one candidate_id with all source occurrences retained. Distinct independently redeemable benefits are separate offers. If critical fields conflict, keep separate; do not use Telegram to settle identity.",
+  "matching_rules": {
+    "exact_offer": "Same merchant and identifiable campaign/product; same mechanic and value; compatible date window, outlet scope, eligibility, and redemption, with no missing critical fact or contradiction.",
+    "probable_same_offer": "Same merchant and distinctive mechanic/value, no known date/outlet/eligibility/redemption conflict, but one or more critical facts missing or ambiguous.",
+    "related_but_different": "Same merchant or campaign family but conflicting offer/value, date, outlet scope, eligibility, or redemption; includes an expired earlier edition.",
+    "no_match": "No supported same-offer relation. Equal discount at another merchant is no match.",
+    "assignment": "One-to-one benchmark assignment; exact and probable count as recovered. Compare only after independent candidate and benchmark files are sealed. Record actual candidate and benchmark first_seen_at and lead_lag_minutes = benchmark minus candidate. Never substitute publication dates."
+  },
+  "candidate_validity_rules": {
+    "verdicts": [
+      "valid_current_promotion",
+      "valid_but_future",
+      "expired_or_stale",
+      "non_promotion",
+      "duplicate",
+      "insufficient_evidence",
+      "extraction_error"
+    ],
+    "current": "Source-backed real transactional offer at a Singapore physical merchant with a source-supported validity window including the logical interval date. For catch-up, reliable publication/event provenance must support assignment to that day; receipt time is retained separately. Validity dates alone cannot establish historical publication or availability.",
+    "future": "Source-backed real offer with explicit start after the logical interval date and within its 11-day horizon. Recovery receipt does not shift the logical benchmark window.",
+    "audit_sampling": "Adjudicate all Day 0 candidates when feasible. If more than 50, take deterministic SHA-256 order of candidate_id with the first 50 and report sampled denominator and unadjudicated count. Audit from frozen source evidence without Telegram.",
+    "candidate_validity_precision": "adjudicated valid_current_promotion candidates / all adjudicated candidates. Report valid_but_future separately, never as a Telegram false positive. If no adjudications, null.",
+    "false_positive": "Reserved for adjudicated invalid publication candidates: non_promotion, expired_or_stale, duplicate represented as new, insufficient_evidence, or extraction_error. A valid candidate absent from Telegram is not false_positive."
+  },
+  "benchmark_eligibility_rules": "Separate capture of Telegram channel posts published in the logical interval, including recovered posts. Include every distinct Singapore physical-merchant transactional offer within the stated current/upcoming 11-day horizon or published/observed in the interval with a stated compatible date; preserve all captured posts and exclusion reasons. Record channel, message id, first_seen_at from collector observation, source post timestamp separately, text/evidence, and offer-level fields. Merge cross-post duplicates one-to-one without looking at candidate matches.",
+  "fact_completeness_rules": {
+    "fields": [
+      "merchant",
+      "promotion_name",
+      "offer",
+      "discount_value",
+      "start_date",
+      "end_date",
+      "location",
+      "eligibility",
+      "redemption_method",
+      "important_terms"
+    ],
+    "scoring": "2 explicit, 1 partial/ambiguous, 0 absent from candidate-side evidence only. Fact complete requires at least 16/20, explicit merchant/offer/value/location/redemption, and no contradictory date."
+  },
+  "miss_diagnosis_rules": {
+    "classes": [
+      "source_not_registered",
+      "source_registered_but_not_enumerated",
+      "below_cap_or_pagination",
+      "candidate_extraction_failure",
+      "matching_failure",
+      "source_published_later",
+      "social_only",
+      "no_independent_source_found",
+      "unknown"
+    ],
+    "timing": [
+      "existed_before_benchmark",
+      "existed_after_benchmark",
+      "publication_timing_unknown"
+    ],
+    "evidence": "Diagnose only after both run sides are frozen. A source_not_registered finding requires a demonstrated independently enumerable source. Record diagnostic URL and availability timing evidence; do not add it to frozen candidates."
+  },
+  "metrics_definitions": {
+    "benchmark_recall": "Exact/probable matches using frozen core evidence only / eligible reviewed Telegram benchmark offers. Zero matches with nonzero eligible denominator is 0; unscorable is null.",
+    "candidate_validity_precision": "audited valid_current_promotion / all audited candidates; null with zero audited",
+    "benchmark_overlap_rate": "distinct candidates assigned exact or probable benchmark match / all distinct discovered candidates; null without synchronized benchmark or zero candidates",
+    "candidate_inspectable_rate": "distinct candidates with candidate-specific readable evidence / all distinct candidates",
+    "matched_fact_completeness": "fact-complete exact/probable matched candidates / all exact/probable matched candidates; null with no matches",
+    "lead_lag": "Actual live benchmark receipt minus actual live candidate receipt; exclude catch-up evidence and temporally incomplete intervals.",
+    "source_coverage_miss_count": "misses diagnosed source_not_registered or source_registered_but_not_enumerated",
+    "enumeration_miss_count": "misses diagnosed below_cap_or_pagination",
+    "extraction_miss_count": "misses diagnosed candidate_extraction_failure",
+    "matching_miss_count": "misses diagnosed matching_failure"
+  },
+  "decision_rule": "Research only. Assess revision-6 core-cohort replacement days and offer-level recall separately from temporal-complete days. At least 3 replacement-eligible days before initial analysis plus researcher-reviewed sample sufficiency; historical rev3/4/5 days cannot advance this gate. No automatic production decision.",
+  "revision_log": [
+    {
+      "revision": 1,
+      "at": "2026-09-23T15:43:30Z",
+      "reason": "Initial protocol frozen before forward candidate capture"
+    },
+    {
+      "revision": 2,
+      "at": "2026-09-24T01:31:42Z",
+      "reason": "Add read-only synchronized Telegram scheduled-snapshot observation and honest daily acquisition timing contract"
+    },
+    {
+      "revision": 3,
+      "at": "2026-09-24T03:17:01Z",
+      "reason": "Autonomous persistent research service cadence and Singapore calendar-day intervals; no change to the frozen source registry or offer rules"
+    },
+    {
+      "revision": 4,
+      "at": "2026-09-25",
+      "reason": "Improve independent-source temporal resolution and distinguish scheduled polling jitter from genuinely missed observations."
+    },
+    {
+      "revision": 5,
+      "at": "2026-09-28",
+      "reason": "Production-like content recovery with research-grade observation gaps and separate replacement/temporal scoring."
+    },
+    {
+      "revision": 6,
+      "at": "2026-09-29",
+      "reason": "Rev5 safe recovery required full-registry completeness, making local downtime unscorable. Freeze a capability-selected production-like core, isolate supplemental evidence and preserve observation gaps."
+    }
+  ],
+  "source_registry_revision": 6,
+  "observation_contract": {
+    "channels": ["sgfooddeals", "tastesoulsg"],
+    "telegram_coverage_definition": "One slot per hour per channel in [start,end). Successful completion and snapshot complete-through must reach the scheduled slot within an inclusive 5-minute window; attempted_at must not precede the slot. Persist exact scheduled_slot, attempted_at, completed_at, raw outcome and attempt lateness_ms. Derive successful_on_time, successful_late, failed, missing_slot. Started/interrupted slots are failed at close. No elapsed-success-gap test. Baselines must precede interval start. Historical anomalies remain gaps.",
+    "lead_lag_resolution": "3-hour fresh-publisher and daily directory/campaign observations versus hourly Telegram; first_seen is actual observation, never publication time. Absence between captures cannot establish publication timing.",
+    "late_or_partial": "Content backfill YES; observation backfill NO. Missed slots remain gaps. Recovery never restores temporal coverage.",
+    "telegram_late_tolerance_minutes": 5
+  },
+  "service_contract": {
+    "schema_version": 1,
+    "research_only": true,
+    "acquisition_cadence": {
+      "fresh_publisher": {
+        "hours": 3
+      },
+      "directory": {
+        "hours": 24
+      },
+      "static_campaign": {
+        "hours": 24
+      }
+    },
+    "telegram_cadence_minutes": 60,
+    "manual_review_gate": "Freeze source acquisition and raw Telegram observation separately before review. Candidate validity, benchmark offer interpretation, and matching are research adjudications; unreviewed or incomplete intervals remain non-scoring.",
+    "cumulative_scope": "Separate rev6 core replacement/temporal families; never pool rev5 or legacy strict intervals.",
+    "daily_freeze": "Merge all completed/partial target-blind passes at close, retaining earliest first_seen and unique source occurrences. Freeze acquisition before benchmark matching. Each scheduled source pass must complete before its next slot or day end. Source limitation flags remain visible independently of schedule completeness. Recovery is stored separately from scheduled passes; content and cadence completeness are independent."
+  },
+  "research_gates": {
+    "initial_complete_intervals": 3,
+    "benchmark_sample_sufficiency": "researcher_review_required; no numeric minimum justified yet",
+    "preferred_valid_days": [5, 7],
+    "preferred_sample": "materially larger benchmark sample, reviewed for diversity and concentration",
+    "exploratory_targets": {
+      "benchmark_recall": 0.8,
+      "candidate_validity_precision": 0.95,
+      "matched_fact_completeness": 0.7
+    },
+    "automatic_production_decision": false
+  },
+  "recovery_contract": {
+    "content_backfill": true,
+    "observation_backfill": false,
+    "provenance": [
+      "published_at",
+      "first_seen_at",
+      "seen_at",
+      "observation_mode",
+      "recovered_at",
+      "scheduled_slot",
+      "acquisition_pass",
+      "source_id",
+      "evidence_snapshot",
+      "recovery_reason"
+    ],
+    "completeness": ["complete", "partial", "unsupported", "failed"],
+    "proof": "Complete requires traversal of the recovery window from a known checkpoint; current-listing success alone is never proof.",
+    "eligibility": "Replacement requires core content, Telegram content and required manual reviews complete. Temporal additionally requires core live cadence and Telegram coverage. Supplemental gaps remain diagnostic.",
+    "restart": "Reconcile overdue observing rev5/rev6 intervals using their pinned assets; new intervals default to rev6. Never modify sealed intervals.",
+    "logical_day_review": "Review recovered offer validity against its supported logical day, even if it expired before recovery. Never infer historical source availability from a validity window alone."
+  },
+  "cohort_contract": {
+    "core_source_ids": [
+      "confirmgood_deals",
+      "eatbook_deals",
+      "everydayonsales_food"
+    ],
+    "selection_basis": "Frozen before rev6 benchmark observations: independently enumerable, dated archive, durable live checkpoint, deterministic historical traversal and provable complete catch-up. Selection is independent of benchmark performance.",
+    "supplemental": "All other sources remain monitored. Supplemental matches cannot rescue core misses, upgrade classifications, supply facts or enter primary timing. Expanding core requires a future revision.",
+    "methodology": "A source cannot help the numerator while its missing historical coverage is excluded from completeness. Content recovered \u2260 live coverage restored; supplemental evidence \u2260 primary cohort recovery.",
+    "review": "Core and supplemental projections have distinct evidence-bound candidate IDs. Review core projections in primary review files; optional supplemental reviews are separate."
+  }
+}

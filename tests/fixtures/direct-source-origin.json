@@ -1,0 +1,571 @@
+{
+  "version": 1,
+  "records": [
+    {
+      "signal_id": "merchant-0",
+      "channel": "sgfooddeals",
+      "telegram_message_id": 4957,
+      "telegram_url": "https://t.me/sgfooddeals/4957",
+      "published_at": "2026-09-30T10:01:10.000Z",
+      "input_mode": "one_off_refresh",
+      "signal_class": "promotion_signal",
+      "merchant_hint": "Gourmet Carousel (https",
+      "title_hint": "//tco.sg/DhTFq7kx0): Free Coffee-based Drinks (1 Oct)",
+      "benefit_hint": "Free Coffee-based Drinks (1 Oct)",
+      "outbound_original_url": "https://tco.sg/DhTFq7kx0",
+      "outbound_normalized_url": "https://tco.sg/DhTFq7kx0",
+      "outbound_representations": ["https://tco.sg/DhTFq7kx0"],
+      "association": "offer",
+      "resolved_url": "https://merchant.example/campaign/0",
+      "redirect_chain": [
+        "https://tco.sg/DhTFq7kx0",
+        "https://www.royalplaza.com.sg/dine/barista?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+      ],
+      "resolved_domain": "merchant.example",
+      "resolution_status": "resolved",
+      "resolution_reason": null,
+      "http_status": 200,
+      "authority": "unknown",
+      "source_kind": "unknown_web",
+      "authority_basis": "ownership_not_verified",
+      "destination_class": "merchant_web_candidate",
+      "adapter_family": "merchant_campaign_page",
+      "resolution_depth": 1,
+      "origin_chain": [
+        {
+          "url": "https://t.me/sgfooddeals/4957",
+          "role": "signal_source",
+          "destination_class": "telegram"
+        },
+        {
+          "url": "https://tco.sg/DhTFq7kx0",
+          "destination_class": "url_shortener",
+          "role": "intermediate_source"
+        },
+        {
+          "url": "https://www.royalplaza.com.sg/dine/barista?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+          "destination_class": "merchant_web_candidate",
+          "role": "source_candidate"
+        }
+      ],
+      "official_source_url": null,
+      "source_origin_status": "needs_authority_review",
+      "enumerable": "not_assessed",
+      "extraction_feasibility": "not_assessed",
+      "manual_review_reasons": [
+        "authority_ownership_unverified",
+        "merchant_topology_provisional",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start"
+      ],
+      "transport_final_url": "https://merchant.example/campaign/0",
+      "transport_final_domain": "merchant.example",
+      "canonical_candidate_url": "https://merchant.example/campaign/0",
+      "candidate_domain": "merchant.example",
+      "canonicalization_basis": "transport_destination"
+    },
+    {
+      "signal_id": "merchant-1",
+      "channel": "sgfooddeals",
+      "telegram_message_id": 4957,
+      "telegram_url": "https://t.me/sgfooddeals/4957",
+      "published_at": "2026-09-30T10:01:10.000Z",
+      "input_mode": "one_off_refresh",
+      "signal_class": "promotion_signal",
+      "merchant_hint": "Gourmet Carousel (https",
+      "title_hint": "//tco.sg/DhTFq7kx0): Free Coffee-based Drinks (1 Oct)",
+      "benefit_hint": "Free Coffee-based Drinks (1 Oct)",
+      "outbound_original_url": "https://tco.sg/DhTFq7kx0",
+      "outbound_normalized_url": "https://tco.sg/DhTFq7kx0",
+      "outbound_representations": ["https://tco.sg/DhTFq7kx0"],
+      "association": "offer",
+      "resolved_url": "https://merchant.example/campaign/1",
+      "redirect_chain": [
+        "https://tco.sg/DhTFq7kx0",
+        "https://www.royalplaza.com.sg/dine/barista?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+      ],
+      "resolved_domain": "merchant.example",
+      "resolution_status": "resolved",
+      "resolution_reason": null,
+      "http_status": 200,
+      "authority": "unknown",
+      "source_kind": "unknown_web",
+      "authority_basis": "ownership_not_verified",
+      "destination_class": "merchant_web_candidate",
+      "adapter_family": "merchant_campaign_page",
+      "resolution_depth": 1,
+      "origin_chain": [
+        {
+          "url": "https://t.me/sgfooddeals/4957",
+          "role": "signal_source",
+          "destination_class": "telegram"
+        },
+        {
+          "url": "https://tco.sg/DhTFq7kx0",
+          "destination_class": "url_shortener",
+          "role": "intermediate_source"
+        },
+        {
+          "url": "https://www.royalplaza.com.sg/dine/barista?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+          "destination_class": "merchant_web_candidate",
+          "role": "source_candidate"
+        }
+      ],
+      "official_source_url": null,
+      "source_origin_status": "needs_authority_review",
+      "enumerable": "not_assessed",
+      "extraction_feasibility": "not_assessed",
+      "manual_review_reasons": [
+        "authority_ownership_unverified",
+        "merchant_topology_provisional",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start"
+      ],
+      "transport_final_url": "https://merchant.example/campaign/1",
+      "transport_final_domain": "merchant.example",
+      "canonical_candidate_url": "https://merchant.example/campaign/1",
+      "candidate_domain": "merchant.example",
+      "canonicalization_basis": "transport_destination"
+    },
+    {
+      "signal_id": "7cdb34f2922a8a3ac98828bacbe5f806c395e162031a9653e62efda0000b52a1",
+      "channel": "sgfooddeals",
+      "telegram_message_id": 4936,
+      "telegram_url": "https://t.me/sgfooddeals/4936",
+      "published_at": "2026-09-17T04:01:03.000Z",
+      "input_mode": "one_off_refresh",
+      "signal_class": "promotion_signal",
+      "merchant_hint": "",
+      "title_hint": "Save big with Grab SALEbration \ud83c\udf89",
+      "benefit_hint": "1-for-1",
+      "outbound_original_url": "tco.sg/salebrationxsgfd",
+      "outbound_normalized_url": "http://tco.sg/salebrationxsgfd",
+      "outbound_representations": [
+        "tco.sg/salebrationxsgfd",
+        "http://tco.sg/salebrationxsgfd"
+      ],
+      "association": "offer",
+      "resolved_url": "https://www.grab.com/sg/grab-salebration/?pid=EDM&c=SG_NA_PAX_GF_AW-CONV_LOC__MegaSale-GF_NA_MegaSale-GF&is_retargeting=true&af_dp=grab%3A%2F%2Fopen%3FscreenType%3DGRABFOOD%26campaignLandingID%3D17424%26headerColor%3D0B54A8%26headerSize%3Dmedium&af_force_deeplink=true&af_sub5=edm&af_ad=MegaSale-GF",
+      "redirect_chain": [
+        "http://tco.sg/salebrationxsgfd",
+        "https://grb.to/SALEbration-GrabFood",
+        "https://grab.onelink.me/2695613898?pid=EDM&c=SG_NA_PAX_GF_AW-CONV_LOC__MegaSale-GF_NA_MegaSale-GF&is_retargeting=true&af_dp=grab://open%3FscreenType%3DGRABFOOD%26campaignLandingID%3D17424%26headerColor%3D0B54A8%26headerSize%3Dmedium&af_force_deeplink=true&af_sub5=edm&af_ad=MegaSale-GF&af_web_dp=https://www.grab.com/sg/grab-salebration/",
+        "https://www.grab.com/sg/grab-salebration/?pid=EDM&c=SG_NA_PAX_GF_AW-CONV_LOC__MegaSale-GF_NA_MegaSale-GF&is_retargeting=true&af_dp=grab%3A%2F%2Fopen%3FscreenType%3DGRABFOOD%26campaignLandingID%3D17424%26headerColor%3D0B54A8%26headerSize%3Dmedium&af_force_deeplink=true&af_sub5=edm&af_ad=MegaSale-GF"
+      ],
+      "resolved_domain": "grab.com",
+      "resolution_status": "resolved",
+      "resolution_reason": null,
+      "http_status": 200,
+      "authority": "unknown",
+      "source_kind": "unknown_web",
+      "authority_basis": "ownership_not_verified",
+      "destination_class": "issuer_or_platform_candidate",
+      "adapter_family": "issuer_platform",
+      "resolution_depth": 3,
+      "origin_chain": [
+        {
+          "url": "https://t.me/sgfooddeals/4936",
+          "role": "signal_source",
+          "destination_class": "telegram"
+        },
+        {
+          "url": "http://tco.sg/salebrationxsgfd",
+          "destination_class": "url_shortener",
+          "role": "intermediate_source"
+        },
+        {
+          "url": "https://grb.to/SALEbration-GrabFood",
+          "destination_class": "merchant_web_candidate",
+          "role": "intermediate_source"
+        },
+        {
+          "url": "https://grab.onelink.me/2695613898?pid=EDM&c=SG_NA_PAX_GF_AW-CONV_LOC__MegaSale-GF_NA_MegaSale-GF&is_retargeting=true&af_dp=grab://open%3FscreenType%3DGRABFOOD%26campaignLandingID%3D17424%26headerColor%3D0B54A8%26headerSize%3Dmedium&af_force_deeplink=true&af_sub5=edm&af_ad=MegaSale-GF&af_web_dp=https://www.grab.com/sg/grab-salebration/",
+          "destination_class": "app_or_deep_link",
+          "role": "intermediate_source"
+        },
+        {
+          "url": "https://www.grab.com/sg/grab-salebration/?pid=EDM&c=SG_NA_PAX_GF_AW-CONV_LOC__MegaSale-GF_NA_MegaSale-GF&is_retargeting=true&af_dp=grab%3A%2F%2Fopen%3FscreenType%3DGRABFOOD%26campaignLandingID%3D17424%26headerColor%3D0B54A8%26headerSize%3Dmedium&af_force_deeplink=true&af_sub5=edm&af_ad=MegaSale-GF",
+          "destination_class": "issuer_or_platform_candidate",
+          "role": "source_candidate"
+        }
+      ],
+      "official_source_url": null,
+      "source_origin_status": "needs_authority_review",
+      "enumerable": "not_assessed",
+      "extraction_feasibility": "not_assessed",
+      "manual_review_reasons": [
+        "authority_ownership_unverified",
+        "media_export_marker_present",
+        "merchant_or_title_unresolved"
+      ],
+      "transport_final_url": "https://www.grab.com/sg/grab-salebration/?pid=EDM&c=SG_NA_PAX_GF_AW-CONV_LOC__MegaSale-GF_NA_MegaSale-GF&is_retargeting=true&af_dp=grab%3A%2F%2Fopen%3FscreenType%3DGRABFOOD%26campaignLandingID%3D17424%26headerColor%3D0B54A8%26headerSize%3Dmedium&af_force_deeplink=true&af_sub5=edm&af_ad=MegaSale-GF",
+      "transport_final_domain": "grab.com",
+      "canonical_candidate_url": "https://www.grab.com/sg/grab-salebration/?pid=EDM&c=SG_NA_PAX_GF_AW-CONV_LOC__MegaSale-GF_NA_MegaSale-GF&is_retargeting=true&af_dp=grab%3A%2F%2Fopen%3FscreenType%3DGRABFOOD%26campaignLandingID%3D17424%26headerColor%3D0B54A8%26headerSize%3Dmedium&af_force_deeplink=true&af_sub5=edm&af_ad=MegaSale-GF",
+      "candidate_domain": "grab.com",
+      "canonicalization_basis": "transport_destination"
+    },
+    {
+      "signal_id": "b09cbebd554d9088b575c275670b64d7a8fede70423d9e31e58bcfba34bddfad",
+      "channel": "sgfooddeals",
+      "telegram_message_id": 4952,
+      "telegram_url": "https://t.me/sgfooddeals/4952",
+      "published_at": "2026-09-28T04:01:04.000Z",
+      "input_mode": "one_off_refresh",
+      "signal_class": "promotion_signal",
+      "merchant_hint": "Kris+ Birthday Bash",
+      "title_hint": "Boosted miles, 50% off deals & more",
+      "benefit_hint": "50% off",
+      "outbound_original_url": "tco.sg/krisplusbbxsgfd",
+      "outbound_normalized_url": "http://tco.sg/krisplusbbxsgfd",
+      "outbound_representations": [
+        "tco.sg/krisplusbbxsgfd",
+        "http://tco.sg/krisplusbbxsgfd"
+      ],
+      "association": "offer",
+      "resolved_url": "https://app.krisplus.com/Oct26_SG_BBash_SGFD",
+      "redirect_chain": [
+        "http://tco.sg/krisplusbbxsgfd",
+        "https://app.krisplus.com/Oct26_SG_BBash_SGFD"
+      ],
+      "resolved_domain": "app.krisplus.com",
+      "resolution_status": "resolved",
+      "resolution_reason": null,
+      "http_status": 200,
+      "authority": "unknown",
+      "source_kind": "unknown_web",
+      "authority_basis": "ownership_not_verified",
+      "destination_class": "app_or_deep_link",
+      "adapter_family": "app_deep_link",
+      "resolution_depth": 1,
+      "origin_chain": [
+        {
+          "url": "https://t.me/sgfooddeals/4952",
+          "role": "signal_source",
+          "destination_class": "telegram"
+        },
+        {
+          "url": "http://tco.sg/krisplusbbxsgfd",
+          "destination_class": "url_shortener",
+          "role": "intermediate_source"
+        },
+        {
+          "url": "https://app.krisplus.com/Oct26_SG_BBash_SGFD",
+          "destination_class": "app_or_deep_link",
+          "role": "source_candidate"
+        }
+      ],
+      "official_source_url": null,
+      "source_origin_status": "needs_authority_review",
+      "enumerable": "not_assessed",
+      "extraction_feasibility": "not_assessed",
+      "manual_review_reasons": [
+        "authority_ownership_unverified",
+        "media_export_marker_present"
+      ],
+      "transport_final_url": "https://app.krisplus.com/Oct26_SG_BBash_SGFD",
+      "transport_final_domain": "app.krisplus.com",
+      "canonical_candidate_url": "https://app.krisplus.com/Oct26_SG_BBash_SGFD",
+      "candidate_domain": "app.krisplus.com",
+      "canonicalization_basis": "transport_destination"
+    },
+    {
+      "signal_id": "b58a5aa36888356a6034ca2f93cda1336fdf876f75f526b235c90cc6d2aa64c1",
+      "channel": "sgfooddeals",
+      "telegram_message_id": 4957,
+      "telegram_url": "https://t.me/sgfooddeals/4957",
+      "published_at": "2026-09-30T10:01:10.000Z",
+      "input_mode": "one_off_refresh",
+      "signal_class": "promotion_signal",
+      "merchant_hint": "Borderless Coffee (https",
+      "title_hint": "//tco.sg/u2SWkdIty): Free Upsize (1 Oct)",
+      "benefit_hint": "Free Upsize (1 Oct)",
+      "outbound_original_url": "https://tco.sg/u2SWkdIty",
+      "outbound_normalized_url": "https://tco.sg/u2SWkdIty",
+      "outbound_representations": ["https://tco.sg/u2SWkdIty"],
+      "association": "offer",
+      "resolved_url": "https://www.facebook.com/unsupportedbrowser",
+      "redirect_chain": [
+        "https://tco.sg/u2SWkdIty",
+        "https://www.instagram.com/p/Dd0AjG3E06V/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+        "https://www.facebook.com/unsupportedbrowser"
+      ],
+      "resolved_domain": "facebook.com",
+      "resolution_status": "resolved",
+      "resolution_reason": null,
+      "http_status": 200,
+      "authority": "unknown",
+      "source_kind": "unknown_web",
+      "authority_basis": "ownership_not_verified",
+      "destination_class": "official_social_candidate",
+      "adapter_family": "official_social",
+      "resolution_depth": 2,
+      "origin_chain": [
+        {
+          "url": "https://t.me/sgfooddeals/4957",
+          "role": "signal_source",
+          "destination_class": "telegram"
+        },
+        {
+          "url": "https://tco.sg/u2SWkdIty",
+          "destination_class": "url_shortener",
+          "role": "intermediate_source"
+        },
+        {
+          "url": "https://www.instagram.com/p/Dd0AjG3E06V/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+          "destination_class": "official_social_candidate",
+          "role": "intermediate_source"
+        },
+        {
+          "url": "https://www.facebook.com/unsupportedbrowser",
+          "destination_class": "official_social_candidate",
+          "role": "source_candidate"
+        }
+      ],
+      "official_source_url": null,
+      "source_origin_status": "needs_authority_review",
+      "enumerable": "not_assessed",
+      "extraction_feasibility": "not_assessed",
+      "manual_review_reasons": [
+        "authority_ownership_unverified",
+        "roundup_header_context_requires_verification",
+        "unknown_expiry_or_start"
+      ],
+      "transport_final_url": "https://www.facebook.com/unsupportedbrowser",
+      "transport_final_domain": "facebook.com",
+      "canonical_candidate_url": "https://www.facebook.com/unsupportedbrowser",
+      "candidate_domain": "facebook.com",
+      "canonicalization_basis": "transport_destination"
+    },
+    {
+      "signal_id": "314c3ce7275374eb3fe6c49a00b06bbd01fee32773e4f3d3cc89649c1d2de35d",
+      "channel": "sgfooddeals",
+      "telegram_message_id": 4941,
+      "telegram_url": "https://t.me/sgfooddeals/4941",
+      "published_at": "2026-09-21T04:01:05.000Z",
+      "input_mode": "one_off_refresh",
+      "signal_class": "promotion_signal",
+      "merchant_hint": "",
+      "title_hint": "50% off selected dishes at Kopitiam Food Hall \ud83c\udf5c",
+      "benefit_hint": "50% off",
+      "outbound_original_url": "https://tco.sg/kopitiamarticlexsgfd",
+      "outbound_normalized_url": "https://tco.sg/kopitiamarticlexsgfd",
+      "outbound_representations": ["https://tco.sg/kopitiamarticlexsgfd"],
+      "association": "offer",
+      "resolved_url": "https://eatbook.sg/plaza-singapura-kopitiam-food-hall/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "redirect_chain": [
+        "https://tco.sg/kopitiamarticlexsgfd",
+        "https://eatbook.sg/plaza-singapura-kopitiam-food-hall/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+      ],
+      "resolved_domain": "eatbook.sg",
+      "resolution_status": "resolved",
+      "resolution_reason": null,
+      "http_status": 200,
+      "authority": "discovery",
+      "source_kind": "deal_aggregator",
+      "authority_basis": "known_discovery_surface",
+      "destination_class": "publisher",
+      "adapter_family": "publisher_article",
+      "resolution_depth": 1,
+      "origin_chain": [
+        {
+          "url": "https://t.me/sgfooddeals/4941",
+          "role": "signal_source",
+          "destination_class": "telegram"
+        },
+        {
+          "url": "https://tco.sg/kopitiamarticlexsgfd",
+          "destination_class": "url_shortener",
+          "role": "intermediate_source"
+        },
+        {
+          "url": "https://eatbook.sg/plaza-singapura-kopitiam-food-hall/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+          "destination_class": "publisher",
+          "role": "intermediate_source"
+        }
+      ],
+      "official_source_url": null,
+      "source_origin_status": "intermediate",
+      "enumerable": "not_assessed",
+      "extraction_feasibility": "not_assessed",
+      "manual_review_reasons": [
+        "media_export_marker_present",
+        "merchant_or_title_unresolved",
+        "publisher_requires_deeper_resolution"
+      ],
+      "transport_final_url": "https://eatbook.sg/plaza-singapura-kopitiam-food-hall/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "transport_final_domain": "eatbook.sg",
+      "canonical_candidate_url": "https://eatbook.sg/plaza-singapura-kopitiam-food-hall/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+      "candidate_domain": "eatbook.sg",
+      "canonicalization_basis": "transport_destination"
+    },
+    {
+      "signal_id": "9109c3090156de7bf9e4c037cad90eba9146ab9997597f1a0371d292c5ed7a3a",
+      "channel": "sgfooddeals",
+      "telegram_message_id": 4950,
+      "telegram_url": "https://t.me/sgfooddeals/4950",
+      "published_at": "2026-09-25T12:01:06.000Z",
+      "input_mode": "one_off_refresh",
+      "signal_class": "promotion_signal",
+      "merchant_hint": "SHINRAI",
+      "title_hint": "1-for-1 Dishes",
+      "benefit_hint": "1-for-1",
+      "outbound_original_url": "https://t.me/myfoodpromos",
+      "outbound_normalized_url": "https://t.me/myfoodpromos",
+      "outbound_representations": ["https://t.me/myfoodpromos"],
+      "association": "offer",
+      "resolved_url": "https://t.me/myfoodpromos",
+      "redirect_chain": ["https://t.me/myfoodpromos"],
+      "resolved_domain": "t.me",
+      "resolution_status": "resolved",
+      "resolution_reason": null,
+      "http_status": 200,
+      "authority": "unknown",
+      "source_kind": "unknown_web",
+      "authority_basis": "ownership_not_verified",
+      "destination_class": "telegram",
+      "adapter_family": "link_hub",
+      "resolution_depth": 0,
+      "origin_chain": [
+        {
+          "url": "https://t.me/sgfooddeals/4950",
+          "role": "signal_source",
+          "destination_class": "telegram"
+        },
+        {
+          "url": "https://t.me/myfoodpromos",
+          "destination_class": "telegram",
+          "role": "intermediate_source"
+        }
+      ],
+      "official_source_url": null,
+      "source_origin_status": "intermediate",
+      "enumerable": "not_assessed",
+      "extraction_feasibility": "not_assessed",
+      "manual_review_reasons": [
+        "intermediate_requires_deeper_resolution",
+        "media_export_marker_present",
+        "unknown_expiry_or_start"
+      ],
+      "transport_final_url": "https://t.me/myfoodpromos",
+      "transport_final_domain": "t.me",
+      "canonical_candidate_url": "https://t.me/myfoodpromos",
+      "candidate_domain": "t.me",
+      "canonicalization_basis": "transport_destination"
+    },
+    {
+      "signal_id": "a9f3594bfaa4370a046f5b14d13087981a4fcf6166a1a34fbaf1e173e17344b3",
+      "channel": "tastesoulsg",
+      "telegram_message_id": 4520,
+      "telegram_url": "https://t.me/tastesoulsg/4520",
+      "published_at": "2026-09-30T10:15:47.000Z",
+      "input_mode": "one_off_refresh",
+      "signal_class": "non_offer_signal",
+      "merchant_hint": "",
+      "title_hint": "\ud83c\udf5c Back after a 3-month refurbishment with new stalls, heritage flavours, and live stations \u2013 Food Opera at ION Orchard",
+      "benefit_hint": "",
+      "outbound_original_url": "bit.ly/4hnx6ry",
+      "outbound_normalized_url": "http://bit.ly/4hnx6ry",
+      "outbound_representations": ["bit.ly/4hnx6ry", "http://bit.ly/4hnx6ry"],
+      "association": "offer",
+      "resolved_url": null,
+      "redirect_chain": [],
+      "resolved_domain": null,
+      "resolution_status": "unresolved",
+      "resolution_reason": "non_offer_excluded_from_resolution",
+      "http_status": null,
+      "authority": "unknown",
+      "source_kind": "unknown_web",
+      "authority_basis": "ownership_not_verified",
+      "destination_class": "unknown",
+      "adapter_family": "unresolved",
+      "resolution_depth": 0,
+      "origin_chain": [
+        {
+          "url": "https://t.me/tastesoulsg/4520",
+          "role": "signal_source",
+          "destination_class": "telegram"
+        }
+      ],
+      "official_source_url": null,
+      "source_origin_status": "non_offer_signal",
+      "enumerable": "not_assessed",
+      "extraction_feasibility": "not_assessed",
+      "manual_review_reasons": [
+        "media_export_marker_present",
+        "merchant_or_title_unresolved",
+        "promotional_benefit_not_established",
+        "unknown_expiry_or_start"
+      ],
+      "transport_final_url": null,
+      "transport_final_domain": null,
+      "canonical_candidate_url": null,
+      "candidate_domain": null,
+      "canonicalization_basis": "transport_destination"
+    },
+    {
+      "signal_id": "314c3ce7275374eb3fe6c49a00b06bbd01fee32773e4f3d3cc89649c1d2de35d",
+      "channel": "sgfooddeals",
+      "telegram_message_id": 4941,
+      "telegram_url": "https://t.me/sgfooddeals/4941",
+      "published_at": "2026-09-21T04:01:05.000Z",
+      "input_mode": "one_off_refresh",
+      "signal_class": "promotion_signal",
+      "merchant_hint": "",
+      "title_hint": "50% off selected dishes at Kopitiam Food Hall \ud83c\udf5c",
+      "benefit_hint": "50% off",
+      "outbound_original_url": "tco.sg/kopitamxsgfd",
+      "outbound_normalized_url": "http://tco.sg/kopitamxsgfd",
+      "outbound_representations": [
+        "tco.sg/kopitamxsgfd",
+        "http://tco.sg/kopitamxsgfd"
+      ],
+      "association": "offer",
+      "resolved_url": "https://www.google.com/url?q=https://www.kopitiam.biz/&sa=D&source=docs&ust=1789463516171803&usg=AOvVaw1Q1B9oH3OCZFWYXhem7K6s",
+      "redirect_chain": [
+        "http://tco.sg/kopitamxsgfd",
+        "https://www.google.com/url?q=https://www.kopitiam.biz/&sa=D&source=docs&ust=1789463516171803&usg=AOvVaw1Q1B9oH3OCZFWYXhem7K6s"
+      ],
+      "resolved_domain": "google.com",
+      "resolution_status": "resolved",
+      "resolution_reason": null,
+      "http_status": 200,
+      "authority": "unknown",
+      "source_kind": "unknown_web",
+      "authority_basis": "ownership_not_verified",
+      "destination_class": "link_hub",
+      "adapter_family": "link_hub",
+      "resolution_depth": 1,
+      "origin_chain": [
+        {
+          "url": "https://t.me/sgfooddeals/4941",
+          "role": "signal_source",
+          "destination_class": "telegram"
+        },
+        {
+          "url": "http://tco.sg/kopitamxsgfd",
+          "destination_class": "url_shortener",
+          "role": "intermediate_source"
+        },
+        {
+          "url": "https://www.google.com/url?q=https://www.kopitiam.biz/&sa=D&source=docs&ust=1789463516171803&usg=AOvVaw1Q1B9oH3OCZFWYXhem7K6s",
+          "destination_class": "link_hub",
+          "role": "intermediate_source"
+        }
+      ],
+      "official_source_url": null,
+      "source_origin_status": "intermediate",
+      "enumerable": "not_assessed",
+      "extraction_feasibility": "not_assessed",
+      "manual_review_reasons": [
+        "intermediate_requires_deeper_resolution",
+        "media_export_marker_present",
+        "merchant_or_title_unresolved"
+      ],
+      "transport_final_url": "https://www.google.com/url?q=https://www.kopitiam.biz/&sa=D&source=docs&ust=1789463516171803&usg=AOvVaw1Q1B9oH3OCZFWYXhem7K6s",
+      "transport_final_domain": "google.com",
+      "canonical_candidate_url": "https://www.google.com/url?q=https://www.kopitiam.biz/&sa=D&source=docs&ust=1789463516171803&usg=AOvVaw1Q1B9oH3OCZFWYXhem7K6s",
+      "candidate_domain": "google.com",
+      "canonicalization_basis": "transport_destination"
+    }
+  ]
+}

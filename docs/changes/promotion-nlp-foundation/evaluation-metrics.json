@@ -1,0 +1,496 @@
+{
+  "live": {
+    "executed": false,
+    "provider": null,
+    "model": null,
+    "reason": "No model credentials or PROMOTION_NLP_MODEL were available; no hosted request was attempted."
+  },
+  "offline": {
+    "runId": "2026-10-02T11-16-27-024Z-da796981-c70e-4a61-8b7a-730234fa9e8c",
+    "mode": "offline",
+    "startedAt": "2026-10-02T11:16:27.024Z",
+    "completedAt": "2026-10-02T11:16:27.273Z",
+    "provider": {
+      "provider": "fixture",
+      "model": "checked-contract-replay-v1",
+      "promptVersion": "promotion-nlp-prompt-v1",
+      "schemaVersion": "promotion-nlp-schema-v1"
+    },
+    "settings": {
+      "network": false
+    },
+    "benchmarkSha256": "ec9228dcf8acce9c1e31e5f046d323856bda4db4b2bcfd487fd189d0fcd2791e",
+    "promptVersion": "promotion-nlp-prompt-v1",
+    "promptSha256": "6de0db63bf3baffb78a8c38f09ccc9dbd737487507a32f9e567ef2dd21334c6a",
+    "schemaVersion": "promotion-nlp-schema-v1",
+    "schemaSha256": "2b42cb3afc017bc3ece8a16ce068259bd36389532bcd795e4576377ca9d02900",
+    "selectedCaseIds": [
+      "pepper_lunch_sg-student-meal",
+      "pepper_lunch_sg-uper-value-deal",
+      "pepper_lunch_sg-weekday-lunch",
+      "pepper_lunch_sg-dine-with-pride",
+      "pepper_lunch_sg-cheesy-omelette-2",
+      "pepper_lunch_sg-peppie-meal",
+      "pepper_lunch_sg-delivery",
+      "shake_shack_sg-100-angus-beef-just-for-you",
+      "shake_shack_sg-all-about-chickens",
+      "shake_shack_sg-concrete-craze",
+      "shake_shack_sg-everything-in-our-veggie-shack",
+      "shake_shack_sg-feeding-a-crowd",
+      "shake_shack_sg-hello-one-fullerton",
+      "shake_shack_sg-hello-parkway-parade",
+      "shake_shack_sg-national-cheeseburger-day",
+      "shake_shack_sg-shack-meal",
+      "shake_shack_sg-singlish-lingo",
+      "shake_shack_sg-study-breaks-just-got-better",
+      "shake_shack_sg-this-ones-for-your-mom",
+      "shake_shack_sg-were-introducing-chicken-sundays",
+      "shake_shack_sg-zi-char-menu",
+      "captain_kim_sg-captain-kim-delivery",
+      "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-1",
+      "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-2",
+      "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-3",
+      "captain_kim_sg-captain-kim-korean-bbq-hotpot-3",
+      "bari_bari_steak_sg-promotions-1",
+      "bari_bari_steak_sg-promotions-2",
+      "bari_bari_steak_sg-promotions-3",
+      "bari_bari_steak_sg-promotions-4",
+      "bari_bari_steak_sg-promotions-5",
+      "mcdonalds_sg-McSaver",
+      "mcdonalds_sg-bfmcsaver",
+      "sushiro_sg-to-the-moon-and-back",
+      "instagram-DDJfz9bynW-",
+      "instagram-Dc-kxPJzx9B",
+      "instagram-DdQA3EChsjx",
+      "instagram-DdfecQUjNZ5",
+      "shake_shack_sg-flock-this-way",
+      "shake_shack_sg-meet-our-collab-partners",
+      "shake_shack_sg-introducing-aloha-shack",
+      "shake_shack_sg-more-perks-less-fuss",
+      "shake_shack_sg-local-faves-our-treat",
+      "shake_shack_sg-pucker-up-for-2-lemonades",
+      "shake_shack_sg-well-be-right-back",
+      "shake_shack_sg-our-french-onion-menu",
+      "fairprice_sg-price-drop-buy-now-weekly-offers-from-20-off",
+      "fairprice_sg-xtra-wine-flash-sale",
+      "fairprice_sg-finest-wine"
+    ],
+    "calls": 49,
+    "errors": 0,
+    "summary": {
+      "cases": 49,
+      "classification": {
+        "promotion_precision": 1,
+        "promotion_recall": 1,
+        "non_promotion_correctness": 1,
+        "uncertain_rate": 0.04081632653061224
+      },
+      "fields": {
+        "merchant": {
+          "exact_supported_extraction": 25,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "title": {
+          "exact_supported_extraction": 37,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "benefit": {
+          "exact_supported_extraction": 36,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "startDate": {
+          "exact_supported_extraction": 16,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "endDate": {
+          "exact_supported_extraction": 16,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "weekdays": {
+          "exact_supported_extraction": 17,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "hours": {
+          "exact_supported_extraction": 5,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "locationScope": {
+          "exact_supported_extraction": 20,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "locationNames": {
+          "exact_supported_extraction": 6,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "locationWording": {
+          "exact_supported_extraction": 20,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "eligibility": {
+          "exact_supported_extraction": 12,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "redemption": {
+          "exact_supported_extraction": 33,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "terms": {
+          "exact_supported_extraction": 33,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        }
+      },
+      "highRisk": {
+        "startDate": {
+          "exact_supported_extraction": 16,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "endDate": {
+          "exact_supported_extraction": 16,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "locationScope": {
+          "exact_supported_extraction": 20,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "locationNames": {
+          "exact_supported_extraction": 6,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "hours": {
+          "exact_supported_extraction": 5,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "eligibility": {
+          "exact_supported_extraction": 12,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        }
+      },
+      "raw_model_hallucinations": 0,
+      "hallucinations_caught_by_validator": 0,
+      "unsupported_fact_survived_validation": 0,
+      "unsupported_critical_fact_survived_validation": 0,
+      "evidence_quote_mismatch": 0,
+      "parser_classification": {
+        "compared_cases": 46,
+        "correct_cases": 35,
+        "nlp_correct_parser_wrong": [
+          "pepper_lunch_sg-cheesy-omelette-2",
+          "pepper_lunch_sg-delivery",
+          "shake_shack_sg-concrete-craze",
+          "shake_shack_sg-everything-in-our-veggie-shack",
+          "sushiro_sg-to-the-moon-and-back",
+          "instagram-Dc-kxPJzx9B",
+          "shake_shack_sg-flock-this-way",
+          "shake_shack_sg-meet-our-collab-partners",
+          "shake_shack_sg-more-perks-less-fuss",
+          "shake_shack_sg-local-faves-our-treat",
+          "shake_shack_sg-pucker-up-for-2-lemonades"
+        ],
+        "parser_correct_nlp_wrong": []
+      },
+      "comparison": {
+        "exact_agreement": 419,
+        "nlp_correct_additional_fact": 108,
+        "current_parser_correct_nlp_missed": 0,
+        "nlp_unsupported_invention": 0,
+        "current_parser_limitation": 71,
+        "both_wrong_relative_to_gold": 0
+      }
+    },
+    "readiness": "benchmark_only_requires_live_review",
+    "reviewBasis": "Codex source-text review of each captured isolated block, with explicit manual supported/unknown decisions. Not independent human review; current parser is comparison only. Duplicate Captain Kim text on alternate venue pages excluded. Exact comparison is conservative; scalar alternatives are explicitly reviewed.",
+    "runDirectory": ".local/promotion-nlp/2026-10-02T11-16-27-024Z-da796981-c70e-4a61-8b7a-730234fa9e8c"
+  },
+  "adversarial": {
+    "runId": "2026-10-02T11-16-27-489Z-61ff55d8-e385-490c-868d-3c94a7f46533",
+    "mode": "offline",
+    "startedAt": "2026-10-02T11:16:27.489Z",
+    "completedAt": "2026-10-02T11:16:27.491Z",
+    "provider": {
+      "provider": "fixture-adversarial",
+      "model": "injected-contest-date-misassociation-v1",
+      "promptVersion": "promotion-nlp-prompt-v1",
+      "schemaVersion": "promotion-nlp-schema-v1"
+    },
+    "settings": {
+      "network": false
+    },
+    "benchmarkSha256": "ec9228dcf8acce9c1e31e5f046d323856bda4db4b2bcfd487fd189d0fcd2791e",
+    "promptVersion": "promotion-nlp-prompt-v1",
+    "promptSha256": "6de0db63bf3baffb78a8c38f09ccc9dbd737487507a32f9e567ef2dd21334c6a",
+    "schemaVersion": "promotion-nlp-schema-v1",
+    "schemaSha256": "2b42cb3afc017bc3ece8a16ce068259bd36389532bcd795e4576377ca9d02900",
+    "selectedCaseIds": ["mcdonalds_sg-bfmcsaver"],
+    "calls": 1,
+    "errors": 0,
+    "summary": {
+      "cases": 1,
+      "classification": {
+        "promotion_precision": 1,
+        "promotion_recall": 1,
+        "non_promotion_correctness": null,
+        "uncertain_rate": 0
+      },
+      "fields": {
+        "merchant": {
+          "exact_supported_extraction": 1,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "title": {
+          "exact_supported_extraction": 1,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "benefit": {
+          "exact_supported_extraction": 1,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "startDate": {
+          "exact_supported_extraction": 0,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 1,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "endDate": {
+          "exact_supported_extraction": 0,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 1,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "weekdays": {
+          "exact_supported_extraction": 0,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "hours": {
+          "exact_supported_extraction": 0,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "locationScope": {
+          "exact_supported_extraction": 1,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "locationNames": {
+          "exact_supported_extraction": 0,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "locationWording": {
+          "exact_supported_extraction": 1,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "eligibility": {
+          "exact_supported_extraction": 0,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "redemption": {
+          "exact_supported_extraction": 1,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "terms": {
+          "exact_supported_extraction": 1,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        }
+      },
+      "highRisk": {
+        "startDate": {
+          "exact_supported_extraction": 0,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 1,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "endDate": {
+          "exact_supported_extraction": 0,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 1,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "locationScope": {
+          "exact_supported_extraction": 1,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "locationNames": {
+          "exact_supported_extraction": 0,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "hours": {
+          "exact_supported_extraction": 0,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        },
+        "eligibility": {
+          "exact_supported_extraction": 0,
+          "missed_supported_fact": 0,
+          "incorrect_value": 0,
+          "unsupported_invented_fact": 0,
+          "evidence_quote_mismatch": 0,
+          "validator_rejection": 0
+        }
+      },
+      "raw_model_hallucinations": 2,
+      "hallucinations_caught_by_validator": 0,
+      "unsupported_fact_survived_validation": 2,
+      "unsupported_critical_fact_survived_validation": 2,
+      "evidence_quote_mismatch": 0,
+      "parser_classification": {
+        "compared_cases": 1,
+        "correct_cases": 1,
+        "nlp_correct_parser_wrong": [],
+        "parser_correct_nlp_wrong": []
+      },
+      "comparison": {
+        "exact_agreement": 6,
+        "nlp_correct_additional_fact": 4,
+        "current_parser_correct_nlp_missed": 0,
+        "nlp_unsupported_invention": 2,
+        "current_parser_limitation": 1,
+        "both_wrong_relative_to_gold": 0
+      }
+    },
+    "readiness": "benchmark_only_requires_live_review",
+    "reviewBasis": "Codex source-text review of each captured isolated block, with explicit manual supported/unknown decisions. Not independent human review; current parser is comparison only. Duplicate Captain Kim text on alternate venue pages excluded. Exact comparison is conservative; scalar alternatives are explicitly reviewed.",
+    "runDirectory": ".local/promotion-nlp/2026-10-02T11-16-27-489Z-61ff55d8-e385-490c-868d-3c94a7f46533"
+  },
+  "readiness": {
+    "A": "benchmark_only",
+    "B": "not_justified_without_live_evidence_and_with_known_semantic_survivors",
+    "C": "not_authorized_in_this_slice",
+    "D": "not_ready_or_authorized"
+  }
+}

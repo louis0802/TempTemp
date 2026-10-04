@@ -1,0 +1,85 @@
+{
+  "observedAt": "2026-10-01T04:54:50.390Z",
+  "pages": {
+    "https://www.shakeshack.com.sg/contact-us/": {
+      "path": "contact.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/hello-parkway-parade/": {
+      "path": "opening-promotion.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/wp-content/uploads/2024/12/SS-Data-Protection-Notice-for-Customers.pdf": {
+      "path": "legal.pdf",
+      "status": 200,
+      "contentType": "application/pdf"
+    },
+    "https://www.shakeshack.com.sg/blog/": {
+      "path": "listing.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/shack-meal/": {
+      "path": "missing-expiry.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/study-breaks-just-got-better/": {
+      "path": "named-location.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/shake-restaurants/one-fullerton/": {
+      "path": "one-fullerton.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/locations/": {
+      "path": "outlets.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/blog/page/2/": {
+      "path": "page-2.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/blog/page/3/": {
+      "path": "page-3.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/blog/page/4/": {
+      "path": "page-4.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/shake-restaurants/parkway-parade/": {
+      "path": "parkway-parade.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/national-cheeseburger-day/": {
+      "path": "promotion.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/were-introducing-chicken-sundays/": {
+      "path": "weekdays.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/all-about-chickens/": {
+      "path": "chicken-bundle-promotion.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/our-french-onion-menu/": {
+      "path": "editorial.html",
+      "status": 200,
+      "contentType": "text/html"
+    }
+  }
+}

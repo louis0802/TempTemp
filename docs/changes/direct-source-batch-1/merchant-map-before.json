@@ -1,0 +1,4948 @@
+{
+  "version": 1,
+  "purpose": "Research-only engineering onboarding map; historical counts are discovery signals, never production authority.",
+  "provenance": {
+    "inputs": [
+      {
+        "file": "tests/corpus/mvp-conformance-reviewed.json",
+        "sha256": "680ce13809180fb76715253ceafefb73ba4f53eb88a394d44ed0e6e887918986"
+      },
+      {
+        "file": ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json",
+        "sha256": "43ecab993bc5b6640e56c385d9b2a2b13e8f29ae51a94cf0a7eadcef76e08d87"
+      },
+      {
+        "file": ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json",
+        "sha256": "7db66e5cebf01e304905b0899dee26761eddd4c367b3e83ac28f5d32b3c86b05"
+      },
+      {
+        "file": "docs/research/merchant-source-map-review.json",
+        "sha256": "0ad4ad7269e90f92548a1dec7ade62a26ea31c56ea07c734f9e1680d8e3151d1"
+      }
+    ],
+    "registry_sha256": "3f456afb00e2fe7c46610a7f8c9b43f37c7b5bf4eef192d9d1a95973c50e8683",
+    "original_signal_provenance": "Previously captured one_off_refresh signals, now frozen local replay; not new Telegram collection."
+  },
+  "count_basis": "Signals count distinct source-post URLs per brand; offers count reviewed distinct offer identities. Latest captured signals for already reviewed source URLs do not add duplicate offers. Unresolved merchant labels retained separately.",
+  "summary": {
+    "merchant_count": 139,
+    "distinct_adapter_counts": {
+      "enabled": 2,
+      "shadow": 2
+    },
+    "historical_merchant_count": 138,
+    "adapter_status_counts": {
+      "enabled": 2,
+      "none": 134,
+      "shadow": 3
+    },
+    "autonomous_status_counts": {
+      "disabled_shadow": 3,
+      "enabled": 2,
+      "not_onboarded": 134
+    },
+    "source_family_counts": {
+      "app_deeplink_only": 1,
+      "app_deeplink_with_public_directory": 1,
+      "corporate_html_promotion_directory": 1,
+      "json_backed_retail_promotions": 1,
+      "platform_static_campaign": 1,
+      "wix_promotion_collection": 1,
+      "woocommerce_sale_catalog": 1,
+      "wordpress_dated_promotions": 1,
+      "wordpress_promotion_directory": 3
+    },
+    "unresolved_record_count": 67
+  },
+  "merchants": [
+    {
+      "merchant": "21 on Rajah",
+      "normalized_merchant": "21onrajah",
+      "merchant_labels": [
+        "21 on Rajah"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#db175492-a165-42b6-b5c0-b9be7bd7fa2c"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "4Fingers",
+      "normalized_merchant": "4fingers",
+      "merchant_labels": [
+        "4Fingers"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 2,
+      "historical_offer_count": 2,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#49333065-b4c7-440d-80be-1c14f470264e",
+        "tests/corpus/mvp-conformance-reviewed.json#8994ad45-4dfe-426c-9c3c-17e14f4984b7"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "7-Eleven",
+      "normalized_merchant": "7eleven",
+      "merchant_labels": [
+        "7-Eleven"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 2,
+      "historical_offer_count": 2,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#2f33d376-e17d-403c-b224-bacd4ae4fb24",
+        "tests/corpus/mvp-conformance-reviewed.json#ac514d76-7eae-4887-9ae8-f876eabaafa1"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "AFTER HOURS",
+      "normalized_merchant": "afterhours",
+      "merchant_labels": [
+        "AFTER HOURS"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#ce65759b-5f13-4390-8d4b-29b728b0830c"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Ajumma’s",
+      "normalized_merchant": "ajummas",
+      "merchant_labels": [
+        "Ajumma’s"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#7443f48e-8dfc-4f29-9447-b049722bbc8e"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Ajumma's Korean Restaurant",
+      "normalized_merchant": "ajummaskoreanrestaurant",
+      "merchant_labels": [
+        "Ajumma's Korean Restaurant"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#8241b190-db40-404b-9b3a-516f3075270d"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "ALC Rice Bowls",
+      "normalized_merchant": "alcricebowls",
+      "merchant_labels": [
+        "ALC Rice Bowls"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#2255d037-8122-4714-9140-7eeed6e04096"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Andaz",
+      "normalized_merchant": "andaz",
+      "merchant_labels": [
+        "Andaz"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#86346d02-758b-4551-a129-e1ecf6c4f663"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Baci Baci",
+      "normalized_merchant": "bacibaci",
+      "merchant_labels": [
+        "Baci Baci"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#ed064ffd-fccd-48c5-aec4-4f5704c9497e"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Bari Bari Grand",
+      "normalized_merchant": "baribarigrand",
+      "merchant_labels": [
+        "Bari Bari Grand"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#8824bdb8-e89e-432a-9cde-b1028dc4d10d"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Bari Bari Steak",
+      "normalized_merchant": "baribaristeak",
+      "merchant_labels": [
+        "Bari Bari Steak"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 3,
+      "historical_offer_count": 3,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#3d2d04aa073b6b79b46faa22eecc80f36216cedda95b632ba1f99c1d44d022f9",
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#9ce240c76b2b0b286ca4f62bb61af07d272b7e662411f210d51124d4fa1360cd",
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#a041b1bb0fcbd4fa6c24dc5feddc0a43365f70ba21522fe9f87b17c83fbc1f36"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Beard Papa's",
+      "normalized_merchant": "beardpapas",
+      "merchant_labels": [
+        "Beard Papa's",
+        "Beard Papa’s"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 2,
+      "historical_offer_count": 2,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#8e98643bed778e409af3758d8944e3c0ee50768f4b3706ddeb3a597fe824bcab",
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#bf1086a22656949df94dbd4af4640ceaea9d046286ac806b85c94af7dbc20808"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "BlackTree",
+      "normalized_merchant": "blacktree",
+      "merchant_labels": [
+        "BlackTree"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#9d3f79d6-fdd6-49d3-a84a-e4fadfa9fdfb"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "BOMUL Samgyetang",
+      "normalized_merchant": "bomulsamgyetang",
+      "merchant_labels": [
+        "BOMUL Samgyetang"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#2e55e033777322682f4cfc759ae06309795c309811e103bc8265af801393f53b"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Bottega JB",
+      "normalized_merchant": "bottegajb",
+      "merchant_labels": [
+        "Bottega JB"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#772a3800-1d67-4dda-9b9b-2442241b36eb"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Braek Acai & Coffee",
+      "normalized_merchant": "braekacaicoffee",
+      "merchant_labels": [
+        "Braek Acai & Coffee"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#fcb3b89c-3f35-4061-9f5b-52353aca1594"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Brash Boys Coffee",
+      "normalized_merchant": "brashboyscoffee",
+      "merchant_labels": [
+        "Brash Boys Coffee"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 2,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#9114b540-77e9-46f1-a83c-26f8e30d75c1"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Brasserie Astoria",
+      "normalized_merchant": "brasserieastoria",
+      "merchant_labels": [
+        "Brasserie Astoria"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#832c065d-9c70-47cc-8278-47d8b4d61911"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "BURNT CONES",
+      "normalized_merchant": "burntcones",
+      "merchant_labels": [
+        "BURNT CONES",
+        "Burnt Cones"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 2,
+      "historical_offer_count": 2,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#b3b5a294-87d4-4865-a9d6-9781d4016d1d",
+        "tests/corpus/mvp-conformance-reviewed.json#e7b33e45-3f2b-45f8-b545-c55e19831432"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Burnt Ends Bakery",
+      "normalized_merchant": "burntendsbakery",
+      "merchant_labels": [
+        "Burnt Ends Bakery"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#26e18b2a-3b46-41c6-aca9-0a1d13c4781f"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Cai-Ca",
+      "normalized_merchant": "caica",
+      "merchant_labels": [
+        "Cai-Ca"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#0aa1ed7e-513c-401a-b2ae-c8693b1b331a",
+        "tests/corpus/mvp-conformance-reviewed.json#488ddfae-28ec-4455-8d72-a5d447e72358"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Captain Kim",
+      "normalized_merchant": "captainkim",
+      "merchant_labels": [
+        "Captain Kim"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 2,
+      "historical_offer_count": 2,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#221f48b4-0362-4625-979f-7d3d88d38fcd",
+        "tests/corpus/mvp-conformance-reviewed.json#6089ff84-8ca2-4a52-94ae-2eedfb559977"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Carlton City",
+      "normalized_merchant": "carltoncity",
+      "merchant_labels": [
+        "Carlton City"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#3d9ab8d3-aa2d-45c9-a79c-85ed2dbf22ff"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Carnaby",
+      "normalized_merchant": "carnaby",
+      "merchant_labels": [
+        "Carnaby"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#83ce8a4e-c439-40e3-84b0-2c391877708a"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Casa Lola",
+      "normalized_merchant": "casalola",
+      "merchant_labels": [
+        "Casa Lola"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#1ced405f-ffea-4933-a965-25b5fdbea0ea"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Cavern Restaurant",
+      "normalized_merchant": "cavernrestaurant",
+      "merchant_labels": [
+        "Cavern Restaurant"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#03b73280-dceb-4e8d-b88d-6b1b86938157"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Central Plaza",
+      "normalized_merchant": "centralplaza",
+      "merchant_labels": [
+        "Central Plaza"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#f5f63073-90c8-4173-84ae-91e5ecbafd61"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "CHAGEE",
+      "normalized_merchant": "chagee",
+      "merchant_labels": [
+        "CHAGEE"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#b44d008a-6973-454c-a292-bfa183f1a511"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Chateraise",
+      "normalized_merchant": "chateraise",
+      "merchant_labels": [
+        "Chateraise"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#53664158-1ba2-4fa0-abc9-afdae3462fd1"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Chinatown Tai Chong Kok",
+      "normalized_merchant": "chinatowntaichongkok",
+      "merchant_labels": [
+        "Chinatown Tai Chong Kok"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#1488321c-a09f-4dc9-a265-1d1a820e1105"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Chin Mee Chin",
+      "normalized_merchant": "chinmeechin",
+      "merchant_labels": [
+        "Chin Mee Chin"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#4e023072-439c-4e67-a6c3-bafd3706f4d5"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Chix Hot Chicken",
+      "normalized_merchant": "chixhotchicken",
+      "merchant_labels": [
+        "Chix Hot Chicken"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#2d65e39d-8132-450a-b5a4-2a27d0bbd01b"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Coffeehouse by Kobashi",
+      "normalized_merchant": "coffeehousebykobashi",
+      "merchant_labels": [
+        "Coffeehouse by Kobashi"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#d675131a-734f-4580-a8c4-0fc91000f09d"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Common Grill",
+      "normalized_merchant": "commongrill",
+      "merchant_labels": [
+        "Common Grill"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#f7c6ab39-e564-4cf4-8ac0-cce33db718d2"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "CS Foods",
+      "normalized_merchant": "csfoods",
+      "merchant_labels": [
+        "CS Foods"
+      ],
+      "operator": null,
+      "operator_source_families": [
+        "CS Foods"
+      ],
+      "historical_signal_count": 1,
+      "historical_offer_count": 6,
+      "observed_direct_domains": [
+        "csfoods.sg"
+      ],
+      "observed_direct_candidate_count": 7,
+      "ownership_status": "probable",
+      "enumerability_status": "partial",
+      "historical_enumerability_status": "partial",
+      "extraction_status": "mixed",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [
+        "woocommerce_sale_catalog"
+      ],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "Blocked product pages limit full extraction",
+        "Catalogue pattern is observed on another page, not assumed product body structure",
+        "Current product price is not proof of Telegram discount",
+        "HTTP 403 CleanTalk anti-crawler page; not bypassed",
+        "No independent ownership confirmation; historical offer not verified",
+        "Old/new sale prices deterministic; no dated campaign terms",
+        "Ownership confirmation and anti-crawler access policy needed",
+        "Ownership not independently verified",
+        "Retail priceValidUntil must not become campaign validity"
+      ],
+      "evidence_refs": [
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#10937de2b54be746d95225239f036bc6933bd5a1c7f86dae523664ebd057b91e",
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#2a4063e80e10ac9ce4445b388400e72b2a080fae9113b9427faf7739aecdad29",
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#2efd4077f412c100b3c53f36108b1f76ae4414542cf199da2c66e18361e1cc43",
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#4774ad76672db2bcb5a529e2e934ace34e4d95dc8f65a0ce90b61f52e2c431ed",
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#bc858af4cc66b3b32ad18abadb5f60158a947819655d5298f1aeb269c9e35262",
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#d1986fc908c9ec9e012b7a576587e2396b381c1843c6684a17845cbbcb6cc8f2",
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#10937de2b54be746d95225239f036bc6933bd5a1c7f86dae523664ebd057b91e",
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#2a4063e80e10ac9ce4445b388400e72b2a080fae9113b9427faf7739aecdad29",
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#2efd4077f412c100b3c53f36108b1f76ae4414542cf199da2c66e18361e1cc43",
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#4774ad76672db2bcb5a529e2e934ace34e4d95dc8f65a0ce90b61f52e2c431ed",
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#bc858af4cc66b3b32ad18abadb5f60158a947819655d5298f1aeb269c9e35262",
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#d1986fc908c9ec9e012b7a576587e2396b381c1843c6684a17845cbbcb6cc8f2",
+        "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-02",
+        "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-03",
+        "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-04",
+        "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-05",
+        "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-06",
+        "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-07",
+        "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-08",
+        "https://csfoods.sg/shop/beef/marinated-beef/cubes/japanese-black-pepper-beef-cubes/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+        "https://csfoods.sg/shop/beef/primary-cuts/umami-prime-beef-striploin/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+        "https://csfoods.sg/shop/finger-food/meat/freezepak-chicken-nuggets/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+        "https://csfoods.sg/shop/finger-food/potato/mccain-original-shoestring-6-6-mm-fries/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+        "https://csfoods.sg/shop/poultry/marinated-chicken-poultry/thigh-marinated-chicken-poultry/teriyaki-chicken-thigh/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+        "https://csfoods.sg/shop/ready-to-eat/ready-dishes/rendang-beef-ready-to-eat/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+        "https://csfoods.sg/unbeatable-halal-meat-sale/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+      ],
+      "source_observations": [
+        {
+          "candidate_url": "https://csfoods.sg/shop/beef/marinated-beef/cubes/japanese-black-pepper-beef-cubes/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+          "domain": "csfoods.sg",
+          "ownership_status": "probable",
+          "enumerable": "partial",
+          "extraction": "inaccessible",
+          "family": "woocommerce_sale_catalog",
+          "app_findings": null
+        },
+        {
+          "candidate_url": "https://csfoods.sg/shop/beef/primary-cuts/umami-prime-beef-striploin/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+          "domain": "csfoods.sg",
+          "ownership_status": "probable",
+          "enumerable": "partial",
+          "extraction": "inaccessible",
+          "family": "woocommerce_sale_catalog",
+          "app_findings": null
+        },
+        {
+          "candidate_url": "https://csfoods.sg/shop/finger-food/meat/freezepak-chicken-nuggets/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+          "domain": "csfoods.sg",
+          "ownership_status": "probable",
+          "enumerable": "partial",
+          "extraction": "inaccessible",
+          "family": "woocommerce_sale_catalog",
+          "app_findings": null
+        },
+        {
+          "candidate_url": "https://csfoods.sg/shop/finger-food/potato/mccain-original-shoestring-6-6-mm-fries/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+          "domain": "csfoods.sg",
+          "ownership_status": "probable",
+          "enumerable": "partial",
+          "extraction": "inaccessible",
+          "family": "woocommerce_sale_catalog",
+          "app_findings": null
+        },
+        {
+          "candidate_url": "https://csfoods.sg/shop/poultry/marinated-chicken-poultry/thigh-marinated-chicken-poultry/teriyaki-chicken-thigh/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+          "domain": "csfoods.sg",
+          "ownership_status": "probable",
+          "enumerable": "partial",
+          "extraction": "inaccessible",
+          "family": "woocommerce_sale_catalog",
+          "app_findings": null
+        },
+        {
+          "candidate_url": "https://csfoods.sg/shop/ready-to-eat/ready-dishes/rendang-beef-ready-to-eat/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+          "domain": "csfoods.sg",
+          "ownership_status": "probable",
+          "enumerable": "partial",
+          "extraction": "structured",
+          "family": "woocommerce_sale_catalog",
+          "app_findings": null
+        },
+        {
+          "candidate_url": "https://csfoods.sg/unbeatable-halal-meat-sale/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+          "domain": "csfoods.sg",
+          "ownership_status": "probable",
+          "enumerable": "partial",
+          "extraction": "semi_structured",
+          "family": "woocommerce_sale_catalog",
+          "app_findings": null
+        }
+      ]
+    },
+    {
+      "merchant": "Dancing Crab",
+      "normalized_merchant": "dancingcrab",
+      "merchant_labels": [
+        "Dancing Crab"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#918bb79c-4aec-44c8-833a-fb39f3182e33"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Daya Izakaya",
+      "normalized_merchant": "dayaizakaya",
+      "merchant_labels": [
+        "Daya Izakaya"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#77015c59-a8a3-426a-a494-7fbe4e7b1898"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "D'Cuisine",
+      "normalized_merchant": "dcuisine",
+      "merchant_labels": [
+        "D'Cuisine"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#f27a1414fc5e8120f9d0dc8ff3e82e13dca03bbdfed6be93e18eab9549c8bf6b"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Dian Xiao Er",
+      "normalized_merchant": "dianxiaoer",
+      "merchant_labels": [
+        "Dian Xiao Er"
+      ],
+      "operator": null,
+      "operator_source_families": [
+        "Dian Xiao Er"
+      ],
+      "historical_signal_count": 2,
+      "historical_offer_count": 2,
+      "observed_direct_domains": [
+        "dianxiaoer.com.sg"
+      ],
+      "observed_direct_candidate_count": 1,
+      "ownership_status": "probable",
+      "enumerability_status": "partial",
+      "historical_enumerability_status": "partial",
+      "extraction_status": "image_only",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [
+        "wix_promotion_collection"
+      ],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "Determine public Wix collection/lightbox mapping and ownership before adapter work",
+        "Do not assign neighboring gallery captions to selected lightbox offer",
+        "Important campaign facts require image inspection; no OCR performed"
+      ],
+      "evidence_refs": [
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#9e1694c30a20e0c67588124c25742de9893c2402806d2aa9e23877d4feb40e4f",
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#9e1694c30a20e0c67588124c25742de9893c2402806d2aa9e23877d4feb40e4f",
+        "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-10",
+        "https://www.dianxiaoer.com.sg/promo?lightbox=dataItem-msxym06a&utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+        "tests/corpus/mvp-conformance-reviewed.json#f28a2970-bb28-44e2-b7ac-27a961d0ba96"
+      ],
+      "source_observations": [
+        {
+          "candidate_url": "https://www.dianxiaoer.com.sg/promo?lightbox=dataItem-msxym06a&utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+          "domain": "dianxiaoer.com.sg",
+          "ownership_status": "probable",
+          "enumerable": "partial",
+          "extraction": "image_only",
+          "family": "wix_promotion_collection",
+          "app_findings": null
+        }
+      ]
+    },
+    {
+      "merchant": "Dill",
+      "normalized_merchant": "dill",
+      "merchant_labels": [
+        "Dill"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#25f1d495-0d8a-4383-98b6-279d861a7a97"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Din Tai Fung",
+      "normalized_merchant": "dintaifung",
+      "merchant_labels": [
+        "Din Tai Fung"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#67b0a0e9-d609-416d-bc87-829f61f52f99"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Domino’s",
+      "normalized_merchant": "dominos",
+      "merchant_labels": [
+        "Domino’s"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#2b603246-7ae9-4da9-9713-6a5fc41d7e2b"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "dorra Slimming",
+      "normalized_merchant": "dorraslimming",
+      "merchant_labels": [
+        "dorra Slimming"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#6f272408-4e1b-413d-9a3b-6f14810209d0"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Estiatorio Milos",
+      "normalized_merchant": "estiatoriomilos",
+      "merchant_labels": [
+        "Estiatorio Milos"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#8281b82f-278f-4dcf-869a-d1957cdc61db"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "FairPrice",
+      "normalized_merchant": "fairprice",
+      "merchant_labels": [
+        "FairPrice"
+      ],
+      "operator": null,
+      "operator_source_families": [
+        "FairPrice Group"
+      ],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [
+        "fairprice.com.sg"
+      ],
+      "observed_direct_candidate_count": 1,
+      "ownership_status": "verified",
+      "enumerability_status": "partial",
+      "historical_enumerability_status": "partial",
+      "extraction_status": "semi_structured",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [
+        "json_backed_retail_promotions"
+      ],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "JSON-LD block has trailing extra brace and a rolling priceValidUntil that differs from campaign expiry; do not treat as trustworthy campaign structure",
+        "Online product/gift does not establish physical promotion outlet coverage",
+        "Participating product set and pagination completeness need bounded follow-up"
+      ],
+      "evidence_refs": [
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#5779b409051cab6a235b851e1c643a18d1a1777235416d9944c0bb8e903dde1c",
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#5779b409051cab6a235b851e1c643a18d1a1777235416d9944c0bb8e903dde1c",
+        "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-12",
+        "https://www.fairprice.com.sg/product/13137742?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+      ],
+      "source_observations": [
+        {
+          "candidate_url": "https://www.fairprice.com.sg/product/13137742?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+          "domain": "fairprice.com.sg",
+          "ownership_status": "verified",
+          "enumerable": "partial",
+          "extraction": "semi_structured",
+          "family": "json_backed_retail_promotions",
+          "app_findings": null
+        }
+      ]
+    },
+    {
+      "merchant": "FAME by Dad's Corner",
+      "normalized_merchant": "famebydadscorner",
+      "merchant_labels": [
+        "FAME by Dad's Corner",
+        "Fame by Dads Corner"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 2,
+      "historical_offer_count": 2,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#302f3489-c49b-4b5a-8189-35e04291f4a9",
+        "tests/corpus/mvp-conformance-reviewed.json#6fadd6cc-a819-4f7e-a117-21d71f2f01bf"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Family Mookata",
+      "normalized_merchant": "familymookata",
+      "merchant_labels": [
+        "Family Mookata"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#2d17ab24-d00e-494b-a70c-e9f9639a5b69"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Fangko House",
+      "normalized_merchant": "fangkohouse",
+      "merchant_labels": [
+        "Fangko House"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#10ea2f04-920f-4f2d-9473-f9709c6553fd"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "foodpanda",
+      "normalized_merchant": "foodpanda",
+      "merchant_labels": [
+        "foodpanda"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#8ba3a2b4-62a3-470f-bb0f-6ab040b80b3f"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Gelare",
+      "normalized_merchant": "gelare",
+      "merchant_labels": [
+        "Gelare"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 3,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#8c32e550-7180-4d71-8c71-59263a272372"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Genki Sushi",
+      "normalized_merchant": "genkisushi",
+      "merchant_labels": [
+        "Genki Sushi"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#d2787696-c507-4835-b3f3-bb485e8247c8"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Good Combo Hotpot & BBQ",
+      "normalized_merchant": "goodcombohotpotbbq",
+      "merchant_labels": [
+        "Good Combo Hotpot & BBQ"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#a1869bc5-2ae2-4113-afb0-46c293250cd9"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Gourmet Carousel",
+      "normalized_merchant": "gourmetcarousel",
+      "merchant_labels": [
+        "Gourmet Carousel"
+      ],
+      "operator": "Royal Plaza on Scotts",
+      "operator_source_families": [
+        "Royal Plaza on Scotts"
+      ],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [
+        "royalplaza.com.sg"
+      ],
+      "observed_direct_candidate_count": 1,
+      "ownership_status": "verified",
+      "enumerability_status": "partial",
+      "historical_enumerability_status": "partial",
+      "extraction_status": "semi_structured",
+      "adapter_status": "shadow",
+      "direct_source_id": "gourmet_carousel_sg",
+      "source_family": [
+        "corporate_html_promotion_directory"
+      ],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "disabled_shadow",
+      "known_blockers": [
+        "gourmet_service_boundary_unproven",
+        "partial_enumeration",
+        "service_page_campaign_outside_listing"
+      ],
+      "evidence_refs": [
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#2c4a2a34b21c820e8c6fd1d1bdae8cd968f8982fc73f9519c08dbf2e51fb483d",
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#2c4a2a34b21c820e8c6fd1d1bdae8cd968f8982fc73f9519c08dbf2e51fb483d",
+        "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-00",
+        "docs/changes/gourmet-carousel-direct-source/research.md; tests/fixtures/direct-sources/gourmet-carousel/ownership.json (independent operator/domain declaration and separate Gourmet Carousel Barista venue evidence, 2026-10-01)",
+        "docs/changes/gourmet-carousel-direct-source/verification.md",
+        "https://www.royalplaza.com.sg/dine/barista",
+        "https://www.royalplaza.com.sg/dine/barista?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+        "https://www.royalplaza.com.sg/policies/privacy-policy",
+        "tests/fixtures/direct-sources/gourmet-carousel/research-2026-10-01/capture-provenance.json"
+      ],
+      "source_observations": [
+        {
+          "candidate_url": "https://www.royalplaza.com.sg/dine/barista?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+          "domain": "royalplaza.com.sg",
+          "ownership_status": "verified",
+          "enumerable": "partial",
+          "extraction": "semi_structured",
+          "family": "corporate_html_promotion_directory",
+          "app_findings": null
+        }
+      ]
+    },
+    {
+      "merchant": "Grab",
+      "normalized_merchant": "grab",
+      "merchant_labels": [
+        "Grab"
+      ],
+      "operator": null,
+      "operator_source_families": [
+        "Grab"
+      ],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [
+        "grab.com"
+      ],
+      "observed_direct_candidate_count": 2,
+      "ownership_status": "verified",
+      "enumerability_status": "no",
+      "historical_enumerability_status": "no",
+      "extraction_status": "mixed",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [
+        "platform_static_campaign"
+      ],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "Distinct deal sections have different terms/validity; no merged universal offer",
+        "Image-led campaign; no OCR",
+        "No independent issuer/platform promotion directory proven by sample",
+        "Observed app campaignLandingID=17424 is identity evidence, not public enumerable API",
+        "Participating outlet details remain app-dependent",
+        "Stable sandbox campaign path from chain is not an enumeration endpoint"
+      ],
+      "evidence_refs": [
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#2df55031cdf4f9736301792cc91a158f48300f605f3e9e3460d66136d3a994f3",
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#7cdb34f2922a8a3ac98828bacbe5f806c395e162031a9653e62efda0000b52a1",
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#7cdb34f2922a8a3ac98828bacbe5f806c395e162031a9653e62efda0000b52a1",
+        "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-13",
+        "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-15",
+        "https://www.grab.com/sg/full-house-mission/?af_force_deeplink=true&af_ad=ESGJalanBesar-SGFoodDeals&c=SG_NA_PAX_GF_AW-CONV_LOC__DineOut_NA_ESGJalanBesar-SGFoodDeals&pid=telegram-organic&is_retargeting=true&deep_link_value=grab%3A%2F%2Fopen%3FscreenType%3DSANDBOX%26sandboxDeepLinkUrl%3Dpages%2FDPG-9134db80-a1bc-11f1-a14f-7765dba32ff2%26sourceID%3Dtele_organic%26sourceCampaignName%3DESG-JB&af_sub5=social-paid&af_dp=grab%3A%2F%2Fopen%3FscreenType%3DSANDBOX%26sandboxDeepLinkUrl%3Dpages%2FDPG-9134db80-a1bc-11f1-a14f-7765dba32ff2%26sourceID%3Dtele_organic%26sourceCampaignName%3DESG-JB",
+        "https://www.grab.com/sg/grab-salebration/?pid=EDM&c=SG_NA_PAX_GF_AW-CONV_LOC__MegaSale-GF_NA_MegaSale-GF&is_retargeting=true&af_dp=grab%3A%2F%2Fopen%3FscreenType%3DGRABFOOD%26campaignLandingID%3D17424%26headerColor%3D0B54A8%26headerSize%3Dmedium&af_force_deeplink=true&af_sub5=edm&af_ad=MegaSale-GF"
+      ],
+      "source_observations": [
+        {
+          "candidate_url": "https://www.grab.com/sg/full-house-mission/?af_force_deeplink=true&af_ad=ESGJalanBesar-SGFoodDeals&c=SG_NA_PAX_GF_AW-CONV_LOC__DineOut_NA_ESGJalanBesar-SGFoodDeals&pid=telegram-organic&is_retargeting=true&deep_link_value=grab%3A%2F%2Fopen%3FscreenType%3DSANDBOX%26sandboxDeepLinkUrl%3Dpages%2FDPG-9134db80-a1bc-11f1-a14f-7765dba32ff2%26sourceID%3Dtele_organic%26sourceCampaignName%3DESG-JB&af_sub5=social-paid&af_dp=grab%3A%2F%2Fopen%3FscreenType%3DSANDBOX%26sandboxDeepLinkUrl%3Dpages%2FDPG-9134db80-a1bc-11f1-a14f-7765dba32ff2%26sourceID%3Dtele_organic%26sourceCampaignName%3DESG-JB",
+          "domain": "grab.com",
+          "ownership_status": "verified",
+          "enumerable": "no",
+          "extraction": "semi_structured",
+          "family": "platform_static_campaign",
+          "app_findings": null
+        },
+        {
+          "candidate_url": "https://www.grab.com/sg/grab-salebration/?pid=EDM&c=SG_NA_PAX_GF_AW-CONV_LOC__MegaSale-GF_NA_MegaSale-GF&is_retargeting=true&af_dp=grab%3A%2F%2Fopen%3FscreenType%3DGRABFOOD%26campaignLandingID%3D17424%26headerColor%3D0B54A8%26headerSize%3Dmedium&af_force_deeplink=true&af_sub5=edm&af_ad=MegaSale-GF",
+          "domain": "grab.com",
+          "ownership_status": "verified",
+          "enumerable": "no",
+          "extraction": "image_only",
+          "family": "platform_static_campaign",
+          "app_findings": null
+        }
+      ]
+    },
+    {
+      "merchant": "GrabFood",
+      "normalized_merchant": "grabfood",
+      "merchant_labels": [
+        "GrabFood"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#f15c4df0-d8fe-4eea-b074-a7a45df10a38"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Guzman y Gomez",
+      "normalized_merchant": "guzmanygomez",
+      "merchant_labels": [
+        "Guzman y Gomez"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 3,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#264c20b0088508122a7666aaa53d9ff5f8380195af1a8b78b7fbabc500ece5cc",
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#57310754be44bbe0b7b88b60fa7dc94c98335ad01b2ab6e12a10737309935a6d",
+        "tests/corpus/mvp-conformance-reviewed.json#54a1914d-3e6d-45ae-befe-41dfb8967318"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Gwanghwamun Mijin",
+      "normalized_merchant": "gwanghwamunmijin",
+      "merchant_labels": [
+        "Gwanghwamun Mijin"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 2,
+      "historical_offer_count": 2,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#06add810-7c79-4181-9cfa-f162ebfa601e",
+        "tests/corpus/mvp-conformance-reviewed.json#1c30c122-ced3-43bc-82ac-15c8553436ca"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Happy Lamb",
+      "normalized_merchant": "happylamb",
+      "merchant_labels": [
+        "Happy Lamb"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#f481a335-2476-424f-86bb-a2d22b78af0f"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Hello Arigato",
+      "normalized_merchant": "helloarigato",
+      "merchant_labels": [
+        "Hello Arigato"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#b7d0caab-b756-4b72-beff-d89a2eeee75a"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Hokkaido Baked Cheese Tart",
+      "normalized_merchant": "hokkaidobakedcheesetart",
+      "merchant_labels": [
+        "Hokkaido Baked Cheese Tart"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 2,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#78961d00-22d9-4b15-8406-d83be4d6fee5"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "IKEA",
+      "normalized_merchant": "ikea",
+      "merchant_labels": [
+        "IKEA"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#5ba52ba1-74ac-4b25-9949-671af2c10c70"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "I’m donut",
+      "normalized_merchant": "imdonut",
+      "merchant_labels": [
+        "I’m donut"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 0,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#dfbb132d8ccb12623234715f8f708919f1fe189ce342f4054f75d70b2b9ab4da"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Jack’s Place",
+      "normalized_merchant": "jacksplace",
+      "merchant_labels": [
+        "Jack’s Place"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#f1b5ef8e-2d3d-47b9-8d79-0719be774233"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "JEN Shangri-La",
+      "normalized_merchant": "jenshangrila",
+      "merchant_labels": [
+        "JEN Shangri-La"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#6e305e3c-a6df-477d-90eb-b13dee6fb41e"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Kafey Haus",
+      "normalized_merchant": "kafeyhaus",
+      "merchant_labels": [
+        "Kafey Haus"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#ddbb67e8-b154-4f80-b241-acd3448cf51f"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Katsu-an",
+      "normalized_merchant": "katsuan",
+      "merchant_labels": [
+        "Katsu-an"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#80d10092-3122-4e8e-a13b-d83c6626f633"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Kei Kaisendon",
+      "normalized_merchant": "keikaisendon",
+      "merchant_labels": [
+        "Kei Kaisendon"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 5,
+      "historical_offer_count": 5,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#01a86f729ce87c846a7468ae9b8020d6fc03e12c9aaac3913c876177a9efc265",
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#ee71f4aa796e50924583c8acb225842c62a2bd49fb7b381a997ebbcb0ccb8bca",
+        "tests/corpus/mvp-conformance-reviewed.json#1ee6b9ec-4e0d-4a9f-aa32-047cbd2dbcc4",
+        "tests/corpus/mvp-conformance-reviewed.json#be833434-453b-4957-9a48-edde107a2646",
+        "tests/corpus/mvp-conformance-reviewed.json#dfe7fbf0-e4a5-4c0a-b95a-dafd7c8ef42e"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "KFC",
+      "normalized_merchant": "kfc",
+      "merchant_labels": [
+        "KFC"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#e359ecd9-5a04-477d-9198-c6d612aaeec5"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Kimpson's Table",
+      "normalized_merchant": "kimpsonstable",
+      "merchant_labels": [
+        "Kimpson's Table",
+        "Kimpson’s Table"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 3,
+      "historical_offer_count": 8,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#b5e1a48b-bdae-4c44-8db0-c4eb566eec92",
+        "tests/corpus/mvp-conformance-reviewed.json#dfc46b21-8788-432a-8565-7ea4f734d77d",
+        "tests/corpus/mvp-conformance-reviewed.json#fd6c628b-31a4-4f4a-8797-e47c2a1160a0"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Koi Thé",
+      "normalized_merchant": "koith",
+      "merchant_labels": [
+        "Koi Thé"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#6d59ef28-e626-4928-8fab-dfce7b2b68c2"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Kotuwa",
+      "normalized_merchant": "kotuwa",
+      "merchant_labels": [
+        "Kotuwa"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#43c2c307-5e6e-4b22-8e2d-a107197da3cd"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Kris+",
+      "normalized_merchant": "kris",
+      "merchant_labels": [
+        "Kris+"
+      ],
+      "operator": null,
+      "operator_source_families": [
+        "Singapore Airlines"
+      ],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [
+        "app.krisplus.com"
+      ],
+      "observed_direct_candidate_count": 1,
+      "ownership_status": "probable",
+      "enumerability_status": "no",
+      "historical_enumerability_status": "no",
+      "extraction_status": "app_only",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [
+        "app_deeplink_with_public_directory"
+      ],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "Confirm independent ownership link for exact app hostname",
+        "Load-more completeness and linked campaign fact extraction remain follow-up; do not use private APIs",
+        "Public directory is independently discoverable; sampled Birthday Bash correspondence not found"
+      ],
+      "evidence_refs": [
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#b09cbebd554d9088b575c275670b64d7a8fede70423d9e31e58bcfba34bddfad",
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#b09cbebd554d9088b575c275670b64d7a8fede70423d9e31e58bcfba34bddfad",
+        "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-01",
+        "https://app.krisplus.com/Oct26_SG_BBash_SGFD"
+      ],
+      "source_observations": [
+        {
+          "candidate_url": "https://app.krisplus.com/Oct26_SG_BBash_SGFD",
+          "domain": "app.krisplus.com",
+          "ownership_status": "probable",
+          "enumerable": "no",
+          "extraction": "app_only",
+          "family": "app_deeplink_with_public_directory",
+          "app_findings": {
+            "corresponding_web_campaign": "unknown",
+            "metadata_before_launch": "Only generic Kris+ branding, store links and download QR; no Birthday Bash benefits or validity.",
+            "stable_campaign_identifier": "Oct26_SG_BBash_SGFD (observed alias; durability unknown); Branch path 0Tcg4cORE6b",
+            "public_listing_endpoint": "https://www.krisplus.com/en/sg/promotions — captured HTML lists campaigns with stable slug/hash paths and Load more; public partners/deals/privileges links also observed; pagination transport not inspected.",
+            "authentication": "No login for public directory/download. In-app campaign access unknown; Singapore Airlines guides describe member accounts for redemption.",
+            "acquisition_role": "evidence_only"
+          }
+        }
+      ]
+    },
+    {
+      "merchant": "Lao Beijing",
+      "normalized_merchant": "laobeijing",
+      "merchant_labels": [
+        "Lao Beijing"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#2c619fc2-4ba2-4561-865e-2b047307a63f"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "LiHO",
+      "normalized_merchant": "liho",
+      "merchant_labels": [
+        "LiHO"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 0,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#aaefccccdce8dbe8e2034f9ae86478c7e6772f46b2c12ad578814652609c2dde"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "LiXin Teochew Fishball Noodles",
+      "normalized_merchant": "lixinteochewfishballnoodles",
+      "merchant_labels": [
+        "LiXin Teochew Fishball Noodles"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#196f2085-e024-458e-b899-087c1cf5dcb3"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Marché",
+      "normalized_merchant": "march",
+      "merchant_labels": [
+        "Marché"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 0,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#7cf8c279ab166eca0002a9489995ed34704070c3a7f49343b6a0bf4937ab7915"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Marche",
+      "normalized_merchant": "marche",
+      "merchant_labels": [
+        "Marche"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#38a4ef3d9994b7efe2e198280e588752c8f651556d10a13def6420083e92790c"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "McDonald's",
+      "normalized_merchant": "mcdonalds",
+      "merchant_labels": [
+        "McDonald's",
+        "McDonald’s"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 4,
+      "historical_offer_count": 4,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#63d46e9e0f72c89156680ff4da845edcec52c915025e2c4e3944f0b5d874db9c",
+        "tests/corpus/mvp-conformance-reviewed.json#551df953-2f18-4c60-b923-7deb4a54a2d7",
+        "tests/corpus/mvp-conformance-reviewed.json#9d4f24b4-0944-4a49-909c-2d00b4cfc036",
+        "tests/corpus/mvp-conformance-reviewed.json#e799684b-4d6e-4029-8530-27cb7dee4c3c"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Meat Smith",
+      "normalized_merchant": "meatsmith",
+      "merchant_labels": [
+        "Meat Smith",
+        "Meatsmith"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 2,
+      "historical_offer_count": 2,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#3690a6b2-6b4d-45ca-94be-a100e72470e5",
+        "tests/corpus/mvp-conformance-reviewed.json#fe1ce7c8-36be-45fb-9e10-b45b2d68c730"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "MilkyShop",
+      "normalized_merchant": "milkyshop",
+      "merchant_labels": [
+        "MilkyShop"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#598267ad-570e-43d4-bfc4-f3b98998ae35"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "More Yogurt",
+      "normalized_merchant": "moreyogurt",
+      "merchant_labels": [
+        "More Yogurt",
+        "moreyogurt"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 3,
+      "historical_offer_count": 5,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#186fce6f-6d46-45ba-831c-04703e043996",
+        "tests/corpus/mvp-conformance-reviewed.json#248b41c6-f14c-4f43-8230-1aca0bd150ae",
+        "tests/corpus/mvp-conformance-reviewed.json#7dfd7be1-6c2c-40c7-b923-ee8cdc4c6a0b"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Morganfield's",
+      "normalized_merchant": "morganfields",
+      "merchant_labels": [
+        "Morganfield's",
+        "Morganfield’s"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 2,
+      "historical_offer_count": 2,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#955805f6-dca8-4a6f-a6d3-f7bbd2fc894f",
+        "tests/corpus/mvp-conformance-reviewed.json#e988b525-e12a-4c10-aedf-98596b69f3f9"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "MOS Burger",
+      "normalized_merchant": "mosburger",
+      "merchant_labels": [
+        "MOS Burger"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#79356645-9d15-4226-bca8-bf2566f538af"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "MUKAI",
+      "normalized_merchant": "mukai",
+      "merchant_labels": [
+        "MUKAI"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#c2ee579b-8719-4cac-9f18-092cdef8775c"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Nasty Cookie",
+      "normalized_merchant": "nastycookie",
+      "merchant_labels": [
+        "Nasty Cookie"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 2,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#7f9943e013f4a506c8b28032da82f1bbfe4762428d06ad1a2e9751d6b81c5b82",
+        "tests/corpus/mvp-conformance-reviewed.json#798dacf9-b305-4273-a395-a76a06c54ab1"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "New Ubin Seafood",
+      "normalized_merchant": "newubinseafood",
+      "merchant_labels": [
+        "New Ubin Seafood"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#8931316d-02ca-4a6b-ad55-92ff94ca72db"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Next Door Spanish Cafe",
+      "normalized_merchant": "nextdoorspanishcafe",
+      "merchant_labels": [
+        "Next Door Spanish Cafe"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#060f6e52-7916-43e7-804f-a134cff79a92"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "noci bakehouse",
+      "normalized_merchant": "nocibakehouse",
+      "merchant_labels": [
+        "noci bakehouse"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 0,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#a0c5eba78b1a4344911b3ff39e1d6d952dfd296b0589c97a4a209fbe7a36d031"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "NomNom JB",
+      "normalized_merchant": "nomnomjb",
+      "merchant_labels": [
+        "NomNom JB"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#16f61535-8fc8-46d4-b46f-6d753200187f"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Nouri",
+      "normalized_merchant": "nouri",
+      "merchant_labels": [
+        "Nouri"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#06400f49-0d3d-47b8-8a28-05bc47545bb5"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "OMMA Korean Charcoal BBQ",
+      "normalized_merchant": "ommakoreancharcoalbbq",
+      "merchant_labels": [
+        "OMMA Korean Charcoal BBQ"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#3f8a72e2-541d-4892-bf71-7c99ffd02380"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Omuplace",
+      "normalized_merchant": "omuplace",
+      "merchant_labels": [
+        "Omuplace"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#bc3ae5ef-7ca1-4386-9ee6-0a7534e848a0"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Papi’s Tacos",
+      "normalized_merchant": "papistacos",
+      "merchant_labels": [
+        "Papi’s Tacos"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 2,
+      "historical_offer_count": 2,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#8bc768f9-4111-4808-aa05-6c32e1a70e0b",
+        "tests/corpus/mvp-conformance-reviewed.json#b636458f-3026-423d-b370-c0ecd5180f62"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Paradise Group",
+      "normalized_merchant": "paradisegroup",
+      "merchant_labels": [
+        "Paradise Group"
+      ],
+      "operator": "Paradise Group Holdings Pte. Ltd.",
+      "operator_source_families": [],
+      "historical_signal_count": 0,
+      "historical_offer_count": 0,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "verified",
+      "enumerability_status": "partial",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "partial",
+      "adapter_status": "shadow",
+      "direct_source_id": "paradise_group_sg",
+      "source_family": [
+        "wordpress_promotion_directory"
+      ],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "disabled_shadow",
+      "known_blockers": [
+        "oversized_evidence",
+        "partial_enumeration",
+        "unresolved_load_more"
+      ],
+      "evidence_refs": [
+        "docs/changes/autonomous-direct-source-ingestion/verification.md",
+        "docs/changes/direct-source-candidate-audit/verification.md (verified operator evidence, 2026-09-30)",
+        "https://www.paradisegp.com/paradise-hotpot/",
+        "https://www.paradisegp.com/privacy-policy/"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Paradise Hotpot",
+      "normalized_merchant": "paradisehotpot",
+      "merchant_labels": [
+        "Paradise Hotpot"
+      ],
+      "operator": "Paradise Group Holdings Pte. Ltd.",
+      "operator_source_families": [
+        "Paradise Group Holdings Pte. Ltd."
+      ],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [
+        "paradisegp.com"
+      ],
+      "observed_direct_candidate_count": 1,
+      "ownership_status": "verified",
+      "enumerability_status": "partial",
+      "historical_enumerability_status": "partial",
+      "extraction_status": "partial",
+      "adapter_status": "shadow",
+      "direct_source_id": "paradise_group_sg",
+      "source_family": [
+        "wordpress_promotion_directory"
+      ],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "disabled_shadow",
+      "known_blockers": [
+        "Historical menu differs from currently linked PDF; not current-offer proof",
+        "Menu rates and early-bird conditions are not campaign validity",
+        "Native multi-column extraction needs layout association; no OCR",
+        "oversized_evidence",
+        "partial_enumeration",
+        "unresolved_load_more"
+      ],
+      "evidence_refs": [
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#4dce528cfc515671956bd8bd1447632a43c0faa5b30c42740c71992ed1fa4600",
+        "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-16",
+        "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#paradise-native-text",
+        "docs/changes/autonomous-direct-source-ingestion/verification.md",
+        "docs/changes/direct-source-candidate-audit/verification.md (verified operator evidence, 2026-09-30)",
+        "https://www.paradisegp.com/paradise-hotpot/",
+        "https://www.paradisegp.com/privacy-policy/",
+        "https://www.paradisegp.com/wp-content/uploads/Paradise-Hotpot-Menu_-Aug-2025.pdf?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+        "tests/corpus/mvp-conformance-reviewed.json#8e0614ff-a1c1-47f4-b945-7a1058b195e8"
+      ],
+      "source_observations": [
+        {
+          "candidate_url": "https://www.paradisegp.com/wp-content/uploads/Paradise-Hotpot-Menu_-Aug-2025.pdf?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+          "domain": "paradisegp.com",
+          "ownership_status": "verified",
+          "enumerable": "partial",
+          "extraction": "semi_structured",
+          "family": "wordpress_promotion_directory",
+          "app_findings": null
+        }
+      ]
+    },
+    {
+      "merchant": "Park Side",
+      "normalized_merchant": "parkside",
+      "merchant_labels": [
+        "Park Side"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#6fde275d-91fb-4696-a07d-c9c0f09836b7"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Pepper Lunch",
+      "normalized_merchant": "pepperlunch",
+      "merchant_labels": [
+        "Pepper Lunch"
+      ],
+      "operator": "Hot Palette (Asia Pacific) Pte. Ltd.",
+      "operator_source_families": [
+        "Hot Palette (Asia Pacific) Pte. Ltd."
+      ],
+      "historical_signal_count": 2,
+      "historical_offer_count": 2,
+      "observed_direct_domains": [
+        "pepperlunch.com.sg"
+      ],
+      "observed_direct_candidate_count": 1,
+      "ownership_status": "verified",
+      "enumerability_status": "yes",
+      "historical_enumerability_status": "yes",
+      "extraction_status": "partial",
+      "adapter_status": "enabled",
+      "direct_source_id": "pepper_lunch_sg",
+      "source_family": [
+        "wordpress_promotion_directory"
+      ],
+      "publication_enabled": true,
+      "autonomous_ingestion_status": "enabled",
+      "known_blockers": [
+        "Separate outlet enumeration needed; Express format is not a full participating branch list"
+      ],
+      "evidence_refs": [
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#68e5dff33f05ba3fb2caf4489a3e924142ddd1c0dc131094800fb2209afcff14",
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#68e5dff33f05ba3fb2caf4489a3e924142ddd1c0dc131094800fb2209afcff14",
+        "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-11",
+        "docs/changes/autonomous-direct-source-ingestion/verification.md",
+        "docs/changes/direct-source-candidate-audit/verification.md (verified operator evidence, 2026-09-30)",
+        "https://www.pepperlunch.com.sg/privacy/",
+        "https://www.pepperlunch.com.sg/promo/uper-value-deal/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+        "tests/corpus/mvp-conformance-reviewed.json#03f444f8-8e6b-463a-9046-c697cefe6701"
+      ],
+      "source_observations": [
+        {
+          "candidate_url": "https://www.pepperlunch.com.sg/promo/uper-value-deal/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+          "domain": "pepperlunch.com.sg",
+          "ownership_status": "verified",
+          "enumerable": "yes",
+          "extraction": "semi_structured",
+          "family": "wordpress_promotion_directory",
+          "app_findings": null
+        }
+      ]
+    },
+    {
+      "merchant": "Petite Menu",
+      "normalized_merchant": "petitemenu",
+      "merchant_labels": [
+        "Petite Menu"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#9c8fb70b-7490-4b77-9f41-646688f4a299"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Pizza Hut",
+      "normalized_merchant": "pizzahut",
+      "merchant_labels": [
+        "Pizza Hut"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 3,
+      "historical_offer_count": 8,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#12ceb8992cb9337f5b8ac44c00051e07100bf5524974a713d34fdd52d3ffd6ca",
+        "tests/corpus/mvp-conformance-reviewed.json#160fbee3-2fea-4188-8df7-8a62570a9e0f",
+        "tests/corpus/mvp-conformance-reviewed.json#4bdd9904-029c-4b69-bff7-60934d4c67ff"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Poke Theory",
+      "normalized_merchant": "poketheory",
+      "merchant_labels": [
+        "Poke Theory"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#254d12f026a43d1897f4e6f93cd90643c045f162f44b3f78a4ed9db18e6c617e"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "POKKA",
+      "normalized_merchant": "pokka",
+      "merchant_labels": [
+        "POKKA"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#60c60e9b-32f8-49cd-9d48-1293241500ae"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Potato Corner",
+      "normalized_merchant": "potatocorner",
+      "merchant_labels": [
+        "Potato Corner"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#47120939-156b-4a72-b68d-101ecab82e72"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "POUT Rooftop Cafe",
+      "normalized_merchant": "poutrooftopcafe",
+      "merchant_labels": [
+        "POUT Rooftop Cafe"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#2e73a8de-609c-434b-bed9-f789d244c796"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Racines",
+      "normalized_merchant": "racines",
+      "merchant_labels": [
+        "Racines"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#f2400d50-2192-4578-94fb-f476a0d75419"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Rollney",
+      "normalized_merchant": "rollney",
+      "merchant_labels": [
+        "Rollney"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#a67b932e-e282-4e45-ad18-97a95680d2cc"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Saizeriya",
+      "normalized_merchant": "saizeriya",
+      "merchant_labels": [
+        "Saizeriya"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#f956fdb9-8208-42f6-a997-de8fff4dbd24"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "San Shu Gong",
+      "normalized_merchant": "sanshugong",
+      "merchant_labels": [
+        "San Shu Gong"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#0f7eff56-4a0b-470a-b39f-299748d49703"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Secret Recipe",
+      "normalized_merchant": "secretrecipe",
+      "merchant_labels": [
+        "Secret Recipe"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#449ae825-b6cc-44af-9c44-f1d9893295b8"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Seoul Garden",
+      "normalized_merchant": "seoulgarden",
+      "merchant_labels": [
+        "Seoul Garden"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#fa9b36c1-fb20-4513-aa5e-0c10a7f03e08"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Shake Shack",
+      "normalized_merchant": "shakeshack",
+      "merchant_labels": [
+        "Shake Shack"
+      ],
+      "operator": "Shake Shack Singapore Jewel Ptd Ltd",
+      "operator_source_families": [
+        "Happy Point Singapore",
+        "Shake Shack Singapore"
+      ],
+      "historical_signal_count": 2,
+      "historical_offer_count": 2,
+      "observed_direct_domains": [
+        "app.happypointcard.com.sg",
+        "shakeshack.com.sg"
+      ],
+      "observed_direct_candidate_count": 2,
+      "ownership_status": "verified",
+      "enumerability_status": "yes",
+      "historical_enumerability_status": "mixed",
+      "extraction_status": "partial",
+      "adapter_status": "enabled",
+      "direct_source_id": "shake_shack_sg",
+      "source_family": [
+        "app_deeplink_only",
+        "wordpress_dated_promotions"
+      ],
+      "publication_enabled": true,
+      "autonomous_ingestion_status": "enabled",
+      "known_blockers": [],
+      "evidence_refs": [
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#3ae71fadb4236f1db491ab41637e4debcb004bd9be0a0dc6f40080abecc6e121",
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#8cad723f00816887317bab173ce6855cd7f15c2b0a7fbb69845b9331e69ab11f",
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#3ae71fadb4236f1db491ab41637e4debcb004bd9be0a0dc6f40080abecc6e121",
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#8cad723f00816887317bab173ce6855cd7f15c2b0a7fbb69845b9331e69ab11f",
+        "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-09",
+        "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-14",
+        "docs/changes/shake-shack-autonomous-activation/verification.md",
+        "docs/changes/shake-shack-direct-source/research.md",
+        "docs/changes/shake-shack-direct-source/research.md; tests/fixtures/direct-sources/shake-shack/ownership.json (independent legal operator declaration, 2026-10-01)",
+        "https://app.happypointcard.com.sg/?utm_source=telegram&utm_medium=TS",
+        "https://www.shakeshack.com.sg/national-cheeseburger-day/?utm_source=telegram&utm_medium=TS",
+        "https://www.shakeshack.com.sg/wp-content/uploads/2024/12/SS-Data-Protection-Notice-for-Customers.pdf",
+        "tests/fixtures/direct-sources/shake-shack/complete-2026-10-01-network-enabled/capture-provenance.json"
+      ],
+      "source_observations": [
+        {
+          "candidate_url": "https://app.happypointcard.com.sg/?utm_source=telegram&utm_medium=TS",
+          "domain": "app.happypointcard.com.sg",
+          "ownership_status": "probable",
+          "enumerable": "no",
+          "extraction": "app_only",
+          "family": "app_deeplink_only",
+          "app_findings": {
+            "corresponding_web_campaign": "unknown",
+            "metadata_before_launch": "Generic Happy Points Singapore title and store links only; no sampled Summer Greek Chicken offer facts.",
+            "stable_campaign_identifier": null,
+            "public_listing_endpoint": "No campaign/listing endpoint observed on gateway or linked merchant campaign.",
+            "authentication": "Gateway public without login; in-app offer access unknown. No app login attempted.",
+            "acquisition_role": "evidence_only"
+          }
+        },
+        {
+          "candidate_url": "https://www.shakeshack.com.sg/national-cheeseburger-day/?utm_source=telegram&utm_medium=TS",
+          "domain": "shakeshack.com.sg",
+          "ownership_status": "probable",
+          "enumerable": "yes",
+          "extraction": "semi_structured",
+          "family": "wordpress_dated_promotions",
+          "app_findings": null
+        }
+      ]
+    },
+    {
+      "merchant": "Shi Li Fang",
+      "normalized_merchant": "shilifang",
+      "merchant_labels": [
+        "Shi Li Fang"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#9a24b58b-bc32-4e93-ba02-e4af7e41416b"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Shin Katsu",
+      "normalized_merchant": "shinkatsu",
+      "merchant_labels": [
+        "Shin Katsu"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#d60144e9-e98c-4e00-bb7b-33fc4c181dd8"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "SHINRAI",
+      "normalized_merchant": "shinrai",
+      "merchant_labels": [
+        "SHINRAI"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#9109c3090156de7bf9e4c037cad90eba9146ab9997597f1a0371d292c5ed7a3a"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Shiok Burger",
+      "normalized_merchant": "shiokburger",
+      "merchant_labels": [
+        "Shiok Burger"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 2,
+      "historical_offer_count": 5,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#3611d0e6-53a2-418f-abf0-7d3f18dcd5ff",
+        "tests/corpus/mvp-conformance-reviewed.json#8c345e9f-5dd9-46a1-9296-32859969da0b"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "SIDES by the Sidemen",
+      "normalized_merchant": "sidesbythesidemen",
+      "merchant_labels": [
+        "SIDES by the Sidemen"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#31c558a9-05cc-4ced-8682-133424e0a6c4"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Singapore Chinese Cultural Centre",
+      "normalized_merchant": "singaporechineseculturalcentre",
+      "merchant_labels": [
+        "Singapore Chinese Cultural Centre"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#5964ce1a-af02-47e1-9545-89fb3228341a"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Sinpopo Brand",
+      "normalized_merchant": "sinpopobrand",
+      "merchant_labels": [
+        "Sinpopo Brand"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#e40cd2a0ae3f949195bd45de2327c4861a478b619ab6f1228bc6f533c9ec2bfe"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Sip Sip",
+      "normalized_merchant": "sipsip",
+      "merchant_labels": [
+        "Sip Sip"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#2cb1abdc-10fb-49b1-a92e-a27d24f798ad"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Smooy",
+      "normalized_merchant": "smooy",
+      "merchant_labels": [
+        "Smooy"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#dbf143b6-a24a-43e9-accd-91eef36f9051"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Smöoy",
+      "normalized_merchant": "smoy",
+      "merchant_labels": [
+        "Smöoy"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#913b0d23-15bd-4fd9-acdd-ef7542926612"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Spicy Noodles SG",
+      "normalized_merchant": "spicynoodlessg",
+      "merchant_labels": [
+        "Spicy Noodles SG"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#55def2b4-76ce-435f-8f45-694b1404bee9"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Starbucks",
+      "normalized_merchant": "starbucks",
+      "merchant_labels": [
+        "Starbucks"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 3,
+      "historical_offer_count": 3,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#1c71b56962e0d2ae811b3ee993278164ee02526673af4083e70f630a1751f3f5",
+        "tests/corpus/mvp-conformance-reviewed.json#57272908-ceee-4144-9a39-53847ddd864a",
+        "tests/corpus/mvp-conformance-reviewed.json#bef67874-81c0-4842-bb54-3fec6ade7c51"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Subway",
+      "normalized_merchant": "subway",
+      "merchant_labels": [
+        "Subway"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#2b846900-bd20-4f58-8d69-754fab1d73c9"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Sukiya",
+      "normalized_merchant": "sukiya",
+      "merchant_labels": [
+        "Sukiya"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#f51fd6b9-1f04-4c1b-9cbb-4b8f8bf7788d"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Sushidan",
+      "normalized_merchant": "sushidan",
+      "merchant_labels": [
+        "Sushidan"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#a0d783fd-e0a9-42bd-b654-19e3d0e66777"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Sushi Express",
+      "normalized_merchant": "sushiexpress",
+      "merchant_labels": [
+        "Sushi Express"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 2,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#221828044db3aef3dac860a4eb5107fb6ef3c8acae40be3bf15d4f56703dc3d0",
+        "tests/corpus/mvp-conformance-reviewed.json#03a241e2-961c-4fb5-b9b1-f4526100aee4"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Sushiro",
+      "normalized_merchant": "sushiro",
+      "merchant_labels": [
+        "Sushiro"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 4,
+      "historical_offer_count": 4,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#ab23c3152aa09a6d8ad2f60fe95a955c18e0ca1700f7842de8cdcd5f606c4373",
+        "tests/corpus/mvp-conformance-reviewed.json#2c891c12-7dad-4134-8863-a582f0990c50",
+        "tests/corpus/mvp-conformance-reviewed.json#3a67ef71-dcd3-417e-9760-dda1dc41327b",
+        "tests/corpus/mvp-conformance-reviewed.json#a09a0a45-936b-4708-9e7a-257a3ec47ed0"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Takashimaya",
+      "normalized_merchant": "takashimaya",
+      "merchant_labels": [
+        "Takashimaya"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#24112d7d-c571-4e51-a676-d1a96fe8077d"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Tavola Aperta",
+      "normalized_merchant": "tavolaaperta",
+      "merchant_labels": [
+        "Tavola Aperta"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#f5c6b926-b8eb-4e5f-9bbf-059db7bb4466"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "The Coffee Bean & Tea Leaf",
+      "normalized_merchant": "thecoffeebeantealeaf",
+      "merchant_labels": [
+        "The Coffee Bean & Tea Leaf"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 3,
+      "historical_offer_count": 3,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#4c005bb0edfba511e19c02ecbfa3c117cd17f3c8afdd81a0087b67ca15969021",
+        "tests/corpus/mvp-conformance-reviewed.json#4a709fcd-7018-48d7-a2ec-1c5e4097029e",
+        "tests/corpus/mvp-conformance-reviewed.json#bf619172-5bef-47a9-a004-e97a3f8f964e"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "The Summer Açaí",
+      "normalized_merchant": "thesummeraa",
+      "merchant_labels": [
+        "The Summer Açaí"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 0,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#6c156dde23c2f3723bc50a4369f60eabfa63844b7775e2186795c41ba21a5757"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Tofu G",
+      "normalized_merchant": "tofug",
+      "merchant_labels": [
+        "Tofu G"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 2,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#e86e6a7bf94b6b787a6deecb1ca0bf9e7c3bb98b7c0fb9757fff9b01f1ffb021",
+        "tests/corpus/mvp-conformance-reviewed.json#7094556c-0caf-4b59-a9ea-a296753533dd"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Tofu G Gelato",
+      "normalized_merchant": "tofuggelato",
+      "merchant_labels": [
+        "Tofu G Gelato"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#843448b3de68694d6ce8c9827bfb829aaae606fc79c2ef02cde935c899f46005"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Viva Lavender",
+      "normalized_merchant": "vivalavender",
+      "merchant_labels": [
+        "Viva Lavender"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#ad4337d1-80aa-4e0d-8cfb-8b4844581f07"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "White Restaurant",
+      "normalized_merchant": "whiterestaurant",
+      "merchant_labels": [
+        "White Restaurant"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#430b3b51-f721-4b7c-ac73-b641773ad9eb"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Window on The Park",
+      "normalized_merchant": "windowonthepark",
+      "merchant_labels": [
+        "Window on The Park"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#bbddbf85-3514-4beb-a028-30b025e0bc6e"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Yakiniku Like",
+      "normalized_merchant": "yakinikulike",
+      "merchant_labels": [
+        "Yakiniku Like"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#ac91a621-5743-478a-aa2f-4b543a818a7d"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Yo-Chi",
+      "normalized_merchant": "yochi",
+      "merchant_labels": [
+        "Yo-Chi"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#d36cf870-7bbb-4926-8651-14f609cc0b96"
+      ],
+      "source_observations": []
+    },
+    {
+      "merchant": "Zapangi Coffee",
+      "normalized_merchant": "zapangicoffee",
+      "merchant_labels": [
+        "Zapangi Coffee"
+      ],
+      "operator": null,
+      "operator_source_families": [],
+      "historical_signal_count": 1,
+      "historical_offer_count": 1,
+      "observed_direct_domains": [],
+      "observed_direct_candidate_count": 0,
+      "ownership_status": "unknown",
+      "enumerability_status": "unknown",
+      "historical_enumerability_status": "unknown",
+      "extraction_status": "unknown",
+      "adapter_status": "none",
+      "direct_source_id": null,
+      "source_family": [],
+      "publication_enabled": false,
+      "autonomous_ingestion_status": "not_onboarded",
+      "known_blockers": [
+        "no_captured_direct_source_assessment"
+      ],
+      "evidence_refs": [
+        "tests/corpus/mvp-conformance-reviewed.json#af68f283-4d23-41da-b4b6-0947f00ad471"
+      ],
+      "source_observations": []
+    }
+  ],
+  "unresolved_records": [
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4884",
+      "offerId": "reviewed:0491417a-92d0-5c7b-a1cc-47f5cee368a1",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#bf6d75cb-d245-48ac-ba44-ffa0e55f648a"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/tastesoulsg/4475",
+      "offerId": "reviewed:0ec7ecd0-2cbe-567a-afaa-760cdf96ecf1",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#889ef94e-02cd-4aef-a1b8-eb4e03a19a50"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4917",
+      "offerId": "reviewed:116ca8f6-dba6-5fb5-af9d-4c0514db250e",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#1835c130-c30c-4810-9616-0ee6c7789b4c"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4909",
+      "offerId": "reviewed:1a51e784-f95b-5537-a866-5907bf01aa64",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#1a213c26-2180-4a5f-bd0a-736adec3f588"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4921",
+      "offerId": "reviewed:387ee731-ebab-5f5b-ac90-0e8ec1bc86a0",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#bccb64d8-d759-4969-846f-2e0f668e7cfe"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4930",
+      "offerId": "reviewed:45910e22-329a-566c-a633-f03160f660b8",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#c8c5aaa7-c35c-43dc-a031-9923490b26a0"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4884",
+      "offerId": "reviewed:513c40d7-9ca9-5ffb-a1b2-fd63ee418949",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#4c3b1815-5687-4f79-b20f-b329cf8a455c"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4880",
+      "offerId": "reviewed:5637306f-5e37-5389-aa72-cf688debaf33",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#f5e0b594-a86e-4596-994d-266c8c607448"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4917",
+      "offerId": "reviewed:6065be9d-e369-5162-abe6-58ab2c5258be",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#51043d49-55ed-4b30-98a2-61667dbdb163"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4884",
+      "offerId": "reviewed:629350a3-1a4f-5846-a59e-c1d15d5200dc",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#aa4eabc5-dbb3-4889-8aad-b75fc7d776be"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4913",
+      "offerId": "reviewed:697b1e55-4a67-5519-a7ca-c274bbce89ed",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#0d42c151-d0ee-46db-b03e-d7ad17d06e9b"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4921",
+      "offerId": "reviewed:6c9c9cda-245b-5b39-a973-b5d2602d2482",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#7d890419-665a-42f3-b6df-f96563aa6049"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4934",
+      "offerId": "reviewed:73e4b6b6-b2e0-5926-a592-c994b385e189",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#62a0c360-5c43-44f7-a753-1ec89832b761"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4909",
+      "offerId": "reviewed:75b2e30d-30ee-5045-abb2-716f1c17f8d1",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#1a213c26-2180-4a5f-bd0a-736adec3f588"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4917",
+      "offerId": "reviewed:7637745d-9879-5c17-a6e2-a1b0f7a87a9d",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#04bfd649-e132-498b-9048-f0f92df1a1c6"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4921",
+      "offerId": "reviewed:7c71d767-7624-5961-ab0c-27b32c318f93",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#4d85a739-ca4c-4df0-8d9c-8e315258016f"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4921",
+      "offerId": "reviewed:7de120dc-578c-518a-a5e9-a26341e776a0",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#9f2da621-11f9-415a-8696-059421684fdc"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4876",
+      "offerId": "reviewed:7f205b4c-889b-5d32-a9a9-52f4bfce7af4",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#1b13cdbb-6331-495f-a64d-1e0e79dbd35c"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4889",
+      "offerId": "reviewed:874236b7-bf42-58be-a593-169e3ccbc500",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#15aa1ff7-9ba5-40fd-a9b8-e73d4c44218e"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4917",
+      "offerId": "reviewed:8b88cba3-7314-54e3-a22b-313838f31e94",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#ddf96ef6-a1d5-465b-8821-42b2dbcb309e"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4903",
+      "offerId": "reviewed:8dc6284c-6b2f-5157-a4d3-2640f1544963",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#c7d07fc5-4928-4b8e-b7e4-037d7549e522"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4888",
+      "offerId": "reviewed:9c3083d2-4d87-5ce6-a4cf-b50726a6b25c",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#bc563248-5009-4b5b-b0d2-64337b0dfe17"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4917",
+      "offerId": "reviewed:9f23b919-c2f2-50ac-aeee-fc609581f246",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#c4b0f097-08dc-4475-877a-ca913340b8b0"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4917",
+      "offerId": "reviewed:9fe59a2c-e0ad-5840-a3b4-ab29b0baa489",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#8f6ca5f0-7387-4ed7-9b8b-c3cac08a89a0"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4917",
+      "offerId": "reviewed:a251e440-1d01-55ac-a7e4-e86b19ad299e",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#983ad689-f8e2-4540-8100-5e3e338fab68"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4917",
+      "offerId": "reviewed:bdc9aa4f-ed5e-5bdc-a7b1-951fbb5bd265",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#54a3d998-4bfc-4ad9-9154-9a87f3e79528"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4884",
+      "offerId": "reviewed:bdd48f65-6e46-5c6a-a4ad-20b3903d856d",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#ab3612a3-3ff3-4519-85a7-14ee737064a4"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4871",
+      "offerId": "reviewed:bf5eaca0-1b09-5cdb-a1a3-0bb5b5fc6d47",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#dfe71f2a-008c-418b-bed7-d9bc2b1ffd6c"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4917",
+      "offerId": "reviewed:c35cea11-a53d-5fce-a771-93b7f9a610a6",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#a61d2f2a-2a19-438a-842b-0fd6931b08ab"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4884",
+      "offerId": "reviewed:cc56581e-177c-543d-a10a-01116c44f74f",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#5b2eec3b-4946-4fd6-864c-5e7ce221a0d2"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4921",
+      "offerId": "reviewed:cd905a2b-cc88-5c87-a882-55b2708b523f",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#5fa9d9b5-4db5-4ea4-b577-f0a0b17d900a"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4876",
+      "offerId": "reviewed:d21c2122-fdb0-5d96-ad63-0abb282ace25",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#fb018aab-bab0-44ef-a8f5-86ace8a29e34"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4919",
+      "offerId": "reviewed:d48eceda-1ced-55b7-a057-a42dee2d0960",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#227f8cd5-eef7-4eca-8700-8845b100d844"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4921",
+      "offerId": "reviewed:d80a6e74-ca65-58af-a6dc-94a41fc5ccb6",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#afa8457c-9bd8-47e8-8e3c-c7ad5d60fa1d"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4876",
+      "offerId": "reviewed:da48cc8e-5233-528c-a763-60a5efae344e",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#fecb4be9-1b8a-4c99-a6f5-e2e4248861c1"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4876",
+      "offerId": "reviewed:ddd69ba4-447f-59e8-a7c2-80b962eef5a4",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#41fa9e62-6321-4dc4-92c2-f2524ed38d13"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4876",
+      "offerId": "reviewed:e0a18fca-b2f2-58fe-a41a-702d1b9e4f06",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#1e2b0f89-7693-43fe-a7c7-1650d8dc99d5"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4878",
+      "offerId": "reviewed:f763a80f-f5ff-5880-ad88-695ca5c44cad",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#136a73e2-445d-41c9-8f88-d6f05569d2aa"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4884",
+      "offerId": "reviewed:fbb7927c-367d-5fc8-aa72-7e8d929a50d4",
+      "offer": true,
+      "evidenceRef": "tests/corpus/mvp-conformance-reviewed.json#7ba2ae2b-847a-4ad5-af38-4a502bcdab09"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/tastesoulsg/4489",
+      "offerId": "signal:08fccdf2a832d1eb57d592cc8d1b7e2c44c5d98e813c3d6f4ea7e3a48ea0b147",
+      "offer": false,
+      "evidenceRef": ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#08fccdf2a832d1eb57d592cc8d1b7e2c44c5d98e813c3d6f4ea7e3a48ea0b147"
+    },
+    {
+      "merchant": "BBRC Cafe Set Meal (https",
+      "sourceUrl": "https://t.me/sgfooddeals/4940",
+      "offerId": "signal:22d330504665493a941f07e00ea3646d7954414cd56b30ddbe1552435acc4953",
+      "offer": true,
+      "evidenceRef": ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#22d330504665493a941f07e00ea3646d7954414cd56b30ddbe1552435acc4953"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4953",
+      "offerId": "signal:274976a1345abb6f7f690a04fde88c0aeec826f8dfe862a766f04822c59d3905",
+      "offer": true,
+      "evidenceRef": ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#274976a1345abb6f7f690a04fde88c0aeec826f8dfe862a766f04822c59d3905"
+    },
+    {
+      "merchant": "Dine out with Grab SALEbration",
+      "sourceUrl": "https://t.me/tastesoulsg/4491",
+      "offerId": "signal:2862c7acabab605a2fad875c1a3286272a8d3861ca9c6e602373560adc8dec47",
+      "offer": true,
+      "evidenceRef": ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#2862c7acabab605a2fad875c1a3286272a8d3861ca9c6e602373560adc8dec47"
+    },
+    {
+      "merchant": "Jollibee Shiok Savers Sets (https",
+      "sourceUrl": "https://t.me/sgfooddeals/4940",
+      "offerId": "signal:293766e81f551b78d311eb34bd9676a0a890b7492f2e1de00d66266f2ee020d3",
+      "offer": true,
+      "evidenceRef": ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#293766e81f551b78d311eb34bd9676a0a890b7492f2e1de00d66266f2ee020d3"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4941",
+      "offerId": "signal:314c3ce7275374eb3fe6c49a00b06bbd01fee32773e4f3d3cc89649c1d2de35d",
+      "offer": true,
+      "evidenceRef": ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#314c3ce7275374eb3fe6c49a00b06bbd01fee32773e4f3d3cc89649c1d2de35d"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4956",
+      "offerId": "signal:5423e94bf822765ebd5acdd10a1bad17969d217404e656753abff9e8ac9f6078",
+      "offer": true,
+      "evidenceRef": ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#5423e94bf822765ebd5acdd10a1bad17969d217404e656753abff9e8ac9f6078"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4945",
+      "offerId": "signal:5663a4665f0de120d30beedb43eec7bf26f3019aac838f65c3584fe7b4f227ff",
+      "offer": false,
+      "evidenceRef": ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#5663a4665f0de120d30beedb43eec7bf26f3019aac838f65c3584fe7b4f227ff"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/tastesoulsg/4505",
+      "offerId": "signal:61c0307e9353bbef7835ed4f93ea0f48c5a3b79869409a4922cd3c594cb7368d",
+      "offer": false,
+      "evidenceRef": ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#61c0307e9353bbef7835ed4f93ea0f48c5a3b79869409a4922cd3c594cb7368d"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/tastesoulsg/4493",
+      "offerId": "signal:708b6683ae75b61d18cf42c4500636a2bdab77a6bebc21ff8314d4ecd79b7317",
+      "offer": false,
+      "evidenceRef": ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#708b6683ae75b61d18cf42c4500636a2bdab77a6bebc21ff8314d4ecd79b7317"
+    },
+    {
+      "merchant": "Basil King (Lucky Plaza) (https",
+      "sourceUrl": "https://t.me/sgfooddeals/4951",
+      "offerId": "signal:74529a170de797a0cd162b838f540776d851ea2307b4d0e3f095475d1ae17a8b",
+      "offer": false,
+      "evidenceRef": ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#74529a170de797a0cd162b838f540776d851ea2307b4d0e3f095475d1ae17a8b"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/tastesoulsg/4517",
+      "offerId": "signal:75fb35677aa211ab8857ec8917e3cc0ec6bbbfdd2452c8fba9324b4ec6f7fd9d",
+      "offer": false,
+      "evidenceRef": ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#75fb35677aa211ab8857ec8917e3cc0ec6bbbfdd2452c8fba9324b4ec6f7fd9d"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/tastesoulsg/4502",
+      "offerId": "signal:8305be3af1260b37869e167cb2e27b4b68f92ad9af5c687a3555c4e4f5f433f0",
+      "offer": false,
+      "evidenceRef": ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#8305be3af1260b37869e167cb2e27b4b68f92ad9af5c687a3555c4e4f5f433f0"
+    },
+    {
+      "merchant": "Kimpson's Table Korean Noodles (https",
+      "sourceUrl": "https://t.me/sgfooddeals/4940",
+      "offerId": "signal:857085fe541899b1ace9d6d2ed7973673b473d01d9dceeed4fb6129f3fd8ca02",
+      "offer": true,
+      "evidenceRef": ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#857085fe541899b1ace9d6d2ed7973673b473d01d9dceeed4fb6129f3fd8ca02"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/tastesoulsg/4508",
+      "offerId": "signal:8769c52dc31427082530f1ddf3783ff8cd6a3a1054ed295854a37717ad52dc49",
+      "offer": false,
+      "evidenceRef": ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#8769c52dc31427082530f1ddf3783ff8cd6a3a1054ed295854a37717ad52dc49"
+    },
+    {
+      "merchant": "luckin coffee (https",
+      "sourceUrl": "https://t.me/sgfooddeals/4957",
+      "offerId": "signal:899707055b1bd4c0becd5d1100970b92baa4e097f59daf9aba9cce9d52f6de00",
+      "offer": true,
+      "evidenceRef": ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#899707055b1bd4c0becd5d1100970b92baa4e097f59daf9aba9cce9d52f6de00"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/tastesoulsg/4504",
+      "offerId": "signal:9235104196e6a7e75d3263c971469e27344f4059c1467be360541a1d7ebde98b",
+      "offer": true,
+      "evidenceRef": ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#9235104196e6a7e75d3263c971469e27344f4059c1467be360541a1d7ebde98b"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4942",
+      "offerId": "signal:9a586eb52d7c136d446b498f8e6c41ea4a5dc83e87c0f3c2030b88b80d1e6ba5",
+      "offer": false,
+      "evidenceRef": ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#9a586eb52d7c136d446b498f8e6c41ea4a5dc83e87c0f3c2030b88b80d1e6ba5"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/tastesoulsg/4496",
+      "offerId": "signal:9dc7e2340b8fcae6577305fc41231113c0c07961831cefc9798f4a129c1d77af",
+      "offer": false,
+      "evidenceRef": ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#9dc7e2340b8fcae6577305fc41231113c0c07961831cefc9798f4a129c1d77af"
+    },
+    {
+      "merchant": "Cedele (https",
+      "sourceUrl": "https://t.me/sgfooddeals/4957",
+      "offerId": "signal:a88b70a217b1d9031629e6691210653089748a924d5aaeae59dc91e0683650ec",
+      "offer": true,
+      "evidenceRef": ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#a88b70a217b1d9031629e6691210653089748a924d5aaeae59dc91e0683650ec"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/tastesoulsg/4520",
+      "offerId": "signal:a9f3594bfaa4370a046f5b14d13087981a4fcf6166a1a34fbaf1e173e17344b3",
+      "offer": false,
+      "evidenceRef": ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#a9f3594bfaa4370a046f5b14d13087981a4fcf6166a1a34fbaf1e173e17344b3"
+    },
+    {
+      "merchant": "Borderless Coffee (https",
+      "sourceUrl": "https://t.me/sgfooddeals/4957",
+      "offerId": "signal:b58a5aa36888356a6034ca2f93cda1336fdf876f75f526b235c90cc6d2aa64c1",
+      "offer": true,
+      "evidenceRef": ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#b58a5aa36888356a6034ca2f93cda1336fdf876f75f526b235c90cc6d2aa64c1"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/tastesoulsg/4499",
+      "offerId": "signal:b7fdd71eb74c1260a944b4af9040c28d7f5356b8fea89fcb49720b8e049921c0",
+      "offer": false,
+      "evidenceRef": ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#b7fdd71eb74c1260a944b4af9040c28d7f5356b8fea89fcb49720b8e049921c0"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/tastesoulsg/4514",
+      "offerId": "signal:bc28e4c290be1499ddf932b6de69922a76b492e56923b916a1d63c876d5ecd5c",
+      "offer": false,
+      "evidenceRef": ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#bc28e4c290be1499ddf932b6de69922a76b492e56923b916a1d63c876d5ecd5c"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/tastesoulsg/4511",
+      "offerId": "signal:d47d0288dfc62add14d7b703b5267745ce62692a822510653a27496dd4fa644f",
+      "offer": false,
+      "evidenceRef": ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#d47d0288dfc62add14d7b703b5267745ce62692a822510653a27496dd4fa644f"
+    },
+    {
+      "merchant": "Ajumma Off-Peak Deals (http",
+      "sourceUrl": "https://t.me/sgfooddeals/4940",
+      "offerId": "signal:dbc1f962254eb4f16b44dc193a2994f8ebe10b9ea8797d81082101a4eb6ab024",
+      "offer": true,
+      "evidenceRef": ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#dbc1f962254eb4f16b44dc193a2994f8ebe10b9ea8797d81082101a4eb6ab024"
+    },
+    {
+      "merchant": "",
+      "sourceUrl": "https://t.me/sgfooddeals/4937",
+      "offerId": "signal:e5e4914f063c0dae79e55fa9903dc10862e46cfa46b0425c8bd8ac486482f5a5",
+      "offer": false,
+      "evidenceRef": ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#e5e4914f063c0dae79e55fa9903dc10862e46cfa46b0425c8bd8ac486482f5a5"
+    },
+    {
+      "merchant": "Morganfield’s Lunch Deal (https",
+      "sourceUrl": "https://t.me/sgfooddeals/4940",
+      "offerId": "signal:f9c1b5ae655ad2f933638dfa9ef01fad5dd93baaf91155221bc5e9f973986a6d",
+      "offer": true,
+      "evidenceRef": ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#f9c1b5ae655ad2f933638dfa9ef01fad5dd93baaf91155221bc5e9f973986a6d"
+    }
+  ]
+}

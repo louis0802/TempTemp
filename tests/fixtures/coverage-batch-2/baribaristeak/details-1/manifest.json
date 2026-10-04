@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T04:09:23.547Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://baribaristeak.com.sg/2026/02/10/1-for-1-highball-beers-sake-cocktails-and-house-pours/",
+      "url": "https://baribaristeak.com.sg/2026/02/10/1-for-1-highball-beers-sake-cocktails-and-house-pours/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "d314f832ff5d18d0a055b8e817003024d4159b8c43bba1b463b2a6e040ea384d.html",
+      "sha256": "d314f832ff5d18d0a055b8e817003024d4159b8c43bba1b463b2a6e040ea384d",
+      "bytes": 254624,
+      "error": null
+    },
+    {
+      "requested_url": "https://baribaristeak.com.sg/2026/06/24/beat-the-crowd-save-15/",
+      "url": "https://baribaristeak.com.sg/2026/06/24/beat-the-crowd-save-15/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "097778673c44362321b42227eba1d9c53dfaad79e0f834b2517567d08a655249.html",
+      "sha256": "097778673c44362321b42227eba1d9c53dfaad79e0f834b2517567d08a655249",
+      "bytes": 257021,
+      "error": null
+    },
+    {
+      "requested_url": "https://baribaristeak.com.sg/2026/06/25/senior-special-enjoy-20-off-your-total-bill/",
+      "url": "https://baribaristeak.com.sg/2026/06/25/senior-special-enjoy-20-off-your-total-bill/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "f3ff5737e3b253f7d47bb2b9ce96b514a6f56d9093f9e0278fa855118d560480.html",
+      "sha256": "f3ff5737e3b253f7d47bb2b9ce96b514a6f56d9093f9e0278fa855118d560480",
+      "bytes": 257133,
+      "error": null
+    },
+    {
+      "requested_url": "https://baribaristeak.com.sg/2026/08/27/enjoy-23-off-free-flow-salad-bar-at-bari-bari-steak/",
+      "url": "https://baribaristeak.com.sg/2026/08/27/enjoy-23-off-free-flow-salad-bar-at-bari-bari-steak/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "cfbc6a505bc1159aa6731660ac52e83e9f898d65919ce05aa5a76eec0a5d1d8d.html",
+      "sha256": "cfbc6a505bc1159aa6731660ac52e83e9f898d65919ce05aa5a76eec0a5d1d8d",
+      "bytes": 255752,
+      "error": null
+    },
+    {
+      "requested_url": "https://baribaristeak.com.sg/2026/09/23/weekday-lunch-specials-tampines-1-exclusive/",
+      "url": "https://baribaristeak.com.sg/2026/09/23/weekday-lunch-specials-tampines-1-exclusive/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "4bcb6a6499426f9d69dca10894daf41ea29a43c0e645714115d1c6596156f54d.html",
+      "sha256": "4bcb6a6499426f9d69dca10894daf41ea29a43c0e645714115d1c6596156f54d",
+      "bytes": 257697,
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# Narrow identity review
+
+Reviewed before merchant-source acquisition. Ajumma’s and Ajumma's Korean Restaurant identify the same merchant: the independently captured merchant-controlled https://www.ajummassg.com/ page has title `Ajummasg | Ajumma's Korean Restaurant | Singapore` and description beginning `Ajumma’s is a young fast-casual Korean restaurant established in Singapore, 2014`. Its visible main heading uses the long name and about paragraph uses the short name for the same business, alongside the same six outlets and exact @ajummasg link. Evidence: tests/fixtures/social-sources/official-2026-10-02-network/f7b3a69eed9d6b08ab0d8238a2c3041b8ddfd3bcf7094222b98475cf8d08c9d6.html; SHA-256 equals basename.
+
+Decision: explicitly merge alias Ajumma’s into canonical Ajumma's Korean Restaurant. Preserve two distinct TG signal URLs, two offer IDs, both labels and every evidence reference. The pre-task short row was not_assessed, long row blocked; combined row remains blocked. Historical denominator 138 → 137; this identity correction separately reduces not_assessed by one. No acquisition conclusion changes and no old Instagram request is repeated.
+
+Marché / Marche, Smooy / Smöoy and Tofu G / Tofu G Gelato remain separate: no independent same-merchant evidence reviewed in this narrow batch. Bari Bari Grand remains separate from Bari Bari Steak: shared operator alone does not prove identical merchant identity. No fuzzy normalization change.

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T03:59:38.592Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://www.4fingers.com.sg/",
+      "url": "https://www.4fingers.com.sg/",
+      "status": 200,
+      "content_type": "text/html",
+      "redirect_to": null,
+      "file": "e5ad4aafed92193d51d8cd04daa8a7c0e1e68b24950d70341f15f207c397c9f3.html",
+      "sha256": "e5ad4aafed92193d51d8cd04daa8a7c0e1e68b24950d70341f15f207c397c9f3",
+      "bytes": 9019,
+      "error": null
+    },
+    {
+      "requested_url": "https://www.4fingers.com.sg/promotions",
+      "url": "https://www.4fingers.com.sg/promotions",
+      "status": 200,
+      "content_type": "text/html",
+      "redirect_to": null,
+      "file": "e5ad4aafed92193d51d8cd04daa8a7c0e1e68b24950d70341f15f207c397c9f3.html",
+      "sha256": "e5ad4aafed92193d51d8cd04daa8a7c0e1e68b24950d70341f15f207c397c9f3",
+      "bytes": 9019,
+      "error": null
+    }
+  ]
+}

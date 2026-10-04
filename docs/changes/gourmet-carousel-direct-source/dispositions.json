@@ -1,0 +1,171 @@
+{
+  "asOf": "2026-10-01",
+  "policy": {
+    "enabled": false,
+    "merchant": "Gourmet Carousel",
+    "category": "Cafés",
+    "outletStrategy": "official_directory",
+    "autoPublish": false
+  },
+  "enumerationComplete": false,
+  "classification": {
+    "discovered_articles": 9,
+    "classified_articles": 9,
+    "promotion_articles": 2,
+    "non_promotion_articles": 7,
+    "unresolved_articles": 0,
+    "articles": [
+      {
+        "url": "https://www.royalplaza.com.sg/dine/barista",
+        "evidenceId": "b19923edc109ba4a171c13b497397601db0eae6804afec503b9584fc2670cdc3",
+        "result": "promotion",
+        "reason": "isolated_gourmet_service_campaign"
+      },
+      {
+        "url": "https://www.royalplaza.com.sg/dine/offers/beyond-the-buffet",
+        "evidenceId": "86bd72eae7e709964847e02944f671022078387b90f89ff6afc833e7cb471833",
+        "result": "non_promotion",
+        "reason": "menu_pricing_or_service_without_gourmet_campaign_proposition"
+      },
+      {
+        "url": "https://www.royalplaza.com.sg/dine/offers/breakfast-buffet",
+        "evidenceId": "a2a441854f5af7912b79a5c85af55403320cd5eac17fe7481a488fb53a4c00ab",
+        "result": "non_promotion",
+        "reason": "menu_pricing_or_service_without_gourmet_campaign_proposition"
+      },
+      {
+        "url": "https://www.royalplaza.com.sg/dine/offers/carousel-pastries",
+        "evidenceId": "d38847ad31b3c9b4ea6834271526f40785d266fcbac5a2d644f502bcb9a522b2",
+        "result": "promotion",
+        "reason": "gourmet_seasonal_collection_with_explicit_delivery_benefit"
+      },
+      {
+        "url": "https://www.royalplaza.com.sg/dine/offers/carousel-vouchers",
+        "evidenceId": "1cc318111d631f6e79464452a9f8f25b7957e0561d51277f87378f65a4cb23ec",
+        "result": "non_promotion",
+        "reason": "menu_pricing_or_service_without_gourmet_campaign_proposition"
+      },
+      {
+        "url": "https://www.royalplaza.com.sg/dine/offers/dinner-buffet",
+        "evidenceId": "852e072de0de81cf46f33ebceb1f3bccd382683675bf2967791594aad0022476",
+        "result": "non_promotion",
+        "reason": "menu_pricing_or_service_without_gourmet_campaign_proposition"
+      },
+      {
+        "url": "https://www.royalplaza.com.sg/dine/offers/high-tea-buffet",
+        "evidenceId": "1797782074bbd1f8641ceb2c680d9788c887546fef29e74193a9241ee1e68e51",
+        "result": "non_promotion",
+        "reason": "menu_pricing_or_service_without_gourmet_campaign_proposition"
+      },
+      {
+        "url": "https://www.royalplaza.com.sg/dine/offers/lunch-buffet",
+        "evidenceId": "a55333164452f1372ee89a470fd39f7e910b7e0c8a0a05d6b77b17318ec3638b",
+        "result": "non_promotion",
+        "reason": "other_venue_carousel_campaign_not_gourmet"
+      },
+      {
+        "url": "https://www.royalplaza.com.sg/dine/offers/thai-2026",
+        "evidenceId": "a5bbb78e1cfe772eb0cdc7f0d40bd2fd7cdad3eb4a383529bce00f724f34e15b",
+        "result": "non_promotion",
+        "reason": "other_venue_carousel_campaign_not_gourmet"
+      }
+    ]
+  },
+  "counts": {
+    "expired": 0,
+    "review": 2,
+    "ready": 0
+  },
+  "dispositions": [
+    {
+      "candidateId": "direct_e3c83226ffc288a791b7dc01a5f52897436366882bce2b727165f01d57c628eb",
+      "title": "HAPPY INTERNATIONAL COFFEE DAY 2026",
+      "canonicalUrl": "https://www.royalplaza.com.sg/dine/barista",
+      "revisionHash": "fc0fa5bde0354cd805a6f571f556582385600e2ba6eeab063dbbb3926c12a75f",
+      "result": "needs_review",
+      "reasons": [
+        "source_not_authoritative",
+        "automatic_publication_disabled",
+        "source_acquisition_blocked"
+      ],
+      "issues": [
+        {
+          "code": "weekdays_unknown",
+          "severity": "informational"
+        }
+      ],
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-01",
+      "hours": "07:30–18:00",
+      "locationScope": "named_outlets",
+      "locationNames": [
+        "Gourmet Carousel - Barista Experience"
+      ],
+      "outletsVerified": true,
+      "outletCount": 1,
+      "coordinateEvidence": "Mock only; official venue proof independent of coordinates"
+    },
+    {
+      "candidateId": "direct_fdf4e66bd099d89faaadfe14bc4d1f3dc71fce6fed3dc1c3e033e101520394d7",
+      "title": "Carousel Moon Pastries",
+      "canonicalUrl": "https://www.royalplaza.com.sg/dine/offers/carousel-pastries",
+      "revisionHash": "04111e43e606441cf3fad0279a1fd425dbd45993aef4df49d4cc037946cc35d8",
+      "result": "needs_review",
+      "reasons": [
+        "source_not_authoritative",
+        "automatic_publication_disabled",
+        "source_acquisition_blocked",
+        "missing_start_date",
+        "missing_end_date",
+        "source_unspecified_locations",
+        "physical_outlets_unresolved",
+        "outlet_scope_unresolved",
+        "campaign_validity_unspecified",
+        "end_date_unknown",
+        "gourmet_pastry_participation_unresolved",
+        "locations_unknown",
+        "start_date_unknown",
+        "invalid_promotion:outlets"
+      ],
+      "issues": [
+        {
+          "code": "campaign_validity_unspecified",
+          "severity": "publication_blocking"
+        },
+        {
+          "code": "end_date_unknown",
+          "severity": "publication_blocking"
+        },
+        {
+          "code": "gourmet_pastry_participation_unresolved",
+          "severity": "publication_blocking"
+        },
+        {
+          "code": "hours_unknown",
+          "severity": "informational"
+        },
+        {
+          "code": "locations_unknown",
+          "severity": "publication_blocking"
+        },
+        {
+          "code": "start_date_unknown",
+          "severity": "publication_blocking"
+        },
+        {
+          "code": "weekdays_unknown",
+          "severity": "informational"
+        }
+      ],
+      "startDate": null,
+      "endDate": null,
+      "hours": null,
+      "locationScope": "source_unspecified",
+      "locationNames": [],
+      "outletsVerified": false,
+      "outletCount": 0,
+      "coordinateEvidence": "Mock only; official venue proof independent of coordinates"
+    }
+  ],
+  "dbOperation": "none; disabled registry rejects persistence"
+}

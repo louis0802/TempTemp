@@ -4,7 +4,11 @@ import { requireAdmin } from "@/server/auth/admin";
 import { transaction } from "@/server/db";
 import { savePromotion } from "@/server/db/publication";
 import { promotionSchema, publicationIssues } from "@/domain/promotion";
+import { trustedDirectSource } from "@/ingestion/direct-sources/publication";
+import { sourceDefinition } from "@/ingestion/direct-sources/registry";
+import type { SourceId } from "@/ingestion/direct-sources/types";
 import { json, failure, HttpError, readJson } from "@/server/http";
+type PromotionSource = { kind?: string; label: string; url: string };
 const schema = z.object({
   action: z.enum(["approve", "correct", "withdraw"]),
   expectedRevision: z.number().int().positive(),
@@ -35,9 +39,26 @@ export async function POST(
         if (!row) throw new HttpError(404, "Offer not found.");
         if (row.revision !== body.expectedRevision)
           throw new HttpError(409, "This offer changed. Reload before saving.");
+        const provenance = (
+          await c.query(
+            "SELECT s.source_id,i.canonical_url FROM app.promotion_direct_sources s JOIN app.direct_source_items i ON i.id=s.source_item_id WHERE s.promotion_id=$1",
+            [id],
+          )
+        ).rows;
         const p = promotionSchema.parse({
           ...(body.promotion || row.data),
           id,
+          sources: [
+            ...row.data.sources.filter(
+              (s: PromotionSource) => !("kind" in s && s.kind === "direct"),
+            ),
+            ...provenance.map((s) =>
+              trustedDirectSource(
+                sourceDefinition(s.source_id as SourceId),
+                s.canonical_url,
+              ),
+            ),
+          ],
           revision: row.revision + 1,
           status: body.action === "withdraw" ? "withdrawn" : "published",
           verifiedAt: DateTime.utc().toISO(),

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T03:59:39.046Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://www.coffeebean.com.sg/",
+      "url": "https://www.coffeebean.com.sg/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "bd9425f9c29eeb5a55e744d7a630ff199259b301ef99dfe05aff22a87ba87a19.html",
+      "sha256": "bd9425f9c29eeb5a55e744d7a630ff199259b301ef99dfe05aff22a87ba87a19",
+      "bytes": 140129,
+      "error": null
+    }
+  ]
+}

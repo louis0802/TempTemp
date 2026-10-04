@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "scope": "Only this slice; pre-existing unrelated working-tree edits excluded. No commit/push.",
+  "files": [
+    "docs/changes/merchant-progress-social-sources/design.md",
+    "docs/changes/merchant-progress-social-sources/frozen-inputs.json",
+    "docs/changes/merchant-progress-social-sources/intent.md",
+    "docs/changes/merchant-progress-social-sources/plan.md",
+    "docs/changes/merchant-progress-social-sources/research.md",
+    "docs/changes/merchant-progress-social-sources/spec.md",
+    "docs/changes/merchant-progress-social-sources/verification.md",
+    "docs/research/merchant-automation-progress.md",
+    "docs/research/social-source-acquisition-review.json",
+    "docs/research/social-source-authority-review.json",
+    "docs/research/social-source-inventory.json",
+    "package.json",
+    "scripts/research/build-merchant-source-map.ts",
+    "scripts/research/merchant-automation-progress.ts",
+    "scripts/research/merchant-source-map/build.ts",
+    "scripts/research/merchant-source-map/progress.ts",
+    "scripts/research/social-sources/assessment.ts",
+    "scripts/research/social-sources/capture.ts",
+    "scripts/research/social-sources/inventory.ts",
+    "scripts/research/social-sources/read.ts",
+    "src/domain/promotion.ts",
+    "src/ingestion/direct-sources/fetch.ts",
+    "src/ingestion/direct-sources/publication.ts",
+    "src/ingestion/direct-sources/registry.ts",
+    "src/ingestion/direct-sources/source-scope.ts",
+    "src/ingestion/direct-sources/types.ts",
+    "tests/direct-source-batch-1.test.ts",
+    "tests/fixtures/social-sources/instagram-2026-10-02/0c33cbeaee16d0b976cad3c4c955c6c1e64c3310a467378aa228e4235189cbbd.html",
+    "tests/fixtures/social-sources/instagram-2026-10-02/38cad557cb4de87b6ab263f12da3a3bd18c1a242d8e550b8820035cc2c878322.html",
+    "tests/fixtures/social-sources/instagram-2026-10-02/90d7caba73192f6110a81440b4f85c409071a0087fa7eb5ef01d7a7002519855.html",
+    "tests/fixtures/social-sources/instagram-2026-10-02/9b7ee95414c063b60f90a74e69d1a51d62010e45a4899a11bfa1ae1a507f593e.html",
+    "tests/fixtures/social-sources/instagram-2026-10-02/b8a9c64ae12fb643690c7ecacd692261fd58db662185d4824c3cbce299e76b52.html",
+    "tests/fixtures/social-sources/instagram-2026-10-02/c59c9667ca91bf1278e488919ee635d60260d8734ced9b9bf24fa6027273d467.html",
+    "tests/fixtures/social-sources/instagram-2026-10-02/d4e6906d14df0c893690ee09be1ee02cf95b4ee3d8e23c04754e8f6c945d824d.html",
+    "tests/fixtures/social-sources/instagram-2026-10-02/e7ba16a236a178f3edc66abf2252ddea31c780a702915e01604662da358bb1c8.html",
+    "tests/fixtures/social-sources/instagram-2026-10-02/manifest.json",
+    "tests/fixtures/social-sources/official-2026-10-02-network/4a02095bf25eb7129b633d6ba3c7265999986ada608ff4d921474bed8e36f4af.html",
+    "tests/fixtures/social-sources/official-2026-10-02-network/651bb741bd34e9d92d0d1b4dbd023ad02ea0ed9878cd94d3bb597a9c284e706a.html",
+    "tests/fixtures/social-sources/official-2026-10-02-network/8701ff1cbeb838c5bf5c5c3977e4b2fab350e1d1afb8a4399e5779b20789f9cf.html",
+    "tests/fixtures/social-sources/official-2026-10-02-network/ed7b56e1c676f657d48379fb43cdc259fe2fec94a6a50facfdd3e58ea1f4aac3.html",
+    "tests/fixtures/social-sources/official-2026-10-02-network/f7b3a69eed9d6b08ab0d8238a2c3041b8ddfd3bcf7094222b98475cf8d08c9d6.html",
+    "tests/fixtures/social-sources/official-2026-10-02-network/manifest.json",
+    "tests/fixtures/social-sources/official-2026-10-02/manifest.json",
+    "tests/integration/direct-ingestion.test.ts",
+    "tests/merchant-automation-progress.test.ts",
+    "tests/social-source-publication-compatibility.test.ts",
+    "tests/social-source-research.test.ts"
+  ],
+  "generated_local_reports": [
+    {
+      "path": ".local/merchant-source-map/merchant-progress-social-2026-10-02-verified/merchants.json",
+      "sha256": "ecde81f05bf8760c57c9e5e0fc89160cf1587c37f2636a5969affa697ed33754"
+    },
+    {
+      "path": ".local/merchant-source-map/merchant-progress-social-2026-10-02-verified/report.csv",
+      "sha256": "ff02d96673fe8803ee40d84a8f154080a17f4384e1a2f65edf76510a50ad6b11"
+    },
+    {
+      "path": ".local/merchant-source-map/merchant-progress-social-2026-10-02-verified/report.md",
+      "sha256": "ef157b491dd2a705e1ea38ec9a95e3262af51328b56b9f885acb2997d8c60799"
+    }
+  ],
+  "unchanged_boundaries": [
+    "direct-source-v2",
+    "direct persistence/publication store/fingerprint",
+    "supabase/migrations",
+    "legacy Telegram runtime",
+    "frozen corrected origin/direct audits/corpus",
+    "scheduler/worker",
+    "next-env.d.ts (restored exact baseline bytes)"
+  ]
+}

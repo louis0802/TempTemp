@@ -1,0 +1,13 @@
+# Specification
+
+- A1: Only explicitly enabled, ownership-verified registry sources with complete enumeration, successful listing/details and deterministic extraction may persist. Pepper enabled; Paradise rejected.
+- A2: Separate items, immutable timestamp-independent revisions, bounded hash-verified deduplicated artifacts and versioned candidates. Exact replay changes only observation/health timestamps. Changed bytes create revisions; processor changes do not. No missing-item lifecycle.
+- A3: Direct structured facts plus declared merchant/category map deterministically. Never manufacture campaign dates, participation or terms. Exact eligibility/redemption lines may join source terms, deduplicated verbatim. Unknown optional fields are informational; unknown issue codes block.
+- A4: Auto publication requires complete Promotion requirements, valid campaign dates, trusted category and verified physical participating outlets. All-outlet claims require a complete authoritative directory; named claims require exact named participants. Unspecified/unnamed selected scope or unresolved outlets enter review. Acquisition readiness alone cannot publish.
+- A5: Stable source/candidate identity, initial revision 1; complete changes update same ID and increment revision. Incomplete changes preserve facts and mark needs_review. Administrator corrections block automatic overwrite and queue authoritative_source_changed_after_admin_correction.
+- A6: Generic exact published fingerprint attaches provenance without duplicate. Exact merchant/title with different fingerprint queues existing_offer_terms_conflict; no fuzzy merge or second visible offer. Provenance does not alter fingerprint. No legacy provenance queries.
+- A7: Inbox returns a normalized union of separate legacy and direct candidate tables. Direct rows show Direct source and Open official source; legacy rows remain compatible. Separate authenticated direct approve/exclude endpoint rejects stale/current-revision mismatches, validates administrator-completed data and replaces client provenance using trusted registry/DB linkage. Exclusion retains evidence.
+- A8: Explicit single-source ingest command; no --all. Preview remains DB-free. Health last_success advances only after successful persistence; no legacy checkpoint. No public direct health exposure.
+- A9: Captured fixtures, real disposable local PostgreSQL/PostGIS, existing legacy tests, typecheck, scoped lint/format and diff check establish evidence. Research and next-env preservation verified by hashes.
+
+Assumption: optional unknown hours/weekdays/eligibility/redemption are display uncertainty, not authority to infer facts. Unsupported schedule restrictions still block. No new product decisions remain unresolved.

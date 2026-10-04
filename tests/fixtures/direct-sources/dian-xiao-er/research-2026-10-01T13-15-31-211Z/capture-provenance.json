@@ -1,0 +1,53 @@
+{
+  "merchant": "dian-xiao-er",
+  "limits": {
+    "maxRequests": 40,
+    "maxListingPages": 5,
+    "maxDetailPages": 20,
+    "maxEvidencePages": 8,
+    "maxBytes": 3000000,
+    "timeoutMs": 12000,
+    "maxRedirects": 3
+  },
+  "jobs": [
+    {
+      "url": "https://www.dianxiaoer.com.sg/promo?lightbox=dataItem-msxym06a",
+      "purpose": "compare historical lightbox query with server-rendered card identities; no neighboring facts",
+      "kind": "detail"
+    }
+  ],
+  "attempts": [
+    {
+      "url": "https://www.dianxiaoer.com.sg/promo?lightbox=dataItem-msxym06a",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    }
+  ],
+  "captures": [
+    {
+      "requestedUrl": "https://www.dianxiaoer.com.sg/promo?lightbox=dataItem-msxym06a",
+      "finalUrl": "https://www.dianxiaoer.com.sg/promo?lightbox=dataItem-msxym06a",
+      "capturedAt": "2026-10-01T13:15:31.214Z",
+      "observedAt": "2026-10-01T13:15:31.214Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 464688,
+      "sha256": "8d91a5f6da8dfa62e8d1092944f04a14262a48e66bc6e2b74fcef653445246cc",
+      "path": "8d91a5f6da8dfa62e8d1092944f04a14262a48e66bc6e2b74fcef653445246cc.html",
+      "purpose": "compare historical lightbox query with server-rendered card identities; no neighboring facts",
+      "kind": "detail",
+      "accessBlocked": false
+    }
+  ],
+  "failures": [],
+  "cumulativeCounts": {
+    "listing": 1,
+    "detail": 1,
+    "evidence": 3
+  },
+  "cumulativeAttempts": 5,
+  "note": "Explicit public research roots, ordinary bounded direct transport; no cookies/auth/private APIs/OCR or browser. Research evidence is not production registration."
+}

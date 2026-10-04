@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T04:09:15.905Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://www.instagram.com/captainkimsg/",
+      "url": "https://www.instagram.com/captainkimsg/",
+      "status": 200,
+      "content_type": "text/html; charset=\"utf-8\"",
+      "redirect_to": null,
+      "file": "78b3eb3f344239173d26bc6df0730d64b2716d055b7bf14bb7cdc6aba50b42e5.html",
+      "sha256": "78b3eb3f344239173d26bc6df0730d64b2716d055b7bf14bb7cdc6aba50b42e5",
+      "bytes": 856054,
+      "error": null
+    }
+  ]
+}

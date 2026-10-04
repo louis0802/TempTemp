@@ -1,0 +1,30 @@
+{
+  "observedAt": "2026-10-01T11:39:52.912Z",
+  "pages": {
+    "https://www.royalplaza.com.sg/dine": {
+      "path": "dining.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.royalplaza.com.sg/dine/offers": {
+      "path": "offers.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.royalplaza.com.sg/dine/barista": {
+      "path": "barista.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.royalplaza.com.sg/policies/privacy-policy": {
+      "path": "privacy.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.royalplaza.com.sg/dine/carousel": {
+      "path": "carousel-alias.html",
+      "status": 200,
+      "contentType": "text/html"
+    }
+  }
+}

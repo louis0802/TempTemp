@@ -1,0 +1,770 @@
+[
+  {
+    "merchant": "Kimpson's Table",
+    "normalized_merchant": "kimpsonstable",
+    "merchant_labels": [
+      "Kimpson's Table",
+      "Kimpson’s Table"
+    ],
+    "operator": null,
+    "operator_source_families": [],
+    "historical_signal_count": 3,
+    "historical_offer_count": 8,
+    "source_tracks": [],
+    "automation_progress": "not_assessed",
+    "furthest_verified_stage": "discovered",
+    "autonomous_acquisition_enabled": false,
+    "remaining_path": "manual_research",
+    "auto_publish_complete_candidates": false,
+    "review_incomplete_candidates": false,
+    "next_action": "assess_direct_source",
+    "main_blocker": "no_captured_direct_source_assessment",
+    "observed_direct_domains": [],
+    "observed_direct_candidate_count": 0,
+    "ownership_status": "unknown",
+    "enumerability_status": "unknown",
+    "historical_enumerability_status": "unknown",
+    "extraction_status": "unknown",
+    "adapter_status": "none",
+    "direct_source_id": null,
+    "source_family": [],
+    "publication_enabled": false,
+    "autonomous_ingestion_status": "not_onboarded",
+    "known_blockers": [
+      "no_captured_direct_source_assessment"
+    ],
+    "evidence_refs": [
+      "tests/corpus/mvp-conformance-reviewed.json#b5e1a48b-bdae-4c44-8db0-c4eb566eec92",
+      "tests/corpus/mvp-conformance-reviewed.json#dfc46b21-8788-432a-8565-7ea4f734d77d",
+      "tests/corpus/mvp-conformance-reviewed.json#fd6c628b-31a4-4f4a-8797-e47c2a1160a0"
+    ],
+    "source_observations": []
+  },
+  {
+    "merchant": "More Yogurt",
+    "normalized_merchant": "moreyogurt",
+    "merchant_labels": [
+      "More Yogurt",
+      "moreyogurt"
+    ],
+    "operator": null,
+    "operator_source_families": [],
+    "historical_signal_count": 3,
+    "historical_offer_count": 5,
+    "source_tracks": [],
+    "automation_progress": "not_assessed",
+    "furthest_verified_stage": "discovered",
+    "autonomous_acquisition_enabled": false,
+    "remaining_path": "manual_research",
+    "auto_publish_complete_candidates": false,
+    "review_incomplete_candidates": false,
+    "next_action": "assess_direct_source",
+    "main_blocker": "no_captured_direct_source_assessment",
+    "observed_direct_domains": [],
+    "observed_direct_candidate_count": 0,
+    "ownership_status": "unknown",
+    "enumerability_status": "unknown",
+    "historical_enumerability_status": "unknown",
+    "extraction_status": "unknown",
+    "adapter_status": "none",
+    "direct_source_id": null,
+    "source_family": [],
+    "publication_enabled": false,
+    "autonomous_ingestion_status": "not_onboarded",
+    "known_blockers": [
+      "no_captured_direct_source_assessment"
+    ],
+    "evidence_refs": [
+      "tests/corpus/mvp-conformance-reviewed.json#186fce6f-6d46-45ba-831c-04703e043996",
+      "tests/corpus/mvp-conformance-reviewed.json#248b41c6-f14c-4f43-8230-1aca0bd150ae",
+      "tests/corpus/mvp-conformance-reviewed.json#7dfd7be1-6c2c-40c7-b923-ee8cdc4c6a0b"
+    ],
+    "source_observations": []
+  },
+  {
+    "merchant": "Shiok Burger",
+    "normalized_merchant": "shiokburger",
+    "merchant_labels": [
+      "Shiok Burger"
+    ],
+    "operator": null,
+    "operator_source_families": [],
+    "historical_signal_count": 2,
+    "historical_offer_count": 5,
+    "source_tracks": [],
+    "automation_progress": "not_assessed",
+    "furthest_verified_stage": "discovered",
+    "autonomous_acquisition_enabled": false,
+    "remaining_path": "manual_research",
+    "auto_publish_complete_candidates": false,
+    "review_incomplete_candidates": false,
+    "next_action": "assess_direct_source",
+    "main_blocker": "no_captured_direct_source_assessment",
+    "observed_direct_domains": [],
+    "observed_direct_candidate_count": 0,
+    "ownership_status": "unknown",
+    "enumerability_status": "unknown",
+    "historical_enumerability_status": "unknown",
+    "extraction_status": "unknown",
+    "adapter_status": "none",
+    "direct_source_id": null,
+    "source_family": [],
+    "publication_enabled": false,
+    "autonomous_ingestion_status": "not_onboarded",
+    "known_blockers": [
+      "no_captured_direct_source_assessment"
+    ],
+    "evidence_refs": [
+      "tests/corpus/mvp-conformance-reviewed.json#3611d0e6-53a2-418f-abf0-7d3f18dcd5ff",
+      "tests/corpus/mvp-conformance-reviewed.json#8c345e9f-5dd9-46a1-9296-32859969da0b"
+    ],
+    "source_observations": []
+  },
+  {
+    "merchant": "Gelare",
+    "normalized_merchant": "gelare",
+    "merchant_labels": [
+      "Gelare"
+    ],
+    "operator": null,
+    "operator_source_families": [],
+    "historical_signal_count": 1,
+    "historical_offer_count": 3,
+    "source_tracks": [],
+    "automation_progress": "not_assessed",
+    "furthest_verified_stage": "discovered",
+    "autonomous_acquisition_enabled": false,
+    "remaining_path": "manual_research",
+    "auto_publish_complete_candidates": false,
+    "review_incomplete_candidates": false,
+    "next_action": "assess_direct_source",
+    "main_blocker": "no_captured_direct_source_assessment",
+    "observed_direct_domains": [],
+    "observed_direct_candidate_count": 0,
+    "ownership_status": "unknown",
+    "enumerability_status": "unknown",
+    "historical_enumerability_status": "unknown",
+    "extraction_status": "unknown",
+    "adapter_status": "none",
+    "direct_source_id": null,
+    "source_family": [],
+    "publication_enabled": false,
+    "autonomous_ingestion_status": "not_onboarded",
+    "known_blockers": [
+      "no_captured_direct_source_assessment"
+    ],
+    "evidence_refs": [
+      "tests/corpus/mvp-conformance-reviewed.json#8c32e550-7180-4d71-8c71-59263a272372"
+    ],
+    "source_observations": []
+  },
+  {
+    "merchant": "4Fingers",
+    "normalized_merchant": "4fingers",
+    "merchant_labels": [
+      "4Fingers"
+    ],
+    "operator": null,
+    "operator_source_families": [],
+    "historical_signal_count": 2,
+    "historical_offer_count": 2,
+    "source_tracks": [],
+    "automation_progress": "not_assessed",
+    "furthest_verified_stage": "discovered",
+    "autonomous_acquisition_enabled": false,
+    "remaining_path": "manual_research",
+    "auto_publish_complete_candidates": false,
+    "review_incomplete_candidates": false,
+    "next_action": "assess_direct_source",
+    "main_blocker": "no_captured_direct_source_assessment",
+    "observed_direct_domains": [],
+    "observed_direct_candidate_count": 0,
+    "ownership_status": "unknown",
+    "enumerability_status": "unknown",
+    "historical_enumerability_status": "unknown",
+    "extraction_status": "unknown",
+    "adapter_status": "none",
+    "direct_source_id": null,
+    "source_family": [],
+    "publication_enabled": false,
+    "autonomous_ingestion_status": "not_onboarded",
+    "known_blockers": [
+      "no_captured_direct_source_assessment"
+    ],
+    "evidence_refs": [
+      "tests/corpus/mvp-conformance-reviewed.json#49333065-b4c7-440d-80be-1c14f470264e",
+      "tests/corpus/mvp-conformance-reviewed.json#8994ad45-4dfe-426c-9c3c-17e14f4984b7"
+    ],
+    "source_observations": []
+  },
+  {
+    "merchant": "Captain Kim",
+    "normalized_merchant": "captainkim",
+    "merchant_labels": [
+      "Captain Kim"
+    ],
+    "operator": null,
+    "operator_source_families": [],
+    "historical_signal_count": 2,
+    "historical_offer_count": 2,
+    "source_tracks": [],
+    "automation_progress": "not_assessed",
+    "furthest_verified_stage": "discovered",
+    "autonomous_acquisition_enabled": false,
+    "remaining_path": "manual_research",
+    "auto_publish_complete_candidates": false,
+    "review_incomplete_candidates": false,
+    "next_action": "assess_direct_source",
+    "main_blocker": "no_captured_direct_source_assessment",
+    "observed_direct_domains": [],
+    "observed_direct_candidate_count": 0,
+    "ownership_status": "unknown",
+    "enumerability_status": "unknown",
+    "historical_enumerability_status": "unknown",
+    "extraction_status": "unknown",
+    "adapter_status": "none",
+    "direct_source_id": null,
+    "source_family": [],
+    "publication_enabled": false,
+    "autonomous_ingestion_status": "not_onboarded",
+    "known_blockers": [
+      "no_captured_direct_source_assessment"
+    ],
+    "evidence_refs": [
+      "tests/corpus/mvp-conformance-reviewed.json#221f48b4-0362-4625-979f-7d3d88d38fcd",
+      "tests/corpus/mvp-conformance-reviewed.json#6089ff84-8ca2-4a52-94ae-2eedfb559977"
+    ],
+    "source_observations": []
+  },
+  {
+    "merchant": "Pizza Hut",
+    "normalized_merchant": "pizzahut",
+    "merchant_labels": [
+      "Pizza Hut"
+    ],
+    "operator": null,
+    "operator_source_families": [],
+    "historical_signal_count": 3,
+    "historical_offer_count": 8,
+    "source_tracks": [
+      {
+        "kind": "merchant_social",
+        "platform": "instagram",
+        "source_id": null,
+        "account": null,
+        "operator": null,
+        "urls": [
+          "https://www.instagram.com/p/DdDr_9tigEc/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+        ],
+        "ownership": "unverified",
+        "enumeration": "not_assessed",
+        "extraction": "not_assessed",
+        "adapter": null,
+        "adapter_status": "none",
+        "activation_status": "candidate",
+        "stage": "discovered",
+        "publication_enabled": false,
+        "auto_publish": false,
+        "autonomous_acquisition_enabled": false,
+        "review_incomplete_candidates": false,
+        "blockers": [
+          "exact_account_unresolved",
+          "ownership_unverified"
+        ],
+        "evidence_refs": [
+          "https://www.instagram.com/p/DdDr_9tigEc/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+        ]
+      }
+    ],
+    "automation_progress": "source_candidate",
+    "furthest_verified_stage": "discovered",
+    "autonomous_acquisition_enabled": false,
+    "remaining_path": "instagram",
+    "auto_publish_complete_candidates": false,
+    "review_incomplete_candidates": false,
+    "next_action": "verify_instagram_ownership",
+    "main_blocker": "exact_account_unresolved",
+    "observed_direct_domains": [],
+    "observed_direct_candidate_count": 0,
+    "ownership_status": "unknown",
+    "enumerability_status": "unknown",
+    "historical_enumerability_status": "unknown",
+    "extraction_status": "unknown",
+    "adapter_status": "none",
+    "direct_source_id": null,
+    "source_family": [],
+    "publication_enabled": false,
+    "autonomous_ingestion_status": "not_onboarded",
+    "known_blockers": [
+      "no_captured_direct_source_assessment"
+    ],
+    "evidence_refs": [
+      ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#12ceb8992cb9337f5b8ac44c00051e07100bf5524974a713d34fdd52d3ffd6ca",
+      "tests/corpus/mvp-conformance-reviewed.json#160fbee3-2fea-4188-8df7-8a62570a9e0f",
+      "tests/corpus/mvp-conformance-reviewed.json#4bdd9904-029c-4b69-bff7-60934d4c67ff"
+    ],
+    "source_observations": []
+  },
+  {
+    "merchant": "Kei Kaisendon",
+    "normalized_merchant": "keikaisendon",
+    "merchant_labels": [
+      "Kei Kaisendon"
+    ],
+    "operator": null,
+    "operator_source_families": [],
+    "historical_signal_count": 5,
+    "historical_offer_count": 5,
+    "source_tracks": [
+      {
+        "kind": "merchant_social",
+        "platform": "instagram",
+        "source_id": null,
+        "account": null,
+        "operator": null,
+        "urls": [
+          "https://www.instagram.com/p/DdMLD32Ivbz/?utm_source=telegram&utm_medium=TS"
+        ],
+        "ownership": "unverified",
+        "enumeration": "not_assessed",
+        "extraction": "not_assessed",
+        "adapter": null,
+        "adapter_status": "none",
+        "activation_status": "candidate",
+        "stage": "discovered",
+        "publication_enabled": false,
+        "auto_publish": false,
+        "autonomous_acquisition_enabled": false,
+        "review_incomplete_candidates": false,
+        "blockers": [
+          "exact_account_unresolved",
+          "ownership_unverified"
+        ],
+        "evidence_refs": [
+          "https://www.instagram.com/p/DdMLD32Ivbz/?utm_source=telegram&utm_medium=TS"
+        ]
+      },
+      {
+        "kind": "merchant_social",
+        "platform": "instagram",
+        "source_id": null,
+        "account": null,
+        "operator": null,
+        "urls": [
+          "https://www.instagram.com/p/DdWQHfKBdiK/?utm_source=telegram&utm_medium=TS"
+        ],
+        "ownership": "unverified",
+        "enumeration": "not_assessed",
+        "extraction": "not_assessed",
+        "adapter": null,
+        "adapter_status": "none",
+        "activation_status": "candidate",
+        "stage": "discovered",
+        "publication_enabled": false,
+        "auto_publish": false,
+        "autonomous_acquisition_enabled": false,
+        "review_incomplete_candidates": false,
+        "blockers": [
+          "exact_account_unresolved",
+          "ownership_unverified"
+        ],
+        "evidence_refs": [
+          "https://www.instagram.com/p/DdWQHfKBdiK/?utm_source=telegram&utm_medium=TS"
+        ]
+      }
+    ],
+    "automation_progress": "source_candidate",
+    "furthest_verified_stage": "discovered",
+    "autonomous_acquisition_enabled": false,
+    "remaining_path": "instagram",
+    "auto_publish_complete_candidates": false,
+    "review_incomplete_candidates": false,
+    "next_action": "verify_instagram_ownership",
+    "main_blocker": "exact_account_unresolved",
+    "observed_direct_domains": [],
+    "observed_direct_candidate_count": 0,
+    "ownership_status": "unknown",
+    "enumerability_status": "unknown",
+    "historical_enumerability_status": "unknown",
+    "extraction_status": "unknown",
+    "adapter_status": "none",
+    "direct_source_id": null,
+    "source_family": [],
+    "publication_enabled": false,
+    "autonomous_ingestion_status": "not_onboarded",
+    "known_blockers": [
+      "no_captured_direct_source_assessment"
+    ],
+    "evidence_refs": [
+      ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#01a86f729ce87c846a7468ae9b8020d6fc03e12c9aaac3913c876177a9efc265",
+      ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#ee71f4aa796e50924583c8acb225842c62a2bd49fb7b381a997ebbcb0ccb8bca",
+      "tests/corpus/mvp-conformance-reviewed.json#1ee6b9ec-4e0d-4a9f-aa32-047cbd2dbcc4",
+      "tests/corpus/mvp-conformance-reviewed.json#be833434-453b-4957-9a48-edde107a2646",
+      "tests/corpus/mvp-conformance-reviewed.json#dfe7fbf0-e4a5-4c0a-b95a-dafd7c8ef42e"
+    ],
+    "source_observations": []
+  },
+  {
+    "merchant": "McDonald's",
+    "normalized_merchant": "mcdonalds",
+    "merchant_labels": [
+      "McDonald's",
+      "McDonald’s"
+    ],
+    "operator": null,
+    "operator_source_families": [],
+    "historical_signal_count": 4,
+    "historical_offer_count": 4,
+    "source_tracks": [
+      {
+        "kind": "merchant_social",
+        "platform": "instagram",
+        "source_id": null,
+        "account": null,
+        "operator": null,
+        "urls": [
+          "https://www.instagram.com/p/Ddp7EmljAbm/?utm_source=telegram&utm_medium=TS"
+        ],
+        "ownership": "unverified",
+        "enumeration": "not_assessed",
+        "extraction": "not_assessed",
+        "adapter": null,
+        "adapter_status": "none",
+        "activation_status": "candidate",
+        "stage": "discovered",
+        "publication_enabled": false,
+        "auto_publish": false,
+        "autonomous_acquisition_enabled": false,
+        "review_incomplete_candidates": false,
+        "blockers": [
+          "exact_account_unresolved",
+          "ownership_unverified"
+        ],
+        "evidence_refs": [
+          "https://www.instagram.com/p/Ddp7EmljAbm/?utm_source=telegram&utm_medium=TS"
+        ]
+      },
+      {
+        "kind": "merchant_social",
+        "platform": "instagram",
+        "source_id": null,
+        "account": null,
+        "operator": null,
+        "urls": [
+          "https://www.instagram.com/p/DdQIFcCB6TP/?utm_source=Telegram&utm_medium=TS&utm_campaign=TS_$6McSpicy"
+        ],
+        "ownership": "unverified",
+        "enumeration": "not_assessed",
+        "extraction": "not_assessed",
+        "adapter": null,
+        "adapter_status": "none",
+        "activation_status": "candidate",
+        "stage": "discovered",
+        "publication_enabled": false,
+        "auto_publish": false,
+        "autonomous_acquisition_enabled": false,
+        "review_incomplete_candidates": false,
+        "blockers": [
+          "exact_account_unresolved",
+          "ownership_unverified"
+        ],
+        "evidence_refs": [
+          "https://www.instagram.com/p/DdQIFcCB6TP/?utm_source=Telegram&utm_medium=TS&utm_campaign=TS_$6McSpicy"
+        ]
+      }
+    ],
+    "automation_progress": "source_candidate",
+    "furthest_verified_stage": "discovered",
+    "autonomous_acquisition_enabled": false,
+    "remaining_path": "instagram",
+    "auto_publish_complete_candidates": false,
+    "review_incomplete_candidates": false,
+    "next_action": "verify_instagram_ownership",
+    "main_blocker": "exact_account_unresolved",
+    "observed_direct_domains": [],
+    "observed_direct_candidate_count": 0,
+    "ownership_status": "unknown",
+    "enumerability_status": "unknown",
+    "historical_enumerability_status": "unknown",
+    "extraction_status": "unknown",
+    "adapter_status": "none",
+    "direct_source_id": null,
+    "source_family": [],
+    "publication_enabled": false,
+    "autonomous_ingestion_status": "not_onboarded",
+    "known_blockers": [
+      "no_captured_direct_source_assessment"
+    ],
+    "evidence_refs": [
+      ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#63d46e9e0f72c89156680ff4da845edcec52c915025e2c4e3944f0b5d874db9c",
+      "tests/corpus/mvp-conformance-reviewed.json#551df953-2f18-4c60-b923-7deb4a54a2d7",
+      "tests/corpus/mvp-conformance-reviewed.json#9d4f24b4-0944-4a49-909c-2d00b4cfc036",
+      "tests/corpus/mvp-conformance-reviewed.json#e799684b-4d6e-4029-8530-27cb7dee4c3c"
+    ],
+    "source_observations": []
+  },
+  {
+    "merchant": "Sushiro",
+    "normalized_merchant": "sushiro",
+    "merchant_labels": [
+      "Sushiro"
+    ],
+    "operator": null,
+    "operator_source_families": [],
+    "historical_signal_count": 4,
+    "historical_offer_count": 4,
+    "source_tracks": [
+      {
+        "kind": "merchant_social",
+        "platform": "instagram",
+        "source_id": null,
+        "account": null,
+        "operator": null,
+        "urls": [
+          "https://www.instagram.com/p/Ddp3ov4Fwng/?img_index=1&utm_source=telegram&utm_medium=TS"
+        ],
+        "ownership": "unverified",
+        "enumeration": "not_assessed",
+        "extraction": "not_assessed",
+        "adapter": null,
+        "adapter_status": "none",
+        "activation_status": "candidate",
+        "stage": "discovered",
+        "publication_enabled": false,
+        "auto_publish": false,
+        "autonomous_acquisition_enabled": false,
+        "review_incomplete_candidates": false,
+        "blockers": [
+          "exact_account_unresolved",
+          "ownership_unverified"
+        ],
+        "evidence_refs": [
+          "https://www.instagram.com/p/Ddp3ov4Fwng/?img_index=1&utm_source=telegram&utm_medium=TS"
+        ]
+      }
+    ],
+    "automation_progress": "source_candidate",
+    "furthest_verified_stage": "discovered",
+    "autonomous_acquisition_enabled": false,
+    "remaining_path": "instagram",
+    "auto_publish_complete_candidates": false,
+    "review_incomplete_candidates": false,
+    "next_action": "verify_instagram_ownership",
+    "main_blocker": "exact_account_unresolved",
+    "observed_direct_domains": [],
+    "observed_direct_candidate_count": 0,
+    "ownership_status": "unknown",
+    "enumerability_status": "unknown",
+    "historical_enumerability_status": "unknown",
+    "extraction_status": "unknown",
+    "adapter_status": "none",
+    "direct_source_id": null,
+    "source_family": [],
+    "publication_enabled": false,
+    "autonomous_ingestion_status": "not_onboarded",
+    "known_blockers": [
+      "no_captured_direct_source_assessment"
+    ],
+    "evidence_refs": [
+      ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#ab23c3152aa09a6d8ad2f60fe95a955c18e0ca1700f7842de8cdcd5f606c4373",
+      "tests/corpus/mvp-conformance-reviewed.json#2c891c12-7dad-4134-8863-a582f0990c50",
+      "tests/corpus/mvp-conformance-reviewed.json#3a67ef71-dcd3-417e-9760-dda1dc41327b",
+      "tests/corpus/mvp-conformance-reviewed.json#a09a0a45-936b-4708-9e7a-257a3ec47ed0"
+    ],
+    "source_observations": []
+  },
+  {
+    "merchant": "Bari Bari Steak",
+    "normalized_merchant": "baribaristeak",
+    "merchant_labels": [
+      "Bari Bari Steak"
+    ],
+    "operator": null,
+    "operator_source_families": [],
+    "historical_signal_count": 3,
+    "historical_offer_count": 3,
+    "source_tracks": [
+      {
+        "kind": "merchant_social",
+        "platform": "facebook",
+        "source_id": null,
+        "account": null,
+        "operator": null,
+        "urls": [
+          "https://www.facebook.com/reel/2213996399456039?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+        ],
+        "ownership": "unverified",
+        "enumeration": "not_assessed",
+        "extraction": "not_assessed",
+        "adapter": null,
+        "adapter_status": "none",
+        "activation_status": "candidate",
+        "stage": "discovered",
+        "publication_enabled": false,
+        "auto_publish": false,
+        "autonomous_acquisition_enabled": false,
+        "review_incomplete_candidates": false,
+        "blockers": [
+          "exact_account_unresolved",
+          "ownership_unverified"
+        ],
+        "evidence_refs": [
+          "https://www.facebook.com/reel/2213996399456039?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+        ]
+      },
+      {
+        "kind": "merchant_social",
+        "platform": "instagram",
+        "source_id": null,
+        "account": null,
+        "operator": null,
+        "urls": [
+          "https://www.instagram.com/p/DdbNN-YicMs/?utm_source=telegram&utm_medium=TS"
+        ],
+        "ownership": "unverified",
+        "enumeration": "not_assessed",
+        "extraction": "not_assessed",
+        "adapter": null,
+        "adapter_status": "none",
+        "activation_status": "candidate",
+        "stage": "discovered",
+        "publication_enabled": false,
+        "auto_publish": false,
+        "autonomous_acquisition_enabled": false,
+        "review_incomplete_candidates": false,
+        "blockers": [
+          "exact_account_unresolved",
+          "ownership_unverified"
+        ],
+        "evidence_refs": [
+          "https://www.instagram.com/p/DdbNN-YicMs/?utm_source=telegram&utm_medium=TS"
+        ]
+      },
+      {
+        "kind": "merchant_social",
+        "platform": "instagram",
+        "source_id": null,
+        "account": null,
+        "operator": null,
+        "urls": [
+          "https://www.instagram.com/p/DdF3_bwEeGK/?hl=en&utm_source=Telegram&utm_medium=TS&utm_campaign=TS_BariBariSteak-1f1"
+        ],
+        "ownership": "unverified",
+        "enumeration": "not_assessed",
+        "extraction": "not_assessed",
+        "adapter": null,
+        "adapter_status": "none",
+        "activation_status": "candidate",
+        "stage": "discovered",
+        "publication_enabled": false,
+        "auto_publish": false,
+        "autonomous_acquisition_enabled": false,
+        "review_incomplete_candidates": false,
+        "blockers": [
+          "exact_account_unresolved",
+          "ownership_unverified"
+        ],
+        "evidence_refs": [
+          "https://www.instagram.com/p/DdF3_bwEeGK/?hl=en&utm_source=Telegram&utm_medium=TS&utm_campaign=TS_BariBariSteak-1f1"
+        ]
+      }
+    ],
+    "automation_progress": "source_candidate",
+    "furthest_verified_stage": "discovered",
+    "autonomous_acquisition_enabled": false,
+    "remaining_path": "facebook",
+    "auto_publish_complete_candidates": false,
+    "review_incomplete_candidates": false,
+    "next_action": "verify_facebook_ownership",
+    "main_blocker": "exact_account_unresolved",
+    "observed_direct_domains": [],
+    "observed_direct_candidate_count": 0,
+    "ownership_status": "unknown",
+    "enumerability_status": "unknown",
+    "historical_enumerability_status": "unknown",
+    "extraction_status": "unknown",
+    "adapter_status": "none",
+    "direct_source_id": null,
+    "source_family": [],
+    "publication_enabled": false,
+    "autonomous_ingestion_status": "not_onboarded",
+    "known_blockers": [
+      "no_captured_direct_source_assessment"
+    ],
+    "evidence_refs": [
+      ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#3d2d04aa073b6b79b46faa22eecc80f36216cedda95b632ba1f99c1d44d022f9",
+      ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#9ce240c76b2b0b286ca4f62bb61af07d272b7e662411f210d51124d4fa1360cd",
+      ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#a041b1bb0fcbd4fa6c24dc5feddc0a43365f70ba21522fe9f87b17c83fbc1f36"
+    ],
+    "source_observations": []
+  },
+  {
+    "merchant": "The Coffee Bean & Tea Leaf",
+    "normalized_merchant": "thecoffeebeantealeaf",
+    "merchant_labels": [
+      "The Coffee Bean & Tea Leaf"
+    ],
+    "operator": null,
+    "operator_source_families": [],
+    "historical_signal_count": 3,
+    "historical_offer_count": 3,
+    "source_tracks": [
+      {
+        "kind": "merchant_social",
+        "platform": "instagram",
+        "source_id": null,
+        "account": null,
+        "operator": null,
+        "urls": [
+          "https://www.instagram.com/p/DdgiQp9jdIl/?hl=en&utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+        ],
+        "ownership": "unverified",
+        "enumeration": "not_assessed",
+        "extraction": "not_assessed",
+        "adapter": null,
+        "adapter_status": "none",
+        "activation_status": "candidate",
+        "stage": "discovered",
+        "publication_enabled": false,
+        "auto_publish": false,
+        "autonomous_acquisition_enabled": false,
+        "review_incomplete_candidates": false,
+        "blockers": [
+          "exact_account_unresolved",
+          "ownership_unverified"
+        ],
+        "evidence_refs": [
+          "https://www.instagram.com/p/DdgiQp9jdIl/?hl=en&utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+        ]
+      }
+    ],
+    "automation_progress": "source_candidate",
+    "furthest_verified_stage": "discovered",
+    "autonomous_acquisition_enabled": false,
+    "remaining_path": "instagram",
+    "auto_publish_complete_candidates": false,
+    "review_incomplete_candidates": false,
+    "next_action": "verify_instagram_ownership",
+    "main_blocker": "exact_account_unresolved",
+    "observed_direct_domains": [],
+    "observed_direct_candidate_count": 0,
+    "ownership_status": "unknown",
+    "enumerability_status": "unknown",
+    "historical_enumerability_status": "unknown",
+    "extraction_status": "unknown",
+    "adapter_status": "none",
+    "direct_source_id": null,
+    "source_family": [],
+    "publication_enabled": false,
+    "autonomous_ingestion_status": "not_onboarded",
+    "known_blockers": [
+      "no_captured_direct_source_assessment"
+    ],
+    "evidence_refs": [
+      ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#4c005bb0edfba511e19c02ecbfa3c117cd17f3c8afdd81a0087b67ca15969021",
+      "tests/corpus/mvp-conformance-reviewed.json#4a709fcd-7018-48d7-a2ec-1c5e4097029e",
+      "tests/corpus/mvp-conformance-reviewed.json#bf619172-5bef-47a9-a004-e97a3f8f964e"
+    ],
+    "source_observations": []
+  }
+]

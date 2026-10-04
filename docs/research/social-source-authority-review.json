@@ -1,0 +1,424 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "merchant": "Ajumma's Korean Restaurant",
+      "platform": "instagram",
+      "account": "ajummasg",
+      "authority": "verified",
+      "evidence_urls": [
+        "https://www.ajummassg.com/"
+      ],
+      "evidence_note": "Reviewed merchant-controlled website (merchant menus, ordering/contact and location details) contains an exact HTTPS Instagram profile backlink. This verifies the account only; frozen post ownership is checked separately against public account-scoped post metadata. No Telegram/search label is ownership evidence.",
+      "official_url": "https://www.ajummassg.com/",
+      "controlled_merchant": "Ajumma's Korean Restaurant",
+      "control_evidence_refs": [
+        "tests/fixtures/social-sources/official-2026-10-02-network/manifest.json",
+        "https://www.ajummassg.com/"
+      ],
+      "capture_file": "tests/fixtures/social-sources/official-2026-10-02-network/f7b3a69eed9d6b08ab0d8238a2c3041b8ddfd3bcf7094222b98475cf8d08c9d6.html",
+      "capture_sha256": "f7b3a69eed9d6b08ab0d8238a2c3041b8ddfd3bcf7094222b98475cf8d08c9d6",
+      "frozen_signal_ids": [
+        "20c3a0c128c2a30e6e649b9c83b0e9e1bc2c71cd7a880b716613524b0ab28943"
+      ],
+      "variation": [
+        "multi_outlet",
+        "text_bundle_campaign"
+      ],
+      "account_result": "exact_account_verified"
+    },
+    {
+      "merchant": "SHINRAI",
+      "platform": "instagram",
+      "account": "shinrai.sg",
+      "authority": "verified",
+      "evidence_urls": [
+        "https://www.shinrai.sg/"
+      ],
+      "evidence_note": "Reviewed merchant-controlled website (merchant menus, ordering/contact and location details) contains an exact HTTPS Instagram profile backlink. This verifies the account only; frozen post ownership is checked separately against public account-scoped post metadata. No Telegram/search label is ownership evidence.",
+      "official_url": "https://www.shinrai.sg/",
+      "controlled_merchant": "SHINRAI",
+      "control_evidence_refs": [
+        "tests/fixtures/social-sources/official-2026-10-02-network/manifest.json",
+        "https://www.shinrai.sg/"
+      ],
+      "capture_file": "tests/fixtures/social-sources/official-2026-10-02-network/4a02095bf25eb7129b633d6ba3c7265999986ada608ff4d921474bed8e36f4af.html",
+      "capture_sha256": "4a02095bf25eb7129b633d6ba3c7265999986ada608ff4d921474bed8e36f4af",
+      "frozen_signal_ids": [
+        "9109c3090156de7bf9e4c037cad90eba9146ab9997597f1a0371d292c5ed7a3a"
+      ],
+      "variation": [
+        "single_location",
+        "reel_caption_campaign"
+      ],
+      "account_result": "exact_account_verified"
+    },
+    {
+      "merchant": "Sinpopo Brand",
+      "platform": "instagram",
+      "account": "sinpopobrand",
+      "authority": "verified",
+      "evidence_urls": [
+        "https://www.sinpopo.com/"
+      ],
+      "evidence_note": "Reviewed merchant-controlled website (merchant menus, ordering/contact and location details) contains an exact HTTPS Instagram profile backlink. This verifies the account only; frozen post ownership is checked separately against public account-scoped post metadata. No Telegram/search label is ownership evidence.",
+      "official_url": "https://www.sinpopo.com/",
+      "controlled_merchant": "Sinpopo Brand",
+      "control_evidence_refs": [
+        "tests/fixtures/social-sources/official-2026-10-02-network/manifest.json",
+        "https://www.sinpopo.com/"
+      ],
+      "capture_file": "tests/fixtures/social-sources/official-2026-10-02-network/651bb741bd34e9d92d0d1b4dbd023ad02ea0ed9878cd94d3bb597a9c284e706a.html",
+      "capture_sha256": "651bb741bd34e9d92d0d1b4dbd023ad02ea0ed9878cd94d3bb597a9c284e706a",
+      "frozen_signal_ids": [
+        "e40cd2a0ae3f949195bd45de2327c4861a478b619ab6f1228bc6f533c9ec2bfe"
+      ],
+      "variation": [
+        "restaurant_and_retail",
+        "image_led_campaign"
+      ],
+      "account_result": "exact_account_verified"
+    },
+    {
+      "merchant": "Starbucks",
+      "platform": "instagram",
+      "account": "starbuckssg",
+      "authority": "verified",
+      "evidence_urls": [
+        "https://www.starbucks.com.sg/"
+      ],
+      "evidence_note": "Reviewed merchant-controlled website (merchant menus, ordering/contact and location details) contains an exact HTTPS Instagram profile backlink. This verifies the account only; frozen post ownership is checked separately against public account-scoped post metadata. No Telegram/search label is ownership evidence.",
+      "official_url": "https://www.starbucks.com.sg/",
+      "controlled_merchant": "Starbucks",
+      "control_evidence_refs": [
+        "tests/fixtures/social-sources/official-2026-10-02-network/manifest.json",
+        "https://www.starbucks.com.sg/"
+      ],
+      "capture_file": "tests/fixtures/social-sources/official-2026-10-02-network/ed7b56e1c676f657d48379fb43cdc259fe2fec94a6a50facfdd3e58ea1f4aac3.html",
+      "capture_sha256": "ed7b56e1c676f657d48379fb43cdc259fe2fec94a6a50facfdd3e58ea1f4aac3",
+      "frozen_signal_ids": [
+        "1c71b56962e0d2ae811b3ee993278164ee02526673af4083e70f630a1751f3f5"
+      ],
+      "variation": [
+        "multi_outlet",
+        "membership_campaign"
+      ],
+      "account_result": "exact_account_verified"
+    },
+    {
+      "merchant": "Kimpson's Table",
+      "platform": "instagram",
+      "account": "kimpsonstable",
+      "authority": "verified",
+      "evidence_urls": [
+        "https://kimpsontable.cococart.co/"
+      ],
+      "evidence_note": "Merchant-controlled branded menu/order/contact/location surface explicitly links this exact Instagram profile. Ownership applies to the profile; historical accountless content association is separate. HTTP profile links are upgraded only with exact identity preserved.",
+      "official_url": "https://kimpsontable.cococart.co/",
+      "controlled_merchant": "Kimpson's Table",
+      "control_evidence_refs": [
+        "tests/fixtures/coverage-batch-2/kimpsonstable/web-2/manifest.json",
+        "https://kimpsontable.cococart.co/"
+      ],
+      "capture_file": "tests/fixtures/coverage-batch-2/kimpsonstable/web-2/b37392b1d7310db5181b1f41ef1c1547448892dcc0b4ac4ee6e8c8621c56c8d1.html",
+      "capture_sha256": "b37392b1d7310db5181b1f41ef1c1547448892dcc0b4ac4ee6e8c8621c56c8d1",
+      "frozen_signal_ids": [],
+      "variation": [
+        "coverage_batch_2"
+      ],
+      "account_result": "exact_account_verified"
+    },
+    {
+      "merchant": "Shiok Burger",
+      "platform": "instagram",
+      "account": "shiokburger_sg",
+      "authority": "verified",
+      "evidence_urls": [
+        "https://www.shiokburger.com/"
+      ],
+      "evidence_note": "Merchant-controlled branded menu/order/contact/location surface explicitly links this exact Instagram profile. Ownership applies to the profile; historical accountless content association is separate. HTTP profile links are upgraded only with exact identity preserved.",
+      "official_url": "https://www.shiokburger.com/",
+      "controlled_merchant": "Shiok Burger",
+      "control_evidence_refs": [
+        "tests/fixtures/coverage-batch-2/shiokburger/web-2/manifest.json",
+        "https://www.shiokburger.com/"
+      ],
+      "capture_file": "tests/fixtures/coverage-batch-2/shiokburger/web-2/cc634a597d17ddf5df37e00eb8eed0f1da9f4704aacfb43120add775d32f8f14.html",
+      "capture_sha256": "cc634a597d17ddf5df37e00eb8eed0f1da9f4704aacfb43120add775d32f8f14",
+      "frozen_signal_ids": [],
+      "variation": [
+        "coverage_batch_2"
+      ],
+      "account_result": "exact_account_verified"
+    },
+    {
+      "merchant": "Gelare",
+      "platform": "instagram",
+      "account": "gelaresg",
+      "authority": "verified",
+      "evidence_urls": [
+        "https://www.gelare.com.sg/"
+      ],
+      "evidence_note": "Merchant-controlled branded menu/order/contact/location surface explicitly links this exact Instagram profile. Ownership applies to the profile; historical accountless content association is separate. HTTP profile links are upgraded only with exact identity preserved.",
+      "official_url": "https://www.gelare.com.sg/",
+      "controlled_merchant": "Gelare",
+      "control_evidence_refs": [
+        "tests/fixtures/coverage-batch-2/gelare/web-2/manifest.json",
+        "https://www.gelare.com.sg/"
+      ],
+      "capture_file": "tests/fixtures/coverage-batch-2/gelare/web-2/58c4fd4a7dc4ccb4b22d6abf02312418422ce7a72e6f5b056c59eb7b45e01ba8.html",
+      "capture_sha256": "58c4fd4a7dc4ccb4b22d6abf02312418422ce7a72e6f5b056c59eb7b45e01ba8",
+      "frozen_signal_ids": [],
+      "variation": [
+        "coverage_batch_2"
+      ],
+      "account_result": "exact_account_verified"
+    },
+    {
+      "merchant": "Captain Kim",
+      "platform": "instagram",
+      "account": "captainkimsg",
+      "authority": "verified",
+      "evidence_urls": [
+        "https://kingdomfood.sg/captain-kim-korean-bbq-hotpot-tamp-j10/"
+      ],
+      "evidence_note": "Merchant-controlled branded menu/order/contact/location surface explicitly links this exact Instagram profile. Ownership applies to the profile; historical accountless content association is separate. HTTP profile links are upgraded only with exact identity preserved.",
+      "official_url": "https://kingdomfood.sg/captain-kim-korean-bbq-hotpot-tamp-j10/",
+      "controlled_merchant": "Captain Kim",
+      "control_evidence_refs": [
+        "tests/fixtures/coverage-batch-2/captainkim/web-3/manifest.json",
+        "https://kingdomfood.sg/captain-kim-korean-bbq-hotpot-tamp-j10/"
+      ],
+      "capture_file": "tests/fixtures/coverage-batch-2/captainkim/web-3/120959aa1afdd8b95bf2e8702eca6987a151423e90a2d5f189ed37fd900de10a.html",
+      "capture_sha256": "120959aa1afdd8b95bf2e8702eca6987a151423e90a2d5f189ed37fd900de10a",
+      "frozen_signal_ids": [],
+      "variation": [
+        "coverage_batch_2"
+      ],
+      "account_result": "exact_account_verified"
+    },
+    {
+      "merchant": "Pizza Hut",
+      "platform": "instagram",
+      "account": "pizzahut_sg",
+      "authority": "unverified",
+      "evidence_urls": [
+        "https://www.pizzahut.com.sg/"
+      ],
+      "evidence_note": "Exact public post metadata identifies pizzahut_sg; captured official web shell has no independently verifiable profile backlink. Ownership remains unverified.",
+      "official_url": "https://www.pizzahut.com.sg/",
+      "controlled_merchant": "Pizza Hut",
+      "control_evidence_refs": [
+        "tests/fixtures/coverage-batch-2/pizzahut/web-2/manifest.json",
+        "https://www.pizzahut.com.sg/"
+      ],
+      "capture_file": "tests/fixtures/coverage-batch-2/pizzahut/web-2/567678567cb0b0995127c359ce8348522bdec59d5872ca45bfaa7e85dbc48ffa.html",
+      "capture_sha256": "567678567cb0b0995127c359ce8348522bdec59d5872ca45bfaa7e85dbc48ffa",
+      "frozen_signal_ids": [
+        "12ceb8992cb9337f5b8ac44c00051e07100bf5524974a713d34fdd52d3ffd6ca"
+      ],
+      "variation": [
+        "coverage_batch_2"
+      ],
+      "account_result": "exact_account_unverified"
+    },
+    {
+      "merchant": "Kei Kaisendon",
+      "platform": "instagram",
+      "account": "keikaisendon",
+      "authority": "verified",
+      "evidence_urls": [
+        "https://www.keikaisendon.com/"
+      ],
+      "evidence_note": "Merchant-controlled branded menu/order/contact/location surface explicitly links this exact Instagram profile. Ownership applies to the profile; historical accountless content association is separate. HTTP profile links are upgraded only with exact identity preserved.",
+      "official_url": "https://www.keikaisendon.com/",
+      "controlled_merchant": "Kei Kaisendon",
+      "control_evidence_refs": [
+        "tests/fixtures/coverage-batch-2/keikaisendon/web-2/manifest.json",
+        "https://www.keikaisendon.com/"
+      ],
+      "capture_file": "tests/fixtures/coverage-batch-2/keikaisendon/web-2/e1032fe612f65b385131f603ed0cb423ce28a4334c5f1f7c9fa97a336e6fc833.html",
+      "capture_sha256": "e1032fe612f65b385131f603ed0cb423ce28a4334c5f1f7c9fa97a336e6fc833",
+      "frozen_signal_ids": [
+        "01a86f729ce87c846a7468ae9b8020d6fc03e12c9aaac3913c876177a9efc265",
+        "ee71f4aa796e50924583c8acb225842c62a2bd49fb7b381a997ebbcb0ccb8bca"
+      ],
+      "variation": [
+        "coverage_batch_2"
+      ],
+      "account_result": "exact_account_verified"
+    },
+    {
+      "merchant": "McDonald's",
+      "platform": "instagram",
+      "account": "mcdsg",
+      "authority": "verified",
+      "evidence_urls": [
+        "https://www.mcdonalds.com.sg/"
+      ],
+      "evidence_note": "Merchant-controlled branded menu/order/contact/location surface explicitly links this exact Instagram profile. Ownership applies to the profile; historical accountless content association is separate. HTTP profile links are upgraded only with exact identity preserved.",
+      "official_url": "https://www.mcdonalds.com.sg/",
+      "controlled_merchant": "McDonald's",
+      "control_evidence_refs": [
+        "tests/fixtures/coverage-batch-2/mcdonalds/web-2/manifest.json",
+        "https://www.mcdonalds.com.sg/"
+      ],
+      "capture_file": "tests/fixtures/coverage-batch-2/mcdonalds/web-2/11f7859b2408eca383a51a7372a7d63e1df9ddeec62e17c61f6ec61df5b6b646.html",
+      "capture_sha256": "11f7859b2408eca383a51a7372a7d63e1df9ddeec62e17c61f6ec61df5b6b646",
+      "frozen_signal_ids": [
+        "63d46e9e0f72c89156680ff4da845edcec52c915025e2c4e3944f0b5d874db9c",
+        "ee402a73e9b362c1d71a2e66faaa3fad27345e64e34b08c3d11dcd675bdefd6b"
+      ],
+      "variation": [
+        "coverage_batch_2"
+      ],
+      "account_result": "exact_account_verified"
+    },
+    {
+      "merchant": "Sushiro",
+      "platform": "instagram",
+      "account": "sushirosingapore",
+      "authority": "verified",
+      "evidence_urls": [
+        "https://www.sushiro.com.sg/promo/"
+      ],
+      "evidence_note": "Merchant-controlled branded menu/order/contact/location surface explicitly links this exact Instagram profile. Ownership applies to the profile; historical accountless content association is separate. HTTP profile links are upgraded only with exact identity preserved.",
+      "official_url": "https://www.sushiro.com.sg/promo/",
+      "controlled_merchant": "Sushiro",
+      "control_evidence_refs": [
+        "tests/fixtures/coverage-batch-2/sushiro/web-2/manifest.json",
+        "https://www.sushiro.com.sg/promo/"
+      ],
+      "capture_file": "tests/fixtures/coverage-batch-2/sushiro/web-2/d2a36725711a67a56fcd8b4e0900e35a1f069ed0bd69e1d23147cb2462c7201c.html",
+      "capture_sha256": "d2a36725711a67a56fcd8b4e0900e35a1f069ed0bd69e1d23147cb2462c7201c",
+      "frozen_signal_ids": [
+        "ab23c3152aa09a6d8ad2f60fe95a955c18e0ca1700f7842de8cdcd5f606c4373"
+      ],
+      "variation": [
+        "coverage_batch_2"
+      ],
+      "account_result": "exact_account_verified"
+    },
+    {
+      "merchant": "Bari Bari Steak",
+      "platform": "instagram",
+      "account": "baribaristeaksg",
+      "authority": "verified",
+      "evidence_urls": [
+        "https://baribaristeak.com.sg/"
+      ],
+      "evidence_note": "Merchant-controlled branded menu/order/contact/location surface explicitly links this exact Instagram profile. Ownership applies to the profile; historical accountless content association is separate. HTTP profile links are upgraded only with exact identity preserved.",
+      "official_url": "https://baribaristeak.com.sg/",
+      "controlled_merchant": "Bari Bari Steak",
+      "control_evidence_refs": [
+        "tests/fixtures/coverage-batch-2/baribaristeak/web-2/manifest.json",
+        "https://baribaristeak.com.sg/"
+      ],
+      "capture_file": "tests/fixtures/coverage-batch-2/baribaristeak/web-2/d22a4cf20300796172cb0e7a062d28afec424dd6eb5e4ee03f8279491d91deba.html",
+      "capture_sha256": "d22a4cf20300796172cb0e7a062d28afec424dd6eb5e4ee03f8279491d91deba",
+      "frozen_signal_ids": [
+        "3d2d04aa073b6b79b46faa22eecc80f36216cedda95b632ba1f99c1d44d022f9",
+        "a041b1bb0fcbd4fa6c24dc5feddc0a43365f70ba21522fe9f87b17c83fbc1f36"
+      ],
+      "variation": [
+        "coverage_batch_2"
+      ],
+      "account_result": "exact_account_verified"
+    },
+    {
+      "merchant": "The Coffee Bean & Tea Leaf",
+      "platform": "instagram",
+      "account": "coffeebeansg",
+      "authority": "verified",
+      "evidence_urls": [
+        "https://www.coffeebean.com.sg/"
+      ],
+      "evidence_note": "Merchant-controlled branded menu/order/contact/location surface explicitly links this exact Instagram profile. Ownership applies to the profile; historical accountless content association is separate. HTTP profile links are upgraded only with exact identity preserved.",
+      "official_url": "https://www.coffeebean.com.sg/",
+      "controlled_merchant": "The Coffee Bean & Tea Leaf",
+      "control_evidence_refs": [
+        "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/web-2/manifest.json",
+        "https://www.coffeebean.com.sg/"
+      ],
+      "capture_file": "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/web-2/bd9425f9c29eeb5a55e744d7a630ff199259b301ef99dfe05aff22a87ba87a19.html",
+      "capture_sha256": "bd9425f9c29eeb5a55e744d7a630ff199259b301ef99dfe05aff22a87ba87a19",
+      "frozen_signal_ids": [
+        "4c005bb0edfba511e19c02ecbfa3c117cd17f3c8afdd81a0087b67ca15969021"
+      ],
+      "variation": [
+        "coverage_batch_2"
+      ],
+      "account_result": "exact_account_verified"
+    },
+    {
+      "merchant": "Kimpson's Table",
+      "platform": "instagram",
+      "account": "kimpsonstable.sg",
+      "authority": "unverified",
+      "evidence_urls": [
+        "https://www.fareastmalls.com.sg/en/discover/Kimpsons-Table"
+      ],
+      "evidence_note": "Official landlord links this distinct exact account for Chef X venue. Landlord is not merchant-controlled ownership; relationship to closed Cococart storefront remains unresolved. Profile not probed.",
+      "official_url": "https://www.fareastmalls.com.sg/en/discover/Kimpsons-Table",
+      "controlled_merchant": "Kimpson's Table",
+      "control_evidence_refs": [
+        "docs/changes/coverage-batch-2/research.md"
+      ],
+      "capture_file": "tests/fixtures/coverage-batch-2/kimpsonstable/web-2/5ebe676dbeaa12f72cd25a91550900be753c44f61247237c5f34aa104ea3a023.html",
+      "capture_sha256": "5ebe676dbeaa12f72cd25a91550900be753c44f61247237c5f34aa104ea3a023",
+      "frozen_signal_ids": [],
+      "variation": [
+        "venue_identity_unresolved"
+      ],
+      "account_result": "exact_account_unverified"
+    },
+    {
+      "merchant": "Bari Bari Steak",
+      "platform": "facebook",
+      "account": "61583504727882",
+      "authority": "verified",
+      "evidence_urls": [
+        "https://baribaristeak.com.sg/"
+      ],
+      "evidence_note": "Captured frozen reel canonical/og URL binds the exact video to numeric Facebook account 61583504727882. Merchant website links that exact profile.php?id identity. Instagram ownership is separate.",
+      "official_url": "https://baribaristeak.com.sg/",
+      "controlled_merchant": "Bari Bari Steak",
+      "control_evidence_refs": [
+        "tests/fixtures/coverage-batch-2/baribaristeak/web-2/manifest.json",
+        "https://baribaristeak.com.sg/"
+      ],
+      "capture_file": "tests/fixtures/coverage-batch-2/baribaristeak/web-2/d22a4cf20300796172cb0e7a062d28afec424dd6eb5e4ee03f8279491d91deba.html",
+      "capture_sha256": "d22a4cf20300796172cb0e7a062d28afec424dd6eb5e4ee03f8279491d91deba",
+      "frozen_signal_ids": [
+        "9ce240c76b2b0b286ca4f62bb61af07d272b7e662411f210d51124d4fa1360cd"
+      ],
+      "variation": [
+        "coverage_batch_2"
+      ],
+      "account_result": "exact_account_verified"
+    },
+    {
+      "merchant": "4Fingers",
+      "platform": "instagram",
+      "account": "gimme4fingers",
+      "authority": "verified",
+      "evidence_urls": [
+        "https://order.4fingers.com.sg/corp/my_profile"
+      ],
+      "evidence_note": "Merchant public ordering-shell footer links exact gimme4fingers profile; inline legal terms explicitly identify 4Fingers Pte. Ltd. and www.4fingers.com.sg. No profile data or authentication requested.",
+      "official_url": "https://order.4fingers.com.sg/corp/my_profile",
+      "controlled_merchant": "4Fingers",
+      "control_evidence_refs": [
+        "tests/fixtures/coverage-batch-2/4fingers/web-4/manifest.json",
+        "https://order.4fingers.com.sg/corp/my_profile"
+      ],
+      "capture_file": "tests/fixtures/coverage-batch-2/4fingers/web-4/47ac77f54b7348d8cfc65b80f41cd21c5488b49c67e84565a16aebdbe0f3b650.html",
+      "capture_sha256": "47ac77f54b7348d8cfc65b80f41cd21c5488b49c67e84565a16aebdbe0f3b650",
+      "frozen_signal_ids": [],
+      "variation": [
+        "js_web_shell"
+      ],
+      "account_result": "exact_account_verified"
+    }
+  ]
+}

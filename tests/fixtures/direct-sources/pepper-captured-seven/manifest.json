@@ -1,0 +1,45 @@
+{
+  "observedAt": "2026-09-30T14:58:22.881Z",
+  "pages": {
+    "https://www.pepperlunch.com.sg/promo/student-meal/": {
+      "path": "student-meal.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.pepperlunch.com.sg/promo/uper-value-deal/": {
+      "path": "uper-value-deal.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.pepperlunch.com.sg/promo/weekday-lunch/": {
+      "path": "weekday-lunch.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.pepperlunch.com.sg/promo/dine-with-pride/": {
+      "path": "dine-with-pride.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.pepperlunch.com.sg/promo/cheesy-omelette-2/": {
+      "path": "cheesy-omelette-2.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.pepperlunch.com.sg/promo/": {
+      "path": "listing.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.pepperlunch.com.sg/promo/peppie-meal/": {
+      "path": "peppie-meal.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.pepperlunch.com.sg/promo/delivery/": {
+      "path": "delivery.html",
+      "status": 200,
+      "contentType": "text/html"
+    }
+  }
+}

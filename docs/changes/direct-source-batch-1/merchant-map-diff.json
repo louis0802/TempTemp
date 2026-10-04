@@ -1,0 +1,675 @@
+{
+  "before": {
+    "merchant_count": 139,
+    "distinct_adapter_counts": {
+      "enabled": 2,
+      "shadow": 2
+    },
+    "historical_merchant_count": 138,
+    "adapter_status_counts": {
+      "enabled": 2,
+      "none": 134,
+      "shadow": 3
+    },
+    "autonomous_status_counts": {
+      "disabled_shadow": 3,
+      "enabled": 2,
+      "not_onboarded": 134
+    },
+    "source_family_counts": {
+      "app_deeplink_only": 1,
+      "app_deeplink_with_public_directory": 1,
+      "corporate_html_promotion_directory": 1,
+      "json_backed_retail_promotions": 1,
+      "platform_static_campaign": 1,
+      "wix_promotion_collection": 1,
+      "woocommerce_sale_catalog": 1,
+      "wordpress_dated_promotions": 1,
+      "wordpress_promotion_directory": 3
+    },
+    "unresolved_record_count": 67
+  },
+  "after": {
+    "merchant_count": 139,
+    "distinct_adapter_counts": {
+      "enabled": 2,
+      "shadow": 5
+    },
+    "historical_merchant_count": 138,
+    "adapter_status_counts": {
+      "enabled": 2,
+      "none": 131,
+      "shadow": 6
+    },
+    "autonomous_status_counts": {
+      "disabled_shadow": 6,
+      "enabled": 2,
+      "not_onboarded": 131
+    },
+    "source_family_counts": {
+      "app_deeplink_only": 1,
+      "app_deeplink_with_public_directory": 1,
+      "corporate_html_promotion_directory": 1,
+      "json_backed_retail_promotions": 1,
+      "platform_static_campaign": 1,
+      "wix_promotion_collection": 1,
+      "woocommerce_sale_catalog": 1,
+      "wordpress_dated_promotions": 1,
+      "wordpress_promotion_directory": 3
+    },
+    "unresolved_record_count": 67
+  },
+  "changedMerchants": [
+    "CS Foods",
+    "Dian Xiao Er",
+    "FairPrice",
+    "Kris+"
+  ],
+  "inputHashesUnchanged": true,
+  "rows": [
+    {
+      "merchant": "CS Foods",
+      "before": {
+        "merchant": "CS Foods",
+        "normalized_merchant": "csfoods",
+        "merchant_labels": [
+          "CS Foods"
+        ],
+        "operator": null,
+        "operator_source_families": [
+          "CS Foods"
+        ],
+        "historical_signal_count": 1,
+        "historical_offer_count": 6,
+        "observed_direct_domains": [
+          "csfoods.sg"
+        ],
+        "observed_direct_candidate_count": 7,
+        "ownership_status": "probable",
+        "enumerability_status": "partial",
+        "historical_enumerability_status": "partial",
+        "extraction_status": "mixed",
+        "adapter_status": "none",
+        "direct_source_id": null,
+        "source_family": [
+          "woocommerce_sale_catalog"
+        ],
+        "publication_enabled": false,
+        "autonomous_ingestion_status": "not_onboarded",
+        "known_blockers": [
+          "Blocked product pages limit full extraction",
+          "Catalogue pattern is observed on another page, not assumed product body structure",
+          "Current product price is not proof of Telegram discount",
+          "HTTP 403 CleanTalk anti-crawler page; not bypassed",
+          "No independent ownership confirmation; historical offer not verified",
+          "Old/new sale prices deterministic; no dated campaign terms",
+          "Ownership confirmation and anti-crawler access policy needed",
+          "Ownership not independently verified",
+          "Retail priceValidUntil must not become campaign validity"
+        ],
+        "evidence_refs": [
+          ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#10937de2b54be746d95225239f036bc6933bd5a1c7f86dae523664ebd057b91e",
+          ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#2a4063e80e10ac9ce4445b388400e72b2a080fae9113b9427faf7739aecdad29",
+          ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#2efd4077f412c100b3c53f36108b1f76ae4414542cf199da2c66e18361e1cc43",
+          ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#4774ad76672db2bcb5a529e2e934ace34e4d95dc8f65a0ce90b61f52e2c431ed",
+          ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#bc858af4cc66b3b32ad18abadb5f60158a947819655d5298f1aeb269c9e35262",
+          ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#d1986fc908c9ec9e012b7a576587e2396b381c1843c6684a17845cbbcb6cc8f2",
+          ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#10937de2b54be746d95225239f036bc6933bd5a1c7f86dae523664ebd057b91e",
+          ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#2a4063e80e10ac9ce4445b388400e72b2a080fae9113b9427faf7739aecdad29",
+          ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#2efd4077f412c100b3c53f36108b1f76ae4414542cf199da2c66e18361e1cc43",
+          ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#4774ad76672db2bcb5a529e2e934ace34e4d95dc8f65a0ce90b61f52e2c431ed",
+          ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#bc858af4cc66b3b32ad18abadb5f60158a947819655d5298f1aeb269c9e35262",
+          ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#d1986fc908c9ec9e012b7a576587e2396b381c1843c6684a17845cbbcb6cc8f2",
+          "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-02",
+          "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-03",
+          "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-04",
+          "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-05",
+          "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-06",
+          "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-07",
+          "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-08",
+          "https://csfoods.sg/shop/beef/marinated-beef/cubes/japanese-black-pepper-beef-cubes/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+          "https://csfoods.sg/shop/beef/primary-cuts/umami-prime-beef-striploin/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+          "https://csfoods.sg/shop/finger-food/meat/freezepak-chicken-nuggets/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+          "https://csfoods.sg/shop/finger-food/potato/mccain-original-shoestring-6-6-mm-fries/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+          "https://csfoods.sg/shop/poultry/marinated-chicken-poultry/thigh-marinated-chicken-poultry/teriyaki-chicken-thigh/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+          "https://csfoods.sg/shop/ready-to-eat/ready-dishes/rendang-beef-ready-to-eat/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+          "https://csfoods.sg/unbeatable-halal-meat-sale/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+        ],
+        "source_observations": [
+          {
+            "candidate_url": "https://csfoods.sg/shop/beef/marinated-beef/cubes/japanese-black-pepper-beef-cubes/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+            "domain": "csfoods.sg",
+            "ownership_status": "probable",
+            "enumerable": "partial",
+            "extraction": "inaccessible",
+            "family": "woocommerce_sale_catalog",
+            "app_findings": null
+          },
+          {
+            "candidate_url": "https://csfoods.sg/shop/beef/primary-cuts/umami-prime-beef-striploin/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+            "domain": "csfoods.sg",
+            "ownership_status": "probable",
+            "enumerable": "partial",
+            "extraction": "inaccessible",
+            "family": "woocommerce_sale_catalog",
+            "app_findings": null
+          },
+          {
+            "candidate_url": "https://csfoods.sg/shop/finger-food/meat/freezepak-chicken-nuggets/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+            "domain": "csfoods.sg",
+            "ownership_status": "probable",
+            "enumerable": "partial",
+            "extraction": "inaccessible",
+            "family": "woocommerce_sale_catalog",
+            "app_findings": null
+          },
+          {
+            "candidate_url": "https://csfoods.sg/shop/finger-food/potato/mccain-original-shoestring-6-6-mm-fries/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+            "domain": "csfoods.sg",
+            "ownership_status": "probable",
+            "enumerable": "partial",
+            "extraction": "inaccessible",
+            "family": "woocommerce_sale_catalog",
+            "app_findings": null
+          },
+          {
+            "candidate_url": "https://csfoods.sg/shop/poultry/marinated-chicken-poultry/thigh-marinated-chicken-poultry/teriyaki-chicken-thigh/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+            "domain": "csfoods.sg",
+            "ownership_status": "probable",
+            "enumerable": "partial",
+            "extraction": "inaccessible",
+            "family": "woocommerce_sale_catalog",
+            "app_findings": null
+          },
+          {
+            "candidate_url": "https://csfoods.sg/shop/ready-to-eat/ready-dishes/rendang-beef-ready-to-eat/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+            "domain": "csfoods.sg",
+            "ownership_status": "probable",
+            "enumerable": "partial",
+            "extraction": "structured",
+            "family": "woocommerce_sale_catalog",
+            "app_findings": null
+          },
+          {
+            "candidate_url": "https://csfoods.sg/unbeatable-halal-meat-sale/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+            "domain": "csfoods.sg",
+            "ownership_status": "probable",
+            "enumerable": "partial",
+            "extraction": "semi_structured",
+            "family": "woocommerce_sale_catalog",
+            "app_findings": null
+          }
+        ]
+      },
+      "after": {
+        "merchant": "CS Foods",
+        "normalized_merchant": "csfoods",
+        "merchant_labels": [
+          "CS Foods"
+        ],
+        "operator": "Chee Song Foods Pte Ltd",
+        "operator_source_families": [
+          "CS Foods"
+        ],
+        "historical_signal_count": 1,
+        "historical_offer_count": 6,
+        "observed_direct_domains": [
+          "csfoods.sg"
+        ],
+        "observed_direct_candidate_count": 7,
+        "ownership_status": "verified",
+        "enumerability_status": "partial",
+        "historical_enumerability_status": "partial",
+        "extraction_status": "mixed",
+        "adapter_status": "none",
+        "direct_source_id": null,
+        "source_family": [
+          "woocommerce_sale_catalog"
+        ],
+        "publication_enabled": false,
+        "autonomous_ingestion_status": "not_onboarded",
+        "known_blockers": [
+          "access_blocked",
+          "campaign_validity_unavailable",
+          "sale_catalogue_not_complete_campaign_enumeration"
+        ],
+        "evidence_refs": [
+          ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#10937de2b54be746d95225239f036bc6933bd5a1c7f86dae523664ebd057b91e",
+          ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#2a4063e80e10ac9ce4445b388400e72b2a080fae9113b9427faf7739aecdad29",
+          ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#2efd4077f412c100b3c53f36108b1f76ae4414542cf199da2c66e18361e1cc43",
+          ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#4774ad76672db2bcb5a529e2e934ace34e4d95dc8f65a0ce90b61f52e2c431ed",
+          ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#bc858af4cc66b3b32ad18abadb5f60158a947819655d5298f1aeb269c9e35262",
+          ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#d1986fc908c9ec9e012b7a576587e2396b381c1843c6684a17845cbbcb6cc8f2",
+          ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#10937de2b54be746d95225239f036bc6933bd5a1c7f86dae523664ebd057b91e",
+          ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#2a4063e80e10ac9ce4445b388400e72b2a080fae9113b9427faf7739aecdad29",
+          ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#2efd4077f412c100b3c53f36108b1f76ae4414542cf199da2c66e18361e1cc43",
+          ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#4774ad76672db2bcb5a529e2e934ace34e4d95dc8f65a0ce90b61f52e2c431ed",
+          ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#bc858af4cc66b3b32ad18abadb5f60158a947819655d5298f1aeb269c9e35262",
+          ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#d1986fc908c9ec9e012b7a576587e2396b381c1843c6684a17845cbbcb6cc8f2",
+          "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-02",
+          "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-03",
+          "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-04",
+          "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-05",
+          "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-06",
+          "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-07",
+          "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-08",
+          "docs/changes/direct-source-batch-1/research-ledger.json",
+          "docs/changes/direct-source-batch-1/research.md",
+          "https://csfoods.sg/shop/beef/marinated-beef/cubes/japanese-black-pepper-beef-cubes/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+          "https://csfoods.sg/shop/beef/primary-cuts/umami-prime-beef-striploin/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+          "https://csfoods.sg/shop/finger-food/meat/freezepak-chicken-nuggets/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+          "https://csfoods.sg/shop/finger-food/potato/mccain-original-shoestring-6-6-mm-fries/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+          "https://csfoods.sg/shop/poultry/marinated-chicken-poultry/thigh-marinated-chicken-poultry/teriyaki-chicken-thigh/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+          "https://csfoods.sg/shop/ready-to-eat/ready-dishes/rendang-beef-ready-to-eat/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+          "https://csfoods.sg/unbeatable-halal-meat-sale/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+        ],
+        "source_observations": [
+          {
+            "candidate_url": "https://csfoods.sg/shop/beef/marinated-beef/cubes/japanese-black-pepper-beef-cubes/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+            "domain": "csfoods.sg",
+            "ownership_status": "probable",
+            "enumerable": "partial",
+            "extraction": "inaccessible",
+            "family": "woocommerce_sale_catalog",
+            "app_findings": null
+          },
+          {
+            "candidate_url": "https://csfoods.sg/shop/beef/primary-cuts/umami-prime-beef-striploin/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+            "domain": "csfoods.sg",
+            "ownership_status": "probable",
+            "enumerable": "partial",
+            "extraction": "inaccessible",
+            "family": "woocommerce_sale_catalog",
+            "app_findings": null
+          },
+          {
+            "candidate_url": "https://csfoods.sg/shop/finger-food/meat/freezepak-chicken-nuggets/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+            "domain": "csfoods.sg",
+            "ownership_status": "probable",
+            "enumerable": "partial",
+            "extraction": "inaccessible",
+            "family": "woocommerce_sale_catalog",
+            "app_findings": null
+          },
+          {
+            "candidate_url": "https://csfoods.sg/shop/finger-food/potato/mccain-original-shoestring-6-6-mm-fries/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+            "domain": "csfoods.sg",
+            "ownership_status": "probable",
+            "enumerable": "partial",
+            "extraction": "inaccessible",
+            "family": "woocommerce_sale_catalog",
+            "app_findings": null
+          },
+          {
+            "candidate_url": "https://csfoods.sg/shop/poultry/marinated-chicken-poultry/thigh-marinated-chicken-poultry/teriyaki-chicken-thigh/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+            "domain": "csfoods.sg",
+            "ownership_status": "probable",
+            "enumerable": "partial",
+            "extraction": "inaccessible",
+            "family": "woocommerce_sale_catalog",
+            "app_findings": null
+          },
+          {
+            "candidate_url": "https://csfoods.sg/shop/ready-to-eat/ready-dishes/rendang-beef-ready-to-eat/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+            "domain": "csfoods.sg",
+            "ownership_status": "probable",
+            "enumerable": "partial",
+            "extraction": "structured",
+            "family": "woocommerce_sale_catalog",
+            "app_findings": null
+          },
+          {
+            "candidate_url": "https://csfoods.sg/unbeatable-halal-meat-sale/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+            "domain": "csfoods.sg",
+            "ownership_status": "probable",
+            "enumerable": "partial",
+            "extraction": "semi_structured",
+            "family": "woocommerce_sale_catalog",
+            "app_findings": null
+          }
+        ]
+      }
+    },
+    {
+      "merchant": "Dian Xiao Er",
+      "before": {
+        "merchant": "Dian Xiao Er",
+        "normalized_merchant": "dianxiaoer",
+        "merchant_labels": [
+          "Dian Xiao Er"
+        ],
+        "operator": null,
+        "operator_source_families": [
+          "Dian Xiao Er"
+        ],
+        "historical_signal_count": 2,
+        "historical_offer_count": 2,
+        "observed_direct_domains": [
+          "dianxiaoer.com.sg"
+        ],
+        "observed_direct_candidate_count": 1,
+        "ownership_status": "probable",
+        "enumerability_status": "partial",
+        "historical_enumerability_status": "partial",
+        "extraction_status": "image_only",
+        "adapter_status": "none",
+        "direct_source_id": null,
+        "source_family": [
+          "wix_promotion_collection"
+        ],
+        "publication_enabled": false,
+        "autonomous_ingestion_status": "not_onboarded",
+        "known_blockers": [
+          "Determine public Wix collection/lightbox mapping and ownership before adapter work",
+          "Do not assign neighboring gallery captions to selected lightbox offer",
+          "Important campaign facts require image inspection; no OCR performed"
+        ],
+        "evidence_refs": [
+          ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#9e1694c30a20e0c67588124c25742de9893c2402806d2aa9e23877d4feb40e4f",
+          ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#9e1694c30a20e0c67588124c25742de9893c2402806d2aa9e23877d4feb40e4f",
+          "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-10",
+          "https://www.dianxiaoer.com.sg/promo?lightbox=dataItem-msxym06a&utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+          "tests/corpus/mvp-conformance-reviewed.json#f28a2970-bb28-44e2-b7ac-27a961d0ba96"
+        ],
+        "source_observations": [
+          {
+            "candidate_url": "https://www.dianxiaoer.com.sg/promo?lightbox=dataItem-msxym06a&utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+            "domain": "dianxiaoer.com.sg",
+            "ownership_status": "probable",
+            "enumerable": "partial",
+            "extraction": "image_only",
+            "family": "wix_promotion_collection",
+            "app_findings": null
+          }
+        ]
+      },
+      "after": {
+        "merchant": "Dian Xiao Er",
+        "normalized_merchant": "dianxiaoer",
+        "merchant_labels": [
+          "Dian Xiao Er"
+        ],
+        "operator": "Dian Xiao Er (legal operator not independently established)",
+        "operator_source_families": [
+          "Dian Xiao Er"
+        ],
+        "historical_signal_count": 2,
+        "historical_offer_count": 2,
+        "observed_direct_domains": [
+          "dianxiaoer.com.sg"
+        ],
+        "observed_direct_candidate_count": 1,
+        "ownership_status": "probable",
+        "enumerability_status": "partial",
+        "historical_enumerability_status": "partial",
+        "extraction_status": "image_only",
+        "adapter_status": "shadow",
+        "direct_source_id": "dian_xiao_er_sg",
+        "source_family": [
+          "wix_promotion_collection"
+        ],
+        "publication_enabled": false,
+        "autonomous_ingestion_status": "disabled_shadow",
+        "known_blockers": [
+          "image_only_campaign_facts",
+          "lightbox_mapping_unresolved",
+          "ownership_unverified",
+          "partial_enumeration"
+        ],
+        "evidence_refs": [
+          ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#9e1694c30a20e0c67588124c25742de9893c2402806d2aa9e23877d4feb40e4f",
+          ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#9e1694c30a20e0c67588124c25742de9893c2402806d2aa9e23877d4feb40e4f",
+          "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-10",
+          "docs/changes/direct-source-batch-1/research.md",
+          "docs/changes/direct-source-batch-1/research.md (contact/copyright and membership pages do not independently establish legal ownership)",
+          "https://www.dianxiaoer.com.sg/",
+          "https://www.dianxiaoer.com.sg/membership",
+          "https://www.dianxiaoer.com.sg/promo?lightbox=dataItem-msxym06a&utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+          "tests/corpus/mvp-conformance-reviewed.json#f28a2970-bb28-44e2-b7ac-27a961d0ba96",
+          "tests/fixtures/direct-sources/dian-xiao-er/manifest.json"
+        ],
+        "source_observations": [
+          {
+            "candidate_url": "https://www.dianxiaoer.com.sg/promo?lightbox=dataItem-msxym06a&utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+            "domain": "dianxiaoer.com.sg",
+            "ownership_status": "probable",
+            "enumerable": "partial",
+            "extraction": "image_only",
+            "family": "wix_promotion_collection",
+            "app_findings": null
+          }
+        ]
+      }
+    },
+    {
+      "merchant": "FairPrice",
+      "before": {
+        "merchant": "FairPrice",
+        "normalized_merchant": "fairprice",
+        "merchant_labels": [
+          "FairPrice"
+        ],
+        "operator": null,
+        "operator_source_families": [
+          "FairPrice Group"
+        ],
+        "historical_signal_count": 1,
+        "historical_offer_count": 1,
+        "observed_direct_domains": [
+          "fairprice.com.sg"
+        ],
+        "observed_direct_candidate_count": 1,
+        "ownership_status": "verified",
+        "enumerability_status": "partial",
+        "historical_enumerability_status": "partial",
+        "extraction_status": "semi_structured",
+        "adapter_status": "none",
+        "direct_source_id": null,
+        "source_family": [
+          "json_backed_retail_promotions"
+        ],
+        "publication_enabled": false,
+        "autonomous_ingestion_status": "not_onboarded",
+        "known_blockers": [
+          "JSON-LD block has trailing extra brace and a rolling priceValidUntil that differs from campaign expiry; do not treat as trustworthy campaign structure",
+          "Online product/gift does not establish physical promotion outlet coverage",
+          "Participating product set and pagination completeness need bounded follow-up"
+        ],
+        "evidence_refs": [
+          ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#5779b409051cab6a235b851e1c643a18d1a1777235416d9944c0bb8e903dde1c",
+          ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#5779b409051cab6a235b851e1c643a18d1a1777235416d9944c0bb8e903dde1c",
+          "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-12",
+          "https://www.fairprice.com.sg/product/13137742?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+        ],
+        "source_observations": [
+          {
+            "candidate_url": "https://www.fairprice.com.sg/product/13137742?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+            "domain": "fairprice.com.sg",
+            "ownership_status": "verified",
+            "enumerable": "partial",
+            "extraction": "semi_structured",
+            "family": "json_backed_retail_promotions",
+            "app_findings": null
+          }
+        ]
+      },
+      "after": {
+        "merchant": "FairPrice",
+        "normalized_merchant": "fairprice",
+        "merchant_labels": [
+          "FairPrice"
+        ],
+        "operator": "NTUC FairPrice Co-operative Limited",
+        "operator_source_families": [
+          "FairPrice Group"
+        ],
+        "historical_signal_count": 1,
+        "historical_offer_count": 1,
+        "observed_direct_domains": [
+          "fairprice.com.sg"
+        ],
+        "observed_direct_candidate_count": 1,
+        "ownership_status": "verified",
+        "enumerability_status": "partial",
+        "historical_enumerability_status": "partial",
+        "extraction_status": "semi_structured",
+        "adapter_status": "shadow",
+        "direct_source_id": "fairprice_sg",
+        "source_family": [
+          "json_backed_retail_promotions"
+        ],
+        "publication_enabled": false,
+        "autonomous_ingestion_status": "disabled_shadow",
+        "known_blockers": [
+          "catalogue_detail_facts_unavailable",
+          "catalogue_product_set_unresolved",
+          "partial_enumeration",
+          "physical_participation_unresolved"
+        ],
+        "evidence_refs": [
+          ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#5779b409051cab6a235b851e1c643a18d1a1777235416d9944c0bb8e903dde1c",
+          ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#5779b409051cab6a235b851e1c643a18d1a1777235416d9944c0bb8e903dde1c",
+          "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-12",
+          "docs/changes/direct-source-batch-1/research.md",
+          "docs/changes/direct-source-batch-1/research.md (official terms identify the exact service website; direct legal-page 403 retained, no bypass)",
+          "https://help.fairprice.com.sg/hc/en-us/articles/360025882372-Terms-Conditions",
+          "https://www.fairprice.com.sg/product/13137742?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+          "tests/fixtures/direct-sources/fairprice/manifest.json"
+        ],
+        "source_observations": [
+          {
+            "candidate_url": "https://www.fairprice.com.sg/product/13137742?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals",
+            "domain": "fairprice.com.sg",
+            "ownership_status": "verified",
+            "enumerable": "partial",
+            "extraction": "semi_structured",
+            "family": "json_backed_retail_promotions",
+            "app_findings": null
+          }
+        ]
+      }
+    },
+    {
+      "merchant": "Kris+",
+      "before": {
+        "merchant": "Kris+",
+        "normalized_merchant": "kris",
+        "merchant_labels": [
+          "Kris+"
+        ],
+        "operator": null,
+        "operator_source_families": [
+          "Singapore Airlines"
+        ],
+        "historical_signal_count": 1,
+        "historical_offer_count": 1,
+        "observed_direct_domains": [
+          "app.krisplus.com"
+        ],
+        "observed_direct_candidate_count": 1,
+        "ownership_status": "probable",
+        "enumerability_status": "no",
+        "historical_enumerability_status": "no",
+        "extraction_status": "app_only",
+        "adapter_status": "none",
+        "direct_source_id": null,
+        "source_family": [
+          "app_deeplink_with_public_directory"
+        ],
+        "publication_enabled": false,
+        "autonomous_ingestion_status": "not_onboarded",
+        "known_blockers": [
+          "Confirm independent ownership link for exact app hostname",
+          "Load-more completeness and linked campaign fact extraction remain follow-up; do not use private APIs",
+          "Public directory is independently discoverable; sampled Birthday Bash correspondence not found"
+        ],
+        "evidence_refs": [
+          ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#b09cbebd554d9088b575c275670b64d7a8fede70423d9e31e58bcfba34bddfad",
+          ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#b09cbebd554d9088b575c275670b64d7a8fede70423d9e31e58bcfba34bddfad",
+          "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-01",
+          "https://app.krisplus.com/Oct26_SG_BBash_SGFD"
+        ],
+        "source_observations": [
+          {
+            "candidate_url": "https://app.krisplus.com/Oct26_SG_BBash_SGFD",
+            "domain": "app.krisplus.com",
+            "ownership_status": "probable",
+            "enumerable": "no",
+            "extraction": "app_only",
+            "family": "app_deeplink_with_public_directory",
+            "app_findings": {
+              "corresponding_web_campaign": "unknown",
+              "metadata_before_launch": "Only generic Kris+ branding, store links and download QR; no Birthday Bash benefits or validity.",
+              "stable_campaign_identifier": "Oct26_SG_BBash_SGFD (observed alias; durability unknown); Branch path 0Tcg4cORE6b",
+              "public_listing_endpoint": "https://www.krisplus.com/en/sg/promotions — captured HTML lists campaigns with stable slug/hash paths and Load more; public partners/deals/privileges links also observed; pagination transport not inspected.",
+              "authentication": "No login for public directory/download. In-app campaign access unknown; Singapore Airlines guides describe member accounts for redemption.",
+              "acquisition_role": "evidence_only"
+            }
+          }
+        ]
+      },
+      "after": {
+        "merchant": "Kris+",
+        "normalized_merchant": "kris",
+        "merchant_labels": [
+          "Kris+"
+        ],
+        "operator": "Kris+ Pte Ltd",
+        "operator_source_families": [
+          "Singapore Airlines"
+        ],
+        "historical_signal_count": 1,
+        "historical_offer_count": 1,
+        "observed_direct_domains": [
+          "app.krisplus.com"
+        ],
+        "observed_direct_candidate_count": 1,
+        "ownership_status": "verified",
+        "enumerability_status": "partial",
+        "historical_enumerability_status": "no",
+        "extraction_status": "app_only",
+        "adapter_status": "shadow",
+        "direct_source_id": "kris_plus_sg",
+        "source_family": [
+          "app_deeplink_with_public_directory"
+        ],
+        "publication_enabled": false,
+        "autonomous_ingestion_status": "disabled_shadow",
+        "known_blockers": [
+          "campaign_offer_scopes_unresolved",
+          "partial_enumeration",
+          "partner_publication_configuration_unmodeled",
+          "unresolved_load_more"
+        ],
+        "evidence_refs": [
+          ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#b09cbebd554d9088b575c275670b64d7a8fede70423d9e31e58bcfba34bddfad",
+          ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json#b09cbebd554d9088b575c275670b64d7a8fede70423d9e31e58bcfba34bddfad",
+          "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/direct-source-audit/2026-09-30-captured-evidence/reviewed-evidence-final.json#candidate-01",
+          "docs/changes/direct-source-batch-1/research.md",
+          "docs/changes/direct-source-batch-1/research.md (exact website legal operator declaration, separately captured from directory)",
+          "https://app.krisplus.com/Oct26_SG_BBash_SGFD",
+          "https://www.krisplus.com/en/sg/terms-and-conditions",
+          "tests/fixtures/direct-sources/kris-plus/manifest.json"
+        ],
+        "source_observations": [
+          {
+            "candidate_url": "https://app.krisplus.com/Oct26_SG_BBash_SGFD",
+            "domain": "app.krisplus.com",
+            "ownership_status": "probable",
+            "enumerable": "no",
+            "extraction": "app_only",
+            "family": "app_deeplink_with_public_directory",
+            "app_findings": {
+              "corresponding_web_campaign": "unknown",
+              "metadata_before_launch": "Only generic Kris+ branding, store links and download QR; no Birthday Bash benefits or validity.",
+              "stable_campaign_identifier": "Oct26_SG_BBash_SGFD (observed alias; durability unknown); Branch path 0Tcg4cORE6b",
+              "public_listing_endpoint": "https://www.krisplus.com/en/sg/promotions — captured HTML lists campaigns with stable slug/hash paths and Load more; public partners/deals/privileges links also observed; pagination transport not inspected.",
+              "authentication": "No login for public directory/download. In-app campaign access unknown; Singapore Airlines guides describe member accounts for redemption.",
+              "acquisition_role": "evidence_only"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

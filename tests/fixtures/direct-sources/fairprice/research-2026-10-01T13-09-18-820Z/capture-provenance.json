@@ -1,0 +1,85 @@
+{
+  "merchant": "fairprice",
+  "limits": {
+    "maxRequests": 40,
+    "maxListingPages": 5,
+    "maxDetailPages": 20,
+    "maxEvidencePages": 8,
+    "maxBytes": 3000000,
+    "timeoutMs": 12000,
+    "maxRedirects": 3
+  },
+  "jobs": [
+    {
+      "url": "https://www.fairprice.com.sg/promotions",
+      "purpose": "promotions listing and first-party inline state",
+      "kind": "listing"
+    },
+    {
+      "url": "https://www.fairprice.com.sg/events/weekly-promotions/",
+      "purpose": "official campaign catalogue root",
+      "kind": "listing"
+    }
+  ],
+  "attempts": [
+    {
+      "url": "https://www.fairprice.com.sg/promotions",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.fairprice.com.sg/events/weekly-promotions/",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": 404,
+      "error": "http_404",
+      "redirectTo": null
+    }
+  ],
+  "captures": [
+    {
+      "requestedUrl": "https://www.fairprice.com.sg/promotions",
+      "finalUrl": "https://www.fairprice.com.sg/promotions",
+      "capturedAt": "2026-10-01T13:09:18.822Z",
+      "observedAt": "2026-10-01T13:09:18.822Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 2742367,
+      "sha256": "b9ca9ac5408770eec90f7c11e10c7ba2096b9bcb79d9d36ee962336c1935f091",
+      "path": "b9ca9ac5408770eec90f7c11e10c7ba2096b9bcb79d9d36ee962336c1935f091.html",
+      "purpose": "promotions listing and first-party inline state",
+      "kind": "listing",
+      "accessBlocked": false
+    },
+    {
+      "requestedUrl": "https://www.fairprice.com.sg/events/weekly-promotions/",
+      "finalUrl": "https://www.fairprice.com.sg/events/weekly-promotions/",
+      "capturedAt": "2026-10-01T13:09:21.338Z",
+      "observedAt": "2026-10-01T13:09:21.338Z",
+      "httpStatus": 404,
+      "contentType": "text/html",
+      "bytes": 31285,
+      "sha256": "040f38798c005d4583c035d5e8df3cea1b746d4d6fdb449cc60f37ebeb7cefc1",
+      "path": "040f38798c005d4583c035d5e8df3cea1b746d4d6fdb449cc60f37ebeb7cefc1.html",
+      "purpose": "official campaign catalogue root",
+      "kind": "listing",
+      "accessBlocked": true
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://www.fairprice.com.sg/events/weekly-promotions/",
+      "error": "http_404"
+    }
+  ],
+  "cumulativeCounts": {
+    "listing": 2,
+    "detail": 0,
+    "evidence": 0
+  },
+  "cumulativeAttempts": 2,
+  "note": "Explicit public research roots, ordinary bounded direct transport; no cookies/auth/private APIs/OCR or browser. Research evidence is not production registration."
+}

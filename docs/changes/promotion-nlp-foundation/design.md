@@ -1,0 +1,15 @@
+# Design
+
+Add only `src/ingestion/promotion-nlp/`, narrowly named research scripts/tests/fixtures/docs and one npm command. No imports from production entry points into this module and no DB dependencies. Reuse Zod and native fetch; no vendor SDK types enter direct-source domain code.
+
+`PromotionTextEvidence` contains bounded normalized isolated text, sourceId, canonicalUrl, nativeId, evidenceId, selector, merchantHint/titleHint. Prompt payload deliberately omits URL/ID/timestamp metadata; hints are labelled non-evidence. Normalization collapses whitespace without changing case, punctuation or Unicode. Quotes must be literal substrings after this source normalization; do not fuzzy-rescue output.
+
+A strict schema wraps classification and each fact in `{value, quote}`. Provider `extract(evidence)` returns unknown structured payload for mandatory validation. Metadata is separate and contains only allowlisted provider/model/version/config values. One OpenAI Responses HTTP provider uses `text.format` with strict JSON Schema, no tools, store=false, zero temperature when supported, hard input/output/response bounds, AbortController timeout, and no retries. Offline provider clones checked fixture outputs.
+
+Validator parses the whole envelope fail-closed, then validates fields independently and returns accepted/rejected/issues. Calendar dates, range ordering, explicit years in date quotes, weekday sets, canonical single hour range, exact names in their quote and scope coherence are deterministic checks, not another language parser. A valid quote does not prove its semantic association; scoring must expose such survivors.
+
+Mapper takes evidence + validated output + existing DirectSourceContext. Revalidate at the mapping boundary, verify matching source/evidence, and call newCandidate/cite/finalizeCandidate. Multiple date/location quotes become their smallest covering source substring because existing provenance has one quote per field group. Registry merchant provenance is clearly labelled configuration context. Preserve full isolated text as description to retain unrepresented restrictions. Always add `promotion_nlp_research_only`; non-promotions yield no candidate. Never expose raw provider output to publication.
+
+Gold cases retain capture path/hash, selector/extraction recipe, exact normalized sourceText, supported values/quotes, explicit unknowns, rationale and optional captured parser comparison. Construction is captured-file-only, checked gold is authoritative, and offline outputs are a contract replay, not an LLM accuracy claim. Scoring compares all fields, including malformed raw values, catches, survivors and current-parser differences. Harness writes exclusive UUID run directories under ignored `.local/promotion-nlp/` and records benchmark/prompt/schema hashes.
+
+No migration or rollout. Removal is rollback. Readiness remains benchmark-only until actual live cross-layout evidence supports shadow evaluation; new adapters/replacement remain outside scope.

@@ -1,0 +1,3182 @@
+{
+  "version": 1,
+  "kind": "checked-contract-replay-not-model-evaluation",
+  "outputs": {
+    "3eadf06aa4892d3c7f7bf9b194556670cfaf71a81fea8717dad5c5d24b326927:pepper_lunch_sg-student-meal": {
+      "classification": {
+        "value": "promotion",
+        "quote": "Get a 15% OFF any main dish from the main menu after 5pm."
+      },
+      "merchant": {
+        "value": "Pepper Lunch",
+        "quote": "Pepper Lunch"
+      },
+      "title": {
+        "value": "Student Meal",
+        "quote": "Student Meal"
+      },
+      "benefit": {
+        "value": "15% OFF",
+        "quote": "Get a 15% OFF any main dish from the main menu after 5pm."
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": [1, 2, 3, 4, 5],
+        "quote": "Available on weekdays only, excluding public holidays and eve of Lunar New Year."
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": "source_unspecified",
+        "quote": "Valid at Pepper Lunch restaurants only."
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": "Valid at Pepper Lunch restaurants only.",
+        "quote": "Valid at Pepper Lunch restaurants only."
+      },
+      "eligibility": {
+        "value": [
+          "One main dish per valid Student Card presented by the student himself/herself at the cashier."
+        ],
+        "quote": "One main dish per valid Student Card presented by the student himself/herself at the cashier."
+      },
+      "redemption": {
+        "value": [
+          "One main dish per valid Student Card presented by the student himself/herself at the cashier."
+        ],
+        "quote": "One main dish per valid Student Card presented by the student himself/herself at the cashier."
+      },
+      "terms": {
+        "value": [
+          "Get a 15% OFF any main dish from the main menu after 5pm.",
+          "Available on weekdays only, excluding public holidays and eve of Lunar New Year.",
+          "One main dish per valid Student Card presented by the student himself/herself at the cashier.",
+          "Valid at Pepper Lunch restaurants only.",
+          "Dine-in only (Applicable for Student Meal Dishes only, Mon-Fri, opening till 5pm).",
+          "Please note that we do not take reservation at all our Restaurants or Express stores.",
+          "Kindly walk-in to dine-in and enjoy your sizzling hot meal."
+        ],
+        "quote": "Get a 15% OFF any main dish from the main menu after 5pm. Available on weekdays only, excluding public holidays and eve of Lunar New Year. One main dish per valid Student Card presented by the student himself/herself at the cashier. Valid at Pepper Lunch restaurants only. Dine-in only (Applicable for Student Meal Dishes only, Mon-Fri, opening till 5pm). Please note that we do not take reservation at all our Restaurants or Express stores. Kindly walk-in to dine-in and enjoy your sizzling hot meal."
+      }
+    },
+    "64f97fd42e978a0dbee54fc9affe6ca3c92f40321765edd94e97ff3801e0bbd4:pepper_lunch_sg-uper-value-deal": {
+      "classification": {
+        "value": "promotion",
+        "quote": "Enjoy savings of up to 32% off for a limited time only."
+      },
+      "merchant": {
+        "value": "Pepper Lunch",
+        "quote": "Pepper Lunch"
+      },
+      "title": {
+        "value": "$uper Value Deal",
+        "quote": "$uper Value Deal"
+      },
+      "benefit": {
+        "value": "up to 32% off",
+        "quote": "Enjoy savings of up to 32% off for a limited time only."
+      },
+      "startDate": {
+        "value": "2026-09-01",
+        "quote": "Available from 1 September to 31 October 2026."
+      },
+      "endDate": {
+        "value": "2026-10-31",
+        "quote": "Available from 1 September to 31 October 2026."
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": null,
+        "quote": null
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": null,
+        "quote": null
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": null,
+        "quote": null
+      },
+      "terms": {
+        "value": [
+          "Image(s) for illustration purposes only.",
+          "Not valid with other promotions, vouchers and mobile payment with rebates or discounts."
+        ],
+        "quote": "Image(s) for illustration purposes only. Not valid with other promotions, vouchers and mobile payment with rebates or discounts."
+      }
+    },
+    "6098ecc92165f959070f51ceebc3b570a7b811f6b433fddd9e1843d8fce45cdf:pepper_lunch_sg-weekday-lunch": {
+      "classification": {
+        "value": "promotion",
+        "quote": "Weekday Lunch"
+      },
+      "merchant": {
+        "value": null,
+        "quote": null
+      },
+      "title": {
+        "value": "Weekday Lunch",
+        "quote": "Weekday Lunch"
+      },
+      "benefit": {
+        "value": null,
+        "quote": null
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": [1, 2, 3, 4, 5],
+        "quote": "Promotion is only valid from Mondays to Fridays, excluding Public Holidays."
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": null,
+        "quote": null
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": null,
+        "quote": null
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": ["For Dine-In only."],
+        "quote": "For Dine-In only."
+      },
+      "terms": {
+        "value": [
+          "1.",
+          "Image(s) for illustration purposes only.",
+          "2.",
+          "For Dine-In only.",
+          "3.",
+          "Promotion is only valid from Mondays to Fridays, excluding Public Holidays.",
+          "4.",
+          "Choice of miso soup or seasonal soup, subject to availability.",
+          "5.",
+          "Not valid with other promotions and coupons.",
+          "While stocks last."
+        ],
+        "quote": "1. Image(s) for illustration purposes only. 2. For Dine-In only. 3. Promotion is only valid from Mondays to Fridays, excluding Public Holidays. 4. Choice of miso soup or seasonal soup, subject to availability. 5. Not valid with other promotions and coupons. While stocks last."
+      }
+    },
+    "fbf61e5a6264aba66ea97fd273b9b13e936e67b64e3a5dca7fd44fff7c5a3764:pepper_lunch_sg-dine-with-pride": {
+      "classification": {
+        "value": "promotion",
+        "quote": "enjoy 15% off all ala carte main dishes"
+      },
+      "merchant": {
+        "value": "Pepper Lunch",
+        "quote": "Pepper Lunch"
+      },
+      "title": {
+        "value": "Dine with Pride",
+        "quote": "Dine with Pride"
+      },
+      "benefit": {
+        "value": "15% off",
+        "quote": "enjoy 15% off all ala carte main dishes"
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": [1, 2, 3, 4, 5, 6, 7],
+        "quote": "available daily at all Pepper Lunch Restaurant outlets."
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": "all_outlets",
+        "quote": "available daily at all Pepper Lunch Restaurant outlets."
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": "available daily at all Pepper Lunch Restaurant outlets.",
+        "quote": "available daily at all Pepper Lunch Restaurant outlets."
+      },
+      "eligibility": {
+        "value": ["Applicable to NSmen only."],
+        "quote": "Applicable to NSmen only."
+      },
+      "redemption": {
+        "value": [
+          "For dine-in only.",
+          "Customer is required to present 11B to enjoy the discount."
+        ],
+        "quote": "For dine-in only. 3. *Discount applies to the ala carte main dishes. 4. Limited to 1 ala carte main dish per person. 5. Not valid with other privileges, discounts, or promotions. 6. Applicable to NSmen only. 7. Customer is required to present 11B to enjoy the discount."
+      },
+      "terms": {
+        "value": [
+          "1.",
+          "Image(s) for illustration purposes only.",
+          "2.",
+          "For dine-in only.",
+          "3. *Discount applies to the ala carte main dishes.",
+          "4.",
+          "Limited to 1 ala carte main dish per person.",
+          "5.",
+          "Not valid with other privileges, discounts, or promotions.",
+          "6.",
+          "Applicable to NSmen only.",
+          "7.",
+          "Customer is required to present 11B to enjoy the discount.",
+          "8.",
+          "Available daily at all Pepper Lunch Restaurant outlets, excluding eve of Chinese New Year and public holidays."
+        ],
+        "quote": "1. Image(s) for illustration purposes only. 2. For dine-in only. 3. *Discount applies to the ala carte main dishes. 4. Limited to 1 ala carte main dish per person. 5. Not valid with other privileges, discounts, or promotions. 6. Applicable to NSmen only. 7. Customer is required to present 11B to enjoy the discount. 8. Available daily at all Pepper Lunch Restaurant outlets, excluding eve of Chinese New Year and public holidays."
+      }
+    },
+    "b88843bd0de8d6c07370f85b9138428e866e3109b11bb56f8cdcc7a7cb8b8e44:pepper_lunch_sg-cheesy-omelette-2": {
+      "classification": {
+        "value": "non_promotion",
+        "quote": "Cheesy Omelette The Ultimate Fan-Favourite is Back! With more than 100,000 sold, our Cheesy Omelette is back by popular demand — fluffy, melty and loaded with irresistible cheesy goodness. Choose your favourite: - Beef Slices Cheesy Omelette – The returning hero that started it all. - Chicken Steak Cheesy Omelette – An all-time favourite, juicy and satisfying. - Striploin Steak (Beef 150g) Cheesy Omelette – The premium pick for an indulgent upgrade. 1. Image(s) for illustration purposes only. 2. For dine-in only. 3. *Additional charges apply for choice of NESTLÉ® MILO®, NESTLÉ® SJORA®, Seasonal Drink, Savoury Salad, Seasonal Dessert and/or other add-ons. 4. Not valid with other promotions and coupons. 5. While stocks last."
+      },
+      "merchant": {
+        "value": null,
+        "quote": null
+      },
+      "title": {
+        "value": null,
+        "quote": null
+      },
+      "benefit": {
+        "value": null,
+        "quote": null
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": null,
+        "quote": null
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": null,
+        "quote": null
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": null,
+        "quote": null
+      },
+      "terms": {
+        "value": null,
+        "quote": null
+      }
+    },
+    "04a6fd1d7e09a8df89a1cf6063669aa7a422720e2c5100b08960d81c96b36a6c:pepper_lunch_sg-peppie-meal": {
+      "classification": {
+        "value": "promotion",
+        "quote": "Kid’s Meal (Beef) with 1 packet of Ribena at $7.90"
+      },
+      "merchant": {
+        "value": "Pepper Lunch",
+        "quote": "Pepper Lunch"
+      },
+      "title": {
+        "value": "Peppie Meal",
+        "quote": "Peppie Meal"
+      },
+      "benefit": {
+        "value": "Kid’s Meal (Beef) with 1 packet of Ribena at $7.90",
+        "quote": "Kid’s Meal (Beef) with 1 packet of Ribena at $7.90"
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": [1, 2, 3, 4, 5, 6, 7],
+        "quote": "Promotion is available daily, excluding eve of Chinese New Year."
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": "all_outlets",
+        "quote": "Available at all Pepper Lunch Restaurants."
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": "Available at all Pepper Lunch Restaurants.",
+        "quote": "Available at all Pepper Lunch Restaurants."
+      },
+      "eligibility": {
+        "value": [
+          "Kid’s meal is valid for 7 years old and below only.",
+          "Kids must be present upon ordering."
+        ],
+        "quote": "Kid’s meal is valid for 7 years old and below only. 4. Kids must be present upon ordering."
+      },
+      "redemption": {
+        "value": ["For dine-in only.", "Kids must be present upon ordering."],
+        "quote": "For dine-in only. 3. Kid’s meal is valid for 7 years old and below only. 4. Kids must be present upon ordering."
+      },
+      "terms": {
+        "value": [
+          "1.",
+          "Image(s) for illustration purposes only.",
+          "2.",
+          "For dine-in only.",
+          "3.",
+          "Kid’s meal is valid for 7 years old and below only.",
+          "4.",
+          "Kids must be present upon ordering.",
+          "5.",
+          "Not valid for use in conjunction with other discounts, promotions, privileges, coupons, vouchers, Weekday Lunch and Student Meals.",
+          "6.",
+          "Promotion is available daily, excluding eve of Chinese New Year.",
+          "7.",
+          "While stocks last."
+        ],
+        "quote": "1. Image(s) for illustration purposes only. 2. For dine-in only. 3. Kid’s meal is valid for 7 years old and below only. 4. Kids must be present upon ordering. 5. Not valid for use in conjunction with other discounts, promotions, privileges, coupons, vouchers, Weekday Lunch and Student Meals. 6. Promotion is available daily, excluding eve of Chinese New Year. 7. While stocks last."
+      }
+    },
+    "b722747030518cd7ba6efc1ed2451d9f4ce1c2c62452026b524a579cc8a0eddc:pepper_lunch_sg-delivery": {
+      "classification": {
+        "value": "non_promotion",
+        "quote": "Have Your Meals Delivered! All our Delivery Partners are able to delivery and self-pickup in the areas near our restaurants. GrabFood 1Delivery near TAMPINES ONE with Grab Food. 2Delivery near BEDOK MALL with Grab Food. 3Delivery near JEM with Grab Food. 4Delivery near JURONG POINT with Grab Food. 5Delivery near COMPASS ONE with Grab Food. 6Delivery near ANG MO KIO HUB with Grab Food. 7Delivery near HOUGANG MALL with Grab Food. Foodpanda 1Delivery near TAMPINES ONE with Foodpanda. 2Delivery near BEDOK MALL with Foodpanda. 3Delivery near JEM with Foodpanda. 4Delivery near JURONG POINT with Foodpanda. 5Delivery near COMPASS ONE with Foodpanda. 6Delivery near ANG MO KIO HUB with Foodpanda. 7Delivery near HOUGANG MALL with Foodpanda. 8Delivery near THE WOODLEIGH MALL with Foodpanda. Food Delivery for the Express stores. Limited to signature dishes only. 1Delivery near ASIA SQUARE with Grab Food."
+      },
+      "merchant": {
+        "value": null,
+        "quote": null
+      },
+      "title": {
+        "value": null,
+        "quote": null
+      },
+      "benefit": {
+        "value": null,
+        "quote": null
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": null,
+        "quote": null
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": null,
+        "quote": null
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": null,
+        "quote": null
+      },
+      "terms": {
+        "value": null,
+        "quote": null
+      }
+    },
+    "57dee02cf95304a0253d24473533d57e6db766643cafd9b5cadeb508a1b1b695:shake_shack_sg-100-angus-beef-just-for-you": {
+      "classification": {
+        "value": "promotion",
+        "quote": "complimentary ShackBurger(Single)"
+      },
+      "merchant": {
+        "value": "Shake Shack",
+        "quote": "Shake Shack"
+      },
+      "title": {
+        "value": "100% Angus Beef – Just for You",
+        "quote": "100% Angus Beef – Just for You"
+      },
+      "benefit": {
+        "value": "complimentary ShackBurger(Single)",
+        "quote": "complimentary ShackBurger(Single)"
+      },
+      "startDate": {
+        "value": "2025-09-23",
+        "quote": "Offer is available across all Shake Shack outlets in Singapore from 23-26 September 2025 only."
+      },
+      "endDate": {
+        "value": "2025-09-26",
+        "quote": "Offer is available across all Shake Shack outlets in Singapore from 23-26 September 2025 only."
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": "all_outlets",
+        "quote": "all Shake Shack outlets in Singapore"
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": "all Shake Shack outlets in Singapore",
+        "quote": "all Shake Shack outlets in Singapore"
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": [
+          "Offer is valid for dine-in and take-away.",
+          "The offer is valid in the Shack and Happy Point Singapore in-app orders."
+        ],
+        "quote": "Offer is valid for dine-in and take-away. The offer is valid in the Shack and Happy Point Singapore in-app orders."
+      },
+      "terms": {
+        "value": [
+          "Offer is available across all Shake Shack outlets in Singapore from 23-26 September 2025 only.",
+          "Offer is valid for dine-in and take-away.",
+          "The offer is valid in the Shack and Happy Point Singapore in-app orders.",
+          "Offer not valid for orders made through third-party delivery apps.",
+          "Offer is not valid in conjunction with any other vouchers.",
+          "Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items.",
+          "Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice.",
+          "Visuals are for illustration purposes only."
+        ],
+        "quote": "Offer is available across all Shake Shack outlets in Singapore from 23-26 September 2025 only. Offer is valid for dine-in and take-away. The offer is valid in the Shack and Happy Point Singapore in-app orders. Offer not valid for orders made through third-party delivery apps. Offer is not valid in conjunction with any other vouchers. Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items. Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice. Visuals are for illustration purposes only."
+      }
+    },
+    "e27e40e4dba959cbb9f08d644bdea592b59eb37899235d613cf1ddd597778b44:shake_shack_sg-all-about-chickens": {
+      "classification": {
+        "value": "promotion",
+        "quote": "Complimentary Chicken Shack"
+      },
+      "merchant": {
+        "value": "Shake Shack",
+        "quote": "Shake Shack"
+      },
+      "title": {
+        "value": "All About Chickens",
+        "quote": "All About Chickens"
+      },
+      "benefit": {
+        "value": "Complimentary Chicken Shack",
+        "quote": "Complimentary Chicken Shack"
+      },
+      "startDate": {
+        "value": "2025-07-07",
+        "quote": "Offer is available across all Shake Shack outlets in Singapore on 7 July 2025 only."
+      },
+      "endDate": {
+        "value": "2025-07-07",
+        "quote": "Offer is available across all Shake Shack outlets in Singapore on 7 July 2025 only."
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": "all_outlets",
+        "quote": "all Shake Shack outlets in Singapore"
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": "all Shake Shack outlets in Singapore",
+        "quote": "all Shake Shack outlets in Singapore"
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": [
+          "Offer is valid for dine-in and take-away.",
+          "Offer is valid in the Shack and via the Happy Point app."
+        ],
+        "quote": "Offer is valid for dine-in and take-away. Offer is valid in the Shack and via the Happy Point app."
+      },
+      "terms": {
+        "value": [
+          "Offer is available across all Shake Shack outlets in Singapore on 7 July 2025 only.",
+          "Offer is valid for dine-in and take-away.",
+          "Offer is valid in the Shack and via the Happy Point app.",
+          "Offer not valid for orders made through third-party delivery apps.",
+          "Offer is not valid in conjunction with any other vouchers.",
+          "Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items.",
+          "Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice.",
+          "Visuals are for illustration purposes only."
+        ],
+        "quote": "Offer is available across all Shake Shack outlets in Singapore on 7 July 2025 only. Offer is valid for dine-in and take-away. Offer is valid in the Shack and via the Happy Point app. Offer not valid for orders made through third-party delivery apps. Offer is not valid in conjunction with any other vouchers. Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items. Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice. Visuals are for illustration purposes only."
+      }
+    },
+    "5a945111b1bd55c853df2dd0b1a1f27e80d9cb84554126debbf05bba835888f5:shake_shack_sg-concrete-craze": {
+      "classification": {
+        "value": "uncertain",
+        "quote": "Concrete Craze"
+      },
+      "merchant": {
+        "value": null,
+        "quote": null
+      },
+      "title": {
+        "value": "Concrete Craze",
+        "quote": "Concrete Craze"
+      },
+      "benefit": {
+        "value": null,
+        "quote": null
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": null,
+        "quote": null
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": null,
+        "quote": null
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": null,
+        "quote": null
+      },
+      "terms": {
+        "value": null,
+        "quote": null
+      }
+    },
+    "ad150a80fed3c8a2050b383554b2270cabeacb98bc9b8f9d8cd8e0a84da333ea:shake_shack_sg-everything-in-our-veggie-shack": {
+      "classification": {
+        "value": "uncertain",
+        "quote": "Everything in our Veggie Shack"
+      },
+      "merchant": {
+        "value": null,
+        "quote": null
+      },
+      "title": {
+        "value": "Everything in our Veggie Shack",
+        "quote": "Everything in our Veggie Shack"
+      },
+      "benefit": {
+        "value": null,
+        "quote": null
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": null,
+        "quote": null
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": null,
+        "quote": null
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": null,
+        "quote": null
+      },
+      "terms": {
+        "value": null,
+        "quote": null
+      }
+    },
+    "2955e4d9bd535f6ba812404fc29d5a93f85772c561aabba46f5bdeb92630a00f:shake_shack_sg-feeding-a-crowd": {
+      "classification": {
+        "value": "promotion",
+        "quote": "purchase 12 items for the price of 10"
+      },
+      "merchant": {
+        "value": "Shake Shack",
+        "quote": "Shake Shack"
+      },
+      "title": {
+        "value": "Feeding a Crowd?",
+        "quote": "Feeding a Crowd?"
+      },
+      "benefit": {
+        "value": "purchase 12 items for the price of 10",
+        "quote": "purchase 12 items for the price of 10"
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": null,
+        "quote": null
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": null,
+        "quote": null
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": ["Promotion is valid for pickup orders only."],
+        "quote": "Promotion is valid for pickup orders only."
+      },
+      "terms": {
+        "value": [
+          "Promotion entitles guests to purchase 12 items for the price of 10.",
+          "Promotion is applicable to selected items of the same price and is subject to item availability.",
+          "Catering requests are subject to confirmation.",
+          "A minimum of 72 hours’ advance notice is recommended.",
+          "Promotion is valid for pickup orders only.",
+          "Complimentary delivery is available for orders above $500.",
+          "Promotion cannot be used in conjunction with other promotions or discounts.",
+          "Shake Shack Singapore reserves the right to amend or withdraw the promotion at any time without prior notice."
+        ],
+        "quote": "Promotion entitles guests to purchase 12 items for the price of 10. ● Promotion is applicable to selected items of the same price and is subject to item availability. ● Catering requests are subject to confirmation. A minimum of 72 hours’ advance notice is recommended. ● Promotion is valid for pickup orders only. Complimentary delivery is available for orders above $500. ● Promotion cannot be used in conjunction with other promotions or discounts. ● Shake Shack Singapore reserves the right to amend or withdraw the promotion at any time without prior notice."
+      }
+    },
+    "ce3e78777691333aa0fdf3f82cc3174a1508dbaf7dc84c9d433f7d258f4d0191:shake_shack_sg-hello-one-fullerton": {
+      "classification": {
+        "value": "non_promotion",
+        "quote": "Hello, One Fullerton! Since landing at Jewel Changi in 2019, we’ve been growing our Shack family across the island—and now, we’re fired up to open our 11th Shack! This new Shack at One Fullerton is serving up more than just burgers—it’s got front-row seats to some of the best views in town. Think Marina Bay Sands, the Singapore Flyer, and that picture-perfect skyline. The space brings a breezy, coastal-inspired feel with subtle nods to Singapore’s vibrant culture. But what are we really excited about? Our exclusive Concrete collab with a true local gem—Mrs Kueh. About the artwork in our Shack Say hello to the wild side of the Shack. Local artist Sadiq Mansor splashes his signature style across our walls with an artwork inspired by creatures native to Singapore—reimagined with a magical twist for our Mythical Tide theme. From the shy pangolin to the rare pink dolphin and the majestic sambar deer, Sadiq brings these animals to life like you’ve never seen before. Think coral-crowned otters, tidal-winged hornbills, and glowing, deep-sea crabs—all vibing in a dreamy world where land meets sea and myth meets reality. Known for his bold characters and playful storytelling, Sadiq turns the everyday into the extraordinary. His mural is a celebration of Singapore’s rich biodiversity, brought to life with color, curiosity, and a whole lot of Shack spirit. One Pineapple Please We’ve teamed up with Mrs Kueh to create a Shack-exclusive dessert that blends our vanilla frozen custard with her signature Pineapple and Citrus tart—a buttery, golden classic with sweet, tangy pineapple jam. It’s rich, refreshing, and a perfect bite of nostalgia in every spoonful. It’s our way of giving a little nod to heritage flavours while mixing things up in a fun, new way. As part of our Stand For Something Good mission, we love teaming up with local partners who put heart into what they do—just like Mrs Kueh. They’re known for their handmade, traditional kuehs, and together we’ve created a Concrete that’s a little unexpected yet a little nostalgic. It’s our way of celebrating the local community we’re proud to be part of. See you soon at the Shack!"
+      },
+      "merchant": {
+        "value": null,
+        "quote": null
+      },
+      "title": {
+        "value": null,
+        "quote": null
+      },
+      "benefit": {
+        "value": null,
+        "quote": null
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": null,
+        "quote": null
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": null,
+        "quote": null
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": null,
+        "quote": null
+      },
+      "terms": {
+        "value": null,
+        "quote": null
+      }
+    },
+    "dee9faec384ca75088ba149674fd403b71143350189d50fc466d120f112672ca:shake_shack_sg-hello-parkway-parade": {
+      "classification": {
+        "value": "promotion",
+        "quote": "10% OFF"
+      },
+      "merchant": {
+        "value": "Shake Shack",
+        "quote": "Shake Shack"
+      },
+      "title": {
+        "value": "Hello, Parkway Parade!",
+        "quote": "Hello, Parkway Parade!"
+      },
+      "benefit": {
+        "value": "10% OFF",
+        "quote": "10% OFF"
+      },
+      "startDate": {
+        "value": "2026-09-11",
+        "quote": "Promo code is valid from 11 September to 10 October 2026."
+      },
+      "endDate": {
+        "value": "2026-10-10",
+        "quote": "Promo code is valid from 11 September to 10 October 2026."
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": "named_outlets",
+        "quote": "Redemption is valid at Parkway Parade Shake Shack Singapore outlet and is limited to one use per order."
+      },
+      "locationNames": {
+        "value": ["Parkway Parade"],
+        "quote": "Redemption is valid at Parkway Parade Shake Shack Singapore outlet and is limited to one use per order."
+      },
+      "locationWording": {
+        "value": "Redemption is valid at Parkway Parade Shake Shack Singapore outlet and is limited to one use per order.",
+        "quote": "Redemption is valid at Parkway Parade Shake Shack Singapore outlet and is limited to one use per order."
+      },
+      "eligibility": {
+        "value": [
+          "Promo code is applicable with minimum $16 purchase and is redeemable exclusively via the Happy Point Singapore app; the promo code is not valid on third-party delivery platforms."
+        ],
+        "quote": "Promo code is applicable with minimum $16 purchase and is redeemable exclusively via the Happy Point Singapore app; the promo code is not valid on third-party delivery platforms."
+      },
+      "redemption": {
+        "value": [
+          "PPOPENING",
+          "Promo code is applicable with minimum $16 purchase and is redeemable exclusively via the Happy Point Singapore app; the promo code is not valid on third-party delivery platforms."
+        ],
+        "quote": "PPOPENING. See you at Parkway Parade Shack! *Terms and conditions apply: Promo code is valid from 11 September to 10 October 2026. Promo code is applicable with minimum $16 purchase and is redeemable exclusively via the Happy Point Singapore app; the promo code is not valid on third-party delivery platforms."
+      },
+      "terms": {
+        "value": [
+          "Promo code is valid from 11 September to 10 October 2026.",
+          "Promo code is applicable with minimum $16 purchase and is redeemable exclusively via the Happy Point Singapore app; the promo code is not valid on third-party delivery platforms.",
+          "Redemption is valid at Parkway Parade Shake Shack Singapore outlet and is limited to one use per order.",
+          "This promotion cannot be combined with any other offers or promotions.",
+          "Shake Shack Singapore is not responsible for lost, stolen, expired, or misused codes, and reserves the right to amend or end the promotion without prior notice."
+        ],
+        "quote": "Promo code is valid from 11 September to 10 October 2026. Promo code is applicable with minimum $16 purchase and is redeemable exclusively via the Happy Point Singapore app; the promo code is not valid on third-party delivery platforms. Redemption is valid at Parkway Parade Shake Shack Singapore outlet and is limited to one use per order. This promotion cannot be combined with any other offers or promotions. Shake Shack Singapore is not responsible for lost, stolen, expired, or misused codes, and reserves the right to amend or end the promotion without prior notice."
+      }
+    },
+    "b3a9b6866ee567537f495d5923581d0bb1ee0fecfe96365ec0dbf703788df2ec:shake_shack_sg-national-cheeseburger-day": {
+      "classification": {
+        "value": "promotion",
+        "quote": "FREE Beef Patty add-on"
+      },
+      "merchant": {
+        "value": "Shake Shack",
+        "quote": "Shake Shack"
+      },
+      "title": {
+        "value": "National Cheeseburger Day",
+        "quote": "National Cheeseburger Day"
+      },
+      "benefit": {
+        "value": "FREE Beef Patty add-on",
+        "quote": "FREE Beef Patty add-on"
+      },
+      "startDate": {
+        "value": "2026-09-14",
+        "quote": "Promotion is valid from 14 to 18 September 2026, while stocks last."
+      },
+      "endDate": {
+        "value": "2026-09-18",
+        "quote": "Promotion is valid from 14 to 18 September 2026, while stocks last."
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": "all_outlets",
+        "quote": "Valid at all Shake Shack Singapore outlets."
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": "Valid at all Shake Shack Singapore outlets.",
+        "quote": "Valid at all Shake Shack Singapore outlets."
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": [
+          "Promotion is available exclusively through the Happy Point Singapore app and is not valid on third-party delivery platforms."
+        ],
+        "quote": "Promotion is available exclusively through the Happy Point Singapore app and is not valid on third-party delivery platforms."
+      },
+      "terms": {
+        "value": [
+          "Promotion is valid from 14 to 18 September 2026, while stocks last.",
+          "Promotion is available exclusively through the Happy Point Singapore app and is not valid on third-party delivery platforms.",
+          "Promotion is valid for ShackBurger and SmokeShack only, with a second beef patty included at no additional charge.",
+          "Top-up charges apply to any additional beef patties beyond two, as well as selected modifiers.",
+          "Valid at all Shake Shack Singapore outlets.",
+          "Shake Shack Singapore reserves the right to amend or terminate the promotion without prior notice."
+        ],
+        "quote": "Promotion is valid from 14 to 18 September 2026, while stocks last. Promotion is available exclusively through the Happy Point Singapore app and is not valid on third-party delivery platforms. Promotion is valid for ShackBurger and SmokeShack only, with a second beef patty included at no additional charge. Top-up charges apply to any additional beef patties beyond two, as well as selected modifiers. Valid at all Shake Shack Singapore outlets. Shake Shack Singapore reserves the right to amend or terminate the promotion without prior notice."
+      }
+    },
+    "1cefc8d66081ddd4193ea63d8000338642386bc0ac0a69e4f249089bb6e9bbb8:shake_shack_sg-shack-meal": {
+      "classification": {
+        "value": "promotion",
+        "quote": "starting from $15.10"
+      },
+      "merchant": {
+        "value": "Shake Shack",
+        "quote": "Shake Shack"
+      },
+      "title": {
+        "value": "Shack Meal",
+        "quote": "Shack Meal"
+      },
+      "benefit": {
+        "value": "starting from $15.10",
+        "quote": "starting from $15.10"
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": [1, 2, 3, 4, 5],
+        "quote": "Available on weekdays only, from 11am to 2pm."
+      },
+      "hours": {
+        "value": "11:00–14:00",
+        "quote": "Available on weekdays only, from 11am to 2pm."
+      },
+      "locationScope": {
+        "value": "all_outlets",
+        "quote": "Valid at all Shake Shack Singapore outlets."
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": "Valid at all Shake Shack Singapore outlets.",
+        "quote": "Valid at all Shake Shack Singapore outlets."
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": [
+          "Shack Meals are available exclusively through the Happy Point Singapore app and are not valid on third-party delivery platforms."
+        ],
+        "quote": "Shack Meals are available exclusively through the Happy Point Singapore app and are not valid on third-party delivery platforms."
+      },
+      "terms": {
+        "value": [
+          "Promotion is valid until further notice.",
+          "Available on weekdays only, from 11am to 2pm.",
+          "Shack Meals are available exclusively through the Happy Point Singapore app and are not valid on third-party delivery platforms.",
+          "Top-up charges apply to selected menu items.",
+          "Valid at all Shake Shack Singapore outlets.",
+          "This promotion cannot be combined with any other offers or promotions.",
+          "Shake Shack Singapore reserves the right to amend or terminate the promotion without prior notice."
+        ],
+        "quote": "Promotion is valid until further notice. Available on weekdays only, from 11am to 2pm. Shack Meals are available exclusively through the Happy Point Singapore app and are not valid on third-party delivery platforms. Top-up charges apply to selected menu items. Valid at all Shake Shack Singapore outlets. This promotion cannot be combined with any other offers or promotions. Shake Shack Singapore reserves the right to amend or terminate the promotion without prior notice."
+      }
+    },
+    "ce52bcf2d5ad888b7e0dddc508ae2acdddd419c67892b7be08066a66a5ef5af8:shake_shack_sg-singlish-lingo": {
+      "classification": {
+        "value": "promotion",
+        "quote": "complimentary Buah Long Long Lemonade"
+      },
+      "merchant": {
+        "value": "Shake Shack",
+        "quote": "Shake Shack"
+      },
+      "title": {
+        "value": "Singlish Lingo",
+        "quote": "Singlish Lingo"
+      },
+      "benefit": {
+        "value": "complimentary Buah Long Long Lemonade",
+        "quote": "complimentary Buah Long Long Lemonade"
+      },
+      "startDate": {
+        "value": "2024-11-11",
+        "quote": "This offer is valid from 11th to 15th November 2024 at all Shake Shack outlets in Singapore."
+      },
+      "endDate": {
+        "value": "2024-11-15",
+        "quote": "This offer is valid from 11th to 15th November 2024 at all Shake Shack outlets in Singapore."
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": "all_outlets",
+        "quote": "all Shake Shack outlets in Singapore"
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": "all Shake Shack outlets in Singapore",
+        "quote": "all Shake Shack outlets in Singapore"
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": [
+          "Guests must use one of the accepted Singlish words (“Shiok,” “Dabao,” “Zi Char,” or “Makan”) when ordering any Zi Char burger to qualify for the promotion.",
+          "This promotion is valid for both dine-in and takeaway orders."
+        ],
+        "quote": "Guests must use one of the accepted Singlish words (“Shiok,” “Dabao,” “Zi Char,” or “Makan”) when ordering any Zi Char burger to qualify for the promotion. Each qualifying order will receive one (1) complimentary Buah Long Long Lemonade. Offer is limited to one (1) complimentary Buah Long Long Lemonade per guest per visit, regardless of the number of burgers ordered. This promotion is valid for both dine-in and takeaway orders."
+      },
+      "terms": {
+        "value": [
+          "This offer is valid from 11th to 15th November 2024 at all Shake Shack outlets in Singapore.",
+          "Guests must use one of the accepted Singlish words (“Shiok,” “Dabao,” “Zi Char,” or “Makan”) when ordering any Zi Char burger to qualify for the promotion.",
+          "Each qualifying order will receive one (1) complimentary Buah Long Long Lemonade.",
+          "Offer is limited to one (1) complimentary Buah Long Long Lemonade per guest per visit, regardless of the number of burgers ordered.",
+          "This promotion is valid for both dine-in and takeaway orders.",
+          "Not applicable for delivery orders.",
+          "Complimentary beverages are not transferable, redeemable for cash, or exchangeable for any other items.",
+          "Promotion is valid while stocks last.",
+          "Shake Shack reserves the right to replace the complimentary beverage with a similar item of equal value in the event of unforeseen circumstances.",
+          "Shake Shack reserves the right to modify or cancel the promotion at any time without prior notice.",
+          "In the event of any disputes, Shake Shack’s decision will be fina"
+        ],
+        "quote": "This offer is valid from 11th to 15th November 2024 at all Shake Shack outlets in Singapore. Guests must use one of the accepted Singlish words (“Shiok,” “Dabao,” “Zi Char,” or “Makan”) when ordering any Zi Char burger to qualify for the promotion. Each qualifying order will receive one (1) complimentary Buah Long Long Lemonade. Offer is limited to one (1) complimentary Buah Long Long Lemonade per guest per visit, regardless of the number of burgers ordered. This promotion is valid for both dine-in and takeaway orders. Not applicable for delivery orders. Complimentary beverages are not transferable, redeemable for cash, or exchangeable for any other items. Promotion is valid while stocks last. Shake Shack reserves the right to replace the complimentary beverage with a similar item of equal value in the event of unforeseen circumstances. Shake Shack reserves the right to modify or cancel the promotion at any time without prior notice. In the event of any disputes, Shake Shack’s decision will be fina"
+      }
+    },
+    "16d8fffd1b0abab17b5ce79250a68ea374c743789d42626f0da96b638ed8bbfa:shake_shack_sg-study-breaks-just-got-better": {
+      "classification": {
+        "value": "promotion",
+        "quote": "Crinkle Cut Fries on us"
+      },
+      "merchant": {
+        "value": "Shake Shack",
+        "quote": "Shake Shack"
+      },
+      "title": {
+        "value": "Study Breaks Just Got Better",
+        "quote": "Study Breaks Just Got Better"
+      },
+      "benefit": {
+        "value": "Crinkle Cut Fries on us",
+        "quote": "Crinkle Cut Fries on us"
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": [1, 2, 3, 4, 5],
+        "quote": "Promotion is available on weekdays (excluding Public Holidays) at Westgate, Junction 8 and Great World Shack locations only."
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": "named_outlets",
+        "quote": "Promotion is available on weekdays (excluding Public Holidays) at Westgate, Junction 8 and Great World Shack locations only."
+      },
+      "locationNames": {
+        "value": ["Westgate", "Junction 8", "Great World"],
+        "quote": "Promotion is available on weekdays (excluding Public Holidays) at Westgate, Junction 8 and Great World Shack locations only."
+      },
+      "locationWording": {
+        "value": "Promotion is available on weekdays (excluding Public Holidays) at Westgate, Junction 8 and Great World Shack locations only.",
+        "quote": "Promotion is available on weekdays (excluding Public Holidays) at Westgate, Junction 8 and Great World Shack locations only."
+      },
+      "eligibility": {
+        "value": [
+          "The offer is open to all primary, secondary, tertiary and university students in Singapore."
+        ],
+        "quote": "The offer is open to all primary, secondary, tertiary and university students in Singapore."
+      },
+      "redemption": {
+        "value": [
+          "A valid student ID must be presented at the point of purchase to enjoy the promotion."
+        ],
+        "quote": "A valid student ID must be presented at the point of purchase to enjoy the promotion."
+      },
+      "terms": {
+        "value": [
+          "Promotion is available on weekdays (excluding Public Holidays) at Westgate, Junction 8 and Great World Shack locations only.",
+          "A valid student ID must be presented at the point of purchase to enjoy the promotion.",
+          "The offer is open to all primary, secondary, tertiary and university students in Singapore.",
+          "Shake Shack Singapore reserves the right to amend or end the promotion without prior notice."
+        ],
+        "quote": "Promotion is available on weekdays (excluding Public Holidays) at Westgate, Junction 8 and Great World Shack locations only. A valid student ID must be presented at the point of purchase to enjoy the promotion. The offer is open to all primary, secondary, tertiary and university students in Singapore. Shake Shack Singapore reserves the right to amend or end the promotion without prior notice."
+      }
+    },
+    "3bd72db9fa15bd61c431d1b29a10b9e49e69a778c4a6fe30f9a2667f2318f61d:shake_shack_sg-this-ones-for-your-mom": {
+      "classification": {
+        "value": "promotion",
+        "quote": "Complimentary ShackBurger or Chicken Shack"
+      },
+      "merchant": {
+        "value": "Shake Shack",
+        "quote": "Shake Shack"
+      },
+      "title": {
+        "value": "This One’s For Your Mom",
+        "quote": "This One’s For Your Mom"
+      },
+      "benefit": {
+        "value": "Complimentary ShackBurger or Chicken Shack",
+        "quote": "Complimentary ShackBurger or Chicken Shack"
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": "all_outlets",
+        "quote": "all Shake Shack outlets in Singapore"
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": "all Shake Shack outlets in Singapore",
+        "quote": "all Shake Shack outlets in Singapore"
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": ["Offer is valid for dine-in only."],
+        "quote": "Offer is valid for dine-in only."
+      },
+      "terms": {
+        "value": [
+          "⁠ ⁠Offer is available across all Shake Shack outlets in Singapore on 11 May only.",
+          "⁠ ⁠Offer is valid for dine-in only.",
+          "⁠ ⁠Offer not valid for orders made through third-party delivery apps.",
+          "⁠ ⁠Limited to 1 order per person and transaction.",
+          "⁠ ⁠Offer is not valid in conjunction with any other vouchers.",
+          "⁠ ⁠Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items.",
+          "⁠ ⁠Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice.",
+          "⁠ ⁠Visuals are for illustration purposes only."
+        ],
+        "quote": "•⁠ ⁠Offer is available across all Shake Shack outlets in Singapore on 11 May only. •⁠ ⁠Offer is valid for dine-in only. •⁠ ⁠Offer not valid for orders made through third-party delivery apps. •⁠ ⁠Limited to 1 order per person and transaction. •⁠ ⁠Offer is not valid in conjunction with any other vouchers. •⁠ ⁠Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items. •⁠ ⁠Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice. •⁠ ⁠Visuals are for illustration purposes only."
+      }
+    },
+    "c2bd9d7003e22a9d3f05d286c0ca097dc977a44ab58d0915f648c9dc401ef062:shake_shack_sg-were-introducing-chicken-sundays": {
+      "classification": {
+        "value": "promotion",
+        "quote": "Free Chicken Shack"
+      },
+      "merchant": {
+        "value": "Shake Shack",
+        "quote": "Shake Shack"
+      },
+      "title": {
+        "value": "We’re introducing Chicken Sundays!",
+        "quote": "We’re introducing Chicken Sundays!"
+      },
+      "benefit": {
+        "value": "Free Chicken Shack",
+        "quote": "Free Chicken Shack"
+      },
+      "startDate": {
+        "value": "2025-11-30",
+        "quote": "Offer is available across all Shake Shack outlets in Singapore every Sunday from 30 November to 28 December 2025 only."
+      },
+      "endDate": {
+        "value": "2025-12-28",
+        "quote": "Offer is available across all Shake Shack outlets in Singapore every Sunday from 30 November to 28 December 2025 only."
+      },
+      "weekdays": {
+        "value": [7],
+        "quote": "every Sunday from 30 November to 28 December 2025 only."
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": "all_outlets",
+        "quote": "all Shake Shack outlets in Singapore"
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": "all Shake Shack outlets in Singapore",
+        "quote": "all Shake Shack outlets in Singapore"
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": [
+          "CHICKENSUNDAY",
+          "The offer is only valid via Happy Point Singapore in-app orders.",
+          "Offer is valid for dine-in and take-away."
+        ],
+        "quote": "CHICKENSUNDAY. Just order on our Happy Point Singapore app to taste the true difference. Download the App: https://app.happypointcard.com.sg/ Terms and Conditions Offer is available across all Shake Shack outlets in Singapore every Sunday from 30 November to 28 December 2025 only. Offer applies with any chicken sandwich purchase. Offer is valid for dine-in and take-away. The offer is only valid via Happy Point Singapore in-app orders."
+      },
+      "terms": {
+        "value": [
+          "Offer is available across all Shake Shack outlets in Singapore every Sunday from 30 November to 28 December 2025 only.",
+          "Offer applies with any chicken sandwich purchase.",
+          "Offer is valid for dine-in and take-away.",
+          "The offer is only valid via Happy Point Singapore in-app orders.",
+          "Offer not valid for orders made through third-party delivery apps.",
+          "Offer is not valid in conjunction with any other vouchers.",
+          "Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items.",
+          "Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice.",
+          "Visuals are for illustration purposes only."
+        ],
+        "quote": "Offer is available across all Shake Shack outlets in Singapore every Sunday from 30 November to 28 December 2025 only. Offer applies with any chicken sandwich purchase. Offer is valid for dine-in and take-away. The offer is only valid via Happy Point Singapore in-app orders. Offer not valid for orders made through third-party delivery apps. Offer is not valid in conjunction with any other vouchers. Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items. Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice. Visuals are for illustration purposes only."
+      }
+    },
+    "04e967e33bbf18b13b28795908f95be9b581bbb830ec1855ba83e4ef5a4949e0:shake_shack_sg-zi-char-menu": {
+      "classification": {
+        "value": "non_promotion",
+        "quote": "Keeping it Local Keeping it Local To the locals who have supported us throughout the years, we are paying tribute to Singapore’s beloved Zi Char and working with local artist! By teaming up with Michelin-selected hawker pioneers KEK Seafood and Tobyato to show our appreciation to Singapore. It’s THE first collaboration with a full-range menu offering that ties in with SWAG and a new look as you get your burger cravings satisfied! We’re proud to present the upcoming menu of our American signatures with a uniquely Singaporean twist, incorporating some well-known Zi Char flavors, for a limited time only from 17 October to all Shacks in Singapore. White Pepper Burger Monterey Jack cheeseburger topped with caramelized onions, fresh scallions and Sarawak white pepper sauce Coffee Glazed Chicken Coffee-glazed crispy chicken breast or thigh, sprinkled with roasted sesame seeds, toppedwith slaw and coriander White Pepper Fries Crinkle cut fries topped with Sarawak white pepper sauce and fresh scallions Coffee Glazed Chicken Bites Crispy, whole white meat bites glazed with coffee sauce, topped with roasted sesame seeds *Available in 10 pieces only Buah Long Long Lemonade A local inspiration by Shake Shack – Fresh lemonade mixed with Buah Long Long Purée with sour plum"
+      },
+      "merchant": {
+        "value": null,
+        "quote": null
+      },
+      "title": {
+        "value": null,
+        "quote": null
+      },
+      "benefit": {
+        "value": null,
+        "quote": null
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": null,
+        "quote": null
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": null,
+        "quote": null
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": null,
+        "quote": null
+      },
+      "terms": {
+        "value": null,
+        "quote": null
+      }
+    },
+    "9cb75b5def9e5495594648890d06d99a5ac48fd7ea890c5998205873a0fa97c1:captain_kim_sg-captain-kim-delivery": {
+      "classification": {
+        "value": "promotion",
+        "quote": "20% OFF"
+      },
+      "merchant": {
+        "value": null,
+        "quote": null
+      },
+      "title": {
+        "value": "Flash this page to enjoy 20% OFF All Regular Items - Takeaway only!",
+        "quote": "Flash this page to enjoy 20% OFF All Regular Items - Takeaway only!"
+      },
+      "benefit": {
+        "value": "20% OFF",
+        "quote": "20% OFF"
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": null,
+        "quote": null
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": null,
+        "quote": null
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": ["Flash this page", "Takeaway only!"],
+        "quote": "Flash this page to enjoy 20% OFF All Regular Items - Takeaway only!"
+      },
+      "terms": {
+        "value": ["Takeaway only!"],
+        "quote": "Takeaway only!"
+      }
+    },
+    "24e709c909e242eb04acc39ab0f65badd866c73ffaa09c65f656d846d34a438a:captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-1": {
+      "classification": {
+        "value": "promotion",
+        "quote": "To enjoy 2+1 must be minimum of 3 student diners"
+      },
+      "merchant": {
+        "value": null,
+        "quote": null
+      },
+      "title": {
+        "value": "STUDENT 2PLUS1 PROMO",
+        "quote": "STUDENT 2PLUS1 PROMO"
+      },
+      "benefit": {
+        "value": "2+1",
+        "quote": "To enjoy 2+1 must be minimum of 3 student diners"
+      },
+      "startDate": {
+        "value": "2026-10-01",
+        "quote": "Valid on every Monday for 1 – 31 Oct 2026."
+      },
+      "endDate": {
+        "value": "2026-10-31",
+        "quote": "Valid on every Monday for 1 – 31 Oct 2026."
+      },
+      "weekdays": {
+        "value": [1],
+        "quote": "EVERY MONDAY LUNCH & DINNER ONLY"
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": null,
+        "quote": null
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": null,
+        "quote": null
+      },
+      "eligibility": {
+        "value": [
+          "Valid Student Pass must be presented upon request and age not exceeding 23.",
+          "Min 3 students to dine in."
+        ],
+        "quote": "Valid Student Pass must be presented upon request and age not exceeding 23. Limited to 80mins dining time. Min 3 students to dine in."
+      },
+      "redemption": {
+        "value": [
+          "Guest coming for 2+1 Student Monday Promo MUST prebook on web link and key in “2+1M” under Reservation Notes.",
+          "All Guests have to follow our FB/IG page to enjoy the promo."
+        ],
+        "quote": "Guest coming for 2+1 Student Monday Promo MUST prebook on web link and key in “2+1M” under Reservation Notes. Once verified by restaurant staff, student diners will be given the “2+1M” student promo pricing written on the bill chit. All Guests have to follow our FB/IG page to enjoy the promo."
+      },
+      "terms": {
+        "value": [
+          "Guest coming for 2+1 Student Monday Promo MUST prebook on web link and key in “2+1M” under Reservation Notes.",
+          "Once verified by restaurant staff, student diners will be given the “2+1M” student promo pricing written on the bill chit.",
+          "All Guests have to follow our FB/IG page to enjoy the promo.",
+          "Student Guests who did not book online with “2+1M” in Reservation Notes will not be provided the promo pricing on their bill chit.",
+          "Valid Student Pass must be presented upon request and age not exceeding 23.",
+          "Limited to 80mins dining time.",
+          "Min 3 students to dine in.",
+          "Not applicable for use with any other promos, vouchers & discounts.",
+          "Valid on every Monday for 1 – 31 Oct 2026.",
+          "Example: To enjoy 2+1 must be minimum of 3 student diners; if it is 4 student then 3 pays 2+1 while the 4th pays regular price or regular student price."
+        ],
+        "quote": "Guest coming for 2+1 Student Monday Promo MUST prebook on web link and key in “2+1M” under Reservation Notes. Once verified by restaurant staff, student diners will be given the “2+1M” student promo pricing written on the bill chit. All Guests have to follow our FB/IG page to enjoy the promo. Student Guests who did not book online with “2+1M” in Reservation Notes will not be provided the promo pricing on their bill chit. Valid Student Pass must be presented upon request and age not exceeding 23. Limited to 80mins dining time. Min 3 students to dine in. Not applicable for use with any other promos, vouchers & discounts. Valid on every Monday for 1 – 31 Oct 2026. Example: To enjoy 2+1 must be minimum of 3 student diners; if it is 4 student then 3 pays 2+1 while the 4th pays regular price or regular student price."
+      }
+    },
+    "24e709c909e242eb04acc39ab0f65badd866c73ffaa09c65f656d846d34a438a:captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-2": {
+      "classification": {
+        "value": "promotion",
+        "quote": "Mon – Fri Lunch: $14.9++/pax"
+      },
+      "merchant": {
+        "value": null,
+        "quote": null
+      },
+      "title": {
+        "value": "EARLY BIRD PROMO",
+        "quote": "EARLY BIRD PROMO"
+      },
+      "benefit": {
+        "value": "Mon – Fri Lunch: $14.9++/pax",
+        "quote": "Mon – Fri Lunch: $14.9++/pax"
+      },
+      "startDate": {
+        "value": "2026-10-01",
+        "quote": "Valid from 1 – 31 Oct 2026."
+      },
+      "endDate": {
+        "value": "2026-10-31",
+        "quote": "Valid from 1 – 31 Oct 2026."
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": null,
+        "quote": null
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": null,
+        "quote": null
+      },
+      "eligibility": {
+        "value": ["Min 2 paying pax to dine in."],
+        "quote": "Min 2 paying pax to dine in."
+      },
+      "redemption": {
+        "value": [
+          "Guests MUST follow our Facebook / Instagram to enjoy the promo."
+        ],
+        "quote": "Guests MUST follow our Facebook / Instagram to enjoy the promo."
+      },
+      "terms": {
+        "value": [
+          "Guest coming for Early Bird Promo MUST prebook on web link and key in “EB” under Reservation Notes.Prior to entry guests have to inform host that they are using the promo before entering.",
+          "Once verified by restaurant staff, diners will be given the early bird promo pricing written on the bill chit.",
+          "Guests MUST follow our Facebook / Instagram to enjoy the promo.",
+          "All Guests have to follow our FB/IG page to enjoy the promo.",
+          "Limited to 80mins dining time.",
+          "Min 2 paying pax to dine in.",
+          "Lunch discount is only applicable during 11:30am – 12pm timeslots.",
+          "Dinner discount is only applicable during Weekday 5:30pm timeslots (Weekends & PH 5pm – 5:30pm).",
+          "Not applicable with other promos, vouchers & discounts.",
+          "Valid from 1 – 31 Oct 2026."
+        ],
+        "quote": "Guest coming for Early Bird Promo MUST prebook on web link and key in “EB” under Reservation Notes.Prior to entry guests have to inform host that they are using the promo before entering. Once verified by restaurant staff, diners will be given the early bird promo pricing written on the bill chit. Guests MUST follow our Facebook / Instagram to enjoy the promo. All Guests have to follow our FB/IG page to enjoy the promo. Limited to 80mins dining time. Min 2 paying pax to dine in. Lunch discount is only applicable during 11:30am – 12pm timeslots. Dinner discount is only applicable during Weekday 5:30pm timeslots (Weekends & PH 5pm – 5:30pm). Not applicable with other promos, vouchers & discounts. Valid from 1 – 31 Oct 2026."
+      }
+    },
+    "24e709c909e242eb04acc39ab0f65badd866c73ffaa09c65f656d846d34a438a:captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-3": {
+      "classification": {
+        "value": "promotion",
+        "quote": "1 pax dines free with every 4 other full-paying pax."
+      },
+      "merchant": {
+        "value": null,
+        "quote": null
+      },
+      "title": {
+        "value": "4PLUS1 PROMO",
+        "quote": "4PLUS1 PROMO"
+      },
+      "benefit": {
+        "value": "1 pax dines free with every 4 other full-paying pax.",
+        "quote": "1 pax dines free with every 4 other full-paying pax."
+      },
+      "startDate": {
+        "value": "2026-10-01",
+        "quote": "Valid from 1-31 Oct 2026."
+      },
+      "endDate": {
+        "value": "2026-10-31",
+        "quote": "Valid from 1-31 Oct 2026."
+      },
+      "weekdays": {
+        "value": [1, 2, 3, 4, 5, 6, 7],
+        "quote": "Mon - Sun Lunch & Dinner"
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": null,
+        "quote": null
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": null,
+        "quote": null
+      },
+      "eligibility": {
+        "value": ["Free pax has to be the lowest paying diner."],
+        "quote": "Free pax has to be the lowest paying diner."
+      },
+      "redemption": {
+        "value": [
+          "Guests MUST follow our Facebook / Instagram to enjoy the promo.",
+          "Guest have to inform host that they are using the promo before entering."
+        ],
+        "quote": "Guests MUST follow our Facebook / Instagram to enjoy the promo. Guest have to inform host that they are using the promo before entering."
+      },
+      "terms": {
+        "value": [
+          "Mon - Sun Lunch & Dinner 1 pax dines free with every 4 other full-paying pax.",
+          "Free pax has to be the lowest paying diner.Eg 1) 5 Adult Diners = 1 Adult Dines Free Eg 2) 3 Adult Diners + 2 Student Diners = 1 Student Dines Free Guests MUST follow our Facebook / Instagram to enjoy the promo.",
+          "Guest have to inform host that they are using the promo before entering.",
+          "Valid from 1-31 Oct 2026.",
+          "Limited to 90 mins dining time.",
+          "Guests have to leave by the stipulated timing to enjoy the promo.",
+          "Not applicable with other promos, vouchers & discounts.",
+          "Promo is not applicable for Gebiz"
+        ],
+        "quote": "Mon - Sun Lunch & Dinner 1 pax dines free with every 4 other full-paying pax. Free pax has to be the lowest paying diner.Eg 1) 5 Adult Diners = 1 Adult Dines Free Eg 2) 3 Adult Diners + 2 Student Diners = 1 Student Dines Free Guests MUST follow our Facebook / Instagram to enjoy the promo. Guest have to inform host that they are using the promo before entering. Valid from 1-31 Oct 2026. Limited to 90 mins dining time. Guests have to leave by the stipulated timing to enjoy the promo. Not applicable with other promos, vouchers & discounts. Promo is not applicable for Gebiz"
+      }
+    },
+    "944abe1cbad95c48298a7111cd3e7ffdc2a5b0ecdb4c4aaa0bf309564f6d1550:captain_kim_sg-captain-kim-korean-bbq-hotpot-3": {
+      "classification": {
+        "value": "promotion",
+        "quote": "1 pax dines free with every 4 other full-paying pax."
+      },
+      "merchant": {
+        "value": null,
+        "quote": null
+      },
+      "title": {
+        "value": "4PLUS1 PROMO",
+        "quote": "4PLUS1 PROMO"
+      },
+      "benefit": {
+        "value": "1 pax dines free with every 4 other full-paying pax.",
+        "quote": "1 pax dines free with every 4 other full-paying pax."
+      },
+      "startDate": {
+        "value": "2026-09-01",
+        "quote": "Valid from 1-30 Sep 2026."
+      },
+      "endDate": {
+        "value": "2026-09-30",
+        "quote": "Valid from 1-30 Sep 2026."
+      },
+      "weekdays": {
+        "value": [1, 2, 3, 4, 5, 6, 7],
+        "quote": "Mon - Sun Lunch & Dinner"
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": null,
+        "quote": null
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": null,
+        "quote": null
+      },
+      "eligibility": {
+        "value": ["Free pax has to be the lowest paying diner."],
+        "quote": "Free pax has to be the lowest paying diner."
+      },
+      "redemption": {
+        "value": [
+          "Guests MUST follow our Facebook / Instagram to enjoy the promo.",
+          "Guest have to inform host that they are using the promo before entering."
+        ],
+        "quote": "Guest have to inform host that they are using the promo before entering. Valid from 1-30 Sep 2026. Limited to 90 mins dining time. Guests have to leave by the stipulated timing to enjoy the promo. Not applicable with other promos, vouchers & discounts. 1 pax dines free with every 4 other full-paying pax. Free pax has to be the lowest paying diner. Eg 1) 5 Adult Diners = 1 Adult Dines Free Eg 2) 3 Adult Diners + 2 Student Diners = 1 Student Dines Free Guests MUST follow our Facebook / Instagram to enjoy the promo."
+      },
+      "terms": {
+        "value": [
+          "Mon - Sun Lunch & Dinner Guest have to inform host that they are using the promo before entering.",
+          "Valid from 1-30 Sep 2026.",
+          "Limited to 90 mins dining time.",
+          "Guests have to leave by the stipulated timing to enjoy the promo.",
+          "Not applicable with other promos, vouchers & discounts. 1 pax dines free with every 4 other full-paying pax.",
+          "Free pax has to be the lowest paying diner.",
+          "Eg 1) 5 Adult Diners = 1 Adult Dines Free Eg 2) 3 Adult Diners + 2 Student Diners = 1 Student Dines Free Guests MUST follow our Facebook / Instagram to enjoy the promo."
+        ],
+        "quote": "Mon - Sun Lunch & Dinner Guest have to inform host that they are using the promo before entering. Valid from 1-30 Sep 2026. Limited to 90 mins dining time. Guests have to leave by the stipulated timing to enjoy the promo. Not applicable with other promos, vouchers & discounts. 1 pax dines free with every 4 other full-paying pax. Free pax has to be the lowest paying diner. Eg 1) 5 Adult Diners = 1 Adult Dines Free Eg 2) 3 Adult Diners + 2 Student Diners = 1 Student Dines Free Guests MUST follow our Facebook / Instagram to enjoy the promo."
+      }
+    },
+    "ffeabebf48f4ef7289956573aeb867f1652683b29704a46af92b29f3d4907b77:bari_bari_steak_sg-promotions-1": {
+      "classification": {
+        "value": "promotion",
+        "quote": "Save up to 26% off regular menu prices."
+      },
+      "merchant": {
+        "value": null,
+        "quote": null
+      },
+      "title": {
+        "value": "Weekday Lunch Specials (Tampines 1 Exclusive)",
+        "quote": "Weekday Lunch Specials (Tampines 1 Exclusive)"
+      },
+      "benefit": {
+        "value": "Save up to 26% off regular menu prices.",
+        "quote": "Save up to 26% off regular menu prices."
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": [1, 2, 3, 4, 5],
+        "quote": "From Mondays to Fridays, Opening to 5PM (Excludes PH & Eve of PH)"
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": "named_outlets",
+        "quote": "Exclusively at Tampines 1 outlet."
+      },
+      "locationNames": {
+        "value": ["Tampines 1"],
+        "quote": "Exclusively at Tampines 1 outlet."
+      },
+      "locationWording": {
+        "value": "Exclusively at Tampines 1 outlet.",
+        "quote": "Exclusively at Tampines 1 outlet."
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": null,
+        "quote": null
+      },
+      "terms": {
+        "value": [
+          "From Mondays to Fridays, Opening to 5PM (Excludes PH & Eve of PH)",
+          "Exclusively at Tampines 1 outlet.",
+          "T&Cs apply."
+        ],
+        "quote": "From Mondays to Fridays, Opening to 5PM (Excludes PH & Eve of PH) Exclusively at Tampines 1 outlet. T&Cs apply."
+      }
+    },
+    "ffeabebf48f4ef7289956573aeb867f1652683b29704a46af92b29f3d4907b77:bari_bari_steak_sg-promotions-2": {
+      "classification": {
+        "value": "promotion",
+        "quote": "23% savings"
+      },
+      "merchant": {
+        "value": "Bari Bari Steak",
+        "quote": "Bari Bari Steak"
+      },
+      "title": {
+        "value": "Enjoy 23% Off Free-Flow Salad Bar at Bari Bari Steak!",
+        "quote": "Enjoy 23% Off Free-Flow Salad Bar at Bari Bari Steak!"
+      },
+      "benefit": {
+        "value": "23% savings",
+        "quote": "23% savings"
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": [1, 2, 3, 4],
+        "quote": "across selected outlets from Monday to Thursday"
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": "selected_outlets",
+        "quote": "across selected outlets from Monday to Thursday: All-Day Free-Flow Salad Bar: Available at Tampines 1 and VivoCity. Tea-Time Free-Flow Salad Bar (2 PM – 5 PM): Available at Junction 8 and Great World."
+      },
+      "locationNames": {
+        "value": ["Tampines 1", "VivoCity", "Junction 8", "Great World"],
+        "quote": "across selected outlets from Monday to Thursday: All-Day Free-Flow Salad Bar: Available at Tampines 1 and VivoCity. Tea-Time Free-Flow Salad Bar (2 PM – 5 PM): Available at Junction 8 and Great World."
+      },
+      "locationWording": {
+        "value": "across selected outlets from Monday to Thursday: All-Day Free-Flow Salad Bar: Available at Tampines 1 and VivoCity. Tea-Time Free-Flow Salad Bar (2 PM – 5 PM): Available at Junction 8 and Great World.",
+        "quote": "across selected outlets from Monday to Thursday: All-Day Free-Flow Salad Bar: Available at Tampines 1 and VivoCity. Tea-Time Free-Flow Salad Bar (2 PM – 5 PM): Available at Junction 8 and Great World."
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": ["Valid exclusively for dine-in."],
+        "quote": "Valid exclusively for dine-in."
+      },
+      "terms": {
+        "value": [
+          "Valid exclusively for dine-in.",
+          "Not valid in conjunction with other ongoing promotions, discounts, vouchers, or privileges.",
+          "Image(s) for illustration purposes only.",
+          "The Management reserves the right to amend or terminate the offer without prior notice."
+        ],
+        "quote": "Valid exclusively for dine-in. Not valid in conjunction with other ongoing promotions, discounts, vouchers, or privileges. Image(s) for illustration purposes only. The Management reserves the right to amend or terminate the offer without prior notice."
+      }
+    },
+    "ffeabebf48f4ef7289956573aeb867f1652683b29704a46af92b29f3d4907b77:bari_bari_steak_sg-promotions-3": {
+      "classification": {
+        "value": "promotion",
+        "quote": "20% OFF"
+      },
+      "merchant": {
+        "value": "Bari Bari Steak",
+        "quote": "Bari Bari Steak"
+      },
+      "title": {
+        "value": "Senior Special: Enjoy 20% OFF Your Total Bill!",
+        "quote": "Senior Special: Enjoy 20% OFF Your Total Bill!"
+      },
+      "benefit": {
+        "value": "20% OFF",
+        "quote": "20% OFF"
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": [1, 2, 3, 4],
+        "quote": "Monday to Thursday, from opening until 5PM (excluding Public Holidays)"
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": "named_outlets",
+        "quote": "Valid exclusively at the Tampines 1 outlet only."
+      },
+      "locationNames": {
+        "value": ["Tampines 1"],
+        "quote": "Valid exclusively at the Tampines 1 outlet only."
+      },
+      "locationWording": {
+        "value": "Valid exclusively at the Tampines 1 outlet only.",
+        "quote": "Valid exclusively at the Tampines 1 outlet only."
+      },
+      "eligibility": {
+        "value": ["Valid for dine-in customers aged 60 and above."],
+        "quote": "Valid for dine-in customers aged 60 and above."
+      },
+      "redemption": {
+        "value": ["A valid proof of age must be presented for verification."],
+        "quote": "A valid proof of age must be presented for verification."
+      },
+      "terms": {
+        "value": [
+          "Valid for dine-in customers aged 60 and above.",
+          "Valid exclusively at the Tampines 1 outlet only.",
+          "A valid proof of age must be presented for verification.",
+          "Available from Monday to Thursday, from opening until 5pm only, excluding public holidays.",
+          "Discount is applied to the total bill prior to the addition of GST and service charge.",
+          "Not valid in conjunction with any other ongoing promotions, discounts, vouchers, or privileges.",
+          "Image(s) for illustration purposes only.",
+          "The management reserves the right to amend or terminate the offer without prior notice."
+        ],
+        "quote": "Valid for dine-in customers aged 60 and above. Valid exclusively at the Tampines 1 outlet only. A valid proof of age must be presented for verification. Available from Monday to Thursday, from opening until 5pm only, excluding public holidays. Discount is applied to the total bill prior to the addition of GST and service charge. Not valid in conjunction with any other ongoing promotions, discounts, vouchers, or privileges. Image(s) for illustration purposes only. The management reserves the right to amend or terminate the offer without prior notice."
+      }
+    },
+    "ffeabebf48f4ef7289956573aeb867f1652683b29704a46af92b29f3d4907b77:bari_bari_steak_sg-promotions-4": {
+      "classification": {
+        "value": "promotion",
+        "quote": "15% OFF"
+      },
+      "merchant": {
+        "value": "Bari Bari Steak",
+        "quote": "Bari Bari Steak"
+      },
+      "title": {
+        "value": "Beat the Crowd & Save 15% !",
+        "quote": "Beat the Crowd & Save 15% !"
+      },
+      "benefit": {
+        "value": "15% OFF",
+        "quote": "15% OFF"
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": [1, 2, 3, 4, 5, 6, 7],
+        "quote": "From 5pm to 6pm daily"
+      },
+      "hours": {
+        "value": "17:00–18:00",
+        "quote": "From 5pm to 6pm daily"
+      },
+      "locationScope": {
+        "value": "named_outlets",
+        "quote": "Valid exclusively for dine-in at the Tampines 1 outlet only."
+      },
+      "locationNames": {
+        "value": ["Tampines 1"],
+        "quote": "Valid exclusively for dine-in at the Tampines 1 outlet only."
+      },
+      "locationWording": {
+        "value": "Valid exclusively for dine-in at the Tampines 1 outlet only.",
+        "quote": "Valid exclusively for dine-in at the Tampines 1 outlet only."
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": [
+          "Customers must be seated and have orders placed within this window to enjoy the discount."
+        ],
+        "quote": "Customers must be seated and have orders placed within this window to enjoy the discount."
+      },
+      "terms": {
+        "value": [
+          "Valid exclusively for dine-in at the Tampines 1 outlet only.",
+          "Available daily from 5pm to 6pm only (excluding Public Holidays)*.",
+          "Customers must be seated and have orders placed within this window to enjoy the discount.",
+          "Discount is applied to the total bill prior to the addition of GST and service charge.",
+          "Not valid in conjunction with any other ongoing promotions, discounts, vouchers, or privileges.",
+          "Image(s) for illustration purposes only.",
+          "The management reserves the right to amend or terminate the offer without prior notice."
+        ],
+        "quote": "Valid exclusively for dine-in at the Tampines 1 outlet only. Available daily from 5pm to 6pm only (excluding Public Holidays)*. Customers must be seated and have orders placed within this window to enjoy the discount. Discount is applied to the total bill prior to the addition of GST and service charge. Not valid in conjunction with any other ongoing promotions, discounts, vouchers, or privileges. Image(s) for illustration purposes only. The management reserves the right to amend or terminate the offer without prior notice."
+      }
+    },
+    "ffeabebf48f4ef7289956573aeb867f1652683b29704a46af92b29f3d4907b77:bari_bari_steak_sg-promotions-5": {
+      "classification": {
+        "value": "promotion",
+        "quote": "1 for 1"
+      },
+      "merchant": {
+        "value": null,
+        "quote": null
+      },
+      "title": {
+        "value": "1 for 1 Highball, Beers, Sake, Cocktails and House Pours",
+        "quote": "1 for 1 Highball, Beers, Sake, Cocktails and House Pours"
+      },
+      "benefit": {
+        "value": "1 for 1",
+        "quote": "1 for 1"
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": null,
+        "quote": null
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": null,
+        "quote": null
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": null,
+        "quote": null
+      },
+      "terms": {
+        "value": null,
+        "quote": null
+      }
+    },
+    "8a301883ec46a98562a07b39641a8c7afbd2ba4d49b81c69496c18bc8ebfd65c:mcdonalds_sg-McSaver": {
+      "classification": {
+        "value": "promotion",
+        "quote": "McSaver™ meals at just $5!"
+      },
+      "merchant": {
+        "value": "McDonald's",
+        "quote": "McDonald’s"
+      },
+      "title": {
+        "value": "McSaver™ meals save the day!",
+        "quote": "McSaver™ meals save the day!"
+      },
+      "benefit": {
+        "value": "McSaver™ meals at just $5!",
+        "quote": "McSaver™ meals at just $5!"
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": "selected_outlets",
+        "quote": "The promotional price is not available via delivery and in the following outlets: Lido, Gardens by the Bay and Changi Airport (Jewel, T2, T3)."
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": "The promotional price is not available via delivery and in the following outlets: Lido, Gardens by the Bay and Changi Airport (Jewel, T2, T3).",
+        "quote": "The promotional price is not available via delivery and in the following outlets: Lido, Gardens by the Bay and Changi Airport (Jewel, T2, T3)."
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": [
+          "The promotional price is not available via delivery and in the following outlets: Lido, Gardens by the Bay and Changi Airport (Jewel, T2, T3)."
+        ],
+        "quote": "The promotional price is not available via delivery and in the following outlets: Lido, Gardens by the Bay and Changi Airport (Jewel, T2, T3)."
+      },
+      "terms": {
+        "value": [
+          "Promotional price is available after breakfast hours and while stocks last.",
+          "Visuals are for illustration purposes only.",
+          "McDonald’s reserves the right to change the promotional price without prior notice.",
+          "Terms and Conditions apply.",
+          "For more information, visit https://www.mcdonalds.com.sg/McSaver.",
+          "The promotional price is not available via delivery and in the following outlets: Lido, Gardens by the Bay and Changi Airport (Jewel, T2, T3).",
+          "Locate Us"
+        ],
+        "quote": "Promotional price is available after breakfast hours and while stocks last. Visuals are for illustration purposes only. McDonald’s reserves the right to change the promotional price without prior notice. Terms and Conditions apply. For more information, visit https://www.mcdonalds.com.sg/McSaver. The promotional price is not available via delivery and in the following outlets: Lido, Gardens by the Bay and Changi Airport (Jewel, T2, T3). Locate Us"
+      }
+    },
+    "adee891fb7ec88e2d16398544977d538bd53f08f96b69fa57103a7bf20c21b8b:mcdonalds_sg-bfmcsaver": {
+      "classification": {
+        "value": "promotion",
+        "quote": "Breakfast Wrap McSaver™ Meal for just $6.50."
+      },
+      "merchant": {
+        "value": "McDonald's",
+        "quote": "McDonald’s"
+      },
+      "title": {
+        "value": "Fuel your mornings with protein-packed goodness!",
+        "quote": "Fuel your mornings with protein-packed goodness!"
+      },
+      "benefit": {
+        "value": "Breakfast Wrap McSaver™ Meal for just $6.50.",
+        "quote": "Breakfast Wrap McSaver™ Meal for just $6.50."
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": "selected_outlets",
+        "quote": "Promotional price is not available via Delivery nor at the following locations: Mandai Wildlife East, Lido, Gardens by the Bay and Changi Airport (Jewel, T2, T2 Transit, T3)."
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": "Promotional price is not available via Delivery nor at the following locations: Mandai Wildlife East, Lido, Gardens by the Bay and Changi Airport (Jewel, T2, T2 Transit, T3).",
+        "quote": "Promotional price is not available via Delivery nor at the following locations: Mandai Wildlife East, Lido, Gardens by the Bay and Changi Airport (Jewel, T2, T2 Transit, T3)."
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": [
+          "Promotional price is not available via Delivery nor at the following locations: Mandai Wildlife East, Lido, Gardens by the Bay and Changi Airport (Jewel, T2, T2 Transit, T3)."
+        ],
+        "quote": "Promotional price is not available via Delivery nor at the following locations: Mandai Wildlife East, Lido, Gardens by the Bay and Changi Airport (Jewel, T2, T2 Transit, T3)."
+      },
+      "terms": {
+        "value": [
+          "Breakfast McSaver™ Meal includes McCafé® Premium Roast Coffee or Tea, and a Hash Brown or Corn Cup.",
+          "Promotional price is available during breakfast hours and while stocks last.",
+          "Visuals are for illustration purposes only.",
+          "McDonald’s reserves the right to change the promotional mechanics & period without prior notice.",
+          "Terms & Conditions apply.",
+          "Promotional price is not available via Delivery nor at the following locations: Mandai Wildlife East, Lido, Gardens by the Bay and Changi Airport (Jewel, T2, T2 Transit, T3).",
+          "Locate Us"
+        ],
+        "quote": "Breakfast McSaver™ Meal includes McCafé® Premium Roast Coffee or Tea, and a Hash Brown or Corn Cup. Promotional price is available during breakfast hours and while stocks last. Visuals are for illustration purposes only. McDonald’s reserves the right to change the promotional mechanics & period without prior notice. Terms & Conditions apply. Promotional price is not available via Delivery nor at the following locations: Mandai Wildlife East, Lido, Gardens by the Bay and Changi Airport (Jewel, T2, T2 Transit, T3). Locate Us"
+      }
+    },
+    "2917429ba01704b7efab8a3bcd0d6f5fa8a1ad1bc07773ac58a8e777a64e9cda:sushiro_sg-to-the-moon-and-back": {
+      "classification": {
+        "value": "non_promotion",
+        "quote": "To the moon and back! Part 2 Let your taste buds journey to the moon and back from 23 Sep – 6 Oct! 🌕✨ Indulge in a moonlit moment of luxury with our Lunar Tuna with Uni ($6.9++) — bringing together the fresh delicate tuna paired together with creamy rich uni for a savoury finish~ 🍣 Meet our Lunar Seaweed Imo-Mochi with Honey Butter (2.3++) — crispy on the outside, delightfully chewy within, and finished with a luscious drizzle of sweet, buttery goodness! 🍯🧈 Lastly, don’t miss out on the Crab and Salmon Roe Mountain Wrap ($3.9++), — loaded with sweet crab and crowned with glistening salmon roe that is sure to bring you a delicious burst of flavour in a single bite. 🦀🤤 Come discover the next chapter of lunar favourites at SUSHIRO. 🌙❤️ Available while stocks last. *Prices vary at Sushiro Mandai Wildlife Reserve (Digiro outlet).⁠ For more updates, follow us on Facebook, Instagram and TikTok @SushiroSingapore"
+      },
+      "merchant": {
+        "value": null,
+        "quote": null
+      },
+      "title": {
+        "value": null,
+        "quote": null
+      },
+      "benefit": {
+        "value": null,
+        "quote": null
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": null,
+        "quote": null
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": null,
+        "quote": null
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": null,
+        "quote": null
+      },
+      "terms": {
+        "value": null,
+        "quote": null
+      }
+    },
+    "d4e6906d14df0c893690ee09be1ee02cf95b4ee3d8e23c04754e8f6c945d824d:instagram-DDJfz9bynW-": {
+      "classification": {
+        "value": "promotion",
+        "quote": "1-for-1"
+      },
+      "merchant": {
+        "value": null,
+        "quote": null
+      },
+      "title": {
+        "value": null,
+        "quote": null
+      },
+      "benefit": {
+        "value": "1-for-1",
+        "quote": "1-for-1"
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": [7],
+        "quote": "Every Sunday | Dine-in only"
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": null,
+        "quote": null
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": null,
+        "quote": null
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": [
+          "Dine-in only",
+          "Follow us on Instagram (@shinrai.sg) to enjoy this exclusive deal!"
+        ],
+        "quote": "Dine-in only 📸 Follow us on Instagram (@shinrai.sg) to enjoy this exclusive deal!"
+      },
+      "terms": {
+        "value": [
+          "1-for-1 valid for each dish per booking.",
+          "Not combinable with other promotions or discounts."
+        ],
+        "quote": "1-for-1 valid for each dish per booking. Not combinable with other promotions or discounts."
+      }
+    },
+    "9b7ee95414c063b60f90a74e69d1a51d62010e45a4899a11bfa1ae1a507f593e:instagram-Dc-kxPJzx9B": {
+      "classification": {
+        "value": "promotion",
+        "quote": "$9.90++ gets you a main + free-flow side dishes + your choice of K-TREAT"
+      },
+      "merchant": {
+        "value": null,
+        "quote": null
+      },
+      "title": {
+        "value": null,
+        "quote": null
+      },
+      "benefit": {
+        "value": "$9.90++ gets you a main + free-flow side dishes + your choice of K-TREAT",
+        "quote": "$9.90++ gets you a main + free-flow side dishes + your choice of K-TREAT"
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": [1, 2, 3, 4, 5],
+        "quote": "Weekdays, 2–5PM."
+      },
+      "hours": {
+        "value": "14:00–17:00",
+        "quote": "Weekdays, 2–5PM."
+      },
+      "locationScope": {
+        "value": null,
+        "quote": null
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": null,
+        "quote": null
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": ["(Valid for dine-in only)"],
+        "quote": "(Valid for dine-in only)"
+      },
+      "terms": {
+        "value": [
+          "(Valid for dine-in only)",
+          "(Excluding public holidays)",
+          "Dubai Chewy Cookie available in limited quantities daily."
+        ],
+        "quote": "(Valid for dine-in only) (Excluding public holidays) Dubai Chewy Cookie available in limited quantities daily."
+      }
+    },
+    "b8a9c64ae12fb643690c7ecacd692261fd58db662185d4824c3cbce299e76b52:instagram-DdQA3EChsjx": {
+      "classification": {
+        "value": "promotion",
+        "quote": "1 for 1 Nasi Lemak"
+      },
+      "merchant": {
+        "value": "Sinpopo Brand",
+        "quote": "Sinpopo Brand"
+      },
+      "title": {
+        "value": null,
+        "quote": null
+      },
+      "benefit": {
+        "value": "1 for 1 Nasi Lemak",
+        "quote": "1 for 1 Nasi Lemak"
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": [1, 2, 3, 4, 5],
+        "quote": "Available weekdays, 11AM–12PM only"
+      },
+      "hours": {
+        "value": "11:00–12:00",
+        "quote": "Available weekdays, 11AM–12PM only"
+      },
+      "locationScope": {
+        "value": null,
+        "quote": null
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": null,
+        "quote": null
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": ["Reservation is required to enjoy our Nasi Lemak promotion."],
+        "quote": "Reservation is required to enjoy our Nasi Lemak promotion."
+      },
+      "terms": {
+        "value": ["Reservation is required to enjoy our Nasi Lemak promotion."],
+        "quote": "Reservation is required to enjoy our Nasi Lemak promotion."
+      }
+    },
+    "0c33cbeaee16d0b976cad3c4c955c6c1e64c3310a467378aa228e4235189cbbd:instagram-DdfecQUjNZ5": {
+      "classification": {
+        "value": "promotion",
+        "quote": "1-FOR-1"
+      },
+      "merchant": {
+        "value": "Starbucks Singapore",
+        "quote": "Starbucks Singapore"
+      },
+      "title": {
+        "value": null,
+        "quote": null
+      },
+      "benefit": {
+        "value": "1-FOR-1",
+        "quote": "1-FOR-1"
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": "14:00–20:00",
+        "quote": "21–24 September, 2PM–8PM"
+      },
+      "locationScope": {
+        "value": null,
+        "quote": null
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": null,
+        "quote": null
+      },
+      "eligibility": {
+        "value": ["Starbucks Singapore Rewards exclusive"],
+        "quote": "Starbucks Singapore Rewards exclusive"
+      },
+      "redemption": {
+        "value": [
+          "Redeem in stores",
+          "Check your Starbucks Singapore App for your vouchers."
+        ],
+        "quote": "Redeem in stores Check your Starbucks Singapore App for your vouchers."
+      },
+      "terms": {
+        "value": [
+          "Starbucks Singapore Rewards exclusive",
+          "3 vouchers per member",
+          "Redeem in stores",
+          "Terms & conditions apply."
+        ],
+        "quote": "Starbucks Singapore Rewards exclusive ✨ 3 vouchers per member ✨ 21–24 September, 2PM–8PM ✨ Redeem in stores Check your Starbucks Singapore App for your vouchers. Terms & conditions apply."
+      }
+    },
+    "5b30b7b5b362421ddf3de1a541b45fa37d0441ff8e2bb6ed52fb85eb489c7c2f:shake_shack_sg-flock-this-way": {
+      "classification": {
+        "value": "promotion",
+        "quote": "all for just $23.9 (U.P $33.80)"
+      },
+      "merchant": {
+        "value": "Shake Shack",
+        "quote": "Shake Shack"
+      },
+      "title": {
+        "value": "Flock This Way",
+        "quote": "Flock This Way"
+      },
+      "benefit": {
+        "value": "all for just $23.9 (U.P $33.80)",
+        "quote": "all for just $23.9 (U.P $33.80)"
+      },
+      "startDate": {
+        "value": "2025-11-12",
+        "quote": "Offer is available across all Shake Shack outlets in Singapore from 12 November to 30 November 2025 only."
+      },
+      "endDate": {
+        "value": "2025-11-30",
+        "quote": "Offer is available across all Shake Shack outlets in Singapore from 12 November to 30 November 2025 only."
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": "all_outlets",
+        "quote": "all Shake Shack outlets in Singapore"
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": "all Shake Shack outlets in Singapore",
+        "quote": "all Shake Shack outlets in Singapore"
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": [
+          "The offer is only valid via Happy Point Singapore in-app orders.",
+          "Offer is valid for dine-in and take-away."
+        ],
+        "quote": "Offer is valid for dine-in and take-away. The offer is only valid via Happy Point Singapore in-app orders."
+      },
+      "terms": {
+        "value": [
+          "Offer is available across all Shake Shack outlets in Singapore from 12 November to 30 November 2025 only.",
+          "Offer is valid for dine-in and take-away.",
+          "The offer is only valid via Happy Point Singapore in-app orders.",
+          "Offer not valid for orders made through third-party delivery apps.",
+          "Offer is not valid in conjunction with any other vouchers.",
+          "Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items.",
+          "Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice.",
+          "Visuals are for illustration purposes only."
+        ],
+        "quote": "Offer is available across all Shake Shack outlets in Singapore from 12 November to 30 November 2025 only. Offer is valid for dine-in and take-away. The offer is only valid via Happy Point Singapore in-app orders. Offer not valid for orders made through third-party delivery apps. Offer is not valid in conjunction with any other vouchers. Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items. Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice. Visuals are for illustration purposes only."
+      }
+    },
+    "d5bd5e88f0fcd5e80b66bba1515bb2357c20c788e7c7dc550d31a87902efbce0:shake_shack_sg-meet-our-collab-partners": {
+      "classification": {
+        "value": "promotion",
+        "quote": "complimentary White pepper fries"
+      },
+      "merchant": {
+        "value": "Shake Shack",
+        "quote": "Shake Shack"
+      },
+      "title": {
+        "value": "Meet Our Collab Partners",
+        "quote": "Meet Our Collab Partners"
+      },
+      "benefit": {
+        "value": "complimentary White pepper fries",
+        "quote": "complimentary White pepper fries"
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": null,
+        "quote": null
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": null,
+        "quote": null
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": [
+          "Get complimentary White pepper fries* on us when you put your knowledge about our local collab to the test, click here to find out!"
+        ],
+        "quote": "Get complimentary White pepper fries* on us when you put your knowledge about our local collab to the test, click here to find out!"
+      },
+      "terms": {
+        "value": null,
+        "quote": null
+      }
+    },
+    "799fd675ac4f163ff6cfa0ecb4c15b1a199de19b242636017015cf1aef570f1b:shake_shack_sg-introducing-aloha-shack": {
+      "classification": {
+        "value": "non_promotion",
+        "quote": "Introducing Aloha Shack Introducing: Aloha Shack Menu Say E komo mai (welcome) to the Aloha Shack Menu! We’re teaming up with Butcher’s Block and in collaboration with Raffles Hotel Singapore. It’s more than just a menu, it’s an experience that discovers the Hawaiian and local favorite’s flavors. Meet Chef Jordan Inspired by Chef Jordan Keao’s roots in Hawaii and his journey in Singapore over the past decade, this menu brings together woodfire cooking, Hawaiian flavors and the rich cultural heritage found right in Raffles Hotel Singapore. It’s a celebration of authenticity, history and genuine hospitality. At its core, the Aloha Shack Menu reflects a shared philosophy between Chef Jordan and Shake Shack: to honour real, whole ingredients, celebrate culture and create food that feels both elevated and approachable. BBQ Smokehouse Shack A made-to-order quarter-pound per patty of 100% Angus beef topped with smoky minced beef gravy, BBQ kecap manis, pickled jalapeño and pickled red onions on a toasted potato bun. Available as a single or double. Huli Huli Chicken Hand-breaded crispy chicken breast or thigh glazed in Huli Huli sauce, topped with coleslaw and lettuce served on a toasted potato bun. Salted Egg Fries Crispy crinkle-cut fries topped with salted egg yolk sauce, garlic butter, white pepper and fried curry leaves Roselle Ginger Lemonade Roselle ginger concentrate mixed with our house-made lemonade Ube Coconut Crème Ube coconut hand-spun with vanilla frozen custard, topped with mochi coated in Kinako powder."
+      },
+      "merchant": {
+        "value": null,
+        "quote": null
+      },
+      "title": {
+        "value": null,
+        "quote": null
+      },
+      "benefit": {
+        "value": null,
+        "quote": null
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": null,
+        "quote": null
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": null,
+        "quote": null
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": null,
+        "quote": null
+      },
+      "terms": {
+        "value": null,
+        "quote": null
+      }
+    },
+    "dd5dcd62e209e265acd59c0e4e8d379d2d5b4026abd46c4c6ac07f86025791b0:shake_shack_sg-more-perks-less-fuss": {
+      "classification": {
+        "value": "promotion",
+        "quote": "Earn 2% back on what you spend"
+      },
+      "merchant": {
+        "value": null,
+        "quote": null
+      },
+      "title": {
+        "value": "MORE PERKS, LESS FUSS",
+        "quote": "MORE PERKS, LESS FUSS"
+      },
+      "benefit": {
+        "value": "Earn 2% back on what you spend",
+        "quote": "Earn 2% back on what you spend"
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": null,
+        "quote": null
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": null,
+        "quote": null
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": ["Download the Happy Point App and check out what’s new!"],
+        "quote": "Download the Happy Point App and check out what’s new!"
+      },
+      "terms": {
+        "value": null,
+        "quote": null
+      }
+    },
+    "ca2fe3ea728d822ac86ec36dcf8ab0e4f23fbb88d73c736cbcbca97957954aa5:shake_shack_sg-local-faves-our-treat": {
+      "classification": {
+        "value": "promotion",
+        "quote": "complimentary weekly treat"
+      },
+      "merchant": {
+        "value": "Shake Shack",
+        "quote": "Shake Shack"
+      },
+      "title": {
+        "value": "Local Faves, Our Treat",
+        "quote": "Local Faves, Our Treat"
+      },
+      "benefit": {
+        "value": "complimentary weekly treat",
+        "quote": "complimentary weekly treat"
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": null,
+        "quote": null
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": null,
+        "quote": null
+      },
+      "eligibility": {
+        "value": ["Log in to your Happy Point account"],
+        "quote": "Log in to your Happy Point account"
+      },
+      "redemption": {
+        "value": [
+          "Log in to your Happy Point account",
+          "Head down to the Shack, scan your Member QR code + the coupon QR code at the counter",
+          "Please head to the cashier to redeem the voucher."
+        ],
+        "quote": "Log in to your Happy Point account Look for the SG60 banner under “Featured Highlights” on the home tab Head down to the Shack, scan your Member QR code + the coupon QR code at the counter Enjoy and celebrate together! Terms & conditions: Please head to the cashier to redeem the voucher."
+      },
+      "terms": {
+        "value": [
+          "Please head to the cashier to redeem the voucher.",
+          "Voucher is only valid with any burger purchase.",
+          "Valid for one-time redemption per week only.",
+          "Voucher is only redeemable at Shake Shack Singapore.",
+          "Not valid with other vouchers, promotions, or discounts.",
+          "Non-refundable, non-extendable, and non-exchangeable for cash or other menu items.",
+          "Voucher is not valid for orders made through third-party delivery apps.",
+          "Lost, stolen, or expired vouchers cannot be replaced.",
+          "Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice.",
+          "Visuals are for illustration purposes only Add in your orders and the complimentary menu item before scanning your voucher Log in to your Happy Point account Look for the SG60 banner under “Featured Highlights” on the home tab Head down to the Shack, scan your Member QR code + the coupon QR code at the counter Enjoy and celebrate together!"
+        ],
+        "quote": "Please head to the cashier to redeem the voucher. Voucher is only valid with any burger purchase. Valid for one-time redemption per week only. Voucher is only redeemable at Shake Shack Singapore. Not valid with other vouchers, promotions, or discounts. Non-refundable, non-extendable, and non-exchangeable for cash or other menu items. Voucher is not valid for orders made through third-party delivery apps. Lost, stolen, or expired vouchers cannot be replaced. Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice. Visuals are for illustration purposes only Add in your orders and the complimentary menu item before scanning your voucher Log in to your Happy Point account Look for the SG60 banner under “Featured Highlights” on the home tab Head down to the Shack, scan your Member QR code + the coupon QR code at the counter Enjoy and celebrate together!"
+      }
+    },
+    "b13910b8a82934d13b8950b46d5833c1cc2567bc9624059d99cffbd19d5c364e:shake_shack_sg-pucker-up-for-2-lemonades": {
+      "classification": {
+        "value": "promotion",
+        "quote": "Lemonades for just $2"
+      },
+      "merchant": {
+        "value": "Shake Shack",
+        "quote": "Shake Shack"
+      },
+      "title": {
+        "value": "Pucker up for $2 Lemonades",
+        "quote": "Pucker up for $2 Lemonades"
+      },
+      "benefit": {
+        "value": "Lemonades for just $2",
+        "quote": "Lemonades for just $2"
+      },
+      "startDate": {
+        "value": "2025-10-28",
+        "quote": "Offer is available across all Shake Shack outlets in Singapore from 28 October 2025 to 9 November 2025 only."
+      },
+      "endDate": {
+        "value": "2025-11-09",
+        "quote": "Offer is available across all Shake Shack outlets in Singapore from 28 October 2025 to 9 November 2025 only."
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": "all_outlets",
+        "quote": "all Shake Shack outlets in Singapore"
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": "all Shake Shack outlets in Singapore",
+        "quote": "all Shake Shack outlets in Singapore"
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": [
+          "The offer is only valid via Happy Point Singapore in-app orders.",
+          "Offer is valid for dine-in and take-away."
+        ],
+        "quote": "Offer is valid for dine-in and take-away. The offer is only valid via Happy Point Singapore in-app orders."
+      },
+      "terms": {
+        "value": [
+          "Offer is available across all Shake Shack outlets in Singapore from 28 October 2025 to 9 November 2025 only.",
+          "Offer is valid for dine-in and take-away.",
+          "The offer is only valid via Happy Point Singapore in-app orders.",
+          "Offer not valid for orders made through third-party delivery apps.",
+          "Offer is not valid in conjunction with any other vouchers.",
+          "Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items.",
+          "Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice.",
+          "Visuals are for illustration purposes only."
+        ],
+        "quote": "Offer is available across all Shake Shack outlets in Singapore from 28 October 2025 to 9 November 2025 only. Offer is valid for dine-in and take-away. The offer is only valid via Happy Point Singapore in-app orders. Offer not valid for orders made through third-party delivery apps. Offer is not valid in conjunction with any other vouchers. Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items. Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice. Visuals are for illustration purposes only."
+      }
+    },
+    "769201816ceaa1a1a8394feb37050a692bc3cff666ac2a51ddba8461b9e8023c:shake_shack_sg-well-be-right-back": {
+      "classification": {
+        "value": "non_promotion",
+        "quote": "We’ll be right back! A New and Improved Happy Point App is Coming Soon! Exciting news, Shack fans! We’re rolling out a brand-new and improved interface for the Happy Point app, designed to make your experience even better. Get ready for a smoother, more rewarding journey as we enhance how you earn and redeem points at Shake Shack! Temporary Downtime – What You Need to Know As we gear up for the big transition, there will be a temporary downtime starting 8th March, with the app making its grand return on 14th April. During this period, here’s what you need to take note of: Redeem Your Vouchers Before the Closure: Be sure to use your existing vouchers before the app goes offline on 8th March. Voucher Issuance Paused: No new vouchers will be issued via Happy Point from 8th March onwards. Keep Earning Points: You can still earn points at Shake Shack by scanning the QR code at checkout. However, point redemption will be temporarily paused and will resume once the app is back. Stay Updated Don’t miss any important updates, follow us on Instagram @shakeshacksg for the latest news! Your Data is Safe and Secure We want to assure you that your account data will remain safe and secure throughout this transition. We appreciate your patience and can’t wait to introduce a fresh, improved Happy Point experience! Got questions? Feel free to reach out to us—we’re happy to help. See you soon with a brand-new Happy Point app!"
+      },
+      "merchant": {
+        "value": null,
+        "quote": null
+      },
+      "title": {
+        "value": null,
+        "quote": null
+      },
+      "benefit": {
+        "value": null,
+        "quote": null
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": null,
+        "quote": null
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": null,
+        "quote": null
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": null,
+        "quote": null
+      },
+      "terms": {
+        "value": null,
+        "quote": null
+      }
+    },
+    "62528ec02184ab45db006902bf57476f8f106fdfb0e6c1b5e2708dbcb0d21aa5:shake_shack_sg-our-french-onion-menu": {
+      "classification": {
+        "value": "non_promotion",
+        "quote": "Our French Onion Menu Introducing: Our French Onion Menu As we head into 2026, we’re bringing the decadent, elevated flavors of French Onion soup to Shacks — reimagining comfort food in a way only Shake Shack can. Headlined by the French Onion Soup Burger, this lineup brings together high-quality ingredients and craveable flavors for burgers and fries, featuring Gruyère cheese, caramelized onions and garlic parmesan. Fans can also enjoy a new must-try side: our first-ever Onion Rings, crispy, beer-battered and packed with flavor. French Onion Soup Burger A made-to-order quarter-pound* per patty of 100% Angus beef topped with Gruyère cheese, caramelized onions, crispy sweet onions, and roasted garlic parmesan aioli on a toasted potato bun. Available as a single, double, or triple. *Approximate weight per patty is 4oz before cooking French Onion ‘Shroom Burger Crisp-fried portobello mushroom filled with melted Monterey Jack, Tilsiter and Colby cheeses, topped with caramelized onions and roasted garlic parmesan aioli on a toasted potato bun. French Onion Shack Stack A made-to-order quarter-pound* per patty of 100% Angus beef topped with Gruyère cheese, a ‘Shroom Burger, caramelized onions, and roasted garlic parmesan aioli on a toasted potato bun. *Approximate weight per patty is 4oz before cooking Onion Rings Crispy beer-battered onion rings made from sliced sweet Spanish onions served with your choice of sauce. Parmesan Garlic Fries Crispy crinkle cuts dusted with parmesan cheese served with a side of roasted garlic parmesan aioli."
+      },
+      "merchant": {
+        "value": null,
+        "quote": null
+      },
+      "title": {
+        "value": null,
+        "quote": null
+      },
+      "benefit": {
+        "value": null,
+        "quote": null
+      },
+      "startDate": {
+        "value": null,
+        "quote": null
+      },
+      "endDate": {
+        "value": null,
+        "quote": null
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": null,
+        "quote": null
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": null,
+        "quote": null
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": null,
+        "quote": null
+      },
+      "terms": {
+        "value": null,
+        "quote": null
+      }
+    },
+    "fa690c30b6b2d0023f30ce0d051ae891c1d24d5b7f739abaa22edf2108b069b0:fairprice_sg-price-drop-buy-now-weekly-offers-from-20-off": {
+      "classification": {
+        "value": "promotion",
+        "quote": "From 20% Off"
+      },
+      "merchant": {
+        "value": null,
+        "quote": null
+      },
+      "title": {
+        "value": "Price Drop Buy Now - Weekly Offers From 20% Off",
+        "quote": "Price Drop Buy Now - Weekly Offers From 20% Off"
+      },
+      "benefit": {
+        "value": "From 20% Off",
+        "quote": "From 20% Off"
+      },
+      "startDate": {
+        "value": "2026-10-01",
+        "quote": "1 Oct - 7 Oct 2026"
+      },
+      "endDate": {
+        "value": "2026-10-07",
+        "quote": "1 Oct - 7 Oct 2026"
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": null,
+        "quote": null
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": null,
+        "quote": null
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": null,
+        "quote": null
+      },
+      "terms": {
+        "value": null,
+        "quote": null
+      }
+    },
+    "fa690c30b6b2d0023f30ce0d051ae891c1d24d5b7f739abaa22edf2108b069b0:fairprice_sg-xtra-wine-flash-sale": {
+      "classification": {
+        "value": "promotion",
+        "quote": "Xtra Wine Flash Deals for September"
+      },
+      "merchant": {
+        "value": null,
+        "quote": null
+      },
+      "title": {
+        "value": "Xtra Wine Flash Deals for September",
+        "quote": "Xtra Wine Flash Deals for September"
+      },
+      "benefit": {
+        "value": null,
+        "quote": null
+      },
+      "startDate": {
+        "value": "2026-09-24",
+        "quote": "24 to 27 September 2026"
+      },
+      "endDate": {
+        "value": "2026-09-27",
+        "quote": "24 to 27 September 2026"
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": null,
+        "quote": null
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": null,
+        "quote": null
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": null,
+        "quote": null
+      },
+      "terms": {
+        "value": null,
+        "quote": null
+      }
+    },
+    "fa690c30b6b2d0023f30ce0d051ae891c1d24d5b7f739abaa22edf2108b069b0:fairprice_sg-finest-wine": {
+      "classification": {
+        "value": "promotion",
+        "quote": "Finest Monthly Wine Deals"
+      },
+      "merchant": {
+        "value": null,
+        "quote": null
+      },
+      "title": {
+        "value": "Finest Monthly Wine Deals",
+        "quote": "Finest Monthly Wine Deals"
+      },
+      "benefit": {
+        "value": null,
+        "quote": null
+      },
+      "startDate": {
+        "value": "2026-10-01",
+        "quote": "1-31 Oct 2026"
+      },
+      "endDate": {
+        "value": "2026-10-31",
+        "quote": "1-31 Oct 2026"
+      },
+      "weekdays": {
+        "value": null,
+        "quote": null
+      },
+      "hours": {
+        "value": null,
+        "quote": null
+      },
+      "locationScope": {
+        "value": null,
+        "quote": null
+      },
+      "locationNames": {
+        "value": null,
+        "quote": null
+      },
+      "locationWording": {
+        "value": null,
+        "quote": null
+      },
+      "eligibility": {
+        "value": null,
+        "quote": null
+      },
+      "redemption": {
+        "value": null,
+        "quote": null
+      },
+      "terms": {
+        "value": null,
+        "quote": null
+      }
+    }
+  }
+}

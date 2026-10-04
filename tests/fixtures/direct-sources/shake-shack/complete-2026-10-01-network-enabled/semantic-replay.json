@@ -1,0 +1,1830 @@
+{
+  "observedAt": "2026-10-01T10:48:33.000Z",
+  "limits": {
+    "maxRequests": 60,
+    "maxListingPages": 5,
+    "maxDetailPages": 50,
+    "maxEvidencePages": 8,
+    "maxBytes": 3000000,
+    "timeoutMs": 12000,
+    "maxRedirects": 3
+  },
+  "enumeration": {
+    "entries": [
+      {
+        "canonicalUrl": "https://www.shakeshack.com.sg/100-angus-beef-just-for-you/",
+        "title": "100% Angus Beef – Just for You",
+        "nativeId": null,
+        "listingUrl": "https://www.shakeshack.com.sg/blog/page/2/",
+        "evidenceId": "9c61aaed165f0b9d92c5bfb725dc572b91cc884327665924660b742459431c79",
+        "relation": "detail",
+        "metadata": {
+          "description": null,
+          "merchant": null,
+          "selector": "main .pp-posts .pp-post"
+        }
+      },
+      {
+        "canonicalUrl": "https://www.shakeshack.com.sg/all-about-chickens/",
+        "title": "All About Chickens",
+        "nativeId": null,
+        "listingUrl": "https://www.shakeshack.com.sg/blog/page/2/",
+        "evidenceId": "9c61aaed165f0b9d92c5bfb725dc572b91cc884327665924660b742459431c79",
+        "relation": "detail",
+        "metadata": {
+          "description": null,
+          "merchant": null,
+          "selector": "main .pp-posts .pp-post"
+        }
+      },
+      {
+        "canonicalUrl": "https://www.shakeshack.com.sg/feeding-a-crowd/",
+        "title": "Feeding a Crowd?",
+        "nativeId": null,
+        "listingUrl": "https://www.shakeshack.com.sg/blog/",
+        "evidenceId": "c4b140c788662b212183473134ef63eecddbfa361c0421821c18443acdc99e2e",
+        "relation": "detail",
+        "metadata": {
+          "description": null,
+          "merchant": null,
+          "selector": "main .pp-posts .pp-post"
+        }
+      },
+      {
+        "canonicalUrl": "https://www.shakeshack.com.sg/hello-parkway-parade/",
+        "title": "Hello, Parkway Parade!",
+        "nativeId": null,
+        "listingUrl": "https://www.shakeshack.com.sg/blog/",
+        "evidenceId": "c4b140c788662b212183473134ef63eecddbfa361c0421821c18443acdc99e2e",
+        "relation": "detail",
+        "metadata": {
+          "description": null,
+          "merchant": null,
+          "selector": "main .pp-posts .pp-post"
+        }
+      },
+      {
+        "canonicalUrl": "https://www.shakeshack.com.sg/national-cheeseburger-day/",
+        "title": "National Cheeseburger Day",
+        "nativeId": null,
+        "listingUrl": "https://www.shakeshack.com.sg/blog/",
+        "evidenceId": "c4b140c788662b212183473134ef63eecddbfa361c0421821c18443acdc99e2e",
+        "relation": "detail",
+        "metadata": {
+          "description": null,
+          "merchant": null,
+          "selector": "main .pp-posts .pp-post"
+        }
+      },
+      {
+        "canonicalUrl": "https://www.shakeshack.com.sg/shack-meal/",
+        "title": "Shack Meal",
+        "nativeId": null,
+        "listingUrl": "https://www.shakeshack.com.sg/blog/",
+        "evidenceId": "c4b140c788662b212183473134ef63eecddbfa361c0421821c18443acdc99e2e",
+        "relation": "detail",
+        "metadata": {
+          "description": null,
+          "merchant": null,
+          "selector": "main .pp-posts .pp-post"
+        }
+      },
+      {
+        "canonicalUrl": "https://www.shakeshack.com.sg/singlish-lingo/",
+        "title": "Singlish Lingo",
+        "nativeId": null,
+        "listingUrl": "https://www.shakeshack.com.sg/blog/page/3/",
+        "evidenceId": "0bc9093509779dc5a336b36a8e57d9adc38fd9b6d0b1954073d95205e69388f7",
+        "relation": "detail",
+        "metadata": {
+          "description": null,
+          "merchant": null,
+          "selector": "main .pp-posts .pp-post"
+        }
+      },
+      {
+        "canonicalUrl": "https://www.shakeshack.com.sg/study-breaks-just-got-better/",
+        "title": "Study Breaks Just Got Better",
+        "nativeId": null,
+        "listingUrl": "https://www.shakeshack.com.sg/blog/",
+        "evidenceId": "c4b140c788662b212183473134ef63eecddbfa361c0421821c18443acdc99e2e",
+        "relation": "detail",
+        "metadata": {
+          "description": null,
+          "merchant": null,
+          "selector": "main .pp-posts .pp-post"
+        }
+      },
+      {
+        "canonicalUrl": "https://www.shakeshack.com.sg/this-ones-for-your-mom/",
+        "title": "This One’s For Your Mom",
+        "nativeId": null,
+        "listingUrl": "https://www.shakeshack.com.sg/blog/page/3/",
+        "evidenceId": "0bc9093509779dc5a336b36a8e57d9adc38fd9b6d0b1954073d95205e69388f7",
+        "relation": "detail",
+        "metadata": {
+          "description": null,
+          "merchant": null,
+          "selector": "main .pp-posts .pp-post"
+        }
+      },
+      {
+        "canonicalUrl": "https://www.shakeshack.com.sg/were-introducing-chicken-sundays/",
+        "title": "We’re introducing Chicken Sundays!",
+        "nativeId": null,
+        "listingUrl": "https://www.shakeshack.com.sg/blog/page/2/",
+        "evidenceId": "9c61aaed165f0b9d92c5bfb725dc572b91cc884327665924660b742459431c79",
+        "relation": "detail",
+        "metadata": {
+          "description": null,
+          "merchant": null,
+          "selector": "main .pp-posts .pp-post"
+        }
+      }
+    ],
+    "evidence": [
+      {
+        "id": "c4b140c788662b212183473134ef63eecddbfa361c0421821c18443acdc99e2e",
+        "sourceId": "shake_shack_sg",
+        "requestedUrl": "https://www.shakeshack.com.sg/blog/",
+        "url": "https://www.shakeshack.com.sg/blog/",
+        "relation": "listing",
+        "fetchedAt": "2026-10-01T10:48:33.000Z",
+        "contentHash": "04e650afe8974e5de76776381fed62ae6682b64d0f871cf0933ac3cd8851b08c",
+        "contentType": "text/html",
+        "httpStatus": 200,
+        "notes": []
+      },
+      {
+        "id": "9c61aaed165f0b9d92c5bfb725dc572b91cc884327665924660b742459431c79",
+        "sourceId": "shake_shack_sg",
+        "requestedUrl": "https://www.shakeshack.com.sg/blog/page/2/",
+        "url": "https://www.shakeshack.com.sg/blog/page/2/",
+        "relation": "listing",
+        "fetchedAt": "2026-10-01T10:48:33.000Z",
+        "contentHash": "774c9013ff96cb1819f1b642c26682dae45df6d754f8052b705dca68b451a5ac",
+        "contentType": "text/html",
+        "httpStatus": 200,
+        "notes": []
+      },
+      {
+        "id": "0bc9093509779dc5a336b36a8e57d9adc38fd9b6d0b1954073d95205e69388f7",
+        "sourceId": "shake_shack_sg",
+        "requestedUrl": "https://www.shakeshack.com.sg/blog/page/3/",
+        "url": "https://www.shakeshack.com.sg/blog/page/3/",
+        "relation": "listing",
+        "fetchedAt": "2026-10-01T10:48:33.000Z",
+        "contentHash": "f0881a8a2f9c61261c30545fbe1899387fecb316bfe485121bbeec9c44eab541",
+        "contentType": "text/html",
+        "httpStatus": 200,
+        "notes": []
+      },
+      {
+        "id": "e004ae67952f2fc84b7ffb68b5e3e254e3cffaa523d31f2f4995d42f1a24889c",
+        "sourceId": "shake_shack_sg",
+        "requestedUrl": "https://www.shakeshack.com.sg/blog/page/4/",
+        "url": "https://www.shakeshack.com.sg/blog/page/4/",
+        "relation": "listing",
+        "fetchedAt": "2026-10-01T10:48:33.000Z",
+        "contentHash": "96b234b54dd57142dbefebffd2c8ecb126602458c295350ca234d10a37a131b7",
+        "contentType": "text/html",
+        "httpStatus": 200,
+        "notes": []
+      }
+    ],
+    "complete": true,
+    "issues": [],
+    "pagination": {
+      "requested": [
+        "https://www.shakeshack.com.sg/blog/",
+        "https://www.shakeshack.com.sg/blog/page/2/",
+        "https://www.shakeshack.com.sg/blog/page/3/",
+        "https://www.shakeshack.com.sg/blog/page/4/"
+      ],
+      "discovered": [
+        "https://www.shakeshack.com.sg/blog/page/2/",
+        "https://www.shakeshack.com.sg/blog/page/3/",
+        "https://www.shakeshack.com.sg/blog/page/4/",
+        "https://www.shakeshack.com.sg/blog/"
+      ],
+      "unresolved": []
+    },
+    "observedAt": "2026-10-01T10:48:33.000Z",
+    "classification": {
+      "discovered_articles": 44,
+      "classified_articles": 44,
+      "promotion_articles": 10,
+      "non_promotion_articles": 34,
+      "unresolved_articles": 0,
+      "articles": [
+        {
+          "url": "https://www.shakeshack.com.sg/100-angus-beef-just-for-you/",
+          "result": "promotion",
+          "evidenceId": "57dee02cf95304a0253d24473533d57e6db766643cafd9b5cadeb508a1b1b695",
+          "reason": "terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/all-about-chickens/",
+          "result": "promotion",
+          "evidenceId": "e27e40e4dba959cbb9f08d644bdea592b59eb37899235d613cf1ddd597778b44",
+          "reason": "terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/boogie-your-way-to-shake-shack-disco-night/",
+          "result": "non_promotion",
+          "evidenceId": "fb807aded9f7fc3525ca1e896e3e7b9092b62c976251a021049592ba09db3743",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/clay-workshop/",
+          "result": "non_promotion",
+          "evidenceId": "9f187a868131515453938b052c626ed76fb1feb9baf867e575d201bd7fb86d85",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/concrete-craze/",
+          "result": "non_promotion",
+          "evidenceId": "5a945111b1bd55c853df2dd0b1a1f27e80d9cb84554126debbf05bba835888f5",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/everything-in-our-veggie-shack/",
+          "result": "non_promotion",
+          "evidenceId": "ad150a80fed3c8a2050b383554b2270cabeacb98bc9b8f9d8cd8e0a84da333ea",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/feeding-a-crowd/",
+          "result": "promotion",
+          "evidenceId": "2955e4d9bd535f6ba812404fc29d5a93f85772c561aabba46f5bdeb92630a00f",
+          "reason": "terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/flock-this-way/",
+          "result": "non_promotion",
+          "evidenceId": "5b30b7b5b362421ddf3de1a541b45fa37d0441ff8e2bb6ed52fb85eb489c7c2f",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/hello-one-fullerton/",
+          "result": "non_promotion",
+          "evidenceId": "ce3e78777691333aa0fdf3f82cc3174a1508dbaf7dc84c9d433f7d258f4d0191",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/hello-parkway-parade/",
+          "result": "promotion",
+          "evidenceId": "dee9faec384ca75088ba149674fd403b71143350189d50fc466d120f112672ca",
+          "reason": "terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/introducing-aloha-shack/",
+          "result": "non_promotion",
+          "evidenceId": "799fd675ac4f163ff6cfa0ecb4c15b1a199de19b242636017015cf1aef570f1b",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/introducing-summer-greek-shack/",
+          "result": "non_promotion",
+          "evidenceId": "d5dd2496e02bd86597d8aea5bffd6d28db7224e9c463f8f03d5a10bf815bb3ea",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/its-caesar-time/",
+          "result": "non_promotion",
+          "evidenceId": "131ae6eafa1ff6bc86118a725a8178c9604bdee144268eb28ebf02d9c0de39ed",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/local-faves-our-treat/",
+          "result": "non_promotion",
+          "evidenceId": "ca2fe3ea728d822ac86ec36dcf8ab0e4f23fbb88d73c736cbcbca97957954aa5",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/meet-our-collab-partners/",
+          "result": "non_promotion",
+          "evidenceId": "d5bd5e88f0fcd5e80b66bba1515bb2357c20c788e7c7dc550d31a87902efbce0",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/more-perks-less-fuss/",
+          "result": "non_promotion",
+          "evidenceId": "dd5dcd62e209e265acd59c0e4e8d379d2d5b4026abd46c4c6ac07f86025791b0",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/national-cheeseburger-day/",
+          "result": "promotion",
+          "evidenceId": "b3a9b6866ee567537f495d5923581d0bb1ee0fecfe96365ec0dbf703788df2ec",
+          "reason": "terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/new-york-steakhouse/",
+          "result": "non_promotion",
+          "evidenceId": "cca11f95931be027aa87dc9442e05a11984f1d7cd60d707ad0bf53b0894c7a6b",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/on-popular-demands-shackmeister-is-back/",
+          "result": "non_promotion",
+          "evidenceId": "957a4c4292b17ec790e777d3c6f25763f294ce40581a8f904526383a404dcdf4",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/one-day-exclusive-shack-gapore-dog/",
+          "result": "non_promotion",
+          "evidenceId": "602ba12cac8faf6a3674bd90a7b6d9f7981898a2b4d127266f785b99acbd8da8",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/our-french-onion-menu/",
+          "result": "non_promotion",
+          "evidenceId": "62528ec02184ab45db006902bf57476f8f106fdfb0e6c1b5e2708dbcb0d21aa5",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/pucker-up-for-2-lemonades/",
+          "result": "non_promotion",
+          "evidenceId": "b13910b8a82934d13b8950b46d5833c1cc2567bc9624059d99cffbd19d5c364e",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/puzzle-shackdown/",
+          "result": "non_promotion",
+          "evidenceId": "c9f806e574a433043d55dfa1177d7be996aef09d2b072b70a95a588a673555c4",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/save-the-date/",
+          "result": "non_promotion",
+          "evidenceId": "746b989cd927bfc0abc3dc02a12307f54246f34b04546e1204f949b72fdc9a14",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/shack-breakfast/",
+          "result": "non_promotion",
+          "evidenceId": "6545601e93b20960fa8390e974f8aa70800056449f43b78d12d7ede0fb2ceb29",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/shack-meal/",
+          "result": "promotion",
+          "evidenceId": "1cefc8d66081ddd4193ea63d8000338642386bc0ac0a69e4f249089bb6e9bbb8",
+          "reason": "terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/shake-shack-x-naeum-inside-our-latest-singapore-chef-collab/",
+          "result": "non_promotion",
+          "evidenceId": "65e9ad98575cc4513f259dc6609ec9df19dbbab0cde7d63767e78f0579583ead",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/shake-shacks-french-bistro-menu/",
+          "result": "non_promotion",
+          "evidenceId": "026e9379664d2d308376ce102ef56f6771d8d9b544b281fd31830cbe0cc824d8",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/shake-track-club/",
+          "result": "non_promotion",
+          "evidenceId": "9de2dfca2d74adf7499b6a9a8ed8458b86438f9e697c8b843e1bc3e53b388631",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/singlish-lingo/",
+          "result": "promotion",
+          "evidenceId": "ce52bcf2d5ad888b7e0dddc508ae2acdddd419c67892b7be08066a66a5ef5af8",
+          "reason": "terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/study-breaks-just-got-better/",
+          "result": "promotion",
+          "evidenceId": "16d8fffd1b0abab17b5ce79250a68ea374c743789d42626f0da96b638ed8bbfa",
+          "reason": "terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/summer-peach-is-here/",
+          "result": "non_promotion",
+          "evidenceId": "3d4c347a834484182b1501e04dbf750a1ad4ab7e04e3dc283cb27b015d14a746",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/the-neon-art-bistro-experience/",
+          "result": "non_promotion",
+          "evidenceId": "eb09a93904e72e0b37e8da5885212da172669150881de97b628270e97df345c0",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/the-veggie-shack-is-back/",
+          "result": "non_promotion",
+          "evidenceId": "338e99e3920ff5c68ff206d8e6ec869aa0984657fc6df405d2c955ea0b2f3791",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/this-ones-for-your-mom/",
+          "result": "promotion",
+          "evidenceId": "3bd72db9fa15bd61c431d1b29a10b9e49e69a778c4a6fe30f9a2667f2318f61d",
+          "reason": "terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/truffles-back/",
+          "result": "non_promotion",
+          "evidenceId": "8719935ad50b1b58e2afadf3cd03e7502cb75704d61c991f450c88a22b819914",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/welcome-to-shack-pickleball/",
+          "result": "non_promotion",
+          "evidenceId": "df092b70463756f9d0992032ad7d7bf6fe4b4db3c4c4ad8a9519e83668fe97f5",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/welcome-to-sunshine-shack-flow/",
+          "result": "non_promotion",
+          "evidenceId": "bca84112205e1c024a4123d9f21c8bf1c3345568481b3e09c2f63aa9f00c0781",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/well-be-right-back/",
+          "result": "non_promotion",
+          "evidenceId": "769201816ceaa1a1a8394feb37050a692bc3cff666ac2a51ddba8461b9e8023c",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/were-bringing-new-york-to-the-shack-with-dj-kiara/",
+          "result": "non_promotion",
+          "evidenceId": "132ddd9528e5be0a43761a077fb3a41dcc5d3311685331c2f628ed01145f6910",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/were-hiring-a-chief-lettuce-officer/",
+          "result": "non_promotion",
+          "evidenceId": "d8f8d59af98300a2acf6755f5ea24817181cc86b0e380b3c798d40871d61301d",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/were-introducing-chicken-sundays/",
+          "result": "promotion",
+          "evidenceId": "c2bd9d7003e22a9d3f05d286c0ca097dc977a44ab58d0915f648c9dc401ef062",
+          "reason": "terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/your-summer-reset-starts-here/",
+          "result": "non_promotion",
+          "evidenceId": "d769641233b002a637cfb591f31310a3376941a93e9caed4f41e968f63f5f2c6",
+          "reason": "no_terms_and_economic_proposition"
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/zi-char-menu/",
+          "result": "non_promotion",
+          "evidenceId": "04e967e33bbf18b13b28795908f95be9b581bbb830ec1855ba83e4ef5a4949e0",
+          "reason": "no_terms_and_economic_proposition"
+        }
+      ]
+    }
+  },
+  "candidates": [
+    {
+      "schemaVersion": 1,
+      "candidateId": "direct_cf0238493c63fb3e64691e0f3762ba02b2c924572be8c1e4867560e4e8f3be19",
+      "sourceId": "shake_shack_sg",
+      "sourceLabel": "Shake Shack Singapore",
+      "canonicalUrl": "https://www.shakeshack.com.sg/100-angus-beef-just-for-you/",
+      "listingUrl": "https://www.shakeshack.com.sg/blog/page/2/",
+      "nativeId": null,
+      "merchant": "Shake Shack",
+      "title": "100% Angus Beef – Just for You",
+      "benefit": "From 23 – 26 September, when you order our Say Cheese (Burger) Bundle, we’ll treat you to a complimentary ShackBurger(Single). That’s right—more Angus beef, more flavor, all in one bundle.",
+      "description": "100% Angus Beef – Just for You\nAt Shake Shack, we don’t cut corners—especially when it comes to our beef. That’s why our burgers start with 100% Angus beef, freshly ground and packed with flavor. And this September, we’re giving you even more reasons to sink your teeth into it.\nHere’s the Deal\nFrom 23 – 26 September, when you order our Say Cheese (Burger) Bundle, we’ll treat you to a complimentary ShackBurger(Single). That’s right—more Angus beef, more flavor, all in one bundle.\nHere’s what’s in the bundle (From $28.90):\n● Choice of 1 Burger\n● Complimentary ShackBurger (Single)\n● Choice of Fries\n● Choice of Bites\n● Choice of 2 Drinks\nDon’t Miss Out\nThis offer is available 23 – 26 September across all Shacks and Happy Point Singapore in-app orders. Come hungry, bring a friend, and taste the difference that 100% Angus beef makes.\nTerms and Conditions\nOffer is available across all Shake Shack outlets in Singapore from 23-26 September 2025 only. Offer is valid for dine-in and take-away. The offer is valid in the Shack and Happy Point Singapore in-app orders. Offer not valid for orders made through third-party delivery apps. Offer is not valid in conjunction with any other vouchers. Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items. Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice. Visuals are for illustration purposes only.",
+      "startDate": "2025-09-23",
+      "endDate": "2025-09-26",
+      "weekdays": null,
+      "hours": null,
+      "locationScope": "all_outlets",
+      "locationNames": [],
+      "locationWording": "Offer is available across all Shake Shack outlets in Singapore from 23-26 September 2025 only.",
+      "eligibility": null,
+      "redemption": [
+        "Offer is valid for dine-in and take-away.",
+        "The offer is valid in the Shack and Happy Point Singapore in-app orders."
+      ],
+      "terms": [
+        "Offer is available across all Shake Shack outlets in Singapore from 23-26 September 2025 only.",
+        "Offer is valid for dine-in and take-away.",
+        "The offer is valid in the Shack and Happy Point Singapore in-app orders.",
+        "Offer not valid for orders made through third-party delivery apps.",
+        "Offer is not valid in conjunction with any other vouchers.",
+        "Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items.",
+        "Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice.",
+        "Visuals are for illustration purposes only."
+      ],
+      "observedAt": "2026-10-01T10:48:33.000Z",
+      "publishedAt": "2025-09-19T09:30:35+00:00",
+      "extractionStatus": "partial",
+      "issues": [
+        "eligibility_unknown",
+        "hours_unknown",
+        "weekdays_unknown"
+      ],
+      "facts": {
+        "title": {
+          "evidenceIds": [
+            "9c61aaed165f0b9d92c5bfb725dc572b91cc884327665924660b742459431c79"
+          ],
+          "selector": "main .pp-posts .pp-post",
+          "quote": "100% Angus Beef – Just for You"
+        },
+        "merchant": {
+          "evidenceIds": [
+            "57dee02cf95304a0253d24473533d57e6db766643cafd9b5cadeb508a1b1b695"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "At Shake Shack, we don’t cut corners—especially when it comes to our beef. That’s why our burgers start with 100% Angus beef, freshly ground and packed with flavor. And this September, we’re giving you even more reasons to sink your teeth into it."
+        },
+        "description": {
+          "evidenceIds": [
+            "57dee02cf95304a0253d24473533d57e6db766643cafd9b5cadeb508a1b1b695"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "100% Angus Beef – Just for You\nAt Shake Shack, we don’t cut corners—especially when it comes to our beef. That’s why our burgers start with 100% Angus beef, freshly ground and packed with flavor. And this September, we’re giving you even more reasons to sink your teeth into it.\nHere’s the Deal\nFrom 23 – 26 September, when you order our Say Cheese (Burger) Bundle, we’ll treat you to a complimentary ShackBurger(Single). That’s right—more Angus beef, more flavor, all in one bundle.\nHere’s what’s in the bundle (From $28.90):\n● Choice of 1 Burger\n● Complimentary ShackBurger (Single)\n● Choice of Fries\n● Choice of Bites\n● Choice of 2 Drinks\nDon’t Miss Out\nThis offer is available 23 – 26 September across all Shacks and Happy Point Singapore in-app orders. Come hungry, bring a friend, and taste the difference that 100% Angus beef makes.\nTerms and Conditions\nOffer is available across all Shake Shack outlets in Singapore from 23-26 September 2025 only. Offer is valid for dine-in and take-away. The offer is valid in the Shack and Happy Point Singapore in-app orders. Offer not valid for orders made through third-party delivery apps. Offer is not valid in conjunction with any other vouchers. Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items. Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice. Visuals are for illustration purposes only."
+        },
+        "benefit": {
+          "evidenceIds": [
+            "57dee02cf95304a0253d24473533d57e6db766643cafd9b5cadeb508a1b1b695"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "From 23 – 26 September, when you order our Say Cheese (Burger) Bundle, we’ll treat you to a complimentary ShackBurger(Single). That’s right—more Angus beef, more flavor, all in one bundle."
+        },
+        "terms": {
+          "evidenceIds": [
+            "57dee02cf95304a0253d24473533d57e6db766643cafd9b5cadeb508a1b1b695"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Offer is available across all Shake Shack outlets in Singapore from 23-26 September 2025 only.\nOffer is valid for dine-in and take-away.\nThe offer is valid in the Shack and Happy Point Singapore in-app orders.\nOffer not valid for orders made through third-party delivery apps.\nOffer is not valid in conjunction with any other vouchers.\nOffer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items.\nShake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice.\nVisuals are for illustration purposes only."
+        },
+        "publishedAt": {
+          "evidenceIds": [
+            "57dee02cf95304a0253d24473533d57e6db766643cafd9b5cadeb508a1b1b695"
+          ],
+          "selector": "meta[property=\"article:published_time\"]",
+          "quote": "2025-09-19T09:30:35+00:00"
+        },
+        "validity": {
+          "evidenceIds": [
+            "57dee02cf95304a0253d24473533d57e6db766643cafd9b5cadeb508a1b1b695"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Offer is available across all Shake Shack outlets in Singapore from 23-26 September 2025 only.\nOffer is valid for dine-in and take-away.\nThe offer is valid in the Shack and Happy Point Singapore in-app orders.\nOffer not valid for orders made through third-party delivery apps.\nOffer is not valid in conjunction with any other vouchers.\nOffer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items."
+        },
+        "locations": {
+          "evidenceIds": [
+            "57dee02cf95304a0253d24473533d57e6db766643cafd9b5cadeb508a1b1b695"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Offer is available across all Shake Shack outlets in Singapore from 23-26 September 2025 only."
+        },
+        "redemption": {
+          "evidenceIds": [
+            "57dee02cf95304a0253d24473533d57e6db766643cafd9b5cadeb508a1b1b695"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Offer is valid for dine-in and take-away.\nThe offer is valid in the Shack and Happy Point Singapore in-app orders."
+        }
+      },
+      "evidence": [
+        {
+          "id": "9c61aaed165f0b9d92c5bfb725dc572b91cc884327665924660b742459431c79",
+          "sourceId": "shake_shack_sg",
+          "url": "https://www.shakeshack.com.sg/blog/page/2/",
+          "requestedUrl": "https://www.shakeshack.com.sg/blog/page/2/",
+          "relation": "listing",
+          "fetchedAt": "2026-10-01T10:48:33.000Z",
+          "contentHash": "774c9013ff96cb1819f1b642c26682dae45df6d754f8052b705dca68b451a5ac",
+          "contentType": "text/html",
+          "httpStatus": 200,
+          "notes": []
+        },
+        {
+          "id": "57dee02cf95304a0253d24473533d57e6db766643cafd9b5cadeb508a1b1b695",
+          "sourceId": "shake_shack_sg",
+          "url": "https://www.shakeshack.com.sg/100-angus-beef-just-for-you/",
+          "requestedUrl": "https://www.shakeshack.com.sg/100-angus-beef-just-for-you/",
+          "relation": "detail",
+          "fetchedAt": "2026-10-01T10:48:33.000Z",
+          "contentHash": "56a879f3658a4615cb73215bf9fcad6bdf042a2ae4b389ae62898adbd98aaeab",
+          "contentType": "text/html",
+          "httpStatus": 200,
+          "notes": []
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "candidateId": "direct_84081dd13ce044490857bfa0ced13781adf12b8b9a0422274194ee1d58117cc5",
+      "sourceId": "shake_shack_sg",
+      "sourceLabel": "Shake Shack Singapore",
+      "canonicalUrl": "https://www.shakeshack.com.sg/all-about-chickens/",
+      "listingUrl": "https://www.shakeshack.com.sg/blog/page/2/",
+      "nativeId": null,
+      "merchant": "Shake Shack",
+      "title": "All About Chickens",
+      "benefit": "From $30.80",
+      "description": "At Shake Shack, we’re all about doing things the right way—and that includes our chicken.\nWe’re celebrating the kind that’s raised with care, not cages. Our 100% cage-free chicken isn’t\njust good, it’s part of our promise to support better animal welfare and a more responsible\nfood system. Because when your chicken’s raised right, you can taste the difference—and feel\ngood about it too.\nHere’s what’s in the bundle (From $30.80):\nChoice of 1 Burger\nComplimentary Chicken Shack\nChoice of Fries\nChoice of Bites\nChoice of 2 Drinks\nTERMS & CONDITIONS:\nOffer is available across all Shake Shack outlets in Singapore on 7 July 2025 only. Offer is valid for dine-in and take-away. Offer is valid in the Shack and via the Happy Point app. Offer not valid for orders made through third-party delivery apps. Offer is not valid in conjunction with any other vouchers. Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items. Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice. Visuals are for illustration purposes only.",
+      "startDate": "2025-07-07",
+      "endDate": "2025-07-07",
+      "weekdays": null,
+      "hours": null,
+      "locationScope": "all_outlets",
+      "locationNames": [],
+      "locationWording": "Offer is available across all Shake Shack outlets in Singapore on 7 July 2025 only.",
+      "eligibility": null,
+      "redemption": [
+        "Offer is valid for dine-in and take-away.",
+        "Offer is valid in the Shack and via the Happy Point app."
+      ],
+      "terms": [
+        "Offer is available across all Shake Shack outlets in Singapore on 7 July 2025 only.",
+        "Offer is valid for dine-in and take-away.",
+        "Offer is valid in the Shack and via the Happy Point app.",
+        "Offer not valid for orders made through third-party delivery apps.",
+        "Offer is not valid in conjunction with any other vouchers.",
+        "Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items.",
+        "Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice.",
+        "Visuals are for illustration purposes only."
+      ],
+      "observedAt": "2026-10-01T10:48:33.000Z",
+      "publishedAt": "2025-06-30T09:44:37+00:00",
+      "extractionStatus": "partial",
+      "issues": [
+        "eligibility_unknown",
+        "hours_unknown",
+        "weekdays_unknown"
+      ],
+      "facts": {
+        "title": {
+          "evidenceIds": [
+            "9c61aaed165f0b9d92c5bfb725dc572b91cc884327665924660b742459431c79"
+          ],
+          "selector": "main .pp-posts .pp-post",
+          "quote": "All About Chickens"
+        },
+        "merchant": {
+          "evidenceIds": [
+            "e27e40e4dba959cbb9f08d644bdea592b59eb37899235d613cf1ddd597778b44"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "At Shake Shack, we’re all about doing things the right way—and that includes our chicken."
+        },
+        "description": {
+          "evidenceIds": [
+            "e27e40e4dba959cbb9f08d644bdea592b59eb37899235d613cf1ddd597778b44"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "At Shake Shack, we’re all about doing things the right way—and that includes our chicken.\nWe’re celebrating the kind that’s raised with care, not cages. Our 100% cage-free chicken isn’t\njust good, it’s part of our promise to support better animal welfare and a more responsible\nfood system. Because when your chicken’s raised right, you can taste the difference—and feel\ngood about it too.\nHere’s what’s in the bundle (From $30.80):\nChoice of 1 Burger\nComplimentary Chicken Shack\nChoice of Fries\nChoice of Bites\nChoice of 2 Drinks\nTERMS & CONDITIONS:\nOffer is available across all Shake Shack outlets in Singapore on 7 July 2025 only. Offer is valid for dine-in and take-away. Offer is valid in the Shack and via the Happy Point app. Offer not valid for orders made through third-party delivery apps. Offer is not valid in conjunction with any other vouchers. Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items. Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice. Visuals are for illustration purposes only."
+        },
+        "benefit": {
+          "evidenceIds": [
+            "e27e40e4dba959cbb9f08d644bdea592b59eb37899235d613cf1ddd597778b44"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Here’s what’s in the bundle (From $30.80):"
+        },
+        "terms": {
+          "evidenceIds": [
+            "e27e40e4dba959cbb9f08d644bdea592b59eb37899235d613cf1ddd597778b44"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Offer is available across all Shake Shack outlets in Singapore on 7 July 2025 only.\nOffer is valid for dine-in and take-away.\nOffer is valid in the Shack and via the Happy Point app.\nOffer not valid for orders made through third-party delivery apps.\nOffer is not valid in conjunction with any other vouchers.\nOffer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items.\nShake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice.\nVisuals are for illustration purposes only."
+        },
+        "publishedAt": {
+          "evidenceIds": [
+            "e27e40e4dba959cbb9f08d644bdea592b59eb37899235d613cf1ddd597778b44"
+          ],
+          "selector": "meta[property=\"article:published_time\"]",
+          "quote": "2025-06-30T09:44:37+00:00"
+        },
+        "validity": {
+          "evidenceIds": [
+            "e27e40e4dba959cbb9f08d644bdea592b59eb37899235d613cf1ddd597778b44"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Offer is available across all Shake Shack outlets in Singapore on 7 July 2025 only.\nOffer is valid for dine-in and take-away.\nOffer is valid in the Shack and via the Happy Point app.\nOffer not valid for orders made through third-party delivery apps.\nOffer is not valid in conjunction with any other vouchers.\nOffer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items."
+        },
+        "locations": {
+          "evidenceIds": [
+            "e27e40e4dba959cbb9f08d644bdea592b59eb37899235d613cf1ddd597778b44"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Offer is available across all Shake Shack outlets in Singapore on 7 July 2025 only."
+        },
+        "redemption": {
+          "evidenceIds": [
+            "e27e40e4dba959cbb9f08d644bdea592b59eb37899235d613cf1ddd597778b44"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Offer is valid for dine-in and take-away.\nOffer is valid in the Shack and via the Happy Point app."
+        }
+      },
+      "evidence": [
+        {
+          "id": "9c61aaed165f0b9d92c5bfb725dc572b91cc884327665924660b742459431c79",
+          "sourceId": "shake_shack_sg",
+          "url": "https://www.shakeshack.com.sg/blog/page/2/",
+          "requestedUrl": "https://www.shakeshack.com.sg/blog/page/2/",
+          "relation": "listing",
+          "fetchedAt": "2026-10-01T10:48:33.000Z",
+          "contentHash": "774c9013ff96cb1819f1b642c26682dae45df6d754f8052b705dca68b451a5ac",
+          "contentType": "text/html",
+          "httpStatus": 200,
+          "notes": []
+        },
+        {
+          "id": "e27e40e4dba959cbb9f08d644bdea592b59eb37899235d613cf1ddd597778b44",
+          "sourceId": "shake_shack_sg",
+          "url": "https://www.shakeshack.com.sg/all-about-chickens/",
+          "requestedUrl": "https://www.shakeshack.com.sg/all-about-chickens/",
+          "relation": "detail",
+          "fetchedAt": "2026-10-01T10:48:33.000Z",
+          "contentHash": "eb6511e5e5730b80a6d7bd15270e1eea66c6e87f3edee8f134c27d8295aa2669",
+          "contentType": "text/html",
+          "httpStatus": 200,
+          "notes": []
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "candidateId": "direct_46f45eb5404c68ae0a01ee6988c5b87f3ce0778518617026cf09f03c8b65d7a4",
+      "sourceId": "shake_shack_sg",
+      "sourceLabel": "Shake Shack Singapore",
+      "canonicalUrl": "https://www.shakeshack.com.sg/feeding-a-crowd/",
+      "listingUrl": "https://www.shakeshack.com.sg/blog/",
+      "nativeId": null,
+      "merchant": "Shake Shack",
+      "title": "Feeding a Crowd?",
+      "benefit": "another 2 on us",
+      "description": "There’s something about sharing a meal that makes any occasion a little better. With Shake\nShack Catering, order 10 of your favorite items and enjoy another 2 on us!\nWhether it’s a team lunch, a birthday celebration, a casual get-together with family or simply\nan excuse to gather around the table, good food has a way of bringing people together. And\nwith a little extra to share, there’s more for everyone to enjoy.\nSo gather the team, round up your friends or bring the whole family. Simply submit a catering\nrequest with us here and we’ll take care of the rest!\n*Terms & Conditions:\n● Promotion entitles guests to purchase 12 items for the price of 10.\n● Promotion is applicable to selected items of the same price and is subject to item availability.\n● Catering requests are subject to confirmation. A minimum of 72 hours’ advance notice is recommended.\n● Promotion is valid for pickup orders only. Complimentary delivery is available for orders above $500.\n● Promotion cannot be used in conjunction with other promotions or discounts.\n● Shake Shack Singapore reserves the right to amend or withdraw the promotion at any time without prior notice.",
+      "startDate": null,
+      "endDate": null,
+      "weekdays": null,
+      "hours": null,
+      "locationScope": "source_unspecified",
+      "locationNames": [],
+      "locationWording": null,
+      "eligibility": null,
+      "redemption": null,
+      "terms": [
+        "● Promotion entitles guests to purchase 12 items for the price of 10.",
+        "● Promotion is applicable to selected items of the same price and is subject to item availability.",
+        "● Catering requests are subject to confirmation.",
+        "A minimum of 72 hours’ advance notice is recommended.",
+        "● Promotion is valid for pickup orders only.",
+        "Complimentary delivery is available for orders above $500.",
+        "● Promotion cannot be used in conjunction with other promotions or discounts.",
+        "● Shake Shack Singapore reserves the right to amend or withdraw the promotion at any time without prior notice."
+      ],
+      "observedAt": "2026-10-01T10:48:33.000Z",
+      "publishedAt": "2026-09-30T16:00:11+00:00",
+      "extractionStatus": "partial",
+      "issues": [
+        "eligibility_unknown",
+        "end_date_unknown",
+        "hours_unknown",
+        "locations_unknown",
+        "redemption_unknown",
+        "start_date_unknown",
+        "weekdays_unknown"
+      ],
+      "facts": {
+        "title": {
+          "evidenceIds": [
+            "c4b140c788662b212183473134ef63eecddbfa361c0421821c18443acdc99e2e"
+          ],
+          "selector": "main .pp-posts .pp-post",
+          "quote": "Feeding a Crowd?"
+        },
+        "merchant": {
+          "evidenceIds": [
+            "2955e4d9bd535f6ba812404fc29d5a93f85772c561aabba46f5bdeb92630a00f"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "● Shake Shack Singapore reserves the right to amend or withdraw the promotion at any time without prior notice."
+        },
+        "description": {
+          "evidenceIds": [
+            "2955e4d9bd535f6ba812404fc29d5a93f85772c561aabba46f5bdeb92630a00f"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "There’s something about sharing a meal that makes any occasion a little better. With Shake\nShack Catering, order 10 of your favorite items and enjoy another 2 on us!\nWhether it’s a team lunch, a birthday celebration, a casual get-together with family or simply\nan excuse to gather around the table, good food has a way of bringing people together. And\nwith a little extra to share, there’s more for everyone to enjoy.\nSo gather the team, round up your friends or bring the whole family. Simply submit a catering\nrequest with us here and we’ll take care of the rest!\n*Terms & Conditions:\n● Promotion entitles guests to purchase 12 items for the price of 10.\n● Promotion is applicable to selected items of the same price and is subject to item availability.\n● Catering requests are subject to confirmation. A minimum of 72 hours’ advance notice is recommended.\n● Promotion is valid for pickup orders only. Complimentary delivery is available for orders above $500.\n● Promotion cannot be used in conjunction with other promotions or discounts.\n● Shake Shack Singapore reserves the right to amend or withdraw the promotion at any time without prior notice."
+        },
+        "benefit": {
+          "evidenceIds": [
+            "2955e4d9bd535f6ba812404fc29d5a93f85772c561aabba46f5bdeb92630a00f"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Shack Catering, order 10 of your favorite items and enjoy another 2 on us!"
+        },
+        "terms": {
+          "evidenceIds": [
+            "2955e4d9bd535f6ba812404fc29d5a93f85772c561aabba46f5bdeb92630a00f"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "● Promotion entitles guests to purchase 12 items for the price of 10.\n● Promotion is applicable to selected items of the same price and is subject to item availability.\n● Catering requests are subject to confirmation.\nA minimum of 72 hours’ advance notice is recommended.\n● Promotion is valid for pickup orders only.\nComplimentary delivery is available for orders above $500.\n● Promotion cannot be used in conjunction with other promotions or discounts.\n● Shake Shack Singapore reserves the right to amend or withdraw the promotion at any time without prior notice."
+        },
+        "publishedAt": {
+          "evidenceIds": [
+            "2955e4d9bd535f6ba812404fc29d5a93f85772c561aabba46f5bdeb92630a00f"
+          ],
+          "selector": "meta[property=\"article:published_time\"]",
+          "quote": "2026-09-30T16:00:11+00:00"
+        }
+      },
+      "evidence": [
+        {
+          "id": "c4b140c788662b212183473134ef63eecddbfa361c0421821c18443acdc99e2e",
+          "sourceId": "shake_shack_sg",
+          "url": "https://www.shakeshack.com.sg/blog/",
+          "requestedUrl": "https://www.shakeshack.com.sg/blog/",
+          "relation": "listing",
+          "fetchedAt": "2026-10-01T10:48:33.000Z",
+          "contentHash": "04e650afe8974e5de76776381fed62ae6682b64d0f871cf0933ac3cd8851b08c",
+          "contentType": "text/html",
+          "httpStatus": 200,
+          "notes": []
+        },
+        {
+          "id": "2955e4d9bd535f6ba812404fc29d5a93f85772c561aabba46f5bdeb92630a00f",
+          "sourceId": "shake_shack_sg",
+          "url": "https://www.shakeshack.com.sg/feeding-a-crowd/",
+          "requestedUrl": "https://www.shakeshack.com.sg/feeding-a-crowd/",
+          "relation": "detail",
+          "fetchedAt": "2026-10-01T10:48:33.000Z",
+          "contentHash": "66be15aa1ed505d4e814254bdeb91a726f971bc2788b8d2bf96d1bc31dee1074",
+          "contentType": "text/html",
+          "httpStatus": 200,
+          "notes": []
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "candidateId": "direct_d647d220ed83eadb8b75510ffcbd3d621c8d281f8e7fdcb595b239775b540b97",
+      "sourceId": "shake_shack_sg",
+      "sourceLabel": "Shake Shack Singapore",
+      "canonicalUrl": "https://www.shakeshack.com.sg/hello-parkway-parade/",
+      "listingUrl": "https://www.shakeshack.com.sg/blog/",
+      "nativeId": null,
+      "merchant": "Shake Shack",
+      "title": "Hello, Parkway Parade!",
+      "benefit": "10% OFF",
+      "description": "Hello, Parkway Parade!\nFellow Easties, your new neighbourhood Shack has arrived! Our 12th Shack is now officially open at Parkway Parade, bringing in our burgers, crinkle cut fries, shakes and all the Shack favorites to the heart of the neighbourhood\nWhether you’re an Eastie or just making your way over, we’ve got a new spot for you to grab a bite, catch up with friends and settle into some good Shack time.\nA Little Taste of the Coast\nA stone’s throw from the beach, this new Shack brings a little taste of the neighbourhood’s coastal spirit indoors. From rippling details inspired by the tide to warm timber and natural textures, spot the details that bring pieces of the shore into the space!\nCome Celebrate With Us\nEnjoy a little opening treat on us! From 11 September to 10 October, enjoy 10% OFF* with a minimum spend of $16 when you use promo code: PPOPENING.\nSee you at Parkway Parade Shack!\n*Terms and conditions apply: Promo code is valid from 11 September to 10 October 2026. Promo code is applicable with minimum $16 purchase and is redeemable exclusively via the Happy Point Singapore app; the promo code is not valid on third-party delivery platforms. Redemption is valid at Parkway Parade Shake Shack Singapore outlet and is limited to one use per order. This promotion cannot be combined with any other offers or promotions. Shake Shack Singapore is not responsible for lost, stolen, expired, or misused codes, and reserves the right to amend or end the promotion without prior notice.",
+      "startDate": "2026-09-11",
+      "endDate": "2026-10-10",
+      "weekdays": null,
+      "hours": null,
+      "locationScope": "named_outlets",
+      "locationNames": [
+        "Parkway Parade"
+      ],
+      "locationWording": "Redemption is valid at Parkway Parade Shake Shack Singapore outlet and is limited to one use per order.",
+      "eligibility": null,
+      "redemption": [
+        "Promo code is applicable with minimum $16 purchase and is redeemable exclusively via the Happy Point Singapore app; the promo code is not valid on third-party delivery platforms."
+      ],
+      "terms": [
+        "apply: Promo code is valid from 11 September to 10 October 2026.",
+        "Promo code is applicable with minimum $16 purchase and is redeemable exclusively via the Happy Point Singapore app; the promo code is not valid on third-party delivery platforms.",
+        "Redemption is valid at Parkway Parade Shake Shack Singapore outlet and is limited to one use per order.",
+        "This promotion cannot be combined with any other offers or promotions.",
+        "Shake Shack Singapore is not responsible for lost, stolen, expired, or misused codes, and reserves the right to amend or end the promotion without prior notice."
+      ],
+      "observedAt": "2026-10-01T10:48:33.000Z",
+      "publishedAt": "2026-09-11T09:27:44+00:00",
+      "extractionStatus": "partial",
+      "issues": [
+        "eligibility_unknown",
+        "hours_unknown",
+        "weekdays_unknown"
+      ],
+      "facts": {
+        "title": {
+          "evidenceIds": [
+            "c4b140c788662b212183473134ef63eecddbfa361c0421821c18443acdc99e2e"
+          ],
+          "selector": "main .pp-posts .pp-post",
+          "quote": "Hello, Parkway Parade!"
+        },
+        "merchant": {
+          "evidenceIds": [
+            "dee9faec384ca75088ba149674fd403b71143350189d50fc466d120f112672ca"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "*Terms and conditions apply: Promo code is valid from 11 September to 10 October 2026. Promo code is applicable with minimum $16 purchase and is redeemable exclusively via the Happy Point Singapore app; the promo code is not valid on third-party delivery platforms. Redemption is valid at Parkway Parade Shake Shack Singapore outlet and is limited to one use per order. This promotion cannot be combined with any other offers or promotions. Shake Shack Singapore is not responsible for lost, stolen, expired, or misused codes, and reserves the right to amend or end the promotion without prior notice."
+        },
+        "description": {
+          "evidenceIds": [
+            "dee9faec384ca75088ba149674fd403b71143350189d50fc466d120f112672ca"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Hello, Parkway Parade!\nFellow Easties, your new neighbourhood Shack has arrived! Our 12th Shack is now officially open at Parkway Parade, bringing in our burgers, crinkle cut fries, shakes and all the Shack favorites to the heart of the neighbourhood\nWhether you’re an Eastie or just making your way over, we’ve got a new spot for you to grab a bite, catch up with friends and settle into some good Shack time.\nA Little Taste of the Coast\nA stone’s throw from the beach, this new Shack brings a little taste of the neighbourhood’s coastal spirit indoors. From rippling details inspired by the tide to warm timber and natural textures, spot the details that bring pieces of the shore into the space!\nCome Celebrate With Us\nEnjoy a little opening treat on us! From 11 September to 10 October, enjoy 10% OFF* with a minimum spend of $16 when you use promo code: PPOPENING.\nSee you at Parkway Parade Shack!\n*Terms and conditions apply: Promo code is valid from 11 September to 10 October 2026. Promo code is applicable with minimum $16 purchase and is redeemable exclusively via the Happy Point Singapore app; the promo code is not valid on third-party delivery platforms. Redemption is valid at Parkway Parade Shake Shack Singapore outlet and is limited to one use per order. This promotion cannot be combined with any other offers or promotions. Shake Shack Singapore is not responsible for lost, stolen, expired, or misused codes, and reserves the right to amend or end the promotion without prior notice."
+        },
+        "benefit": {
+          "evidenceIds": [
+            "dee9faec384ca75088ba149674fd403b71143350189d50fc466d120f112672ca"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Enjoy a little opening treat on us! From 11 September to 10 October, enjoy 10% OFF* with a minimum spend of $16 when you use promo code: PPOPENING."
+        },
+        "terms": {
+          "evidenceIds": [
+            "dee9faec384ca75088ba149674fd403b71143350189d50fc466d120f112672ca"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "apply: Promo code is valid from 11 September to 10 October 2026.\nPromo code is applicable with minimum $16 purchase and is redeemable exclusively via the Happy Point Singapore app; the promo code is not valid on third-party delivery platforms.\nRedemption is valid at Parkway Parade Shake Shack Singapore outlet and is limited to one use per order.\nThis promotion cannot be combined with any other offers or promotions.\nShake Shack Singapore is not responsible for lost, stolen, expired, or misused codes, and reserves the right to amend or end the promotion without prior notice."
+        },
+        "publishedAt": {
+          "evidenceIds": [
+            "dee9faec384ca75088ba149674fd403b71143350189d50fc466d120f112672ca"
+          ],
+          "selector": "meta[property=\"article:published_time\"]",
+          "quote": "2026-09-11T09:27:44+00:00"
+        },
+        "validity": {
+          "evidenceIds": [
+            "dee9faec384ca75088ba149674fd403b71143350189d50fc466d120f112672ca"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "apply: Promo code is valid from 11 September to 10 October 2026.\nPromo code is applicable with minimum $16 purchase and is redeemable exclusively via the Happy Point Singapore app; the promo code is not valid on third-party delivery platforms.\nRedemption is valid at Parkway Parade Shake Shack Singapore outlet and is limited to one use per order.\nThis promotion cannot be combined with any other offers or promotions.\nShake Shack Singapore is not responsible for lost, stolen, expired, or misused codes, and reserves the right to amend or end the promotion without prior notice."
+        },
+        "locations": {
+          "evidenceIds": [
+            "dee9faec384ca75088ba149674fd403b71143350189d50fc466d120f112672ca"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Redemption is valid at Parkway Parade Shake Shack Singapore outlet and is limited to one use per order."
+        },
+        "redemption": {
+          "evidenceIds": [
+            "dee9faec384ca75088ba149674fd403b71143350189d50fc466d120f112672ca"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Promo code is applicable with minimum $16 purchase and is redeemable exclusively via the Happy Point Singapore app; the promo code is not valid on third-party delivery platforms."
+        }
+      },
+      "evidence": [
+        {
+          "id": "c4b140c788662b212183473134ef63eecddbfa361c0421821c18443acdc99e2e",
+          "sourceId": "shake_shack_sg",
+          "url": "https://www.shakeshack.com.sg/blog/",
+          "requestedUrl": "https://www.shakeshack.com.sg/blog/",
+          "relation": "listing",
+          "fetchedAt": "2026-10-01T10:48:33.000Z",
+          "contentHash": "04e650afe8974e5de76776381fed62ae6682b64d0f871cf0933ac3cd8851b08c",
+          "contentType": "text/html",
+          "httpStatus": 200,
+          "notes": []
+        },
+        {
+          "id": "dee9faec384ca75088ba149674fd403b71143350189d50fc466d120f112672ca",
+          "sourceId": "shake_shack_sg",
+          "url": "https://www.shakeshack.com.sg/hello-parkway-parade/",
+          "requestedUrl": "https://www.shakeshack.com.sg/hello-parkway-parade/",
+          "relation": "detail",
+          "fetchedAt": "2026-10-01T10:48:33.000Z",
+          "contentHash": "bfb5928b79f8429ed650a2f14738ee33ade49d6de39dcf45d0bdcf2a9b48726f",
+          "contentType": "text/html",
+          "httpStatus": 200,
+          "notes": []
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "candidateId": "direct_b0f4a6eeb6cdf0c9babbc16d77ee7e248b5e1a39e6123cee4f63f4e3860e3648",
+      "sourceId": "shake_shack_sg",
+      "sourceLabel": "Shake Shack Singapore",
+      "canonicalUrl": "https://www.shakeshack.com.sg/national-cheeseburger-day/",
+      "listingUrl": "https://www.shakeshack.com.sg/blog/",
+      "nativeId": null,
+      "merchant": "Shake Shack",
+      "title": "National Cheeseburger Day",
+      "benefit": "FREE Beef Patty add-on",
+      "description": "National Cheeseburger Day\nIf there’s one day on the calendar that feels made for us, it’s the National Cheeseburger Day. Afterall, we’ve been putting our spin on the great American cheeseburger since 2004 with the ShackBurger\nAnd what’s a better way to celebrate than with extra beef? From 14 – 18 September, celebrate National CheeseBurger day with a FREE Beef Patty add-on* with any ShackBurger or SmokeShack purchase via the Happy Point app.\nThe Cheeseburger Formula\nThe cheeseburger has earned its place as an American classic with a simple formula: beef, cheese, bun and toppings. But when something is made up of just a few ingredients, every one of them matters. So, what makes a great cheeseburger? Let’s break down the basics.\nReal Beef\nFor us, a good cheeseburger starts with the beef. That’s why our beef patties are made to order with 100% Angus beef. Each quarter-pound beef patty is smashed to order, seasoned, seared and cheesed to bring together the rich, beefy flavor and juicy texture that fans know and love.\nReal Classic\nWe believe in keeping good things simple. So when it came to our version of the great American cheeseburger, reinvention wasn’t really on the agenda. Getting it right was.\nWhile it sounds simple, getting simple right actually took years of tinkering, tweaking and plenty of tasting before we landed on the ShackBurger, a classic in its own right that continues to let the beef speak for itself.\nNow that you know the beef, come taste it for yourself!\nHow to redeem:\nTap on ‘Order’\nSelect a ShackBurger / SmokeShack\nSelect Double – the second patty’s automatically on us! (Or go triple with a little top-up if you’re going all in)\nCheck out and enjoy!\n*Terms and conditions: Promotion is valid from 14 to 18 September 2026, while stocks last. Promotion is available exclusively through the Happy Point Singapore app and is not valid on third-party delivery platforms. Promotion is valid for ShackBurger and SmokeShack only, with a second beef patty included at no additional charge. Top-up charges apply to any additional beef patties beyond two, as well as selected modifiers. Valid at all Shake Shack Singapore outlets. Shake Shack Singapore reserves the right to amend or terminate the promotion without prior notice.",
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-18",
+      "weekdays": null,
+      "hours": null,
+      "locationScope": "all_outlets",
+      "locationNames": [],
+      "locationWording": "Valid at all Shake Shack Singapore outlets.",
+      "eligibility": null,
+      "redemption": [
+        "Tap on ‘Order’",
+        "Select a ShackBurger / SmokeShack",
+        "Select Double – the second patty’s automatically on us! (Or go triple with a little top-up if you’re going all in)",
+        "Check out and enjoy!",
+        "Promotion is available exclusively through the Happy Point Singapore app and is not valid on third-party delivery platforms."
+      ],
+      "terms": [
+        "Promotion is valid from 14 to 18 September 2026, while stocks last.",
+        "Promotion is available exclusively through the Happy Point Singapore app and is not valid on third-party delivery platforms.",
+        "Promotion is valid for ShackBurger and SmokeShack only, with a second beef patty included at no additional charge.",
+        "Top-up charges apply to any additional beef patties beyond two, as well as selected modifiers.",
+        "Valid at all Shake Shack Singapore outlets.",
+        "Shake Shack Singapore reserves the right to amend or terminate the promotion without prior notice."
+      ],
+      "observedAt": "2026-10-01T10:48:33.000Z",
+      "publishedAt": "2026-09-09T02:00:16+00:00",
+      "extractionStatus": "partial",
+      "issues": [
+        "eligibility_unknown",
+        "hours_unknown",
+        "weekdays_unknown"
+      ],
+      "facts": {
+        "title": {
+          "evidenceIds": [
+            "c4b140c788662b212183473134ef63eecddbfa361c0421821c18443acdc99e2e"
+          ],
+          "selector": "main .pp-posts .pp-post",
+          "quote": "National Cheeseburger Day"
+        },
+        "merchant": {
+          "evidenceIds": [
+            "b3a9b6866ee567537f495d5923581d0bb1ee0fecfe96365ec0dbf703788df2ec"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "*Terms and conditions: Promotion is valid from 14 to 18 September 2026, while stocks last. Promotion is available exclusively through the Happy Point Singapore app and is not valid on third-party delivery platforms. Promotion is valid for ShackBurger and SmokeShack only, with a second beef patty included at no additional charge. Top-up charges apply to any additional beef patties beyond two, as well as selected modifiers. Valid at all Shake Shack Singapore outlets. Shake Shack Singapore reserves the right to amend or terminate the promotion without prior notice."
+        },
+        "description": {
+          "evidenceIds": [
+            "b3a9b6866ee567537f495d5923581d0bb1ee0fecfe96365ec0dbf703788df2ec"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "National Cheeseburger Day\nIf there’s one day on the calendar that feels made for us, it’s the National Cheeseburger Day. Afterall, we’ve been putting our spin on the great American cheeseburger since 2004 with the ShackBurger\nAnd what’s a better way to celebrate than with extra beef? From 14 – 18 September, celebrate National CheeseBurger day with a FREE Beef Patty add-on* with any ShackBurger or SmokeShack purchase via the Happy Point app.\nThe Cheeseburger Formula\nThe cheeseburger has earned its place as an American classic with a simple formula: beef, cheese, bun and toppings. But when something is made up of just a few ingredients, every one of them matters. So, what makes a great cheeseburger? Let’s break down the basics.\nReal Beef\nFor us, a good cheeseburger starts with the beef. That’s why our beef patties are made to order with 100% Angus beef. Each quarter-pound beef patty is smashed to order, seasoned, seared and cheesed to bring together the rich, beefy flavor and juicy texture that fans know and love.\nReal Classic\nWe believe in keeping good things simple. So when it came to our version of the great American cheeseburger, reinvention wasn’t really on the agenda. Getting it right was.\nWhile it sounds simple, getting simple right actually took years of tinkering, tweaking and plenty of tasting before we landed on the ShackBurger, a classic in its own right that continues to let the beef speak for itself.\nNow that you know the beef, come taste it for yourself!\nHow to redeem:\nTap on ‘Order’\nSelect a ShackBurger / SmokeShack\nSelect Double – the second patty’s automatically on us! (Or go triple with a little top-up if you’re going all in)\nCheck out and enjoy!\n*Terms and conditions: Promotion is valid from 14 to 18 September 2026, while stocks last. Promotion is available exclusively through the Happy Point Singapore app and is not valid on third-party delivery platforms. Promotion is valid for ShackBurger and SmokeShack only, with a second beef patty included at no additional charge. Top-up charges apply to any additional beef patties beyond two, as well as selected modifiers. Valid at all Shake Shack Singapore outlets. Shake Shack Singapore reserves the right to amend or terminate the promotion without prior notice."
+        },
+        "benefit": {
+          "evidenceIds": [
+            "b3a9b6866ee567537f495d5923581d0bb1ee0fecfe96365ec0dbf703788df2ec"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "And what’s a better way to celebrate than with extra beef? From 14 – 18 September, celebrate National CheeseBurger day with a FREE Beef Patty add-on* with any ShackBurger or SmokeShack purchase via the Happy Point app."
+        },
+        "terms": {
+          "evidenceIds": [
+            "b3a9b6866ee567537f495d5923581d0bb1ee0fecfe96365ec0dbf703788df2ec"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Promotion is valid from 14 to 18 September 2026, while stocks last.\nPromotion is available exclusively through the Happy Point Singapore app and is not valid on third-party delivery platforms.\nPromotion is valid for ShackBurger and SmokeShack only, with a second beef patty included at no additional charge.\nTop-up charges apply to any additional beef patties beyond two, as well as selected modifiers.\nValid at all Shake Shack Singapore outlets.\nShake Shack Singapore reserves the right to amend or terminate the promotion without prior notice."
+        },
+        "publishedAt": {
+          "evidenceIds": [
+            "b3a9b6866ee567537f495d5923581d0bb1ee0fecfe96365ec0dbf703788df2ec"
+          ],
+          "selector": "meta[property=\"article:published_time\"]",
+          "quote": "2026-09-09T02:00:16+00:00"
+        },
+        "validity": {
+          "evidenceIds": [
+            "b3a9b6866ee567537f495d5923581d0bb1ee0fecfe96365ec0dbf703788df2ec"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Promotion is valid from 14 to 18 September 2026, while stocks last.\nPromotion is available exclusively through the Happy Point Singapore app and is not valid on third-party delivery platforms.\nPromotion is valid for ShackBurger and SmokeShack only, with a second beef patty included at no additional charge.\nValid at all Shake Shack Singapore outlets.\nShake Shack Singapore reserves the right to amend or terminate the promotion without prior notice."
+        },
+        "locations": {
+          "evidenceIds": [
+            "b3a9b6866ee567537f495d5923581d0bb1ee0fecfe96365ec0dbf703788df2ec"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Valid at all Shake Shack Singapore outlets."
+        },
+        "redemption": {
+          "evidenceIds": [
+            "b3a9b6866ee567537f495d5923581d0bb1ee0fecfe96365ec0dbf703788df2ec"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Tap on ‘Order’\nSelect a ShackBurger / SmokeShack\nSelect Double – the second patty’s automatically on us! (Or go triple with a little top-up if you’re going all in)\nCheck out and enjoy!\nPromotion is available exclusively through the Happy Point Singapore app and is not valid on third-party delivery platforms."
+        }
+      },
+      "evidence": [
+        {
+          "id": "c4b140c788662b212183473134ef63eecddbfa361c0421821c18443acdc99e2e",
+          "sourceId": "shake_shack_sg",
+          "url": "https://www.shakeshack.com.sg/blog/",
+          "requestedUrl": "https://www.shakeshack.com.sg/blog/",
+          "relation": "listing",
+          "fetchedAt": "2026-10-01T10:48:33.000Z",
+          "contentHash": "04e650afe8974e5de76776381fed62ae6682b64d0f871cf0933ac3cd8851b08c",
+          "contentType": "text/html",
+          "httpStatus": 200,
+          "notes": []
+        },
+        {
+          "id": "b3a9b6866ee567537f495d5923581d0bb1ee0fecfe96365ec0dbf703788df2ec",
+          "sourceId": "shake_shack_sg",
+          "url": "https://www.shakeshack.com.sg/national-cheeseburger-day/",
+          "requestedUrl": "https://www.shakeshack.com.sg/national-cheeseburger-day/",
+          "relation": "detail",
+          "fetchedAt": "2026-10-01T10:48:33.000Z",
+          "contentHash": "11269f1ed6c8280c48f6866a45374c97e75529ca25c6acf3ff9472bc7a0cb561",
+          "contentType": "text/html",
+          "httpStatus": 200,
+          "notes": []
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "candidateId": "direct_ff8d4638941683308833012b044aef85c13b1be154af8c77beb4f9905ac52f19",
+      "sourceId": "shake_shack_sg",
+      "sourceLabel": "Shake Shack Singapore",
+      "canonicalUrl": "https://www.shakeshack.com.sg/shack-meal/",
+      "listingUrl": "https://www.shakeshack.com.sg/blog/",
+      "nativeId": null,
+      "merchant": "Shake Shack",
+      "title": "Shack Meal",
+      "benefit": "starting from $15.10",
+      "description": "Shack Meal\nYes, it’s true – Shack Meals have arrived and your weekday lunches just got an upgrade.\nThe Shack Meal is your go-to for when you want something solid without overthinking it – your choice of burger, side and a drink starting from $15.10, only on Happy Point.\nIt’s available weekdays from 11am to 2pm (excluding PH), so whether you’re sneaking in a quick bite or just unwinding, we’ve got you.\nOrder now and try your own Shack Meal on the Happy Point app, the perfect way to level up your Shack order.\nTerms & Conditions:\nPromotion is valid until further notice. Available on weekdays only, from 11am to 2pm. Shack Meals are available exclusively through the Happy Point Singapore app and are not valid on third-party delivery platforms. Top-up charges apply to selected menu items. Valid at all Shake Shack Singapore outlets. This promotion cannot be combined with any other offers or promotions. Shake Shack Singapore reserves the right to amend or terminate the promotion without prior notice.",
+      "startDate": null,
+      "endDate": null,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "hours": null,
+      "locationScope": "all_outlets",
+      "locationNames": [],
+      "locationWording": "Valid at all Shake Shack Singapore outlets.",
+      "eligibility": null,
+      "redemption": [
+        "Shack Meals are available exclusively through the Happy Point Singapore app and are not valid on third-party delivery platforms."
+      ],
+      "terms": [
+        "Promotion is valid until further notice.",
+        "Available on weekdays only, from 11am to 2pm.",
+        "Shack Meals are available exclusively through the Happy Point Singapore app and are not valid on third-party delivery platforms.",
+        "Top-up charges apply to selected menu items.",
+        "Valid at all Shake Shack Singapore outlets.",
+        "This promotion cannot be combined with any other offers or promotions.",
+        "Shake Shack Singapore reserves the right to amend or terminate the promotion without prior notice."
+      ],
+      "observedAt": "2026-10-01T10:48:33.000Z",
+      "publishedAt": "2026-08-03T02:00:57+00:00",
+      "extractionStatus": "partial",
+      "issues": [
+        "eligibility_unknown",
+        "end_date_unknown",
+        "hours_unknown",
+        "start_date_unknown",
+        "unresolved_hour_restriction",
+        "validity_unparsed"
+      ],
+      "facts": {
+        "title": {
+          "evidenceIds": [
+            "c4b140c788662b212183473134ef63eecddbfa361c0421821c18443acdc99e2e"
+          ],
+          "selector": "main .pp-posts .pp-post",
+          "quote": "Shack Meal"
+        },
+        "merchant": {
+          "evidenceIds": [
+            "1cefc8d66081ddd4193ea63d8000338642386bc0ac0a69e4f249089bb6e9bbb8"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Promotion is valid until further notice. Available on weekdays only, from 11am to 2pm. Shack Meals are available exclusively through the Happy Point Singapore app and are not valid on third-party delivery platforms. Top-up charges apply to selected menu items. Valid at all Shake Shack Singapore outlets. This promotion cannot be combined with any other offers or promotions. Shake Shack Singapore reserves the right to amend or terminate the promotion without prior notice."
+        },
+        "description": {
+          "evidenceIds": [
+            "1cefc8d66081ddd4193ea63d8000338642386bc0ac0a69e4f249089bb6e9bbb8"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Shack Meal\nYes, it’s true – Shack Meals have arrived and your weekday lunches just got an upgrade.\nThe Shack Meal is your go-to for when you want something solid without overthinking it – your choice of burger, side and a drink starting from $15.10, only on Happy Point.\nIt’s available weekdays from 11am to 2pm (excluding PH), so whether you’re sneaking in a quick bite or just unwinding, we’ve got you.\nOrder now and try your own Shack Meal on the Happy Point app, the perfect way to level up your Shack order.\nTerms & Conditions:\nPromotion is valid until further notice. Available on weekdays only, from 11am to 2pm. Shack Meals are available exclusively through the Happy Point Singapore app and are not valid on third-party delivery platforms. Top-up charges apply to selected menu items. Valid at all Shake Shack Singapore outlets. This promotion cannot be combined with any other offers or promotions. Shake Shack Singapore reserves the right to amend or terminate the promotion without prior notice."
+        },
+        "benefit": {
+          "evidenceIds": [
+            "1cefc8d66081ddd4193ea63d8000338642386bc0ac0a69e4f249089bb6e9bbb8"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "The Shack Meal is your go-to for when you want something solid without overthinking it – your choice of burger, side and a drink starting from $15.10, only on Happy Point."
+        },
+        "terms": {
+          "evidenceIds": [
+            "1cefc8d66081ddd4193ea63d8000338642386bc0ac0a69e4f249089bb6e9bbb8"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Promotion is valid until further notice.\nAvailable on weekdays only, from 11am to 2pm.\nShack Meals are available exclusively through the Happy Point Singapore app and are not valid on third-party delivery platforms.\nTop-up charges apply to selected menu items.\nValid at all Shake Shack Singapore outlets.\nThis promotion cannot be combined with any other offers or promotions.\nShake Shack Singapore reserves the right to amend or terminate the promotion without prior notice."
+        },
+        "publishedAt": {
+          "evidenceIds": [
+            "1cefc8d66081ddd4193ea63d8000338642386bc0ac0a69e4f249089bb6e9bbb8"
+          ],
+          "selector": "meta[property=\"article:published_time\"]",
+          "quote": "2026-08-03T02:00:57+00:00"
+        },
+        "locations": {
+          "evidenceIds": [
+            "1cefc8d66081ddd4193ea63d8000338642386bc0ac0a69e4f249089bb6e9bbb8"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Valid at all Shake Shack Singapore outlets."
+        },
+        "redemption": {
+          "evidenceIds": [
+            "1cefc8d66081ddd4193ea63d8000338642386bc0ac0a69e4f249089bb6e9bbb8"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Shack Meals are available exclusively through the Happy Point Singapore app and are not valid on third-party delivery platforms."
+        },
+        "weekdays": {
+          "evidenceIds": [
+            "1cefc8d66081ddd4193ea63d8000338642386bc0ac0a69e4f249089bb6e9bbb8"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Available on weekdays only, from 11am to 2pm."
+        }
+      },
+      "evidence": [
+        {
+          "id": "c4b140c788662b212183473134ef63eecddbfa361c0421821c18443acdc99e2e",
+          "sourceId": "shake_shack_sg",
+          "url": "https://www.shakeshack.com.sg/blog/",
+          "requestedUrl": "https://www.shakeshack.com.sg/blog/",
+          "relation": "listing",
+          "fetchedAt": "2026-10-01T10:48:33.000Z",
+          "contentHash": "04e650afe8974e5de76776381fed62ae6682b64d0f871cf0933ac3cd8851b08c",
+          "contentType": "text/html",
+          "httpStatus": 200,
+          "notes": []
+        },
+        {
+          "id": "1cefc8d66081ddd4193ea63d8000338642386bc0ac0a69e4f249089bb6e9bbb8",
+          "sourceId": "shake_shack_sg",
+          "url": "https://www.shakeshack.com.sg/shack-meal/",
+          "requestedUrl": "https://www.shakeshack.com.sg/shack-meal/",
+          "relation": "detail",
+          "fetchedAt": "2026-10-01T10:48:33.000Z",
+          "contentHash": "0078b6cf5d62a26ea1dee061838ed8b12ec61b89274dc32444261db80f5081d4",
+          "contentType": "text/html",
+          "httpStatus": 200,
+          "notes": []
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "candidateId": "direct_d0ea11ac37796222bad1c51a1490dc595073adba7dc1762fe996bcf588a36cdc",
+      "sourceId": "shake_shack_sg",
+      "sourceLabel": "Shake Shack Singapore",
+      "canonicalUrl": "https://www.shakeshack.com.sg/singlish-lingo/",
+      "listingUrl": "https://www.shakeshack.com.sg/blog/page/3/",
+      "nativeId": null,
+      "merchant": "Shake Shack",
+      "title": "Singlish Lingo",
+      "benefit": "complimentary beverage",
+      "description": "Singlish Lingo\nHey Shack Fans! We’ve got something exciting just for you. From 11th to 15th November, we’re spicing things up at all our Shacks with a local twist on our Zi Char menu. To celebrate Singapore’s vibrant food culture, we’re inviting you to place your orders with a sprinkle of Singlish flair!\nHere’s how it works: order any of our Zi Char burgers using one of the selected Singlish words, and you’ll get a complimentary Buah Long Long Lemonade on the house! Yup, you heard us right—shiok, right?\nHow to Join the Fun?\nSwing by your nearest Shack, choose your favorite Zi Char burger, and use one of these\nSinglish words:\nDabao – Because sometimes you just need to take that goodness away.\nZi Char – A nod to our hawker culture and the heart of communal dining.\nMakan – To enjoy a meal together or dig in!\nWhy are we doing this leh?\nAt Shake Shack, we’re all about great food and even better conversations. This time, we want\nto celebrate local culture in a way that’s uniquely Singaporean. It’s our way of saying thank you to the community that’s made us feel so at home here.\nSo, mark your calendars, jio your friends, and come on down to any Shack between 11th to 15th November. Let’s makan and enjoy some good vibes together! We’ll see you soon!\nTerms and conditions:\nThis offer is valid from 11th to 15th November 2024 at all Shake Shack outlets in Singapore.\nGuests must use one of the accepted Singlish words (“Shiok,” “Dabao,” “Zi Char,” or “Makan”)\nwhen ordering any Zi Char burger to qualify for the promotion.\nEach qualifying order will receive one (1) complimentary Buah Long Long Lemonade.\nOffer is limited to one (1) complimentary Buah Long Long Lemonade per guest per visit, regardless of the number of burgers ordered.\nThis promotion is valid for both dine-in and takeaway orders. Not applicable for delivery orders.\nComplimentary beverages are not transferable, redeemable for cash, or exchangeable for any\nother items.\nPromotion is valid while stocks last. Shake Shack reserves the right to replace the\ncomplimentary beverage with a similar item of equal value in the event of unforeseen\ncircumstances.\nShake Shack reserves the right to modify or cancel the promotion at any time without prior\nnotice.\nIn the event of any disputes, Shake Shack’s decision will be fina",
+      "startDate": null,
+      "endDate": null,
+      "weekdays": null,
+      "hours": null,
+      "locationScope": "source_unspecified",
+      "locationNames": [],
+      "locationWording": null,
+      "eligibility": null,
+      "redemption": [
+        "This promotion is valid for both dine-in and takeaway orders."
+      ],
+      "terms": [
+        "This offer is valid from 11th to 15th November 2024 at all Shake Shack outlets in Singapore.",
+        "Guests must use one of the accepted Singlish words (“Shiok,” “Dabao,” “Zi Char,” or “Makan”) when ordering any Zi Char burger to qualify for the promotion.",
+        "Each qualifying order will receive one (1) complimentary Buah Long Long Lemonade.",
+        "Offer is limited to one (1) complimentary Buah Long Long Lemonade per guest per visit, regardless of the number of burgers ordered.",
+        "This promotion is valid for both dine-in and takeaway orders.",
+        "Not applicable for delivery orders.",
+        "Complimentary beverages are not transferable, redeemable for cash, or exchangeable for any other items.",
+        "Promotion is valid while stocks last.",
+        "Shake Shack reserves the right to replace the complimentary beverage with a similar item of equal value in the event of unforeseen circumstances.",
+        "Shake Shack reserves the right to modify or cancel the promotion at any time without prior notice.",
+        "In the event of any disputes, Shake Shack’s decision will be fina"
+      ],
+      "observedAt": "2026-10-01T10:48:33.000Z",
+      "publishedAt": "2024-11-12T09:16:37+00:00",
+      "extractionStatus": "partial",
+      "issues": [
+        "eligibility_unknown",
+        "end_date_unknown",
+        "hours_unknown",
+        "locations_unknown",
+        "start_date_unknown",
+        "validity_unparsed",
+        "weekdays_unknown"
+      ],
+      "facts": {
+        "title": {
+          "evidenceIds": [
+            "0bc9093509779dc5a336b36a8e57d9adc38fd9b6d0b1954073d95205e69388f7"
+          ],
+          "selector": "main .pp-posts .pp-post",
+          "quote": "Singlish Lingo"
+        },
+        "merchant": {
+          "evidenceIds": [
+            "ce52bcf2d5ad888b7e0dddc508ae2acdddd419c67892b7be08066a66a5ef5af8"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "At Shake Shack, we’re all about great food and even better conversations. This time, we want"
+        },
+        "description": {
+          "evidenceIds": [
+            "ce52bcf2d5ad888b7e0dddc508ae2acdddd419c67892b7be08066a66a5ef5af8"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Singlish Lingo\nHey Shack Fans! We’ve got something exciting just for you. From 11th to 15th November, we’re spicing things up at all our Shacks with a local twist on our Zi Char menu. To celebrate Singapore’s vibrant food culture, we’re inviting you to place your orders with a sprinkle of Singlish flair!\nHere’s how it works: order any of our Zi Char burgers using one of the selected Singlish words, and you’ll get a complimentary Buah Long Long Lemonade on the house! Yup, you heard us right—shiok, right?\nHow to Join the Fun?\nSwing by your nearest Shack, choose your favorite Zi Char burger, and use one of these\nSinglish words:\nDabao – Because sometimes you just need to take that goodness away.\nZi Char – A nod to our hawker culture and the heart of communal dining.\nMakan – To enjoy a meal together or dig in!\nWhy are we doing this leh?\nAt Shake Shack, we’re all about great food and even better conversations. This time, we want\nto celebrate local culture in a way that’s uniquely Singaporean. It’s our way of saying thank you to the community that’s made us feel so at home here.\nSo, mark your calendars, jio your friends, and come on down to any Shack between 11th to 15th November. Let’s makan and enjoy some good vibes together! We’ll see you soon!\nTerms and conditions:\nThis offer is valid from 11th to 15th November 2024 at all Shake Shack outlets in Singapore.\nGuests must use one of the accepted Singlish words (“Shiok,” “Dabao,” “Zi Char,” or “Makan”)\nwhen ordering any Zi Char burger to qualify for the promotion.\nEach qualifying order will receive one (1) complimentary Buah Long Long Lemonade.\nOffer is limited to one (1) complimentary Buah Long Long Lemonade per guest per visit, regardless of the number of burgers ordered.\nThis promotion is valid for both dine-in and takeaway orders. Not applicable for delivery orders.\nComplimentary beverages are not transferable, redeemable for cash, or exchangeable for any\nother items.\nPromotion is valid while stocks last. Shake Shack reserves the right to replace the\ncomplimentary beverage with a similar item of equal value in the event of unforeseen\ncircumstances.\nShake Shack reserves the right to modify or cancel the promotion at any time without prior\nnotice.\nIn the event of any disputes, Shake Shack’s decision will be fina"
+        },
+        "benefit": {
+          "evidenceIds": [
+            "ce52bcf2d5ad888b7e0dddc508ae2acdddd419c67892b7be08066a66a5ef5af8"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "complimentary beverage with a similar item of equal value in the event of unforeseen"
+        },
+        "terms": {
+          "evidenceIds": [
+            "ce52bcf2d5ad888b7e0dddc508ae2acdddd419c67892b7be08066a66a5ef5af8"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "This offer is valid from 11th to 15th November 2024 at all Shake Shack outlets in Singapore.\nGuests must use one of the accepted Singlish words (“Shiok,” “Dabao,” “Zi Char,” or “Makan”) when ordering any Zi Char burger to qualify for the promotion.\nEach qualifying order will receive one (1) complimentary Buah Long Long Lemonade.\nOffer is limited to one (1) complimentary Buah Long Long Lemonade per guest per visit, regardless of the number of burgers ordered.\nThis promotion is valid for both dine-in and takeaway orders.\nNot applicable for delivery orders.\nComplimentary beverages are not transferable, redeemable for cash, or exchangeable for any other items.\nPromotion is valid while stocks last.\nShake Shack reserves the right to replace the complimentary beverage with a similar item of equal value in the event of unforeseen circumstances.\nShake Shack reserves the right to modify or cancel the promotion at any time without prior notice.\nIn the event of any disputes, Shake Shack’s decision will be fina"
+        },
+        "publishedAt": {
+          "evidenceIds": [
+            "ce52bcf2d5ad888b7e0dddc508ae2acdddd419c67892b7be08066a66a5ef5af8"
+          ],
+          "selector": "meta[property=\"article:published_time\"]",
+          "quote": "2024-11-12T09:16:37+00:00"
+        },
+        "redemption": {
+          "evidenceIds": [
+            "ce52bcf2d5ad888b7e0dddc508ae2acdddd419c67892b7be08066a66a5ef5af8"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "This promotion is valid for both dine-in and takeaway orders."
+        }
+      },
+      "evidence": [
+        {
+          "id": "0bc9093509779dc5a336b36a8e57d9adc38fd9b6d0b1954073d95205e69388f7",
+          "sourceId": "shake_shack_sg",
+          "url": "https://www.shakeshack.com.sg/blog/page/3/",
+          "requestedUrl": "https://www.shakeshack.com.sg/blog/page/3/",
+          "relation": "listing",
+          "fetchedAt": "2026-10-01T10:48:33.000Z",
+          "contentHash": "f0881a8a2f9c61261c30545fbe1899387fecb316bfe485121bbeec9c44eab541",
+          "contentType": "text/html",
+          "httpStatus": 200,
+          "notes": []
+        },
+        {
+          "id": "ce52bcf2d5ad888b7e0dddc508ae2acdddd419c67892b7be08066a66a5ef5af8",
+          "sourceId": "shake_shack_sg",
+          "url": "https://www.shakeshack.com.sg/singlish-lingo/",
+          "requestedUrl": "https://www.shakeshack.com.sg/singlish-lingo/",
+          "relation": "detail",
+          "fetchedAt": "2026-10-01T10:48:33.000Z",
+          "contentHash": "adccc07b39a476bfc52574b33b4e3c83f041693c74382f14419d6dce03502577",
+          "contentType": "text/html",
+          "httpStatus": 200,
+          "notes": []
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "candidateId": "direct_5364d2ff85a7447a81708783cb09b565d1059ae9080ec92fec9c25f62bdc384a",
+      "sourceId": "shake_shack_sg",
+      "sourceLabel": "Shake Shack Singapore",
+      "canonicalUrl": "https://www.shakeshack.com.sg/study-breaks-just-got-better/",
+      "listingUrl": "https://www.shakeshack.com.sg/blog/",
+      "nativeId": null,
+      "merchant": "Shake Shack",
+      "title": "Study Breaks Just Got Better",
+      "benefit": "Crinkle Cut Fries on us",
+      "description": "Good news, students! Your next study break comes with a little treat on us. Whether you’re catching up with friends after class or grabbing a quick bite before your next lesson, everything’s just a little better with crinkle cuts.\nOn weekdays, enjoy Crinkle Cut Fries on us* with any burger and drink purchase. Simply present a valid student ID at the cashier. This offer is available exclusively at our Westgate, Junction 8 or Great World locations.\nSee you at the Shack!\n*Terms and conditions: Promotion is available on weekdays (excluding Public Holidays) at Westgate, Junction 8 and Great World Shack locations only. A valid student ID must be presented at the point of purchase to enjoy the promotion. The offer is open to all primary, secondary, tertiary and university students in Singapore. Shake Shack Singapore reserves the right to amend or end the promotion without prior notice.",
+      "startDate": null,
+      "endDate": null,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "hours": null,
+      "locationScope": "named_outlets",
+      "locationNames": [
+        "Westgate",
+        "Junction 8",
+        "Great World"
+      ],
+      "locationWording": "Promotion is available on weekdays (excluding Public Holidays) at Westgate, Junction 8 and Great World Shack locations only.",
+      "eligibility": [
+        "Good news, students! Your next study break comes with a little treat on us. Whether you’re catching up with friends after class or grabbing a quick bite before your next lesson, everything’s just a little better with crinkle cuts.",
+        "On weekdays, enjoy Crinkle Cut Fries on us* with any burger and drink purchase. Simply present a valid student ID at the cashier. This offer is available exclusively at our Westgate, Junction 8 or Great World locations.",
+        "*Terms and conditions: Promotion is available on weekdays (excluding Public Holidays) at Westgate, Junction 8 and Great World Shack locations only. A valid student ID must be presented at the point of purchase to enjoy the promotion. The offer is open to all primary, secondary, tertiary and university students in Singapore. Shake Shack Singapore reserves the right to amend or end the promotion without prior notice.",
+        "A valid student ID must be presented at the point of purchase to enjoy the promotion.",
+        "The offer is open to all primary, secondary, tertiary and university students in Singapore."
+      ],
+      "redemption": [
+        "A valid student ID must be presented at the point of purchase to enjoy the promotion."
+      ],
+      "terms": [
+        "Promotion is available on weekdays (excluding Public Holidays) at Westgate, Junction 8 and Great World Shack locations only.",
+        "A valid student ID must be presented at the point of purchase to enjoy the promotion.",
+        "The offer is open to all primary, secondary, tertiary and university students in Singapore.",
+        "Shake Shack Singapore reserves the right to amend or end the promotion without prior notice."
+      ],
+      "observedAt": "2026-10-01T10:48:33.000Z",
+      "publishedAt": "2026-08-05T04:00:10+00:00",
+      "extractionStatus": "partial",
+      "issues": [
+        "end_date_unknown",
+        "hours_unknown",
+        "start_date_unknown"
+      ],
+      "facts": {
+        "title": {
+          "evidenceIds": [
+            "c4b140c788662b212183473134ef63eecddbfa361c0421821c18443acdc99e2e"
+          ],
+          "selector": "main .pp-posts .pp-post",
+          "quote": "Study Breaks Just Got Better"
+        },
+        "merchant": {
+          "evidenceIds": [
+            "16d8fffd1b0abab17b5ce79250a68ea374c743789d42626f0da96b638ed8bbfa"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "*Terms and conditions: Promotion is available on weekdays (excluding Public Holidays) at Westgate, Junction 8 and Great World Shack locations only. A valid student ID must be presented at the point of purchase to enjoy the promotion. The offer is open to all primary, secondary, tertiary and university students in Singapore. Shake Shack Singapore reserves the right to amend or end the promotion without prior notice."
+        },
+        "description": {
+          "evidenceIds": [
+            "16d8fffd1b0abab17b5ce79250a68ea374c743789d42626f0da96b638ed8bbfa"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Good news, students! Your next study break comes with a little treat on us. Whether you’re catching up with friends after class or grabbing a quick bite before your next lesson, everything’s just a little better with crinkle cuts.\nOn weekdays, enjoy Crinkle Cut Fries on us* with any burger and drink purchase. Simply present a valid student ID at the cashier. This offer is available exclusively at our Westgate, Junction 8 or Great World locations.\nSee you at the Shack!\n*Terms and conditions: Promotion is available on weekdays (excluding Public Holidays) at Westgate, Junction 8 and Great World Shack locations only. A valid student ID must be presented at the point of purchase to enjoy the promotion. The offer is open to all primary, secondary, tertiary and university students in Singapore. Shake Shack Singapore reserves the right to amend or end the promotion without prior notice."
+        },
+        "benefit": {
+          "evidenceIds": [
+            "16d8fffd1b0abab17b5ce79250a68ea374c743789d42626f0da96b638ed8bbfa"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "On weekdays, enjoy Crinkle Cut Fries on us* with any burger and drink purchase. Simply present a valid student ID at the cashier. This offer is available exclusively at our Westgate, Junction 8 or Great World locations."
+        },
+        "terms": {
+          "evidenceIds": [
+            "16d8fffd1b0abab17b5ce79250a68ea374c743789d42626f0da96b638ed8bbfa"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Promotion is available on weekdays (excluding Public Holidays) at Westgate, Junction 8 and Great World Shack locations only.\nA valid student ID must be presented at the point of purchase to enjoy the promotion.\nThe offer is open to all primary, secondary, tertiary and university students in Singapore.\nShake Shack Singapore reserves the right to amend or end the promotion without prior notice."
+        },
+        "publishedAt": {
+          "evidenceIds": [
+            "16d8fffd1b0abab17b5ce79250a68ea374c743789d42626f0da96b638ed8bbfa"
+          ],
+          "selector": "meta[property=\"article:published_time\"]",
+          "quote": "2026-08-05T04:00:10+00:00"
+        },
+        "locations": {
+          "evidenceIds": [
+            "16d8fffd1b0abab17b5ce79250a68ea374c743789d42626f0da96b638ed8bbfa"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Promotion is available on weekdays (excluding Public Holidays) at Westgate, Junction 8 and Great World Shack locations only."
+        },
+        "eligibility": {
+          "evidenceIds": [
+            "16d8fffd1b0abab17b5ce79250a68ea374c743789d42626f0da96b638ed8bbfa"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Good news, students! Your next study break comes with a little treat on us. Whether you’re catching up with friends after class or grabbing a quick bite before your next lesson, everything’s just a little better with crinkle cuts.\nOn weekdays, enjoy Crinkle Cut Fries on us* with any burger and drink purchase. Simply present a valid student ID at the cashier. This offer is available exclusively at our Westgate, Junction 8 or Great World locations.\n*Terms and conditions: Promotion is available on weekdays (excluding Public Holidays) at Westgate, Junction 8 and Great World Shack locations only. A valid student ID must be presented at the point of purchase to enjoy the promotion. The offer is open to all primary, secondary, tertiary and university students in Singapore. Shake Shack Singapore reserves the right to amend or end the promotion without prior notice.\nA valid student ID must be presented at the point of purchase to enjoy the promotion.\nThe offer is open to all primary, secondary, tertiary and university students in Singapore."
+        },
+        "redemption": {
+          "evidenceIds": [
+            "16d8fffd1b0abab17b5ce79250a68ea374c743789d42626f0da96b638ed8bbfa"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "A valid student ID must be presented at the point of purchase to enjoy the promotion."
+        },
+        "weekdays": {
+          "evidenceIds": [
+            "16d8fffd1b0abab17b5ce79250a68ea374c743789d42626f0da96b638ed8bbfa"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Promotion is available on weekdays (excluding Public Holidays) at Westgate, Junction 8 and Great World Shack locations only."
+        }
+      },
+      "evidence": [
+        {
+          "id": "c4b140c788662b212183473134ef63eecddbfa361c0421821c18443acdc99e2e",
+          "sourceId": "shake_shack_sg",
+          "url": "https://www.shakeshack.com.sg/blog/",
+          "requestedUrl": "https://www.shakeshack.com.sg/blog/",
+          "relation": "listing",
+          "fetchedAt": "2026-10-01T10:48:33.000Z",
+          "contentHash": "04e650afe8974e5de76776381fed62ae6682b64d0f871cf0933ac3cd8851b08c",
+          "contentType": "text/html",
+          "httpStatus": 200,
+          "notes": []
+        },
+        {
+          "id": "16d8fffd1b0abab17b5ce79250a68ea374c743789d42626f0da96b638ed8bbfa",
+          "sourceId": "shake_shack_sg",
+          "url": "https://www.shakeshack.com.sg/study-breaks-just-got-better/",
+          "requestedUrl": "https://www.shakeshack.com.sg/study-breaks-just-got-better/",
+          "relation": "detail",
+          "fetchedAt": "2026-10-01T10:48:33.000Z",
+          "contentHash": "8763b4c2eeb5d362b981614d36581dcb3b467ff70e7f714cd150a0fae352e3c2",
+          "contentType": "text/html",
+          "httpStatus": 200,
+          "notes": []
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "candidateId": "direct_abaeaec4803fced5ce99cd76d282d1d6400c05895dfae62f23103ab6ba11c823",
+      "sourceId": "shake_shack_sg",
+      "sourceLabel": "Shake Shack Singapore",
+      "canonicalUrl": "https://www.shakeshack.com.sg/this-ones-for-your-mom/",
+      "listingUrl": "https://www.shakeshack.com.sg/blog/page/3/",
+      "nativeId": null,
+      "merchant": "Shake Shack",
+      "title": "This One’s For Your Mom",
+      "benefit": "From $30.80",
+      "description": "This year, skip the flower bouquets and go straight for the burgers. On May 11, we’re serving up a Mother’s Day Bundle that’s stacked with everything she loves—because nothing says “I appreciate you” like burgers, bites, and a little extra on the house.\nHere’s what’s in the bundle (From $30.80):\nChoice of 1 Burger\nComplimentary ShackBurger or Chicken Shack\nChoice of Fries\nChoice of Bites\nChoice of 2 Drinks\nIt’s stacked, it’s sharable, and it’s made with 100% Angus beef and premium ingredients.\nTERMS & CONDITIONS:\n•⁠ ⁠Offer is available across all Shake Shack outlets in Singapore on 11 May only.\n•⁠ ⁠Offer is valid for dine-in only.\n•⁠ ⁠Offer not valid for orders made through third-party delivery apps.\n•⁠ ⁠Limited to 1 order per person and transaction.\n•⁠ ⁠Offer is not valid in conjunction with any other vouchers.\n•⁠ ⁠Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items.\n•⁠ ⁠Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice.\n•⁠ ⁠Visuals are for illustration purposes only.",
+      "startDate": null,
+      "endDate": null,
+      "weekdays": null,
+      "hours": null,
+      "locationScope": "all_outlets",
+      "locationNames": [],
+      "locationWording": "•⁠ ⁠Offer is available across all Shake Shack outlets in Singapore on 11 May only.",
+      "eligibility": null,
+      "redemption": [
+        "•⁠ ⁠Offer is valid for dine-in only."
+      ],
+      "terms": [
+        "•⁠ ⁠Offer is available across all Shake Shack outlets in Singapore on 11 May only.",
+        "•⁠ ⁠Offer is valid for dine-in only.",
+        "•⁠ ⁠Offer not valid for orders made through third-party delivery apps.",
+        "•⁠ ⁠Limited to 1 order per person and transaction.",
+        "•⁠ ⁠Offer is not valid in conjunction with any other vouchers.",
+        "•⁠ ⁠Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items.",
+        "•⁠ ⁠Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice.",
+        "•⁠ ⁠Visuals are for illustration purposes only."
+      ],
+      "observedAt": "2026-10-01T10:48:33.000Z",
+      "publishedAt": "2025-05-07T06:44:39+00:00",
+      "extractionStatus": "partial",
+      "issues": [
+        "eligibility_unknown",
+        "end_date_unknown",
+        "hours_unknown",
+        "start_date_unknown",
+        "weekdays_unknown"
+      ],
+      "facts": {
+        "title": {
+          "evidenceIds": [
+            "0bc9093509779dc5a336b36a8e57d9adc38fd9b6d0b1954073d95205e69388f7"
+          ],
+          "selector": "main .pp-posts .pp-post",
+          "quote": "This One’s For Your Mom"
+        },
+        "merchant": {
+          "evidenceIds": [
+            "3bd72db9fa15bd61c431d1b29a10b9e49e69a778c4a6fe30f9a2667f2318f61d"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "•⁠ ⁠Offer is available across all Shake Shack outlets in Singapore on 11 May only."
+        },
+        "description": {
+          "evidenceIds": [
+            "3bd72db9fa15bd61c431d1b29a10b9e49e69a778c4a6fe30f9a2667f2318f61d"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "This year, skip the flower bouquets and go straight for the burgers. On May 11, we’re serving up a Mother’s Day Bundle that’s stacked with everything she loves—because nothing says “I appreciate you” like burgers, bites, and a little extra on the house.\nHere’s what’s in the bundle (From $30.80):\nChoice of 1 Burger\nComplimentary ShackBurger or Chicken Shack\nChoice of Fries\nChoice of Bites\nChoice of 2 Drinks\nIt’s stacked, it’s sharable, and it’s made with 100% Angus beef and premium ingredients.\nTERMS & CONDITIONS:\n•⁠ ⁠Offer is available across all Shake Shack outlets in Singapore on 11 May only.\n•⁠ ⁠Offer is valid for dine-in only.\n•⁠ ⁠Offer not valid for orders made through third-party delivery apps.\n•⁠ ⁠Limited to 1 order per person and transaction.\n•⁠ ⁠Offer is not valid in conjunction with any other vouchers.\n•⁠ ⁠Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items.\n•⁠ ⁠Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice.\n•⁠ ⁠Visuals are for illustration purposes only."
+        },
+        "benefit": {
+          "evidenceIds": [
+            "3bd72db9fa15bd61c431d1b29a10b9e49e69a778c4a6fe30f9a2667f2318f61d"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Here’s what’s in the bundle (From $30.80):"
+        },
+        "terms": {
+          "evidenceIds": [
+            "3bd72db9fa15bd61c431d1b29a10b9e49e69a778c4a6fe30f9a2667f2318f61d"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "•⁠ ⁠Offer is available across all Shake Shack outlets in Singapore on 11 May only.\n•⁠ ⁠Offer is valid for dine-in only.\n•⁠ ⁠Offer not valid for orders made through third-party delivery apps.\n•⁠ ⁠Limited to 1 order per person and transaction.\n•⁠ ⁠Offer is not valid in conjunction with any other vouchers.\n•⁠ ⁠Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items.\n•⁠ ⁠Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice.\n•⁠ ⁠Visuals are for illustration purposes only."
+        },
+        "publishedAt": {
+          "evidenceIds": [
+            "3bd72db9fa15bd61c431d1b29a10b9e49e69a778c4a6fe30f9a2667f2318f61d"
+          ],
+          "selector": "meta[property=\"article:published_time\"]",
+          "quote": "2025-05-07T06:44:39+00:00"
+        },
+        "locations": {
+          "evidenceIds": [
+            "3bd72db9fa15bd61c431d1b29a10b9e49e69a778c4a6fe30f9a2667f2318f61d"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "•⁠ ⁠Offer is available across all Shake Shack outlets in Singapore on 11 May only."
+        },
+        "redemption": {
+          "evidenceIds": [
+            "3bd72db9fa15bd61c431d1b29a10b9e49e69a778c4a6fe30f9a2667f2318f61d"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "•⁠ ⁠Offer is valid for dine-in only."
+        }
+      },
+      "evidence": [
+        {
+          "id": "0bc9093509779dc5a336b36a8e57d9adc38fd9b6d0b1954073d95205e69388f7",
+          "sourceId": "shake_shack_sg",
+          "url": "https://www.shakeshack.com.sg/blog/page/3/",
+          "requestedUrl": "https://www.shakeshack.com.sg/blog/page/3/",
+          "relation": "listing",
+          "fetchedAt": "2026-10-01T10:48:33.000Z",
+          "contentHash": "f0881a8a2f9c61261c30545fbe1899387fecb316bfe485121bbeec9c44eab541",
+          "contentType": "text/html",
+          "httpStatus": 200,
+          "notes": []
+        },
+        {
+          "id": "3bd72db9fa15bd61c431d1b29a10b9e49e69a778c4a6fe30f9a2667f2318f61d",
+          "sourceId": "shake_shack_sg",
+          "url": "https://www.shakeshack.com.sg/this-ones-for-your-mom/",
+          "requestedUrl": "https://www.shakeshack.com.sg/this-ones-for-your-mom/",
+          "relation": "detail",
+          "fetchedAt": "2026-10-01T10:48:33.000Z",
+          "contentHash": "e4d33351bdbc94724e73d44e2398063ecfe8b223aeb4355366cdca6d5c963a9d",
+          "contentType": "text/html",
+          "httpStatus": 200,
+          "notes": []
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "candidateId": "direct_c65e41cc313c09aaab9c237c8d61ca6487e3b2af8151c347efc08c3cb6f3bb00",
+      "sourceId": "shake_shack_sg",
+      "sourceLabel": "Shake Shack Singapore",
+      "canonicalUrl": "https://www.shakeshack.com.sg/were-introducing-chicken-sundays/",
+      "listingUrl": "https://www.shakeshack.com.sg/blog/page/2/",
+      "nativeId": null,
+      "merchant": "Shake Shack",
+      "title": "We’re introducing Chicken Sundays!",
+      "benefit": "Free Chicken Shack",
+      "description": "Here at Shake Shack, we pride ourselves on our Chicken Shack which is available 7 days a\nweek. With crispy, white-meat chicken breast or thigh over lettuce, pickles and buttermilk\nherb mayo on a toasted potato bun, this sandwich outshines its competition. And what\nmakes our Chicken Shack even better, is that it’s made with 100% cage-free chickens,\nsomething not everyone can say these days…\nEvery Sunday from 30 November to 28 December, we are offering a Free Chicken Shack with any chicken sandwich purchase with promo code: CHICKENSUNDAY. Just order on our Happy Point Singapore app to taste the true difference.\nDownload the App: https://app.happypointcard.com.sg/\nTerms and Conditions\nOffer is available across all Shake Shack outlets in Singapore every Sunday from 30\nNovember to 28 December 2025 only. Offer applies with any chicken sandwich purchase.\nOffer is valid for dine-in and take-away. The offer is only valid via Happy Point Singapore\nin-app orders. Offer not valid for orders made through third-party delivery apps. Offer is not\nvalid in conjunction with any other vouchers. Offer is non-refundable, non-extendable,\nnon-exchangeable for cash or for any other menu items. Shake Shack Singapore reserves the\nright to vary and amend these terms and conditions at any time without prior notice. Visuals\nare for illustration purposes only.",
+      "startDate": "2025-11-30",
+      "endDate": "2025-12-28",
+      "weekdays": [
+        7
+      ],
+      "hours": null,
+      "locationScope": "all_outlets",
+      "locationNames": [],
+      "locationWording": "Offer is available across all Shake Shack outlets in Singapore every Sunday from 30 November to 28 December 2025 only.",
+      "eligibility": null,
+      "redemption": [
+        "Offer is valid for dine-in and take-away.",
+        "The offer is only valid via Happy Point Singapore in-app orders."
+      ],
+      "terms": [
+        "Offer is available across all Shake Shack outlets in Singapore every Sunday from 30 November to 28 December 2025 only.",
+        "Offer applies with any chicken sandwich purchase.",
+        "Offer is valid for dine-in and take-away.",
+        "The offer is only valid via Happy Point Singapore in-app orders.",
+        "Offer not valid for orders made through third-party delivery apps.",
+        "Offer is not valid in conjunction with any other vouchers.",
+        "Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items.",
+        "Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice.",
+        "Visuals are for illustration purposes only."
+      ],
+      "observedAt": "2026-10-01T10:48:33.000Z",
+      "publishedAt": "2025-11-28T11:51:13+00:00",
+      "extractionStatus": "partial",
+      "issues": [
+        "eligibility_unknown",
+        "hours_unknown"
+      ],
+      "facts": {
+        "title": {
+          "evidenceIds": [
+            "9c61aaed165f0b9d92c5bfb725dc572b91cc884327665924660b742459431c79"
+          ],
+          "selector": "main .pp-posts .pp-post",
+          "quote": "We’re introducing Chicken Sundays!"
+        },
+        "merchant": {
+          "evidenceIds": [
+            "c2bd9d7003e22a9d3f05d286c0ca097dc977a44ab58d0915f648c9dc401ef062"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Here at Shake Shack, we pride ourselves on our Chicken Shack which is available 7 days a"
+        },
+        "description": {
+          "evidenceIds": [
+            "c2bd9d7003e22a9d3f05d286c0ca097dc977a44ab58d0915f648c9dc401ef062"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Here at Shake Shack, we pride ourselves on our Chicken Shack which is available 7 days a\nweek. With crispy, white-meat chicken breast or thigh over lettuce, pickles and buttermilk\nherb mayo on a toasted potato bun, this sandwich outshines its competition. And what\nmakes our Chicken Shack even better, is that it’s made with 100% cage-free chickens,\nsomething not everyone can say these days…\nEvery Sunday from 30 November to 28 December, we are offering a Free Chicken Shack with any chicken sandwich purchase with promo code: CHICKENSUNDAY. Just order on our Happy Point Singapore app to taste the true difference.\nDownload the App: https://app.happypointcard.com.sg/\nTerms and Conditions\nOffer is available across all Shake Shack outlets in Singapore every Sunday from 30\nNovember to 28 December 2025 only. Offer applies with any chicken sandwich purchase.\nOffer is valid for dine-in and take-away. The offer is only valid via Happy Point Singapore\nin-app orders. Offer not valid for orders made through third-party delivery apps. Offer is not\nvalid in conjunction with any other vouchers. Offer is non-refundable, non-extendable,\nnon-exchangeable for cash or for any other menu items. Shake Shack Singapore reserves the\nright to vary and amend these terms and conditions at any time without prior notice. Visuals\nare for illustration purposes only."
+        },
+        "benefit": {
+          "evidenceIds": [
+            "c2bd9d7003e22a9d3f05d286c0ca097dc977a44ab58d0915f648c9dc401ef062"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Every Sunday from 30 November to 28 December, we are offering a Free Chicken Shack with any chicken sandwich purchase with promo code: CHICKENSUNDAY. Just order on our Happy Point Singapore app to taste the true difference."
+        },
+        "terms": {
+          "evidenceIds": [
+            "c2bd9d7003e22a9d3f05d286c0ca097dc977a44ab58d0915f648c9dc401ef062"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Offer is available across all Shake Shack outlets in Singapore every Sunday from 30 November to 28 December 2025 only.\nOffer applies with any chicken sandwich purchase.\nOffer is valid for dine-in and take-away.\nThe offer is only valid via Happy Point Singapore in-app orders.\nOffer not valid for orders made through third-party delivery apps.\nOffer is not valid in conjunction with any other vouchers.\nOffer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items.\nShake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice.\nVisuals are for illustration purposes only."
+        },
+        "publishedAt": {
+          "evidenceIds": [
+            "c2bd9d7003e22a9d3f05d286c0ca097dc977a44ab58d0915f648c9dc401ef062"
+          ],
+          "selector": "meta[property=\"article:published_time\"]",
+          "quote": "2025-11-28T11:51:13+00:00"
+        },
+        "validity": {
+          "evidenceIds": [
+            "c2bd9d7003e22a9d3f05d286c0ca097dc977a44ab58d0915f648c9dc401ef062"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Offer is available across all Shake Shack outlets in Singapore every Sunday from 30 November to 28 December 2025 only.\nOffer applies with any chicken sandwich purchase.\nOffer is valid for dine-in and take-away.\nThe offer is only valid via Happy Point Singapore in-app orders.\nOffer not valid for orders made through third-party delivery apps.\nOffer is not valid in conjunction with any other vouchers.\nOffer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items."
+        },
+        "locations": {
+          "evidenceIds": [
+            "c2bd9d7003e22a9d3f05d286c0ca097dc977a44ab58d0915f648c9dc401ef062"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Offer is available across all Shake Shack outlets in Singapore every Sunday from 30 November to 28 December 2025 only."
+        },
+        "redemption": {
+          "evidenceIds": [
+            "c2bd9d7003e22a9d3f05d286c0ca097dc977a44ab58d0915f648c9dc401ef062"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Offer is valid for dine-in and take-away.\nThe offer is only valid via Happy Point Singapore in-app orders."
+        },
+        "weekdays": {
+          "evidenceIds": [
+            "c2bd9d7003e22a9d3f05d286c0ca097dc977a44ab58d0915f648c9dc401ef062"
+          ],
+          "selector": "[data-elementor-type=\"wp-post\"]",
+          "quote": "Offer is available across all Shake Shack outlets in Singapore every Sunday from 30 November to 28 December 2025 only."
+        }
+      },
+      "evidence": [
+        {
+          "id": "9c61aaed165f0b9d92c5bfb725dc572b91cc884327665924660b742459431c79",
+          "sourceId": "shake_shack_sg",
+          "url": "https://www.shakeshack.com.sg/blog/page/2/",
+          "requestedUrl": "https://www.shakeshack.com.sg/blog/page/2/",
+          "relation": "listing",
+          "fetchedAt": "2026-10-01T10:48:33.000Z",
+          "contentHash": "774c9013ff96cb1819f1b642c26682dae45df6d754f8052b705dca68b451a5ac",
+          "contentType": "text/html",
+          "httpStatus": 200,
+          "notes": []
+        },
+        {
+          "id": "c2bd9d7003e22a9d3f05d286c0ca097dc977a44ab58d0915f648c9dc401ef062",
+          "sourceId": "shake_shack_sg",
+          "url": "https://www.shakeshack.com.sg/were-introducing-chicken-sundays/",
+          "requestedUrl": "https://www.shakeshack.com.sg/were-introducing-chicken-sundays/",
+          "relation": "detail",
+          "fetchedAt": "2026-10-01T10:48:33.000Z",
+          "contentHash": "a251ef38d372f54e3d3e78482fc68a7f7139d9613c429e2708745d0817ff4700",
+          "contentType": "text/html",
+          "httpStatus": 200,
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "issues": [],
+  "acquisitionReady": true
+}

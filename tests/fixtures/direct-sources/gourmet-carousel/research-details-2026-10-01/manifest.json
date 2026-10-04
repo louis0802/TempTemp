@@ -1,0 +1,45 @@
+{
+  "observedAt": "2026-10-01T11:43:12.148Z",
+  "pages": {
+    "https://www.royalplaza.com.sg/dine/offers/thai-2026": {
+      "path": "thai-2026.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.royalplaza.com.sg/dine/offers/carousel-pastries": {
+      "path": "carousel-pastries.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.royalplaza.com.sg/dine/offers/carousel-vouchers": {
+      "path": "carousel-vouchers.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.royalplaza.com.sg/dine/offers/beyond-the-buffet": {
+      "path": "beyond-the-buffet.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.royalplaza.com.sg/dine/offers/dinner-buffet": {
+      "path": "dinner-buffet.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.royalplaza.com.sg/dine/offers/lunch-buffet": {
+      "path": "lunch-buffet.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.royalplaza.com.sg/dine/offers/high-tea-buffet": {
+      "path": "high-tea-buffet.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.royalplaza.com.sg/dine/offers/breakfast-buffet": {
+      "path": "breakfast-buffet.html",
+      "status": 200,
+      "contentType": "text/html"
+    }
+  }
+}

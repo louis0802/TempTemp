@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T04:01:38.811Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://www.instagram.com/p/Ddp3ov4Fwng/",
+      "url": "https://www.instagram.com/p/Ddp3ov4Fwng/",
+      "status": 200,
+      "content_type": "text/html; charset=\"utf-8\"",
+      "redirect_to": null,
+      "file": "5ecdbe8d83dfd14558d264833b37d675ade5fbe0b703ed86eb3b86bdddb05a2d.html",
+      "sha256": "5ecdbe8d83dfd14558d264833b37d675ade5fbe0b703ed86eb3b86bdddb05a2d",
+      "bytes": 900025,
+      "error": null
+    },
+    {
+      "requested_url": "https://www.instagram.com/sushirosingapore/",
+      "url": "https://www.instagram.com/sushirosingapore/",
+      "status": 200,
+      "content_type": "text/html; charset=\"utf-8\"",
+      "redirect_to": null,
+      "file": "c53962cf6ffab321fa51f3fbe22c7f46c667464fa94a9b1528c986c26a0357b3.html",
+      "sha256": "c53962cf6ffab321fa51f3fbe22c7f46c667464fa94a9b1528c986c26a0357b3",
+      "bytes": 877127,
+      "error": null
+    }
+  ]
+}

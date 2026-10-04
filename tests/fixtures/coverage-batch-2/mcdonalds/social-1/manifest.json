@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T04:01:39.100Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://www.instagram.com/mcdsg/",
+      "url": "https://www.instagram.com/mcdsg/",
+      "status": 200,
+      "content_type": "text/html; charset=\"utf-8\"",
+      "redirect_to": null,
+      "file": "d7d7a65d56ead1713179985ca74cfe4f6f9656c167441f8895cf3f1ff5941366.html",
+      "sha256": "d7d7a65d56ead1713179985ca74cfe4f6f9656c167441f8895cf3f1ff5941366",
+      "bytes": 878218,
+      "error": null
+    },
+    {
+      "requested_url": "https://www.instagram.com/p/DdQIFcCB6TP/",
+      "url": "https://www.instagram.com/p/DdQIFcCB6TP/",
+      "status": 200,
+      "content_type": "text/html; charset=\"utf-8\"",
+      "redirect_to": null,
+      "file": "6f679128edcf08ee10c55840bf03ba8432b0070b359f9a99ed202ca704e050e3.html",
+      "sha256": "6f679128edcf08ee10c55840bf03ba8432b0070b359f9a99ed202ca704e050e3",
+      "bytes": 831854,
+      "error": null
+    },
+    {
+      "requested_url": "https://www.instagram.com/p/Ddp7EmljAbm/",
+      "url": "https://www.instagram.com/p/Ddp7EmljAbm/",
+      "status": 200,
+      "content_type": "text/html; charset=\"utf-8\"",
+      "redirect_to": null,
+      "file": "a109165630e778eb62e139931f035477362c673052d5dd21e8254e76e2a8a24a.html",
+      "sha256": "a109165630e778eb62e139931f035477362c673052d5dd21e8254e76e2a8a24a",
+      "bytes": 834311,
+      "error": null
+    }
+  ]
+}

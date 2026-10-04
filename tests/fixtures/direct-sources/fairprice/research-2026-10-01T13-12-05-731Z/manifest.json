@@ -1,0 +1,15 @@
+{
+  "observedAt": "2026-10-01T13:12:05.733Z",
+  "pages": {
+    "https://www.fairprice.com.sg/weekly-promotions": {
+      "path": "de5d490deac380207e0546646376e4cb0934bb9839ebf9dd73bb0c512ea93aff.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://help.fairprice.com.sg/hc/en-us/articles/360025882372-Terms-Conditions": {
+      "path": "ab10f28912e1582c1da44fff310b5490c37384f4e5b6c2c765a93c74c9f5b7ef.html",
+      "status": 403,
+      "contentType": "text/html"
+    }
+  }
+}

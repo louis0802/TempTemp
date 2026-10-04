@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T04:00:54.698Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://www.coffeebean.com.sg/amlocator",
+      "url": "https://www.coffeebean.com.sg/amlocator",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "da0075fbddc8601ecab2b93b1c76cbf8ca9c50431003f4205b034b25dd94e6ec.html",
+      "sha256": "da0075fbddc8601ecab2b93b1c76cbf8ca9c50431003f4205b034b25dd94e6ec",
+      "bytes": 696670,
+      "error": null
+    },
+    {
+      "requested_url": "https://www.coffeebean.com.sg/terms-and-conditions",
+      "url": "https://www.coffeebean.com.sg/terms-and-conditions",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "79401a6e2e16b35007c275b055abd2c79127176daaa1f7023c54ca6b73d6ccd9.html",
+      "sha256": "79401a6e2e16b35007c275b055abd2c79127176daaa1f7023c54ca6b73d6ccd9",
+      "bytes": 108931,
+      "error": null
+    }
+  ]
+}

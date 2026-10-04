@@ -1,0 +1,5 @@
+# Ablation scorer contract
+
+Separate from frozen V4 scorer. Whitelist opaque ID translation, literal reviewed alternatives, equivalent contiguous anchor boundaries and allowed coarse relations. Prefer canonical matches to avoid alternative collision; do not extend equivalence transitively across unrelated gold clauses. Count material clause-target requirements including shared targets. Empty target reviewed assignments are assessed for wrong target safety. Identity recovery requires unique independent mapping; merges/splits separately measured. Unmatched propositions are outside minimum reviewed annotation, not automatically source-false.
+
+Constraint recall requires source-backed reviewed text/equivalent, correct local evidence and every required attribute, permitting composable attributes across equivalent records. Compare fully annotated normalized dates, weekdays, times, positive location scope, physical participation/exclusion and benefit qualifiers. Report unsupported unannotated text via separate source review. O0 must be perfect on all annotated metrics before agents. Fixed thresholds cannot change after launch.

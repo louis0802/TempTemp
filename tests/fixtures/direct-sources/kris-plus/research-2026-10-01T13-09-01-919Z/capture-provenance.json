@@ -1,0 +1,43 @@
+{
+  "merchant": "kris-plus",
+  "limits": {
+    "maxRequests": 40,
+    "maxListingPages": 5,
+    "maxDetailPages": 20,
+    "maxEvidencePages": 8,
+    "maxBytes": 3000000,
+    "timeoutMs": 12000,
+    "maxRedirects": 3
+  },
+  "jobs": [
+    {
+      "url": "https://www.krisplus.com/en/sg/promotions",
+      "purpose": "public campaign directory, load-more and exact links",
+      "kind": "listing"
+    }
+  ],
+  "attempts": [
+    {
+      "url": "https://www.krisplus.com/en/sg/promotions",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": null,
+      "error": "getaddrinfo ENOTFOUND www.krisplus.com",
+      "redirectTo": null
+    }
+  ],
+  "captures": [],
+  "failures": [
+    {
+      "url": "https://www.krisplus.com/en/sg/promotions",
+      "error": "getaddrinfo ENOTFOUND www.krisplus.com"
+    }
+  ],
+  "cumulativeCounts": {
+    "listing": 1,
+    "detail": 0,
+    "evidence": 0
+  },
+  "cumulativeAttempts": 1,
+  "note": "Explicit public research roots, ordinary bounded direct transport; no cookies/auth/private APIs/OCR or browser. Research evidence is not production registration."
+}

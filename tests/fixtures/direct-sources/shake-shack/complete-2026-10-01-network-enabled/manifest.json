@@ -1,0 +1,245 @@
+{
+  "observedAt": "2026-10-01T10:48:33.000Z",
+  "pages": {
+    "https://www.shakeshack.com.sg/blog/": {
+      "path": "04e650afe8974e5de76776381fed62ae6682b64d0f871cf0933ac3cd8851b08c.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/blog/page/2/": {
+      "path": "774c9013ff96cb1819f1b642c26682dae45df6d754f8052b705dca68b451a5ac.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/blog/page/3/": {
+      "path": "f0881a8a2f9c61261c30545fbe1899387fecb316bfe485121bbeec9c44eab541.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/blog/page/4/": {
+      "path": "96b234b54dd57142dbefebffd2c8ecb126602458c295350ca234d10a37a131b7.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/100-angus-beef-just-for-you/": {
+      "path": "56a879f3658a4615cb73215bf9fcad6bdf042a2ae4b389ae62898adbd98aaeab.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/all-about-chickens/": {
+      "path": "eb6511e5e5730b80a6d7bd15270e1eea66c6e87f3edee8f134c27d8295aa2669.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/boogie-your-way-to-shake-shack-disco-night/": {
+      "path": "3e8a422744f25982a5d7fde9c5d6fea98c1b284b73eaf854a9c5e9512864ef8a.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/clay-workshop/": {
+      "path": "07f95b2686211fff1b16f3774aeb548ebd687d98a65ea1fef6e8f41c2543fa28.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/concrete-craze/": {
+      "path": "033df0209cb16c43217bbd401d5953f40b029ad9e620ac598659d36641ac2549.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/everything-in-our-veggie-shack/": {
+      "path": "ff0434a022569b019842a96926becf667beb78b7cb65d70093224a8751b6a46c.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/feeding-a-crowd/": {
+      "path": "66be15aa1ed505d4e814254bdeb91a726f971bc2788b8d2bf96d1bc31dee1074.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/flock-this-way/": {
+      "path": "d3ef9c09692712863377c97a2d97ad5685d08cbfae609501902c9de4a80dbcdf.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/hello-one-fullerton/": {
+      "path": "cb16bf06717edf9c1590f81211220c45d462c9e19f5ea8fdaa8f9cef0e2f2a81.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/hello-parkway-parade/": {
+      "path": "bfb5928b79f8429ed650a2f14738ee33ade49d6de39dcf45d0bdcf2a9b48726f.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/introducing-aloha-shack/": {
+      "path": "435e7d469abc4c9587b66bc05c0c1b4e33c945b3701d16b57c3f9a66f0b6a69c.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/introducing-summer-greek-shack/": {
+      "path": "fd918481fbd6320591d2fe6d8097aac5ae637b58898fd8006a1e6b929112c001.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/its-caesar-time/": {
+      "path": "b644caecf74cd09c1d07b4f8f44e31206085c25815fcdc580824d4c26d5a5b27.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/local-faves-our-treat/": {
+      "path": "f1bef083d729ffa13791c75d5cae225faa6bd648f733201b69f7976bc6eb6fc9.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/meet-our-collab-partners/": {
+      "path": "e5fa6f0344f6897f0b8074f62036c8a03da04c5fa1dbd57f6632dd15f67f890a.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/more-perks-less-fuss/": {
+      "path": "e4b9651371f86fa52bc208ffa95eec005fc22ae62ea5d38012ff577e74c54f42.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/national-cheeseburger-day/": {
+      "path": "11269f1ed6c8280c48f6866a45374c97e75529ca25c6acf3ff9472bc7a0cb561.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/new-york-steakhouse/": {
+      "path": "504ff7ebd5efcd28dada7d274a63e7314c92be5bf2a38c86d792095359db8453.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/on-popular-demands-shackmeister-is-back/": {
+      "path": "91d2b925c560c1592b2ac5d3c0c462de76b639ce526dd3e253650bbe40643f59.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/one-day-exclusive-shack-gapore-dog/": {
+      "path": "b4d86e14d4fd9b17d887c64a5410e9d7a9bce868ba214e02446275b54879aa64.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/our-french-onion-menu/": {
+      "path": "f264342e2bb09c3c6f0fbadb79b1f17b83079971152159f366236b5f6de561f2.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/pucker-up-for-2-lemonades/": {
+      "path": "9bd48778d195473e8b806a487e0e37003ae323dd0a0a2dcc75577aefb7f26f87.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/puzzle-shackdown/": {
+      "path": "2a77edeef0f2cdad2e4a90b768d452eae11b27e9bf155d2ded959be9c610fc83.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/save-the-date/": {
+      "path": "e8992969a2bd4cf2ad6604eb58ecff45e289fa2305613ee8a196c4776c2e178d.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/shack-breakfast/": {
+      "path": "9b74c07975ad4de54dbcc37c4037f8df35a4ff8446ab4d668aac66f470eebc17.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/shack-meal/": {
+      "path": "0078b6cf5d62a26ea1dee061838ed8b12ec61b89274dc32444261db80f5081d4.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/shake-shack-x-naeum-inside-our-latest-singapore-chef-collab/": {
+      "path": "c7a2d2dd27a02e969a47827e31120690968667ba54e8d68da3b094c4607dd99e.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/shake-shacks-french-bistro-menu/": {
+      "path": "f10bffe19632b09d8bf35b96b6d5921d0a1454629257bf5d4ee22bab0609a5b7.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/shake-track-club/": {
+      "path": "8d37210518c18cc7f7086c296f68923da378f82cbae3e023dae08188530003c2.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/singlish-lingo/": {
+      "path": "adccc07b39a476bfc52574b33b4e3c83f041693c74382f14419d6dce03502577.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/study-breaks-just-got-better/": {
+      "path": "8763b4c2eeb5d362b981614d36581dcb3b467ff70e7f714cd150a0fae352e3c2.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/summer-peach-is-here/": {
+      "path": "21e28d3c1ed5bb8851304e5ae03db31063409f450b90fca9694ce3cd5ebb6219.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/the-neon-art-bistro-experience/": {
+      "path": "fb1ebf3d4f92157f6fb8df1721f499b08f348f229163b390d5073ea34c2ac349.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/the-veggie-shack-is-back/": {
+      "path": "37afa13f697c936412d4a4752d69d682ade3ca2bd2d4331bbc109357ef29297c.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/this-ones-for-your-mom/": {
+      "path": "e4d33351bdbc94724e73d44e2398063ecfe8b223aeb4355366cdca6d5c963a9d.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/truffles-back/": {
+      "path": "9461991f3b436609ab50e8a96a6f3567f15b6d50f4c54150f27cf1cbc8cbe1e4.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/welcome-to-shack-pickleball/": {
+      "path": "5fec47cd94ed8daf268347b40c29d537385068b17d696735fe71cc388a29f47e.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/welcome-to-sunshine-shack-flow/": {
+      "path": "788ebcf93d3274fc9b45540bc9d0098fdfa74a529816e5ee6dc16b02fd4e49d2.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/well-be-right-back/": {
+      "path": "58ec8c1c7b5ae20cecf67f3c3b32760e90487e2a020ec209a5b8f995c47659b2.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/were-bringing-new-york-to-the-shack-with-dj-kiara/": {
+      "path": "d469f7f0f1e693b7e6694029e0ac7d740d55bc47577b56972f4b37f3e9140a37.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/were-hiring-a-chief-lettuce-officer/": {
+      "path": "064cdc635628d8085c914c1a0c44e615462e161cdcabb20c2847f443de9abc52.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/were-introducing-chicken-sundays/": {
+      "path": "a251ef38d372f54e3d3e78482fc68a7f7139d9613c429e2708745d0817ff4700.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/your-summer-reset-starts-here/": {
+      "path": "a61ae8c0ba377cc1a322983d4817b562e76ada642f343b8a3b4fa6cbc824467d.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.shakeshack.com.sg/zi-char-menu/": {
+      "path": "2eb7ecbaeefd84bf8a6c58358be6b566a29f2b67c05b28dda33ce33ef6774003.html",
+      "status": 200,
+      "contentType": "text/html"
+    }
+  }
+}

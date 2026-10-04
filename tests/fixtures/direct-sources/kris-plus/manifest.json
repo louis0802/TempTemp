@@ -1,0 +1,85 @@
+{
+  "observedAt": "2026-10-01T13:09:21.832Z",
+  "pages": {
+    "https://www.krisplus.com/en/sg/promotions": {
+      "path": "research-2026-10-01T13-09-21-830Z/194c41e0aa8eafdb3c07a7b05b7ed4897d6479946fac8f282afb73a100b38138.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.krisplus.com/en/sg/terms-and-conditions": {
+      "path": "research-2026-10-01T13-12-06-437Z/2c25e8e9a64b26105b00eb8d0ed4ee7d5867e24ceac8b91056459256adf0be3e.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.singaporeair.com/en_UK/sg/ppsclub-krisflyer/use-miles/krisplus/terms-of-use/": {
+      "path": "research-2026-10-01T13-12-06-437Z/7a8761740bfcf219ff503f45293b4beec084e9dc484843ddad7b2f24c4fd1b6f.html",
+      "status": 404,
+      "contentType": "text/html"
+    },
+    "https://www.singaporeair.com/en_UK/ru/ppsclub-krisflyer/use-miles/krisplus/krisplus-cashier/": {
+      "path": "research-2026-10-01T13-12-06-437Z/618723de8419ec51c4f8318dc54cd3e914425c6909b698e7ca7264f73c1915fd.html",
+      "status": 404,
+      "contentType": "text/html"
+    },
+    "https://www.krisplus.com/en/sg/promotions/birthday-bash-earn-8mpd-d4dade67": {
+      "path": "research-2026-10-01T13-12-06-437Z/a328bdbc6741cb816e5900e43f92c63372dacdf8aaaec65d849c9b8eed0a7b8d.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.krisplus.com/en/sg/promotions/esso-fuels-your-miles-b1ab265f": {
+      "path": "research-2026-10-01T13-12-06-437Z/c42b907057b5c6ec75a61000409e2b273cddf6dd28d2d2b6ac6fca3930b560a1.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.krisplus.com/en/sg/promotions/birthday-gift-box-25a03eca": {
+      "path": "research-2026-10-01T13-15-26-508Z/ba5b78a4c93087f3ee455185c2e1d790826ddf4fa804781bfcdb37f063307265.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.krisplus.com/en/sg/promotions/birthday-bash-weekly-deals-de9b2667": {
+      "path": "research-2026-10-01T13-15-26-508Z/1d7cb698d72bc0aa392bb14bcded210d026b5a052868c4af6d5458e9589e0b1c.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.krisplus.com/en/sg/promotions/birthday-bash-get-dollar-10-back-f014103d": {
+      "path": "research-2026-10-01T13-15-26-508Z/1fc0b8a0298d6bd6789755df0fbd726597db3dea9eddd74ddfe07290a4263e64.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.krisplus.com/en/sg/promotions/new-capitastar-rewards-4216080b": {
+      "path": "research-2026-10-01T13-15-26-508Z/8f7b071ec0ded0d2c987d92c8413f2945bb8afcdc330c056e45a0cfba8f72fdd.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.krisplus.com/en/sg/promotions/superboost-your-rewards-1ded9979": {
+      "path": "research-2026-10-01T13-15-26-508Z/8682e74b14f8d4124cb4bfef3e0ae657ad7b7a36202c50cfae60d31cc241a304.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.krisplus.com/en/sg/promotions/krisflyer-experiences-98304f50": {
+      "path": "research-2026-10-01T13-15-26-508Z/08b07d299d3d0c254e837fc984e9c3751242dc495a4982ea249148e49a8dd959.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.krisplus.com/en/sg/promotions/singapore-grand-prix-5afc62e0": {
+      "path": "research-2026-10-01T13-15-26-508Z/75a58dac26a1ae051ba53ef66751d78cc8ce2a48df2bd5093938f2295042f5b3.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.krisplus.com/en/sg/promotions/ready-new-phone-e13156bc": {
+      "path": "research-2026-10-01T13-15-26-508Z/4f960fd99399b2fcfe0ca93a0834b936d7f8cbe9a59628e1a87a0340e086f36e.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.krisplus.com/en/sg/promotions/win-150-000-miles-at-istudio-45333941": {
+      "path": "research-2026-10-01T13-15-26-508Z/8084a28860d5615d1fc67144023ef75510aa9a0e0b314de5a9cb442c1082d0f9.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.krisplus.com/en/sg/promotions/zouk-group-a7e4bccf": {
+      "path": "research-2026-10-01T13-15-26-508Z/961e4e9887661ff82cf0a675b2a643e48e5be31c8aff617562b04bad97e9fce0.html",
+      "status": 200,
+      "contentType": "text/html"
+    }
+  }
+}

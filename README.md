@@ -1,8 +1,91 @@
 # Around — Singapore promotion map
 
-A local-first implementation of the [Singapore promotion map plan](docs/changes/singapore-promotion-map/plan.md). Next.js 16 / React / TypeScript, PostgreSQL/PostGIS, Supabase Auth, and MapLibre.
+Around is a local-first Singapore promotion platform exploring a transition from Telegram discovery toward verified official direct sources. It combines a Next.js / React / TypeScript map and list, PostgreSQL/PostGIS, local Supabase Auth, and a curator review workflow. This repository records local implementation and research progress; it does not establish a deployment.
 
-**Current state:** working local discovery and curator app, with an approved structured-JSON ingestion pipeline. Live public-preview collection and conservative source-text suggestions are implemented. The default public view shows only verified ongoing database offers on a real OpenStreetMap basemap. Imported live posts enter the curator inbox until verified. No paid services or recurring jobs are needed to try it.
+**Start here: [docs/architecture.md](docs/architecture.md)** — the canonical current architecture, trust boundaries, and detailed diagrams.
+
+## Current state
+
+- **Official direct sources:** official merchant source → bounded acquisition → merchant-specific deterministic adapter → `DirectPromotionCandidate` → verified outlet resolution → publication gate → `ready` / `needs_review` / `exclude`. Accepted runs retain evidence and history; complete candidates can publish through shared validation and transactional persistence.
+- **Retained legacy path:** approved structured-JSON imports and Telegram/public-preview ingestion remain implemented and independently validated. Incomplete facts enter the curator inbox. This parallel path is no longer the only architectural direction.
+- **Promotion NLP:** research-only experiments concluded **`STOP_AUTONOMOUS_EXTRACTION`**. Generic LLM extraction is not publication authority. Possible reviewer assistance, enrichment, classification support, missing-condition suggestions, and evidence navigation remain future uses, with no current production/admin integration.
+
+The default database view shows verified ongoing offers; unverified candidates remain in review. Fictional demo data is explicitly separate. Local setup needs no paid service or recurring job.
+
+## Architecture at a glance
+
+```text
+Discovery signals
+      ↓
+Official-source research / registry
+      ↓
+Bounded direct-source acquisition
+      ↓
+Merchant-specific DirectSourceAdapter
+      ↓
+DirectPromotionCandidate
+      ↓
+Publication + outlet gates
+      ↓
+ready / needs_review / exclude
+      ↓
+Promotion / API / map
+
+Promotion NLP research
+      ↓
+non-authoritative only
+```
+
+Only ready, validated candidates reach publication; review requires an audited correction, and excluded candidates stay out of the public feed. See [the architecture](docs/architecture.md) for acquisition failures, persistence, and trust boundaries.
+
+## What has been built
+
+| Area | Current implementation |
+| --- | --- |
+| Application | Next.js map/list UI, admin review workflow, PostgreSQL/PostGIS, local Supabase Auth, and the shared `Promotion` domain. |
+| Legacy ingestion | Telegram/public-preview collection, approved imports, deterministic resolution, and curator review. |
+| Direct sources | Bounded official-source fetch, registry and authority model, merchant-specific adapters, captured evidence/provenance, direct candidates, trusted outlet resolution, `direct-source-v2` publication gates, persistence/history, and admin review integration. |
+| Research | Source discovery/substitution studies, source-monitoring tooling, merchant coverage studies, Promotion NLP V1–V4, oracle ablation, and deterministic-span comparison. |
+
+## Official direct-source usage
+
+```sh
+npm run direct-sources:preview -- --source <source_id>
+npm run direct-sources:ingest -- --source <source_id>
+```
+
+**Preview** is DB-free. It uses live public acquisition by default, or captured acquisition with `--fixture <fixture_directory>`, and writes ignored artifacts under `.local/direct-source-preview/`. Use it to investigate sources and adapters. For example:
+
+```sh
+npm run direct-sources:preview -- --source pepper_lunch_sg --fixture tests/fixtures/direct-sources/pepper-captured-seven
+```
+
+**Ingest** writes to the configured database and requires both migrations below, including `002_direct_sources.sql`, plus an ingestion-role connection. It accepts one explicitly enabled source. It has no `--all`, recurring direct-source scheduler, or startup hook. Choose the target database deliberately; this command is not part of ordinary local setup or verification.
+
+Current [registry configuration](src/ingestion/direct-sources/registry.ts) enables Pepper Lunch and Shake Shack for direct-source publication evaluation, including `autoPublish`. Registry enablement, automatic publication policy, acquisition readiness, and deployment/running state are separate facts. Configuration alone proves neither a complete live acquisition nor a deployed service. Other source work retains its documented partial/disabled states.
+
+Direct-source participation follows explicit source evidence and trusted-directory rules. Google/OneMap can enrich established outlet identity and location; they do not invent participation or establish a complete merchant branch list. See [the direct-source runtime](src/ingestion/direct-sources/) and [onboarding guidance](docs/changes/autonomous-direct-source-ingestion/onboarding.md).
+
+## Research conclusion
+
+Promotion NLP explored V1 one-pass extraction, V2 semantic contracts, V3 proposition segmentation, V4 atomic evidence graphs, and oracle ablation with a deterministic-span comparison. The completed study concluded **`STOP_AUTONOMOUS_EXTRACTION`**: generic LLM autonomous promotion extraction is not authorized for publication. Deterministic official-source adapters remain authoritative; schemas and quoted spans alone do not prove correct offer identity, condition ownership, or complete facts.
+
+Read the [oracle-ablation decision](docs/changes/promotion-nlp-oracle-ablation/decision.md) for results and measurement limits. Historical/experimental extraction lives in [src/ingestion/promotion-nlp/](src/ingestion/promotion-nlp/), outside the authoritative direct-source path.
+
+## Repository tour
+
+| Path | Purpose |
+| --- | --- |
+| [docs/architecture.md](docs/architecture.md) | Canonical current overview. |
+| [src/ingestion/direct-sources/](src/ingestion/direct-sources/) | Official direct-source runtime. |
+| [src/ingestion/promotion-nlp/](src/ingestion/promotion-nlp/) | Research-only NLP experiments. |
+| [src/ingestion/](src/ingestion/) | Retained Telegram/legacy ingestion and shared resolution support. |
+| [scripts/research/](scripts/research/) | Isolated research and source-monitoring tooling. |
+| [docs/changes/](docs/changes/) | Historical/change documentation and verification evidence. |
+| [docs/research/](docs/research/) | Source-substitution research state and merchant/source reviews. |
+| [tests/fixtures/](tests/fixtures/) | Captured deterministic test evidence. |
+
+`docs/changes/**` records historical changes; `docs/architecture.md` is the canonical current overview. Some historical research reports retain the original local run paths as provenance. Local `.local/` run data itself is ignored and is not part of the repository. Research fixtures, contracts, decisions, and recorded hashes remain unchanged; replaying sealed model evaluations also requires the original ignored local run data.
 
 ## Run locally
 
@@ -21,7 +104,7 @@ Open **http://127.0.0.1:3100**. Port 3100 keeps this app separate from other loc
 
 - `local:up` starts PostGIS, Supabase Auth (GoTrue), and a local auth gateway.
 - `local:setup` creates `.env.local` without replacing an existing file.
-- `db:migrate` applies versioned SQL migrations atomically.
+- `db:migrate` applies versioned SQL migrations atomically: `001_initial.sql` establishes the application schema; additive `002_direct_sources.sql` adds direct-source persistence and permissions. Existing databases receive unapplied migrations in order.
 - `local:admin` creates least-privilege database logins and the local administrator. Run after migrations and once auth has started. It is safe to rerun.
 - Curator login at `/admin`: **admin@local.test** / **LocalReview2026!**. These credentials and Docker secrets are intentionally local-only; never use this Compose configuration for hosting.
 - `npm run local:down` stops containers and preserves the database volume.
@@ -100,9 +183,11 @@ npm run test:e2e
 npm run build
 ```
 
-Integration tests create a separate temporary database on **localhost:55432**, run real PostGIS/auth/transaction tests, and remove it. They require the local setup above and never truncate the main `promotions` database. Browser tests expect demo mode and local authentication, on port 3100.
+Integration tests create a separate temporary database on **localhost:55432**, run real PostGIS/auth/transaction tests, and remove it. They require the local setup above and never truncate the main `promotions` database. Browser tests expect a development server with `DEMO_MODE=true`, `PROMOTION_DATA_SOURCE=strict`, and `NEXT_PUBLIC_MAP_MODE=auto` with no MapTiler key, plus local authentication, on port 3100. Stop any existing app server first so the test server receives those environment settings. Test-specific MapLibre cases use intercepted synthetic tiles; fallback cases deliberately abort tile requests.
 
-See [verification.md](docs/changes/singapore-promotion-map/verification.md) for measured results, screenshots, remaining scope and production gates.
+`npm test` covers the direct-source, source-research, and NLP unit suites without hosted model calls. `npm run test:corpus` separately checks the retained parser/MVP corpus; `npm run research:monitor:test` is the focused source-monitoring check. Do not use `research:promotion-nlp` for ordinary verification: it is an experiment runner, not an offline test command. Source-monitoring operation and seals are documented in [the runbook](docs/changes/persistent-source-discovery-service/runbook.md); starting its continuous process is a separate action.
+
+See [the checkpoint verification](docs/changes/shareable-progress-checkpoint/verification.md) for the current audit and check results, including local environment limitations and the historical generated-reference preservation assertion. The [original MVP verification](docs/changes/singapore-promotion-map/verification.md) retains its measured results, screenshots, remaining scope and production gates.
 
 ## Boundaries before a real launch
 
@@ -131,8 +216,8 @@ Runs a collection immediately, then at hourly intervals without overlapping exec
 
 ## Curator workflow
 
-1. Sign in at `/admin`; import an approved JSON export or run live collection from the CLI.
-2. Open a review candidate and check the original post. Suggestions are not verified facts.
+1. Sign in at `/admin`; the combined inbox distinguishes direct-source candidates from retained Telegram candidates. Use the separate direct-source CLI above, an approved legacy JSON export, or live Telegram collection to create candidates.
+2. Open a review candidate and check its official source or original Telegram post. Suggestions are not verified facts.
 3. Fill the merchant, benefit, full terms, dates, schedule and participating branches. Record branch evidence and exact coordinates; OneMap token configuration remains optional and unavailable locally.
 4. Confirm the verification checkbox, give an audit reason, then approve. Dismiss articles or non-offers with a reason.
 5. Set `DEMO_MODE=false` and restart to serve approved database offers. The database map stays empty until a valid ongoing offer is approved. Fictional fixtures are never copied into the live database.
@@ -151,17 +236,19 @@ npm run test:restore
 These commands are fixed to the local Docker database. The load check creates/removes a temporary database with 10,000 synthetic offers and 20,000 outlets, then measures 100 service-query requests at 10 per second (not full HTTP latency). The restore drill backs up the local **app schema only** in memory, restores it into a temporary database, compares counts and source hashes, then removes that temporary database. It never overwrites the working database. Neither command establishes hosted availability or recovery guarantees.
 
 ## Real-data display
-The local app now runs with `DEMO_MODE=false`, as requested. Unverified imported posts remain in the curator inbox and cannot appear as real offers. Demo fixtures are retained only for automated tests and explicit demo mode.
+Local setup defaults to `DEMO_MODE=false`. Unverified imported posts remain in the curator inbox and cannot appear as real offers. Demo fixtures are retained only for automated tests and explicit demo mode.
 
-## Deterministic promotion resolution
+## Legacy Telegram/raw promotion resolution
 
-Raw source ingestion now runs `src/ingestion/resolution/pipeline.ts` before candidate persistence. Date/scope parsing, participation, directory enumeration, place enrichment and eligibility are separate services. Complete verified results use the existing transactional publication/reconciliation path. Incomplete results retain `resolutionAudit` in candidate data for the existing review endpoint; clearly excluded results retain their audit with status `excluded`.
+This section describes the retained Telegram/public-preview path. The separate official direct-source path is documented in [docs/architecture.md](docs/architecture.md) and implemented in [src/ingestion/direct-sources/](src/ingestion/direct-sources/); its trusted-directory participation rules do not use Google discovery as fallback authority.
+
+Legacy raw source ingestion runs `src/ingestion/resolution/pipeline.ts` before candidate persistence. Date/scope parsing, participation, directory enumeration, place enrichment and eligibility are separate services. Complete verified results use the existing transactional publication/reconciliation path. Incomplete results retain `resolutionAudit` in candidate data for the existing review endpoint; clearly excluded results retain their audit with status `excluded`.
 
 The first official directory adapter is [Genki Sushi Singapore](https://www.genkisushi.com.sg/locate-us/). Merchants without an adapter now fall back to Google Places: explicitly named branches can resolve and pass eligibility; merchant-wide searches retain discovered branches but cannot alone establish complete chain coverage. `GOOGLE_PLACES_API_KEY` enables Google Places (New) identity/address enrichment. OneMap exact postal-code lookup is the fallback (`ONEMAP_TOKEN` when required). Credentials stay server-side. Lookup failures never authorize partial publication. Google and OneMap coordinates are conservatively labelled building-level.
 
 Directory snapshots, source pages, branch queries, Google results and OneMap responses use bounded one-hour process caches with request coalescing, timestamps, URLs and source hashes. Restarting a process discards the cache and causes fresh verification. Stable physical-address/coordinate UUIDs reuse branch identity across promotions; changed locations receive different IDs, with the existing database identity guard retained.
 
-Unknown expiry, ambiguous date/term ownership, unsupported participation, inaccessible linked/media terms and complex schedules stay in review. Outlet research can still proceed independently of unresolved terms. An optional injected LLM extractor accepts only Zod-validated source excerpts; it cannot certify facts or approve candidates. No model provider is enabled by default.
+Unknown expiry, ambiguous date/term ownership, unsupported participation, inaccessible linked/media terms and complex schedules stay in review. Outlet research can still proceed independently of unresolved terms. Historical/experimental LLM extraction under [src/ingestion/promotion-nlp/](src/ingestion/promotion-nlp/) is research-only. The completed [oracle-ablation decision](docs/changes/promotion-nlp-oracle-ablation/decision.md) is `STOP_AUTONOMOUS_EXTRACTION`; LLM output is not a supported publication fallback.
 
 Parser upgrades preserve revisions containing already reviewed/published/excluded raw candidates; they do not recreate those offers under new section keys. Existing pending raw candidates can be reprocessed by the new parser version during the next ordinary ingestion run. This does not alter collection checkpoints to apply review decisions, and `review-decisions.json` remains unsupported as an import format.
 
@@ -171,4 +258,4 @@ Design, acceptance criteria and verification: [deterministic pipeline change](do
 
 Set the server-only `GOOGLE_PLACES_API_KEY` in `.env.local` and restart the app/ingestion process. The default pipeline uses Google Text Search for merchants without directory adapters. Named branch queries include the merchant, location and unit; only unique operating Singapore matches pass. API-provided coordinates are reused, with distinct source participation and Google existence/location evidence. OneMap remains available for enriching directory-backed branches. Google errors or missing credentials are recorded explicitly in the candidate audit.
 
-Search follows up to three result pages, deduplicates place IDs and caches results for one hour. Exhausting search results does not prove complete merchant enumeration. Selected-outlet offers still require the participation list before Google lookup. Parser version v5 makes pending unreviewed source revisions eligible for the new processing path on the next ingestion run; completed raw revisions remain protected. No live Google lookup has been verified in this workspace because the key is absent.
+Search follows up to three result pages, deduplicates place IDs and caches results for one hour. Exhausting search results does not prove complete merchant enumeration. Selected-outlet offers still require the participation list before Google lookup. Parser version v5 makes pending unreviewed source revisions eligible for the new processing path on the next ingestion run; completed raw revisions remain protected. The historical legacy-pipeline verification did not establish live Google lookup; captured/mock tests do not establish current provider availability.

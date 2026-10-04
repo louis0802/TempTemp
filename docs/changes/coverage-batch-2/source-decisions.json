@@ -1,0 +1,620 @@
+{
+  "version": 1,
+  "captures": [
+    {
+      "file": "tests/fixtures/coverage-batch-2/4fingers/social-2/c42798ae973373bd89c1ae6460b5bd5d05fc2465a46138bb5f617180b733db71.html",
+      "sha256": "c42798ae973373bd89c1ae6460b5bd5d05fc2465a46138bb5f617180b733db71"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/4fingers/web-2/e5ad4aafed92193d51d8cd04daa8a7c0e1e68b24950d70341f15f207c397c9f3.html",
+      "sha256": "e5ad4aafed92193d51d8cd04daa8a7c0e1e68b24950d70341f15f207c397c9f3"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/4fingers/web-4/47ac77f54b7348d8cfc65b80f41cd21c5488b49c67e84565a16aebdbe0f3b650.html",
+      "sha256": "47ac77f54b7348d8cfc65b80f41cd21c5488b49c67e84565a16aebdbe0f3b650"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/baribaristeak/details-1/097778673c44362321b42227eba1d9c53dfaad79e0f834b2517567d08a655249.html",
+      "sha256": "097778673c44362321b42227eba1d9c53dfaad79e0f834b2517567d08a655249"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/baribaristeak/details-1/4bcb6a6499426f9d69dca10894daf41ea29a43c0e645714115d1c6596156f54d.html",
+      "sha256": "4bcb6a6499426f9d69dca10894daf41ea29a43c0e645714115d1c6596156f54d"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/baribaristeak/details-1/cfbc6a505bc1159aa6731660ac52e83e9f898d65919ce05aa5a76eec0a5d1d8d.html",
+      "sha256": "cfbc6a505bc1159aa6731660ac52e83e9f898d65919ce05aa5a76eec0a5d1d8d"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/baribaristeak/details-1/d314f832ff5d18d0a055b8e817003024d4159b8c43bba1b463b2a6e040ea384d.html",
+      "sha256": "d314f832ff5d18d0a055b8e817003024d4159b8c43bba1b463b2a6e040ea384d"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/baribaristeak/details-1/f3ff5737e3b253f7d47bb2b9ce96b514a6f56d9093f9e0278fa855118d560480.html",
+      "sha256": "f3ff5737e3b253f7d47bb2b9ce96b514a6f56d9093f9e0278fa855118d560480"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/baribaristeak/social-1/1333510ba88ff6c2a335cc9ebde4d31dbd43ff81b66f734d674665b5a5dd54a0.html",
+      "sha256": "1333510ba88ff6c2a335cc9ebde4d31dbd43ff81b66f734d674665b5a5dd54a0"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/baribaristeak/social-1/5cf40ec5139d7ad83e9cf5ef0ba9243d870508a74651d9ce02996112ea18c4d4.html",
+      "sha256": "5cf40ec5139d7ad83e9cf5ef0ba9243d870508a74651d9ce02996112ea18c4d4"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/baribaristeak/social-1/bc8c8df9ac5ee6d31573e1a4dfff4e040f86733afc66759e3703f0605ea08b38.html",
+      "sha256": "bc8c8df9ac5ee6d31573e1a4dfff4e040f86733afc66759e3703f0605ea08b38"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/baribaristeak/social-1/d1b506418caa115d5ce6a391477d1ad9c0f6eb910f3a6a8b26920297d897d5df.html",
+      "sha256": "d1b506418caa115d5ce6a391477d1ad9c0f6eb910f3a6a8b26920297d897d5df"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/baribaristeak/web-2/79c87087e93cdfeeca487eca183a19329f268dfe357830af0e79e348bae8ac63.html",
+      "sha256": "79c87087e93cdfeeca487eca183a19329f268dfe357830af0e79e348bae8ac63"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/baribaristeak/web-2/d22a4cf20300796172cb0e7a062d28afec424dd6eb5e4ee03f8279491d91deba.html",
+      "sha256": "d22a4cf20300796172cb0e7a062d28afec424dd6eb5e4ee03f8279491d91deba"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/baribaristeak/web-3/3b4ba27215b0eb62b972b74d8d85aa8f4c4fab08008dfe6242f58828c4bbd0c4.html",
+      "sha256": "3b4ba27215b0eb62b972b74d8d85aa8f4c4fab08008dfe6242f58828c4bbd0c4"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/baribaristeak/web-3/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.html",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/baribaristeak/web-3/f9c13ab276bf44b6f229f66004f7b6e8d47e75b2255d2879149f6ca8ad1aab5b.html",
+      "sha256": "f9c13ab276bf44b6f229f66004f7b6e8d47e75b2255d2879149f6ca8ad1aab5b"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/baribaristeak/web-4/0fc412a5f25e4c8882c1edb632b8cdd7b28a693d0a29ab96c83046190b5ad259.html",
+      "sha256": "0fc412a5f25e4c8882c1edb632b8cdd7b28a693d0a29ab96c83046190b5ad259"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/captainkim/details-1/78b3eb3f344239173d26bc6df0730d64b2716d055b7bf14bb7cdc6aba50b42e5.html",
+      "sha256": "78b3eb3f344239173d26bc6df0730d64b2716d055b7bf14bb7cdc6aba50b42e5"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/captainkim/web-2/8b618ac5ee4da1c4aed92994bc4211cd7fd85eb47dd8658b7f590e15653640ef.html",
+      "sha256": "8b618ac5ee4da1c4aed92994bc4211cd7fd85eb47dd8658b7f590e15653640ef"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/captainkim/web-3/120959aa1afdd8b95bf2e8702eca6987a151423e90a2d5f189ed37fd900de10a.html",
+      "sha256": "120959aa1afdd8b95bf2e8702eca6987a151423e90a2d5f189ed37fd900de10a"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/captainkim/web-3/6e650be7043e1984a739e8c9abfe268c782b3267bc47a2c871b144778d6e81c6.html",
+      "sha256": "6e650be7043e1984a739e8c9abfe268c782b3267bc47a2c871b144778d6e81c6"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/captainkim/web-3/72684ad8295765a2e48a379c46a5293676a8e8193e48d00b2fbf8c6fcf8ec68b.html",
+      "sha256": "72684ad8295765a2e48a379c46a5293676a8e8193e48d00b2fbf8c6fcf8ec68b"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/captainkim/web-4/362618d80fb209d4ff0b00d25921c5bc47999768960c4a3ae67e54f0c97e879c.html",
+      "sha256": "362618d80fb209d4ff0b00d25921c5bc47999768960c4a3ae67e54f0c97e879c"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/captainkim/web-4/c828383ee36c3e60926d4c9e6fa93f1277eb1ecc8fa69e892367c662ff386c0b.html",
+      "sha256": "c828383ee36c3e60926d4c9e6fa93f1277eb1ecc8fa69e892367c662ff386c0b"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/gelare/social-1/664aad7a1e6a49b9198d5cc8bcc8f2d2c1cfc32cd2d14adca24d1fd9885c9584.html",
+      "sha256": "664aad7a1e6a49b9198d5cc8bcc8f2d2c1cfc32cd2d14adca24d1fd9885c9584"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/gelare/web-2/021a0465574a275cabfdb890ad4330f5d3a9610e82b6e6b65859df83eb428be6.html",
+      "sha256": "021a0465574a275cabfdb890ad4330f5d3a9610e82b6e6b65859df83eb428be6"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/gelare/web-2/58c4fd4a7dc4ccb4b22d6abf02312418422ce7a72e6f5b056c59eb7b45e01ba8.html",
+      "sha256": "58c4fd4a7dc4ccb4b22d6abf02312418422ce7a72e6f5b056c59eb7b45e01ba8"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/gelare/web-3/6eebb53518573136c6321ab1ad517341856f15e21eb175035c3155e258113bab.html",
+      "sha256": "6eebb53518573136c6321ab1ad517341856f15e21eb175035c3155e258113bab"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/gelare/web-3/abfa93a7edfe21f1234a8ac19a9cd13046725a1df4274e43574aa92715ec89ea.html",
+      "sha256": "abfa93a7edfe21f1234a8ac19a9cd13046725a1df4274e43574aa92715ec89ea"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/keikaisendon/social-1/a21d6c9fe84f081050dbf1f5a2836195698f23e0abeaf512c224a01283a5a101.html",
+      "sha256": "a21d6c9fe84f081050dbf1f5a2836195698f23e0abeaf512c224a01283a5a101"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/keikaisendon/social-1/da472c095863a50465185024f1997f1bf85edb32402c401c16aa8ee79206e433.html",
+      "sha256": "da472c095863a50465185024f1997f1bf85edb32402c401c16aa8ee79206e433"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/keikaisendon/social-1/e376e6c59bb1777b5c50ad1ca78fe9d270649c98af2b022c6d5444d2e353e2c3.html",
+      "sha256": "e376e6c59bb1777b5c50ad1ca78fe9d270649c98af2b022c6d5444d2e353e2c3"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/keikaisendon/web-2/e1032fe612f65b385131f603ed0cb423ce28a4334c5f1f7c9fa97a336e6fc833.html",
+      "sha256": "e1032fe612f65b385131f603ed0cb423ce28a4334c5f1f7c9fa97a336e6fc833"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/keikaisendon/web-3/402c5b9f32b689bd5e7d210678ae1c36b3bfb52ec0f932a314f2bc69b42c1372.html",
+      "sha256": "402c5b9f32b689bd5e7d210678ae1c36b3bfb52ec0f932a314f2bc69b42c1372"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/keikaisendon/web-3/8f6c7a41af67ec7025fec41943a5cdd8c34940b6734456caa1d5d7a7eb82c5c5.html",
+      "sha256": "8f6c7a41af67ec7025fec41943a5cdd8c34940b6734456caa1d5d7a7eb82c5c5"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/kimpsonstable/social-1/831a973d97d6d3b11c35b8297a0df1a3b1d4bae221261a3972f42e9f85ef07d5.html",
+      "sha256": "831a973d97d6d3b11c35b8297a0df1a3b1d4bae221261a3972f42e9f85ef07d5"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/kimpsonstable/web-2/5ebe676dbeaa12f72cd25a91550900be753c44f61247237c5f34aa104ea3a023.html",
+      "sha256": "5ebe676dbeaa12f72cd25a91550900be753c44f61247237c5f34aa104ea3a023"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/kimpsonstable/web-2/b37392b1d7310db5181b1f41ef1c1547448892dcc0b4ac4ee6e8c8621c56c8d1.html",
+      "sha256": "b37392b1d7310db5181b1f41ef1c1547448892dcc0b4ac4ee6e8c8621c56c8d1"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/mcdonalds/social-1/6f679128edcf08ee10c55840bf03ba8432b0070b359f9a99ed202ca704e050e3.html",
+      "sha256": "6f679128edcf08ee10c55840bf03ba8432b0070b359f9a99ed202ca704e050e3"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/mcdonalds/social-1/a109165630e778eb62e139931f035477362c673052d5dd21e8254e76e2a8a24a.html",
+      "sha256": "a109165630e778eb62e139931f035477362c673052d5dd21e8254e76e2a8a24a"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/mcdonalds/social-1/d7d7a65d56ead1713179985ca74cfe4f6f9656c167441f8895cf3f1ff5941366.html",
+      "sha256": "d7d7a65d56ead1713179985ca74cfe4f6f9656c167441f8895cf3f1ff5941366"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/mcdonalds/web-2/11f7859b2408eca383a51a7372a7d63e1df9ddeec62e17c61f6ec61df5b6b646.html",
+      "sha256": "11f7859b2408eca383a51a7372a7d63e1df9ddeec62e17c61f6ec61df5b6b646"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/mcdonalds/web-3/19ac06173d7d29ae9b7277f205eb2e5dc432de50e355effe914ffea674b4d656.html",
+      "sha256": "19ac06173d7d29ae9b7277f205eb2e5dc432de50e355effe914ffea674b4d656"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/mcdonalds/web-3/1b43d32ad515bd9bc8cb45f72fcdc2f42d04778e0242cbb9e01f5a21bfb448cc.html",
+      "sha256": "1b43d32ad515bd9bc8cb45f72fcdc2f42d04778e0242cbb9e01f5a21bfb448cc"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/mcdonalds/web-3/60407a76d68cbda64864824f505940444dd6ed069988b8b67068c559c8e74e73.html",
+      "sha256": "60407a76d68cbda64864824f505940444dd6ed069988b8b67068c559c8e74e73"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/mcdonalds/web-3/a54044c7fbfa91d7cd4f4c7cbe39f0b7477bf80eda609ca219d23b94f990815a.html",
+      "sha256": "a54044c7fbfa91d7cd4f4c7cbe39f0b7477bf80eda609ca219d23b94f990815a"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/mcdonalds/web-3/fb51fc3b7a19219bb5ffecb12c0e4d2947d756ceea4a1f4c99bb082284cd5c43.html",
+      "sha256": "fb51fc3b7a19219bb5ffecb12c0e4d2947d756ceea4a1f4c99bb082284cd5c43"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/moreyogurt/web-2/174c87fc940258ec62aa20a47c433550d0bed353362a952661368a512b8d1865.html",
+      "sha256": "174c87fc940258ec62aa20a47c433550d0bed353362a952661368a512b8d1865"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/moreyogurt/web-2/53fe8424656c861835ab0a687dc5e58b66eff52b910869687db3acce0f829318.html",
+      "sha256": "53fe8424656c861835ab0a687dc5e58b66eff52b910869687db3acce0f829318"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/moreyogurt/web-3/3c29c364cdb8e142e0230eac40cc4ee42d431bca2070e8332e18dc140dad6ad7.html",
+      "sha256": "3c29c364cdb8e142e0230eac40cc4ee42d431bca2070e8332e18dc140dad6ad7"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/pizzahut/social-1/f462499a81700beab0d23b0b60a80156836dc0bb12051042d5e5679df88d09a3.html",
+      "sha256": "f462499a81700beab0d23b0b60a80156836dc0bb12051042d5e5679df88d09a3"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/pizzahut/web-2/567678567cb0b0995127c359ce8348522bdec59d5872ca45bfaa7e85dbc48ffa.html",
+      "sha256": "567678567cb0b0995127c359ce8348522bdec59d5872ca45bfaa7e85dbc48ffa"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/pizzahut/web-4/d0542ee2fdd7697614e285cb09fc0c960bfd6faf8740527c3bd80a7ecc735d1e.html",
+      "sha256": "d0542ee2fdd7697614e285cb09fc0c960bfd6faf8740527c3bd80a7ecc735d1e"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/pizzahut/web-5/567678567cb0b0995127c359ce8348522bdec59d5872ca45bfaa7e85dbc48ffa.html",
+      "sha256": "567678567cb0b0995127c359ce8348522bdec59d5872ca45bfaa7e85dbc48ffa"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/shiokburger/social-1/8da7dc7b15faf4b9bebc9de5445814cb96de35c0ad05092570f006df65b08f72.html",
+      "sha256": "8da7dc7b15faf4b9bebc9de5445814cb96de35c0ad05092570f006df65b08f72"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/shiokburger/web-2/cc634a597d17ddf5df37e00eb8eed0f1da9f4704aacfb43120add775d32f8f14.html",
+      "sha256": "cc634a597d17ddf5df37e00eb8eed0f1da9f4704aacfb43120add775d32f8f14"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/sushiro/social-1/5ecdbe8d83dfd14558d264833b37d675ade5fbe0b703ed86eb3b86bdddb05a2d.html",
+      "sha256": "5ecdbe8d83dfd14558d264833b37d675ade5fbe0b703ed86eb3b86bdddb05a2d"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/sushiro/social-1/c53962cf6ffab321fa51f3fbe22c7f46c667464fa94a9b1528c986c26a0357b3.html",
+      "sha256": "c53962cf6ffab321fa51f3fbe22c7f46c667464fa94a9b1528c986c26a0357b3"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/sushiro/web-2/a29f69c6bb4056fc8d5b542b510982e3f67bea9e3cdbc47aba6c4dfb9c46227e.html",
+      "sha256": "a29f69c6bb4056fc8d5b542b510982e3f67bea9e3cdbc47aba6c4dfb9c46227e"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/sushiro/web-2/d2a36725711a67a56fcd8b4e0900e35a1f069ed0bd69e1d23147cb2462c7201c.html",
+      "sha256": "d2a36725711a67a56fcd8b4e0900e35a1f069ed0bd69e1d23147cb2462c7201c"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/sushiro/web-3/6efacde0d6bf8f16f6cc01505b9cb643ea797bed376372cf5e274090edb2a1e4.html",
+      "sha256": "6efacde0d6bf8f16f6cc01505b9cb643ea797bed376372cf5e274090edb2a1e4"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/sushiro/web-3/7b7d5120c91d45284ce565f841fcbfab8c606e39fdc06e03a6b02fd526676733.html",
+      "sha256": "7b7d5120c91d45284ce565f841fcbfab8c606e39fdc06e03a6b02fd526676733"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/social-1/06ea06f1a7ea344e052faac1a481ca090bebb22762a47aa4703a2ec0648f6b56.html",
+      "sha256": "06ea06f1a7ea344e052faac1a481ca090bebb22762a47aa4703a2ec0648f6b56"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/social-1/5243f9859f567961da82945a0190ca0f371f42b189afc59d9ae4a9f659cec15c.html",
+      "sha256": "5243f9859f567961da82945a0190ca0f371f42b189afc59d9ae4a9f659cec15c"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/web-2/bd9425f9c29eeb5a55e744d7a630ff199259b301ef99dfe05aff22a87ba87a19.html",
+      "sha256": "bd9425f9c29eeb5a55e744d7a630ff199259b301ef99dfe05aff22a87ba87a19"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/web-3/79401a6e2e16b35007c275b055abd2c79127176daaa1f7023c54ca6b73d6ccd9.html",
+      "sha256": "79401a6e2e16b35007c275b055abd2c79127176daaa1f7023c54ca6b73d6ccd9"
+    },
+    {
+      "file": "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/web-3/da0075fbddc8601ecab2b93b1c76cbf8ca9c50431003f4205b034b25dd94e6ec.html",
+      "sha256": "da0075fbddc8601ecab2b93b1c76cbf8ca9c50431003f4205b034b25dd94e6ec"
+    }
+  ],
+  "merchants": [
+    {
+      "merchant": "Kimpson's Table",
+      "operator": null,
+      "ownership": "verified",
+      "urls": [
+        "https://kimpsontable.cococart.co/"
+      ],
+      "family": "headless_static_catalogue",
+      "enumeration": "not_enumerable",
+      "extraction": "catalogue_only",
+      "adapter_source_id": null,
+      "activation": "blocked",
+      "blockers": [
+        "storefront_closed",
+        "promotion_directory_absent",
+        "current_venue_account_ownership_unverified"
+      ],
+      "evidence_refs": [
+        "tests/fixtures/coverage-batch-2/kimpsonstable/social-1/831a973d97d6d3b11c35b8297a0df1a3b1d4bae221261a3972f42e9f85ef07d5.html",
+        "tests/fixtures/coverage-batch-2/kimpsonstable/web-2/5ebe676dbeaa12f72cd25a91550900be753c44f61247237c5f34aa104ea3a023.html",
+        "tests/fixtures/coverage-batch-2/kimpsonstable/web-2/b37392b1d7310db5181b1f41ef1c1547448892dcc0b4ac4ee6e8c8621c56c8d1.html"
+      ]
+    },
+    {
+      "merchant": "More Yogurt",
+      "operator": "Shanghai BUOY Catering Management Co., Ltd (global brand only; Singapore operator unverified)",
+      "ownership": "probable",
+      "urls": [
+        "https://www.more-yogurt.com/index/about",
+        "https://www.more-yogurt.com/index/news"
+      ],
+      "family": "corporate_html_promotion_directory",
+      "enumeration": "not_established",
+      "extraction": "not_assessed",
+      "adapter_source_id": null,
+      "activation": "blocked",
+      "blockers": [
+        "singapore_operator_and_domain_unverified",
+        "global_news_not_singapore_campaign_authority",
+        "singapore_outlet_directory_unavailable"
+      ],
+      "evidence_refs": [
+        "tests/fixtures/coverage-batch-2/moreyogurt/web-2/174c87fc940258ec62aa20a47c433550d0bed353362a952661368a512b8d1865.html",
+        "tests/fixtures/coverage-batch-2/moreyogurt/web-2/53fe8424656c861835ab0a687dc5e58b66eff52b910869687db3acce0f829318.html",
+        "tests/fixtures/coverage-batch-2/moreyogurt/web-3/3c29c364cdb8e142e0230eac40cc4ee42d431bca2070e8332e18dc140dad6ad7.html"
+      ]
+    },
+    {
+      "merchant": "Shiok Burger",
+      "operator": null,
+      "ownership": "verified",
+      "urls": [
+        "https://www.shiokburger.com/"
+      ],
+      "family": "unknown",
+      "enumeration": "not_enumerable",
+      "extraction": "menu_and_corporate_news_only",
+      "adapter_source_id": null,
+      "activation": "blocked",
+      "blockers": [
+        "promotion_directory_absent",
+        "official_outlet_directory_unavailable"
+      ],
+      "evidence_refs": [
+        "tests/fixtures/coverage-batch-2/shiokburger/social-1/8da7dc7b15faf4b9bebc9de5445814cb96de35c0ad05092570f006df65b08f72.html",
+        "tests/fixtures/coverage-batch-2/shiokburger/web-2/cc634a597d17ddf5df37e00eb8eed0f1da9f4704aacfb43120add775d32f8f14.html"
+      ]
+    },
+    {
+      "merchant": "Gelare",
+      "operator": "Gelare Singapore (local legal operator unverified)",
+      "ownership": "verified",
+      "urls": [
+        "https://www.gelare.com.sg/",
+        "https://www.gelare.com.sg/contact-us/",
+        "https://www.gelare.com.sg/our-story/",
+        "https://www.gelare.com.sg/promotions/"
+      ],
+      "family": "wordpress_promotion_directory",
+      "enumeration": "gallery_visible",
+      "extraction": "image_only",
+      "adapter_source_id": null,
+      "activation": "blocked",
+      "blockers": [
+        "image_only_campaign_facts",
+        "opaque_gallery_titles",
+        "safe_textual_acquisition_unavailable"
+      ],
+      "evidence_refs": [
+        "tests/fixtures/coverage-batch-2/gelare/social-1/664aad7a1e6a49b9198d5cc8bcc8f2d2c1cfc32cd2d14adca24d1fd9885c9584.html",
+        "tests/fixtures/coverage-batch-2/gelare/web-2/021a0465574a275cabfdb890ad4330f5d3a9610e82b6e6b65859df83eb428be6.html",
+        "tests/fixtures/coverage-batch-2/gelare/web-2/58c4fd4a7dc4ccb4b22d6abf02312418422ce7a72e6f5b056c59eb7b45e01ba8.html",
+        "tests/fixtures/coverage-batch-2/gelare/web-3/6eebb53518573136c6321ab1ad517341856f15e21eb175035c3155e258113bab.html",
+        "tests/fixtures/coverage-batch-2/gelare/web-3/abfa93a7edfe21f1234a8ac19a9cd13046725a1df4274e43574aa92715ec89ea.html"
+      ]
+    },
+    {
+      "merchant": "4Fingers",
+      "operator": "4Fingers Pte. Ltd.",
+      "ownership": "verified",
+      "urls": [
+        "https://order.4fingers.com.sg/corp/my_profile",
+        "https://www.4fingers.com.sg/",
+        "https://www.4fingers.com.sg/promotions"
+      ],
+      "family": "corporate_html_promotion_directory",
+      "enumeration": "not_enumerable",
+      "extraction": "public_js_shell",
+      "adapter_source_id": null,
+      "activation": "blocked",
+      "blockers": [
+        "public_promotion_html_js_shell",
+        "no_public_bounded_enumeration"
+      ],
+      "evidence_refs": [
+        "tests/fixtures/coverage-batch-2/4fingers/social-2/c42798ae973373bd89c1ae6460b5bd5d05fc2465a46138bb5f617180b733db71.html",
+        "tests/fixtures/coverage-batch-2/4fingers/web-2/e5ad4aafed92193d51d8cd04daa8a7c0e1e68b24950d70341f15f207c397c9f3.html",
+        "tests/fixtures/coverage-batch-2/4fingers/web-4/47ac77f54b7348d8cfc65b80f41cd21c5488b49c67e84565a16aebdbe0f3b650.html"
+      ]
+    },
+    {
+      "merchant": "Captain Kim",
+      "operator": "Kingdom Food Holding Pte Ltd",
+      "ownership": "verified",
+      "urls": [
+        "https://kingdomfood.sg/captain-kim-butchery/",
+        "https://kingdomfood.sg/captain-kim-delivery/",
+        "https://kingdomfood.sg/captain-kim-korean-bbq-hotpot-tamp-j10/",
+        "https://kingdomfood.sg/captain-kim-korean-bbq-hotpot/",
+        "https://kingdomfood.sg/promotions/",
+        "https://kingdomfood.sg/terms-of-use-privacy-policy/"
+      ],
+      "family": "merchant_campaign_page",
+      "enumeration": "partial",
+      "extraction": "partial",
+      "adapter_source_id": "captain_kim_sg",
+      "activation": "shadow",
+      "blockers": [
+        "captain_campaigns_outside_central_index",
+        "image_text_equivalence_unproven",
+        "venue_page_scope_requires_review"
+      ],
+      "evidence_refs": [
+        "tests/fixtures/coverage-batch-2/captainkim/details-1/78b3eb3f344239173d26bc6df0730d64b2716d055b7bf14bb7cdc6aba50b42e5.html",
+        "tests/fixtures/coverage-batch-2/captainkim/web-2/8b618ac5ee4da1c4aed92994bc4211cd7fd85eb47dd8658b7f590e15653640ef.html",
+        "tests/fixtures/coverage-batch-2/captainkim/web-3/120959aa1afdd8b95bf2e8702eca6987a151423e90a2d5f189ed37fd900de10a.html",
+        "tests/fixtures/coverage-batch-2/captainkim/web-3/6e650be7043e1984a739e8c9abfe268c782b3267bc47a2c871b144778d6e81c6.html",
+        "tests/fixtures/coverage-batch-2/captainkim/web-3/72684ad8295765a2e48a379c46a5293676a8e8193e48d00b2fbf8c6fcf8ec68b.html",
+        "tests/fixtures/coverage-batch-2/captainkim/web-4/362618d80fb209d4ff0b00d25921c5bc47999768960c4a3ae67e54f0c97e879c.html",
+        "tests/fixtures/coverage-batch-2/captainkim/web-4/c828383ee36c3e60926d4c9e6fa93f1277eb1ecc8fa69e892367c662ff386c0b.html"
+      ]
+    },
+    {
+      "merchant": "Pizza Hut",
+      "operator": "Pizza Hut Singapore Pte Ltd (official indexed policy; captured page is JS shell)",
+      "ownership": "probable",
+      "urls": [
+        "https://www.pizzahut.com.sg/",
+        "https://www.pizzahut.com.sg/find-a-hut",
+        "https://www.pizzahut.com.sg/hot-deals",
+        "https://www.pizzahut.com.sg/privacy"
+      ],
+      "family": "corporate_html_promotion_directory",
+      "enumeration": "not_enumerable",
+      "extraction": "public_js_shell",
+      "adapter_source_id": null,
+      "activation": "blocked",
+      "blockers": [
+        "public_promotion_html_js_shell",
+        "location_dependent_commerce_unresolved",
+        "exact_social_ownership_backlink_unavailable"
+      ],
+      "evidence_refs": [
+        "tests/fixtures/coverage-batch-2/pizzahut/social-1/f462499a81700beab0d23b0b60a80156836dc0bb12051042d5e5679df88d09a3.html",
+        "tests/fixtures/coverage-batch-2/pizzahut/web-2/567678567cb0b0995127c359ce8348522bdec59d5872ca45bfaa7e85dbc48ffa.html",
+        "tests/fixtures/coverage-batch-2/pizzahut/web-4/d0542ee2fdd7697614e285cb09fc0c960bfd6faf8740527c3bd80a7ecc735d1e.html",
+        "tests/fixtures/coverage-batch-2/pizzahut/web-5/567678567cb0b0995127c359ce8348522bdec59d5872ca45bfaa7e85dbc48ffa.html"
+      ]
+    },
+    {
+      "merchant": "Kei Kaisendon",
+      "operator": "Kei Kaisendon (legal entity not declared in captured terms)",
+      "ownership": "verified",
+      "urls": [
+        "https://www.keikaisendon.com/",
+        "https://www.keikaisendon.com/find-us/",
+        "https://www.keikaisendon.com/terms-conditions/"
+      ],
+      "family": "wordpress_promotion_directory",
+      "enumeration": "not_enumerable",
+      "extraction": "cached_social_widget",
+      "adapter_source_id": null,
+      "activation": "blocked",
+      "blockers": [
+        "cached_social_widget_not_authoritative_feed",
+        "promotion_directory_absent"
+      ],
+      "evidence_refs": [
+        "tests/fixtures/coverage-batch-2/keikaisendon/social-1/a21d6c9fe84f081050dbf1f5a2836195698f23e0abeaf512c224a01283a5a101.html",
+        "tests/fixtures/coverage-batch-2/keikaisendon/social-1/da472c095863a50465185024f1997f1bf85edb32402c401c16aa8ee79206e433.html",
+        "tests/fixtures/coverage-batch-2/keikaisendon/social-1/e376e6c59bb1777b5c50ad1ca78fe9d270649c98af2b022c6d5444d2e353e2c3.html",
+        "tests/fixtures/coverage-batch-2/keikaisendon/web-2/e1032fe612f65b385131f603ed0cb423ce28a4334c5f1f7c9fa97a336e6fc833.html",
+        "tests/fixtures/coverage-batch-2/keikaisendon/web-3/402c5b9f32b689bd5e7d210678ae1c36b3bfb52ec0f932a314f2bc69b42c1372.html",
+        "tests/fixtures/coverage-batch-2/keikaisendon/web-3/8f6c7a41af67ec7025fec41943a5cdd8c34940b6734456caa1d5d7a7eb82c5c5.html"
+      ]
+    },
+    {
+      "merchant": "McDonald's",
+      "operator": "McDonald's Singapore (captured website controller; local legal entity unverified)",
+      "ownership": "verified",
+      "urls": [
+        "https://www.mcdonalds.com.sg/",
+        "https://www.mcdonalds.com.sg/McSaver",
+        "https://www.mcdonalds.com.sg/bfmcsaver",
+        "https://www.mcdonalds.com.sg/locate-us",
+        "https://www.mcdonalds.com.sg/news-and-updates",
+        "https://www.mcdonalds.com.sg/website-terms"
+      ],
+      "family": "corporate_html_promotion_directory",
+      "enumeration": "partial",
+      "extraction": "partial",
+      "adapter_source_id": "mcdonalds_sg",
+      "activation": "shadow",
+      "blockers": [
+        "mcd_news_load_more_unresolved",
+        "mcd_campaigns_outside_news_directory",
+        "multiple_propositions_require_review",
+        "official_outlet_directory_app_only"
+      ],
+      "evidence_refs": [
+        "tests/fixtures/coverage-batch-2/mcdonalds/social-1/6f679128edcf08ee10c55840bf03ba8432b0070b359f9a99ed202ca704e050e3.html",
+        "tests/fixtures/coverage-batch-2/mcdonalds/social-1/a109165630e778eb62e139931f035477362c673052d5dd21e8254e76e2a8a24a.html",
+        "tests/fixtures/coverage-batch-2/mcdonalds/social-1/d7d7a65d56ead1713179985ca74cfe4f6f9656c167441f8895cf3f1ff5941366.html",
+        "tests/fixtures/coverage-batch-2/mcdonalds/web-2/11f7859b2408eca383a51a7372a7d63e1df9ddeec62e17c61f6ec61df5b6b646.html",
+        "tests/fixtures/coverage-batch-2/mcdonalds/web-3/19ac06173d7d29ae9b7277f205eb2e5dc432de50e355effe914ffea674b4d656.html",
+        "tests/fixtures/coverage-batch-2/mcdonalds/web-3/1b43d32ad515bd9bc8cb45f72fcdc2f42d04778e0242cbb9e01f5a21bfb448cc.html",
+        "tests/fixtures/coverage-batch-2/mcdonalds/web-3/60407a76d68cbda64864824f505940444dd6ed069988b8b67068c559c8e74e73.html",
+        "tests/fixtures/coverage-batch-2/mcdonalds/web-3/a54044c7fbfa91d7cd4f4c7cbe39f0b7477bf80eda609ca219d23b94f990815a.html",
+        "tests/fixtures/coverage-batch-2/mcdonalds/web-3/fb51fc3b7a19219bb5ffecb12c0e4d2947d756ceea4a1f4c99bb082284cd5c43.html"
+      ]
+    },
+    {
+      "merchant": "Sushiro",
+      "operator": "SUSHIRO GH SINGAPORE PTE. LTD.",
+      "ownership": "verified",
+      "urls": [
+        "https://www.sushiro.com.sg/2026/09/23/to-the-moon-and-back/",
+        "https://www.sushiro.com.sg/contact-location/",
+        "https://www.sushiro.com.sg/privacy-policy/",
+        "https://www.sushiro.com.sg/promo/"
+      ],
+      "family": "wordpress_promotion_directory",
+      "enumeration": "partial",
+      "extraction": "partial",
+      "adapter_source_id": "sushiro_sg",
+      "activation": "shadow",
+      "blockers": [
+        "sushiro_directory_boundary_unproven",
+        "validity_year_unstated",
+        "outlet_participation_unstated"
+      ],
+      "evidence_refs": [
+        "tests/fixtures/coverage-batch-2/sushiro/social-1/5ecdbe8d83dfd14558d264833b37d675ade5fbe0b703ed86eb3b86bdddb05a2d.html",
+        "tests/fixtures/coverage-batch-2/sushiro/social-1/c53962cf6ffab321fa51f3fbe22c7f46c667464fa94a9b1528c986c26a0357b3.html",
+        "tests/fixtures/coverage-batch-2/sushiro/web-2/a29f69c6bb4056fc8d5b542b510982e3f67bea9e3cdbc47aba6c4dfb9c46227e.html",
+        "tests/fixtures/coverage-batch-2/sushiro/web-2/d2a36725711a67a56fcd8b4e0900e35a1f069ed0bd69e1d23147cb2462c7201c.html",
+        "tests/fixtures/coverage-batch-2/sushiro/web-3/6efacde0d6bf8f16f6cc01505b9cb643ea797bed376372cf5e274090edb2a1e4.html",
+        "tests/fixtures/coverage-batch-2/sushiro/web-3/7b7d5120c91d45284ce565f841fcbfab8c606e39fdc06e03a6b02fd526676733.html"
+      ]
+    },
+    {
+      "merchant": "Bari Bari Steak",
+      "operator": "EN Group",
+      "ownership": "verified",
+      "urls": [
+        "https://baribaristeak.com.sg/",
+        "https://baribaristeak.com.sg/2026/02/10/1-for-1-highball-beers-sake-cocktails-and-house-pours/",
+        "https://baribaristeak.com.sg/2026/06/24/beat-the-crowd-save-15/",
+        "https://baribaristeak.com.sg/2026/06/25/senior-special-enjoy-20-off-your-total-bill/",
+        "https://baribaristeak.com.sg/2026/08/27/enjoy-23-off-free-flow-salad-bar-at-bari-bari-steak/",
+        "https://baribaristeak.com.sg/2026/09/23/weekday-lunch-specials-tampines-1-exclusive/",
+        "https://baribaristeak.com.sg/locations/",
+        "https://baribaristeak.com.sg/promotions/",
+        "https://engroup.com.sg/"
+      ],
+      "family": "wordpress_promotion_directory",
+      "enumeration": "partial",
+      "extraction": "partial",
+      "adapter_source_id": "bari_bari_steak_sg",
+      "activation": "shadow",
+      "blockers": [
+        "bari_grid_continuation_unproven",
+        "campaign_validity_unspecified",
+        "detail_campaign_body_unassociated",
+        "outlet_time_groups_require_review"
+      ],
+      "evidence_refs": [
+        "tests/fixtures/coverage-batch-2/baribaristeak/details-1/097778673c44362321b42227eba1d9c53dfaad79e0f834b2517567d08a655249.html",
+        "tests/fixtures/coverage-batch-2/baribaristeak/details-1/4bcb6a6499426f9d69dca10894daf41ea29a43c0e645714115d1c6596156f54d.html",
+        "tests/fixtures/coverage-batch-2/baribaristeak/details-1/cfbc6a505bc1159aa6731660ac52e83e9f898d65919ce05aa5a76eec0a5d1d8d.html",
+        "tests/fixtures/coverage-batch-2/baribaristeak/details-1/d314f832ff5d18d0a055b8e817003024d4159b8c43bba1b463b2a6e040ea384d.html",
+        "tests/fixtures/coverage-batch-2/baribaristeak/details-1/f3ff5737e3b253f7d47bb2b9ce96b514a6f56d9093f9e0278fa855118d560480.html",
+        "tests/fixtures/coverage-batch-2/baribaristeak/social-1/1333510ba88ff6c2a335cc9ebde4d31dbd43ff81b66f734d674665b5a5dd54a0.html",
+        "tests/fixtures/coverage-batch-2/baribaristeak/social-1/5cf40ec5139d7ad83e9cf5ef0ba9243d870508a74651d9ce02996112ea18c4d4.html",
+        "tests/fixtures/coverage-batch-2/baribaristeak/social-1/bc8c8df9ac5ee6d31573e1a4dfff4e040f86733afc66759e3703f0605ea08b38.html",
+        "tests/fixtures/coverage-batch-2/baribaristeak/social-1/d1b506418caa115d5ce6a391477d1ad9c0f6eb910f3a6a8b26920297d897d5df.html",
+        "tests/fixtures/coverage-batch-2/baribaristeak/web-2/79c87087e93cdfeeca487eca183a19329f268dfe357830af0e79e348bae8ac63.html",
+        "tests/fixtures/coverage-batch-2/baribaristeak/web-2/d22a4cf20300796172cb0e7a062d28afec424dd6eb5e4ee03f8279491d91deba.html",
+        "tests/fixtures/coverage-batch-2/baribaristeak/web-3/3b4ba27215b0eb62b972b74d8d85aa8f4c4fab08008dfe6242f58828c4bbd0c4.html",
+        "tests/fixtures/coverage-batch-2/baribaristeak/web-3/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.html",
+        "tests/fixtures/coverage-batch-2/baribaristeak/web-3/f9c13ab276bf44b6f229f66004f7b6e8d47e75b2255d2879149f6ca8ad1aab5b.html",
+        "tests/fixtures/coverage-batch-2/baribaristeak/web-4/0fc412a5f25e4c8882c1edb632b8cdd7b28a693d0a29ab96c83046190b5ad259.html"
+      ]
+    },
+    {
+      "merchant": "The Coffee Bean & Tea Leaf",
+      "operator": "The Coffee Bean & Tea Leaf Pte Ltd",
+      "ownership": "verified",
+      "urls": [
+        "https://www.coffeebean.com.sg/",
+        "https://www.coffeebean.com.sg/amlocator",
+        "https://www.coffeebean.com.sg/terms-and-conditions"
+      ],
+      "family": "corporate_html_promotion_directory",
+      "enumeration": "not_enumerable",
+      "extraction": "commerce_and_social_home",
+      "adapter_source_id": null,
+      "activation": "blocked",
+      "blockers": [
+        "promotion_directory_absent",
+        "commerce_catalogue_not_campaigns",
+        "app_voucher_validity_not_public"
+      ],
+      "evidence_refs": [
+        "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/social-1/06ea06f1a7ea344e052faac1a481ca090bebb22762a47aa4703a2ec0648f6b56.html",
+        "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/social-1/5243f9859f567961da82945a0190ca0f371f42b189afc59d9ae4a9f659cec15c.html",
+        "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/web-2/bd9425f9c29eeb5a55e744d7a630ff199259b301ef99dfe05aff22a87ba87a19.html",
+        "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/web-3/79401a6e2e16b35007c275b055abd2c79127176daaa1f7023c54ca6b73d6ccd9.html",
+        "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/web-3/da0075fbddc8601ecab2b93b1c76cbf8ca9c50431003f4205b034b25dd94e6ec.html"
+      ]
+    }
+  ]
+}

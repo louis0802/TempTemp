@@ -1,0 +1,46 @@
+{
+  "focused": {
+    "passed": 242,
+    "files": 9
+  },
+  "unit": {
+    "passed": 726,
+    "files": 39
+  },
+  "integration": {
+    "passed": 53,
+    "files": 2,
+    "database": "disposable hard-coded local PostgreSQL/PostGIS"
+  },
+  "corpus": {
+    "passed": 4,
+    "files": 3,
+    "sources": 136,
+    "offers": 181,
+    "failed": 0
+  },
+  "typecheck": "passed",
+  "build": "passed; pre-existing src/server/mvp.ts filesystem tracing warning",
+  "fullLint": "five existing errors in ignored .local/source-substitution-pilot scripts",
+  "scopedLint": "passed",
+  "format": "passed",
+  "diff": "passed",
+  "processor": "direct-source-v2",
+  "newEnabled": [],
+  "shadow": [
+    "fairprice_sg",
+    "kris_plus_sg",
+    "dian_xiao_er_sg"
+  ],
+  "blockedWithoutAdapter": [
+    "cs_foods_sg"
+  ],
+  "sourceDiscoveryService": "3665 pre-existing files preserved",
+  "priorDirectFixtureFiles": "131 preserved",
+  "nextEnv": "original user bytes preserved",
+  "productionSharedDBOperations": 0,
+  "schedulerWorkerStarts": 0,
+  "freshTelegramCollection": 0,
+  "commits": 0,
+  "pushes": 0
+}

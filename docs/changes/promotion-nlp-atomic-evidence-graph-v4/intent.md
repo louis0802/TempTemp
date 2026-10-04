@@ -1,0 +1,4 @@
+# Intent
+Implement and evaluate a research-only atomic evidence graph on the same 49 reviewed captures. V3's proposition bundles hide discovery, grouping, classification and completeness failures. V4 makes immutable clauses, anchors, edges, eligibility and normalization separately observable.
+Success is a reproducible sealed five-stage experiment with stage-specific and end-to-end evidence. A2 requires zero critical semantic safety failures, materially better source economic identity recall than V3's 28/43, and no routine omission of publication-critical constraints. An unsuccessful architecture is a valid research result, never grounds to relax the gate.
+Constraints: no production integration, adapter/gate/schema/persistence/activation changes, acquisition, Telegram recollection, OCR, hosted APIs, commit or push. Preserve all preexisting bytes and prior seals. No B/C/D authorization.

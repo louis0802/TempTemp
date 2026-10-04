@@ -1,0 +1,10 @@
+{
+  "status": "verified",
+  "operator_as_written": "Shake Shack Singapore Jewel Ptd Ltd",
+  "evidence_url": "https://www.shakeshack.com.sg/wp-content/uploads/2024/12/SS-Data-Protection-Notice-for-Customers.pdf",
+  "evidence_file": "legal.pdf",
+  "sha256": "7f04e47a2b5712c3267ae4611ec8196a16455bdec50afe9df1028027fa88dee3",
+  "basis": "Official customer data-protection notice explicitly names the Singapore legal operator in its opening declaration and operating-store clauses. Independent legal declaration, not hostname, branding, Telegram or search-engine attribution. Preserve source spelling Ptd; not a corporate-register attestation.",
+  "prior_audit_status": "probable",
+  "review": "docs/changes/shake-shack-direct-source/research.md"
+}

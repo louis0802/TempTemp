@@ -1,0 +1,7 @@
+# Frozen methodology
+
+O0 and sealed V4 ceilings precede all 249 possible calls. A/B/C/D independently measure conditional quality GIVEN perfect reviewed upstream input; E measures Stage 2 conditional on deterministic source spans. These do not estimate a real end-to-end pipeline or authorize A2. Fixed targets are in spec.md. Exactly one fresh GPT-6 Luna / medium / no-fork agent per task; maximum four active. No retries, fallback, repeated samples, judge agents, tools or source acquisition. Mechanical tool denial and effective backend model identity are unavailable through the subagent API; only requested configuration and observed behavior are auditable.
+
+Benchmark wording is reviewed benchmark oracle. It is not exhaustive semantic truth. Equivalence and denominators must be fixed before execution. Missing/malformed/infrastructure outputs remain denominator failures. Source-supported unannotated facts receive separate parent source review, not automatic invented-fact labels. Parent review is not independent or human review.
+
+Primary sealed-V4 ceilings use the existing source-reviewed equivalents and condition traces as explicitly optimistic bounds. Stricter new literal matcher ceilings are retained separately. Minimum-annotation proposition precision/merges/splits are diagnostics; source-supported extra subdivisions require separate source review and are not automatically false.

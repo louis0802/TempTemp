@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Promotion, promotionSchema } from "@/domain/promotion";
 export function draftPromotion(
   value: Partial<Promotion>,
-  source?: { url: string; label: string },
+  source?: Promotion["sources"][number],
 ): Promotion {
   const defaults: Promotion = {
     id: crypto.randomUUID(),
@@ -372,10 +372,14 @@ export default function PromotionForm({
         <legend>Source references</legend>
         {p.sources.map((s, i) => (
           <label key={i}>
-            Source post {i + 1}
+            {"kind" in s && s.kind === "direct"
+              ? "Official source"
+              : "Source post"}{" "}
+            {i + 1}
             <input
               type="url"
               value={s.url}
+              readOnly={"kind" in s && s.kind === "direct"}
               onChange={(e) =>
                 field(
                   "sources",

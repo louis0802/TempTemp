@@ -1,0 +1,128 @@
+{
+  "scope": "only new research implementation/tests/documentation; preexisting1872 substantive files byte-identical",
+  "files": [
+    {
+      "path": "docs/changes/promotion-nlp-oracle-ablation/arm-a-propositions.md",
+      "sha256": "bcee426fccac81c01b8aaf0f366d5e0d34d35fbc369a7ca62b12a776bc5bcab3"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-oracle-ablation/arm-b-edges.md",
+      "sha256": "ab3e44e92019bc894315a3e22f66f3b80c8ec9a7fd49fc852a14345ad7ba97b8"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-oracle-ablation/arm-c-taxonomy.md",
+      "sha256": "c3b5c9f5be4133c550514c82a59e3ae45bdad7f8a4443d172f2d27fd59113970"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-oracle-ablation/arm-d-normalization.md",
+      "sha256": "06158faedd491758c804d7e188eb9a86fa18c31d452b205132d1f4cbf78c32be"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-oracle-ablation/arm-e-deterministic.md",
+      "sha256": "00b7bdaf05f63286f15e0da5536077efc2aef4e7d4e56846c5f951031032cf30"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-oracle-ablation/counterfactual-ceilings.md",
+      "sha256": "a7c25aef29446d10d694fe2afb9a47036e7fccf61f598ba17070fd9445ca17e9"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-oracle-ablation/decision.md",
+      "sha256": "4bdf617f3b1ef5d628cd3d18013ab83585c336af99e61fccb96c8fb5a22a27f3"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-oracle-ablation/design.md",
+      "sha256": "f467299ac678f72f6a218a78044c0e2540ed7d0568dbd13cc7362a8ec78e5173"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-oracle-ablation/deterministic-span-contract.md",
+      "sha256": "7351c6a012c807055fba227c2b63be14166ef1c426dc2bea26a94294900247e0"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-oracle-ablation/intent.md",
+      "sha256": "5893957e8ebfac1576bb87c90750f813d6c654ff6c5f429c9c9fb89c16782eb6"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-oracle-ablation/methodology.md",
+      "sha256": "26140bb72c6e78ebc5b055f7a128203e7f8e71671c629e614edb3a970587534c"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-oracle-ablation/oracle-contract.md",
+      "sha256": "a7f5cb639044ba85f4c5fea111ecb90f113ead55be54f01d032840b80e7dd31e"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-oracle-ablation/plan.md",
+      "sha256": "9685243cc5d6df0692a3baa57e79c393f636cf5c7a86777c020d00cbd0e3abdc"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-oracle-ablation/results.json",
+      "sha256": "f36e38a4350cdd1181d30dd7e59d65ff4072ed09001c6e0cad1341e2dbc119e6"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-oracle-ablation/scorer-contract.md",
+      "sha256": "154a68c9428d90f0cd1ad652a8f122d10010fbac01f7b3c61722cdd4ba1c26eb"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-oracle-ablation/source-review.json",
+      "sha256": "3e5f178d147a39036c7f7ea1912d6ac84a32fe6ca14eac5cc3d1a7cd6b25508a"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-oracle-ablation/spec.md",
+      "sha256": "90fbd57bcf8feaf55533103c7389bb60f9dd02c1046f5aa135ddf4905769e9c1"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-oracle-ablation/verification-logs/format.log",
+      "sha256": "17aa973d3f004560237d9a95171210b0671deff23d61628eecf7322ff5938f20"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-oracle-ablation/verification-logs/lint.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-oracle-ablation/verification-logs/nlp.log",
+      "sha256": "49776578aa6cc4e93f047362557ff5e46e0051a99c2de34f3ca46597e406e4ed"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-oracle-ablation/verification-logs/typecheck.log",
+      "sha256": "bb6cf1af469533c12d32b4541993c85256514650f7bca62551dfaaf80c179e64"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-oracle-ablation/verification-logs/unit.log",
+      "sha256": "a9808143c215ae5a6d2e3ee2f393e226f5fe77260bf31b57e45d2b544f973341"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-oracle-ablation/verification-results.json",
+      "sha256": "a0ff93f2a4edb27384bd3e2f1b47583257ec67fa2eed0af035493af6df53ded4"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-oracle-ablation/verification.md",
+      "sha256": "24e2c66c481edfffe42768463f41975c4b59a5d508a8352866c54af1ec7a6c20"
+    },
+    {
+      "path": "scripts/research/promotion-nlp-oracle-ablation.ts",
+      "sha256": "dbb60facb7e2cb93816e788312ecf8741e67da5facee48b9c3e6d87e67ca4efa"
+    },
+    {
+      "path": "src/ingestion/promotion-nlp/deterministic-spans.ts",
+      "sha256": "aa91b31773e65dc1892f370e7353eadd1494dde9766f588c56e48c3a0df0b3a7"
+    },
+    {
+      "path": "src/ingestion/promotion-nlp/oracle-ablation.ts",
+      "sha256": "d9a8168cd22a70e44b20847407f1d841311780fafc203d9064d9dc6e58496b57"
+    },
+    {
+      "path": "tests/promotion-nlp-deterministic-spans.test.ts",
+      "sha256": "8a32159bb8ec4aba8bc199b243452e811c1c301c15fbb31c890cb2ff893312d0"
+    },
+    {
+      "path": "tests/promotion-nlp-oracle-ablation.test.ts",
+      "sha256": "b6c6b9c6d9a729c4aff2cbcb2d335dd3e5782acaeacca6de3b255d516f290fe5"
+    }
+  ],
+  "self": "changed-files.json excluded from self-hash",
+  "runArtifacts": "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/promotion-nlp-oracle-ablation/2026-10-04T05-18-15-735Z-15c90400-7932-4942-a8e8-65d1e9fbf341",
+  "postSealReportHelper": {
+    "path": "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/promotion-nlp-oracle-ablation/2026-10-04T05-18-15-735Z-15c90400-7932-4942-a8e8-65d1e9fbf341/post-seal-report.py",
+    "sha256": "b851b7b893381b57eab487e35c8954071acaa519312b771f64fc1924be20802a",
+    "timing": "separate derived post-seal reporting; no frozen scorer or model inputs changed"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-01T18:38:09.550Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://www.instagram.com/ajummasg/",
+      "url": "https://www.instagram.com/ajummasg/",
+      "status": 200,
+      "content_type": "text/html; charset=\"utf-8\"",
+      "redirect_to": null,
+      "file": "90d7caba73192f6110a81440b4f85c409071a0087fa7eb5ef01d7a7002519855.html",
+      "sha256": "90d7caba73192f6110a81440b4f85c409071a0087fa7eb5ef01d7a7002519855",
+      "bytes": 740291,
+      "error": null
+    },
+    {
+      "requested_url": "https://www.instagram.com/p/DDJfz9bynW-/",
+      "url": "https://www.instagram.com/p/DDJfz9bynW-/",
+      "status": 200,
+      "content_type": "text/html; charset=\"utf-8\"",
+      "redirect_to": null,
+      "file": "d4e6906d14df0c893690ee09be1ee02cf95b4ee3d8e23c04754e8f6c945d824d.html",
+      "sha256": "d4e6906d14df0c893690ee09be1ee02cf95b4ee3d8e23c04754e8f6c945d824d",
+      "bytes": 834474,
+      "error": null
+    },
+    {
+      "requested_url": "https://www.instagram.com/p/Dc-kxPJzx9B/",
+      "url": "https://www.instagram.com/p/Dc-kxPJzx9B/",
+      "status": 200,
+      "content_type": "text/html; charset=\"utf-8\"",
+      "redirect_to": null,
+      "file": "9b7ee95414c063b60f90a74e69d1a51d62010e45a4899a11bfa1ae1a507f593e.html",
+      "sha256": "9b7ee95414c063b60f90a74e69d1a51d62010e45a4899a11bfa1ae1a507f593e",
+      "bytes": 856495,
+      "error": null
+    },
+    {
+      "requested_url": "https://www.instagram.com/p/DdQA3EChsjx/",
+      "url": "https://www.instagram.com/p/DdQA3EChsjx/",
+      "status": 200,
+      "content_type": "text/html; charset=\"utf-8\"",
+      "redirect_to": null,
+      "file": "b8a9c64ae12fb643690c7ecacd692261fd58db662185d4824c3cbce299e76b52.html",
+      "sha256": "b8a9c64ae12fb643690c7ecacd692261fd58db662185d4824c3cbce299e76b52",
+      "bytes": 890109,
+      "error": null
+    },
+    {
+      "requested_url": "https://www.instagram.com/p/DdfecQUjNZ5/",
+      "url": "https://www.instagram.com/p/DdfecQUjNZ5/",
+      "status": 200,
+      "content_type": "text/html; charset=\"utf-8\"",
+      "redirect_to": null,
+      "file": "0c33cbeaee16d0b976cad3c4c955c6c1e64c3310a467378aa228e4235189cbbd.html",
+      "sha256": "0c33cbeaee16d0b976cad3c4c955c6c1e64c3310a467378aa228e4235189cbbd",
+      "bytes": 937869,
+      "error": null
+    },
+    {
+      "requested_url": "https://www.instagram.com/shinrai.sg/",
+      "url": "https://www.instagram.com/shinrai.sg/",
+      "status": 200,
+      "content_type": "text/html; charset=\"utf-8\"",
+      "redirect_to": null,
+      "file": "c59c9667ca91bf1278e488919ee635d60260d8734ced9b9bf24fa6027273d467.html",
+      "sha256": "c59c9667ca91bf1278e488919ee635d60260d8734ced9b9bf24fa6027273d467",
+      "bytes": 842087,
+      "error": null
+    },
+    {
+      "requested_url": "https://www.instagram.com/sinpopobrand/",
+      "url": "https://www.instagram.com/sinpopobrand/",
+      "status": 200,
+      "content_type": "text/html; charset=\"utf-8\"",
+      "redirect_to": null,
+      "file": "e7ba16a236a178f3edc66abf2252ddea31c780a702915e01604662da358bb1c8.html",
+      "sha256": "e7ba16a236a178f3edc66abf2252ddea31c780a702915e01604662da358bb1c8",
+      "bytes": 849314,
+      "error": null
+    },
+    {
+      "requested_url": "https://www.instagram.com/starbuckssg/",
+      "url": "https://www.instagram.com/starbuckssg/",
+      "status": 200,
+      "content_type": "text/html; charset=\"utf-8\"",
+      "redirect_to": null,
+      "file": "38cad557cb4de87b6ab263f12da3a3bd18c1a242d8e550b8820035cc2c878322.html",
+      "sha256": "38cad557cb4de87b6ab263f12da3a3bd18c1a242d8e550b8820035cc2c878322",
+      "bytes": 878501,
+      "error": null
+    }
+  ]
+}

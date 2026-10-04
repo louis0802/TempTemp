@@ -1,0 +1,61 @@
+{
+  "sourceCases": 49,
+  "captureFiles": 41,
+  "frozenFiles": 16,
+  "runProtectedFileCount": 1358,
+  "initialSubstantiveFilesVerified": 1406,
+  "generatedCacheException": "tsconfig.tsbuildinfo (required typecheck output)",
+  "distinctExperimentalAgents": 228,
+  "requestedModel": "gpt-6-luna",
+  "requestedReasoning": "medium",
+  "forkContext": false,
+  "concurrency": 4,
+  "backendEffectiveModelIdentity": "unavailable; no backend identity claim",
+  "toolIsolation": "prompt-enforced; mechanical denial parameter unavailable",
+  "rawResponsesPersistedBeforeParse": true,
+  "rawQuoteDuplicateExtraNodes": 18,
+  "nonSourceRawNodes": 1,
+  "sourceEnvelopesPreserved": true,
+  "productionChanges": false,
+  "activationChanges": false,
+  "directSourceV2Changes": false,
+  "dbOperation": false,
+  "freshAcquisition": false,
+  "telegramRecollection": false,
+  "ocrMediaAnalysis": false,
+  "hostedProviderModelApiCall": false,
+  "commit": false,
+  "push": false,
+  "seals": {
+    "1": "7e218bb365b99e077cd362765651bfb23c2bdd0b07f5c782f42e7ab94a114f3b",
+    "2": "cad1c9156a27295ac9f811c2712c59cc1e2a38cb10fffe9a42d77636da68ccdb",
+    "3": "4fb9a227fb4a99ce22da85eb22af4c67605654c3df9c2f4d5341d9d37502c172",
+    "4": "f2cddc0e5b54e488cf088fd4ab1fbc061281d095a784ea888cda171bac60d8ef",
+    "5": "2a69b4df356a80680d2eb6968f41e3cbdb78a1584075610802f976b41103b624"
+  },
+  "priorSeals": [
+    {
+      "file": ".local/promotion-nlp-subagent/2026-10-02T12-38-23-377Z-ebde54a7-5856-4b50-8752-395c50bb7cfe/raw-results.json",
+      "sha256": "786ba7d8566ed9d0bd2b11d390c95a58bc9056e033ba4e1c8f0c7170f340181a"
+    },
+    {
+      "file": ".local/promotion-nlp-subagent-v2/2026-10-03T07-01-35-641Z-258f1bbf-b09c-443b-b714-5d7492cc98f8/raw-results.json",
+      "sha256": "f5a7a70afd38085ba1c615833ee913432d452e376726c7bc35e39e0e730b248a"
+    },
+    {
+      "file": ".local/promotion-nlp-subagent-v3/2026-10-03T09-56-16-103Z-8c53a050-3330-4cee-87ec-f4bfc68cc3d7/segmentation-raw-results.json",
+      "sha256": "ae4320c80a46b4c2135934abdb8e976ab3f30c685dda4f02fa7eb29470e73b37"
+    },
+    {
+      "file": ".local/promotion-nlp-subagent-v3/2026-10-03T09-56-16-103Z-8c53a050-3330-4cee-87ec-f4bfc68cc3d7/extraction-raw-results.json",
+      "sha256": "a24a8f92bbf7971832d87b1a13dbb3bd9b331076143396724de6f4af7443d153"
+    }
+  ],
+  "agentLifecycleAfterClosure": {
+    "checked": 228,
+    "closed": 228,
+    "statusCounts": {
+      "not_found": 228
+    }
+  }
+}

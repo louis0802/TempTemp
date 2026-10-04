@@ -1,0 +1,60 @@
+{
+  "outputs": [
+    ".local/merchant-source-map/shake-activation-final-a",
+    ".local/merchant-source-map/shake-activation-final-b"
+  ],
+  "byte_identical": true,
+  "sha256": {
+    "merchants.json": "e8e5bdc96acfc337c828a35c7b69844e5bd1713d1eefb72e488a817406811ea9",
+    "report.md": "2ca96b80e994d1d736dbbc212d3cb7e6f3809542be6347c8729cd797226d4912",
+    "report.csv": "1ca4ed54d11bf98a7a0dd303940848dcaf7d0d25c88350907f44f263461e9b9d"
+  },
+  "summary": {
+    "merchant_count": 139,
+    "distinct_adapter_counts": {
+      "enabled": 2,
+      "shadow": 1
+    },
+    "historical_merchant_count": 138,
+    "adapter_status_counts": {
+      "enabled": 2,
+      "none": 135,
+      "shadow": 2
+    },
+    "autonomous_status_counts": {
+      "disabled_shadow": 2,
+      "enabled": 2,
+      "not_onboarded": 135
+    },
+    "source_family_counts": {
+      "app_deeplink_only": 1,
+      "app_deeplink_with_public_directory": 1,
+      "corporate_html_promotion_directory": 1,
+      "json_backed_retail_promotions": 1,
+      "platform_static_campaign": 1,
+      "wix_promotion_collection": 1,
+      "woocommerce_sale_catalog": 1,
+      "wordpress_dated_promotions": 1,
+      "wordpress_promotion_directory": 3
+    },
+    "unresolved_record_count": 67
+  },
+  "frozen_inputs": [
+    {
+      "file": "tests/corpus/mvp-conformance-reviewed.json",
+      "sha256": "680ce13809180fb76715253ceafefb73ba4f53eb88a394d44ed0e6e887918986"
+    },
+    {
+      "file": ".local/source-origin-audit/2026-09-30-social-corrected-offline/signals.json",
+      "sha256": "43ecab993bc5b6640e56c385d9b2a2b13e8f29ae51a94cf0a7eadcef76e08d87"
+    },
+    {
+      "file": ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json",
+      "sha256": "7db66e5cebf01e304905b0899dee26761eddd4c367b3e83ac28f5d32b3c86b05"
+    },
+    {
+      "file": "docs/research/merchant-source-map-review.json",
+      "sha256": "0ad4ad7269e90f92548a1dec7ade62a26ea31c56ea07c734f9e1680d8e3151d1"
+    }
+  ]
+}

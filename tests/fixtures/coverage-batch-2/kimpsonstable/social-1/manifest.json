@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T04:01:37.530Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://www.instagram.com/kimpsonstable/",
+      "url": "https://www.instagram.com/kimpsonstable/",
+      "status": 200,
+      "content_type": "text/html; charset=\"utf-8\"",
+      "redirect_to": null,
+      "file": "831a973d97d6d3b11c35b8297a0df1a3b1d4bae221261a3972f42e9f85ef07d5.html",
+      "sha256": "831a973d97d6d3b11c35b8297a0df1a3b1d4bae221261a3972f42e9f85ef07d5",
+      "bytes": 636782,
+      "error": null
+    }
+  ]
+}

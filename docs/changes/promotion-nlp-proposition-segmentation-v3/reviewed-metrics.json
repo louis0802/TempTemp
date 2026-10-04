@@ -1,0 +1,118 @@
+{
+  "reviewer": "parent source review; no judge agents or independent/human approval claimed",
+  "runId": "2026-10-03T09-56-16-103Z-8c53a050-3330-4cee-87ec-f4bfc68cc3d7",
+  "segmentationSeal": "ae4320c80a46b4c2135934abdb8e976ab3f30c685dda4f02fa7eb29470e73b37",
+  "extractionSeal": "a24a8f92bbf7971832d87b1a13dbb3bd9b331076143396724de6f4af7443d153",
+  "annotationSha256": "fcd2cddd9d8327499d1ab12cd4bb306ba77c4c4ef02e6254ea9b2f43edb8e46a",
+  "sourceCases": 49,
+  "segmentationUsable": 47,
+  "extractionUsable": 68,
+  "stage1Metrics": {
+    "expected": 58,
+    "reviewedPresent": 53,
+    "recall": 0.9137931034482759,
+    "unexpectedRelativeToMinimalGold": 27,
+    "mergedPropositionCases": 2,
+    "harmfulSplitCases": 1,
+    "ambiguousOperationalAttachments": 1,
+    "requiredSupportingClausesMissed": 8,
+    "crossPropositionAttachmentCases": 2,
+    "independentlyCompleteScopedPropositions": 47,
+    "note": "Presence recall includes members of risky merges; does not claim independent completeness. 26 harmless editorial subdivisions and one student-deals fragment remain as extra units."
+  },
+  "stage2Classification": {
+    "allGeneratedUnits": 78,
+    "inputConditionedExpectedPromotions": 39,
+    "truePositiveUnits": 30,
+    "emittedPromotions": 31,
+    "precision": 0.967741935483871,
+    "recall": 0.7692307692307693,
+    "expectedNonPromotions": 38,
+    "correctNonPromotions": 35,
+    "nonPromotionCorrectness": 0.9210526315789473,
+    "uncertainRate": 0.02564102564102564,
+    "usableRecall": 0.967741935483871,
+    "usableNonPromotionCorrectness": 0.9722222222222222,
+    "note": "Local classifier expected labels follow the actual sealed input. Student product unit lacks the split-off economic deal; source-level recall retains the missed original economic proposition."
+  },
+  "sourceLevelRecovery": {
+    "expectedEconomicPropositions": 43,
+    "identityClassificationRecovered": 28,
+    "missed": 15,
+    "recall": 0.6511627906976745,
+    "falseEconomicPromotions": 1,
+    "note": "28 = frozen 26 plus equivalent $uper and Mother bundle boundaries. Bari merged groups not independently correctly represented. This measures identity/classification recovery, not complete safe facts or restriction coverage."
+  },
+  "reviewedSafety": {
+    "survivingCrossPropositionLeakageCases": 1,
+    "crossPropositionLeakageCaseIds": [
+      "bari_bari_steak_sg-promotions-2"
+    ],
+    "inventedLiteralDates": 0,
+    "invalidEconomicPromotionValidityFields": 2,
+    "invalidEconomicPromotionValidityCaseIds": [
+      "mcdonalds_sg-bfmcsaver"
+    ],
+    "rawUncertainActivityValidityFields": 1,
+    "inventedNumericTimeBoundaries": 0,
+    "wrongTimeGroupAssociationCases": 1,
+    "unrelatedAvailabilityWeekdays": 0,
+    "participationPolarityReversals": 0,
+    "inventedParticipatingPhysicalIdentities": 0,
+    "locationRuleDomainErrors": 2,
+    "unstatedYearInferences": 0,
+    "constraintTextContainmentFailuresRaw": 3,
+    "constraintTextContainmentFailuresAccepted": 0,
+    "constraintAttributeErrorsRaw": 7,
+    "constraintAttributeErrorsAccepted": 6,
+    "materialConstraintMeaningChangesAtLeast": 3,
+    "benefitQualifierLossCases": 1,
+    "benefitQualifierLossCaseIds": [
+      "pepper_lunch_sg-uper-value-deal"
+    ],
+    "missingMaterialRestrictionClausesRaw": 9,
+    "missingMaterialRestrictionClausesAccepted": 12,
+    "missingMaterialRestrictionCases": 9
+  },
+  "comparisonCategoryCounts": {
+    "mixed": 8,
+    "improved": 13,
+    "regressed": 14,
+    "similar": 14
+  },
+  "limitations": [
+    "68 parseable extraction outputs; ten unrepaired extraction failures and two rejected source segmentations are unknown, never safety successes.",
+    "Frozen source-anchor scorer undercounts equivalent boundaries and misses the Bari supporting-group merge; automated counts remain unchanged.",
+    "V2 corpus/source-level one-output metrics differ from V3 per-unit metrics; retain all49 source denominator and43 original reviewed economic propositions for end-to-end recall.",
+    "Generic collective location labels without all/selected prefix survive thin domain filter; no frozen code edited after launch.",
+    "Constraint gold inherited whole-clause roles and heuristic conversions create overly narrow allowed attributes; every emitted condition reviewed under unchanged composable definitions.",
+    "Parent had to author/review annotations before freezing; blind tasks and runtime preparation/generation never interpreted V3 gold; scoring only after both seals."
+  ],
+  "sourceCaseClassification": {
+    "promotionSourcesDetected": 29,
+    "expectedPromotionSources": 39,
+    "sourcePresenceRecall": 0.7435897435897436,
+    "sourcePresencePrecision": 1,
+    "completeNonPromotionSourcesCorrect": 5,
+    "expectedNonPromotionSources": 8,
+    "partialNonPromotionSourcesCorrect": 7,
+    "note": "Presence metrics collapse all units and hide the false contest and Bari group leakage. Complete controls require every generated unit usable; partial requires at least one correct unit and no false promotion."
+  },
+  "fieldMetrics": {
+    "automaticFrozenMatchedTargets": {
+      "dates": 34,
+      "weekdays": 36,
+      "timeConstraints": 35
+    },
+    "automaticCountsLimit": "Central-anchor matched subset only; not all78/all68 semantic correctness totals. See every-unit raw/accepted field audit.",
+    "acceptedDateFields": 22,
+    "dateFieldsWithCorrectEconomicValidityRole": 20,
+    "dateFieldsWithWrongEconomicValidityRole": 2,
+    "inventedCalendarValues": 0,
+    "weekdayAssociationErrors": 0,
+    "timeGroupAssociationErrors": 1,
+    "duplicateEquivalentTimeRangeCases": 1,
+    "benefitFieldsRejected": 3,
+    "note": "Conservative omissions reported as coverage, not date/time invention. Duplicate Bari Dinner ranges count as one supported semantic window."
+  }
+}

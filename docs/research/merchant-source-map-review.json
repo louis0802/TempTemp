@@ -1,0 +1,202 @@
+{
+  "version": 1,
+  "signal_identities": {
+    "10937de2b54be746d95225239f036bc6933bd5a1c7f86dae523664ebd057b91e": {
+      "merchant": "CS Foods",
+      "operator": "CS Foods",
+      "original_hint": "Beef Rendang Ready to Heat (https",
+      "basis": "Explicit source/entity identity reviewed from captured direct-source audit; hints are discovery only, not campaign authority. Shared parent never collapses brands.",
+      "evidence_refs": [
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#10937de2b54be746d95225239f036bc6933bd5a1c7f86dae523664ebd057b91e",
+        "https://csfoods.sg/shop/ready-to-eat/ready-dishes/rendang-beef-ready-to-eat/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+      ]
+    },
+    "2a4063e80e10ac9ce4445b388400e72b2a080fae9113b9427faf7739aecdad29": {
+      "merchant": "CS Foods",
+      "operator": "CS Foods",
+      "original_hint": "Umami Beef Striploin Steak (https",
+      "basis": "Explicit source/entity identity reviewed from captured direct-source audit; hints are discovery only, not campaign authority. Shared parent never collapses brands.",
+      "evidence_refs": [
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#2a4063e80e10ac9ce4445b388400e72b2a080fae9113b9427faf7739aecdad29",
+        "https://csfoods.sg/unbeatable-halal-meat-sale/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+      ]
+    },
+    "2c4a2a34b21c820e8c6fd1d1bdae8cd968f8982fc73f9519c08dbf2e51fb483d": {
+      "merchant": "Gourmet Carousel",
+      "operator": "Royal Plaza on Scotts",
+      "original_hint": "Gourmet Carousel (https",
+      "basis": "Explicit source/entity identity reviewed from captured direct-source audit; hints are discovery only, not campaign authority. Shared parent never collapses brands.",
+      "evidence_refs": [
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#2c4a2a34b21c820e8c6fd1d1bdae8cd968f8982fc73f9519c08dbf2e51fb483d",
+        "https://www.royalplaza.com.sg/dine/barista?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+      ]
+    },
+    "2df55031cdf4f9736301792cc91a158f48300f605f3e9e3460d66136d3a994f3": {
+      "merchant": "Grab",
+      "operator": "Grab",
+      "original_hint": "",
+      "basis": "Explicit source/entity identity reviewed from captured direct-source audit; hints are discovery only, not campaign authority. Shared parent never collapses brands.",
+      "evidence_refs": [
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#2df55031cdf4f9736301792cc91a158f48300f605f3e9e3460d66136d3a994f3",
+        "https://www.grab.com/sg/full-house-mission/?af_force_deeplink=true&af_ad=ESGJalanBesar-SGFoodDeals&c=SG_NA_PAX_GF_AW-CONV_LOC__DineOut_NA_ESGJalanBesar-SGFoodDeals&pid=telegram-organic&is_retargeting=true&deep_link_value=grab%3A%2F%2Fopen%3FscreenType%3DSANDBOX%26sandboxDeepLinkUrl%3Dpages%2FDPG-9134db80-a1bc-11f1-a14f-7765dba32ff2%26sourceID%3Dtele_organic%26sourceCampaignName%3DESG-JB&af_sub5=social-paid&af_dp=grab%3A%2F%2Fopen%3FscreenType%3DSANDBOX%26sandboxDeepLinkUrl%3Dpages%2FDPG-9134db80-a1bc-11f1-a14f-7765dba32ff2%26sourceID%3Dtele_organic%26sourceCampaignName%3DESG-JB"
+      ]
+    },
+    "2efd4077f412c100b3c53f36108b1f76ae4414542cf199da2c66e18361e1cc43": {
+      "merchant": "CS Foods",
+      "operator": "CS Foods",
+      "original_hint": "Japanese Black Pepper Beef (https",
+      "basis": "Explicit source/entity identity reviewed from captured direct-source audit; hints are discovery only, not campaign authority. Shared parent never collapses brands.",
+      "evidence_refs": [
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#2efd4077f412c100b3c53f36108b1f76ae4414542cf199da2c66e18361e1cc43",
+        "https://csfoods.sg/shop/beef/marinated-beef/cubes/japanese-black-pepper-beef-cubes/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+      ]
+    },
+    "3ae71fadb4236f1db491ab41637e4debcb004bd9be0a0dc6f40080abecc6e121": {
+      "merchant": "Shake Shack",
+      "operator": "Happy Point Singapore",
+      "original_hint": "Shake Shack",
+      "basis": "Explicit source/entity identity reviewed from captured direct-source audit; hints are discovery only, not campaign authority. Shared parent never collapses brands.",
+      "evidence_refs": [
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#3ae71fadb4236f1db491ab41637e4debcb004bd9be0a0dc6f40080abecc6e121",
+        "https://app.happypointcard.com.sg/?utm_source=telegram&utm_medium=TS"
+      ]
+    },
+    "4774ad76672db2bcb5a529e2e934ace34e4d95dc8f65a0ce90b61f52e2c431ed": {
+      "merchant": "CS Foods",
+      "operator": "CS Foods",
+      "original_hint": "Freezepak Chicken Nuggets (https",
+      "basis": "Explicit source/entity identity reviewed from captured direct-source audit; hints are discovery only, not campaign authority. Shared parent never collapses brands.",
+      "evidence_refs": [
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#4774ad76672db2bcb5a529e2e934ace34e4d95dc8f65a0ce90b61f52e2c431ed",
+        "https://csfoods.sg/shop/finger-food/meat/freezepak-chicken-nuggets/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+      ]
+    },
+    "4dce528cfc515671956bd8bd1447632a43c0faa5b30c42740c71992ed1fa4600": {
+      "merchant": "Paradise Hotpot",
+      "operator": "Paradise Group Holdings Pte. Ltd.",
+      "original_hint": "Paradise Hotpot",
+      "basis": "Explicit source/entity identity reviewed from captured direct-source audit; hints are discovery only, not campaign authority. Shared parent never collapses brands.",
+      "evidence_refs": [
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#4dce528cfc515671956bd8bd1447632a43c0faa5b30c42740c71992ed1fa4600",
+        "https://www.paradisegp.com/wp-content/uploads/Paradise-Hotpot-Menu_-Aug-2025.pdf?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+      ]
+    },
+    "5779b409051cab6a235b851e1c643a18d1a1777235416d9944c0bb8e903dde1c": {
+      "merchant": "FairPrice",
+      "operator": "FairPrice Group",
+      "original_hint": "",
+      "basis": "Explicit source/entity identity reviewed from captured direct-source audit; hints are discovery only, not campaign authority. Shared parent never collapses brands.",
+      "evidence_refs": [
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#5779b409051cab6a235b851e1c643a18d1a1777235416d9944c0bb8e903dde1c",
+        "https://www.fairprice.com.sg/product/13137742?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+      ]
+    },
+    "68e5dff33f05ba3fb2caf4489a3e924142ddd1c0dc131094800fb2209afcff14": {
+      "merchant": "Pepper Lunch",
+      "operator": "Hot Palette (Asia Pacific) Pte. Ltd.",
+      "original_hint": "Pepper Lunch Value Deal (https",
+      "basis": "Explicit source/entity identity reviewed from captured direct-source audit; hints are discovery only, not campaign authority. Shared parent never collapses brands.",
+      "evidence_refs": [
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#68e5dff33f05ba3fb2caf4489a3e924142ddd1c0dc131094800fb2209afcff14",
+        "https://www.pepperlunch.com.sg/promo/uper-value-deal/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+      ]
+    },
+    "7cdb34f2922a8a3ac98828bacbe5f806c395e162031a9653e62efda0000b52a1": {
+      "merchant": "Grab",
+      "operator": "Grab",
+      "original_hint": "",
+      "basis": "Explicit source/entity identity reviewed from captured direct-source audit; hints are discovery only, not campaign authority. Shared parent never collapses brands.",
+      "evidence_refs": [
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#7cdb34f2922a8a3ac98828bacbe5f806c395e162031a9653e62efda0000b52a1",
+        "https://www.grab.com/sg/grab-salebration/?pid=EDM&c=SG_NA_PAX_GF_AW-CONV_LOC__MegaSale-GF_NA_MegaSale-GF&is_retargeting=true&af_dp=grab%3A%2F%2Fopen%3FscreenType%3DGRABFOOD%26campaignLandingID%3D17424%26headerColor%3D0B54A8%26headerSize%3Dmedium&af_force_deeplink=true&af_sub5=edm&af_ad=MegaSale-GF"
+      ]
+    },
+    "8cad723f00816887317bab173ce6855cd7f15c2b0a7fbb69845b9331e69ab11f": {
+      "merchant": "Shake Shack",
+      "operator": "Shake Shack Singapore",
+      "original_hint": "Shake Shack",
+      "basis": "Explicit source/entity identity reviewed from captured direct-source audit; hints are discovery only, not campaign authority. Shared parent never collapses brands.",
+      "evidence_refs": [
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#8cad723f00816887317bab173ce6855cd7f15c2b0a7fbb69845b9331e69ab11f",
+        "https://www.shakeshack.com.sg/national-cheeseburger-day/?utm_source=telegram&utm_medium=TS"
+      ]
+    },
+    "9e1694c30a20e0c67588124c25742de9893c2402806d2aa9e23877d4feb40e4f": {
+      "merchant": "Dian Xiao Er",
+      "operator": "Dian Xiao Er",
+      "original_hint": "Dian Xiao Er Solo Delight (https",
+      "basis": "Explicit source/entity identity reviewed from captured direct-source audit; hints are discovery only, not campaign authority. Shared parent never collapses brands.",
+      "evidence_refs": [
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#9e1694c30a20e0c67588124c25742de9893c2402806d2aa9e23877d4feb40e4f",
+        "https://www.dianxiaoer.com.sg/promo?lightbox=dataItem-msxym06a&utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+      ]
+    },
+    "b09cbebd554d9088b575c275670b64d7a8fede70423d9e31e58bcfba34bddfad": {
+      "merchant": "Kris+",
+      "operator": "Singapore Airlines",
+      "original_hint": "Kris+ Birthday Bash",
+      "basis": "Explicit source/entity identity reviewed from captured direct-source audit; hints are discovery only, not campaign authority. Shared parent never collapses brands.",
+      "evidence_refs": [
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#b09cbebd554d9088b575c275670b64d7a8fede70423d9e31e58bcfba34bddfad",
+        "https://app.krisplus.com/Oct26_SG_BBash_SGFD"
+      ]
+    },
+    "bc858af4cc66b3b32ad18abadb5f60158a947819655d5298f1aeb269c9e35262": {
+      "merchant": "CS Foods",
+      "operator": "CS Foods",
+      "original_hint": "McCain Shoestring Fries (https",
+      "basis": "Explicit source/entity identity reviewed from captured direct-source audit; hints are discovery only, not campaign authority. Shared parent never collapses brands.",
+      "evidence_refs": [
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#bc858af4cc66b3b32ad18abadb5f60158a947819655d5298f1aeb269c9e35262",
+        "https://csfoods.sg/shop/finger-food/potato/mccain-original-shoestring-6-6-mm-fries/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+      ]
+    },
+    "d1986fc908c9ec9e012b7a576587e2396b381c1843c6684a17845cbbcb6cc8f2": {
+      "merchant": "CS Foods",
+      "operator": "CS Foods",
+      "original_hint": "Teriyaki Marinated Chicken (https",
+      "basis": "Explicit source/entity identity reviewed from captured direct-source audit; hints are discovery only, not campaign authority. Shared parent never collapses brands.",
+      "evidence_refs": [
+        ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json#d1986fc908c9ec9e012b7a576587e2396b381c1843c6684a17845cbbcb6cc8f2",
+        "https://csfoods.sg/shop/poultry/marinated-chicken-poultry/thigh-marinated-chicken-poultry/teriyaki-chicken-thigh/?utm_source=telegram&utm_medium=sep2026&utm_campaign=sgfooddeals"
+      ]
+    }
+  },
+  "source_blockers": {
+    "pepper_lunch_sg": [],
+    "paradise_group_sg": [
+      "partial_enumeration",
+      "unresolved_load_more",
+      "oversized_evidence"
+    ],
+    "shake_shack_sg": [
+      "mixed_archive_classification_exceeds_default_detail_limit"
+    ]
+  },
+  "prior_audit": ".local/direct-source-audit/2026-09-30T14-13-48-529Z/audit.json",
+  "source_status": {
+    "pepper_lunch_sg": {
+      "enumeration": "yes",
+      "extraction": "partial",
+      "family": "wordpress_promotion_directory",
+      "evidence_refs": [
+        "docs/changes/autonomous-direct-source-ingestion/verification.md"
+      ]
+    },
+    "paradise_group_sg": {
+      "enumeration": "partial",
+      "extraction": "partial",
+      "family": "wordpress_promotion_directory",
+      "evidence_refs": [
+        "docs/changes/autonomous-direct-source-ingestion/verification.md"
+      ]
+    },
+    "shake_shack_sg": {
+      "enumeration": "partial",
+      "extraction": "partial",
+      "family": "wordpress_dated_promotions",
+      "evidence_refs": ["docs/changes/shake-shack-direct-source/research.md"]
+    }
+  },
+  "unresolved_labels": ["Dine out with Grab SALEbration"]
+}

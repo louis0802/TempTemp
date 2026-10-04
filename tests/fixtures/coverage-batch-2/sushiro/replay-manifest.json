@@ -1,0 +1,25 @@
+{
+  "observedAt": "2026-10-02T08:00:00.000Z",
+  "pages": {
+    "https://www.sushiro.com.sg/contact-location/": {
+      "path": "web-2/a29f69c6bb4056fc8d5b542b510982e3f67bea9e3cdbc47aba6c4dfb9c46227e.html",
+      "contentType": "text/html",
+      "status": 200
+    },
+    "https://www.sushiro.com.sg/promo/": {
+      "path": "web-2/d2a36725711a67a56fcd8b4e0900e35a1f069ed0bd69e1d23147cb2462c7201c.html",
+      "contentType": "text/html",
+      "status": 200
+    },
+    "https://www.sushiro.com.sg/2026/09/23/to-the-moon-and-back/": {
+      "path": "web-3/7b7d5120c91d45284ce565f841fcbfab8c606e39fdc06e03a6b02fd526676733.html",
+      "contentType": "text/html",
+      "status": 200
+    },
+    "https://www.sushiro.com.sg/privacy-policy/": {
+      "path": "web-3/6efacde0d6bf8f16f6cc01505b9cb643ea797bed376372cf5e274090edb2a1e4.html",
+      "contentType": "text/html",
+      "status": 200
+    }
+  }
+}

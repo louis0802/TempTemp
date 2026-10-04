@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-01T18:35:46.055Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://poketheory.com.sg/",
+      "url": "https://poketheory.com.sg/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "redirect_to": null,
+      "file": "8701ff1cbeb838c5bf5c5c3977e4b2fab350e1d1afb8a4399e5779b20789f9cf.html",
+      "sha256": "8701ff1cbeb838c5bf5c5c3977e4b2fab350e1d1afb8a4399e5779b20789f9cf",
+      "bytes": 64578,
+      "error": null
+    },
+    {
+      "requested_url": "https://www.ajummassg.com/",
+      "url": "https://www.ajummassg.com/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "f7b3a69eed9d6b08ab0d8238a2c3041b8ddfd3bcf7094222b98475cf8d08c9d6.html",
+      "sha256": "f7b3a69eed9d6b08ab0d8238a2c3041b8ddfd3bcf7094222b98475cf8d08c9d6",
+      "bytes": 654529,
+      "error": null
+    },
+    {
+      "requested_url": "https://www.beardpapa.com.sg/",
+      "url": "https://www.beardpapa.com.sg/",
+      "status": null,
+      "content_type": null,
+      "redirect_to": null,
+      "file": null,
+      "sha256": null,
+      "bytes": 0,
+      "error": "getaddrinfo ENOTFOUND www.beardpapa.com.sg"
+    },
+    {
+      "requested_url": "https://www.shinrai.sg/",
+      "url": "https://www.shinrai.sg/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "4a02095bf25eb7129b633d6ba3c7265999986ada608ff4d921474bed8e36f4af.html",
+      "sha256": "4a02095bf25eb7129b633d6ba3c7265999986ada608ff4d921474bed8e36f4af",
+      "bytes": 719751,
+      "error": null
+    },
+    {
+      "requested_url": "https://www.sinpopo.com/",
+      "url": "https://www.sinpopo.com/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "redirect_to": null,
+      "file": "651bb741bd34e9d92d0d1b4dbd023ad02ea0ed9878cd94d3bb597a9c284e706a.html",
+      "sha256": "651bb741bd34e9d92d0d1b4dbd023ad02ea0ed9878cd94d3bb597a9c284e706a",
+      "bytes": 166916,
+      "error": null
+    },
+    {
+      "requested_url": "https://www.starbucks.com.sg/",
+      "url": "https://www.starbucks.com.sg/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "redirect_to": null,
+      "file": "ed7b56e1c676f657d48379fb43cdc259fe2fec94a6a50facfdd3e58ea1f4aac3.html",
+      "sha256": "ed7b56e1c676f657d48379fb43cdc259fe2fec94a6a50facfdd3e58ea1f4aac3",
+      "bytes": 47195,
+      "error": null
+    }
+  ]
+}

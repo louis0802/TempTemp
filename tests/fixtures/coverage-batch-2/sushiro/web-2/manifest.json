@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T03:59:39.816Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://www.sushiro.com.sg/contact-location/",
+      "url": "https://www.sushiro.com.sg/contact-location/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "a29f69c6bb4056fc8d5b542b510982e3f67bea9e3cdbc47aba6c4dfb9c46227e.html",
+      "sha256": "a29f69c6bb4056fc8d5b542b510982e3f67bea9e3cdbc47aba6c4dfb9c46227e",
+      "bytes": 329697,
+      "error": null
+    },
+    {
+      "requested_url": "https://www.sushiro.com.sg/promo/",
+      "url": "https://www.sushiro.com.sg/promo/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "d2a36725711a67a56fcd8b4e0900e35a1f069ed0bd69e1d23147cb2462c7201c.html",
+      "sha256": "d2a36725711a67a56fcd8b4e0900e35a1f069ed0bd69e1d23147cb2462c7201c",
+      "bytes": 152638,
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T04:01:00.087Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://baribaristeak.com.sg/promotions/",
+      "url": "https://baribaristeak.com.sg/promotions/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "f9c13ab276bf44b6f229f66004f7b6e8d47e75b2255d2879149f6ca8ad1aab5b.html",
+      "sha256": "f9c13ab276bf44b6f229f66004f7b6e8d47e75b2255d2879149f6ca8ad1aab5b",
+      "bytes": 166075,
+      "error": null
+    },
+    {
+      "requested_url": "https://baribaristeak.com.sg/terms-of-use",
+      "url": "https://baribaristeak.com.sg/terms-of-use",
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "3b4ba27215b0eb62b972b74d8d85aa8f4c4fab08008dfe6242f58828c4bbd0c4.html",
+      "sha256": "3b4ba27215b0eb62b972b74d8d85aa8f4c4fab08008dfe6242f58828c4bbd0c4",
+      "bytes": 74391,
+      "error": null
+    },
+    {
+      "requested_url": "https://www.engroup.com.sg/",
+      "url": "https://www.engroup.com.sg/",
+      "status": 301,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": "https://engroup.com.sg/",
+      "file": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.html",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "error": null
+    }
+  ]
+}

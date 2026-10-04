@@ -1,0 +1,25 @@
+# Design
+
+## Research inventory
+
+`scripts/research/build-merchant-source-map.ts` reads the existing reviewed 180-candidate MVP conformance baseline, frozen September 30 source-origin signals, the final captured direct audit and `docs/research/merchant-source-map-review.json`. It never re-parses or collects Telegram. `merchant-source-map/build.ts` is a pure projection using existing normalizeIdentity. Distinct post URLs count historical signals per brand; reviewed runtime offer IDs count offers, with older reviewed source URLs excluding duplicated recent-parser offers. Unknown/malformed labels remain separate. Explicit signal-ID identity review corrects source-backed product/campaign hints without fuzzy parent-brand consolidation. Registry reads supply only current onboarding status; the runtime never depends on the map. Input and registry hashes are output provenance; three reports are byte-stable. New local-child output rejects overwrite and symlink escapes.
+
+## Acquisition and classification
+
+Extend SourceId/adapter union and registry dispatch with `shake_shack_sg`/ShakeShackAdapter. Authority records the official legal customer notice and source operator spelling. The authority type supports probable/unverified shadow configurations; `hasRecordedDirectOwnership` requires verified status, recorded HTTPS evidence and a review basis in both acquisition and the unchanged generic publication flow. It does not fetch ownership material at runtime. Pepper/Paradise records continue to satisfy this invariant.
+
+Shake Shack owns `.pp-posts .pp-post .pp-post-title a`, root article-path acceptance, `/blog/page/<integer>/` pagination, load-more rejection, and detail `[data-elementor-type="wp-post"]` selection. Listing structure/card acceptance must agree. Reuse enumerateListings and BoundedDirectFetch discovery grants; fetch article bodies only from archive cards. Classification happens before promotion entries are returned: require a terms heading plus an explicit economic proposition (free/complimentary benefit tied to purchase/bundle, qualifying discount/on-us proposition, or priced meal/bundle terms). Article titles are not authority. Non-qualifying articles remain evidence, without review candidates. Classification fetch failures or caps make enumeration partial, including all unclassified URLs. No arbitrary or recursive crawl; default 5 listing / 20 detail / 40 requests bounds remain.
+
+## Campaign facts
+
+Use newCandidate/cite/finalizeCandidate, source-specific economic benefit excerpts, and the shared explicit-date helper. Reassemble whitespace-wrapped terms and split sentences to avoid attributing unrelated selected modifiers to outlet exclusions. Explicit same-month shorthand and explicit single-day validity expand to equivalent full campaign dates; years are never derived from article metadata. The original campaign text is cited. `article:published_time` populates only publishedAt. Unsupported or missing campaign dates remain null/blocking. Exact all-outlet and named/singular branch wording comes only from campaign terms; public holidays remain schedule restrictions. Explicit weekdays/Sundays can be represented; hours and holiday restrictions remain review blockers when unsupported. Missing location never implies all outlets. Source fact quotes preserve normalized text/spelling; no LLM/OCR extraction.
+
+## Official branches and coordinates
+
+ShakeShackOutletProvider reads only `/locations/` and exposed official `/shake-restaurants/<slug>/` links. The source declares 12 results; ten address cards agree with twelve map identities. Fetch only missing-card details, currently One Fullerton and Parkway Parade. Require exact count/map/card/detail names, unique postal addresses, operating-hours structure, complete HTML and no unresolved pagination. Partial proof throws rather than returning authority. Existing PromotionParticipationResolver matches exact identities; existing ApiPlaceResolver supplies coordinates only. Add the provider to the shared resolver without modifying Pepper parser or branch semantics.
+
+## Publication and activation
+
+Existing generic candidate validation, publication rules, IDs, source hashes, transaction/recheck/save path, dedupe and admin protection remain. No schema/migration/save redesign. Complete captured facts can pass the generic gate under an explicitly synthetic enabled-policy test, but the real registry stays disabled: four archive pages contain 44 articles, exceeding bounded complete classification. Preview works; generic ingest rejects before DB access. Missing campaign expiry/location or long/unrepresentable facts go to review when authority is eventually enabled; source absence never changes prior facts.
+
+Captured source fixtures have exact URL/time/hash/byte/purpose provenance and no future refresh-overwrite path. A single bounded live preview captured four listing pages and twenty details; final refinements were replayed offline from those exact 24 bodies, with no second live crawl. This is shadow-only rollout. No worker/scheduler/production DB/Telegram fetch. Disable source policy to roll back; no operational deployment occurred.

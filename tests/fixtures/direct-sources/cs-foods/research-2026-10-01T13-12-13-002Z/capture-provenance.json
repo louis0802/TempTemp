@@ -1,0 +1,85 @@
+{
+  "merchant": "cs-foods",
+  "limits": {
+    "maxRequests": 40,
+    "maxListingPages": 5,
+    "maxDetailPages": 20,
+    "maxEvidencePages": 8,
+    "maxBytes": 3000000,
+    "timeoutMs": 12000,
+    "maxRedirects": 3
+  },
+  "jobs": [
+    {
+      "url": "https://csfoods.sg/csfoods-terms-and-conditions/",
+      "purpose": "official consumer legal operator declaration",
+      "kind": "evidence"
+    },
+    {
+      "url": "https://csfoods.sg/shop/finger-food/potato/mccain-original-shoestring-6-6-mm-fries/",
+      "purpose": "one catalogue-linked product ordinary access, stop at challenge",
+      "kind": "detail"
+    }
+  ],
+  "attempts": [
+    {
+      "url": "https://csfoods.sg/csfoods-terms-and-conditions/",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://csfoods.sg/shop/finger-food/potato/mccain-original-shoestring-6-6-mm-fries/",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": 403,
+      "error": "http_403",
+      "redirectTo": null
+    }
+  ],
+  "captures": [
+    {
+      "requestedUrl": "https://csfoods.sg/csfoods-terms-and-conditions/",
+      "finalUrl": "https://csfoods.sg/csfoods-terms-and-conditions/",
+      "capturedAt": "2026-10-01T13:12:13.005Z",
+      "observedAt": "2026-10-01T13:12:13.005Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 176778,
+      "sha256": "f2e3e583c55a38f3cec0459fbe828f3bba13ef26b6010a1225ab43f51d8f1c5d",
+      "path": "f2e3e583c55a38f3cec0459fbe828f3bba13ef26b6010a1225ab43f51d8f1c5d.html",
+      "purpose": "official consumer legal operator declaration",
+      "kind": "evidence",
+      "accessBlocked": false
+    },
+    {
+      "requestedUrl": "https://csfoods.sg/shop/finger-food/potato/mccain-original-shoestring-6-6-mm-fries/",
+      "finalUrl": "https://csfoods.sg/shop/finger-food/potato/mccain-original-shoestring-6-6-mm-fries/",
+      "capturedAt": "2026-10-01T13:12:14.182Z",
+      "observedAt": "2026-10-01T13:12:14.182Z",
+      "httpStatus": 403,
+      "contentType": "text/html",
+      "bytes": 7822,
+      "sha256": "62955a2201c8d6fd1fa590f2873a8c303e60788cec86d7047c1c1dc74aacfa2e",
+      "path": "62955a2201c8d6fd1fa590f2873a8c303e60788cec86d7047c1c1dc74aacfa2e.html",
+      "purpose": "one catalogue-linked product ordinary access, stop at challenge",
+      "kind": "detail",
+      "accessBlocked": true
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://csfoods.sg/shop/finger-food/potato/mccain-original-shoestring-6-6-mm-fries/",
+      "error": "http_403"
+    }
+  ],
+  "cumulativeCounts": {
+    "listing": 1,
+    "detail": 1,
+    "evidence": 2
+  },
+  "cumulativeAttempts": 4,
+  "note": "Explicit public research roots, ordinary bounded direct transport; no cookies/auth/private APIs/OCR or browser. Research evidence is not production registration."
+}

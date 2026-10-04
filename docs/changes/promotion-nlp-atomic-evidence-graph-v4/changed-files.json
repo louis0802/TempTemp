@@ -1,0 +1,175 @@
+{
+  "scope": "research-only V4; prior user dirty work preserved",
+  "newRepositoryFiles": [
+    {
+      "file": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/architecture.md",
+      "sha256": "e71e85e4896d05521eb1aa3be9e8f53584627514b7669401f3f73dcc38c17855"
+    },
+    {
+      "file": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/benchmark-review.md",
+      "sha256": "0e71c4d8e638c6ae0d4103992f061989adeaa18a92f57f34aff2b40ff2abf24f"
+    },
+    {
+      "file": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/decision.md",
+      "sha256": "8be294e0d879535e5b45e7d4208db3b9e0919912852ff08db9c78eaadcada99a"
+    },
+    {
+      "file": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/design.md",
+      "sha256": "b6a8350c1526690ac6a943c344ce16604ebb1ed460b352c6d4ee8e522c3e6bfa"
+    },
+    {
+      "file": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/edge-contract.md",
+      "sha256": "3b4d2f1ca0e227416fdedc748269cd76a1752aafac7a53dc0790a0b3c6434b44"
+    },
+    {
+      "file": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/evaluation-metrics.json",
+      "sha256": "8da9ab7f539b31e748cdd844380f6be6b4ebb3958dc1f210c632cd2c59c77232"
+    },
+    {
+      "file": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/evaluation.md",
+      "sha256": "520b02cd36861c065c9381f3603c0cbe50c83d5f6816aae28ab3dbd4a84da0b8"
+    },
+    {
+      "file": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/evidence-contract.md",
+      "sha256": "604de453fe2f83eeb79215f9a28acaa53966f5cb07c3cb6107872c8695943885"
+    },
+    {
+      "file": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/failure-analysis.md",
+      "sha256": "4b4dd238ae4f25a8d1f9620b3cda4f7f0b8ce2335d352ee31c3f83c6d9b51ed1"
+    },
+    {
+      "file": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/intent.md",
+      "sha256": "359388a8c16440770fff416761a8813fc08d3ae498f59f9c0e91da0fda3652dd"
+    },
+    {
+      "file": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/normalization-contract.md",
+      "sha256": "916c5d6ddd2673178529088195572c575686087fe7612be7ab0f36c2a9d3f759"
+    },
+    {
+      "file": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/plan.md",
+      "sha256": "4003ef29e227c618615f06ac8d7f56260a01d85e212d29fe79ff71cbe58d467c"
+    },
+    {
+      "file": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/proposition-contract.md",
+      "sha256": "f9c1c90b6bf8186494b200172c9872784d30a534fa5020c7280e90c0458e027d"
+    },
+    {
+      "file": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/publication-taxonomy.md",
+      "sha256": "310114ae81bbde1e90438c69c0f4e5bc4c8c787c2752cff3ae3e626622776711"
+    },
+    {
+      "file": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/reviewed-metrics.json",
+      "sha256": "6a2f9cee4b1f589776cbfd0556d560707001bfc2d34d2a83008b2909687996ee"
+    },
+    {
+      "file": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/source-review.json",
+      "sha256": "94b962d75488a5193a69668c017b8017ebb726f002cc894e96684a8c75fcf8f2"
+    },
+    {
+      "file": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/spec.md",
+      "sha256": "4cee75d9187937919c468ea7523a482c855eccc96c8995ab9c4035f48a569308"
+    },
+    {
+      "file": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/v3-v4-comparison.json",
+      "sha256": "f39d18c374b2d713ed9fa8b6f9a1ff3ea6b2727012a0ed79b1aa02cda0064a38"
+    },
+    {
+      "file": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/v3-v4-comparison.md",
+      "sha256": "89a5becc1ce3400fcadb7f3bc60dcf8603149be4a7e824aa5ba4e071f88c94c2"
+    },
+    {
+      "file": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/verification-logs/diff-check.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/verification-logs/final-integrity.log",
+      "sha256": "e8252fbee1795513f3850b0d95222480102733f823429daaa96a8b3a918f7698"
+    },
+    {
+      "file": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/verification-logs/format.log",
+      "sha256": "17aa973d3f004560237d9a95171210b0671deff23d61628eecf7322ff5938f20"
+    },
+    {
+      "file": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/verification-logs/lint.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/verification-logs/nlp-prelaunch-final.log",
+      "sha256": "d5a0a0139ac846ba53faad98d156761ca0080de5684aaa86c5634d9cbc3548e0"
+    },
+    {
+      "file": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/verification-logs/nlp-prelaunch.log",
+      "sha256": "fa52dd8e0e09367d482780ab062fc0841641fd962c8a7e35c53668cf50a84223"
+    },
+    {
+      "file": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/verification-logs/prior-isolation.log",
+      "sha256": "7b2029d6d9c9044b47bf685168c820f4c0cf627d7cf406ff9d14ca1d7692967c"
+    },
+    {
+      "file": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/verification-logs/typecheck.log",
+      "sha256": "bb6cf1af469533c12d32b4541993c85256514650f7bca62551dfaaf80c179e64"
+    },
+    {
+      "file": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/verification-logs/unit-prelaunch-final.log",
+      "sha256": "ac8d10f97d83fc6c5725d90b605ae829b8a44b435bd6791841b24b09e0ece090"
+    },
+    {
+      "file": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/verification-logs/unit-prelaunch.log",
+      "sha256": "76c35f3394139953629ccd56c9a397415b56933bc130cb2070e7d0e3698512fb"
+    },
+    {
+      "file": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/verification-results.json",
+      "sha256": "f62b4fa1723c9cf55d4bdb36191c652bb2564a1b2d2e28b574a8721dc27f3a85"
+    },
+    {
+      "file": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/verification.md",
+      "sha256": "1d2ac0aed4d0c7eeb44fc05805de62543788559681ceb65f989fd740a00b1480"
+    },
+    {
+      "file": "scripts/research/promotion-nlp-subagent-v4-evaluation.ts",
+      "sha256": "11c7ed1e28560203a8d1a0c9f7656ab42113f6296d2c167669ab68aa2711d6f7"
+    },
+    {
+      "file": "src/ingestion/promotion-nlp/benchmark-v4.ts",
+      "sha256": "3ab14d00bbebcf358662d2ab03a83fc58aebdec270700576c1e57cd445f2ebb3"
+    },
+    {
+      "file": "src/ingestion/promotion-nlp/prompt-v4.ts",
+      "sha256": "16bd1a049e8d7e472ccb20b09085f0a8b0941c26b30457591cde0e0ecce74ba3"
+    },
+    {
+      "file": "src/ingestion/promotion-nlp/schema-v4.ts",
+      "sha256": "4c2f2becdb6fc16ea91c0d7fa9c56cf06b2d6b5e30051338540476d409712029"
+    },
+    {
+      "file": "src/ingestion/promotion-nlp/validator-v4.ts",
+      "sha256": "bf7a4c76effa0117991198bb432d1c2eb35f1f12649e7f0a0a41d2683026a856"
+    },
+    {
+      "file": "tests/fixtures/promotion-nlp/benchmark-v4.json",
+      "sha256": "ef7c4b4ef6195e0b0c28f3e62e9f32357dc932bd05f50c65344f80b2e0d7abc7"
+    },
+    {
+      "file": "tests/promotion-nlp-benchmark-v4.test.ts",
+      "sha256": "f718d5f2eabced6cec12ba68d6de1af8b8dffc30245141b07f7d34fcde3d2aa7"
+    },
+    {
+      "file": "tests/promotion-nlp-subagent-v4.test.ts",
+      "sha256": "1b89599a23f4dd3856e5bcfdbb7cda1df300462953b0b483c1535bb0c71a4a0d"
+    },
+    {
+      "file": "tests/promotion-nlp-v4.test.ts",
+      "sha256": "30221ad6db64e931eaaf8b940e44f54dd39df0e8ff9f2f48512fa92cbdcc401c"
+    }
+  ],
+  "existingSubstantiveFilesChanged": [],
+  "generatedCacheChanged": [
+    "tsconfig.tsbuildinfo"
+  ],
+  "initialProtectedFiles": 1407,
+  "initialSubstantiveFilesVerified": 1406,
+  "runRoot": "/Users/louis/Documents/Projects/vibe coding/PromotionAroundYou/.local/promotion-nlp-subagent-v4/2026-10-03T12-27-12-562Z-9462a1b1-79e5-4fd4-8667-3d2de72e16d1",
+  "localRunJsonFiles": 473,
+  "commit": false,
+  "push": false
+}

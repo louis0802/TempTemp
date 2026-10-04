@@ -1,0 +1,170 @@
+{
+  "captures": [
+    {
+      "url": "https://www.shakeshack.com.sg/contact-us/",
+      "timestamp": "2026-10-01T04:54:50.390693+00:00",
+      "hash": "08dbb5bc64a102d6dbba834a1264c2ddd0c81e86d5a6c3b456a53abea4598f10",
+      "byte_length": 66306,
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "file": "contact.html",
+      "purpose": "contact"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/hello-parkway-parade/",
+      "timestamp": "2026-10-01T04:54:49.086311+00:00",
+      "hash": "f30cf34861dd84da9366e0ab3663da4db0f110a9cc105f4636027a7fa5aa4e60",
+      "byte_length": 75719,
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "file": "opening-promotion.html",
+      "purpose": "Opening article with real 10% promotion and terms (not editorial-only)"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/wp-content/uploads/2024/12/SS-Data-Protection-Notice-for-Customers.pdf",
+      "timestamp": "2026-10-01T04:53:06.698075+00:00",
+      "hash": "7f04e47a2b5712c3267ae4611ec8196a16455bdec50afe9df1028027fa88dee3",
+      "byte_length": 124272,
+      "status": 200,
+      "content_type": "application/pdf",
+      "file": "legal.pdf",
+      "purpose": "legal"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/blog/",
+      "timestamp": "2026-10-01T04:53:05.814127+00:00",
+      "hash": "2e2893ac946fd46b10b1bbb05b48cd045a3420a2161786b385462adb9c563e35",
+      "byte_length": 87663,
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "file": "listing.html",
+      "purpose": "listing"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/shack-meal/",
+      "timestamp": "2026-10-01T04:54:49.378398+00:00",
+      "hash": "3b4191e769ec90af464f59bbbe2d8e657d858441d1437b5e1a1ef17e316f810a",
+      "byte_length": 73691,
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "file": "missing-expiry.html",
+      "purpose": "missing-expiry"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/study-breaks-just-got-better/",
+      "timestamp": "2026-10-01T04:54:49.986687+00:00",
+      "hash": "1a8fffcaf4c816b040530a400b6181979d3c65e32c1b1e613ce329b7a129bd9e",
+      "byte_length": 73566,
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "file": "named-location.html",
+      "purpose": "named-location"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/shake-restaurants/one-fullerton/",
+      "timestamp": "2026-10-01T04:54:50.708588+00:00",
+      "hash": "4b414386d7386f71781ddbe17e4a4f62befe14b8ccf98af3dcbcc76997edf4e9",
+      "byte_length": 79694,
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "file": "one-fullerton.html",
+      "purpose": "one-fullerton"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/locations/",
+      "timestamp": "2026-10-01T04:53:06.619037+00:00",
+      "hash": "168f5b057b0b5194f3c0b62c67b4f3cf41681ee0ddc6b63eeab0faaaba51ecaf",
+      "byte_length": 98783,
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "file": "outlets.html",
+      "purpose": "outlets"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/blog/page/2/",
+      "timestamp": "2026-10-01T04:53:06.327823+00:00",
+      "hash": "f25bf4fbfab421a096b52abc68df94ef7f5fc88c6f7e4e7dfcf11dc594b5d1cb",
+      "byte_length": 85992,
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "file": "page-2.html",
+      "purpose": "page-2"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/blog/page/3/",
+      "timestamp": "2026-10-01T04:54:48.069500+00:00",
+      "hash": "506cd54e81b689383cee389a7cd0f29dbe37b6035b2d4ccf8e94b3e311bbea71",
+      "byte_length": 85829,
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "file": "page-3.html",
+      "purpose": "page-3"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/blog/page/4/",
+      "timestamp": "2026-10-01T04:54:48.444668+00:00",
+      "hash": "bbab75ec05eca4298e960089b056a49bdaa76e9a385a285190f5a6400f7b395e",
+      "byte_length": 79354,
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "file": "page-4.html",
+      "purpose": "page-4"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/shake-restaurants/parkway-parade/",
+      "timestamp": "2026-10-01T04:54:51.032366+00:00",
+      "hash": "19d02c5d3d65f71997adcae609ce4f17703f049908b816a95f742e905bc3ffd8",
+      "byte_length": 79754,
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "file": "parkway-parade.html",
+      "purpose": "parkway-parade"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/national-cheeseburger-day/",
+      "timestamp": "2026-10-01T04:54:48.782636+00:00",
+      "hash": "3bd0190fabfbd7a550815eb1d3610e75ea7bd548afe072a2d95a21f898978c29",
+      "byte_length": 78425,
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "file": "promotion.html",
+      "purpose": "promotion"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/were-introducing-chicken-sundays/",
+      "timestamp": "2026-10-01T04:54:49.640028+00:00",
+      "hash": "5cf8d7f182ef47fada7e9fd7ee131ad71ea9dab1d5882bde27d463d5d887f52e",
+      "byte_length": 74119,
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "file": "weekdays.html",
+      "purpose": "weekdays"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/all-about-chickens/",
+      "timestamp": "2026-10-01T05:07:34.869095+00:00",
+      "hash": "a9ab048b4e49b0a079def93a82c150e05560675470352b74b2a399140259393a",
+      "byte_length": 74523,
+      "status": 200,
+      "content_type": "text/html",
+      "file": "chicken-bundle-promotion.html",
+      "purpose": "Chicken welfare article with real bundle promotion and terms"
+    },
+    {
+      "url": "https://www.shakeshack.com.sg/our-french-onion-menu/",
+      "timestamp": "2026-10-01T05:10:16.612796+00:00",
+      "hash": "e8ec3b3d22a5b6ef8bf0829b56f854cefb14acc50208add5839de592807fdeef",
+      "byte_length": 83792,
+      "status": 200,
+      "content_type": "text/html",
+      "file": "editorial.html",
+      "purpose": "Menu editorial: no offer proposition or terms; emits no candidate"
+    }
+  ],
+  "native_text": {
+    "file": "legal-native.txt",
+    "sha256": "175bb7acb8228d69ef20995967299a7a58ebb2de708525df9f643929f3268214",
+    "method": "pypdf native text extraction; no OCR"
+  },
+  "fixture_policy": "Immutable one-off bounded GET capture. Never overwrite from live runs."
+}

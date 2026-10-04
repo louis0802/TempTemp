@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T04:05:26.163Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://www.pizzahut.com.sg/find-a-hut",
+      "url": "https://www.pizzahut.com.sg/find-a-hut",
+      "status": 200,
+      "content_type": "text/html",
+      "redirect_to": null,
+      "file": "567678567cb0b0995127c359ce8348522bdec59d5872ca45bfaa7e85dbc48ffa.html",
+      "sha256": "567678567cb0b0995127c359ce8348522bdec59d5872ca45bfaa7e85dbc48ffa",
+      "bytes": 6906,
+      "error": null
+    },
+    {
+      "requested_url": "https://www.pizzahut.com.sg/hot-deals",
+      "url": "https://www.pizzahut.com.sg/hot-deals",
+      "status": 200,
+      "content_type": "text/html",
+      "redirect_to": null,
+      "file": "567678567cb0b0995127c359ce8348522bdec59d5872ca45bfaa7e85dbc48ffa.html",
+      "sha256": "567678567cb0b0995127c359ce8348522bdec59d5872ca45bfaa7e85dbc48ffa",
+      "bytes": 6906,
+      "error": null
+    },
+    {
+      "requested_url": "https://www.pizzahut.com.sg/privacy",
+      "url": "https://www.pizzahut.com.sg/privacy",
+      "status": 200,
+      "content_type": "text/html",
+      "redirect_to": null,
+      "file": "567678567cb0b0995127c359ce8348522bdec59d5872ca45bfaa7e85dbc48ffa.html",
+      "sha256": "567678567cb0b0995127c359ce8348522bdec59d5872ca45bfaa7e85dbc48ffa",
+      "bytes": 6906,
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "observedAt": "2026-10-01T13:15:24.997Z",
+  "pages": {
+    "https://promotions.fairprice.com.sg/price-drop-buy-now-weekly-offers-from-20-off/": {
+      "path": "5b3e5ef9c763f95ebf9222bffe1387325df054956f5e2f6340c697246f642cbb.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://promotions.fairprice.com.sg/made-in-singapore/": {
+      "path": "92cc2a2febd09b2d586fae78aa66b39ca4c882cc41df76bf3f32aa9522bcde1d.html",
+      "status": 200,
+      "contentType": "text/html"
+    }
+  }
+}

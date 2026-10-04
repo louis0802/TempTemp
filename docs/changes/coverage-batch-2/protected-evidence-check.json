@@ -1,0 +1,26 @@
+{
+  "baseline_file_count": 5078,
+  "existing_changed_files": [
+    "docs/research/merchant-automation-progress.md",
+    "docs/research/social-source-acquisition-review.json",
+    "docs/research/social-source-authority-review.json",
+    "docs/research/social-source-inventory.json",
+    "scripts/research/build-merchant-source-map.ts",
+    "scripts/research/merchant-automation-progress.ts",
+    "scripts/research/merchant-source-map/build.ts",
+    "scripts/research/social-sources/inventory.ts",
+    "scripts/research/social-sources/read.ts",
+    "src/ingestion/direct-sources/registry.ts",
+    "src/ingestion/direct-sources/types.ts",
+    "tests/direct-source-adapters.test.ts",
+    "tests/direct-source-batch-1.test.ts",
+    "tests/merchant-automation-progress.test.ts",
+    "tests/merchant-source-map.test.ts",
+    "tests/social-source-research.test.ts"
+  ],
+  "preserved_file_count": 5062,
+  "missing_files": [],
+  "unexpected_changes": [],
+  "frozen_inputs_and_prior_captures_preserved": true,
+  "next_env_preserved": true
+}

@@ -1,0 +1,153 @@
+{
+  "change": "promotion-nlp-proposition-segmentation-v3",
+  "existingFilesChangedByTask": [],
+  "newFiles": [
+    {
+      "path": "docs/changes/promotion-nlp-proposition-segmentation-v3/architecture.md",
+      "sha256": "e0658f1a19699f89a390378e3ac823250609d47d29bb6ec1e29063312469f7c1"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-proposition-segmentation-v3/benchmark-review.md",
+      "sha256": "ca6053c81a3f545dddc50836f9f4eaa2260aa07d77b0dfd0bac3b2c634a1613f"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-proposition-segmentation-v3/constraint-contract.md",
+      "sha256": "1e381ed423574c1b1cfb7c56c7831c0f0f190aa19199cdd96690c7c5948f087d"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-proposition-segmentation-v3/decision.md",
+      "sha256": "52c387ea7813b998aaa2bcb511eb42867e352a4991ac797a40a29214af8c8e31"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-proposition-segmentation-v3/design.md",
+      "sha256": "09deceb406a2c794c9afb0fac1ff01709ea769f1af0c855522d0084f36ec795e"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-proposition-segmentation-v3/evaluation-metrics.json",
+      "sha256": "c7e36922f1c5fdd2e268a5a748d722090057021b0bb33c52ccdc1079e0b6bea4"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-proposition-segmentation-v3/evaluation.md",
+      "sha256": "45df6dee9300f298f763ceeb8db4e04d66ef47eb19ca7b6d90bd7d3b5af73627"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-proposition-segmentation-v3/extraction-contract.md",
+      "sha256": "9fb15661023b43572911cd5fc78d1a437fce5c9b019f3f93340032a9aeb0297d"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-proposition-segmentation-v3/failure-analysis.md",
+      "sha256": "ead6ae4def2f8c69d9f2e4247021c2c085d64a48417aa5ed1c06b328245e138e"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-proposition-segmentation-v3/intent.md",
+      "sha256": "dcdf94e6286255bc2bd6774af6bea93398a9b5fe78ec2afb73aacb43f849fc13"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-proposition-segmentation-v3/plan.md",
+      "sha256": "3b45ef4565beb1b95c835cb2ae1875f6d1906197b8f344eec28fa4129fe8de92"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-proposition-segmentation-v3/reviewed-metrics.json",
+      "sha256": "9f5454e513bb92811ca47a5d2d15084a72474b61dfc75141c00ab3a7ee0c29e2"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-proposition-segmentation-v3/segmentation-contract.md",
+      "sha256": "cb29622050956bedf13a39291eb008ef0e139d81cd7dc3410cdb78cd38d33440"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-proposition-segmentation-v3/source-review.json",
+      "sha256": "2221bbdd35205ce1e1bb7b9bcd2101a5fe08010f43fac39965ffcda15fb50f13"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-proposition-segmentation-v3/spec.md",
+      "sha256": "972f4e3fcf951b4b95ab296baa48ec9266f084fc84c06bec61dee237064fa891"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-proposition-segmentation-v3/temporal-contract.md",
+      "sha256": "cd4c6af33688f1a5ba6cd401b0732575f910e89759c3905adcc9eeacdfc17da6"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-proposition-segmentation-v3/v2-v3-comparison.md",
+      "sha256": "884deabdf277af8f61da8bf6847d13ca92d2b5b4a8d0297caf2cd6f621c2bba3"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-proposition-segmentation-v3/verification-logs/diff-prelaunch.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-proposition-segmentation-v3/verification-logs/format-prelaunch.log",
+      "sha256": "17aa973d3f004560237d9a95171210b0671deff23d61628eecf7322ff5938f20"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-proposition-segmentation-v3/verification-logs/lint-prelaunch.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-proposition-segmentation-v3/verification-logs/nlp-prelaunch.log",
+      "sha256": "1057887010007666e3c537f1de56adcdb78040bf841dab108fb80e97075d92f4"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-proposition-segmentation-v3/verification-logs/typecheck-prelaunch.log",
+      "sha256": "bb6cf1af469533c12d32b4541993c85256514650f7bca62551dfaaf80c179e64"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-proposition-segmentation-v3/verification-logs/unit-prelaunch.log",
+      "sha256": "d86db680429b8bd59294888eb7e3c94a53a78f393b332a98f664514711e9bb7d"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-proposition-segmentation-v3/verification-results.json",
+      "sha256": "bda0e01028dd76487772c4a48472d34b7404c55d3c86d1d299c10c7549c7d803"
+    },
+    {
+      "path": "docs/changes/promotion-nlp-proposition-segmentation-v3/verification.md",
+      "sha256": "3509f5b1949a4da42cc102d006edebad23b50d30e044121267a2f0219272f3b9"
+    },
+    {
+      "path": "src/ingestion/promotion-nlp/benchmark-v3.ts",
+      "sha256": "b745412f00fa76924b103724320a16ad132281eae9947e2008b680e90bcfa8b7"
+    },
+    {
+      "path": "src/ingestion/promotion-nlp/prompt-extract-v3.ts",
+      "sha256": "aac70f8f6b7b4b9ec7f4747d13690feef880c1890de865ece08c6bf7affa66ab"
+    },
+    {
+      "path": "src/ingestion/promotion-nlp/prompt-segment-v3.ts",
+      "sha256": "966416e8534b4e5645c9d2c12ea388f92292992aa8fb293677c5d32e1efa4640"
+    },
+    {
+      "path": "src/ingestion/promotion-nlp/schema-v3.ts",
+      "sha256": "c1fe1c5374d50844eb5267718c641b381d4fca6480d777adfdcd31a005e838d9"
+    },
+    {
+      "path": "src/ingestion/promotion-nlp/segmentation-v3.ts",
+      "sha256": "2a5a004e1d674588b81d1b9153923a05bbb44aafc3d3d3b2cb7da1e9a6b06524"
+    },
+    {
+      "path": "src/ingestion/promotion-nlp/validator-v3.ts",
+      "sha256": "fbac3d5865596175e0463a0d5049b95f025b617123b67021ed2baf0fab9f0aec"
+    },
+    {
+      "path": "scripts/research/promotion-nlp-subagent-v3-evaluation.ts",
+      "sha256": "7a55ce9ce14a19ee9af649c23df695ab904772df30c198d29a0c62aa0303cc87"
+    },
+    {
+      "path": "tests/promotion-nlp-v3.test.ts",
+      "sha256": "c9d2d54402d4dc3c26aa4d1f7e3e48c00421e7a533742e165ffb402c3d3f7277"
+    },
+    {
+      "path": "tests/promotion-nlp-subagent-v3.test.ts",
+      "sha256": "1a523db946049fa8132da4dd7bb1cc9900b1c0c8693f25f46d5e72db304a0432"
+    },
+    {
+      "path": "tests/fixtures/promotion-nlp/benchmark-v3.json",
+      "sha256": "fcd2cddd9d8327499d1ab12cd4bb306ba77c4c4ef02e6254ea9b2f43edb8e46a"
+    }
+  ],
+  "productionFilesChanged": [],
+  "priorDirtyFilesPreserved": true,
+  "baselineFile": ".local/promotion-nlp-v3-initial/protected-files.json",
+  "initialProtectedCount": 1063,
+  "rawRunRoot": ".local/promotion-nlp-subagent-v3/2026-10-03T09-56-16-103Z-8c53a050-3330-4cee-87ec-f4bfc68cc3d7",
+  "committed": false,
+  "pushed": false
+}

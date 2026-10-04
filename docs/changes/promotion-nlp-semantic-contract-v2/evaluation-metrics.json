@@ -1,0 +1,443 @@
+{
+  "classificationAll49": {
+    "cases": 49,
+    "promotion_precision": 1,
+    "promotion_recall": 0.6923076923076923,
+    "non_promotion_correctness": 0.875,
+    "uncertain_rate": 0.08163265306122448,
+    "primary_classification_errors": 15
+  },
+  "classificationParseable40": {
+    "cases": 40,
+    "promotion_precision": 1,
+    "promotion_recall": 0.9,
+    "non_promotion_correctness": 0.875,
+    "uncertain_rate": 0.1,
+    "primary_classification_errors": 6
+  },
+  "semanticRawParseable": {
+    "primary_secondary_association_errors": {
+      "events": 2,
+      "cases": [
+        "pepper_lunch_sg-student-meal",
+        "shake_shack_sg-meet-our-collab-partners"
+      ]
+    },
+    "participation_polarity_errors": {
+      "events": 0,
+      "cases": []
+    },
+    "invented_validity_facts": {
+      "events": 0,
+      "cases": []
+    },
+    "invented_participating_location_identity": {
+      "events": 0,
+      "cases": []
+    },
+    "unsupported_positive_location_scope": {
+      "events": 0,
+      "cases": []
+    },
+    "unrelated_schedule_association": {
+      "events": 1,
+      "cases": [
+        "bari_bari_steak_sg-promotions-1"
+      ]
+    },
+    "restriction_role_errors": {
+      "events": 10,
+      "cases": [
+        "instagram-DDJfz9bynW-",
+        "instagram-DdQA3EChsjx",
+        "mcdonalds_sg-McSaver",
+        "pepper_lunch_sg-dine-with-pride",
+        "pepper_lunch_sg-student-meal",
+        "shake_shack_sg-feeding-a-crowd",
+        "shake_shack_sg-national-cheeseburger-day",
+        "shake_shack_sg-singlish-lingo"
+      ]
+    },
+    "benefit_qualifier_loss": {
+      "events": 0,
+      "cases": []
+    },
+    "primary_classification_errors": {
+      "events": 5,
+      "cases": [
+        "fairprice_sg-xtra-wine-flash-sale",
+        "mcdonalds_sg-bfmcsaver",
+        "pepper_lunch_sg-weekday-lunch",
+        "shake_shack_sg-concrete-craze",
+        "shake_shack_sg-everything-in-our-veggie-shack"
+      ]
+    },
+    "cross_campaign_contamination": {
+      "events": 1,
+      "cases": [
+        "pepper_lunch_sg-student-meal"
+      ]
+    },
+    "unstated_year_inference": {
+      "events": 0,
+      "cases": []
+    }
+  },
+  "semanticSurviving": {
+    "primary_secondary_association_errors": {
+      "events": 2,
+      "cases": [
+        "pepper_lunch_sg-student-meal",
+        "shake_shack_sg-meet-our-collab-partners"
+      ]
+    },
+    "participation_polarity_errors": {
+      "events": 0,
+      "cases": []
+    },
+    "invented_validity_facts": {
+      "events": 0,
+      "cases": []
+    },
+    "invented_participating_location_identity": {
+      "events": 0,
+      "cases": []
+    },
+    "unsupported_positive_location_scope": {
+      "events": 0,
+      "cases": []
+    },
+    "unrelated_schedule_association": {
+      "events": 1,
+      "cases": [
+        "bari_bari_steak_sg-promotions-1"
+      ]
+    },
+    "restriction_role_errors": {
+      "events": 7,
+      "cases": [
+        "instagram-DDJfz9bynW-",
+        "mcdonalds_sg-McSaver",
+        "pepper_lunch_sg-student-meal",
+        "shake_shack_sg-feeding-a-crowd",
+        "shake_shack_sg-national-cheeseburger-day",
+        "shake_shack_sg-singlish-lingo"
+      ]
+    },
+    "benefit_qualifier_loss": {
+      "events": 0,
+      "cases": []
+    },
+    "primary_classification_errors": {
+      "events": 6,
+      "cases": [
+        "fairprice_sg-xtra-wine-flash-sale",
+        "mcdonalds_sg-bfmcsaver",
+        "pepper_lunch_sg-weekday-lunch",
+        "shake_shack_sg-concrete-craze",
+        "shake_shack_sg-everything-in-our-veggie-shack",
+        "shake_shack_sg-introducing-aloha-shack"
+      ]
+    },
+    "cross_campaign_contamination": {
+      "events": 1,
+      "cases": [
+        "pepper_lunch_sg-student-meal"
+      ]
+    },
+    "unstated_year_inference": {
+      "events": 0,
+      "cases": []
+    }
+  },
+  "malformedReadableObservations": [
+    {
+      "caseId": "shake_shack_sg-local-faves-our-treat",
+      "metric": "primary_secondary_association_errors / unrelated_schedule_association",
+      "verbatimUntouchedExcerpt": "\"weekdays\":{\"value\":[1],\"quote\":\"every Monday\"",
+      "reason": "App-check/release Monday is visibly still represented as promotion weekday. No brace/token removed; no repaired parse; excluded from numeric parseable metrics."
+    }
+  ],
+  "caseComparisonCounts": {
+    "regressed": 11,
+    "malformed in v1": 4,
+    "improved": 17,
+    "malformed in v2": 9,
+    "unchanged": 5,
+    "schema-role difference only": 3
+  },
+  "locationRuleDomainErrorCases": [
+    "pepper_lunch_sg-dine-with-pride",
+    "shake_shack_sg-national-cheeseburger-day",
+    "shake_shack_sg-singlish-lingo"
+  ],
+  "locationRuleDomainErrorItems": 4,
+  "rawSealSha256": "f5a7a70afd38085ba1c615833ee913432d452e376726c7bc35e39e0e730b248a",
+  "completedOutputs": 49,
+  "freshAgents": 49,
+  "malformedOutputs": 9,
+  "executionErrors": 0,
+  "missingResults": 0,
+  "decision": "A",
+  "A2Justified": false,
+  "v1Classification": {
+    "promotion_precision": 0.8947368421052632,
+    "promotion_recall": 0.8717948717948718,
+    "non_promotion_correctness": 0.625,
+    "uncertain_rate": 0.12244897959183673
+  },
+  "semanticAllCaseObserved": {
+    "raw": {
+      "primary_secondary_association_errors": {
+        "events": 2,
+        "observedCaseRate": 0.04081632653061224,
+        "denominator": 49,
+        "unassessable": 9
+      },
+      "participation_polarity_errors": {
+        "events": 0,
+        "observedCaseRate": 0.0,
+        "denominator": 49,
+        "unassessable": 9
+      },
+      "invented_validity_facts": {
+        "events": 0,
+        "observedCaseRate": 0.0,
+        "denominator": 49,
+        "unassessable": 9
+      },
+      "invented_participating_location_identity": {
+        "events": 0,
+        "observedCaseRate": 0.0,
+        "denominator": 49,
+        "unassessable": 9
+      },
+      "unsupported_positive_location_scope": {
+        "events": 0,
+        "observedCaseRate": 0.0,
+        "denominator": 49,
+        "unassessable": 9
+      },
+      "unrelated_schedule_association": {
+        "events": 1,
+        "observedCaseRate": 0.02040816326530612,
+        "denominator": 49,
+        "unassessable": 9
+      },
+      "restriction_role_errors": {
+        "events": 10,
+        "observedCaseRate": 0.16326530612244897,
+        "denominator": 49,
+        "unassessable": 9
+      },
+      "benefit_qualifier_loss": {
+        "events": 0,
+        "observedCaseRate": 0.0,
+        "denominator": 49,
+        "unassessable": 9
+      },
+      "primary_classification_errors": {
+        "events": 5,
+        "observedCaseRate": 0.10204081632653061,
+        "denominator": 49,
+        "unassessable": 9
+      },
+      "cross_campaign_contamination": {
+        "events": 1,
+        "observedCaseRate": 0.02040816326530612,
+        "denominator": 49,
+        "unassessable": 9
+      },
+      "unstated_year_inference": {
+        "events": 0,
+        "observedCaseRate": 0.0,
+        "denominator": 49,
+        "unassessable": 9
+      }
+    },
+    "surviving": {
+      "primary_secondary_association_errors": {
+        "events": 2,
+        "observedCaseRate": 0.04081632653061224,
+        "denominator": 49,
+        "unassessable": 9
+      },
+      "participation_polarity_errors": {
+        "events": 0,
+        "observedCaseRate": 0.0,
+        "denominator": 49,
+        "unassessable": 9
+      },
+      "invented_validity_facts": {
+        "events": 0,
+        "observedCaseRate": 0.0,
+        "denominator": 49,
+        "unassessable": 9
+      },
+      "invented_participating_location_identity": {
+        "events": 0,
+        "observedCaseRate": 0.0,
+        "denominator": 49,
+        "unassessable": 9
+      },
+      "unsupported_positive_location_scope": {
+        "events": 0,
+        "observedCaseRate": 0.0,
+        "denominator": 49,
+        "unassessable": 9
+      },
+      "unrelated_schedule_association": {
+        "events": 1,
+        "observedCaseRate": 0.02040816326530612,
+        "denominator": 49,
+        "unassessable": 9
+      },
+      "restriction_role_errors": {
+        "events": 7,
+        "observedCaseRate": 0.12244897959183673,
+        "denominator": 49,
+        "unassessable": 9
+      },
+      "benefit_qualifier_loss": {
+        "events": 0,
+        "observedCaseRate": 0.0,
+        "denominator": 49,
+        "unassessable": 9
+      },
+      "primary_classification_errors": {
+        "events": 6,
+        "observedCaseRate": 0.12244897959183673,
+        "denominator": 49,
+        "unassessable": 9
+      },
+      "cross_campaign_contamination": {
+        "events": 1,
+        "observedCaseRate": 0.02040816326530612,
+        "denominator": 49,
+        "unassessable": 9
+      },
+      "unstated_year_inference": {
+        "events": 0,
+        "observedCaseRate": 0.0,
+        "denominator": 49,
+        "unassessable": 9
+      }
+    }
+  },
+  "semanticParseableObserved": {
+    "raw": {
+      "primary_secondary_association_errors": {
+        "events": 2,
+        "observedCaseRate": 0.05,
+        "denominator": 40
+      },
+      "participation_polarity_errors": {
+        "events": 0,
+        "observedCaseRate": 0.0,
+        "denominator": 40
+      },
+      "invented_validity_facts": {
+        "events": 0,
+        "observedCaseRate": 0.0,
+        "denominator": 40
+      },
+      "invented_participating_location_identity": {
+        "events": 0,
+        "observedCaseRate": 0.0,
+        "denominator": 40
+      },
+      "unsupported_positive_location_scope": {
+        "events": 0,
+        "observedCaseRate": 0.0,
+        "denominator": 40
+      },
+      "unrelated_schedule_association": {
+        "events": 1,
+        "observedCaseRate": 0.025,
+        "denominator": 40
+      },
+      "restriction_role_errors": {
+        "events": 10,
+        "observedCaseRate": 0.2,
+        "denominator": 40
+      },
+      "benefit_qualifier_loss": {
+        "events": 0,
+        "observedCaseRate": 0.0,
+        "denominator": 40
+      },
+      "primary_classification_errors": {
+        "events": 5,
+        "observedCaseRate": 0.125,
+        "denominator": 40
+      },
+      "cross_campaign_contamination": {
+        "events": 1,
+        "observedCaseRate": 0.025,
+        "denominator": 40
+      },
+      "unstated_year_inference": {
+        "events": 0,
+        "observedCaseRate": 0.0,
+        "denominator": 40
+      }
+    },
+    "surviving": {
+      "primary_secondary_association_errors": {
+        "events": 2,
+        "observedCaseRate": 0.05,
+        "denominator": 40
+      },
+      "participation_polarity_errors": {
+        "events": 0,
+        "observedCaseRate": 0.0,
+        "denominator": 40
+      },
+      "invented_validity_facts": {
+        "events": 0,
+        "observedCaseRate": 0.0,
+        "denominator": 40
+      },
+      "invented_participating_location_identity": {
+        "events": 0,
+        "observedCaseRate": 0.0,
+        "denominator": 40
+      },
+      "unsupported_positive_location_scope": {
+        "events": 0,
+        "observedCaseRate": 0.0,
+        "denominator": 40
+      },
+      "unrelated_schedule_association": {
+        "events": 1,
+        "observedCaseRate": 0.025,
+        "denominator": 40
+      },
+      "restriction_role_errors": {
+        "events": 7,
+        "observedCaseRate": 0.15,
+        "denominator": 40
+      },
+      "benefit_qualifier_loss": {
+        "events": 0,
+        "observedCaseRate": 0.0,
+        "denominator": 40
+      },
+      "primary_classification_errors": {
+        "events": 6,
+        "observedCaseRate": 0.15,
+        "denominator": 40
+      },
+      "cross_campaign_contamination": {
+        "events": 1,
+        "observedCaseRate": 0.025,
+        "denominator": 40
+      },
+      "unstated_year_inference": {
+        "events": 0,
+        "observedCaseRate": 0.0,
+        "denominator": 40
+      }
+    }
+  }
+}

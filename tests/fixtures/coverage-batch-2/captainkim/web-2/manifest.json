@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T03:59:38.815Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://kingdomfood.sg/captain-kim-delivery/",
+      "url": "https://kingdomfood.sg/captain-kim-delivery/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "8b618ac5ee4da1c4aed92994bc4211cd7fd85eb47dd8658b7f590e15653640ef.html",
+      "sha256": "8b618ac5ee4da1c4aed92994bc4211cd7fd85eb47dd8658b7f590e15653640ef",
+      "bytes": 90013,
+      "error": null
+    }
+  ]
+}

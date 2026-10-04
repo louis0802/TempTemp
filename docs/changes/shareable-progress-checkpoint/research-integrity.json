@@ -1,0 +1,56 @@
+{
+  "v1": {
+    "records": 49,
+    "rawSeal": "786ba7d8566ed9d0bd2b11d390c95a58bc9056e033ba4e1c8f0c7170f340181a",
+    "protectedFiles": 113
+  },
+  "v2": {
+    "records": 49,
+    "rawSeal": "f5a7a70afd38085ba1c615833ee913432d452e376726c7bc35e39e0e730b248a",
+    "protectedFiles": 118,
+    "historicalScope": true
+  },
+  "v3": {
+    "segmentation": {
+      "records": 49,
+      "rawSeal": "ae4320c80a46b4c2135934abdb8e976ab3f30c685dda4f02fa7eb29470e73b37"
+    },
+    "extraction": {
+      "records": 78,
+      "rawSeal": "a24a8f92bbf7971832d87b1a13dbb3bd9b331076143396724de6f4af7443d153"
+    }
+  },
+  "v4": {
+    "agents": 228,
+    "protectedFiles": 1358,
+    "captures": 41,
+    "frozenFiles": 16,
+    "seals": {
+      "1": "7e218bb365b99e077cd362765651bfb23c2bdd0b07f5c782f42e7ab94a114f3b",
+      "2": "cad1c9156a27295ac9f811c2712c59cc1e2a38cb10fffe9a42d77636da68ccdb",
+      "3": "4fb9a227fb4a99ce22da85eb22af4c67605654c3df9c2f4d5341d9d37502c172",
+      "4": "f2cddc0e5b54e488cf088fd4ab1fbc061281d095a784ea888cda171bac60d8ef",
+      "5": "2a69b4df356a80680d2eb6968f41e3cbdb78a1584075610802f976b41103b624"
+    }
+  },
+  "oracle": {
+    "agents": 249,
+    "protectedFiles": 1872,
+    "seals": {
+      "a": "7be5f35373de05ffbbf6eb593759947dc3d61d65bcff731771b52f646939b95e",
+      "b": "e3edf85866bb27cf46bce629eff73a4b1f1628006ca6b376372f3a6b1fba71a0",
+      "c": "8779acc3dc61f0caa4d2a4f5036f79d914661c8cafe5d435e540d3f40e3026fb",
+      "d": "ce09ed453aad0e35530e7a4219eef6df9425a14653ba36cae6ffff98bb90a2d7",
+      "e": "bc1ef04d8c031a91b60b7af02b7747453e9fb44ce773b9be934e7653fc9d0b1a"
+    },
+    "benchmarkSha256": "ef7c4b4ef6195e0b0c28f3e62e9f32357dc932bd05f50c65344f80b2e0d7abc7",
+    "oracleProjectionSha256": "2491c0dc57bf3f79d323833a87d77d1a4934032699507564584e2df021d4f765",
+    "scorerSha256": "d9a8168cd22a70e44b20847407f1d841311780fafc203d9064d9dc6e58496b57"
+  },
+  "historicalGeneratedReference": {
+    "file": "next-env.d.ts",
+    "historicalSha256": "0f70629890b72a0a82e91972cc032c04b658b26c265373cb711cf576bfbf8fcc",
+    "currentSha256": "1862ac4bbbc5192d4bf562161df66ea547ed3e67173100656ab606ae9797db2b",
+    "note": "Protected historical next-env.d.ts bytes verified from a temporary saved original. The checkpoint restores HEAD references; study artifacts and baselines remain byte-identical."
+  }
+}

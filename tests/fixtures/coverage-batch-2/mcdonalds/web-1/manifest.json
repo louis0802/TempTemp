@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T03:58:59.277Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://www.mcdonalds.com.sg/",
+      "url": "https://www.mcdonalds.com.sg/",
+      "status": null,
+      "content_type": null,
+      "redirect_to": null,
+      "file": null,
+      "sha256": null,
+      "bytes": 0,
+      "error": "getaddrinfo ENOTFOUND www.mcdonalds.com.sg"
+    }
+  ]
+}

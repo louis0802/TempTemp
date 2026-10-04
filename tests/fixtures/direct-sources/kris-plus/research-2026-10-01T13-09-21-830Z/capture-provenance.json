@@ -1,0 +1,53 @@
+{
+  "merchant": "kris-plus",
+  "limits": {
+    "maxRequests": 40,
+    "maxListingPages": 5,
+    "maxDetailPages": 20,
+    "maxEvidencePages": 8,
+    "maxBytes": 3000000,
+    "timeoutMs": 12000,
+    "maxRedirects": 3
+  },
+  "jobs": [
+    {
+      "url": "https://www.krisplus.com/en/sg/promotions",
+      "purpose": "public campaign directory, load-more and exact links",
+      "kind": "listing"
+    }
+  ],
+  "attempts": [
+    {
+      "url": "https://www.krisplus.com/en/sg/promotions",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    }
+  ],
+  "captures": [
+    {
+      "requestedUrl": "https://www.krisplus.com/en/sg/promotions",
+      "finalUrl": "https://www.krisplus.com/en/sg/promotions",
+      "capturedAt": "2026-10-01T13:09:21.832Z",
+      "observedAt": "2026-10-01T13:09:21.832Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 129759,
+      "sha256": "194c41e0aa8eafdb3c07a7b05b7ed4897d6479946fac8f282afb73a100b38138",
+      "path": "194c41e0aa8eafdb3c07a7b05b7ed4897d6479946fac8f282afb73a100b38138.html",
+      "purpose": "public campaign directory, load-more and exact links",
+      "kind": "listing",
+      "accessBlocked": false
+    }
+  ],
+  "failures": [],
+  "cumulativeCounts": {
+    "listing": 2,
+    "detail": 0,
+    "evidence": 0
+  },
+  "cumulativeAttempts": 2,
+  "note": "Explicit public research roots, ordinary bounded direct transport; no cookies/auth/private APIs/OCR or browser. Research evidence is not production registration."
+}

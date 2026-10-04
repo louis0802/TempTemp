@@ -70,6 +70,9 @@ beforeAll(async () => {
   await testDb.query(
     await readFile("supabase/migrations/001_initial.sql", "utf8"),
   );
+  await testDb.query(
+    await readFile("supabase/migrations/002_direct_sources.sql", "utf8"),
+  );
   process.env.INGEST_DATABASE_URL = `postgres://local_ingest:local-ingest-only@localhost:55432/${database}`;
   process.env.DATABASE_URL = `postgres://local_web:local-web-only@localhost:55432/${database}`;
   process.env.ADMIN_DATABASE_URL = `postgres://local_admin:local-admin-only@localhost:55432/${database}`;
@@ -494,15 +497,19 @@ describe("Deterministic raw pipeline persistence", () => {
         "tastesoulsg",
       ),
     );
-    await processPending(
-      new PromotionPipeline(
-        new PromotionParticipationResolver([], {
-          resolve: async () => {
-            throw new Error("No live geocoding in database tests");
-          },
-        }),
-      ),
+    const pipeline = new PromotionPipeline(
+      new PromotionParticipationResolver([], {
+        resolve: async () => {
+          throw new Error("No live geocoding in database tests");
+        },
+      }),
     );
+    // This archived September campaign audits unresolved outlets at capture time;
+    // an October wall clock legitimately excludes it before outlet resolution.
+    const processAt = pipeline.process.bind(pipeline);
+    pipeline.process = (post) =>
+      processAt(post, DateTime.fromISO("2026-09-16T00:00:00Z"));
+    await processPending(pipeline);
     const candidate = (await testDb.query("SELECT * FROM app.candidates"))
       .rows[0];
     expect(candidate.status).toBe("needs_review");
@@ -522,6 +529,18 @@ describe("Deterministic raw pipeline persistence", () => {
     expect((await testDb.query("SELECT * FROM app.promotions")).rowCount).toBe(
       0,
     );
+    const expired = await processAt(
+      {
+        text: item.source.originalText,
+        publishedAt: item.source.publishedAt,
+        url: item.source.url,
+        label: "Captured historical signal",
+        channel: "tastesoulsg",
+      },
+      DateTime.fromISO("2026-10-01T00:00:00Z"),
+    );
+    expect(expired[0].action).toBe("exclude");
+    expect(expired[0].reasons).toContain("expired_promotion");
   });
   it("publishes fully resolved raw fixtures once and preserves reviewer decisions on parser replay", async () => {
     const { collect } = await import("@/ingestion/service");

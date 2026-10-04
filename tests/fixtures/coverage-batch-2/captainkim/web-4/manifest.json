@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "captured_at": "2026-10-02T04:04:16.450Z",
+  "transport": "public HTTPS GET; identity encoding; no cookies or authentication; no redirects followed",
+  "captures": [
+    {
+      "requested_url": "https://kingdomfood.sg/captain-kim-butchery/",
+      "url": "https://kingdomfood.sg/captain-kim-butchery/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "c828383ee36c3e60926d4c9e6fa93f1277eb1ecc8fa69e892367c662ff386c0b.html",
+      "sha256": "c828383ee36c3e60926d4c9e6fa93f1277eb1ecc8fa69e892367c662ff386c0b",
+      "bytes": 84350,
+      "error": null
+    },
+    {
+      "requested_url": "https://kingdomfood.sg/terms-of-use-privacy-policy/",
+      "url": "https://kingdomfood.sg/terms-of-use-privacy-policy/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_to": null,
+      "file": "362618d80fb209d4ff0b00d25921c5bc47999768960c4a3ae67e54f0c97e879c.html",
+      "sha256": "362618d80fb209d4ff0b00d25921c5bc47999768960c4a3ae67e54f0c97e879c",
+      "bytes": 98469,
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,1548 @@
+{
+  "version": 1,
+  "scope": "Coverage Expansion Batch 2; initial uncommitted work preserved",
+  "self_manifest": "docs/changes/coverage-batch-2/changed-files.json",
+  "self_hash_omitted": true,
+  "files": [
+    {
+      "path": ".local/merchant-source-map/coverage-batch-2-before/merchants.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "ecde81f05bf8760c57c9e5e0fc89160cf1587c37f2636a5969affa697ed33754",
+      "bytes": 291352
+    },
+    {
+      "path": ".local/merchant-source-map/coverage-batch-2-before/report.csv",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "ff02d96673fe8803ee40d84a8f154080a17f4384e1a2f65edf76510a50ad6b11",
+      "bytes": 119185
+    },
+    {
+      "path": ".local/merchant-source-map/coverage-batch-2-before/report.md",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "ef157b491dd2a705e1ea38ec9a95e3262af51328b56b9f885acb2997d8c60799",
+      "bytes": 28988
+    },
+    {
+      "path": ".local/merchant-source-map/coverage-batch-2-initial/merchants.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "fa678bd21b8163856c867a809623c8fa0bae65fb65c6d6d4a034018b393e8ea1",
+      "bytes": 356016
+    },
+    {
+      "path": ".local/merchant-source-map/coverage-batch-2-initial/report.csv",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "fe9c5f483791277fbd72393f72f6b2a4743e9ac7752bb1893940645b0e6be61a",
+      "bytes": 152038
+    },
+    {
+      "path": ".local/merchant-source-map/coverage-batch-2-initial/report.md",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "a35912cdf34bddfde27136feb1b6f7c01714f5e653eab5bb71f2b7ae5ed01a8c",
+      "bytes": 54009
+    },
+    {
+      "path": ".local/merchant-source-map/coverage-batch-2-reviewed/merchants.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "eaffe85e5289d24b3800a30bb11ee542fbf384c51c49d58402bb501a8f352a1a",
+      "bytes": 357206
+    },
+    {
+      "path": ".local/merchant-source-map/coverage-batch-2-reviewed/report.csv",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "cb2fa2db90cc33c94c88c83b62f8046a94276ab2126d629572ae80fe9e798d5e",
+      "bytes": 152956
+    },
+    {
+      "path": ".local/merchant-source-map/coverage-batch-2-reviewed/report.md",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "42bc5814a9fd1a3c83bbb14d6b842ccfb74bc75c195c36423b258be26f331055",
+      "bytes": 54043
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/4fingers-social.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "af89dbf2c3d8b246ce8cf48546deae47a4e4cf2ee042cfc2fedef754a4a255d1",
+      "bytes": 70
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/baseline-merchants.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "ecde81f05bf8760c57c9e5e0fc89160cf1587c37f2636a5969affa697ed33754",
+      "bytes": 291352
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/baseline-report.csv",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "ff02d96673fe8803ee40d84a8f154080a17f4384e1a2f65edf76510a50ad6b11",
+      "bytes": 119185
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/baseline-report.md",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "ef157b491dd2a705e1ea38ec9a95e3262af51328b56b9f885acb2997d8c60799",
+      "bytes": 28988
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/batch-results.md",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "a391b93653051f29e00ad58dda89e3636d16efcda5e1b5689a0e380be5ce8e8e",
+      "bytes": 5660
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/design.md",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "1979b0b35c438658b907e83efc6767f23fd482fe4e7e9ae00937a1f83805a72c",
+      "bytes": 6109
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/details-and-captain-social.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "bdbac78d3d7009d09344e85c801dd30e24d35cea6cf0ece4230eec59cc2675a9",
+      "bytes": 554
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/deterministic-replay-check.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "7930dfc4fff6bed024c7360aa2118dad50c85b16d2a3aa6f0cb38cc05b2a2ca7",
+      "bytes": 1123
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/discovery-roots.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "e09aa62c4433ef37210623d3eaed5df302f90b3a5e9a704521197729a15e31ba",
+      "bytes": 1069
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/identity-review.md",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "3773ed56a8808c82dd654809589da10ba54de537f7ea82fdb7187f881fce8872",
+      "bytes": 1470
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/initial-git-status.txt",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "d0fe1d707c86314d44593f0a0744f89037437ca316f7a85ce70f2a8c6dbd43c0",
+      "bytes": 2528
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/intent.md",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "430010ee188960fd9c3d99678c5db6897365e1dbb0c4004620fc4e9a073d0af2",
+      "bytes": 1053
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/last-followups.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "eda95ee89a93934aceae69484fa74060657ac7ec98aa4fa2afeaa9ced19876a0",
+      "bytes": 391
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/merchants.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "3966a53144f90b0f9bee4ab34719e8859ce9f1dc67f854d318723645af5294c6",
+      "bytes": 357855
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/pizza-fallback.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "cd1c83991b617f72953989bccc6b641750b37bba5b7f52b564eca2452455c302",
+      "bytes": 157
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/plan.md",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "8250059c52f49b25deb997e80d1a8db762e776a065cb8429818a333d3b7e8db8",
+      "bytes": 2521
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/progress-delta.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "9a3f5ad2ddd92829d0691c3fe0b2faf1ea349dd8bc382a5c9b5f680137362a98",
+      "bytes": 13458
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/protected-baseline.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "3c615c26bda0c793e5a0d695164c6049e61f516cb1afda335e49ada84c6c8d9e",
+      "bytes": 1129610
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/protected-evidence-check.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "9d58e10108390da8d177ad1871c9f30a5bbfccf69233e9d41a8558e46e859a51",
+      "bytes": 1030
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/replay.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "8613392f59ef14c5a5549a34811a073a48529f18bce265f75213110c1bb4ff72",
+      "bytes": 202172
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/report.csv",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "32816852fe5cc45406f4dfe88897d89ccfca4ff70916fd1ced22e78c6c164d6b",
+      "bytes": 153898
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/report.md",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "eb627b37a824c0c069b1498b1a299059f627b9a47c2687afcc39c0fc9a271bf6",
+      "bytes": 54265
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/research-ledger.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "fe1ac3528a0b9dae5889c01c9a7d0acc629fa1eaa3cb1afd2d4865ed0bc5d239",
+      "bytes": 67194
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/research.md",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "b6daf429d6040ab5edfc2878d5ab197301e2cc2f8cb9e20c89dc3335d85f1833",
+      "bytes": 19503
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/selection.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "17b4e53aad46f29b11a7b5d8a5bc0882f8a6f26c1d9f05de98ca4f41d1dfe8ad",
+      "bytes": 27574
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/selection.md",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "8125fa9c736ef2fe22e12fec349f13d57c174f002d63cf6d633c46f27e8cbef9",
+      "bytes": 1801
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/social-capture-manifests.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "1de810b38baa8e825a5e54933ec186ab6644d557655694d50b747cb8d67d0d1d",
+      "bytes": 3544
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/social-requests.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "a461ed91f73a4749c549429bfae07239084f63539d379455af43c9c397e30e5b",
+      "bytes": 1071
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/source-decisions.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "54d35246feb349ff94278e024799271a462e6e5dd8333af4307ba45aa62f44ba",
+      "bytes": 34027
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/spec.md",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "560c47518fcda2131ea3f26dc31b032a23f9e6534654395faa40b1f6c274147a",
+      "bytes": 3014
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification-logs/build-complete.log",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "db850c6af9a8d3a900bb4a091f573b82ad9d93e8008c4cbeb64644d25be20875",
+      "bytes": 2767
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification-logs/build-final.log",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "d34e8748b606a6c333360eda58a6912a9ea48864b0158bbe44e53d30245e4272",
+      "bytes": 2767
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification-logs/build.log",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "4ab7eb9656ce7c12c484b78bc10a0894d430d980f6dd81e5e69038ea3b714e3a",
+      "bytes": 2767
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification-logs/corpus.log",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "6acf9e5186fa2398e7139724f95a3195ff263d65f2d4a9bd1a61199ee77f9e3b",
+      "bytes": 427
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification-logs/diff-check.log",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification-logs/final-canonical-input-check.log",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "9c95fba0414d1e531b6ce606e4a2042d061a694260b4f9dae7a889806b3a20d1",
+      "bytes": 393
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification-logs/final-evidence-focused.log",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "31d6f7cc53098aef842abf5092f2044492a21f3de349e9287cb3314b94f4e523",
+      "bytes": 546
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification-logs/focused-existing.log",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "3056504e13f6ab238d8a9e8c075967579a154b997246cd5f8bd6e0822266ac10",
+      "bytes": 1543
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification-logs/format-final-write.log",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "e9bd7c2dba851124599866c8e752d3e9a079772b882e9cbef80f8577dca01dd5",
+      "bytes": 295
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification-logs/format-identity-write.log",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "e8e648c9200bbe29c8969fd9c9fbc7d6b92f364f09735dd49e3400529f41b1c3",
+      "bytes": 87
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification-logs/format-last-write.log",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "714cb1bd8302a52a3aeff8fa300cef4d56d2afa747f1007c7623aac19f91b5dc",
+      "bytes": 126
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification-logs/format-research-write.log",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "300d7404c622769f2aa1b2b80b569648bddd3abf58b06066878ab766a4cafbac",
+      "bytes": 185
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification-logs/format-write.log",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "5d3a6ef1197cfc3fc467934b4ea90f84c5f3ea8135ea89c425956c6b782c8b52",
+      "bytes": 959
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification-logs/generation.log",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "a1dc94851f21475d4fd45545b92645fef972adbd4862f326e2975cd71ecee7c1",
+      "bytes": 2333
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification-logs/identity-final-eslint.log",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification-logs/identity-final-prettier.log",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "17aa973d3f004560237d9a95171210b0671deff23d61628eecf7322ff5938f20",
+      "bytes": 66
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification-logs/integration.log",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "a87bd149b9f652b87c463c518b67ab553e7284972dbf1a46d3f287ac2a69233c",
+      "bytes": 307
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification-logs/lint.log",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "a665e5ffd5166f2ba721f2c3dcadbd8a05aafa9e5e8ad2658d1ebf61e75c7a34",
+      "bytes": 773
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification-logs/new-final-focused.log",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "52195b63c31d45f7a7dcf8eec3c311610cffdf7f381f52122b27525065eabc54",
+      "bytes": 430
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification-logs/new-focused.log",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "185fd19215dbc597f7490fda801ed49af5b7d8e6a05bb41c50c5af09ea6cbcac",
+      "bytes": 1668
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification-logs/scoped-eslint.log",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification-logs/scoped-prettier.log",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "17aa973d3f004560237d9a95171210b0671deff23d61628eecf7322ff5938f20",
+      "bytes": 66
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification-logs/typecheck-complete.log",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "bb6cf1af469533c12d32b4541993c85256514650f7bca62551dfaaf80c179e64",
+      "bytes": 56
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification-logs/typecheck-final.log",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "bb6cf1af469533c12d32b4541993c85256514650f7bca62551dfaaf80c179e64",
+      "bytes": 56
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification-logs/typecheck-verified.log",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "bb6cf1af469533c12d32b4541993c85256514650f7bca62551dfaaf80c179e64",
+      "bytes": 56
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification-logs/typecheck.log",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "bb6cf1af469533c12d32b4541993c85256514650f7bca62551dfaaf80c179e64",
+      "bytes": 56
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification-logs/units-complete.log",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "29e8fd507c6f6d3ced4c4ee33aa6dcfdaeaf46b0acfd57b0c50a769d4b296d00",
+      "bytes": 367
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification-logs/units-final.log",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "36285d165c3e952c1cb13233d25413a420000a4f14aad5acca02f71d007a0102",
+      "bytes": 367
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification-logs/units-verified.log",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "f1ad8119fb0cb716da52d8f9b4711323a40b990918fc9d35ffbfab6aa1746a6f",
+      "bytes": 367
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification-logs/units.log",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "4f43983e53f37d91add795a69480a2bc8f40bf207edb2f484d928f5139d0991a",
+      "bytes": 2753
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification-logs/untracked-diff-check.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "5e0099afde25fef1477e3aaf8fe8c260f283bc093af41fd364750d51b06923c4",
+      "bytes": 42
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/verification.md",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "eaae439d92eea4cbf5bf198d777ddcd7954ee0b7b7e041cdf7900cfe8f067986",
+      "bytes": 17388
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/web-diagnostics.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "2f9e08432b95b4fe7649be75127df731657f9494acbb517e19ffb5f2001b7c77",
+      "bytes": 100039
+    },
+    {
+      "path": "docs/changes/coverage-batch-2/web-followups.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "7890580d47c8f94a95832ecdcedbd43eea5b052c19841a1b2699929ed91f76f4",
+      "bytes": 1186
+    },
+    {
+      "path": "docs/research/merchant-automation-progress.md",
+      "status": "modified",
+      "before_sha256": "ef157b491dd2a705e1ea38ec9a95e3262af51328b56b9f885acb2997d8c60799",
+      "after_sha256": "eb627b37a824c0c069b1498b1a299059f627b9a47c2687afcc39c0fc9a271bf6",
+      "bytes": 54265
+    },
+    {
+      "path": "docs/research/merchant-identity-review.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "e3163c9ee9ef0fb09285e6ea8f2f2dd9ba0f7fa62e9ec8ff4672f02f76c7bcea",
+      "bytes": 972
+    },
+    {
+      "path": "docs/research/merchants.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "3966a53144f90b0f9bee4ab34719e8859ce9f1dc67f854d318723645af5294c6",
+      "bytes": 357855
+    },
+    {
+      "path": "docs/research/report.csv",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "32816852fe5cc45406f4dfe88897d89ccfca4ff70916fd1ced22e78c6c164d6b",
+      "bytes": 153898
+    },
+    {
+      "path": "docs/research/social-source-acquisition-review.json",
+      "status": "modified",
+      "before_sha256": "890cb8ede8f76f70bec019a63062dfe474e3ba7dbba0e6ec5d022cc7ea20fa64",
+      "after_sha256": "4f9c80b3e5337b68c2d996f404578b71b67615cd63c39dd2c17547bdc880ba15",
+      "bytes": 106946
+    },
+    {
+      "path": "docs/research/social-source-authority-review.json",
+      "status": "modified",
+      "before_sha256": "e10ea237807c76b03581972c16510618e30702b2bd07a999aa73d89b4505f736",
+      "after_sha256": "18e2c72f2daeed4773eff6f7213bb5d2ccdfefcda07dd4a86d67d5493273a92e",
+      "bytes": 20774
+    },
+    {
+      "path": "docs/research/social-source-inventory.json",
+      "status": "modified",
+      "before_sha256": "975ebefe39dd25353d9a76d1a836a608ce6c6ccf2d85b6cdf0d6990f22c61ded",
+      "after_sha256": "9a42b5f1e32abe52e0b395fc295d40941e1d225d349aa1761c74cd48083fb320",
+      "bytes": 75808
+    },
+    {
+      "path": "scripts/research/build-merchant-source-map.ts",
+      "status": "modified",
+      "before_sha256": "997e126f73c0ceddeb735fc354e74f562fd801fb2acdaaccbd9f12a9943f6836",
+      "after_sha256": "b332c5fce33f6367a093f2f6abe944f995127413ca7a244bd42d5372ffb7c61b",
+      "bytes": 7668
+    },
+    {
+      "path": "scripts/research/coverage-batch-2.ts",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "f7e1946b78b23982f83b1507a4cc06bfaca0368baa36026325eb370e1d7f23a0",
+      "bytes": 10424
+    },
+    {
+      "path": "scripts/research/merchant-automation-progress.ts",
+      "status": "modified",
+      "before_sha256": "f62d1f3321bfabb3bfd26c8981a150122bfd566e41b97da4db05f7070618560f",
+      "after_sha256": "49cdba4cfb8bc58ca985f0b898daa1e6ea4130d96557a04324ac2718f0f39792",
+      "bytes": 1943
+    },
+    {
+      "path": "scripts/research/merchant-source-map/assessments.ts",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "7abbafdf4f532a5570929f49cbf74d55d112be28ff3df10370dfdb2f041ce5e7",
+      "bytes": 2934
+    },
+    {
+      "path": "scripts/research/merchant-source-map/build.ts",
+      "status": "modified",
+      "before_sha256": "d819e5d40fbd28eb7cebc601ba44eff4f32817d55af1a892f4832f87e341f8df",
+      "after_sha256": "50d2ae41d0ac140821e48796417353afd1fef2a905e80561a1e972943e6b1165",
+      "bytes": 27091
+    },
+    {
+      "path": "scripts/research/merchant-source-map/identity.ts",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "976259c9cbdd805351e055cdc1d2e396d05bf73f1e1ab7a1d1f24a0fc0aa5d70",
+      "bytes": 3329
+    },
+    {
+      "path": "scripts/research/social-sources/inventory.ts",
+      "status": "modified",
+      "before_sha256": "a08ceab12451ea57c1cec44d42402280058b3c24eee426ebe24ac0e78a9e0f4a",
+      "after_sha256": "fd11d1c0f5d82c6abb9bd447f9856f192a06cb47a1b5cac5524fd31d9c817026",
+      "bytes": 13852
+    },
+    {
+      "path": "scripts/research/social-sources/read.ts",
+      "status": "modified",
+      "before_sha256": "6b25d9c1a5001c82d37c0a8c6d943df47399b8a94232283ff91a6a2fc2b00172",
+      "after_sha256": "2b439e0531c8354edc25414bd34cfb8836dc2d5ba961c9b3e15bfe40337ee244",
+      "bytes": 10493
+    },
+    {
+      "path": "scripts/research/social-sources/resolution.ts",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "abb9000146f3befabc68a0cf36bb9e85f8e61e4edc5b9de7694397e5406f155b",
+      "bytes": 3694
+    },
+    {
+      "path": "src/ingestion/direct-sources/adapters/coverage-batch-2.ts",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "995734210706455ca1e482e666481964588fd825f04dbe2f77a39f7b86d602a2",
+      "bytes": 16881
+    },
+    {
+      "path": "src/ingestion/direct-sources/coverage-batch-2-definitions.ts",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "89539dd8f39fda2109fb18c93c9c727af6015bf41e84812167a41d748adcfc1b",
+      "bytes": 3080
+    },
+    {
+      "path": "src/ingestion/direct-sources/registry.ts",
+      "status": "modified",
+      "before_sha256": "c82d430682f4863c3d99c41886ed20c3282c74e83f87add27ff4540edf835dba",
+      "after_sha256": "01a3ad4a7ad08780459f2398187ca8189afdbd55f2cfadab9ee58cae2f6fde50",
+      "bytes": 9933
+    },
+    {
+      "path": "src/ingestion/direct-sources/types.ts",
+      "status": "modified",
+      "before_sha256": "29447bab08bfbb1c7545ea4cb8fc853b2875bd0b6785554d6371d6f11a86603a",
+      "after_sha256": "a53ff3c520b0ae4bbe8197c4401b73c08f528caa93422475d6698347bce97b47",
+      "bytes": 6660
+    },
+    {
+      "path": "tests/coverage-batch-2.test.ts",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "3036b4b25397181710e02fe6cec825dc79c027ab22ddd059a441aeebb130b03b",
+      "bytes": 19869
+    },
+    {
+      "path": "tests/direct-source-adapters.test.ts",
+      "status": "modified",
+      "before_sha256": "a7744a3e544d39d3cbf75d7d227cdead710f67840caee15790c3b5a90e8ec8e7",
+      "after_sha256": "0432790d179d359352af2faf24dee81304c942a5610550f65adade66d0392741",
+      "bytes": 29909
+    },
+    {
+      "path": "tests/direct-source-batch-1.test.ts",
+      "status": "modified",
+      "before_sha256": "f884eb15df4ba2193c951cbbf500ddf90eba2644571fc716e69c1535d64df26c",
+      "after_sha256": "f474f236c39514352d239f3f0bac588af2ea815ec87fb59311ef0c313ba5ca33",
+      "bytes": 28603
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/4fingers/social-2/c42798ae973373bd89c1ae6460b5bd5d05fc2465a46138bb5f617180b733db71.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "c42798ae973373bd89c1ae6460b5bd5d05fc2465a46138bb5f617180b733db71",
+      "bytes": 855264
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/4fingers/social-2/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "4086e7469e19f2dbd1b35c4669aa91c2ee4ddbf9e37705491b08cf9fd7962319",
+      "bytes": 644
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/4fingers/web-1/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "4b93a1c55b8e6e9c53af1ea0ead7f40a4605e2868b150550283f041bce872905",
+      "bytes": 829
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/4fingers/web-2/e5ad4aafed92193d51d8cd04daa8a7c0e1e68b24950d70341f15f207c397c9f3.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "e5ad4aafed92193d51d8cd04daa8a7c0e1e68b24950d70341f15f207c397c9f3",
+      "bytes": 9019
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/4fingers/web-2/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "8e54dc41d1ae26132494bcb951595a0b05340decaaea6837b217d52b359aa367",
+      "bytes": 1027
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/4fingers/web-4/47ac77f54b7348d8cfc65b80f41cd21c5488b49c67e84565a16aebdbe0f3b650.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "47ac77f54b7348d8cfc65b80f41cd21c5488b49c67e84565a16aebdbe0f3b650",
+      "bytes": 118107
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/4fingers/web-4/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "49a20ac66a8e7ca935b89b929665100b36d4cc262d98003005a08d22677a16db",
+      "bytes": 649
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/baribaristeak/details-1/097778673c44362321b42227eba1d9c53dfaad79e0f834b2517567d08a655249.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "097778673c44362321b42227eba1d9c53dfaad79e0f834b2517567d08a655249",
+      "bytes": 257021
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/baribaristeak/details-1/4bcb6a6499426f9d69dca10894daf41ea29a43c0e645714115d1c6596156f54d.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "4bcb6a6499426f9d69dca10894daf41ea29a43c0e645714115d1c6596156f54d",
+      "bytes": 257697
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/baribaristeak/details-1/cfbc6a505bc1159aa6731660ac52e83e9f898d65919ce05aa5a76eec0a5d1d8d.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "cfbc6a505bc1159aa6731660ac52e83e9f898d65919ce05aa5a76eec0a5d1d8d",
+      "bytes": 255752
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/baribaristeak/details-1/d314f832ff5d18d0a055b8e817003024d4159b8c43bba1b463b2a6e040ea384d.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "d314f832ff5d18d0a055b8e817003024d4159b8c43bba1b463b2a6e040ea384d",
+      "bytes": 254624
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/baribaristeak/details-1/f3ff5737e3b253f7d47bb2b9ce96b514a6f56d9093f9e0278fa855118d560480.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "f3ff5737e3b253f7d47bb2b9ce96b514a6f56d9093f9e0278fa855118d560480",
+      "bytes": 257133
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/baribaristeak/details-1/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "61e90da81f08b82a5d24e7784140488e9d99d6efe6d3da478b9a1484df932864",
+      "bytes": 2870
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/baribaristeak/replay-manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "e6b2a505c118941fd432ea5d03554c4e5af738f4c410b7d9b114af3ba94049ab",
+      "bytes": 2108
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/baribaristeak/social-1/1333510ba88ff6c2a335cc9ebde4d31dbd43ff81b66f734d674665b5a5dd54a0.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "1333510ba88ff6c2a335cc9ebde4d31dbd43ff81b66f734d674665b5a5dd54a0",
+      "bytes": 831139
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/baribaristeak/social-1/5cf40ec5139d7ad83e9cf5ef0ba9243d870508a74651d9ce02996112ea18c4d4.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "5cf40ec5139d7ad83e9cf5ef0ba9243d870508a74651d9ce02996112ea18c4d4",
+      "bytes": 566556
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/baribaristeak/social-1/bc8c8df9ac5ee6d31573e1a4dfff4e040f86733afc66759e3703f0605ea08b38.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "bc8c8df9ac5ee6d31573e1a4dfff4e040f86733afc66759e3703f0605ea08b38",
+      "bytes": 905774
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/baribaristeak/social-1/d1b506418caa115d5ce6a391477d1ad9c0f6eb910f3a6a8b26920297d897d5df.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "d1b506418caa115d5ce6a391477d1ad9c0f6eb910f3a6a8b26920297d897d5df",
+      "bytes": 859661
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/baribaristeak/social-1/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "c0d94f0c1583b85cc237cdd7b40f790e301822a29e6dc77580e299e6b72c5e7c",
+      "bytes": 2019
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/baribaristeak/web-1/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "de2d130ed61fbaa4265abf66a4c3abe4d9888989bde6a7fc03d502574cacd24d",
+      "bytes": 835
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/baribaristeak/web-2/79c87087e93cdfeeca487eca183a19329f268dfe357830af0e79e348bae8ac63.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "79c87087e93cdfeeca487eca183a19329f268dfe357830af0e79e348bae8ac63",
+      "bytes": 140394
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/baribaristeak/web-2/d22a4cf20300796172cb0e7a062d28afec424dd6eb5e4ee03f8279491d91deba.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "d22a4cf20300796172cb0e7a062d28afec424dd6eb5e4ee03f8279491d91deba",
+      "bytes": 163874
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/baribaristeak/web-2/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "dad30a08980d5ee72e532a7a5c848e7cf35f8f7723a0aef99851b0893295ec26",
+      "bytes": 1065
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/baribaristeak/web-3/3b4ba27215b0eb62b972b74d8d85aa8f4c4fab08008dfe6242f58828c4bbd0c4.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "3b4ba27215b0eb62b972b74d8d85aa8f4c4fab08008dfe6242f58828c4bbd0c4",
+      "bytes": 74391
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/baribaristeak/web-3/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/baribaristeak/web-3/f9c13ab276bf44b6f229f66004f7b6e8d47e75b2255d2879149f6ca8ad1aab5b.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "f9c13ab276bf44b6f229f66004f7b6e8d47e75b2255d2879149f6ca8ad1aab5b",
+      "bytes": 166075
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/baribaristeak/web-3/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "1afe2b08cda10e3b77e04a02fa2ea5a166b5e0b1c0b3521ec3ae4fb51783d636",
+      "bytes": 1529
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/baribaristeak/web-4/0fc412a5f25e4c8882c1edb632b8cdd7b28a693d0a29ab96c83046190b5ad259.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "0fc412a5f25e4c8882c1edb632b8cdd7b28a693d0a29ab96c83046190b5ad259",
+      "bytes": 178661
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/baribaristeak/web-4/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "e878405d543b465dedfc04706132f98be299222d55eba83bdbd92b03c94d5a1f",
+      "bytes": 606
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/captainkim/details-1/78b3eb3f344239173d26bc6df0730d64b2716d055b7bf14bb7cdc6aba50b42e5.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "78b3eb3f344239173d26bc6df0730d64b2716d055b7bf14bb7cdc6aba50b42e5",
+      "bytes": 856054
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/captainkim/details-1/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "8fd7d351e75fa5684c2a870f62b2fd819d616fdc15bc79bc16fe0b54c5a5be66",
+      "bytes": 642
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/captainkim/replay-manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "ed1297b4de750355b4b283776eb3d98213b69c8ed9bce73ec1b8b88b7132ce9e",
+      "bytes": 1336
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/captainkim/web-1/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "57322ca588e0594283b43dfdc3205c7057a4fbab669beab651d281d3c11d05e1",
+      "bytes": 527
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/captainkim/web-2/8b618ac5ee4da1c4aed92994bc4211cd7fd85eb47dd8658b7f590e15653640ef.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "8b618ac5ee4da1c4aed92994bc4211cd7fd85eb47dd8658b7f590e15653640ef",
+      "bytes": 90013
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/captainkim/web-2/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "0a0e12bb4fd196b22ea3305417efe4727920d022a5887a7307b54f7bfa3489d3",
+      "bytes": 647
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/captainkim/web-3/120959aa1afdd8b95bf2e8702eca6987a151423e90a2d5f189ed37fd900de10a.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "120959aa1afdd8b95bf2e8702eca6987a151423e90a2d5f189ed37fd900de10a",
+      "bytes": 121812
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/captainkim/web-3/6e650be7043e1984a739e8c9abfe268c782b3267bc47a2c871b144778d6e81c6.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "6e650be7043e1984a739e8c9abfe268c782b3267bc47a2c871b144778d6e81c6",
+      "bytes": 119126
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/captainkim/web-3/72684ad8295765a2e48a379c46a5293676a8e8193e48d00b2fbf8c6fcf8ec68b.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "72684ad8295765a2e48a379c46a5293676a8e8193e48d00b2fbf8c6fcf8ec68b",
+      "bytes": 77861
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/captainkim/web-3/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "eb4a66039661fb018bddecf98d86fba8379caf7f0a3ab972295070dddfc95e78",
+      "bytes": 1595
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/captainkim/web-4/362618d80fb209d4ff0b00d25921c5bc47999768960c4a3ae67e54f0c97e879c.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "362618d80fb209d4ff0b00d25921c5bc47999768960c4a3ae67e54f0c97e879c",
+      "bytes": 98469
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/captainkim/web-4/c828383ee36c3e60926d4c9e6fa93f1277eb1ecc8fa69e892367c662ff386c0b.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "c828383ee36c3e60926d4c9e6fa93f1277eb1ecc8fa69e892367c662ff386c0b",
+      "bytes": 84350
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/captainkim/web-4/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "8b78d518cd345c74f414bf444de11f6e0d7fdef12a6f49dcbc0d8dd923970cf7",
+      "bytes": 1117
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/gelare/social-1/664aad7a1e6a49b9198d5cc8bcc8f2d2c1cfc32cd2d14adca24d1fd9885c9584.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "664aad7a1e6a49b9198d5cc8bcc8f2d2c1cfc32cd2d14adca24d1fd9885c9584",
+      "bytes": 861614
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/gelare/social-1/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "d46f75056d2831fb613ad50853462bd46527c410ddc82c43750c44b1d18442af",
+      "bytes": 634
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/gelare/web-1/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "03b4aeeca8e1dce518a748ed2cb9cdb3b6ce4e0c7c7257564ebe94f6a8cad7ce",
+      "bytes": 819
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/gelare/web-2/021a0465574a275cabfdb890ad4330f5d3a9610e82b6e6b65859df83eb428be6.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "021a0465574a275cabfdb890ad4330f5d3a9610e82b6e6b65859df83eb428be6",
+      "bytes": 53946
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/gelare/web-2/58c4fd4a7dc4ccb4b22d6abf02312418422ce7a72e6f5b056c59eb7b45e01ba8.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "58c4fd4a7dc4ccb4b22d6abf02312418422ce7a72e6f5b056c59eb7b45e01ba8",
+      "bytes": 50046
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/gelare/web-2/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "66b2a6dd66b4008d21fda9a97a4eb522c25d9a5354ef29d5651c7e74aae3c9ea",
+      "bytes": 1053
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/gelare/web-3/6eebb53518573136c6321ab1ad517341856f15e21eb175035c3155e258113bab.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "6eebb53518573136c6321ab1ad517341856f15e21eb175035c3155e258113bab",
+      "bytes": 62698
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/gelare/web-3/abfa93a7edfe21f1234a8ac19a9cd13046725a1df4274e43574aa92715ec89ea.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "abfa93a7edfe21f1234a8ac19a9cd13046725a1df4274e43574aa92715ec89ea",
+      "bytes": 74615
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/gelare/web-3/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "3d8a2015fe25cf7f877f124b1e3ee421c38272565d8a15d6ac9b73bd4ba0fbf1",
+      "bytes": 1073
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/keikaisendon/social-1/a21d6c9fe84f081050dbf1f5a2836195698f23e0abeaf512c224a01283a5a101.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "a21d6c9fe84f081050dbf1f5a2836195698f23e0abeaf512c224a01283a5a101",
+      "bytes": 825799
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/keikaisendon/social-1/da472c095863a50465185024f1997f1bf85edb32402c401c16aa8ee79206e433.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "da472c095863a50465185024f1997f1bf85edb32402c401c16aa8ee79206e433",
+      "bytes": 637076
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/keikaisendon/social-1/e376e6c59bb1777b5c50ad1ca78fe9d270649c98af2b022c6d5444d2e353e2c3.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "e376e6c59bb1777b5c50ad1ca78fe9d270649c98af2b022c6d5444d2e353e2c3",
+      "bytes": 637070
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/keikaisendon/social-1/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "9f425bee801cfb5d7ccab9df87a7365f9631c2fe18584ee27007e4c6158edc4c",
+      "bytes": 1548
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/keikaisendon/web-1/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "b590eef7f2fd62e6e1971c06566cb05558960a2bd894839c376fef7439faa615",
+      "bytes": 503
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/keikaisendon/web-2/e1032fe612f65b385131f603ed0cb423ce28a4334c5f1f7c9fa97a336e6fc833.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "e1032fe612f65b385131f603ed0cb423ce28a4334c5f1f7c9fa97a336e6fc833",
+      "bytes": 342797
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/keikaisendon/web-2/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "83b05695b0abc13247764ed4a2bb74ee8067235fb766d475ffeea76cfc90f686",
+      "bytes": 618
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/keikaisendon/web-3/402c5b9f32b689bd5e7d210678ae1c36b3bfb52ec0f932a314f2bc69b42c1372.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "402c5b9f32b689bd5e7d210678ae1c36b3bfb52ec0f932a314f2bc69b42c1372",
+      "bytes": 209021
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/keikaisendon/web-3/8f6c7a41af67ec7025fec41943a5cdd8c34940b6734456caa1d5d7a7eb82c5c5.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "8f6c7a41af67ec7025fec41943a5cdd8c34940b6734456caa1d5d7a7eb82c5c5",
+      "bytes": 100385
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/keikaisendon/web-3/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "95e8de56f81c4036bc8224d536e40e5c3ee2afcb7b3c36117356910b7a862a8f",
+      "bytes": 1095
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/kimpsonstable/social-1/831a973d97d6d3b11c35b8297a0df1a3b1d4bae221261a3972f42e9f85ef07d5.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "831a973d97d6d3b11c35b8297a0df1a3b1d4bae221261a3972f42e9f85ef07d5",
+      "bytes": 636782
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/kimpsonstable/social-1/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "fc10079b2f34877374d792b5811b65da6ad6440110743e4d871645d5ced781df",
+      "bytes": 644
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/kimpsonstable/web-1/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "ec7c0db91b135160418cbdf956b75011d2f440520e2a045193e54f04dfe9e80e",
+      "bytes": 888
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/kimpsonstable/web-2/5ebe676dbeaa12f72cd25a91550900be753c44f61247237c5f34aa104ea3a023.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "5ebe676dbeaa12f72cd25a91550900be753c44f61247237c5f34aa104ea3a023",
+      "bytes": 57391
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/kimpsonstable/web-2/b37392b1d7310db5181b1f41ef1c1547448892dcc0b4ac4ee6e8c8621c56c8d1.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "b37392b1d7310db5181b1f41ef1c1547448892dcc0b4ac4ee6e8c8621c56c8d1",
+      "bytes": 221062
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/kimpsonstable/web-2/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "4af20326575a1048e3cfe46243d9276916d4a4cc470785fa96c0cb14683352a7",
+      "bytes": 1110
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/mcdonalds/replay-manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "c71d4b75cec152a09da2acce94353c87ba7329d944616ada9e0d14e24e1bdd94",
+      "bytes": 1276
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/mcdonalds/social-1/6f679128edcf08ee10c55840bf03ba8432b0070b359f9a99ed202ca704e050e3.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "6f679128edcf08ee10c55840bf03ba8432b0070b359f9a99ed202ca704e050e3",
+      "bytes": 831854
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/mcdonalds/social-1/a109165630e778eb62e139931f035477362c673052d5dd21e8254e76e2a8a24a.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "a109165630e778eb62e139931f035477362c673052d5dd21e8254e76e2a8a24a",
+      "bytes": 834311
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/mcdonalds/social-1/d7d7a65d56ead1713179985ca74cfe4f6f9656c167441f8895cf3f1ff5941366.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "d7d7a65d56ead1713179985ca74cfe4f6f9656c167441f8895cf3f1ff5941366",
+      "bytes": 878218
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/mcdonalds/social-1/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "f1aa78fcda3b7ded4d20a76fab3d2a71301c9384464f24694ad10ae2cda6a237",
+      "bytes": 1534
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/mcdonalds/web-1/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "8cd0de8618f3d857333d9aa9b404046ca1d28b778206d02a24c70bcb49f3393e",
+      "bytes": 503
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/mcdonalds/web-2/11f7859b2408eca383a51a7372a7d63e1df9ddeec62e17c61f6ec61df5b6b646.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "11f7859b2408eca383a51a7372a7d63e1df9ddeec62e17c61f6ec61df5b6b646",
+      "bytes": 54627
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/mcdonalds/web-2/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "ea12ed918e6d00f7a69ab8accb0feee4b75b421e18553e5956ffeee1840c6d06",
+      "bytes": 617
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/mcdonalds/web-3/19ac06173d7d29ae9b7277f205eb2e5dc432de50e355effe914ffea674b4d656.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "19ac06173d7d29ae9b7277f205eb2e5dc432de50e355effe914ffea674b4d656",
+      "bytes": 40434
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/mcdonalds/web-3/1b43d32ad515bd9bc8cb45f72fcdc2f42d04778e0242cbb9e01f5a21bfb448cc.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "1b43d32ad515bd9bc8cb45f72fcdc2f42d04778e0242cbb9e01f5a21bfb448cc",
+      "bytes": 31521
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/mcdonalds/web-3/60407a76d68cbda64864824f505940444dd6ed069988b8b67068c559c8e74e73.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "60407a76d68cbda64864824f505940444dd6ed069988b8b67068c559c8e74e73",
+      "bytes": 38086
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/mcdonalds/web-3/a54044c7fbfa91d7cd4f4c7cbe39f0b7477bf80eda609ca219d23b94f990815a.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "a54044c7fbfa91d7cd4f4c7cbe39f0b7477bf80eda609ca219d23b94f990815a",
+      "bytes": 38259
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/mcdonalds/web-3/fb51fc3b7a19219bb5ffecb12c0e4d2947d756ceea4a1f4c99bb082284cd5c43.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "fb51fc3b7a19219bb5ffecb12c0e4d2947d756ceea4a1f4c99bb082284cd5c43",
+      "bytes": 27857
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/mcdonalds/web-3/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "9162637672a4ec3e0093116f780bb315e1f9967e15a8ac33bf05803d9c0ae294",
+      "bytes": 2429
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/moreyogurt/web-1/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "42bc1e1f6f8c9ba04d3f42351d2cfea2ec6b54c22c23a4754b3dec17255e7adc",
+      "bytes": 900
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/moreyogurt/web-2/174c87fc940258ec62aa20a47c433550d0bed353362a952661368a512b8d1865.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "174c87fc940258ec62aa20a47c433550d0bed353362a952661368a512b8d1865",
+      "bytes": 234652
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/moreyogurt/web-2/53fe8424656c861835ab0a687dc5e58b66eff52b910869687db3acce0f829318.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "53fe8424656c861835ab0a687dc5e58b66eff52b910869687db3acce0f829318",
+      "bytes": 17144
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/moreyogurt/web-2/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "d3236ddc378cfc535ea5b89de6e8d8fe63feb21e0ff5f17256d749f99d19725a",
+      "bytes": 1123
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/moreyogurt/web-3/3c29c364cdb8e142e0230eac40cc4ee42d431bca2070e8332e18dc140dad6ad7.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "3c29c364cdb8e142e0230eac40cc4ee42d431bca2070e8332e18dc140dad6ad7",
+      "bytes": 12325
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/moreyogurt/web-3/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "1cc83a6dc063d1e1cca07e15c93d9334e0caa76684dd630c5d129dffa87a2a61",
+      "bytes": 635
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/pizzahut/social-1/f462499a81700beab0d23b0b60a80156836dc0bb12051042d5e5679df88d09a3.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "f462499a81700beab0d23b0b60a80156836dc0bb12051042d5e5679df88d09a3",
+      "bytes": 924751
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/pizzahut/social-1/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "91657bc0de065123a0f4ba2c27ed804d1da18f24a55e89037249e33897bf23db",
+      "bytes": 644
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/pizzahut/web-1/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "159d56c7a6c2267c275b72a19d7e084a4e429d557d81cadd63967c193618dacf",
+      "bytes": 500
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/pizzahut/web-2/567678567cb0b0995127c359ce8348522bdec59d5872ca45bfaa7e85dbc48ffa.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "567678567cb0b0995127c359ce8348522bdec59d5872ca45bfaa7e85dbc48ffa",
+      "bytes": 6906
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/pizzahut/web-2/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "7fb57938e4f0563db5952ec9435bdff9edfc243c4099495ecf75711903e8c1c0",
+      "bytes": 599
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/pizzahut/web-4/d0542ee2fdd7697614e285cb09fc0c960bfd6faf8740527c3bd80a7ecc735d1e.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "d0542ee2fdd7697614e285cb09fc0c960bfd6faf8740527c3bd80a7ecc735d1e",
+      "bytes": 867694
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/pizzahut/web-4/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "ec5d4120669b8bd6e261a6388f5fe38024505e4d71f0eca18a159aeda4d2ee95",
+      "bytes": 974
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/pizzahut/web-5/567678567cb0b0995127c359ce8348522bdec59d5872ca45bfaa7e85dbc48ffa.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "567678567cb0b0995127c359ce8348522bdec59d5872ca45bfaa7e85dbc48ffa",
+      "bytes": 6906
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/pizzahut/web-5/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "29d8ad7f6eeb7c23ec64c76857ce95bc0c4a95b00cdb6be380fbe864ff750f93",
+      "bytes": 1467
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/shiokburger/social-1/8da7dc7b15faf4b9bebc9de5445814cb96de35c0ad05092570f006df65b08f72.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "8da7dc7b15faf4b9bebc9de5445814cb96de35c0ad05092570f006df65b08f72",
+      "bytes": 846270
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/shiokburger/social-1/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "e2dd1bbf95e98f34897f290260e08449cb7f5173a8e125991ce40f80bb4b6593",
+      "bytes": 646
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/shiokburger/web-1/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "9335e831b4dd43dd1da9bf01659b0f6b7abd45d3dcb5f5c32c4fedbae63e342c",
+      "bytes": 500
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/shiokburger/web-2/cc634a597d17ddf5df37e00eb8eed0f1da9f4704aacfb43120add775d32f8f14.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "cc634a597d17ddf5df37e00eb8eed0f1da9f4704aacfb43120add775d32f8f14",
+      "bytes": 962129
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/shiokburger/web-2/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "4f4722c9b75bed52408907e2bf4b5127cb7fee1b8fb398d1d72a76e935bbd565",
+      "bytes": 616
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/sushiro/replay-manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "3523269285ad705f8b7cdb8c61dd9281d94c6cb44425f5c787871fd4eeb755af",
+      "bytes": 898
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/sushiro/social-1/5ecdbe8d83dfd14558d264833b37d675ade5fbe0b703ed86eb3b86bdddb05a2d.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "5ecdbe8d83dfd14558d264833b37d675ade5fbe0b703ed86eb3b86bdddb05a2d",
+      "bytes": 900025
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/sushiro/social-1/c53962cf6ffab321fa51f3fbe22c7f46c667464fa94a9b1528c986c26a0357b3.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "c53962cf6ffab321fa51f3fbe22c7f46c667464fa94a9b1528c986c26a0357b3",
+      "bytes": 877127
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/sushiro/social-1/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "64f1d7440b68ce6c1f3fc6875e16aa4b510d732ff4493ce27e812a3954bb11ae",
+      "bytes": 1103
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/sushiro/web-1/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "d4bd11428cd081dbab0b05697ec87415e296c42c52ab3394cc1f61b04a64f461",
+      "bytes": 849
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/sushiro/web-2/a29f69c6bb4056fc8d5b542b510982e3f67bea9e3cdbc47aba6c4dfb9c46227e.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "a29f69c6bb4056fc8d5b542b510982e3f67bea9e3cdbc47aba6c4dfb9c46227e",
+      "bytes": 329697
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/sushiro/web-2/d2a36725711a67a56fcd8b4e0900e35a1f069ed0bd69e1d23147cb2462c7201c.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "d2a36725711a67a56fcd8b4e0900e35a1f069ed0bd69e1d23147cb2462c7201c",
+      "bytes": 152638
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/sushiro/web-2/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "bfb17b0bb12361891e1cd3eef57a8a908b2f20c3bdd47ed8d3625002188b9b81",
+      "bytes": 1083
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/sushiro/web-3/6efacde0d6bf8f16f6cc01505b9cb643ea797bed376372cf5e274090edb2a1e4.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "6efacde0d6bf8f16f6cc01505b9cb643ea797bed376372cf5e274090edb2a1e4",
+      "bytes": 158173
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/sushiro/web-3/7b7d5120c91d45284ce565f841fcbfab8c606e39fdc06e03a6b02fd526676733.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "7b7d5120c91d45284ce565f841fcbfab8c606e39fdc06e03a6b02fd526676733",
+      "bytes": 144490
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/sushiro/web-3/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "3374adac88098bd7adcaf51ffb5750c2800c3b181eed9b045e6857236a27d5cd",
+      "bytes": 1131
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/social-1/06ea06f1a7ea344e052faac1a481ca090bebb22762a47aa4703a2ec0648f6b56.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "06ea06f1a7ea344e052faac1a481ca090bebb22762a47aa4703a2ec0648f6b56",
+      "bytes": 823597
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/social-1/5243f9859f567961da82945a0190ca0f371f42b189afc59d9ae4a9f659cec15c.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "5243f9859f567961da82945a0190ca0f371f42b189afc59d9ae4a9f659cec15c",
+      "bytes": 847488
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/social-1/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "f43b956918499b68368ca02ba505c1978ebcabcd886e63e997d41751262ecdc0",
+      "bytes": 1095
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/web-1/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "ccffdea217138d9319b352b6d0920ac3e73a1a6cf4b9e064c1a1fd43ddb62148",
+      "bytes": 506
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/web-2/bd9425f9c29eeb5a55e744d7a630ff199259b301ef99dfe05aff22a87ba87a19.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "bd9425f9c29eeb5a55e744d7a630ff199259b301ef99dfe05aff22a87ba87a19",
+      "bytes": 140129
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/web-2/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "5562a8352e6d01ce504503a5a4ac13eb05078c3e4194cedf27961884c27a765d",
+      "bytes": 620
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/web-3/79401a6e2e16b35007c275b055abd2c79127176daaa1f7023c54ca6b73d6ccd9.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "79401a6e2e16b35007c275b055abd2c79127176daaa1f7023c54ca6b73d6ccd9",
+      "bytes": 108931
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/web-3/da0075fbddc8601ecab2b93b1c76cbf8ca9c50431003f4205b034b25dd94e6ec.html",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "da0075fbddc8601ecab2b93b1c76cbf8ca9c50431003f4205b034b25dd94e6ec",
+      "bytes": 696670
+    },
+    {
+      "path": "tests/fixtures/coverage-batch-2/thecoffeebeantealeaf/web-3/manifest.json",
+      "status": "added",
+      "before_sha256": null,
+      "after_sha256": "8707f85379211ef35ec0140c20a3338b95a379431d430c81e99cd7cf277c4227",
+      "bytes": 1107
+    },
+    {
+      "path": "tests/merchant-automation-progress.test.ts",
+      "status": "modified",
+      "before_sha256": "2b692fb7b2bdc00d8e9b66a2b3783b440491b53e769b98ba39236c53edfdfe99",
+      "after_sha256": "134306827ab4d567bd226b7626e1224d779570b8abed1f4b0c3b138030072bc3",
+      "bytes": 7752
+    },
+    {
+      "path": "tests/merchant-source-map.test.ts",
+      "status": "modified",
+      "before_sha256": "d3794a066dc596404e7268dc0f8b496d890171a7d67658fbff03e5b9fb67ac09",
+      "after_sha256": "970529895a0c0cda3ba28c1eb60140dc77245d630b061a1a5f8b1ca3cedb55ca",
+      "bytes": 10125
+    },
+    {
+      "path": "tests/social-source-research.test.ts",
+      "status": "modified",
+      "before_sha256": "956e6274f37db4f4d24a3001a4ecc38b4f2a98ee0082dc2a32dd4fbda2f396d0",
+      "after_sha256": "d3ca959515c42abd90de35808a541a84d62265a3e685ae82753bd240810c642e",
+      "bytes": 17137
+    }
+  ]
+}

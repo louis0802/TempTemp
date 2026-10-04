@@ -1,0 +1,15 @@
+{
+  "observedAt": "2026-10-01T13:09:22.240Z",
+  "pages": {
+    "https://www.dianxiaoer.com.sg/promo": {
+      "path": "d4de82a67f34a0dc549401a6d3f64c2abad8769835399d93b54ae613ebd2d2d9.html",
+      "status": 200,
+      "contentType": "text/html"
+    },
+    "https://www.dianxiaoer.com.sg/": {
+      "path": "0e35a158011a8906f5d11f547692d4b68198b04777366af5d01ddbcc3ba02d6f.html",
+      "status": 200,
+      "contentType": "text/html"
+    }
+  }
+}

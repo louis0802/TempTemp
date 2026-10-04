@@ -1,0 +1,80 @@
+{
+  "merchant": "dian-xiao-er",
+  "limits": {
+    "maxRequests": 40,
+    "maxListingPages": 5,
+    "maxDetailPages": 20,
+    "maxEvidencePages": 8,
+    "maxBytes": 3000000,
+    "timeoutMs": 12000,
+    "maxRedirects": 3
+  },
+  "jobs": [
+    {
+      "url": "https://www.dianxiaoer.com.sg/promo",
+      "purpose": "Wix gallery campaign/card/lightbox boundary",
+      "kind": "listing"
+    },
+    {
+      "url": "https://www.dianxiaoer.com.sg/",
+      "purpose": "operator navigation, legal and contact identity",
+      "kind": "evidence"
+    }
+  ],
+  "attempts": [
+    {
+      "url": "https://www.dianxiaoer.com.sg/promo",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    },
+    {
+      "url": "https://www.dianxiaoer.com.sg/",
+      "relation": "listing",
+      "parentUrl": null,
+      "status": 200,
+      "error": null,
+      "redirectTo": null
+    }
+  ],
+  "captures": [
+    {
+      "requestedUrl": "https://www.dianxiaoer.com.sg/promo",
+      "finalUrl": "https://www.dianxiaoer.com.sg/promo",
+      "capturedAt": "2026-10-01T13:09:22.240Z",
+      "observedAt": "2026-10-01T13:09:22.240Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 463377,
+      "sha256": "d4de82a67f34a0dc549401a6d3f64c2abad8769835399d93b54ae613ebd2d2d9",
+      "path": "d4de82a67f34a0dc549401a6d3f64c2abad8769835399d93b54ae613ebd2d2d9.html",
+      "purpose": "Wix gallery campaign/card/lightbox boundary",
+      "kind": "listing",
+      "accessBlocked": true
+    },
+    {
+      "requestedUrl": "https://www.dianxiaoer.com.sg/",
+      "finalUrl": "https://www.dianxiaoer.com.sg/",
+      "capturedAt": "2026-10-01T13:09:27.234Z",
+      "observedAt": "2026-10-01T13:09:27.234Z",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 522080,
+      "sha256": "0e35a158011a8906f5d11f547692d4b68198b04777366af5d01ddbcc3ba02d6f",
+      "path": "0e35a158011a8906f5d11f547692d4b68198b04777366af5d01ddbcc3ba02d6f.html",
+      "purpose": "operator navigation, legal and contact identity",
+      "kind": "evidence",
+      "accessBlocked": true
+    }
+  ],
+  "failures": [],
+  "cumulativeCounts": {
+    "listing": 1,
+    "detail": 0,
+    "evidence": 1
+  },
+  "cumulativeAttempts": 2,
+  "note": "Explicit public research roots, ordinary bounded direct transport; no cookies/auth/private APIs/OCR or browser. Research evidence is not production registration."
+}

@@ -1,0 +1,51 @@
+{
+  "prelaunch": {
+    "focusedTests": 49,
+    "nlpTests": 291,
+    "unitTests": 1102,
+    "unitFiles": 54,
+    "typecheck": "passed",
+    "scopedLint": "passed, zero warnings",
+    "format": "passed",
+    "diffCheck": "passed"
+  },
+  "postrun": {
+    "agents": 249,
+    "protectedFiles": 1872,
+    "seals": {
+      "a": "7be5f35373de05ffbbf6eb593759947dc3d61d65bcff731771b52f646939b95e",
+      "b": "e3edf85866bb27cf46bce629eff73a4b1f1628006ca6b376372f3a6b1fba71a0",
+      "c": "8779acc3dc61f0caa4d2a4f5036f79d914661c8cafe5d435e540d3f40e3026fb",
+      "d": "ce09ed453aad0e35530e7a4219eef6df9425a14653ba36cae6ffff98bb90a2d7",
+      "e": "bc1ef04d8c031a91b60b7af02b7747453e9fb44ce773b9be934e7653fc9d0b1a"
+    },
+    "benchmarkSha256": "ef7c4b4ef6195e0b0c28f3e62e9f32357dc932bd05f50c65344f80b2e0d7abc7",
+    "oracleProjectionSha256": "2491c0dc57bf3f79d323833a87d77d1a4934032699507564584e2df021d4f765",
+    "scorerSha256": "d9a8168cd22a70e44b20847407f1d841311780fafc203d9064d9dc6e58496b57",
+    "config": {
+      "model": "gpt-6-luna",
+      "reasoningEffort": "medium",
+      "forkContext": false,
+      "concurrency": 4,
+      "retries": 0,
+      "fallback": null
+    },
+    "oraclePerfect": true
+  },
+  "closureCallsAwaited": 249,
+  "freshRequests": 249,
+  "completed": 249,
+  "infrastructureFailures": 0,
+  "maximumActiveAgents": 4,
+  "parentSourceReviewedNormalizationUnits": 43,
+  "normalizationSchemaMalformed": 0,
+  "normalizationContractInvalid": 10,
+  "noRetries": true,
+  "noFallback": true,
+  "noPostlaunchFrozenEdits": true,
+  "noProductionWrites": true,
+  "noHostedModelApi": true,
+  "noAcquisition": true,
+  "noCommit": true,
+  "noPush": true
+}

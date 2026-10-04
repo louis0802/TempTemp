@@ -1,0 +1,83 @@
+{
+  "focused": {
+    "command": "npx vitest run tests/gourmet-carousel-direct-source.test.ts tests/direct-source-adapters.test.ts tests/direct-source-transport.test.ts tests/direct-publication.test.ts tests/direct-ingestion-isolation.test.ts tests/shake-shack-direct-source.test.ts tests/shake-shack-activation.test.ts tests/merchant-source-map.test.ts --maxWorkers=1",
+    "files": 8,
+    "tests": 196,
+    "result": "passed"
+  },
+  "merchantTests": 32,
+  "units": {
+    "command": "npm test -- --maxWorkers=1",
+    "files": 38,
+    "tests": 680,
+    "result": "passed",
+    "durationSeconds": 48.97
+  },
+  "integration": {
+    "command": "npm run test:integration -- --maxWorkers=1",
+    "files": 2,
+    "tests": 53,
+    "result": "passed",
+    "remainingLocalTestDatabases": []
+  },
+  "corpus": {
+    "command": "npm run test:corpus",
+    "files": 3,
+    "tests": 4,
+    "result": "passed",
+    "metrics": {
+      "Sources": 136,
+      "Offers": 181,
+      "Approved": 0,
+      "Excluded": 37,
+      "Unresolved": 144,
+      "Requires split": 18,
+      "Failed": 0
+    }
+  },
+  "typecheck": {
+    "command": "npm run typecheck",
+    "result": "passed"
+  },
+  "scopedEslint": {
+    "changedRuntimeAndTestFiles": 8,
+    "result": "passed"
+  },
+  "scopedPrettier": {
+    "result": "passed",
+    "scope": "eight changed runtime/test files, six workflow Markdown documents and fixture README; raw immutable captures and generated JSON excluded"
+  },
+  "diffCheck": {
+    "result": "passed",
+    "trackedExitCode": 0,
+    "trackedOutput": "",
+    "untrackedTextFailures": [],
+    "rawHtml": "immutable captured bytes excluded from whitespace normalization"
+  },
+  "processorVersion": "direct-source-v2",
+  "disposableGourmetPublication": "not executed: disabled source rejects before DB/outlet operations",
+  "pepperCapturedSeven": {
+    "review": 7,
+    "publish": 0,
+    "result": "unchanged; integration passed"
+  },
+  "shakeCapturedTen": {
+    "exclude": 4,
+    "review": 5,
+    "publish": 1,
+    "result": "unchanged; integration passed"
+  },
+  "paradise": {
+    "enabled": false,
+    "enumeration": "partial",
+    "result": "regression passed"
+  },
+  "directIsolation": "passed; direct runtime has no Telegram/research map collector dependency",
+  "restrictions": {
+    "productionOrSharedIngestion": false,
+    "newSchedulerOrWorker": false,
+    "freshTelegramCollection": false,
+    "commit": false,
+    "push": false
+  }
+}

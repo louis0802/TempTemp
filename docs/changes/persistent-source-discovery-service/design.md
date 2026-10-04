@@ -1,0 +1,31 @@
+# Design — persistent source discovery research service
+
+## Boundaries and files
+
+Place the runtime under `scripts/research/source-monitor/` and the CLI at `scripts/research/source-monitor-worker.ts`. The only ingestion import is `collectPreview()` from `src/ingestion/sources/telegram-preview.ts`. Do not import production worker, live collection, service, publication, or DB modules. Vendor a byte-preserved registry and revision-2 protocol into tracked research assets, then add a dated revision-3 service protocol; old ignored runs continue using their original files. Pin SHA-256 of protocol and registry per new interval. No Next.js API or application route changes.
+
+`SOURCE_MONITOR_DATA_DIR` selects a mountable root; default `.local/source-discovery-service/`. Layout: `state.json`, `health.json`, `runs/YYYY-MM-DD/`, and structured `logs/`. The tracked protocol assets are pinned by hash in each interval. New intervals use a distinct service-run ID and never open legacy `.local/source-discovery-monitor/runs/`. A single-process lock prevents simultaneous writers; stale-lock recovery checks process ownership. State validation rejects unknown/corrupt versions instead of resetting observations. Atomic writes use a sibling unique temporary file, fsync, rename, then directory fsync. Temporary files are ignored on load.
+
+## Persistent model and scheduling
+
+The state records service start/instance IDs, active and last completed interval, per-channel baseline/seen IDs, successful and attempted polls, post first-seen records, discovery attempts/successes, consecutive failures, missed polls, and coverage gaps. Per-day run files carry immutable raw observations and transition history. The service polls on due wall-clock hours while one daily discovery task can run concurrently; each component prevents its own duplicate work and state writes are serialized. Missed boundaries become explicit gaps rather than catch-up successes. On startup compare the last successful per-channel preview coverage boundary with current time, append uncovered gaps, resume the active day, and process overdue day closure. Graceful shutdown aborts future sleeps and persists state.
+
+The first service day is partial if its start is after 00:00 SGT or either channel lacks a completed pre-start baseline. Next days inherit seen IDs. A successful poll is recorded per channel at actual completion time. `collectPreview()` uses the previous preview `completeThrough` boundary with overlap, preserving its allowlist, bounds, and retry policy; poll completion remains the raw post `first_seen_at`. Posts published before a successful baseline but first visible later are retained as historical anomalies, excluded from benchmark posts, and create a coverage gap. Persist each channel's completed result before trying the next; failure is channel-local. Coverage evaluation uses the pinned hourly maximum and any explicit errors/gaps; no fabricated poll records.
+
+## Independent acquisition
+
+Read only the pinned source registry. For each source, traverse the registered origin and known same-origin pagination/category routes up to its caps, save bounded raw HTML and hashes, extract all identifiable listing cards, and record parser/dynamic failures. Derive detail URLs solely from those cards. Inspect each eligible-looking/new or changed card up to the entry cap with bounded requests and one file per URL; retain card-only entries when details fail. A conservative rule-based extractor emits reviewable offer proposals with source occurrence, actual capture time, evidence, unknown facts, and parse confidence. It does not assert validity for missing dates, scope, or terms. Deduplicate only on supported merchant/benefit/scope/eligibility/date identity; conflicts remain separate. Source-specific gaps remain in snapshots and cannot be masked by a successful HTTP response.
+
+Acquisition checkpoints after each source. A restart resumes uncompleted sources, never re-fetches a completed source as the same observation, and records an interrupted source as partial. When all registered sources have a snapshot, freeze candidate and source files plus hashes. The Telegram raw set for the interval is then frozen separately. Frozen files are write-once. Review files are input only after acquisition freeze and cannot alter raw captures or candidate first-seen time.
+
+## Finalization and metrics
+
+Researcher review inputs are candidate validity verdicts, Telegram offer adjudications with post provenance, one-to-one matches/miss diagnoses, and candidate-side fact scores. Validate IDs, evidence references, eligibility, first-seen times, and ordering before transitioning. A partial Telegram interval or missed daily acquisition may still be sealed as non-scoring research evidence. Daily metrics and cumulative metrics use explicit numerators/denominators; incomplete or unreviewed intervals do not contribute to scoring. Candidate-side counts and coverage can still accumulate separately. Store actual candidate/Telegram first-seen times and lead/lag together with resolution `daily_acquisition_vs_hourly_telegram`; never claim sub-hour comparative precision. Seal with a manifest hashing all frozen run artifacts and verify before reporting success. Status is computed from durable files, not process memory.
+
+## Failure handling
+
+Bound page bytes, timeout, page count, and retries; avoid rapid public requests. A failed source yields a snapshot with error and coverage counters. An invalid state or protocol hash prevents worker start; preflight reports the problem. A crash between temporary write and rename leaves the prior valid JSON and harmless `.tmp` file. A crash after a raw capture but before its checkpoint is recovered by checking its hash and checkpoint identity, or records partial status. Sealed history is read-only to the service.
+
+## Validation approach
+
+Use mocked preview/network and fake clocks for baseline/restart/scheduler/interval tests. Use fixture HTML for card pagination/detail extraction. Exercise a temporary data root for atomic writes, interrupted acquisition, review gates, seal verification, and production import-boundary checks. No live site or database is needed for unit tests or fixture preflight. A live preflight remains an optional local operator action.
