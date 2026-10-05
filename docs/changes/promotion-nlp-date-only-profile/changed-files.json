@@ -1,0 +1,92 @@
+[
+  {
+    "file": "docs/changes/promotion-nlp-date-only-profile/design.md",
+    "bytes": 4181,
+    "sha256": "55131008d958044dd8aaedebbc72187de828e9ad8211058ac1781a25f3e0ffab"
+  },
+  {
+    "file": "docs/changes/promotion-nlp-date-only-profile/existing-test-limitation.json",
+    "bytes": 336,
+    "sha256": "9a19f85ae654eb7458770d35cf0e30ed0db495abe18dd39a3b2736c182dc136e"
+  },
+  {
+    "file": "docs/changes/promotion-nlp-date-only-profile/focused-tests.log",
+    "bytes": 224,
+    "sha256": "a4b8be51a5ae88bd6ab63c3e1989824772bc721cae1ec5fcf30fcc7cafac9b94"
+  },
+  {
+    "file": "docs/changes/promotion-nlp-date-only-profile/intent.md",
+    "bytes": 1560,
+    "sha256": "3a57c6163c93b4acc2de01966999658bebe72ad6f4621f0b1b5c41a6813a32ee"
+  },
+  {
+    "file": "docs/changes/promotion-nlp-date-only-profile/nlp-regression-initial.log",
+    "bytes": 2747,
+    "sha256": "75f9b616cba9042526f49f48e758bab09b33e0bedd53081e5e0e3ac7f32ad710"
+  },
+  {
+    "file": "docs/changes/promotion-nlp-date-only-profile/nlp-regression.log",
+    "bytes": 1319,
+    "sha256": "2f88a580f3809e02e484f321dd7775865307b15a5dfb96461c893f76dbce8867"
+  },
+  {
+    "file": "docs/changes/promotion-nlp-date-only-profile/plan.md",
+    "bytes": 3276,
+    "sha256": "33b6f57ddfa67d74a0000ba6f85a50416d7e02c0861103e77b4c53d37e461d8a"
+  },
+  {
+    "file": "docs/changes/promotion-nlp-date-only-profile/prepared-inputs.json",
+    "bytes": 78491,
+    "sha256": "fd2f57f29172de51bf29523c9b0c46e87d693ed09f76d662690dbed85e4a9f0f"
+  },
+  {
+    "file": "docs/changes/promotion-nlp-date-only-profile/protected-baseline.json",
+    "bytes": 142776,
+    "sha256": "6813953645d9af73d4c213f061c5e8561693ea777788f237ce28a3e0e45d71ae"
+  },
+  {
+    "file": "docs/changes/promotion-nlp-date-only-profile/protected-evidence-check.json",
+    "bytes": 63,
+    "sha256": "1e6a74ab8ef07b2626e03500a96ea4aef100db65a2585fb519301b6cf9b6f522"
+  },
+  {
+    "file": "docs/changes/promotion-nlp-date-only-profile/replay.json",
+    "bytes": 104250,
+    "sha256": "7db02c3353a6b48f9f811593e1741e08bd55d63d225881a01bac3ec3cfd16c7e"
+  },
+  {
+    "file": "docs/changes/promotion-nlp-date-only-profile/replay.md",
+    "bytes": 6038,
+    "sha256": "1c4c81716db9503d904cb2ff5a02c265cfe72c56e3a10bb55573b3060a489b5c"
+  },
+  {
+    "file": "docs/changes/promotion-nlp-date-only-profile/spec.md",
+    "bytes": 3998,
+    "sha256": "8bf67809c580121ecf79e03d4b341d9f59dd8bd12a467f8e42720d8eaf266b1a"
+  },
+  {
+    "file": "docs/changes/promotion-nlp-date-only-profile/verification.md",
+    "bytes": 5869,
+    "sha256": "1f69f6acc3ff1d38ba2bb7a0a51eb166f6fe109c35fb682a22f6cf4b6daad888"
+  },
+  {
+    "file": "scripts/research/promotion-nlp-date-only-replay.ts",
+    "bytes": 12658,
+    "sha256": "c7acc24e9c58c71f55504fb5d118e99382ba33ae7de75423a1e77c7728262ce3"
+  },
+  {
+    "file": "src/ingestion/promotion-nlp/date-only-evaluation.ts",
+    "bytes": 2463,
+    "sha256": "f71d934defd25938e4d61a163e9d91b36cd2f1afe2aa032b9b074ab720bd0f51"
+  },
+  {
+    "file": "src/ingestion/promotion-nlp/date-only-profile.ts",
+    "bytes": 10612,
+    "sha256": "c10aa6f8452722fd65fb581bc840e47ded2dce72d77440a120a0fdc85d033607"
+  },
+  {
+    "file": "tests/promotion-nlp-date-only.test.ts",
+    "bytes": 12576,
+    "sha256": "f6c41afcf2e9b519c0a48704c3b7034c9746e40ede6901946f7db43fffb724b1"
+  }
+]

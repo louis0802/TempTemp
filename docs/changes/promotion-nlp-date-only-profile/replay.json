@@ -1,0 +1,2151 @@
+{
+  "kind": "retrospective-v4-product-contract-replay-not-new-model-evaluation",
+  "profile": "promotion-nlp-date-only-v1",
+  "inputs": {
+    "benchmarkSha256": "ef7c4b4ef6195e0b0c28f3e62e9f32357dc932bd05f50c65344f80b2e0d7abc7",
+    "sourceReviewSha256": "94b962d75488a5193a69668c017b8017ebb726f002cc894e96684a8c75fcf8f2",
+    "stage5SealSha256": "f2a9bd98da16a4e3b268ebf45e5c0bd27cf209a6d6a4a78d13cee2cfd5ba78e4",
+    "sourceEnvelopes": 49,
+    "historicalEconomicIdentities": 43,
+    "rawNormalizationUnits": 34,
+    "sourcesWithNormalizationOutputs": 29
+  },
+  "metrics": {
+    "originalContractPass": {
+      "numerator": 26,
+      "denominator": 34,
+      "percent": 76.47
+    },
+    "dateOnlyContractPass": {
+      "numerator": 28,
+      "denominator": 34,
+      "percent": 82.35
+    },
+    "newlyContractCompatible": [
+      "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-2::weekday_dinner_early_bird",
+      "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-2::weekend_lunch_dinner_early_bird"
+    ],
+    "sourceDescriptionPreserved": {
+      "numerator": 34,
+      "denominator": 34,
+      "percent": 100
+    },
+    "dateAnnotationMatches": {
+      "numerator": 31,
+      "denominator": 33,
+      "percent": 93.94
+    },
+    "participationAnnotationMatches": {
+      "numerator": 31,
+      "denominator": 33,
+      "percent": 93.94
+    },
+    "contractAndAnnotatedCoreMatch": 24,
+    "retainedCoreCompleteForFurtherReview": 1,
+    "blockerCounts": {
+      "missing_start_date": 19,
+      "missing_end_date": 19,
+      "physical_participation_unresolved": 22,
+      "missing_title": 1,
+      "nonverbatim_benefit": 5,
+      "benefit_exceeds_publication_limit": 10,
+      "physical_participation_annotation_mismatch": 2,
+      "unmatched_or_unannotated_economic_identity": 1,
+      "missing_or_non_source_quote:merchant": 1,
+      "nonverbatim_merchant": 1,
+      "campaign_date_annotation_mismatch": 2
+    },
+    "newPromptModelSuccessRate": null,
+    "endToEndAutomaticMapRate": null
+  },
+  "limitations": [
+    "No fresh model call: archived answers were produced with the old V4 prompt and routing.",
+    "Only available downstream answers are revalidated; upstream lost identities are not recovered.",
+    "Original full source Description is copied by code; that preservation rate is not an LLM accuracy score.",
+    "Null dates can match unknown gold while still blocking campaign validity.",
+    "Physical annotation matches do not verify authoritative directories, coordinates or source policy.",
+    "No application database, map, source activation or recurring process was changed."
+  ],
+  "records": [
+    {
+      "caseId": "pepper_lunch_sg-student-meal",
+      "taskId": "pepper_lunch_sg-student-meal::main-dish-discount",
+      "originalAccepted": true,
+      "contractValid": true,
+      "issues": [],
+      "unresolved": [
+        "missing_start_date",
+        "missing_end_date",
+        "physical_participation_unresolved",
+        "missing_title"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "after5"
+      ],
+      "dateAnnotationMatch": true,
+      "participationAnnotationMatch": true,
+      "findings": [],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "pepper_lunch_sg",
+        "sourceUrl": "https://www.pepperlunch.com.sg/promo/student-meal/",
+        "evidenceId": "c5552155b5280d17316bc58ca55d5049367247215ab457845738651a1164937f",
+        "selector": "main .page__header h2; main .section__01 .column_container; main .terms .answer__div",
+        "description": "Student Meal Students, this is for you! Indulge in our exclusive Student Meal featuring the mouthwatering Chicken Cheese Creamy Brown Risotto! Bursting with creamy, cheesy flavours & sizzle them with the chicken for a power packed meal. Don’t miss our incredible student deals! Enjoy flavorful choices like Salmon and Chicken Pepper Rice and Diced Cut Beef Steak with Egg, all at prices you can't resist! Get a 15% OFF any main dish from the main menu after 5pm. Available on weekdays only, excluding public holidays and eve of Lunar New Year. One main dish per valid Student Card presented by the student himself/herself at the cashier. Valid at Pepper Lunch restaurants only. Dine-in only (Applicable for Student Meal Dishes only, Mon-Fri, opening till 5pm). Please note that we do not take reservation at all our Restaurants or Express stores. Kindly walk-in to dine-in and enjoy your sizzling hot meal.",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "15% OFF any main dish from the main menu"
+          },
+          "merchant": {
+            "value": null,
+            "quote": null
+          },
+          "title": {
+            "value": null,
+            "quote": null
+          },
+          "benefit": {
+            "value": "15% OFF any main dish from the main menu",
+            "quote": "15% OFF any main dish from the main menu"
+          },
+          "startDate": {
+            "value": null,
+            "quote": null
+          },
+          "endDate": {
+            "value": null,
+            "quote": null
+          },
+          "locationScope": {
+            "value": null,
+            "quote": null
+          },
+          "locationRules": []
+        }
+      },
+      "rawOutputSha256": "83f35090ce2454f370f3cad1d284eabe80162edc9d05272b697724c663e0ad13"
+    },
+    {
+      "caseId": "pepper_lunch_sg-uper-value-deal",
+      "taskId": "pepper_lunch_sg-uper-value-deal::steak-bites-120g",
+      "originalAccepted": true,
+      "contractValid": true,
+      "issues": [],
+      "unresolved": [
+        "physical_participation_unresolved"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "offer"
+      ],
+      "dateAnnotationMatch": true,
+      "participationAnnotationMatch": true,
+      "findings": [],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "pepper_lunch_sg",
+        "sourceUrl": "https://www.pepperlunch.com.sg/promo/uper-value-deal/",
+        "evidenceId": "18b779b4c6ffd17af56ea37ccdc7336a68857bc8b56f1c5d3f587cc6ddde95f6",
+        "selector": "main .page__header h2; main .section__01 .column_container; main .terms .answer__div",
+        "description": "$uper Value Deal $uper Value Deal is here at Pepper Lunch Express! Enjoy sizzling Australian Chilled Beef MB2+ Steak Bites served on a hot teppan with rice, miso soup, and your choice of side dish from just $9.90. Choose your perfect portion: - 120g – $9.90 (U.P. $14.70) - 160g – $11.90 (U.P. $17.70) ★ Recommended - 200g – $13.90 (U.P. $20.70) Each set comes complete with: ✔ Rice ✔ Miso Soup ✔ Choice of 1 Side Dish (Mashed Potato, Sweet Corn Bowl, or Broccoli in Sesame Dressing) Enjoy savings of up to 32% off for a limited time only. Available from 1 September to 31 October 2026. Image(s) for illustration purposes only. Not valid with other promotions, vouchers and mobile payment with rebates or discounts.",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "120g – $9.90 (U.P. $14.70)"
+          },
+          "merchant": {
+            "value": "Pepper Lunch Express",
+            "quote": "$uper Value Deal $uper Value Deal is here at Pepper Lunch Express!"
+          },
+          "title": {
+            "value": "Australian Chilled Beef MB2+ Steak Bites 120g Set",
+            "quote": "Enjoy sizzling Australian Chilled Beef MB2+ Steak Bites"
+          },
+          "benefit": {
+            "value": "120g – $9.90 (U.P. $14.70)",
+            "quote": "120g – $9.90 (U.P. $14.70)"
+          },
+          "startDate": {
+            "value": "2026-09-01",
+            "quote": "Available from 1 September to 31 October 2026."
+          },
+          "endDate": {
+            "value": "2026-10-31",
+            "quote": "Available from 1 September to 31 October 2026."
+          },
+          "locationScope": {
+            "value": null,
+            "quote": null
+          },
+          "locationRules": []
+        }
+      },
+      "rawOutputSha256": "fb74697de248f21716a26b513ecdf48491e40de6605e140ed7b5f9df438f2cfe"
+    },
+    {
+      "caseId": "pepper_lunch_sg-uper-value-deal",
+      "taskId": "pepper_lunch_sg-uper-value-deal::steak-bites-160g",
+      "originalAccepted": true,
+      "contractValid": true,
+      "issues": [],
+      "unresolved": [
+        "physical_participation_unresolved"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "offer"
+      ],
+      "dateAnnotationMatch": true,
+      "participationAnnotationMatch": true,
+      "findings": [],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "pepper_lunch_sg",
+        "sourceUrl": "https://www.pepperlunch.com.sg/promo/uper-value-deal/",
+        "evidenceId": "18b779b4c6ffd17af56ea37ccdc7336a68857bc8b56f1c5d3f587cc6ddde95f6",
+        "selector": "main .page__header h2; main .section__01 .column_container; main .terms .answer__div",
+        "description": "$uper Value Deal $uper Value Deal is here at Pepper Lunch Express! Enjoy sizzling Australian Chilled Beef MB2+ Steak Bites served on a hot teppan with rice, miso soup, and your choice of side dish from just $9.90. Choose your perfect portion: - 120g – $9.90 (U.P. $14.70) - 160g – $11.90 (U.P. $17.70) ★ Recommended - 200g – $13.90 (U.P. $20.70) Each set comes complete with: ✔ Rice ✔ Miso Soup ✔ Choice of 1 Side Dish (Mashed Potato, Sweet Corn Bowl, or Broccoli in Sesame Dressing) Enjoy savings of up to 32% off for a limited time only. Available from 1 September to 31 October 2026. Image(s) for illustration purposes only. Not valid with other promotions, vouchers and mobile payment with rebates or discounts.",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "160g – $11.90 (U.P. $17.70)"
+          },
+          "merchant": {
+            "value": "Pepper Lunch Express",
+            "quote": "$uper Value Deal $uper Value Deal is here at Pepper Lunch Express!"
+          },
+          "title": {
+            "value": "Australian Chilled Beef MB2+ Steak Bites, 160g",
+            "quote": "Enjoy sizzling Australian Chilled Beef MB2+ Steak Bites"
+          },
+          "benefit": {
+            "value": "160g – $11.90 (U.P. $17.70)",
+            "quote": "160g – $11.90 (U.P. $17.70)"
+          },
+          "startDate": {
+            "value": "2026-09-01",
+            "quote": "Available from 1 September to 31 October 2026."
+          },
+          "endDate": {
+            "value": "2026-10-31",
+            "quote": "Available from 1 September to 31 October 2026."
+          },
+          "locationScope": {
+            "value": null,
+            "quote": null
+          },
+          "locationRules": []
+        }
+      },
+      "rawOutputSha256": "4371c6f8150187aebce618589f51c59fb9c55e5feb99abb6a98957bcf3b48988"
+    },
+    {
+      "caseId": "pepper_lunch_sg-uper-value-deal",
+      "taskId": "pepper_lunch_sg-uper-value-deal::steak-bites-200g",
+      "originalAccepted": true,
+      "contractValid": true,
+      "issues": [],
+      "unresolved": [
+        "physical_participation_unresolved"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "offer"
+      ],
+      "dateAnnotationMatch": true,
+      "participationAnnotationMatch": true,
+      "findings": [],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "pepper_lunch_sg",
+        "sourceUrl": "https://www.pepperlunch.com.sg/promo/uper-value-deal/",
+        "evidenceId": "18b779b4c6ffd17af56ea37ccdc7336a68857bc8b56f1c5d3f587cc6ddde95f6",
+        "selector": "main .page__header h2; main .section__01 .column_container; main .terms .answer__div",
+        "description": "$uper Value Deal $uper Value Deal is here at Pepper Lunch Express! Enjoy sizzling Australian Chilled Beef MB2+ Steak Bites served on a hot teppan with rice, miso soup, and your choice of side dish from just $9.90. Choose your perfect portion: - 120g – $9.90 (U.P. $14.70) - 160g – $11.90 (U.P. $17.70) ★ Recommended - 200g – $13.90 (U.P. $20.70) Each set comes complete with: ✔ Rice ✔ Miso Soup ✔ Choice of 1 Side Dish (Mashed Potato, Sweet Corn Bowl, or Broccoli in Sesame Dressing) Enjoy savings of up to 32% off for a limited time only. Available from 1 September to 31 October 2026. Image(s) for illustration purposes only. Not valid with other promotions, vouchers and mobile payment with rebates or discounts.",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "200g – $13.90 (U.P. $20.70)"
+          },
+          "merchant": {
+            "value": "Pepper Lunch Express",
+            "quote": "$uper Value Deal $uper Value Deal is here at Pepper Lunch Express!"
+          },
+          "title": {
+            "value": "Australian Chilled Beef MB2+ Steak Bites 200g Set",
+            "quote": "Enjoy sizzling Australian Chilled Beef MB2+ Steak Bites"
+          },
+          "benefit": {
+            "value": "200g – $13.90 (U.P. $20.70)",
+            "quote": "200g – $13.90 (U.P. $20.70)"
+          },
+          "startDate": {
+            "value": "2026-09-01",
+            "quote": "Available from 1 September to 31 October 2026."
+          },
+          "endDate": {
+            "value": "2026-10-31",
+            "quote": "Available from 1 September to 31 October 2026."
+          },
+          "locationScope": {
+            "value": null,
+            "quote": null
+          },
+          "locationRules": []
+        }
+      },
+      "rawOutputSha256": "cdc30e1a4db570729f607d0be296ccc3908ec0bd62354d03ded91b00388b41da"
+    },
+    {
+      "caseId": "pepper_lunch_sg-weekday-lunch",
+      "taskId": "pepper_lunch_sg-weekday-lunch::weekday-lunch-deal",
+      "originalAccepted": true,
+      "contractValid": true,
+      "issues": [],
+      "unresolved": [
+        "missing_start_date",
+        "missing_end_date",
+        "physical_participation_unresolved"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "offer"
+      ],
+      "dateAnnotationMatch": true,
+      "participationAnnotationMatch": true,
+      "findings": [],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "pepper_lunch_sg",
+        "sourceUrl": "https://www.pepperlunch.com.sg/promo/weekday-lunch/",
+        "evidenceId": "9f9ded0bd9ca4f259640e5b47952e431003453009308c08b13e19eb7b8a9a60a",
+        "selector": "main .page__header h2; main .section__01 .column_container; main .terms .answer__div",
+        "description": "Weekday Lunch Elevate your weekdays with our Tempting Weekday Lunch Deals! Pick from delectable selections such as Striploin Steak and Beef Pepper Yakiudon, available at a deal you simply can't resist! 1. Image(s) for illustration purposes only. 2. For Dine-In only. 3. Promotion is only valid from Mondays to Fridays, excluding Public Holidays. 4. Choice of miso soup or seasonal soup, subject to availability. 5. Not valid with other promotions and coupons. While stocks last.",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "Tempting Weekday Lunch Deals"
+          },
+          "merchant": {
+            "value": null,
+            "quote": null
+          },
+          "title": {
+            "value": "Tempting Weekday Lunch Deals",
+            "quote": "Tempting Weekday Lunch Deals"
+          },
+          "benefit": {
+            "value": "Tempting Weekday Lunch Deals",
+            "quote": "Tempting Weekday Lunch Deals"
+          },
+          "startDate": {
+            "value": null,
+            "quote": null
+          },
+          "endDate": {
+            "value": null,
+            "quote": null
+          },
+          "locationScope": {
+            "value": null,
+            "quote": null
+          },
+          "locationRules": []
+        }
+      },
+      "rawOutputSha256": "2b0e2f6aafda9b519f51a30574a047ab2c894e6a1524fc187151f5725eaaa349"
+    },
+    {
+      "caseId": "pepper_lunch_sg-dine-with-pride",
+      "taskId": "pepper_lunch_sg-dine-with-pride::p1",
+      "originalAccepted": true,
+      "contractValid": true,
+      "issues": [],
+      "unresolved": [
+        "missing_start_date",
+        "missing_end_date"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "offer"
+      ],
+      "dateAnnotationMatch": true,
+      "participationAnnotationMatch": true,
+      "findings": [],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "pepper_lunch_sg",
+        "sourceUrl": "https://www.pepperlunch.com.sg/promo/dine-with-pride/",
+        "evidenceId": "dc9d44f7079249a25087fc8b703bb7c842edf158b96e9601c54fd313795d3b36",
+        "selector": "main .page__header h2; main .section__01 .column_container; main .terms .answer__div",
+        "description": "Dine with Pride Attention NSmen! enjoy 15% off all ala carte main dishes, available daily at all Pepper Lunch Restaurant outlets. It’s our way of showing appreciation for your service, and to experience our delicious meals at a great value. Be sure to take advantage of it during your visit! 1. Image(s) for illustration purposes only. 2. For dine-in only. 3. *Discount applies to the ala carte main dishes. 4. Limited to 1 ala carte main dish per person. 5. Not valid with other privileges, discounts, or promotions. 6. Applicable to NSmen only. 7. Customer is required to present 11B to enjoy the discount. 8. Available daily at all Pepper Lunch Restaurant outlets, excluding eve of Chinese New Year and public holidays.",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "15% off all ala carte main dishes"
+          },
+          "merchant": {
+            "value": "Pepper Lunch",
+            "quote": "Available daily at all Pepper Lunch Restaurant outlets, excluding eve of Chinese New Year and public holidays."
+          },
+          "title": {
+            "value": "15% off all ala carte main dishes",
+            "quote": "15% off all ala carte main dishes"
+          },
+          "benefit": {
+            "value": "15% off all ala carte main dishes",
+            "quote": "15% off all ala carte main dishes"
+          },
+          "startDate": {
+            "value": null,
+            "quote": null
+          },
+          "endDate": {
+            "value": null,
+            "quote": null
+          },
+          "locationScope": {
+            "value": "all_outlets",
+            "quote": "Available daily at all Pepper Lunch Restaurant outlets, excluding eve of Chinese New Year and public holidays."
+          },
+          "locationRules": []
+        }
+      },
+      "rawOutputSha256": "179e17437b4078f5efe353b62bdc106ebf00cab21e09344819e8327b69ad8ab1"
+    },
+    {
+      "caseId": "shake_shack_sg-100-angus-beef-just-for-you",
+      "taskId": "shake_shack_sg-100-angus-beef-just-for-you::say-cheese-burger-bundle-offer",
+      "originalAccepted": false,
+      "contractValid": false,
+      "issues": [
+        "nonverbatim_benefit"
+      ],
+      "unresolved": [
+        "benefit_exceeds_publication_limit"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "offer"
+      ],
+      "dateAnnotationMatch": true,
+      "participationAnnotationMatch": false,
+      "findings": [
+        "physical_participation_annotation_mismatch"
+      ],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "shake_shack_sg",
+        "sourceUrl": "https://www.shakeshack.com.sg/100-angus-beef-just-for-you/",
+        "evidenceId": "56a879f3658a4615cb73215bf9fcad6bdf042a2ae4b389ae62898adbd98aaeab",
+        "selector": "[data-elementor-type='single-post'] h1; [data-elementor-type='wp-post']",
+        "description": "100% Angus Beef – Just for You 100% Angus Beef – Just for You At Shake Shack, we don’t cut corners—especially when it comes to our beef. That’s why our burgers start with 100% Angus beef, freshly ground and packed with flavor. And this September, we’re giving you even more reasons to sink your teeth into it. Here’s the Deal From 23 – 26 September, when you order our Say Cheese (Burger) Bundle, we’ll treat you to a complimentary ShackBurger(Single). That’s right—more Angus beef, more flavor, all in one bundle. Here’s what’s in the bundle (From $28.90): ● Choice of 1 Burger ● Complimentary ShackBurger (Single) ● Choice of Fries ● Choice of Bites ● Choice of 2 Drinks Don’t Miss Out This offer is available 23 – 26 September across all Shacks and Happy Point Singapore in-app orders. Come hungry, bring a friend, and taste the difference that 100% Angus beef makes. Terms and Conditions Offer is available across all Shake Shack outlets in Singapore from 23-26 September 2025 only. Offer is valid for dine-in and take-away. The offer is valid in the Shack and Happy Point Singapore in-app orders. Offer not valid for orders made through third-party delivery apps. Offer is not valid in conjunction with any other vouchers. Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items. Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice. Visuals are for illustration purposes only.",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "we’ll treat you to a complimentary ShackBurger(Single)"
+          },
+          "merchant": {
+            "value": "Shake Shack",
+            "quote": "Offer is available across all Shake Shack outlets in Singapore from 23-26 September 2025 only."
+          },
+          "title": {
+            "value": "Say Cheese (Burger) Bundle offer",
+            "quote": "when you order our Say Cheese (Burger) Bundle"
+          },
+          "benefit": {
+            "value": "when you order our Say Cheese (Burger) Bundle we’ll treat you to a complimentary ShackBurger(Single)",
+            "quote": "we’ll treat you to a complimentary ShackBurger(Single)"
+          },
+          "startDate": {
+            "value": "2025-09-23",
+            "quote": "Offer is available across all Shake Shack outlets in Singapore from 23-26 September 2025 only."
+          },
+          "endDate": {
+            "value": "2025-09-26",
+            "quote": "Offer is available across all Shake Shack outlets in Singapore from 23-26 September 2025 only."
+          },
+          "locationScope": {
+            "value": "all_outlets",
+            "quote": "Offer is available across all Shake Shack outlets in Singapore from 23-26 September 2025 only."
+          },
+          "locationRules": [
+            {
+              "role": "participating",
+              "names": [
+                "Shake Shack outlets in Singapore"
+              ],
+              "quote": "Offer is available across all Shake Shack outlets in Singapore from 23-26 September 2025 only."
+            }
+          ]
+        }
+      },
+      "rawOutputSha256": "c0555cf861add7994b06255da049ff1bbaaf33bba6eb343613a237c99ac5a84b"
+    },
+    {
+      "caseId": "shake_shack_sg-all-about-chickens",
+      "taskId": "shake_shack_sg-all-about-chickens::p1",
+      "originalAccepted": false,
+      "contractValid": false,
+      "issues": [
+        "nonverbatim_benefit"
+      ],
+      "unresolved": [
+        "benefit_exceeds_publication_limit"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "offer"
+      ],
+      "dateAnnotationMatch": true,
+      "participationAnnotationMatch": true,
+      "findings": [],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "shake_shack_sg",
+        "sourceUrl": "https://www.shakeshack.com.sg/all-about-chickens/",
+        "evidenceId": "eb6511e5e5730b80a6d7bd15270e1eea66c6e87f3edee8f134c27d8295aa2669",
+        "selector": "[data-elementor-type='single-post'] h1; [data-elementor-type='wp-post']",
+        "description": "All About Chickens At Shake Shack, we’re all about doing things the right way—and that includes our chicken. We’re celebrating the kind that’s raised with care, not cages. Our 100% cage-free chicken isn’t just good, it’s part of our promise to support better animal welfare and a more responsible food system. Because when your chicken’s raised right, you can taste the difference—and feel good about it too. Here’s what’s in the bundle (From $30.80): Choice of 1 Burger Complimentary Chicken Shack Choice of Fries Choice of Bites Choice of 2 Drinks TERMS & CONDITIONS: Offer is available across all Shake Shack outlets in Singapore on 7 July 2025 only. Offer is valid for dine-in and take-away. Offer is valid in the Shack and via the Happy Point app. Offer not valid for orders made through third-party delivery apps. Offer is not valid in conjunction with any other vouchers. Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items. Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice. Visuals are for illustration purposes only.",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "From $30.80"
+          },
+          "merchant": {
+            "value": "Shake Shack",
+            "quote": "Offer is available across all Shake Shack outlets in Singapore"
+          },
+          "title": {
+            "value": "Complimentary Chicken Shack with a choice of 1 burger, fries, bites and 2 drinks",
+            "quote": "Complimentary Chicken Shack"
+          },
+          "benefit": {
+            "value": "From $30.80; Choice of 1 Burger; Complimentary Chicken Shack; Choice of Fries; Choice of Bites; Choice of 2 Drinks",
+            "quote": "From $30.80"
+          },
+          "startDate": {
+            "value": "2025-07-07",
+            "quote": "on 7 July 2025 only."
+          },
+          "endDate": {
+            "value": "2025-07-07",
+            "quote": "on 7 July 2025 only."
+          },
+          "locationScope": {
+            "value": "all_outlets",
+            "quote": "Offer is available across all Shake Shack outlets in Singapore"
+          },
+          "locationRules": []
+        }
+      },
+      "rawOutputSha256": "876d102acc7d64916c0bca995c08a4ec33a1f5085938b51704ee7e9f2b208aa6"
+    },
+    {
+      "caseId": "shake_shack_sg-feeding-a-crowd",
+      "taskId": "shake_shack_sg-feeding-a-crowd::catering-12-for-10",
+      "originalAccepted": true,
+      "contractValid": true,
+      "issues": [],
+      "unresolved": [
+        "missing_start_date",
+        "missing_end_date",
+        "physical_participation_unresolved",
+        "benefit_exceeds_publication_limit"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "offer"
+      ],
+      "dateAnnotationMatch": true,
+      "participationAnnotationMatch": true,
+      "findings": [],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "shake_shack_sg",
+        "sourceUrl": "https://www.shakeshack.com.sg/feeding-a-crowd/",
+        "evidenceId": "66be15aa1ed505d4e814254bdeb91a726f971bc2788b8d2bf96d1bc31dee1074",
+        "selector": "[data-elementor-type='single-post'] h1; [data-elementor-type='wp-post']",
+        "description": "Feeding a Crowd? There’s something about sharing a meal that makes any occasion a little better. With Shake Shack Catering, order 10 of your favorite items and enjoy another 2 on us! Whether it’s a team lunch, a birthday celebration, a casual get-together with family or simply an excuse to gather around the table, good food has a way of bringing people together. And with a little extra to share, there’s more for everyone to enjoy. So gather the team, round up your friends or bring the whole family. Simply submit a catering request with us here and we’ll take care of the rest! *Terms & Conditions: ● Promotion entitles guests to purchase 12 items for the price of 10. ● Promotion is applicable to selected items of the same price and is subject to item availability. ● Catering requests are subject to confirmation. A minimum of 72 hours’ advance notice is recommended. ● Promotion is valid for pickup orders only. Complimentary delivery is available for orders above $500. ● Promotion cannot be used in conjunction with other promotions or discounts. ● Shake Shack Singapore reserves the right to amend or withdraw the promotion at any time without prior notice.",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "Promotion entitles guests to purchase 12 items for the price of 10."
+          },
+          "merchant": {
+            "value": "Shake Shack",
+            "quote": "With Shake Shack Catering, order 10 of your favorite items and enjoy another 2 on us!"
+          },
+          "title": {
+            "value": "Order 10 items and get 2 more free",
+            "quote": "With Shake Shack Catering, order 10 of your favorite items and enjoy another 2 on us!"
+          },
+          "benefit": {
+            "value": "Promotion entitles guests to purchase 12 items for the price of 10.",
+            "quote": "Promotion entitles guests to purchase 12 items for the price of 10."
+          },
+          "startDate": {
+            "value": null,
+            "quote": null
+          },
+          "endDate": {
+            "value": null,
+            "quote": null
+          },
+          "locationScope": {
+            "value": null,
+            "quote": null
+          },
+          "locationRules": []
+        }
+      },
+      "rawOutputSha256": "196876dc1d66fc15f87385bcbe543c8a2e5129f7f71f02b2d9dee4aca5261e1c"
+    },
+    {
+      "caseId": "shake_shack_sg-feeding-a-crowd",
+      "taskId": "shake_shack_sg-feeding-a-crowd::complimentary-delivery-over-500",
+      "originalAccepted": true,
+      "contractValid": true,
+      "issues": [],
+      "unresolved": [
+        "missing_start_date",
+        "missing_end_date",
+        "physical_participation_unresolved"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [],
+      "dateAnnotationMatch": null,
+      "participationAnnotationMatch": null,
+      "findings": [
+        "unmatched_or_unannotated_economic_identity"
+      ],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "shake_shack_sg",
+        "sourceUrl": "https://www.shakeshack.com.sg/feeding-a-crowd/",
+        "evidenceId": "66be15aa1ed505d4e814254bdeb91a726f971bc2788b8d2bf96d1bc31dee1074",
+        "selector": "[data-elementor-type='single-post'] h1; [data-elementor-type='wp-post']",
+        "description": "Feeding a Crowd? There’s something about sharing a meal that makes any occasion a little better. With Shake Shack Catering, order 10 of your favorite items and enjoy another 2 on us! Whether it’s a team lunch, a birthday celebration, a casual get-together with family or simply an excuse to gather around the table, good food has a way of bringing people together. And with a little extra to share, there’s more for everyone to enjoy. So gather the team, round up your friends or bring the whole family. Simply submit a catering request with us here and we’ll take care of the rest! *Terms & Conditions: ● Promotion entitles guests to purchase 12 items for the price of 10. ● Promotion is applicable to selected items of the same price and is subject to item availability. ● Catering requests are subject to confirmation. A minimum of 72 hours’ advance notice is recommended. ● Promotion is valid for pickup orders only. Complimentary delivery is available for orders above $500. ● Promotion cannot be used in conjunction with other promotions or discounts. ● Shake Shack Singapore reserves the right to amend or withdraw the promotion at any time without prior notice.",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "Complimentary delivery is available for orders above $500."
+          },
+          "merchant": {
+            "value": null,
+            "quote": null
+          },
+          "title": {
+            "value": "Complimentary delivery for orders above $500",
+            "quote": "Complimentary delivery is available for orders above $500."
+          },
+          "benefit": {
+            "value": "Complimentary delivery is available for orders above $500.",
+            "quote": "Complimentary delivery is available for orders above $500."
+          },
+          "startDate": {
+            "value": null,
+            "quote": null
+          },
+          "endDate": {
+            "value": null,
+            "quote": null
+          },
+          "locationScope": {
+            "value": null,
+            "quote": null
+          },
+          "locationRules": []
+        }
+      },
+      "rawOutputSha256": "fd38f780748c7469ca6b17529a24414799f84471e8c018c8569fee2cf74ccb37"
+    },
+    {
+      "caseId": "shake_shack_sg-national-cheeseburger-day",
+      "taskId": "shake_shack_sg-national-cheeseburger-day::free-second-patty",
+      "originalAccepted": true,
+      "contractValid": true,
+      "issues": [],
+      "unresolved": [],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "offer"
+      ],
+      "dateAnnotationMatch": true,
+      "participationAnnotationMatch": true,
+      "findings": [],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "shake_shack_sg",
+        "sourceUrl": "https://www.shakeshack.com.sg/national-cheeseburger-day/",
+        "evidenceId": "11269f1ed6c8280c48f6866a45374c97e75529ca25c6acf3ff9472bc7a0cb561",
+        "selector": "[data-elementor-type='single-post'] h1; [data-elementor-type='wp-post']",
+        "description": "National Cheeseburger Day National Cheeseburger Day If there’s one day on the calendar that feels made for us, it’s the National Cheeseburger Day. Afterall, we’ve been putting our spin on the great American cheeseburger since 2004 with the ShackBurger And what’s a better way to celebrate than with extra beef? From 14 – 18 September, celebrate National CheeseBurger day with a FREE Beef Patty add-on* with any ShackBurger or SmokeShack purchase via the Happy Point app. The Cheeseburger Formula The cheeseburger has earned its place as an American classic with a simple formula: beef, cheese, bun and toppings. But when something is made up of just a few ingredients, every one of them matters. So, what makes a great cheeseburger? Let’s break down the basics. Real Beef For us, a good cheeseburger starts with the beef. That’s why our beef patties are made to order with 100% Angus beef. Each quarter-pound beef patty is smashed to order, seasoned, seared and cheesed to bring together the rich, beefy flavor and juicy texture that fans know and love. Real Classic We believe in keeping good things simple. So when it came to our version of the great American cheeseburger, reinvention wasn’t really on the agenda. Getting it right was. While it sounds simple, getting simple right actually took years of tinkering, tweaking and plenty of tasting before we landed on the ShackBurger, a classic in its own right that continues to let the beef speak for itself. Now that you know the beef, come taste it for yourself! How to redeem: Tap on ‘Order’ Select a ShackBurger / SmokeShack Select Double – the second patty’s automatically on us! (Or go triple with a little top-up if you’re going all in) Check out and enjoy! *Terms and conditions: Promotion is valid from 14 to 18 September 2026, while stocks last. Promotion is available exclusively through the Happy Point Singapore app and is not valid on third-party delivery platforms. Promotion is valid for ShackBurger and SmokeShack only, with a second beef patty included at no additional charge. Top-up charges apply to any additional beef patties beyond two, as well as selected modifiers. Valid at all Shake Shack Singapore outlets. Shake Shack Singapore reserves the right to amend or terminate the promotion without prior notice.",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "a FREE Beef Patty add-on*"
+          },
+          "merchant": {
+            "value": null,
+            "quote": null
+          },
+          "title": {
+            "value": "A FREE Beef Patty add-on",
+            "quote": "a FREE Beef Patty add-on*"
+          },
+          "benefit": {
+            "value": "a FREE Beef Patty add-on*",
+            "quote": "a FREE Beef Patty add-on*"
+          },
+          "startDate": {
+            "value": "2026-09-14",
+            "quote": "Promotion is valid from 14 to 18 September 2026"
+          },
+          "endDate": {
+            "value": "2026-09-18",
+            "quote": "Promotion is valid from 14 to 18 September 2026"
+          },
+          "locationScope": {
+            "value": "all_outlets",
+            "quote": "Valid at all Shake Shack Singapore outlets"
+          },
+          "locationRules": []
+        }
+      },
+      "rawOutputSha256": "161f9104ecbd869cd576ac23ad75f440d55f59131d9d0afacde22386b55fba08"
+    },
+    {
+      "caseId": "shake_shack_sg-singlish-lingo",
+      "taskId": "shake_shack_sg-singlish-lingo::singlish-complimentary-lemonade",
+      "originalAccepted": true,
+      "contractValid": true,
+      "issues": [],
+      "unresolved": [
+        "benefit_exceeds_publication_limit"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "offer"
+      ],
+      "dateAnnotationMatch": true,
+      "participationAnnotationMatch": true,
+      "findings": [],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "shake_shack_sg",
+        "sourceUrl": "https://www.shakeshack.com.sg/singlish-lingo/",
+        "evidenceId": "adccc07b39a476bfc52574b33b4e3c83f041693c74382f14419d6dce03502577",
+        "selector": "[data-elementor-type='single-post'] h1; [data-elementor-type='wp-post']",
+        "description": "Singlish Lingo Singlish Lingo Hey Shack Fans! We’ve got something exciting just for you. From 11th to 15th November, we’re spicing things up at all our Shacks with a local twist on our Zi Char menu. To celebrate Singapore’s vibrant food culture, we’re inviting you to place your orders with a sprinkle of Singlish flair! Here’s how it works: order any of our Zi Char burgers using one of the selected Singlish words, and you’ll get a complimentary Buah Long Long Lemonade on the house! Yup, you heard us right—shiok, right? How to Join the Fun? Swing by your nearest Shack, choose your favorite Zi Char burger, and use one of these Singlish words: Dabao – Because sometimes you just need to take that goodness away. Zi Char – A nod to our hawker culture and the heart of communal dining. Makan – To enjoy a meal together or dig in! Why are we doing this leh? At Shake Shack, we’re all about great food and even better conversations. This time, we want to celebrate local culture in a way that’s uniquely Singaporean. It’s our way of saying thank you to the community that’s made us feel so at home here. So, mark your calendars, jio your friends, and come on down to any Shack between 11th to 15th November. Let’s makan and enjoy some good vibes together! We’ll see you soon! Terms and conditions: This offer is valid from 11th to 15th November 2024 at all Shake Shack outlets in Singapore. Guests must use one of the accepted Singlish words (“Shiok,” “Dabao,” “Zi Char,” or “Makan”) when ordering any Zi Char burger to qualify for the promotion. Each qualifying order will receive one (1) complimentary Buah Long Long Lemonade. Offer is limited to one (1) complimentary Buah Long Long Lemonade per guest per visit, regardless of the number of burgers ordered. This promotion is valid for both dine-in and takeaway orders. Not applicable for delivery orders. Complimentary beverages are not transferable, redeemable for cash, or exchangeable for any other items. Promotion is valid while stocks last. Shake Shack reserves the right to replace the complimentary beverage with a similar item of equal value in the event of unforeseen circumstances. Shake Shack reserves the right to modify or cancel the promotion at any time without prior notice. In the event of any disputes, Shake Shack’s decision will be fina",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "you’ll get a complimentary Buah Long Long Lemonade on the house"
+          },
+          "merchant": {
+            "value": "Shake Shack",
+            "quote": "at all Shake Shack outlets in Singapore"
+          },
+          "title": {
+            "value": "Complimentary Buah Long Long Lemonade with a qualifying Zi Char burger order",
+            "quote": "Each qualifying order will receive one (1) complimentary Buah Long Long Lemonade"
+          },
+          "benefit": {
+            "value": "you’ll get a complimentary Buah Long Long Lemonade on the house",
+            "quote": "you’ll get a complimentary Buah Long Long Lemonade on the house"
+          },
+          "startDate": {
+            "value": "2024-11-11",
+            "quote": "valid from 11th to 15th November 2024"
+          },
+          "endDate": {
+            "value": "2024-11-15",
+            "quote": "valid from 11th to 15th November 2024"
+          },
+          "locationScope": {
+            "value": "all_outlets",
+            "quote": "at all Shake Shack outlets in Singapore"
+          },
+          "locationRules": []
+        }
+      },
+      "rawOutputSha256": "28cb6f43bb6cba7675a5ad6c0be3a45ff1eda5b36841ae05f83baa7ec72d5ed8"
+    },
+    {
+      "caseId": "shake_shack_sg-study-breaks-just-got-better",
+      "taskId": "shake_shack_sg-study-breaks-just-got-better::weekday_student_fries_offer",
+      "originalAccepted": true,
+      "contractValid": true,
+      "issues": [],
+      "unresolved": [
+        "missing_start_date",
+        "missing_end_date",
+        "benefit_exceeds_publication_limit"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "offer"
+      ],
+      "dateAnnotationMatch": true,
+      "participationAnnotationMatch": true,
+      "findings": [],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "shake_shack_sg",
+        "sourceUrl": "https://www.shakeshack.com.sg/study-breaks-just-got-better/",
+        "evidenceId": "8763b4c2eeb5d362b981614d36581dcb3b467ff70e7f714cd150a0fae352e3c2",
+        "selector": "[data-elementor-type='single-post'] h1; [data-elementor-type='wp-post']",
+        "description": "Study Breaks Just Got Better Good news, students! Your next study break comes with a little treat on us. Whether you’re catching up with friends after class or grabbing a quick bite before your next lesson, everything’s just a little better with crinkle cuts. On weekdays, enjoy Crinkle Cut Fries on us* with any burger and drink purchase. Simply present a valid student ID at the cashier. This offer is available exclusively at our Westgate, Junction 8 or Great World locations. See you at the Shack! *Terms and conditions: Promotion is available on weekdays (excluding Public Holidays) at Westgate, Junction 8 and Great World Shack locations only. A valid student ID must be presented at the point of purchase to enjoy the promotion. The offer is open to all primary, secondary, tertiary and university students in Singapore. Shake Shack Singapore reserves the right to amend or end the promotion without prior notice.",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "enjoy Crinkle Cut Fries on us* with any burger and drink purchase."
+          },
+          "merchant": {
+            "value": "Shake Shack Singapore",
+            "quote": "Shake Shack Singapore reserves the right to amend or end the promotion without prior notice."
+          },
+          "title": {
+            "value": "Crinkle Cut Fries on us with any burger and drink purchase",
+            "quote": "enjoy Crinkle Cut Fries on us* with any burger and drink purchase."
+          },
+          "benefit": {
+            "value": "enjoy Crinkle Cut Fries on us* with any burger and drink purchase.",
+            "quote": "enjoy Crinkle Cut Fries on us* with any burger and drink purchase."
+          },
+          "startDate": {
+            "value": null,
+            "quote": null
+          },
+          "endDate": {
+            "value": null,
+            "quote": null
+          },
+          "locationScope": {
+            "value": "selected_outlets",
+            "quote": "This offer is available exclusively at our Westgate, Junction 8 or Great World locations."
+          },
+          "locationRules": [
+            {
+              "role": "participating",
+              "names": [
+                "Westgate",
+                "Junction 8",
+                "Great World"
+              ],
+              "quote": "at Westgate, Junction 8 and Great World Shack locations only."
+            }
+          ]
+        }
+      },
+      "rawOutputSha256": "2083b195c2c0aadbfd12a25dd939034fc88467c1b4a1713d3dfc074ca3282cab"
+    },
+    {
+      "caseId": "shake_shack_sg-this-ones-for-your-mom",
+      "taskId": "shake_shack_sg-this-ones-for-your-mom::mother-day-bundle",
+      "originalAccepted": false,
+      "contractValid": false,
+      "issues": [
+        "nonverbatim_benefit"
+      ],
+      "unresolved": [
+        "missing_start_date",
+        "missing_end_date",
+        "benefit_exceeds_publication_limit"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "offer"
+      ],
+      "dateAnnotationMatch": true,
+      "participationAnnotationMatch": true,
+      "findings": [],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "shake_shack_sg",
+        "sourceUrl": "https://www.shakeshack.com.sg/this-ones-for-your-mom/",
+        "evidenceId": "e4d33351bdbc94724e73d44e2398063ecfe8b223aeb4355366cdca6d5c963a9d",
+        "selector": "[data-elementor-type='single-post'] h1; [data-elementor-type='wp-post']",
+        "description": "This One’s For Your Mom This year, skip the flower bouquets and go straight for the burgers. On May 11, we’re serving up a Mother’s Day Bundle that’s stacked with everything she loves—because nothing says “I appreciate you” like burgers, bites, and a little extra on the house. Here’s what’s in the bundle (From $30.80): Choice of 1 Burger Complimentary ShackBurger or Chicken Shack Choice of Fries Choice of Bites Choice of 2 Drinks It’s stacked, it’s sharable, and it’s made with 100% Angus beef and premium ingredients. TERMS & CONDITIONS: •⁠ ⁠Offer is available across all Shake Shack outlets in Singapore on 11 May only. •⁠ ⁠Offer is valid for dine-in only. •⁠ ⁠Offer not valid for orders made through third-party delivery apps. •⁠ ⁠Limited to 1 order per person and transaction. •⁠ ⁠Offer is not valid in conjunction with any other vouchers. •⁠ ⁠Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items. •⁠ ⁠Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice. •⁠ ⁠Visuals are for illustration purposes only.",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "From $30.80"
+          },
+          "merchant": {
+            "value": "Shake Shack",
+            "quote": "Offer is available across all Shake Shack outlets in Singapore"
+          },
+          "title": {
+            "value": "Mother’s Day Bundle",
+            "quote": "Mother’s Day Bundle"
+          },
+          "benefit": {
+            "value": "From $30.80; Choice of 1 Burger; Complimentary ShackBurger or Chicken Shack; Choice of Fries; Choice of Bites; Choice of 2 Drinks",
+            "quote": "From $30.80"
+          },
+          "startDate": {
+            "value": null,
+            "quote": null
+          },
+          "endDate": {
+            "value": null,
+            "quote": null
+          },
+          "locationScope": {
+            "value": "all_outlets",
+            "quote": "Offer is available across all Shake Shack outlets in Singapore"
+          },
+          "locationRules": []
+        }
+      },
+      "rawOutputSha256": "e5699b41af51d6e451cd6d65b26badbf423e40dd0c9b38dcfba93a64c3b4c822"
+    },
+    {
+      "caseId": "captain_kim_sg-captain-kim-delivery",
+      "taskId": "captain_kim_sg-captain-kim-delivery::offer_1",
+      "originalAccepted": true,
+      "contractValid": true,
+      "issues": [],
+      "unresolved": [
+        "missing_start_date",
+        "missing_end_date",
+        "physical_participation_unresolved"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "offer"
+      ],
+      "dateAnnotationMatch": true,
+      "participationAnnotationMatch": true,
+      "findings": [],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "captain_kim_sg",
+        "sourceUrl": "https://kingdomfood.sg/captain-kim-delivery/",
+        "evidenceId": "8b618ac5ee4da1c4aed92994bc4211cd7fd85eb47dd8658b7f590e15653640ef",
+        "selector": "h2:contains('Flash this page')",
+        "description": "Flash this page to enjoy 20% OFF All Regular Items - Takeaway only!",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "20% OFF All Regular Items"
+          },
+          "merchant": {
+            "value": null,
+            "quote": null
+          },
+          "title": {
+            "value": "20% OFF All Regular Items",
+            "quote": "20% OFF All Regular Items"
+          },
+          "benefit": {
+            "value": "20% OFF All Regular Items",
+            "quote": "20% OFF All Regular Items"
+          },
+          "startDate": {
+            "value": null,
+            "quote": null
+          },
+          "endDate": {
+            "value": null,
+            "quote": null
+          },
+          "locationScope": {
+            "value": null,
+            "quote": null
+          },
+          "locationRules": []
+        }
+      },
+      "rawOutputSha256": "836cc9679a626e4fbef2e8f4350322b8ca0f66d6f5526c2a51746491cb0ff3c7"
+    },
+    {
+      "caseId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-1",
+      "taskId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-1::p1",
+      "originalAccepted": false,
+      "contractValid": false,
+      "issues": [
+        "nonverbatim_benefit"
+      ],
+      "unresolved": [
+        "physical_participation_unresolved",
+        "benefit_exceeds_publication_limit"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "offer"
+      ],
+      "dateAnnotationMatch": true,
+      "participationAnnotationMatch": true,
+      "findings": [],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "captain_kim_sg",
+        "sourceUrl": "https://kingdomfood.sg/captain-kim-korean-bbq-hotpot-tamp-j10/",
+        "evidenceId": "120959aa1afdd8b95bf2e8702eca6987a151423e90a2d5f189ed37fd900de10a",
+        "selector": "section[data-id='a9409b7']",
+        "description": "STUDENT 2PLUS1 PROMO EVERY MONDAY LUNCH & DINNER ONLY Guest coming for 2+1 Student Monday Promo MUST prebook on web link and key in “2+1M” under Reservation Notes. Once verified by restaurant staff, student diners will be given the “2+1M” student promo pricing written on the bill chit. All Guests have to follow our FB/IG page to enjoy the promo. Student Guests who did not book online with “2+1M” in Reservation Notes will not be provided the promo pricing on their bill chit. Valid Student Pass must be presented upon request and age not exceeding 23. Limited to 80mins dining time. Min 3 students to dine in. Not applicable for use with any other promos, vouchers & discounts. Valid on every Monday for 1 – 31 Oct 2026. Example: To enjoy 2+1 must be minimum of 3 student diners; if it is 4 student then 3 pays 2+1 while the 4th pays regular price or regular student price.",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "if it is 4 student then 3 pays 2+1 while the 4th pays regular price or regular student price."
+          },
+          "merchant": {
+            "value": null,
+            "quote": null
+          },
+          "title": {
+            "value": "STUDENT 2PLUS1 PROMO",
+            "quote": "STUDENT 2PLUS1 PROMO"
+          },
+          "benefit": {
+            "value": "STUDENT 2PLUS1 PROMO; if it is 4 student then 3 pays 2+1 while the 4th pays regular price or regular student price.",
+            "quote": "if it is 4 student then 3 pays 2+1 while the 4th pays regular price or regular student price."
+          },
+          "startDate": {
+            "value": "2026-10-01",
+            "quote": "Valid on every Monday for 1 – 31 Oct 2026."
+          },
+          "endDate": {
+            "value": "2026-10-31",
+            "quote": "Valid on every Monday for 1 – 31 Oct 2026."
+          },
+          "locationScope": {
+            "value": null,
+            "quote": null
+          },
+          "locationRules": []
+        }
+      },
+      "rawOutputSha256": "f3f0a1b03a698949b57fa1c22e057a0222833efb0b351d4316f2f4fb75ef3412"
+    },
+    {
+      "caseId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-2",
+      "taskId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-2::weekday_lunch_early_bird",
+      "originalAccepted": true,
+      "contractValid": true,
+      "issues": [],
+      "unresolved": [
+        "physical_participation_unresolved"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "lunch"
+      ],
+      "dateAnnotationMatch": true,
+      "participationAnnotationMatch": true,
+      "findings": [],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "captain_kim_sg",
+        "sourceUrl": "https://kingdomfood.sg/captain-kim-korean-bbq-hotpot-tamp-j10/",
+        "evidenceId": "120959aa1afdd8b95bf2e8702eca6987a151423e90a2d5f189ed37fd900de10a",
+        "selector": "section[data-id='0609884']",
+        "description": "EARLY BIRD PROMO Mon – Fri Lunch: $14.9++/pax [11:30am-12pm Timeslots Only] Mon – Fri Dinner: $21.9++/pax [5:30pm Timeslots Only] Sat – Sun Lunch & Dinner: $21.9++/pax [5pm-5:30pmTimeslots Only] Guest coming for Early Bird Promo MUST prebook on web link and key in “EB” under Reservation Notes.Prior to entry guests have to inform host that they are using the promo before entering. Once verified by restaurant staff, diners will be given the early bird promo pricing written on the bill chit. Guests MUST follow our Facebook / Instagram to enjoy the promo. All Guests have to follow our FB/IG page to enjoy the promo. Limited to 80mins dining time. Min 2 paying pax to dine in. Lunch discount is only applicable during 11:30am – 12pm timeslots. Dinner discount is only applicable during Weekday 5:30pm timeslots (Weekends & PH 5pm – 5:30pm). Not applicable with other promos, vouchers & discounts. Valid from 1 – 31 Oct 2026.",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "Mon – Fri Lunch: $14.9++/pax"
+          },
+          "merchant": {
+            "value": null,
+            "quote": null
+          },
+          "title": {
+            "value": "EARLY BIRD PROMO",
+            "quote": "EARLY BIRD PROMO"
+          },
+          "benefit": {
+            "value": "Mon – Fri Lunch: $14.9++/pax",
+            "quote": "Mon – Fri Lunch: $14.9++/pax"
+          },
+          "startDate": {
+            "value": "2026-10-01",
+            "quote": "Valid from 1 – 31 Oct 2026."
+          },
+          "endDate": {
+            "value": "2026-10-31",
+            "quote": "Valid from 1 – 31 Oct 2026."
+          },
+          "locationScope": {
+            "value": null,
+            "quote": null
+          },
+          "locationRules": []
+        }
+      },
+      "rawOutputSha256": "276c1c435b9d6471e7a9de4e544231eb382be046f430ee733cbd269f9387f5ad"
+    },
+    {
+      "caseId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-2",
+      "taskId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-2::weekday_dinner_early_bird",
+      "originalAccepted": false,
+      "contractValid": true,
+      "issues": [],
+      "unresolved": [
+        "physical_participation_unresolved"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "dinner"
+      ],
+      "dateAnnotationMatch": true,
+      "participationAnnotationMatch": true,
+      "findings": [],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "captain_kim_sg",
+        "sourceUrl": "https://kingdomfood.sg/captain-kim-korean-bbq-hotpot-tamp-j10/",
+        "evidenceId": "120959aa1afdd8b95bf2e8702eca6987a151423e90a2d5f189ed37fd900de10a",
+        "selector": "section[data-id='0609884']",
+        "description": "EARLY BIRD PROMO Mon – Fri Lunch: $14.9++/pax [11:30am-12pm Timeslots Only] Mon – Fri Dinner: $21.9++/pax [5:30pm Timeslots Only] Sat – Sun Lunch & Dinner: $21.9++/pax [5pm-5:30pmTimeslots Only] Guest coming for Early Bird Promo MUST prebook on web link and key in “EB” under Reservation Notes.Prior to entry guests have to inform host that they are using the promo before entering. Once verified by restaurant staff, diners will be given the early bird promo pricing written on the bill chit. Guests MUST follow our Facebook / Instagram to enjoy the promo. All Guests have to follow our FB/IG page to enjoy the promo. Limited to 80mins dining time. Min 2 paying pax to dine in. Lunch discount is only applicable during 11:30am – 12pm timeslots. Dinner discount is only applicable during Weekday 5:30pm timeslots (Weekends & PH 5pm – 5:30pm). Not applicable with other promos, vouchers & discounts. Valid from 1 – 31 Oct 2026.",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "Mon – Fri Dinner: $21.9++/pax"
+          },
+          "merchant": {
+            "value": null,
+            "quote": null
+          },
+          "title": {
+            "value": "EARLY BIRD PROMO",
+            "quote": "EARLY BIRD PROMO"
+          },
+          "benefit": {
+            "value": "Dinner: $21.9++/pax",
+            "quote": "Mon – Fri Dinner: $21.9++/pax"
+          },
+          "startDate": {
+            "value": "2026-10-01",
+            "quote": "Valid from 1 – 31 Oct 2026."
+          },
+          "endDate": {
+            "value": "2026-10-31",
+            "quote": "Valid from 1 – 31 Oct 2026."
+          },
+          "locationScope": {
+            "value": null,
+            "quote": null
+          },
+          "locationRules": []
+        }
+      },
+      "rawOutputSha256": "ab811a7b650ef919bd9db4f9b38c17cd1877bc1b77e12cbdeec916f635d1e512"
+    },
+    {
+      "caseId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-2",
+      "taskId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-2::weekend_lunch_dinner_early_bird",
+      "originalAccepted": false,
+      "contractValid": true,
+      "issues": [],
+      "unresolved": [
+        "physical_participation_unresolved"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "weekend"
+      ],
+      "dateAnnotationMatch": true,
+      "participationAnnotationMatch": true,
+      "findings": [],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "captain_kim_sg",
+        "sourceUrl": "https://kingdomfood.sg/captain-kim-korean-bbq-hotpot-tamp-j10/",
+        "evidenceId": "120959aa1afdd8b95bf2e8702eca6987a151423e90a2d5f189ed37fd900de10a",
+        "selector": "section[data-id='0609884']",
+        "description": "EARLY BIRD PROMO Mon – Fri Lunch: $14.9++/pax [11:30am-12pm Timeslots Only] Mon – Fri Dinner: $21.9++/pax [5:30pm Timeslots Only] Sat – Sun Lunch & Dinner: $21.9++/pax [5pm-5:30pmTimeslots Only] Guest coming for Early Bird Promo MUST prebook on web link and key in “EB” under Reservation Notes.Prior to entry guests have to inform host that they are using the promo before entering. Once verified by restaurant staff, diners will be given the early bird promo pricing written on the bill chit. Guests MUST follow our Facebook / Instagram to enjoy the promo. All Guests have to follow our FB/IG page to enjoy the promo. Limited to 80mins dining time. Min 2 paying pax to dine in. Lunch discount is only applicable during 11:30am – 12pm timeslots. Dinner discount is only applicable during Weekday 5:30pm timeslots (Weekends & PH 5pm – 5:30pm). Not applicable with other promos, vouchers & discounts. Valid from 1 – 31 Oct 2026.",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "Sat – Sun Lunch & Dinner: $21.9++/pax"
+          },
+          "merchant": {
+            "value": null,
+            "quote": null
+          },
+          "title": {
+            "value": "EARLY BIRD PROMO",
+            "quote": "EARLY BIRD PROMO"
+          },
+          "benefit": {
+            "value": "$21.9++/pax",
+            "quote": "Sat – Sun Lunch & Dinner: $21.9++/pax"
+          },
+          "startDate": {
+            "value": "2026-10-01",
+            "quote": "Valid from 1 – 31 Oct 2026."
+          },
+          "endDate": {
+            "value": "2026-10-31",
+            "quote": "Valid from 1 – 31 Oct 2026."
+          },
+          "locationScope": {
+            "value": null,
+            "quote": null
+          },
+          "locationRules": []
+        }
+      },
+      "rawOutputSha256": "7c7aff4fd3b7444a8eaae7b8e2351396ceb65f6412b15ff325a86558b7fb28ff"
+    },
+    {
+      "caseId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-3",
+      "taskId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-3::proposition1",
+      "originalAccepted": true,
+      "contractValid": true,
+      "issues": [],
+      "unresolved": [
+        "physical_participation_unresolved"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "offer"
+      ],
+      "dateAnnotationMatch": true,
+      "participationAnnotationMatch": true,
+      "findings": [],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "captain_kim_sg",
+        "sourceUrl": "https://kingdomfood.sg/captain-kim-korean-bbq-hotpot-tamp-j10/",
+        "evidenceId": "120959aa1afdd8b95bf2e8702eca6987a151423e90a2d5f189ed37fd900de10a",
+        "selector": "section[data-id='0cee9f0']",
+        "description": "4PLUS1 PROMO Mon - Sun Lunch & Dinner 1 pax dines free with every 4 other full-paying pax. Free pax has to be the lowest paying diner.Eg 1) 5 Adult Diners = 1 Adult Dines Free Eg 2) 3 Adult Diners + 2 Student Diners = 1 Student Dines Free Guests MUST follow our Facebook / Instagram to enjoy the promo. Guest have to inform host that they are using the promo before entering. Valid from 1-31 Oct 2026. Limited to 90 mins dining time. Guests have to leave by the stipulated timing to enjoy the promo. Not applicable with other promos, vouchers & discounts. Promo is not applicable for Gebiz",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "1 pax dines free with every 4 other full-paying pax."
+          },
+          "merchant": {
+            "value": null,
+            "quote": null
+          },
+          "title": {
+            "value": "4PLUS1 PROMO",
+            "quote": "4PLUS1 PROMO"
+          },
+          "benefit": {
+            "value": "1 pax dines free with every 4 other full-paying pax.",
+            "quote": "1 pax dines free with every 4 other full-paying pax."
+          },
+          "startDate": {
+            "value": "2026-10-01",
+            "quote": "Valid from 1-31 Oct 2026."
+          },
+          "endDate": {
+            "value": "2026-10-31",
+            "quote": "Valid from 1-31 Oct 2026."
+          },
+          "locationScope": {
+            "value": null,
+            "quote": null
+          },
+          "locationRules": []
+        }
+      },
+      "rawOutputSha256": "8c21d140f1bd1c8d1f3f7d9c9d72818e8a91ba0d3f87a001aa862167306d9945"
+    },
+    {
+      "caseId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-3",
+      "taskId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-3::captain_kim_4plus1",
+      "originalAccepted": true,
+      "contractValid": true,
+      "issues": [],
+      "unresolved": [
+        "physical_participation_unresolved"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "offer"
+      ],
+      "dateAnnotationMatch": true,
+      "participationAnnotationMatch": true,
+      "findings": [],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "captain_kim_sg",
+        "sourceUrl": "https://kingdomfood.sg/captain-kim-korean-bbq-hotpot/",
+        "evidenceId": "6e650be7043e1984a739e8c9abfe268c782b3267bc47a2c871b144778d6e81c6",
+        "selector": "section[data-id='1bda4b4']",
+        "description": "4PLUS1 PROMO Mon - Sun Lunch & Dinner Guest have to inform host that they are using the promo before entering. Valid from 1-30 Sep 2026. Limited to 90 mins dining time. Guests have to leave by the stipulated timing to enjoy the promo. Not applicable with other promos, vouchers & discounts. 1 pax dines free with every 4 other full-paying pax. Free pax has to be the lowest paying diner. Eg 1) 5 Adult Diners = 1 Adult Dines Free Eg 2) 3 Adult Diners + 2 Student Diners = 1 Student Dines Free Guests MUST follow our Facebook / Instagram to enjoy the promo.",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "1 pax dines free with every 4 other full-paying pax."
+          },
+          "merchant": {
+            "value": null,
+            "quote": null
+          },
+          "title": {
+            "value": "4PLUS1 PROMO",
+            "quote": "4PLUS1 PROMO"
+          },
+          "benefit": {
+            "value": "1 pax dines free with every 4 other full-paying pax.",
+            "quote": "1 pax dines free with every 4 other full-paying pax."
+          },
+          "startDate": {
+            "value": "2026-09-01",
+            "quote": "Valid from 1-30 Sep 2026."
+          },
+          "endDate": {
+            "value": "2026-09-30",
+            "quote": "Valid from 1-30 Sep 2026."
+          },
+          "locationScope": {
+            "value": null,
+            "quote": null
+          },
+          "locationRules": []
+        }
+      },
+      "rawOutputSha256": "c5768449aafeac1f86405a1eef04e1fb0095b1c8f50018825efa5386632e956e"
+    },
+    {
+      "caseId": "bari_bari_steak_sg-promotions-1",
+      "taskId": "bari_bari_steak_sg-promotions-1::weekday-lunch-special",
+      "originalAccepted": false,
+      "contractValid": false,
+      "issues": [
+        "nonverbatim_benefit"
+      ],
+      "unresolved": [
+        "missing_start_date",
+        "missing_end_date",
+        "benefit_exceeds_publication_limit"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "offer"
+      ],
+      "dateAnnotationMatch": true,
+      "participationAnnotationMatch": true,
+      "findings": [],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "bari_bari_steak_sg",
+        "sourceUrl": "https://baribaristeak.com.sg/promotions/",
+        "evidenceId": "f9c13ab276bf44b6f229f66004f7b6e8d47e75b2255d2879149f6ca8ad1aab5b",
+        "selector": "article#post-279177 h4; article#post-279177 .df-post-content-wrap",
+        "description": "Weekday Lunch Specials (Tampines 1 Exclusive) Elevate your midday lunch break with our complete Teppan Lunch Sets starting from $13.90! Save up to 26% off regular menu prices. Every Lunch Set Includes: Your choice of Teppan main Rice Miso Soup Genmaicha From Mondays to Fridays, Opening to 5PM (Excludes PH & Eve of PH) Exclusively at Tampines 1 outlet. T&Cs apply.",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "starting from $13.90"
+          },
+          "merchant": {
+            "value": null,
+            "quote": null
+          },
+          "title": {
+            "value": "Weekday Lunch Specials",
+            "quote": "Weekday Lunch Specials"
+          },
+          "benefit": {
+            "value": "starting from $13.90; Save up to 26% off regular menu prices.",
+            "quote": "starting from $13.90"
+          },
+          "startDate": {
+            "value": null,
+            "quote": null
+          },
+          "endDate": {
+            "value": null,
+            "quote": null
+          },
+          "locationScope": {
+            "value": "named_outlets",
+            "quote": "Exclusively at Tampines 1 outlet."
+          },
+          "locationRules": [
+            {
+              "role": "participating",
+              "names": [
+                "Tampines 1"
+              ],
+              "quote": "Exclusively at Tampines 1 outlet."
+            }
+          ]
+        }
+      },
+      "rawOutputSha256": "5865f32ecb060428b5d8b77e62cae50d1f8504da2d760d4533eca940c1bdf144"
+    },
+    {
+      "caseId": "bari_bari_steak_sg-promotions-2",
+      "taskId": "bari_bari_steak_sg-promotions-2::p1",
+      "originalAccepted": true,
+      "contractValid": true,
+      "issues": [],
+      "unresolved": [
+        "missing_start_date",
+        "missing_end_date"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "all_day",
+        "tea_time"
+      ],
+      "dateAnnotationMatch": true,
+      "participationAnnotationMatch": true,
+      "findings": [],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "bari_bari_steak_sg",
+        "sourceUrl": "https://baribaristeak.com.sg/promotions/",
+        "evidenceId": "f9c13ab276bf44b6f229f66004f7b6e8d47e75b2255d2879149f6ca8ad1aab5b",
+        "selector": "article#post-279150 h4; article#post-279150 .df-post-content-wrap",
+        "description": "Enjoy 23% Off Free-Flow Salad Bar at Bari Bari Steak! Treat yourself to unlimited fresh greens with Bari Bari Steak’s Free-Flow Salad Bar! For a limited time, enjoy 23% savings and pile your bowl high with crisp veggies, tasty toppings, and delicious dressings for just $12.90++ (U.P. $16.90++). Whether you are looking for an all-day dining feast or a refreshing mid-day bite, we’ve got you covered across selected outlets from Monday to Thursday: All-Day Free-Flow Salad Bar: Available at Tampines 1 and VivoCity. Tea-Time Free-Flow Salad Bar (2 PM – 5 PM): Available at Junction 8 and Great World. Terms & Conditions: Valid exclusively for dine-in. Not valid in conjunction with other ongoing promotions, discounts, vouchers, or privileges. Image(s) for illustration purposes only. The Management reserves the right to amend or terminate the offer without prior notice.",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "23% Off Free-Flow Salad Bar at Bari Bari Steak"
+          },
+          "merchant": {
+            "value": "Bari Bari Steak",
+            "quote": "23% Off Free-Flow Salad Bar at Bari Bari Steak"
+          },
+          "title": {
+            "value": "23% Off Free-Flow Salad Bar",
+            "quote": "23% Off Free-Flow Salad Bar at Bari Bari Steak"
+          },
+          "benefit": {
+            "value": "23% Off Free-Flow Salad Bar",
+            "quote": "23% Off Free-Flow Salad Bar at Bari Bari Steak"
+          },
+          "startDate": {
+            "value": null,
+            "quote": null
+          },
+          "endDate": {
+            "value": null,
+            "quote": null
+          },
+          "locationScope": {
+            "value": "selected_outlets",
+            "quote": "across selected outlets from Monday to Thursday"
+          },
+          "locationRules": [
+            {
+              "role": "participating",
+              "names": [
+                "Tampines 1",
+                "VivoCity"
+              ],
+              "quote": "All-Day Free-Flow Salad Bar: Available at Tampines 1 and VivoCity."
+            },
+            {
+              "role": "participating",
+              "names": [
+                "Junction 8",
+                "Great World"
+              ],
+              "quote": "Tea-Time Free-Flow Salad Bar (2 PM – 5 PM): Available at Junction 8 and Great World."
+            }
+          ]
+        }
+      },
+      "rawOutputSha256": "d4699481b66c5b9ab1c23690e1401c5faa46a9cdeb3734ac992df4d881f3f87d"
+    },
+    {
+      "caseId": "bari_bari_steak_sg-promotions-3",
+      "taskId": "bari_bari_steak_sg-promotions-3::senior_special",
+      "originalAccepted": true,
+      "contractValid": true,
+      "issues": [],
+      "unresolved": [
+        "missing_start_date",
+        "missing_end_date"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "offer"
+      ],
+      "dateAnnotationMatch": true,
+      "participationAnnotationMatch": true,
+      "findings": [],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "bari_bari_steak_sg",
+        "sourceUrl": "https://baribaristeak.com.sg/promotions/",
+        "evidenceId": "f9c13ab276bf44b6f229f66004f7b6e8d47e75b2255d2879149f6ca8ad1aab5b",
+        "selector": "article#post-279086 h4; article#post-279086 .df-post-content-wrap",
+        "description": "Senior Special: Enjoy 20% OFF Your Total Bill! Treat your loved ones (or yourself!) to a sizzling meal at Bari Bari Steak. We are celebrating our seniors with an exclusive 20% discount on the total bill during weekdays! Monday to Thursday, from opening until 5PM (excluding Public Holidays)* Exclusively at Bari Bari Steak, Tampines 1 Valid for dine-in customers aged 60 and above Terms & Conditions: Valid for dine-in customers aged 60 and above. Valid exclusively at the Tampines 1 outlet only. A valid proof of age must be presented for verification. Available from Monday to Thursday, from opening until 5pm only, excluding public holidays. Discount is applied to the total bill prior to the addition of GST and service charge. Not valid in conjunction with any other ongoing promotions, discounts, vouchers, or privileges. Image(s) for illustration purposes only. The management reserves the right to amend or terminate the offer without prior notice.",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "Senior Special: Enjoy 20% OFF Your Total Bill!"
+          },
+          "merchant": {
+            "value": "Bari Bari Steak",
+            "quote": "Exclusively at Bari Bari Steak, Tampines 1"
+          },
+          "title": {
+            "value": "Senior Special",
+            "quote": "Senior Special: Enjoy 20% OFF Your Total Bill!"
+          },
+          "benefit": {
+            "value": "Enjoy 20% OFF Your Total Bill!",
+            "quote": "Senior Special: Enjoy 20% OFF Your Total Bill!"
+          },
+          "startDate": {
+            "value": null,
+            "quote": null
+          },
+          "endDate": {
+            "value": null,
+            "quote": null
+          },
+          "locationScope": {
+            "value": "selected_outlets",
+            "quote": "Valid exclusively at the Tampines 1 outlet only."
+          },
+          "locationRules": [
+            {
+              "role": "participating",
+              "names": [
+                "Tampines 1"
+              ],
+              "quote": "Valid exclusively at the Tampines 1 outlet only."
+            }
+          ]
+        }
+      },
+      "rawOutputSha256": "5206e1671c5726e27f0bc31a8f11a70978be4e33b2cf000fd7b513ef97dfa567"
+    },
+    {
+      "caseId": "bari_bari_steak_sg-promotions-4",
+      "taskId": "bari_bari_steak_sg-promotions-4::p1",
+      "originalAccepted": true,
+      "contractValid": true,
+      "issues": [],
+      "unresolved": [
+        "missing_start_date",
+        "missing_end_date",
+        "physical_participation_unresolved"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "offer"
+      ],
+      "dateAnnotationMatch": true,
+      "participationAnnotationMatch": false,
+      "findings": [
+        "physical_participation_annotation_mismatch"
+      ],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "bari_bari_steak_sg",
+        "sourceUrl": "https://baribaristeak.com.sg/promotions/",
+        "evidenceId": "f9c13ab276bf44b6f229f66004f7b6e8d47e75b2255d2879149f6ca8ad1aab5b",
+        "selector": "article#post-279081 h4; article#post-279081 .df-post-content-wrap",
+        "description": "Beat the Crowd & Save 15% ! Beat the dinner rush and enjoy a sizzling deal at Bari Bari Steak! From 5pm to 6pm daily, get 15% OFF your total bill with our Early Bird Dinner Promo. Gather your friends, head over to our Tampines 1 outlet, and dig into your favorite steaks for less. Daily, 5PM – 6PM (1-hour dining time) Exclusively at Bari Bari Steak, Tampines 1 Terms & Conditions: Valid exclusively for dine-in at the Tampines 1 outlet only. Available daily from 5pm to 6pm only (excluding Public Holidays)*. Customers must be seated and have orders placed within this window to enjoy the discount. Discount is applied to the total bill prior to the addition of GST and service charge. Not valid in conjunction with any other ongoing promotions, discounts, vouchers, or privileges. Image(s) for illustration purposes only. The management reserves the right to amend or terminate the offer without prior notice.",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "get 15% OFF your total bill"
+          },
+          "merchant": {
+            "value": null,
+            "quote": null
+          },
+          "title": {
+            "value": "Early Bird Dinner Promo",
+            "quote": "Early Bird Dinner Promo"
+          },
+          "benefit": {
+            "value": "get 15% OFF your total bill",
+            "quote": "get 15% OFF your total bill"
+          },
+          "startDate": {
+            "value": null,
+            "quote": null
+          },
+          "endDate": {
+            "value": null,
+            "quote": null
+          },
+          "locationScope": {
+            "value": null,
+            "quote": null
+          },
+          "locationRules": []
+        }
+      },
+      "rawOutputSha256": "63628dccb83f2d7f8c39b8b7545ef1d78b30db318a600713c0c6cbe01107a502"
+    },
+    {
+      "caseId": "bari_bari_steak_sg-promotions-5",
+      "taskId": "bari_bari_steak_sg-promotions-5::highball_beer_sake_cocktail_house_pours",
+      "originalAccepted": true,
+      "contractValid": true,
+      "issues": [],
+      "unresolved": [
+        "missing_start_date",
+        "missing_end_date",
+        "physical_participation_unresolved"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "offer"
+      ],
+      "dateAnnotationMatch": true,
+      "participationAnnotationMatch": true,
+      "findings": [],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "bari_bari_steak_sg",
+        "sourceUrl": "https://baribaristeak.com.sg/promotions/",
+        "evidenceId": "f9c13ab276bf44b6f229f66004f7b6e8d47e75b2255d2879149f6ca8ad1aab5b",
+        "selector": "article#post-279005 h4; article#post-279005 .df-post-content-wrap",
+        "description": "1 for 1 Highball, Beers, Sake, Cocktails and House Pours",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "1 for 1 Highball, Beers, Sake, Cocktails and House Pours"
+          },
+          "merchant": {
+            "value": null,
+            "quote": null
+          },
+          "title": {
+            "value": "1 for 1 Highball, Beers, Sake, Cocktails and House Pours",
+            "quote": "1 for 1 Highball, Beers, Sake, Cocktails and House Pours"
+          },
+          "benefit": {
+            "value": "1 for 1 Highball, Beers, Sake, Cocktails and House Pours",
+            "quote": "1 for 1 Highball, Beers, Sake, Cocktails and House Pours"
+          },
+          "startDate": {
+            "value": null,
+            "quote": null
+          },
+          "endDate": {
+            "value": null,
+            "quote": null
+          },
+          "locationScope": {
+            "value": null,
+            "quote": null
+          },
+          "locationRules": []
+        }
+      },
+      "rawOutputSha256": "aeec7c6ebd444c8a19f2723aaf37b3e9f32668126ebe628e6e5b6e5fd25d892f"
+    },
+    {
+      "caseId": "instagram-DDJfz9bynW-",
+      "taskId": "instagram-DDJfz9bynW-::salmon_yukke_1_for_1",
+      "originalAccepted": true,
+      "contractValid": true,
+      "issues": [],
+      "unresolved": [
+        "missing_start_date",
+        "missing_end_date",
+        "physical_participation_unresolved"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "offer"
+      ],
+      "dateAnnotationMatch": true,
+      "participationAnnotationMatch": true,
+      "findings": [],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "instagram",
+        "sourceUrl": "https://www.instagram.com/p/DDJfz9bynW-/",
+        "evidenceId": "d4e6906d14df0c893690ee09be1ee02cf95b4ee3d8e23c04754e8f6c945d824d",
+        "selector": "meta[property='og:title'] (caption suffix only)",
+        "description": "Newly added to our menu and we‘re celebrating with a 1-for-1 deal! Get 2 portions of our Salmon Yukke for just $8.80 every Sunday! Fresh, flavorful, and perfect for sharing (or keeping all to yourself) 📅 Every Sunday | Dine-in only 📸 Follow us on Instagram (@shinrai.sg) to enjoy this exclusive deal! T&Cs apply. 1-for-1 valid for each dish per booking. Not combinable with other promotions or discounts. Secure your table now and make every Sunday a delicious one! #shinraisg #sgfoodie #sgrestaurant #singapore #japaneserestaurant #sushirestaurant #izakaya #telokayer",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "Get 2 portions of our Salmon Yukke for just $8.80"
+          },
+          "merchant": {
+            "value": null,
+            "quote": null
+          },
+          "title": {
+            "value": "Salmon Yukke 1-for-1 deal",
+            "quote": "Get 2 portions of our Salmon Yukke for just $8.80"
+          },
+          "benefit": {
+            "value": "Get 2 portions of our Salmon Yukke for just $8.80",
+            "quote": "Get 2 portions of our Salmon Yukke for just $8.80"
+          },
+          "startDate": {
+            "value": null,
+            "quote": null
+          },
+          "endDate": {
+            "value": null,
+            "quote": null
+          },
+          "locationScope": {
+            "value": null,
+            "quote": null
+          },
+          "locationRules": []
+        }
+      },
+      "rawOutputSha256": "e5be1e271706ac1d4b74df0753f4d60430d893ed4d40fa7538e4284bfda7ae7c"
+    },
+    {
+      "caseId": "instagram-Dc-kxPJzx9B",
+      "taskId": "instagram-Dc-kxPJzx9B::p1",
+      "originalAccepted": true,
+      "contractValid": true,
+      "issues": [],
+      "unresolved": [
+        "missing_start_date",
+        "missing_end_date",
+        "physical_participation_unresolved",
+        "benefit_exceeds_publication_limit"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "offer"
+      ],
+      "dateAnnotationMatch": true,
+      "participationAnnotationMatch": true,
+      "findings": [],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "instagram",
+        "sourceUrl": "https://www.instagram.com/p/Dc-kxPJzx9B/",
+        "evidenceId": "9b7ee95414c063b60f90a74e69d1a51d62010e45a4899a11bfa1ae1a507f593e",
+        "selector": "meta[property='og:title'] (caption suffix only)",
+        "description": "The early bird catches the worm but the late bird gets the K-Treat. 👀 Our Off-Peak Deals just got a serious upgrade. $9.90++ gets you a main + free-flow side dishes + your choice of K-TREAT - Omija Berry Smoothie, Milk Tea Brûlée Smoothie or a Dubai Chewy Cookie. Yep. All that for $9.90++. Weekdays, 2–5PM. (Valid for dine-in only) (Excluding public holidays) Dubai Chewy Cookie available in limited quantities daily.",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "$9.90++ gets you a main + free-flow side dishes + your choice of K-TREAT - Omija Berry Smoothie, Milk Tea Brûlée Smoothie or a Dubai Chewy Cookie."
+          },
+          "merchant": {
+            "value": null,
+            "quote": null
+          },
+          "title": {
+            "value": "$9.90++ main, free-flow side dishes and K-TREAT",
+            "quote": "$9.90++ gets you a main + free-flow side dishes + your choice of K-TREAT - Omija Berry Smoothie, Milk Tea Brûlée Smoothie or a Dubai Chewy Cookie."
+          },
+          "benefit": {
+            "value": "$9.90++ gets you a main + free-flow side dishes + your choice of K-TREAT - Omija Berry Smoothie, Milk Tea Brûlée Smoothie or a Dubai Chewy Cookie.",
+            "quote": "$9.90++ gets you a main + free-flow side dishes + your choice of K-TREAT - Omija Berry Smoothie, Milk Tea Brûlée Smoothie or a Dubai Chewy Cookie."
+          },
+          "startDate": {
+            "value": null,
+            "quote": null
+          },
+          "endDate": {
+            "value": null,
+            "quote": null
+          },
+          "locationScope": {
+            "value": null,
+            "quote": null
+          },
+          "locationRules": []
+        }
+      },
+      "rawOutputSha256": "24372d02154b30290b2ddd85b530d0d97ca2522ce5aeb868025c3847a94180f8"
+    },
+    {
+      "caseId": "instagram-DdQA3EChsjx",
+      "taskId": "instagram-DdQA3EChsjx::weekday_nasi_lemak_one_for_one",
+      "originalAccepted": true,
+      "contractValid": true,
+      "issues": [],
+      "unresolved": [
+        "missing_start_date",
+        "missing_end_date",
+        "physical_participation_unresolved"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "offer"
+      ],
+      "dateAnnotationMatch": true,
+      "participationAnnotationMatch": true,
+      "findings": [],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "instagram",
+        "sourceUrl": "https://www.instagram.com/p/DdQA3EChsjx/",
+        "evidenceId": "b8a9c64ae12fb643690c7ecacd692261fd58db662185d4824c3cbce299e76b52",
+        "selector": "meta[property='og:title'] (caption suffix only)",
+        "description": "✨ NEW MAIN ADDED! MORE NASI LEMAK TO LOVE. Your weekday lunch just got even better. Starting 14 September, enjoy 1 for 1 Nasi Lemak at Sinpopo Brand — now with three well loved favourites to choose from! Available weekdays, 11AM–12PM only, bring a friend and enjoy twice the Nasi Lemak goodness for the price of one. Nasi Lemak Sambal Prawn Nasi Lemak Ayam Berempah Nasi Lemak Ayam Rendang More choices and more reasons to make lunch plans. Grab your lunch buddy and reserve your table to enjoy our Nasi Lemak specials! Reservation is required to enjoy our Nasi Lemak promotion. #sinpopobrand #golocalwithsinpopo #sinpopo",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "enjoy 1 for 1 Nasi Lemak at Sinpopo Brand"
+          },
+          "merchant": {
+            "value": "Sinpopo Brand",
+            "quote": "enjoy 1 for 1 Nasi Lemak at Sinpopo Brand"
+          },
+          "title": {
+            "value": "1 for 1 Nasi Lemak",
+            "quote": "enjoy 1 for 1 Nasi Lemak at Sinpopo Brand"
+          },
+          "benefit": {
+            "value": "enjoy 1 for 1 Nasi Lemak",
+            "quote": "enjoy 1 for 1 Nasi Lemak at Sinpopo Brand"
+          },
+          "startDate": {
+            "value": null,
+            "quote": null
+          },
+          "endDate": {
+            "value": null,
+            "quote": null
+          },
+          "locationScope": {
+            "value": null,
+            "quote": null
+          },
+          "locationRules": []
+        }
+      },
+      "rawOutputSha256": "392eb537024a6bf3feefba163caa6f2ab4530384266af3a180b79cfcf60ad464"
+    },
+    {
+      "caseId": "shake_shack_sg-flock-this-way",
+      "taskId": "shake_shack_sg-flock-this-way::chicken_trio_deal",
+      "originalAccepted": true,
+      "contractValid": true,
+      "issues": [],
+      "unresolved": [
+        "benefit_exceeds_publication_limit"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "offer"
+      ],
+      "dateAnnotationMatch": true,
+      "participationAnnotationMatch": true,
+      "findings": [],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "shake_shack_sg",
+        "sourceUrl": "https://www.shakeshack.com.sg/flock-this-way/",
+        "evidenceId": "d3ef9c09692712863377c97a2d97ad5685d08cbfae609501902c9de4a80dbcdf",
+        "selector": "[data-elementor-type='single-post'] h1; [data-elementor-type='wp-post']",
+        "description": "Flock This Way Craving chicken? We’ve got three reasons to dig in. From 12 to 30 November 2025, get our Chicken Shack, Hot Chicken and Saenchae Gochujang Chicken — all for just $23.9 (U.P $33.80) when you order through the Happy Point Singapore app. Whether you’re into something crispy and classic, bold and spicy or sweet with a Korean kick, this trio’s got you covered. Here’s how to get yours: Download the Happy Point Singapore app (available on iOS and Android). Order ahead from any Shake Shack Singapore location. Add the Chicken Trio to your cart — it’s automatically just $23.90. So go on, flock this way and make it a chicken kind of day. This deal’s only here for a limited time! Terms and Conditions Offer is available across all Shake Shack outlets in Singapore from 12 November to 30 November 2025 only. Offer is valid for dine-in and take-away. The offer is only valid via Happy Point Singapore in-app orders. Offer not valid for orders made through third-party delivery apps. Offer is not valid in conjunction with any other vouchers. Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items. Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice. Visuals are for illustration purposes only.",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "get our Chicken Shack, Hot Chicken and Saenchae Gochujang Chicken — all for just $23.9 (U.P $33.80)"
+          },
+          "merchant": {
+            "value": "Shake Shack",
+            "quote": "Order ahead from any Shake Shack Singapore location."
+          },
+          "title": {
+            "value": "Flock This Way",
+            "quote": "Flock This Way"
+          },
+          "benefit": {
+            "value": "get our Chicken Shack, Hot Chicken and Saenchae Gochujang Chicken — all for just $23.9 (U.P $33.80)",
+            "quote": "get our Chicken Shack, Hot Chicken and Saenchae Gochujang Chicken — all for just $23.9 (U.P $33.80)"
+          },
+          "startDate": {
+            "value": "2025-11-12",
+            "quote": "From 12 to 30 November 2025"
+          },
+          "endDate": {
+            "value": "2025-11-30",
+            "quote": "From 12 to 30 November 2025"
+          },
+          "locationScope": {
+            "value": "all_outlets",
+            "quote": "Offer is available across all Shake Shack outlets in Singapore from 12 November to 30 November 2025 only."
+          },
+          "locationRules": []
+        }
+      },
+      "rawOutputSha256": "4c291f8778efa2460f95ca4c32e8dd550027d61f75206f1159a51a8c3cb5efe4"
+    },
+    {
+      "caseId": "shake_shack_sg-more-perks-less-fuss",
+      "taskId": "shake_shack_sg-more-perks-less-fuss::app_rewards_cashback",
+      "originalAccepted": true,
+      "contractValid": true,
+      "issues": [],
+      "unresolved": [
+        "missing_start_date",
+        "missing_end_date",
+        "physical_participation_unresolved"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "offer"
+      ],
+      "dateAnnotationMatch": true,
+      "participationAnnotationMatch": true,
+      "findings": [],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "shake_shack_sg",
+        "sourceUrl": "https://www.shakeshack.com.sg/more-perks-less-fuss/",
+        "evidenceId": "e4b9651371f86fa52bc208ffa95eec005fc22ae62ea5d38012ff577e74c54f42",
+        "selector": "[data-elementor-type='single-post'] h1; [data-elementor-type='wp-post']",
+        "description": "MORE PERKS, LESS FUSS To our Shack Fans, we’ve heard you loud and clear — and we’ve been busy giving our Happy Point App a glow-up. Think of a fresh new look, cooler perks, and way easier ways to enjoy your Shack favorites. Here’s what’s new and waiting for you: New Look We’ve had a little makeover! The app’s now smoother, brighter, and easier to use. Whether you’re ordering on the go, checking out your vouchers, or finding the nearest Shack, everything’s right at your fingertips. Happy Dollars Points are out, Happy Dollars are in! Earn 2% back on what you spend, and use your Happy Dollars on your next Shack order. Simple and rewarding. More Perks Level up as you dine more! With our new tier system, the higher you climb, the more perks you unlock. Because who doesn’t love an upgrade? Ready to dive in? Download the Happy Point App and check out what’s new!",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "Earn 2% back on what you spend"
+          },
+          "merchant": {
+            "value": null,
+            "quote": null
+          },
+          "title": {
+            "value": "Happy Dollars cashback",
+            "quote": "Earn 2% back on what you spend"
+          },
+          "benefit": {
+            "value": "Earn 2% back on what you spend",
+            "quote": "Earn 2% back on what you spend"
+          },
+          "startDate": {
+            "value": null,
+            "quote": null
+          },
+          "endDate": {
+            "value": null,
+            "quote": null
+          },
+          "locationScope": {
+            "value": null,
+            "quote": null
+          },
+          "locationRules": []
+        }
+      },
+      "rawOutputSha256": "6a19e95b99613320209703de7d352fd183fd82afce2e37908b97e092c92a8377"
+    },
+    {
+      "caseId": "shake_shack_sg-pucker-up-for-2-lemonades",
+      "taskId": "shake_shack_sg-pucker-up-for-2-lemonades::lemonade-2",
+      "originalAccepted": false,
+      "contractValid": false,
+      "issues": [
+        "missing_or_non_source_quote:merchant",
+        "nonverbatim_merchant"
+      ],
+      "unresolved": [],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "offer"
+      ],
+      "dateAnnotationMatch": true,
+      "participationAnnotationMatch": true,
+      "findings": [],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "shake_shack_sg",
+        "sourceUrl": "https://www.shakeshack.com.sg/pucker-up-for-2-lemonades/",
+        "evidenceId": "9bd48778d195473e8b806a487e0e37003ae323dd0a0a2dcc75577aefb7f26f87",
+        "selector": "[data-elementor-type='single-post'] h1; [data-elementor-type='wp-post']",
+        "description": "Pucker up for $2 Lemonades Pucker up for $2 Lemonades When life gives you lemons… we make it better! Fresh Shack-made lemonades with pure cane sugar and real lemon juice From now for a limited time only, enjoy our refreshing Lemonades for just $2 — exclusively when you order through the Happy Point Singapore app. Whether you’re cooling off with our classic Shack-made Lemonade or pairing it with your favorite ShackBurger and Crinkle cut fries, it’s the perfect way to brighten your day (and your wallet). Here’s how to get in on the deal: Download the Happy Point Singapore app (available on iOS and Android). Order ahead from any Shake Shack Singapore location. Add the $2 Fresh Lemonade (Small) to your order — it’s automatically just $2! So go ahead, sip happy and make your Shack meal even sweeter. Because great hacks (and good lemonade) don’t last forever! * Disclaimer: Our fresh lemonades are best consumed within 3 hours after purchase Terms and Conditions Offer is available across all Shake Shack outlets in Singapore from 28 October 2025 to 9 November 2025 only. Offer is valid for dine-in and take-away. The offer is only valid via Happy Point Singapore in-app orders. Offer not valid for orders made through third-party delivery apps. Offer is not valid in conjunction with any other vouchers. Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items. Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice. Visuals are for illustration purposes only.",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "enjoy our refreshing Lemonades for just $2"
+          },
+          "merchant": {
+            "value": "Shake Shack",
+            "quote": null
+          },
+          "title": {
+            "value": "$2 Fresh Lemonade (Small)",
+            "quote": "Add the $2 Fresh Lemonade (Small) to your order"
+          },
+          "benefit": {
+            "value": "enjoy our refreshing Lemonades for just $2",
+            "quote": "enjoy our refreshing Lemonades for just $2"
+          },
+          "startDate": {
+            "value": "2025-10-28",
+            "quote": "from 28 October 2025 to 9 November 2025 only"
+          },
+          "endDate": {
+            "value": "2025-11-09",
+            "quote": "from 28 October 2025 to 9 November 2025 only"
+          },
+          "locationScope": {
+            "value": "all_outlets",
+            "quote": "Offer is available across all Shake Shack outlets in Singapore"
+          },
+          "locationRules": []
+        }
+      },
+      "rawOutputSha256": "82a28a921e25e09ced7d0dc850868db7c9eb75e955c151c2a4841e1377c84ff9"
+    },
+    {
+      "caseId": "fairprice_sg-price-drop-buy-now-weekly-offers-from-20-off",
+      "taskId": "fairprice_sg-price-drop-buy-now-weekly-offers-from-20-off::weekly-price-drop-offer",
+      "originalAccepted": true,
+      "contractValid": true,
+      "issues": [],
+      "unresolved": [
+        "missing_start_date",
+        "missing_end_date",
+        "physical_participation_unresolved"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "offer"
+      ],
+      "dateAnnotationMatch": false,
+      "participationAnnotationMatch": true,
+      "findings": [
+        "campaign_date_annotation_mismatch"
+      ],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "fairprice_sg",
+        "sourceUrl": "https://www.fairprice.com.sg/weekly-promotions",
+        "evidenceId": "de5d490deac380207e0546646376e4cb0934bb9839ebf9dd73bb0c512ea93aff",
+        "selector": "a[href='https://promotions.fairprice.com.sg/price-drop-buy-now-weekly-offers-from-20-off/']",
+        "description": "Price Drop Buy Now - Weekly Offers From 20% Off 1 Oct - 7 Oct 2026",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "From 20% Off"
+          },
+          "merchant": {
+            "value": null,
+            "quote": null
+          },
+          "title": {
+            "value": "Price Drop",
+            "quote": "Price Drop"
+          },
+          "benefit": {
+            "value": "From 20% Off",
+            "quote": "From 20% Off"
+          },
+          "startDate": {
+            "value": null,
+            "quote": null
+          },
+          "endDate": {
+            "value": null,
+            "quote": null
+          },
+          "locationScope": {
+            "value": null,
+            "quote": null
+          },
+          "locationRules": []
+        }
+      },
+      "rawOutputSha256": "275a67c5cf796c32df775adc2ad26987706cb6556521da797eb737bec0bb4e53"
+    },
+    {
+      "caseId": "fairprice_sg-xtra-wine-flash-sale",
+      "taskId": "fairprice_sg-xtra-wine-flash-sale::wine_flash_deals",
+      "originalAccepted": true,
+      "contractValid": true,
+      "issues": [],
+      "unresolved": [
+        "missing_start_date",
+        "missing_end_date",
+        "physical_participation_unresolved"
+      ],
+      "sourceDescriptionExact": true,
+      "historicalIdentityIds": [
+        "offer"
+      ],
+      "dateAnnotationMatch": false,
+      "participationAnnotationMatch": true,
+      "findings": [
+        "campaign_date_annotation_mismatch"
+      ],
+      "candidate": {
+        "researchOnly": true,
+        "profile": "promotion-nlp-date-only-v1",
+        "sourceId": "fairprice_sg",
+        "sourceUrl": "https://www.fairprice.com.sg/weekly-promotions",
+        "evidenceId": "de5d490deac380207e0546646376e4cb0934bb9839ebf9dd73bb0c512ea93aff",
+        "selector": "a[href='https://promotions.fairprice.com.sg/xtra-wine-flash-sale/']",
+        "description": "Xtra Wine Flash Deals for September 24 to 27 September 2026",
+        "facts": {
+          "classification": {
+            "value": "economic_offer",
+            "quote": "Xtra Wine Flash Deals"
+          },
+          "merchant": {
+            "value": null,
+            "quote": null
+          },
+          "title": {
+            "value": "Xtra Wine Flash Deals",
+            "quote": "Xtra Wine Flash Deals"
+          },
+          "benefit": {
+            "value": "Xtra Wine Flash Deals",
+            "quote": "Xtra Wine Flash Deals"
+          },
+          "startDate": {
+            "value": null,
+            "quote": null
+          },
+          "endDate": {
+            "value": null,
+            "quote": null
+          },
+          "locationScope": {
+            "value": null,
+            "quote": null
+          },
+          "locationRules": []
+        }
+      },
+      "rawOutputSha256": "d92e3d10196fdbcef0cd5785f3af43ebac435c6bf5ce8ebb97b7ef166d339c57"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+
+ RUN  v5.0.1 /Users/louis/Documents/Projects/vibe coding/PromotionAroundYou
+
+ ❯ tests/promotion-nlp.test.ts (71 tests | 1 failed) 1848ms
+   ❯ reviewed captured benchmark and deterministic scoring (16)
+     × preserves original protected bytes, activation states and direct-source-v2 52ms
+ ❯ tests/promotion-nlp-subagent-v4.test.ts (8 tests | 1 failed) 594ms
+   ❯ v4 sealed runner integrity against local frozen inputs (1)
+     × prepares, records, seals and projects a synthetic five-stage chain without network access 586ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/promotion-nlp-subagent-v4.test.ts > v4 sealed runner integrity against local frozen inputs > prepares, records, seals and projects a synthetic five-stage chain without network access
+AssertionError: promise rejected "Error: protected_file_changed:docs/change…" instead of resolving
+ ❯ tests/promotion-nlp-subagent-v4.test.ts:366:40
+    364|       await expect(scoreSealedRunV4(runDir)).rejects.toThrow();
+    365|       await sealStageV4(runDir, 5);
+    366|       await expect(verifyRunV4(runDir)).resolves.toMatchObject({
+       |                                        ^
+    367|         agents: 9,
+    368|         captures: expect.any(Number),
+
+Caused by: Error: protected_file_changed:docs/changes/promotion-nlp-date-only-profile/nlp-regression.log
+ ❯ verifyRunV4 scripts/research/promotion-nlp-subagent-v4-evaluation.ts:923:13
+ ❯ tests/promotion-nlp-subagent-v4.test.ts:366:7
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+ FAIL  tests/promotion-nlp.test.ts > reviewed captured benchmark and deterministic scoring > preserves original protected bytes, activation states and direct-source-v2
+AssertionError: next-env.d.ts: expected '1862ac4bbbc5192d4bf562161df66ea547ed3…' to be '0f70629890b72a0a82e91972cc032c04b658b…' // Object.is equality
+
+Expected: "0f70629890b72a0a82e91972cc032c04b658b26c265373cb711cf576bfbf8fcc"
+Received: "1862ac4bbbc5192d4bf562161df66ea547ed3e67173100656ab606ae9797db2b"
+
+ ❯ tests/promotion-nlp.test.ts:681:9
+    679|           .digest("hex"),
+    680|         file,
+    681|       ).toBe(sha);
+       |         ^
+    682|     expect(DIRECT_SOURCE_PROCESSOR_VERSION).toBe("direct-source-v2");
+    683|     expect(
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯
+
+
+ Test Files  2 failed | 10 passed (12)
+      Tests  2 failed | 313 passed (315)
+   Start at  22:26:47
+   Duration  3.66s (tests 86%, import 9%, transform 5%)
+
+    Isolate  12 workers spawned · ~50ms startup each (spawn + environment, per file)
+             at least ~252ms faster with isolate: false — reuses workers across files instead of one per file

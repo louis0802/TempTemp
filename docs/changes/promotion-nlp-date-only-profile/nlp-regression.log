@@ -1,0 +1,30 @@
+
+ RUN  v5.0.1 /Users/louis/Documents/Projects/vibe coding/PromotionAroundYou
+
+ ❯ tests/promotion-nlp.test.ts (71 tests | 1 failed) 1711ms
+   ❯ reviewed captured benchmark and deterministic scoring (16)
+     × preserves original protected bytes, activation states and direct-source-v2 67ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/promotion-nlp.test.ts > reviewed captured benchmark and deterministic scoring > preserves original protected bytes, activation states and direct-source-v2
+AssertionError: next-env.d.ts: expected '1862ac4bbbc5192d4bf562161df66ea547ed3…' to be '0f70629890b72a0a82e91972cc032c04b658b…' // Object.is equality
+
+Expected: "0f70629890b72a0a82e91972cc032c04b658b26c265373cb711cf576bfbf8fcc"
+Received: "1862ac4bbbc5192d4bf562161df66ea547ed3e67173100656ab606ae9797db2b"
+
+ ❯ tests/promotion-nlp.test.ts:681:9
+    679|           .digest("hex"),
+    680|         file,
+    681|       ).toBe(sha);
+       |         ^
+    682|     expect(DIRECT_SOURCE_PROCESSOR_VERSION).toBe("direct-source-v2");
+    683|     expect(
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 11 passed (12)
+      Tests  1 failed | 314 passed (315)
+   Start at  22:27:37
+   Duration  3.45s (tests 87%, import 8%, transform 5%)
