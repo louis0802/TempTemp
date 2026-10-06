@@ -1,0 +1,85 @@
+{
+  "title": "P1 inventory and evaluation baseline",
+  "asOf": "2026-10-06",
+  "scope": "Read-only inventory and evaluation artifacts. No new parser run, source capture, runtime edit, or research-source mutation.",
+  "baseline": {
+    "path": "exports/review-inbox-2026-09-16/review-inbox.json",
+    "sha256": "660db39adcf6c63c554eecbad0579471046786151f74b4e5ef99aa0c772d3d2a",
+    "exportedAt": "2026-09-16T15:04:22.318Z",
+    "candidateRecords": 180,
+    "uniqueOriginalSources": 136,
+    "sourceChannels": {
+      "sgfooddeals": 58,
+      "tastesoulsg": 78
+    },
+    "firstUnit": "candidate records are children, not independent source samples"
+  },
+  "holdout": {
+    "sourceGroupHoldout": {
+      "holdout": 28,
+      "development": 108
+    },
+    "assignment": "source-post indivisible; deterministic within-channel hash ranks; frozen before new parser work",
+    "familyAware": "See family-holdout.json. Its channel/merchant/schedule leave-family-out diagnostic folds exclude whole source groups; overlapping folds are correlated and not pooled. Lexical family tags are split controls, not labels or gold.",
+    "expectations": {
+      "generalSafetyCases": 8,
+      "holdoutSafeFactCases": 4,
+      "authorship": "agent-authored; literal source evidence offsets; not human gold"
+    },
+    "freezeReceipt": "See freeze-receipt.json; hashes establish the original two frozen files and timing before B/C/D launch."
+  },
+  "historicalInventory": {
+    "historicalNormalizationUnits": 34,
+    "sourceCases": 49,
+    "record": "historical-34-units.json",
+    "scheduleGrammarForms": "The prior claim of 27 distinct forms is not reproducible as a stable, source-attributed taxonomy from saved artifacts inspected. Do not claim 27 or substitute the 34 historical normalization units. Current safety fixture contains eight independent date/schedule/source-risk patterns; four are source-group holdout expectations."
+  },
+  "denominatorsAndGates": {
+    "sourceAvailability": "136 original posts; 180 retained candidate children; report source-level denominator separately from child-level diagnostics.",
+    "coverage": "For future parser results: parseable required facts / eligible literal opportunities, with abstention and unknown counted separately. Do not score one output per child as independent source accuracy.",
+    "correctness": "No accuracy estimate from this inventory. Historical V3/V4 model outputs and agent-authored expectations are not human gold.",
+    "mandatoryGate": "Zero unsupported date/clock endpoints, date-role reversals, cross-group schedule/outlet attachment, inferred participation, and false complete-absence decisions on mandatory evidence cases; a missing/ambiguous fact must abstain.",
+    "holdoutGate": "Keep family folds disjoint by source group and evaluate each fold separately; publish coverage, safe-fact correctness, abstention, unknown and eligible denominators."
+  },
+  "sourceCapability": {
+    "pepper": {
+      "classification": "archive pending explicit current-only/list semantics",
+      "evidence": "Captured official /promo/ listing plus seven linked detail pages (capture observed 2026-09-30T14:58:22.881Z). Listing title/description call it promotions and say “what’s new today”, but structured page metadata has datePublished 2019-04-12 and dateModified 2023-09-12; evidence does not establish that membership is exclusively active offers or that absence proves ended.",
+      "listingCapture": {
+        "url": "https://www.pepperlunch.com.sg/promo/",
+        "sha256": "a59ce8651d7ab5be061ab6adeca10b8ef0ed59235f9c8e4f09de8d3a1f072103",
+        "bytes": 116086,
+        "fetchedAt": "2026-09-30T14:58:22.881Z"
+      },
+      "qualification": "Official ownership and a list-shaped page alone do not qualify for presence renewal or absence withdrawal. Require explicit active-only semantics and complete traversal evidence; until then classify historical/archive."
+    },
+    "shake": {
+      "classification": "historical archive",
+      "evidence": "Captured /blog/ listing traversed pages 1–4 with detail articles; this is an editorial blog archive, not a current-only offer index. Captured articles may evidence their own dated facts but cannot renew open-ended validity or establish complete absence.",
+      "listingPages": [
+        {
+          "url": "https://www.shakeshack.com.sg/blog/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/blog/page/2/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/blog/page/3/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.shakeshack.com.sg/blog/page/4/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "observedAt": "2026-10-01T10:48:33.000Z"
+    }
+  },
+  "metrics": "No parser outcomes evaluated; no accuracy, precision, recall, or coverage claim."
+}

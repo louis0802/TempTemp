@@ -1,0 +1,12 @@
+{
+  "protectedFiles": 477,
+  "differences": [
+    "src/domain/promotion.ts"
+  ],
+  "legacyModeStillDefault": true,
+  "reviewedArtifactPath": "data/mvp-promotions-source-observed.json",
+  "reviewedArtifactSha256": "680362dd1517478bc357927541ffc30628f7cec943ae4634a710e0b3ec863a5e",
+  "modelAttestation": "unavailable",
+  "allAgentsClosed": true,
+  "noCommitDeployLiveCollectionSchedule": true
+}

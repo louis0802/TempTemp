@@ -1,0 +1,1970 @@
+{
+  "format": "mvp-offer-lifecycle-source-holdout-v1",
+  "frozenAt": "2026-10-06",
+  "assignmentProtocol": "Within each of two source channels, rank unique sourcePostId by SHA-256(\"mvp-offer-lifecycle-p1-v1\\0\" + sourcePostId); first ceil(0.20*N) are holdout. Children stay with source group.",
+  "baseline": {
+    "path": "exports/review-inbox-2026-09-16/review-inbox.json",
+    "sha256": "660db39adcf6c63c554eecbad0579471046786151f74b4e5ef99aa0c772d3d2a",
+    "exportedAt": "2026-09-16T15:04:22.318Z",
+    "candidateRecords": 180,
+    "uniqueOriginalSources": 136,
+    "channelSources": {
+      "sgfooddeals": 58,
+      "tastesoulsg": 78
+    }
+  },
+  "cohortCounts": {
+    "holdout": 28,
+    "development": 108
+  },
+  "sources": [
+    {
+      "sourcePostId": "a94c4a2f-5958-4fd5-b873-58d3eca9cd6c",
+      "channel": "sgfooddeals",
+      "messageId": 4870,
+      "url": "https://t.me/sgfooddeals/4870",
+      "publishedAt": "2026-08-08T04:01:04.000Z",
+      "rawText": "7-Eleven: 4-Day Specials Sale up to 55% off 🛒\n\n🔹 Enjoy huge savings on everyday snacks & essentials\n🔹 Expect protein drinks, fresh eggs, snacks & more\n🔹 While stocks last\n📅 Now till 9 Aug\n📍 Online & in-stores \n\nMore info: tco.sg/Z54juGVH9 (http://tco.sg/Z54juGVH9)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "c82496de44b59da0ac336bad1f891cde5b529d0b9e3d332b6909b1439eaec01f",
+      "candidateIds": [
+        "2f33d376-e17d-403c-b224-bacd4ae4fb24"
+      ],
+      "cohort": "holdout",
+      "holdoutRank": "10a9f98e04138bfc719899ee7c46c4c9e57af0f8792db39b488fac35f62779f1"
+    },
+    {
+      "sourcePostId": "4078f120-fb2a-46e3-a52d-99c61a238429",
+      "channel": "sgfooddeals",
+      "messageId": 4871,
+      "url": "https://t.me/sgfooddeals/4871",
+      "publishedAt": "2026-08-08T10:01:17.000Z",
+      "rawText": "Mr. Farmer 8.8 Grocery Sale from $2.80 🔥\n\n🔹 Whip up your next meal with quality meats that are ethically & sustainably farmed\n🔹 Browse a wide selection of fresh chickens, ready-to-eat meats, beef & more\n🔹 Limited time only\n📍 Online only\n\nShop here: tco.sg/Vm5ANIsJy (http://tco.sg/Vm5ANIsJy) \n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "3717b3332eab99a61a97e4cddbaf163a9fd1834d9535a2878b98bb3e64298b52",
+      "candidateIds": [
+        "dfe71f2a-008c-418b-bed7-d9bc2b1ffd6c"
+      ],
+      "cohort": "development",
+      "holdoutRank": "38e4182405995985de42fae39f3b99743ffa066beecd3dc037212a1c70d91d45"
+    },
+    {
+      "sourcePostId": "ec0f376b-2015-44b3-902e-4ba399304d63",
+      "channel": "sgfooddeals",
+      "messageId": 4872,
+      "url": "https://t.me/sgfooddeals/4872",
+      "publishedAt": "2026-08-09T04:01:06.000Z",
+      "rawText": "Kimpson’s Table: $8.90 Dak Kalguksu 🍜\n\n🔹 Enjoy a simple yet comforting bowl of Korean hand-cut noodles for just $8.90\n🔹 Choose between soup or spicy dry variants & pair it with authentic Korean banchan \n📅 Now till 10 Aug\n\nMore info: tco.sg/Z1tgKhn12 (http://tco.sg/Z1tgKhn12) \n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "d1f4642d6f819c8d5c5d1ca0a3d602b94b439873d220371f8df4b7d204911a33",
+      "candidateIds": [
+        "dfc46b21-8788-432a-8565-7ea4f734d77d"
+      ],
+      "cohort": "holdout",
+      "holdoutRank": "1e62372f0939dcbb6f25d506e1159fe7f5a6bd35555ae38a4a1d2fe62bf0e10d"
+    },
+    {
+      "sourcePostId": "ed2edfd0-418f-449f-8b2d-35b8707bf130",
+      "channel": "sgfooddeals",
+      "messageId": 4874,
+      "url": "https://t.me/sgfooddeals/4874",
+      "publishedAt": "2026-08-10T04:01:09.000Z",
+      "rawText": "Captain Kim: All-You-Can-Eat Buffet from $12.90 ♨️\n\n🔹 Indulge in a KBBQ & hotpot buffet from just $12.90 per pax with a friend\n🔹 Chose from a wide selection of marinated meats, vegetables, sides & more\n🔹 Limited to 90 mins of dining time\n📅 Now till 30 Aug (Excluding eve of PH & PH)\n📍 Tampines Junction & Junction 10 Outlets only \n\nMore info: tco.sg/QqtjofdjG (http://tco.sg/QqtjofdjG)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "a71e192404c1baf02fa6b1ec65730cb25ec2f1c9b053dc6a17ea86bea9e7da14",
+      "candidateIds": [
+        "221f48b4-0362-4625-979f-7d3d88d38fcd"
+      ],
+      "cohort": "holdout",
+      "holdoutRank": "02632a585587382bf0adc461361d1c02597296545844bc8587d296ad51fa452c"
+    },
+    {
+      "sourcePostId": "bcb6e4c5-ad05-4282-a7ba-0d659283ff28",
+      "channel": "sgfooddeals",
+      "messageId": 4875,
+      "url": "https://t.me/sgfooddeals/4875",
+      "publishedAt": "2026-08-10T12:01:02.000Z",
+      "rawText": "Carnaby: 1-for-1 Weekday Specials 🍔\n\n🔹 Celebrate National Day all month long with 1-for-1 western favourites\n🔹 Enjoy a different qualifying dish from Tues to Thurs, including Burgers, Fish & Chips & more\n🔹 Valid for dine-in only\n📍 60 Robertson Quay, #01-01\n\nFind out more: tco.sg/2QLeDtHDw (https://tco.sg/2QLeDtHDw)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "5c4ebcc972d79b7a860277d14309d0d3b3e5915f7491c03dd7cc7fb745c62b57",
+      "candidateIds": [
+        "83ce8a4e-c439-40e3-84b0-2c391877708a"
+      ],
+      "cohort": "development",
+      "holdoutRank": "52ef588848d0f68d4b1f465931477b3ed696e7abf6815a030499d190d0b3821e"
+    },
+    {
+      "sourcePostId": "2de39907-6e81-4b55-a5cf-aeb4d9111ed7",
+      "channel": "sgfooddeals",
+      "messageId": 4876,
+      "url": "https://t.me/sgfooddeals/4876",
+      "publishedAt": "2026-08-11T04:01:10.000Z",
+      "rawText": "5 Cheap Eats in Orchard Under $10 🍽\n\n🔹 Satisfy your cravings without breaking the bank at these affordable Orchard food spots:\n1️⃣ $6.50 Fried Chicken Rice (https://tco.sg/tytPCTqjp)\n2️⃣ $8.50 Tom Yum Noodle Soup (https://tco.sg/Qm0ItNPNa)\n3️⃣ $9.80 Kway Teow Soup with Beef (https://tco.sg/7t07px6Ez)\n4️⃣ $10 Sliced Beef Ribeye (https://tco.sg/4lEc5ro9y)\n5️⃣ Pork Ribs Soup from $8.80 (https://tco.sg/0I9J7mmCZ)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "3c640b7a9f50ad45cb45f1ca6a04c25d4a536dc3f0aa23ed14f5e7b019daaa46",
+      "candidateIds": [
+        "fecb4be9-1b8a-4c99-a6f5-e2e4248861c1",
+        "1b13cdbb-6331-495f-a64d-1e0e79dbd35c",
+        "fb018aab-bab0-44ef-a8f5-86ace8a29e34",
+        "1e2b0f89-7693-43fe-a7c7-1650d8dc99d5",
+        "41fa9e62-6321-4dc4-92c2-f2524ed38d13"
+      ],
+      "cohort": "development",
+      "holdoutRank": "f37da750117d439c69d528f426ffe24945bc20126425afb28633c0219b5708f6"
+    },
+    {
+      "sourcePostId": "db591e1e-c7d8-45ae-81bc-1e4298940afa",
+      "channel": "sgfooddeals",
+      "messageId": 4877,
+      "url": "https://t.me/sgfooddeals/4877",
+      "publishedAt": "2026-08-11T10:01:11.000Z",
+      "rawText": "Burnt Cones: $1 Scoops 🍦\n\n🔹 Enjoy a creamy Burnt Cones ice cream for just $1 per scoop\n🔹 Limited to first 1,000 customers daily\n📅 Now till 14 Aug\n⏰ 2PM - 8PM\n📍 Paragon Shopping Centre, B1-15\n\nMore info: tco.sg/gYRtSCk2L (http://tco.sg/gYRtSCk2L) \n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "ccb0cf40a20c502b8769dd33f6a552b3ec5036a58a47cea15a253114006442b5",
+      "candidateIds": [
+        "b3b5a294-87d4-4865-a9d6-9781d4016d1d"
+      ],
+      "cohort": "development",
+      "holdoutRank": "b14fd41c364c4b71e4947f0799028a2e6fd0508763e0f29c9f2839394f8811ce"
+    },
+    {
+      "sourcePostId": "373fdcb4-305e-491c-8e5c-fabdc0083c86",
+      "channel": "sgfooddeals",
+      "messageId": 4878,
+      "url": "https://t.me/sgfooddeals/4878",
+      "publishedAt": "2026-08-12T04:01:04.000Z",
+      "rawText": "Introducing SG Nightlife & Bars Telegram Channel 🥂\n\n🔹 Plan the perfect night out with happy hour deals, live music spots, the latest SG parties & more\n\nFind out more: tco.sg/8rfTOW3gh (https://tco.sg/8rfTOW3gh)\n\n@sgfooddeals (https://t.me/sgfooddeals) #shoutout\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "214eae9816cec9b591c5f95132827e6ccc10ca1b5b1c0e65e8f1b17a9b7f185d",
+      "candidateIds": [
+        "136a73e2-445d-41c9-8f88-d6f05569d2aa"
+      ],
+      "cohort": "development",
+      "holdoutRank": "49ac30eb75c57d05c7d8aa529b13c60002a54aa0d2446fc2949a0a2987855d08"
+    },
+    {
+      "sourcePostId": "3b7c0f74-a189-4060-8250-29be08a63d00",
+      "channel": "sgfooddeals",
+      "messageId": 4879,
+      "url": "https://t.me/sgfooddeals/4879",
+      "publishedAt": "2026-08-12T12:01:04.000Z",
+      "rawText": "5 Must-Try Value Lunch Sets for Solo Diner 👤\n\n🔹 Treat yourself to affordable lunch sets at these eateries:\n1️⃣ ALC Rice Bowls: (https://tco.sg/p0fcsGKLO) $8.80 Rice Bowl\n2️⃣ Katsu-an: (https://tco.sg/6QoggzgFF) $9.90 Lunch Combo\n3️⃣ Saizeriya: (https://tco.sg/dlFybU4ac) $9 Western Lunch Set\n4️⃣ Shi Li Fang: (https://tco.sg/vDrh4OQwD) $9.90 Hotpot Meal\n5️⃣ White Restaurant: (https://tco.sg/qvdxn4dox) Lunch Set from $9.90\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "df15dfbebc74a542deccc85964923621c1fdf9e9f50863ce499c413a4290ae23",
+      "candidateIds": [
+        "f956fdb9-8208-42f6-a997-de8fff4dbd24",
+        "9a24b58b-bc32-4e93-ba02-e4af7e41416b",
+        "80d10092-3122-4e8e-a13b-d83c6626f633",
+        "430b3b51-f721-4b7c-ac73-b641773ad9eb",
+        "2255d037-8122-4714-9140-7eeed6e04096"
+      ],
+      "cohort": "development",
+      "holdoutRank": "b516c39ffa039ec4ac00dcf7e519146765833b5cc1b824bab4835fae5dd08164"
+    },
+    {
+      "sourcePostId": "a39cf38a-5912-45cf-9111-1fde99c5fad6",
+      "channel": "sgfooddeals",
+      "messageId": 4880,
+      "url": "https://t.me/sgfooddeals/4880",
+      "publishedAt": "2026-08-13T04:01:02.000Z",
+      "rawText": "Dine for Good at Marina Bay Sands this Aug ♥️\n\n🔹 Enjoy special dishes from 12 signature & celebrity chef restaurants while giving back to communities in need\n🔹 Feast on signatures like Yardbird’s Chicken & Waffles, Miracle Coffee’s Kiku Cake & Mango Pineapple Fizz, Origin + Bloom’s Chicken Rendang Sandwich & more\n🔹 All proceeds go to AWWA’s Enabled Living programme (https://tco.sg/mbsawwa)\n📅 Now till 30 Aug\n\nT&Cs apply. Images are for illustration purposes only.\n\nFind out more: tco.sg/mbscharityxsgfd (http://tco.sg/mbscharityxsgfd)\n\n@sgfooddeals (https://t.me/sgfooddeals)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "8f5fc06ee1328054e7d046495738309fa6788bbe4b342c55aa41825c563c1eeb",
+      "candidateIds": [
+        "f5e0b594-a86e-4596-994d-266c8c607448"
+      ],
+      "cohort": "development",
+      "holdoutRank": "a3849e59f7697a570f22f18d1c52c90dc612ec2f6398027bd44c76e3ca03e3d0"
+    },
+    {
+      "sourcePostId": "8e94dbd4-a8ef-494c-8d9e-54fca6e27063",
+      "channel": "sgfooddeals",
+      "messageId": 4881,
+      "url": "https://t.me/sgfooddeals/4881",
+      "publishedAt": "2026-08-13T10:01:11.000Z",
+      "rawText": "Tavola Aperta: Free Linguine al Limone Pasta 🍋\n\n🔹 Redeem a free plate of Linguine Al Limone pasta by simply trading in a lemon\n🔹 Limited to 1 free plate of pasta per table with min. 2 diners\n🔹 Redeemable with the purchase of 1 other main course\n📅 14 - 16 Aug\n⏰ 11AM - 10PM\n📍 Plaza Singapura, #01-60\n\nMore info: tco.sg/lSAXSCQlj (http://tco.sg/lSAXSCQlj) \n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "a6491e9e8701df6882a66811b1b9ba1c6ddf1ecf4bb1f8853d1a772c54bb1a5b",
+      "candidateIds": [
+        "f5c6b926-b8eb-4e5f-9bbf-059db7bb4466"
+      ],
+      "cohort": "development",
+      "holdoutRank": "90eea11d600a457ae81323f74126d90b6db657a3c126c1db521faa6bbc77e9c5"
+    },
+    {
+      "sourcePostId": "dfc32ae3-d1d9-4e45-a391-2d38a37cd359",
+      "channel": "sgfooddeals",
+      "messageId": 4882,
+      "url": "https://t.me/sgfooddeals/4882",
+      "publishedAt": "2026-08-13T12:01:04.000Z",
+      "rawText": "5 Best Buffet Deals This Aug 😋\n\n🔹 Enjoy the best buffet deals with 1-for-1 offers & unbeatable prices:\n1️⃣ Carlton City: (https://tco.sg/97OSlurTa) 1-for-1 Porridge Buffet\n2️⃣ Family Mookata: (https://tco.sg/fDd6T5Bvo) $19.90 Buffet \n3️⃣ Good Combo Hotpot & BBQ: (https://tco.sg/bpaapFAMo) Buffet from $19.99 \n4️⃣ Petite Menu: (https://tco.sg/n1DPyldXG) $10 Lunch Buffet\n5️⃣ Window on The Park: (https://tco.sg/7103UMnKz) 1-for-1 Buffet\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "569cc980abc59da9997ab2de8c5cd955f36e0629e763699868709afa738adf9c",
+      "candidateIds": [
+        "bbddbf85-3514-4beb-a028-30b025e0bc6e",
+        "a1869bc5-2ae2-4113-afb0-46c293250cd9",
+        "9c8fb70b-7490-4b77-9f41-646688f4a299",
+        "3d9ab8d3-aa2d-45c9-a79c-85ed2dbf22ff",
+        "2d17ab24-d00e-494b-a70c-e9f9639a5b69"
+      ],
+      "cohort": "development",
+      "holdoutRank": "285d08f605b7ce7d576442615f9a849a78ac990c34d2dc8ca08cce666df3eb8f"
+    },
+    {
+      "sourcePostId": "ed4fa14d-a658-47f7-a481-6bd5f1d17784",
+      "channel": "sgfooddeals",
+      "messageId": 4883,
+      "url": "https://t.me/sgfooddeals/4883",
+      "publishedAt": "2026-08-14T04:01:07.000Z",
+      "rawText": "More Yogurt: 1-for-1 Opening Deals 🥑\n\n🔹 Celebrate the opening of 2 new outlets from one of China’s largest yoghurt drink chains\n🔹 Applicable to their popular Original Avocado Yogurt Shake, Almond Avocado Yogurt Shake & Mango Yogurt Shake\n📅 Jewel Changi Airport: (https://tco.sg/inLWoLGOG) Now till 16 Aug\n📅 Waterway Point: (https://tco.sg/0IDAWDLdg) 17 - 19 Aug\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "5f2dce6ab113b3ecdb4cdd7cd39318af1880ae96c9c2c36b706d7fd388072361",
+      "candidateIds": [
+        "248b41c6-f14c-4f43-8230-1aca0bd150ae"
+      ],
+      "cohort": "development",
+      "holdoutRank": "d940ba6754162b1495c13e05183e7dc807df96020cbd275cd08881b8e456ec78"
+    },
+    {
+      "sourcePostId": "af100698-c54e-4eab-8722-6e3886fd7ba5",
+      "channel": "sgfooddeals",
+      "messageId": 4884,
+      "url": "https://t.me/sgfooddeals/4884",
+      "publishedAt": "2026-08-14T10:01:11.000Z",
+      "rawText": "6 Food Events Happening This Aug\n\n🔹 Check out these night bazaars, food fairs & festivals happening around SG:\n1️⃣ Sentosa GrillFest (https://tco.sg/XDsndrIbx) (Till 16 Aug) \n2️⃣ Hougang Food Fair (https://tco.sg/5eFeOHp65) (Till 19 Aug) \n3️⃣ Tiong Bahru Food Fair (https://tco.sg/IBS14YCvt) (Till 23 Aug)\n4️⃣ APAC F&B Expo (https://tco.sg/BYQIWO4pR) (21 - 23 Aug) \n5️⃣ Celebfest Food Festival (https://tco.sg/NJCCXBj83) (21 - 23 Aug)\n6️⃣ Punggol Central Night Bazaar (https://tco.sg/RZcDfmjdP) (Till 30 Aug)\n\n@sgfooddeals (https://t.me/sgfooddeals) #shoutout\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "71896b100f248931f0bc4b578122580cbcb0915a3bd8e7c74d86549abf1d639b",
+      "candidateIds": [
+        "4c3b1815-5687-4f79-b20f-b329cf8a455c",
+        "7ba2ae2b-847a-4ad5-af38-4a502bcdab09",
+        "bf6d75cb-d245-48ac-ba44-ffa0e55f648a",
+        "5b2eec3b-4946-4fd6-864c-5e7ce221a0d2",
+        "ab3612a3-3ff3-4519-85a7-14ee737064a4",
+        "aa4eabc5-dbb3-4889-8aad-b75fc7d776be"
+      ],
+      "cohort": "holdout",
+      "holdoutRank": "1d17a15cb8fe56175f90249e1b6237e0c669a046db4abb6e232e9f1bf6fc4ea8"
+    },
+    {
+      "sourcePostId": "3565d4a6-36cf-47aa-b998-f881d7396a63",
+      "channel": "sgfooddeals",
+      "messageId": 4885,
+      "url": "https://t.me/sgfooddeals/4885",
+      "publishedAt": "2026-08-14T12:01:02.000Z",
+      "rawText": "Daya Izakaya: $0.61 Sushi Deal 🍣\n\n🔹 Celebrate SG61 with selected sushi at just $0.61 each\n🔹 Choose from Salmon, Smoked Duck, Tuna Mayo Gunkan & more\n🔹 Valid for dine-in only\n📅 Now till 31 Aug\n📍 254 Jalan Kayu\n\nMore info: (http://tco.sg/lSAXSCQlj)tco.sg/e0MqMxNI2 (http://tco.sg/e0MqMxNI2)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "df9b013f927e3b9c4b1e330b8d4c6f6a8aadd6fce3acb4a339164aa23da9021d",
+      "candidateIds": [
+        "77015c59-a8a3-426a-a494-7fbe4e7b1898"
+      ],
+      "cohort": "development",
+      "holdoutRank": "212252da0d4dd9d99a4e18aebbae5d4456a01f1a0d2632aa57960ae5fa248a12"
+    },
+    {
+      "sourcePostId": "9ed1630c-141f-4f1b-91dd-f802201b2b5c",
+      "channel": "sgfooddeals",
+      "messageId": 4887,
+      "url": "https://t.me/sgfooddeals/4887",
+      "publishedAt": "2026-08-15T04:01:06.000Z",
+      "rawText": "Chix Hot Chicken: $9.99 Burger Set 🍔\n\n🔹 Known for their Nashville-style spicy chicken with 6 heat levels to choose from\n🔹 Enjoy their fiery fried chicken burger lunch set with fries & soda for just $9.99\n📅 Mon - Fri\n⏰ 11.30AM - 3.30PM\n📍 All outlets\n\nMore info: tco.sg/wE3ilLhZ2 (http://tco.sg/wE3ilLhZ2)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "3a43ae39cdbefbe8a2224895133b634ad65c1ea647c80a68400de6223b6527e1",
+      "candidateIds": [
+        "2d65e39d-8132-450a-b5a4-2a27d0bbd01b"
+      ],
+      "cohort": "development",
+      "holdoutRank": "eabd394540d888bae56b2a171ed2cccd3f13a509b7b25666549a6fc316f4b26e"
+    },
+    {
+      "sourcePostId": "14bd97ce-04cf-4e82-80bf-60a2ae5e89af",
+      "channel": "sgfooddeals",
+      "messageId": 4888,
+      "url": "https://t.me/sgfooddeals/4888",
+      "publishedAt": "2026-08-16T10:01:03.000Z",
+      "rawText": "Mixed Rice Personality Quiz 🍚\n\n🔹 Answer a series of fun situational questions that are hyperlocal \n🔹 Discover which mixed rice dish matches your personality\n\nTry it here: tco.sg/mGzRxVnrV (http://tco.sg/mGzRxVnrV)\n\n@sgfooddeals (https://t.me/sgfooddeals) #shoutout\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "85f75beb0230c7c07d12c44560711ba2f2304517db7d5e417b558a41bf6948c1",
+      "candidateIds": [
+        "bc563248-5009-4b5b-b0d2-64337b0dfe17"
+      ],
+      "cohort": "development",
+      "holdoutRank": "596061cb8dfa8b97c569cbcdaf859a3bfef75c4ea4acd52882ba3e03f8d8a2cd"
+    },
+    {
+      "sourcePostId": "3ef0c5f2-554b-44af-b659-57e3a33cdbd2",
+      "channel": "sgfooddeals",
+      "messageId": 4889,
+      "url": "https://t.me/sgfooddeals/4889",
+      "publishedAt": "2026-08-17T10:01:09.000Z",
+      "rawText": "[Unsupported or empty post: manual review required.]",
+      "rawTextSha256": "765d90aa9acd2826aefb0a1da01bb89be627d3443db8ffd063bce05ae8dadad4",
+      "candidateIds": [
+        "15aa1ff7-9ba5-40fd-a9b8-e73d4c44218e"
+      ],
+      "cohort": "development",
+      "holdoutRank": "fb8ac25076fa0e5128a67b4c10f73e65fe642f8d2a996f6edf5c9d2447627bf4"
+    },
+    {
+      "sourcePostId": "7511fbbc-bfaf-4129-bcf6-54826e5c2796",
+      "channel": "sgfooddeals",
+      "messageId": 4890,
+      "url": "https://t.me/sgfooddeals/4890",
+      "publishedAt": "2026-08-18T04:01:09.000Z",
+      "rawText": "4Fingers: $10 Set Meals Are Back 🐣\n\n🔹 Enjoy selected combo sets for just $10 each, featuring Boneless Chicken Bites, Chicken Chop Rice Box & B.F.F Burger combos\n📅 Now till 20 Aug\n📍 All outlets \n\nMore info: tco.sg/cBHpXk17i (https://tco.sg/cBHpXk17i)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "06b183d623022ab2e9adafebe094bd611b322608ee7380977167eeeae4f9fd1f",
+      "candidateIds": [
+        "49333065-b4c7-440d-80be-1c14f470264e"
+      ],
+      "cohort": "development",
+      "holdoutRank": "5d6f6dff558f4efaf08872088c0f37244bb9ced04890837bc536d7b742748f14"
+    },
+    {
+      "sourcePostId": "1398620a-25e0-40a6-bb90-b276c6970bea",
+      "channel": "sgfooddeals",
+      "messageId": 4891,
+      "url": "https://t.me/sgfooddeals/4891",
+      "publishedAt": "2026-08-18T10:01:07.000Z",
+      "rawText": "Free entry to POKKA’s Greener On Our Side Pop-up 🍃\n\n🔹 Step into a lush tea plantation-inspired pop-up featuring a 7m tall POKKA Jasmine Green Tea inflatable \n🔹 Uncover all 4 Golden Tea Leaves with the Secret Words to complete your event passport\n🔹 Win free prizes like limited-edition Cooler Bags, Jasmine Green Tea Cushions, Portable Blender & more upon completion\n​🔹 Sip on free samples of Jasmine Green Tea No Sugar, Peppermint Green Tea & Honey Green Tea\n🔹 Limited to 1 redemption per person. While stocks last.\n📅 Now till 23 Aug (Mon - Sun)\n📍 Plaza Singapura, Canopy Plaza Level 1\n \nFind out more: tco.sg/pokkaaugxsgfd (http://tco.sg/pokkaaugxsgfd) \n \n@sgfooddeals (https://t.me/sgfooddeals)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "3baaa84acf0796b87ce9a0ecd403963701f16823a8de2ea4d01e26922f5ef930",
+      "candidateIds": [
+        "60c60e9b-32f8-49cd-9d48-1293241500ae"
+      ],
+      "cohort": "holdout",
+      "holdoutRank": "18a2e40d45d6a6364e6b3a5ec47d3e9c60b38e802fb16f3fa695e56093fb60a8"
+    },
+    {
+      "sourcePostId": "f51ee41d-8225-4890-96f5-32184bc758ad",
+      "channel": "sgfooddeals",
+      "messageId": 4893,
+      "url": "https://t.me/sgfooddeals/4893",
+      "publishedAt": "2026-08-18T12:01:02.000Z",
+      "rawText": "Starbucks: $1 Second Venti Drink 🥤\n\n🔹 Sign up for a free Starbucks Rewards membership on the app & get a 2nd Venti drink for just $1 \n🔹 Limited to 3 vouchers per member\n📅 Now till 20 Aug \n⏰ 2PM - 8PM \n📍 All outlets\n\nMore info: tco.sg/CKFt36HKc (http://tco.sg/CKFt36HKc)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "079938215e8fb67773a99b0895df62654ce6415500956d82215c7ec5b6322a5f",
+      "candidateIds": [
+        "bef67874-81c0-4842-bb54-3fec6ade7c51"
+      ],
+      "cohort": "holdout",
+      "holdoutRank": "0d0942ae0751935f6b72a77f17149ae768900c52d22de6bf5ed5dc099b37f32d"
+    },
+    {
+      "sourcePostId": "93d8f5ff-059c-4c5b-ba7b-f0423cefae03",
+      "channel": "sgfooddeals",
+      "messageId": 4894,
+      "url": "https://t.me/sgfooddeals/4894",
+      "publishedAt": "2026-08-19T04:01:05.000Z",
+      "rawText": "FAME by Dad's Corner: $10 Daily Buffet 🦐\n\n🔹 Feast on an authentic kampung-style buffet with unlimited food top-ups & free-flow drinks\n🔹 Expect a daily rotating menu featuring Beef Curry, Nasi Briyani, Mee Siam & more\n📅 Daily\n⏰ 11AM - 2PM\n\nFind out more: tco.sg/cNTDw7QBF (https://tco.sg/cNTDw7QBF)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "7e40896559bdb4b2dcbdcb7f57ec2a6559574773ff50c52ec1cf0c6899689f65",
+      "candidateIds": [
+        "6fadd6cc-a819-4f7e-a117-21d71f2f01bf"
+      ],
+      "cohort": "development",
+      "holdoutRank": "826ba2bc0fcab249fa083ebb995b94008bcbc6c623011da5bc738844dc0646d7"
+    },
+    {
+      "sourcePostId": "4a6e8480-9f14-4ca5-9776-554882a2d2c0",
+      "channel": "sgfooddeals",
+      "messageId": 4895,
+      "url": "https://t.me/sgfooddeals/4895",
+      "publishedAt": "2026-08-19T10:01:14.000Z",
+      "rawText": "Braek Acai & Coffee: $4 Banana Pudding Hojicha Latte 🍌\n\n🔹 Celebrate 4 years with Braek by indulging in a Banana Pudding Hojicha Latte for just $4\n🔹 While stocks last\n📅 Now till 23 Aug\n📍 SMU Li Ka Shing Library, B1-25\n\nMore info: tco.sg/onwLjK3nP (http://tco.sg/onwLjK3nP)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "c1cef1b4a7cd21ae35b4225ac8c3fb0c05b5b337a2a336d2a8c02923b2e62a8a",
+      "candidateIds": [
+        "fcb3b89c-3f35-4061-9f5b-52353aca1594"
+      ],
+      "cohort": "holdout",
+      "holdoutRank": "107c086da79b17e121c6877c0e66630995634427a75e937a53599e84acd17480"
+    },
+    {
+      "sourcePostId": "b1ef0ea8-a7eb-47ea-b7bd-e4e9cf389d2e",
+      "channel": "sgfooddeals",
+      "messageId": 4896,
+      "url": "https://t.me/sgfooddeals/4896",
+      "publishedAt": "2026-08-20T04:01:07.000Z",
+      "rawText": "New Ubin Seafood: 50% Off Daily Deals 🦀\n\n🔹 Feast on a different deal each day on dishes like chilli crab, ribeye steak & more\n📅 Now till 31 Aug\n⏰ 11AM - 5PM or 9.30PM onwards\n📍 30 Victoria Street, #02-01B\n\nFind out more: tco.sg/MMQ0xi395 (http://tco.sg/MMQ0xi395)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "439135683aa0bfcacc719252e1a52fa977c33254a02da0b588237b76f0a6b2b5",
+      "candidateIds": [
+        "8931316d-02ca-4a6b-ad55-92ff94ca72db"
+      ],
+      "cohort": "development",
+      "holdoutRank": "8a1d51abdd82e6c5581178d22a4b03f85c27f6ed929f084d9180a4bd996a61a4"
+    },
+    {
+      "sourcePostId": "1196fdbb-8a48-4a03-83d1-37c38f92c57b",
+      "channel": "sgfooddeals",
+      "messageId": 4897,
+      "url": "https://t.me/sgfooddeals/4897",
+      "publishedAt": "2026-08-20T12:01:03.000Z",
+      "rawText": "Gwanghwamun Mijin: $1 Buckwheat Noodles 🎉\n\n🔹 Enjoy $1 Korean-style cold buckwheat noodles from a Michelin Bib Gourmand restaurant \n🔹 Limited to first 100 customers in each dining period\n📅 22 Aug (Sat)\n⏰ Lunch: 11.00AM - 3PM \n⏰ ​​Dinner: 5PM - 9.30PM\n📍 47 - 49 Pekin Street, #01-01 \n\nMore info: tco.sg/z7VpRqKif (http://tco.sg/z7VpRqKif) \n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "afae008e51c4dce8c004c5e4289be2a7870da7551163bbeb939ababf6ee50a2e",
+      "candidateIds": [
+        "1c30c122-ced3-43bc-82ac-15c8553436ca"
+      ],
+      "cohort": "development",
+      "holdoutRank": "af3ded1a0dc8cafff80a1399f24c0b565ea51214b3b88ea7950b76c47b2b0c71"
+    },
+    {
+      "sourcePostId": "443b7d9c-7196-4d00-984d-98a7647f0444",
+      "channel": "sgfooddeals",
+      "messageId": 4898,
+      "url": "https://t.me/sgfooddeals/4898",
+      "publishedAt": "2026-08-21T04:01:06.000Z",
+      "rawText": "Chateraise: 5 Treats for $11 🎂\n\n🔹 Mix & match 5 delicious sweet treats from Chateraise for only $11\n🔹 Valid for selected desserts only\n📅 Now till 4 Sep\n📍 All outlets\n\nMore info: tco.sg/aPaTZcEn4 (http://tco.sg/aPaTZcEn4)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "b00e14866d6a4f37927f72dda5db8a60147ee72b827ef8d7d12cf5ad8ce7618b",
+      "candidateIds": [
+        "53664158-1ba2-4fa0-abc9-afdae3462fd1"
+      ],
+      "cohort": "development",
+      "holdoutRank": "60e8b4fe9b0b16ed6d56770b36aa92d98ece6dc8b5461a12d3c41ee78dfee070"
+    },
+    {
+      "sourcePostId": "0943e9cb-3508-43d8-8840-4b9e90df7395",
+      "channel": "sgfooddeals",
+      "messageId": 4899,
+      "url": "https://t.me/sgfooddeals/4899",
+      "publishedAt": "2026-08-21T12:01:02.000Z",
+      "rawText": "Sushiro: 1-for-1 Sushi Deals 🍣\n\n🔹 Sushiro opens its doors at Orchard Gateway with exciting 1-for-1 sushi deals\n🔹 Get your fill of delicious Uni Wrap, Bluefin Fatty Tuna, Fresh Salmon & more \n📅 21 Aug - 3 Sep\n⏰ 11AM - 10PM\n📍 Orchard Gateway, B1-07\n\nMore info: tco.sg/DOp2ydBjd (http://tco.sg/DOp2ydBjd) \n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "db6bd1f002afa745d00a2395112d88618d1068eede4fc154639f37be284c58b3",
+      "candidateIds": [
+        "3a67ef71-dcd3-417e-9760-dda1dc41327b"
+      ],
+      "cohort": "development",
+      "holdoutRank": "ce458068316401e54c2e39d9d4cc49384a3abe00eec5ef17544edac20e9f15f7"
+    },
+    {
+      "sourcePostId": "51540d43-a25b-4c03-b921-e06550bced17",
+      "channel": "sgfooddeals",
+      "messageId": 4900,
+      "url": "https://t.me/sgfooddeals/4900",
+      "publishedAt": "2026-08-24T04:01:02.000Z",
+      "rawText": "[GIVEAWAY] Cai-Ca: 1-for-1 Soy Blend Series 🥤\n\n🔹 Redeem 1-for-1 on SG's first-ever Soy Blend Series for bubble tea \n🔹 Choose any drinks from Strawberry Soy Latte, Sea Salt Soy Latte, Mocha Soy Latte & more\n🔹 Limited to 1 redemption per person in-store\n🔹 To redeem, simply:\n1️⃣ Follow @sgadulting101 (https://t.me/sgadulting101) & (https://tco.sg/solcoffeeinstaxcollab)Cai-Ca (https://tco.sg/caicaigxcollab) on IG\n2️⃣ Flash this post at the counter\n📅 Giveaway ends 28 Aug, 10PM or when fully redeemed\n📍 Bugis #03-08 & Northpoint #01-06 outlets\n\nFind out more: tco.sg/caicasgxcollab (http://tco.sg/caicasgxcollab) \n\n@sgfooddeals (https://t.me/sgfooddeals) exclusive\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "740d92e0038f64848652310fbf6976b9dfa422c1a3e9901dd87e7f4fbd8175b9",
+      "candidateIds": [
+        "0aa1ed7e-513c-401a-b2ae-c8693b1b331a",
+        "488ddfae-28ec-4455-8d72-a5d447e72358"
+      ],
+      "cohort": "development",
+      "holdoutRank": "3766400acfebb28c9131dd7a12dced26250f5ceec1725b5d7817d2d560b93626"
+    },
+    {
+      "sourcePostId": "6704feaa-dfa5-4a11-81a2-6ae51d582888",
+      "channel": "sgfooddeals",
+      "messageId": 4901,
+      "url": "https://t.me/sgfooddeals/4901",
+      "publishedAt": "2026-08-25T04:01:03.000Z",
+      "rawText": "Pizza Hut: $10 Large Pizza Takeaway Deal 🍕\n\n🔹 Choose from BBQ Chunky Chic, Very Beefy, Chic Ham N Shroom & more\n🔹 Valid for walk-in takeaway & self-collection via App & Web\n🔹 Limited to 2 redemptions per transaction\n📅 25 & 26 Aug | 1 & 2 Sep | 8 & 9 Sep\n📍 All outlets\n\nOrder here: tco.sg/BCdJfH9cb (http://tco.sg/BCdJfH9cb)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "98653354ec27068ca2f47f2b2a4852b3aed32d04b6556d057ebd189b84628702",
+      "candidateIds": [
+        "160fbee3-2fea-4188-8df7-8a62570a9e0f"
+      ],
+      "cohort": "development",
+      "holdoutRank": "202bd04bdcb76dc583d470dc100d9125222db5901cc55bd14d1e6451b244241d"
+    },
+    {
+      "sourcePostId": "4177f9fb-0d17-4d1e-8063-99b03b66be5d",
+      "channel": "sgfooddeals",
+      "messageId": 4902,
+      "url": "https://t.me/sgfooddeals/4902",
+      "publishedAt": "2026-08-25T10:01:09.000Z",
+      "rawText": "Morganfield's: 1-for-1 Angus Ribeye Steak 🥩\n\n🔹 Enjoy 2 Angus Ribeye Steaks served with french fries & garden salad for just $42.90++\n🔹 Valid for dine-in only \n🔹 Limited to 60 mins of dining time\n📅 Now till 30 Aug\n📍 Suntec City outlet\n\nMore info: tco.sg/api30jmn2 (http://tco.sg/api30jmn2)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "b8667aa2150e245aaeed7b9816c17b318e8ebfb7219f87a8b159296c97a557be",
+      "candidateIds": [
+        "955805f6-dca8-4a6f-a6d3-f7bbd2fc894f"
+      ],
+      "cohort": "development",
+      "holdoutRank": "7c2a9ee1a6d0b7d260e175b9a495fcaf3edf5f36423a03d3a27c5c08b397fc77"
+    },
+    {
+      "sourcePostId": "4b51dbd5-36da-4d70-b6d6-c69773fcf869",
+      "channel": "sgfooddeals",
+      "messageId": 4903,
+      "url": "https://t.me/sgfooddeals/4903",
+      "publishedAt": "2026-08-26T04:01:05.000Z",
+      "rawText": "$35 Unlimited Aus Angus Steak & Fries 🥩\n\n🔹 Enjoy free-flow Aus Angus steak & fries with a complimentary drink for just $35 nett\n🔹 Limited to 60 mins of dining time upon service & prior reservations required\n📅 Mon - Fri\n📍 5 Dunlop Street\n\nMore info: tco.sg/UNhXWSmHa (http://tco.sg/UNhXWSmHa)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "f3e006b09773bc539633084179e4fdfab1912a3627550eae6a901488fa58147d",
+      "candidateIds": [
+        "c7d07fc5-4928-4b8e-b7e4-037d7549e522"
+      ],
+      "cohort": "development",
+      "holdoutRank": "b54f76eb77ad003a13cdc8e15f304ab0af564f9e9b151685ee21fb34566a10ef"
+    },
+    {
+      "sourcePostId": "17fa6a31-e484-4c7b-b217-913671287ddf",
+      "channel": "sgfooddeals",
+      "messageId": 4904,
+      "url": "https://t.me/sgfooddeals/4904",
+      "publishedAt": "2026-08-26T10:01:02.000Z",
+      "rawText": "Gelare: 1-for-1 Dessert Deals 🧇\n\n🔹 Share the joy of a sweet treat with 1-for-1 deals at Gelare\n🔹 Valid for dine-in only\n📅 Single Scoop Ice Cream: Now till 30 Aug\n📅 Coffee & Mocktails: 31 Aug - 6 Sep\n📅 Croffles: 7 - 13 Sep\n⏰ 11AM - 9.30PM\n📍 Gelare Westgate, 04-07\n\nMore info: tco.sg/aBuXbktKy (http://tco.sg/aBuXbktKy)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "99954e05d9882017f683158da21dcbe6d8130a0257a129acbbb685a24416e806",
+      "candidateIds": [
+        "8c32e550-7180-4d71-8c71-59263a272372"
+      ],
+      "cohort": "development",
+      "holdoutRank": "ea8ded127b2d0cba203c5e09373439d57ffd5c41698b68c4f9b12aa255c2faff"
+    },
+    {
+      "sourcePostId": "b47886ec-36ff-43b0-be64-32baf7985cd7",
+      "channel": "sgfooddeals",
+      "messageId": 4905,
+      "url": "https://t.me/sgfooddeals/4905",
+      "publishedAt": "2026-08-26T12:01:02.000Z",
+      "rawText": "Meatsmith: Free 101 Cheeseburgers 🍔\n\n🔹 Redeem a complimentary MSX Single Cheeseburger \n🔹 Valid for walk-in takeaway orders only\n🔹 Limited to 1 redemption per person, while stocks last \n📅 27 Aug (Thu) \n⏰ From 11.30AM\n📍 167 - 169 Telok Ayer Street\n\nMore info: tco.sg/EQ0wZr1D6 (http://tco.sg/EQ0wZr1D6)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "2b578e31bfa047b6c6cb6f1cd3e3ce1a9cb442914506b71be85292aabbd75415",
+      "candidateIds": [
+        "fe1ce7c8-36be-45fb-9e10-b45b2d68c730"
+      ],
+      "cohort": "development",
+      "holdoutRank": "eed2ea9e34b4da0a8b9908b8ad36346eaeb0daf92d808e33c82295a2353444b1"
+    },
+    {
+      "sourcePostId": "ff46147f-9bc7-4360-bb6c-fd9077a8e546",
+      "channel": "sgfooddeals",
+      "messageId": 4906,
+      "url": "https://t.me/sgfooddeals/4906",
+      "publishedAt": "2026-08-27T10:01:09.000Z",
+      "rawText": "Hello Arigato: $2.99 Drinks 🍓\n\n🔹 Enjoy their specialty drinks like coffee, matcha & soda from only $2.99\n🔹 Simply sign up for a free Awesome Free (https://tco.sg/y7NCCjemu) account to redeem vouchers\n🔹 Limited to first 50 cups daily\n📅 Now till 5 Sep\n📍 22 Cross St, #01-63\n\nMore info: tco.sg/MGKspPYqz (http://tco.sg/MGKspPYqz)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "6280a5363ba47328d94a0e5a95f37d45d3b6aa0c274dbcd17c3f28881c376c13",
+      "candidateIds": [
+        "b7d0caab-b756-4b72-beff-d89a2eeee75a"
+      ],
+      "cohort": "development",
+      "holdoutRank": "e56c33f26c4ced3ee5a473cc2f14c14272659fc2432001fa293e047b5076fad8"
+    },
+    {
+      "sourcePostId": "cec91996-8e47-4d37-8acb-cb9a5d788727",
+      "channel": "sgfooddeals",
+      "messageId": 4907,
+      "url": "https://t.me/sgfooddeals/4907",
+      "publishedAt": "2026-08-27T12:02:43.000Z",
+      "rawText": "Kafey Haus: Specialty Drinks from $2 ☕️\n\n🔹 Get barista-level drinks at affordable prices from as low as $2 at Kafey Haus\n🔹 Expect drinks like americano, matcha latte, cafe mocha & more \n\nMore info: tco.sg/NkB8SCl23 (http://tco.sg/NkB8SCl23)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "f983e1a5d1dbd86e660172266455ef797d6ffa573c26773e48df356deb1d2ff2",
+      "candidateIds": [
+        "ddbb67e8-b154-4f80-b241-acd3448cf51f"
+      ],
+      "cohort": "development",
+      "holdoutRank": "7e47e9cef2be7e5414f882832366372ddebe1fe7002a9f66099037d12fdbb95b"
+    },
+    {
+      "sourcePostId": "735a10db-02f7-465d-bc03-8b74d2766eb9",
+      "channel": "sgfooddeals",
+      "messageId": 4908,
+      "url": "https://t.me/sgfooddeals/4908",
+      "publishedAt": "2026-08-28T10:01:09.000Z",
+      "rawText": "Omuplace: Omurice & Udon from $3.90 🍳\n\n🔹 Score delicious Japanese cuisine in a hawker centre at affordable prices from just $3.90\n🔹 Choose from Miso Udon, Pork Katsu Omurice, Wagyu Hamburg Omurice & more\n\nMore info: tco.sg/3kbj1nVsj (http://tco.sg/3kbj1nVsj) \n\n@sgfooddeals (https://t.me/sgfooddeals) #article\n——————————————————\n🏠 @renodealssg (https://t.me/renodealssg) - Home reno deals\n🇲🇾 @myfoodpromos (https://t.me/myfoodpromos) - M'sia food deals\n🇲🇾 @mymakanmurah (https://t.me/mymakanmurah) - M'sia food deals (In Malay)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "5d7c80e50d6d5e13b7149f9d3706f47115f82c3fc2a3f7bd67e1748e30a2e7c6",
+      "candidateIds": [
+        "bc3ae5ef-7ca1-4386-9ee6-0a7534e848a0"
+      ],
+      "cohort": "development",
+      "holdoutRank": "25df074a6a061e479d51db0b97898b624b6871242037377e16ae3fd00a04eef8"
+    },
+    {
+      "sourcePostId": "4c4c5c51-d94d-46c1-bc74-1b22ab004e48",
+      "channel": "sgfooddeals",
+      "messageId": 4909,
+      "url": "https://t.me/sgfooddeals/4909",
+      "publishedAt": "2026-08-28T12:01:03.000Z",
+      "rawText": "BRAND’S Ginseng Essence Honey Jelly Strip now at just $2 per strip 🍯\n\n🔹 Individual packed for a convenient boost anytime, anywhere\n🔹 Help relieve fatigue, replenish energy & support immunity \n🔹 Ideal for fresh grads, working adults or parents juggling a fast-paced lifestyle\n🔹 Available in 5-strip or 12-strip packs\n🔹 Visit BRAND’S roadshow at Unity VivoCity to discover their new jelly strip & redeem exciting gifts with purchase\n📅 Roadshow: 27 - 30 Aug\n📅 $2 Deal: Now till 30 Sep\n \nShop here: tco.sg/brandsjellyxsgfd (http://tco.sg/brandsjellyxsgfd)\n\n@sgfooddealssg (https://t.me/sgfooddealssg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "bef92791fbc3d470fc990a8f13c68d286a14cdf1e12adb4247a32170879a0f71",
+      "candidateIds": [
+        "1a213c26-2180-4a5f-bd0a-736adec3f588"
+      ],
+      "cohort": "development",
+      "holdoutRank": "2af4f533af573f753e866f8803d74673cb0cd6229d75210bc158639597a33eeb"
+    },
+    {
+      "sourcePostId": "89f75657-5d19-42a9-8490-f7c54cb1e0dd",
+      "channel": "sgfooddeals",
+      "messageId": 4910,
+      "url": "https://t.me/sgfooddeals/4910",
+      "publishedAt": "2026-08-29T04:01:04.000Z",
+      "rawText": "Save up to 15% at top restaurants with HSBC Cards PALATE Privileges 🍽\n\n🔹 Make a reservation & pay with a HSBC Credit or Debit Card to unlock these dining perks:\n1️⃣ Brasserie Astoria: Complimentary plate of raraka or baby back ribs with min. S$200 spend\n2️⃣ Burnt Ends Bakery: 10% off total bill with min. S$50 spend  \n3️⃣ Kotuwa: 15% off with min. S$150 spend \n4️⃣ Meat Smith: 10% off total bill with min. S$100 spend\n5️⃣ Nouri: 10% off with min. S$500 spend\n📅 Now till 31 Dec \n \nFind out more: tco.sg/hsbcdiningxsgfd (http://tco.sg/hsbcdiningxsgfd) \n \n@sgfooddeals (https://t.me/sgfooddeals)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "4d89e2a225f91a25c3e1c73664e7471aaa9e48d6cbb6098ca8a2c9c167c3670c",
+      "candidateIds": [
+        "3690a6b2-6b4d-45ca-94be-a100e72470e5",
+        "43c2c307-5e6e-4b22-8e2d-a107197da3cd",
+        "832c065d-9c70-47cc-8278-47d8b4d61911",
+        "26e18b2a-3b46-41c6-aca9-0a1d13c4781f",
+        "06400f49-0d3d-47b8-8a28-05bc47545bb5"
+      ],
+      "cohort": "development",
+      "holdoutRank": "f4cb80355f7fee2981fb9fe7a1730647108662e466206d723a84524c50ad40ba"
+    },
+    {
+      "sourcePostId": "dfcdc850-7d0c-46e4-bc21-f4bd3dfd6112",
+      "channel": "sgfooddeals",
+      "messageId": 4912,
+      "url": "https://t.me/sgfooddeals/4912",
+      "publishedAt": "2026-08-30T10:01:04.000Z",
+      "rawText": "Common Grill: $9.90 Lunch Sets 🍝\n\n🔹 Choose from appetising mains like Grilled Chicken Chop, Fish & Chips, Angus Beef Bolognese & more \n🔹 Each dish comes with a free Wild Mushroom Soup worth $3.50\n📅 Mon - Fri\n⏰ 11AM - 3PM \n📍 All outlets \n\nT&Cs apply. \n\nMore info: tco.sg/lmm5hfaTJ (http://tco.sg/lmm5hfaTJ) \n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n——————————————————\n🏠 @renodealssg (https://t.me/renodealssg) - Home reno deals\n🇲🇾 @myfoodpromos (https://t.me/myfoodpromos) - M'sia food deals\n🇲🇾 @mymakanmurah (https://t.me/mymakanmurah) - M'sia food deals (In Malay)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "6689f1ad33d5a40414ab035cf9459dc5e3ed0da85b7d24dadfaf7d918a4d7aa5",
+      "candidateIds": [
+        "f7c6ab39-e564-4cf4-8ac0-cce33db718d2"
+      ],
+      "cohort": "development",
+      "holdoutRank": "36b341fc42eac238bf9465845fd55e70fc69cc05e45584b5217d6e98e839dba9"
+    },
+    {
+      "sourcePostId": "842d2c5f-00a4-41d4-959b-e07e81e39e22",
+      "channel": "sgfooddeals",
+      "messageId": 4913,
+      "url": "https://t.me/sgfooddeals/4913",
+      "publishedAt": "2026-09-01T04:01:22.000Z",
+      "rawText": "Join SG Budget Babes for Cute Activities & Shopping Deals 💖\n\n✨ Stay in the loop for the latest beauty freebies, shopping deals, pop-up markets & more\n\nFind out more: tco.sg/T3AJyOv1b (http://tco.sg/T3AJyOv1b) \n\n@sgweekend (https://t.me/sgweekend) #shoutout\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "9ab00fc2852d7cbe5f340dccfd3405ce2963f7b9504190c49dc124ba180523c9",
+      "candidateIds": [
+        "0d42c151-d0ee-46db-b03e-d7ad17d06e9b"
+      ],
+      "cohort": "development",
+      "holdoutRank": "3533c37b35784f440ac471a63e8ff249d8faefdb529baec7a7a81afc47cdae9d"
+    },
+    {
+      "sourcePostId": "c231cdad-dc11-4b24-aff4-087cb037dbfb",
+      "channel": "sgfooddeals",
+      "messageId": 4915,
+      "url": "https://t.me/sgfooddeals/4915",
+      "publishedAt": "2026-09-01T10:01:04.000Z",
+      "rawText": "Food Delivery Promo Codes (Sep 2026) 🛵\n\n1️⃣ foodpanda: tco.sg/wLGghSyXz (http://tco.sg/wLGghSyXz)\n2️⃣ GrabFood: tco.sg/iyavqV2Yp (http://tco.sg/iyavqV2Yp)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "03fab667680b5c181bccfd0975019bd6acaa0dd7c4fb7db3ab94c56eee797e03",
+      "candidateIds": [
+        "8ba3a2b4-62a3-470f-bb0f-6ab040b80b3f",
+        "f15c4df0-d8fe-4eea-b074-a7a45df10a38"
+      ],
+      "cohort": "holdout",
+      "holdoutRank": "11647525cee61e9539fe63e111aa97cd1a9f00afa394509123011b52bcd62ac6"
+    },
+    {
+      "sourcePostId": "98b7a0dc-d1ee-4526-b453-5d4ccdb5b6f0",
+      "channel": "sgfooddeals",
+      "messageId": 4916,
+      "url": "https://t.me/sgfooddeals/4916",
+      "publishedAt": "2026-09-02T04:01:11.000Z",
+      "rawText": "Captain Kim: 1-for-1 Free flow KBBQ & Hotpot 🥩\n\n🔹 Get your foodie buddy & dig into a 1-for-1 unlimited KBBQ & Hotpot feast\n🔹 Load up on marinated meats, vegetables, seafood & more\n🔹 Limited to 80 mins of dining time\n📅 Now till 6 Sep\n📍 All outlets\n \nMore info: tco.sg/pMxLWeVvU (http://tco.sg/pMxLWeVvU) \n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "779e0994ae8d97436ba41524a901f81ab9d5b71ad1e4268d91d054625e99cc6f",
+      "candidateIds": [
+        "6089ff84-8ca2-4a52-94ae-2eedfb559977"
+      ],
+      "cohort": "holdout",
+      "holdoutRank": "0f0759fa1c387cc25476a419fdb07dba2181a5bf2f3f070f22c8db12010e986d"
+    },
+    {
+      "sourcePostId": "f5ac3021-7247-44c4-adf5-de43cb48a1c4",
+      "channel": "sgfooddeals",
+      "messageId": 4917,
+      "url": "https://t.me/sgfooddeals/4917",
+      "publishedAt": "2026-09-02T10:00:30.000Z",
+      "rawText": "Join Our New Neighbourhood Groups 🏘\n\n✨ Discover upcoming events, food finds & exclusive deals right in your neighbourhood:\n1️⃣ Clementi - Redhill (https://tco.sg/UwtNQlzpk) \n2️⃣ Holland Village - Bukit Panjang (https://tco.sg/tqxozRgxH) \n3️⃣ Punggol - Serangoon (https://tco.sg/0iKeDLsgR)\n4️⃣ Farrer Park - Boon Keng (https://tco.sg/5hZMHuxsd) \n5️⃣ Bishan - Toa Payoh (https://tco.sg/doDZJoWzG) \n6️⃣ Tengah - Jurong (https://tco.sg/PL07GIq41)\n7️⃣ Woodlands - Sembawang (https://tco.sg/gQXgss9Ip)\n8️⃣ Tai Seng - Paya Lebar (https://tco.sg/ngjuYXlOu)\n9️⃣ Marine Parade - East Coast (https://tco.sg/U2p4RYCRI) \n🔟 Bedok - Pasir Ris (https://tco.sg/Q2ZGfJu1X)\n\n@sgweekend (https://t.me/sgweekend) #shoutout\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "c7a152c7da701bd1f434cbfd3a872dfb18439e9a9533aa81a1d8197d9e297e85",
+      "candidateIds": [
+        "54a3d998-4bfc-4ad9-9154-9a87f3e79528",
+        "a61d2f2a-2a19-438a-842b-0fd6931b08ab",
+        "c4b0f097-08dc-4475-877a-ca913340b8b0",
+        "983ad689-f8e2-4540-8100-5e3e338fab68",
+        "ddf96ef6-a1d5-465b-8821-42b2dbcb309e",
+        "04bfd649-e132-498b-9048-f0f92df1a1c6",
+        "51043d49-55ed-4b30-98a2-61667dbdb163",
+        "8f6ca5f0-7387-4ed7-9b8b-c3cac08a89a0",
+        "1835c130-c30c-4810-9616-0ee6c7789b4c"
+      ],
+      "cohort": "holdout",
+      "holdoutRank": "0d0db5ed7a8a3b4561b928b8aa9992c524bb3511741db6c2ce58faa73fecf284"
+    },
+    {
+      "sourcePostId": "7b5f6873-7379-4a95-9048-9e48ac5178f4",
+      "channel": "sgfooddeals",
+      "messageId": 4918,
+      "url": "https://t.me/sgfooddeals/4918",
+      "publishedAt": "2026-09-02T12:01:02.000Z",
+      "rawText": "Rollney: 1-for-1 Closing Deals & more 🥐\n\n🔹 Enjoy deals like 1-for-1 Kunafa Series, 3 Signature Cakes for $9.90, bestsellers for $6 & more\n📅 Now till 6 Sep\n📍 VivoCity, #02-133\n\nMore info: tco.sg/o2wdz3VcE (http://tco.sg/o2wdz3VcE)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "32873175f3c275418a5c804038a43e3b98a7d4f14d7ed4e4208987287a5a7e5a",
+      "candidateIds": [
+        "a67b932e-e282-4e45-ad18-97a95680d2cc"
+      ],
+      "cohort": "development",
+      "holdoutRank": "5dee3ef295d58324665401317d7f000d2eb27a974dde8ae468f2271442b9a656"
+    },
+    {
+      "sourcePostId": "91e2047d-40a7-4cec-a074-def57eac8a23",
+      "channel": "sgfooddeals",
+      "messageId": 4919,
+      "url": "https://t.me/sgfooddeals/4919",
+      "publishedAt": "2026-09-04T10:02:43.000Z",
+      "rawText": "DBS PayLah! $3 Cashback at Hawkers is back 🤑\n\n🔘 Register as a DBS PayLah! user (https://tco.sg/WPOvYfNat) & pay by scanning QR codes to get up to $3 cashback \n🔘 Valid at 14,000 participating neighbourhood retail stores, wet markets, hawker centres & kopitiams\n🔘 Limited to first 160,000 redemptions every Saturday\n📅 Now till 19 Dec (Every Sat)\n⏰ 6AM onwards\n\nFind out more: tco.sg/A3U7K6XoV (http://tco.sg/A3U7K6XoV)\n\n@sgadulting101 (https://t.me/sgadulting101) #article\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "9b3ee3fa4356eac56b4a74cb723592bb2ded6068a9a753f8f0ddfa40dac1d956",
+      "candidateIds": [
+        "227f8cd5-eef7-4eca-8700-8845b100d844"
+      ],
+      "cohort": "development",
+      "holdoutRank": "2a770c5daffc396dde47e936cbfd70057eb7e039ab788008d987ee2436460bf6"
+    },
+    {
+      "sourcePostId": "fc4f8ea9-56d5-42f8-9af3-eb8dd812c4ee",
+      "channel": "sgfooddeals",
+      "messageId": 4920,
+      "url": "https://t.me/sgfooddeals/4920",
+      "publishedAt": "2026-09-04T12:01:10.000Z",
+      "rawText": "Best Places to get Mooncake for this Mid-Autumn Fest 🥮\n\n🔹 Score big festive discounts, early bird deals & free mooncake samples across SG:\n1️⃣ Andaz: (https://tco.sg/zZyWmtovq) 25% Off mooncakes\n2️⃣ Chinatown Tai Chong Kok: (https://tco.sg/2iFIZirzm) Up to 35% off mooncakes\n3️⃣ Central Plaza: (https://tco.sg/X1iavOqAD) Free mooncake & games\n4️⃣ Singapore Chinese Cultural Centre: (https://tco.sg/xEkGQpKMK) Free mooncake samples\n5️⃣ Takashimaya: (https://tco.sg/h2B1A4ia3) Up to 45% off mooncakes\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "1b4c4e58501387131b3af59348d9eee7c73fe51d11d7751313571557fbbd10e0",
+      "candidateIds": [
+        "5964ce1a-af02-47e1-9545-89fb3228341a",
+        "24112d7d-c571-4e51-a676-d1a96fe8077d",
+        "86346d02-758b-4551-a129-e1ecf6c4f663",
+        "f5f63073-90c8-4173-84ae-91e5ecbafd61",
+        "1488321c-a09f-4dc9-a265-1d1a820e1105"
+      ],
+      "cohort": "development",
+      "holdoutRank": "52b7e36cf8491d029de560d2325776164bf541ca1f3d451814f9504339e54348"
+    },
+    {
+      "sourcePostId": "5fe68a12-1a51-4873-9944-506c729853f8",
+      "channel": "sgfooddeals",
+      "messageId": 4921,
+      "url": "https://t.me/sgfooddeals/4921",
+      "publishedAt": "2026-09-05T10:01:02.000Z",
+      "rawText": "6 Food Events Happening This Sep 🎪\n\n🔹 Check out these night bazaars, food fairs & festivals happening around SG:\n1️⃣ Yishun NDP Food Fair (https://tco.sg/h9SiZox4d) (Till 6 Sep) \n2️⃣ Choa Chu Kang Night Bazaar (https://tco.sg/RTy6GvixK) (Till 13 Sep) \n3️⃣ Redhill Food Bazaar (https://tco.sg/vA65A7AVr) (Till 13 Sep) \n4️⃣ Jurong Point Food Festival (https://tco.sg/NnEbPe5Lq) (Till 25 Sep)\n5️⃣ GBTB Mid-Autumn Food Festival (https://tco.sg/9a7ZvObJ2) (12 - 27 Sep)\n6️⃣ Tampines Night Bazaar (https://tco.sg/KjdnMo3kJ) (Till 28 Sep)\n\n@sgfooddeals (https://t.me/sgfooddeals) #shoutout\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "8804f2e3683bae20e0964129ce9baacc04930abcfc18c50a46997ee11fbed6a5",
+      "candidateIds": [
+        "afa8457c-9bd8-47e8-8e3c-c7ad5d60fa1d",
+        "7d890419-665a-42f3-b6df-f96563aa6049",
+        "4d85a739-ca4c-4df0-8d9c-8e315258016f",
+        "5fa9d9b5-4db5-4ea4-b577-f0a0b17d900a",
+        "9f2da621-11f9-415a-8696-059421684fdc",
+        "bccb64d8-d759-4969-846f-2e0f668e7cfe"
+      ],
+      "cohort": "development",
+      "holdoutRank": "742405c374547877214dd93524ff0185e4985667faed551eb4980bf4fb2ac7c0"
+    },
+    {
+      "sourcePostId": "b3f08a42-3e01-49de-947a-c862aa726b92",
+      "channel": "sgfooddeals",
+      "messageId": 4923,
+      "url": "https://t.me/sgfooddeals/4923",
+      "publishedAt": "2026-09-07T04:01:04.000Z",
+      "rawText": "Free $10 Yo-Chi Voucher with Circles.Life 🍨\n\n🔹 Redeem $10 Yo-Chi Voucher with no min. spend when you sign up for the Circles.Life Yo-Chi Special Plan\n🔹 Enjoy 1TB of data, unlimited talktime & free caller ID for just $5.50 per month\n🔹 Extra perks with free premium access to ChatGPT-5.4, Gemini 3 Pro, Claude Opus 4.6 & more\n🔹 Flexibility to switch anytime with no contract required\n📅 Now till 30 Sep\n \nRedeem here: tco.sg/circlelifeychixsgfd (http://tco.sg/circlelifeychixsgfd) \n \n@sgfooddeals (https://t.me/sgfooddeals)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "1113040b566e30a6789746ddfdf06c169ab46b323e0575180b3a44269a226d20",
+      "candidateIds": [
+        "d36cf870-7bbb-4926-8651-14f609cc0b96"
+      ],
+      "cohort": "development",
+      "holdoutRank": "b063ed6462548f33a14d27fd7cf6d24f81a5096cdd791c52418a65b37bf36049"
+    },
+    {
+      "sourcePostId": "9331f4fb-e13e-4503-8895-58ea0f33495f",
+      "channel": "sgfooddeals",
+      "messageId": 4924,
+      "url": "https://t.me/sgfooddeals/4924",
+      "publishedAt": "2026-09-07T12:01:02.000Z",
+      "rawText": "Brash Boys Coffee: 1-for-1 on All Drinks 😋\n\n🔹 Enjoy 1-for-1 deals on all drinks like Strawberry Matcha Latte, Hojicha Latte, Iced Chocolate & more\n📅 8 & 9 Sep (Tue & Wed)\n⏰ 11AM - 3PM\n📍 168 Robinson Road, #01-09\n\nFind out more: tco.sg/44jVMtedr (https://tco.sg/44jVMtedr)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "1284d9a82b24b105dbc0b871bdac66918fbc9e128b4f23a8d3c09d1a5171a20f",
+      "candidateIds": [
+        "9114b540-77e9-46f1-a83c-26f8e30d75c1"
+      ],
+      "cohort": "development",
+      "holdoutRank": "4e8fd2a0575c39e61f4beed2ccf348715cbaa42b8e12f3460b7e870fb4ab15ef"
+    },
+    {
+      "sourcePostId": "6a63e653-45f8-4f4b-a68e-8d98f48f1b08",
+      "channel": "sgfooddeals",
+      "messageId": 4925,
+      "url": "https://t.me/sgfooddeals/4925",
+      "publishedAt": "2026-09-08T12:01:02.000Z",
+      "rawText": "Shiok Burger: Daily 1-for-1 Deals 🍔\n\n🔹 Score a different 1-for-1 deal every day \n🔹 Choose from Classic Garlic Chicken Burgers, Shaker Fries, Popcorn Chicken & more \n📅 Now till 30 Sep\n📍 All outlets\n\nT&Cs apply.\n \nMore info: tco.sg/NYQMADnIk (http://tco.sg/NYQMADnIk)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "d3c93c1131258f803520d6f8cf356c110489250644bbd063701edaa4576dc5c1",
+      "candidateIds": [
+        "8c345e9f-5dd9-46a1-9296-32859969da0b"
+      ],
+      "cohort": "development",
+      "holdoutRank": "d15535ab5ba1249f5071fe5a214eca625c8eebf95065cc31a4a65b0e4a33dc94"
+    },
+    {
+      "sourcePostId": "8362c885-3f9b-40ff-83d7-e71817a01070",
+      "channel": "sgfooddeals",
+      "messageId": 4926,
+      "url": "https://t.me/sgfooddeals/4926",
+      "publishedAt": "2026-09-09T10:01:08.000Z",
+      "rawText": "Sukiya: Breakfast Set from $4.90 🥚\n\n🔹 Get a taste of a classic Japanese breakfast with a balanced set of rice, eggs, soup & meats\n🔹 Choose from 6 different sets with selections of drinks or miso soup\n⏰ 8AM - 11AM (Daily)\n📍 Selected outlets\n\nMore info: tco.sg/72KaXgJub (http://tco.sg/72KaXgJub)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "9e79e1b9408c55005e06b77a5a147d672e41b1ae02b2d83c1f0e651aec806541",
+      "candidateIds": [
+        "f51fd6b9-1f04-4c1b-9cbb-4b8f8bf7788d"
+      ],
+      "cohort": "development",
+      "holdoutRank": "8f8173c300755dcdc8263d642f0d83258d15a6dc97aa1db80d3ac5c120851944"
+    },
+    {
+      "sourcePostId": "011f21bb-4c93-4eb3-9e9b-ab00ccc64e78",
+      "channel": "sgfooddeals",
+      "messageId": 4927,
+      "url": "https://t.me/sgfooddeals/4927",
+      "publishedAt": "2026-09-10T04:01:02.000Z",
+      "rawText": "Kimpson's Table: $9.90 Kalguksu 🍜\n\n🔹 Dig into a bowl of authentic Korean hand-cut noodles with banchans for just $9.90 (U.P. $15)\n🔹 Choose between soup & dry variants\n📅 12, 19 & 26 Sep (Sat)\n📍 Far East Square, #01-01 \n\nMore info: tco.sg/q81wOC8Ep (http://tco.sg/q81wOC8Ep)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "8f1327cd139358dd84dcc92a222c9bba261b73d52c278b77de458e0217e9bee9",
+      "candidateIds": [
+        "b5e1a48b-bdae-4c44-8db0-c4eb566eec92"
+      ],
+      "cohort": "development",
+      "holdoutRank": "4c87f1ae07c26f7fa5890d4f2dad0c476988f279b98fa798dd5a30d6eed663a4"
+    },
+    {
+      "sourcePostId": "0901b225-10cb-45f0-9af4-c1b7a6080fbf",
+      "channel": "sgfooddeals",
+      "messageId": 4928,
+      "url": "https://t.me/sgfooddeals/4928",
+      "publishedAt": "2026-09-10T10:01:11.000Z",
+      "rawText": "5 Best Buffet Deals This Sep 🤤\n\n🔹 Enjoy the best buffet deals with 1-for-1 offers & unbeatable prices:\n1️⃣ 21 on Rajah: (https://tco.sg/TXH4bNk4I) 2-for-2 Vietnamese Buffet\n2️⃣ Fame by Dads Corner: (https://tco.sg/uYNyopLz1) $10 Buffet\n3️⃣ Happy Lamb: (https://tco.sg/91D7DJD8G) Hotpot Buffet from $9.99\n4️⃣ JEN Shangri-La: (https://tco.sg/7RSwAhjRO) 1-for-1 Buffet\n5️⃣ Seoul Garden: (https://tco.sg/uMf2SHTNQ) 2-for-2 Grill & Hotpot Buffet\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "506e49d7bd2ae866033f6c294f78e2dc3b5dafcf928bb7903fa0b2ede57f34ff",
+      "candidateIds": [
+        "f481a335-2476-424f-86bb-a2d22b78af0f",
+        "302f3489-c49b-4b5a-8189-35e04291f4a9",
+        "6e305e3c-a6df-477d-90eb-b13dee6fb41e",
+        "db175492-a165-42b6-b5c0-b9be7bd7fa2c",
+        "fa9b36c1-fb20-4513-aa5e-0c10a7f03e08"
+      ],
+      "cohort": "development",
+      "holdoutRank": "bbf37cf6156c45b3ae34dcfd67f8b2a2c0361eca5f97b4269dd3331d6ce4463c"
+    },
+    {
+      "sourcePostId": "3a96eeec-91b5-4b82-836a-79b00bfcdc3e",
+      "channel": "sgfooddeals",
+      "messageId": 4930,
+      "url": "https://t.me/sgfooddeals/4930",
+      "publishedAt": "2026-09-12T10:01:09.000Z",
+      "rawText": "SG's Last Kampung Canteen is Closing Down 🥹\n\n🔹 Boh Geh Canteen in Seletar bids farewell on 18 Sep after 57 years as owner Mr Toh retires\n🔹 Dig into nostalgic home style Cai Png & authentic Nasi Padang before they are gone\n📅 Mon - Fri\n⏰ 6AM - 1.30PM\n📍 Nearby Seletar, 398 Piccadilly\n\nMore info: tco.sg/ywIh02WYN (http://tco.sg/ywIh02WYN) \n\n@sgfooddeals (https://t.me/sgfooddeals) #article\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "ee4991532dafdcfc788da79454e6fbb693449aeb330e611f7eb24ffffafbdf18",
+      "candidateIds": [
+        "c8c5aaa7-c35c-43dc-a031-9923490b26a0"
+      ],
+      "cohort": "holdout",
+      "holdoutRank": "17c153fec750536b784a1e52875696d61afb4f6bf2f1c48cba8797703fc11a59"
+    },
+    {
+      "sourcePostId": "38a5fac9-c935-4945-84e8-feff75ecfe55",
+      "channel": "sgfooddeals",
+      "messageId": 4931,
+      "url": "https://t.me/sgfooddeals/4931",
+      "publishedAt": "2026-09-13T04:01:04.000Z",
+      "rawText": "Smooy: 1-for-1 Classic Cup 😋\n\n🔹 Claim a 1-for-1 Classic Cup froyo when you sign up on the new Smooy Rewards app\n📅 Now till 14 Sep\n📍 Selected outlets\n\nT&Cs apply.\n \nDownload here: App Store (https://tco.sg/Vgh4xMisj) | Google Play (https://tco.sg/MBBq3YBDd)\n \n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "f532a71ee162fb5a386d2405885fb4f22a6aba9c2ae8ff22073561c528e50c5c",
+      "candidateIds": [
+        "dbf143b6-a24a-43e9-accd-91eef36f9051"
+      ],
+      "cohort": "development",
+      "holdoutRank": "e21beb19a4bcc5b717d543217bbe3bc8f22f775b6ef10799b1e64483e9b3e0aa"
+    },
+    {
+      "sourcePostId": "5db90896-df53-412c-8b51-1b3cfd51b31a",
+      "channel": "sgfooddeals",
+      "messageId": 4932,
+      "url": "https://t.me/sgfooddeals/4932",
+      "publishedAt": "2026-09-13T10:01:02.000Z",
+      "rawText": "Ajumma's Korean Restaurant: Meals from $9.90 🍜\n\n🔹 Enjoy a main, free-flow side dishes & your choice of K-Treat from just $9.90\n🔹 Choose from bibimbap, bulgogi, ramyeon & more\n🔹 Valid for dine-in only\n📅 Weekdays (Excluding PH)\n⏰ 2PM - 5PM\n📍 All outlets\n\nMore info: tco.sg/PBcgXrqA2 (http://tco.sg/PBcgXrqA2)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "dd2465974fa0e1587bda2466f178ddca1c1d45bbf677366d8002ab18c5485b00",
+      "candidateIds": [
+        "8241b190-db40-404b-9b3a-516f3075270d"
+      ],
+      "cohort": "development",
+      "holdoutRank": "70d7ba177b9fde295f23f4bcfeac767d5a151c97a43d284594ab339fe47dbfed"
+    },
+    {
+      "sourcePostId": "26f643e2-44cb-43e6-b310-c5ee358e5af1",
+      "channel": "sgfooddeals",
+      "messageId": 4933,
+      "url": "https://t.me/sgfooddeals/4933",
+      "publishedAt": "2026-09-14T04:01:09.000Z",
+      "rawText": "Paradise Hotpot: All-You-Can-Eat from $19.90 ♨️\n\n🔹 Enjoy a HK-style hotpot feast with unlimited ingredients & flavorful broths\n🔹 Expect 9 soup bases, free-flow sliced meats, fresh seafood & more\n🔹 Limited to 90 mins of dining time\n📅 Mon - Fri: 11.30AM - 10PM\n📅 Sat & Sun: 11AM - 10PM\n📍 Selected outlets\n\nFind out more: tco.sg/nEz04NnPZ (http://tco.sg/nEz04NnPZ)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "114030819ae2a2a705c9d57a918c67c0a944a8462f1645b4912a47feaaae8a9e",
+      "candidateIds": [
+        "8e0614ff-a1c1-47f4-b945-7a1058b195e8"
+      ],
+      "cohort": "holdout",
+      "holdoutRank": "15d024a38a257ceb44ac58337d4bf19187f9c8b620e977e9a63777639c6dcaca"
+    },
+    {
+      "sourcePostId": "848839a3-657d-4c96-ab48-b91b59283689",
+      "channel": "sgfooddeals",
+      "messageId": 4934,
+      "url": "https://t.me/sgfooddeals/4934",
+      "publishedAt": "2026-09-14T10:01:03.000Z",
+      "rawText": "Support Jalan Besar’s small kitchens 💚\n\n🔹 Enjoy up to 15% off your total bill with Grab Dine Out at Moonchild, La Levain & more\n🔹 Stack an extra 20% off with code <JB20>\n📅 Now till 31 Oct\n📍 Grab app\n\nT&Cs apply.\n\nFind out more: tco.sg/grabperksxsgfd (http://tco.sg/grabperksxsgfd) \n\n@sgfooddeals (https://t.me/sgfooddeals)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "a3adb09711f6ae8bc28d7daa9416332ba5e1555485181ea3649bc738ac9c11e7",
+      "candidateIds": [
+        "62a0c360-5c43-44f7-a753-1ec89832b761"
+      ],
+      "cohort": "development",
+      "holdoutRank": "460eb74ffc2bcddb27cc8c2dd0701ced59528817e42c2a332b6280fb56b419ea"
+    },
+    {
+      "sourcePostId": "d7ece0cd-061c-4d64-a432-177c4f65b533",
+      "channel": "tastesoulsg",
+      "messageId": 4407,
+      "url": "https://t.me/tastesoulsg/4407",
+      "publishedAt": "2026-08-07T03:01:08.000Z",
+      "rawText": "🍨 Smöoy 🍨\n\n➡️ $6 Cups, Twisters & Smoothies\n📆 Now - 9 Aug\n📍 Selected outlets\n❗️ T&Cs apply.\n👉 More info: bit.ly/4wcTp7w (http://bit.ly/4wcTp7w)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "3cd80751be3ed5d845cf54b2d80eec97c45bec99e47c7e38d8572189a507b125",
+      "candidateIds": [
+        "913b0d23-15bd-4fd9-acdd-ef7542926612"
+      ],
+      "cohort": "development",
+      "holdoutRank": "6eb4b82bb1c86f05091950d7fd5569505fb1a566d5f343fa274ee62c92c86780"
+    },
+    {
+      "sourcePostId": "e45ece49-da5d-4a9b-a9de-5b6c40442c3e",
+      "channel": "tastesoulsg",
+      "messageId": 4408,
+      "url": "https://t.me/tastesoulsg/4408",
+      "publishedAt": "2026-08-07T07:34:02.000Z",
+      "rawText": "🍣 Sushi Express 🍣\n\n➡️ FREE Salmon Sushi when you wear red & white\n📆 Now - 10 Aug\n📍 All Sushi Express & Sushi Plus Outlets\n❗️ While stocks last. T&Cs apply.\n👉 More info: bit.ly/4q5GiUf (http://bit.ly/4q5GiUf)\n \n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "3a10329ef76cc77fe34b958d595973d14f6e18c7ebb6842747ee4820aeb2277b",
+      "candidateIds": [
+        "03a241e2-961c-4fb5-b9b1-f4526100aee4"
+      ],
+      "cohort": "development",
+      "holdoutRank": "a84c098b247c3550f6d0441e5613dcbd3af5ed6d9be9f4ec1d274e038f4807a4"
+    },
+    {
+      "sourcePostId": "1d4015d2-c5f4-4209-a1ee-81559c4fb933",
+      "channel": "tastesoulsg",
+      "messageId": 4409,
+      "url": "https://t.me/tastesoulsg/4409",
+      "publishedAt": "2026-08-07T10:04:31.000Z",
+      "rawText": "🧀 $61 Never Tasted So Good — Pizza Hut's National Day 2026 Bundle Set\n\n🍕 Read more: bit.ly/4whvUu6 (http://bit.ly/4whvUu6)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "81b584487b9ea642ab3712d98d935ee65ed9c5b32d8d7fca535ed97b5da0e183",
+      "candidateIds": [
+        "4bdd9904-029c-4b69-bff7-60934d4c67ff"
+      ],
+      "cohort": "development",
+      "holdoutRank": "6efd00f969886cfa809ef1b1592d0c65a548bf2cd4305d1c9176c1b6daeba410"
+    },
+    {
+      "sourcePostId": "61e82e42-1fef-4abf-8d49-6e66a9308826",
+      "channel": "tastesoulsg",
+      "messageId": 4410,
+      "url": "https://t.me/tastesoulsg/4410",
+      "publishedAt": "2026-08-08T03:00:47.000Z",
+      "rawText": "🍟 McDonald’s 🍟\n\n➡️ FREE Curry Sauce\n➡️ Grab from the box at the order collection counter\n📆 9 Aug\n🕣 12pm onwards\n📍 All outlets excl. Temasek Poly & Tampines Kiosk\n❗️ While stocks last. T&Cs apply.\n👉 More info: bit.ly/4fXyYpa (http://bit.ly/4fXyYpa)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "4fdf4ba868bea8c833903692516f62acddd281d5a9098bda88b0eb07acef2139",
+      "candidateIds": [
+        "9d4f24b4-0944-4a49-909c-2d00b4cfc036"
+      ],
+      "cohort": "development",
+      "holdoutRank": "bf4addeb387c6f4bf20d33fba95fb9add98d5812a645aee370eb0f88e72f44ee"
+    },
+    {
+      "sourcePostId": "f5cf4934-f900-405b-a758-98075d2bb5d8",
+      "channel": "tastesoulsg",
+      "messageId": 4411,
+      "url": "https://t.me/tastesoulsg/4411",
+      "publishedAt": "2026-08-11T03:30:28.000Z",
+      "rawText": "🍦 BURNT CONES 🍦\n\n➡️ $1 single scoops\n📆 Now - 14 Aug\n🕣 2 - 8pm\n📍 Paragon, B1-15\n❗️ 1000 scoops per day. T&Cs apply.\n👉 More info: bit.ly/4cfVtV3 (http://bit.ly/4cfVtV3)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "08ba68bcfd253d8c5c4955eb6c520aed2040cd9a1bd494a23e5ce5dc7bb8f1dc",
+      "candidateIds": [
+        "e7b33e45-3f2b-45f8-b545-c55e19831432"
+      ],
+      "cohort": "holdout",
+      "holdoutRank": "24a8a4af2425177921a4be1dd73a0cc8fa7399c2d874b5231fc9203eab3d6810"
+    },
+    {
+      "sourcePostId": "e014d99c-8d1d-44e1-a54b-e1b87707c6da",
+      "channel": "tastesoulsg",
+      "messageId": 4412,
+      "url": "https://t.me/tastesoulsg/4412",
+      "publishedAt": "2026-08-11T07:32:05.000Z",
+      "rawText": "🍦 Tofu G 🍦\n\n➡️ NEW Butter Tteok\n➡️ Flavours incl. Original & Injeolmi \n📆 Now \n📍 All outlets\n👉 More info: bit.ly/3S1y9ne (http://bit.ly/3S1y9ne)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "0fa064ac1093a0b3558eb8518fef52bbaab270fc41cecedbf51bc73b0d0f91e8",
+      "candidateIds": [
+        "7094556c-0caf-4b59-a9ea-a296753533dd"
+      ],
+      "cohort": "holdout",
+      "holdoutRank": "24c5177b7fc14b7a6afa88812fe4b622156403590be550d6a6e99d6924429e2b"
+    },
+    {
+      "sourcePostId": "8f322821-a641-40c9-b551-d63499c7d459",
+      "channel": "tastesoulsg",
+      "messageId": 4413,
+      "url": "https://t.me/tastesoulsg/4413",
+      "publishedAt": "2026-08-11T10:03:09.000Z",
+      "rawText": "🦆 Feast like an emperor with this Ultimate Indulgence Set — Lao Beijing \n\n🥬 Read more: bit.ly/4wTp27m (http://bit.ly/4wTp27m)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "6384174339b861c7d231b30207e9b2ae6a497a07f8f130e6187607b92d0bc7e7",
+      "candidateIds": [
+        "2c619fc2-4ba2-4561-865e-2b047307a63f"
+      ],
+      "cohort": "development",
+      "holdoutRank": "689c5ee8a105f37d799900b9b64083dbdd6fed5db4109bd243b59cbbf0850cbc"
+    },
+    {
+      "sourcePostId": "39804b8c-61d8-4e83-9061-fe412548f05e",
+      "channel": "tastesoulsg",
+      "messageId": 4414,
+      "url": "https://t.me/tastesoulsg/4414",
+      "publishedAt": "2026-08-12T03:31:40.000Z",
+      "rawText": "🍨 AFTER HOURS 🍨\n\n➡️ NEW Nostalgia series \n➡️ Flavours incl. Wang Zai Niu Nai, Paddle Pop Rainbow, Hawflakes & Ribena\n📆 Now - while stocks last\n📍 All outlets\n👉 More info: bit.ly/4z9pj7y (http://bit.ly/4z9pj7y)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "7398bef03ca8bab54f71616e7895708a7829e02c324d7a066f7afaa569bed780",
+      "candidateIds": [
+        "ce65759b-5f13-4390-8d4b-29b728b0830c"
+      ],
+      "cohort": "development",
+      "holdoutRank": "f385b79009725a58acaff6f8854119bf20f314f8c4e507141d0a4fc0cb5a867e"
+    },
+    {
+      "sourcePostId": "fa225e1e-6cb3-4ad2-ae92-aa1a5a0d8b22",
+      "channel": "tastesoulsg",
+      "messageId": 4415,
+      "url": "https://t.me/tastesoulsg/4415",
+      "publishedAt": "2026-08-12T07:30:01.000Z",
+      "rawText": "🍫 The Coffee Bean & Tea Leaf 🍫\n\n➡️ 2 $10 for 2 Choc Cookie Crumble Ice Blended Drinks (SML)\n📆 Now - 14 Aug\n📍 Selected outlets\n❗️ While stocks last. T&Cs apply.\n👉 More info: bit.ly/4g7seF4 (http://bit.ly/4g7seF4)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "70b27f668065495222fc3abe55c3d05e6a247c3477c51a9e311e40f50bc8924b",
+      "candidateIds": [
+        "bf619172-5bef-47a9-a004-e97a3f8f964e"
+      ],
+      "cohort": "development",
+      "holdoutRank": "4ba5e4c430fb2dbfce7f13b5b8b14aba34cf0ac71f24504f3b7b6fb2c81dc223"
+    },
+    {
+      "sourcePostId": "766f8966-f013-438f-aef8-2660fd0abcc1",
+      "channel": "tastesoulsg",
+      "messageId": 4416,
+      "url": "https://t.me/tastesoulsg/4416",
+      "publishedAt": "2026-08-12T10:03:39.000Z",
+      "rawText": "🇮🇹 Feel like having Italian food without a flight to Rome? Check out this restaurant just across the border — Bottega JB\n\n🍝 Read more: bit.ly/3Uu9DvF (http://bit.ly/3Uu9DvF)\n\n @confirmgood (https://t.me/confirmgood)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "b7409f559ba98d68f66de3a44ef8c1907ee693db193869d139c9f0b2b01d5b42",
+      "candidateIds": [
+        "772a3800-1d67-4dda-9b9b-2442241b36eb"
+      ],
+      "cohort": "development",
+      "holdoutRank": "c68f8d06cfbbdf69844348c110a93a6e5371928724704a98ed3bd24672ac2083"
+    },
+    {
+      "sourcePostId": "f0fa7a58-ebb9-4e5f-9cd3-9d1713b11d65",
+      "channel": "tastesoulsg",
+      "messageId": 4417,
+      "url": "https://t.me/tastesoulsg/4417",
+      "publishedAt": "2026-08-13T03:03:03.000Z",
+      "rawText": "🍚 Kei Kaisendon 🍚\n\n➡️ 1-for-1 Kaisendon\n📆 14 - 16 Aug\n📍 Hillion Mall, B1-41\n❗️ T&Cs apply.\n👉 More info: bit.ly/4cFrs15 (http://bit.ly/4cFrs15)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "4f18877028a744c452b5fc4869b42ca8a570d05bc8e25fd51eff02dbbea8fb8b",
+      "candidateIds": [
+        "be833434-453b-4957-9a48-edde107a2646"
+      ],
+      "cohort": "holdout",
+      "holdoutRank": "2144033f7685b8a03ef6e0e310ad2247536619012f3d27825b264d31ebd57e6e"
+    },
+    {
+      "sourcePostId": "e8983485-7706-48ae-9adb-9445d3391611",
+      "channel": "tastesoulsg",
+      "messageId": 4418,
+      "url": "https://t.me/tastesoulsg/4418",
+      "publishedAt": "2026-08-13T08:05:02.000Z",
+      "rawText": "🍦 moreyogurt 🍦\n\n➡️ 1-for-1 selected flavours\n➡️ Incl. Original Avocado, Mango & Almond Avocado Yogurt Shake\n\n📆 14 - 16 Aug\n📍 Jewel Changi Airport, B2-234\n\n📆 17 - 19 Aug\n📍 Waterway Point, 01-63\n\n❗️ While stocks last. T&Cs apply.\n👉 More info: bit.ly/3S1ZPbF (http://bit.ly/3S1ZPbF)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "cc37471df5f2e8ffd6ccedeed84fe2b20f3eef7230cf3e71a4b914ef9c725dc3",
+      "candidateIds": [
+        "186fce6f-6d46-45ba-831c-04703e043996"
+      ],
+      "cohort": "development",
+      "holdoutRank": "884056ffda20c42c49f2b35a0133ce2e995733567eac72c3e40c8ca49c22e889"
+    },
+    {
+      "sourcePostId": "41a6282c-9e3d-4aef-8723-84c9cac64d3b",
+      "channel": "tastesoulsg",
+      "messageId": 4419,
+      "url": "https://t.me/tastesoulsg/4419",
+      "publishedAt": "2026-08-13T10:03:31.000Z",
+      "rawText": "🇹🇭 Craving authentic Thai food? This Thai restaurant in Johor Bahru has got you covered — NomNom JB\n\n🥥 Read more: bit.ly/45qNEYT (http://bit.ly/45qNEYT)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "1f34519046876e9f9350abfbf56c0cab875615252e92da4a49622be06a4c5eee",
+      "candidateIds": [
+        "16f61535-8fc8-46d4-b46f-6d753200187f"
+      ],
+      "cohort": "development",
+      "holdoutRank": "8166f6aa4007cde626e465b0aa3f33a2ad1ce8aafcde0851e96ac9a6af419c6b"
+    },
+    {
+      "sourcePostId": "49b1ae5e-dd4b-43e9-962d-9ee0ccfb1a9f",
+      "channel": "tastesoulsg",
+      "messageId": 4420,
+      "url": "https://t.me/tastesoulsg/4420",
+      "publishedAt": "2026-08-14T03:33:11.000Z",
+      "rawText": "🍣 Sushiro 🍣\n\n➡️ $1.90++ Salmon Belly Sushi (U.P. $2.30++)\n📆 17 - 28 Aug\n📍 New Bahru, 02-01 & Chinatown Point, 02-35\n❗️ Weekdays only. Dine-in only. T&Cs apply.\n👉 More info: bit.ly/4wpszJe (http://bit.ly/4wpszJe)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "9abc9d80475b6dae3c9552efa2f054d6e70aef97e38593a9e0420c76e6edbf2d",
+      "candidateIds": [
+        "a09a0a45-936b-4708-9e7a-257a3ec47ed0"
+      ],
+      "cohort": "development",
+      "holdoutRank": "bca189eb0858e1b95297ab84684bf39ec33f206a8d68407bf4b2ac1b07174c6a"
+    },
+    {
+      "sourcePostId": "9bf3358d-02b4-4608-9c51-479293f70fc5",
+      "channel": "tastesoulsg",
+      "messageId": 4421,
+      "url": "https://t.me/tastesoulsg/4421",
+      "publishedAt": "2026-08-14T08:05:01.000Z",
+      "rawText": "🦄 Starbucks 🦄\n\n➡️ NEW Unicorn Frappucino\n➡️ Incl. coconut milk, strawberry acai & mango dragonfruit flavours\n📆 15 Aug - end date unspecified\n📍 Selected outlets\n👉 More info: bit.ly/4zcyiot (http://bit.ly/4zcyiot)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "fc3fdbef90b5cbbc095e95f6352f0b5e99e32b39aa3f5f2b267b3e182c8b0ddf",
+      "candidateIds": [
+        "57272908-ceee-4144-9a39-53847ddd864a"
+      ],
+      "cohort": "development",
+      "holdoutRank": "7c806c1d40026f42ed0eaeac0396166f66deb4ef0671ca52471450de44438b29"
+    },
+    {
+      "sourcePostId": "41c8c39b-d73b-4bf9-9a7e-a66ad2e1d1c8",
+      "channel": "tastesoulsg",
+      "messageId": 4422,
+      "url": "https://t.me/tastesoulsg/4422",
+      "publishedAt": "2026-08-14T10:01:34.000Z",
+      "rawText": "🥯 A hidden rooftop café in Singapore's CBD with skyline views, speciality coffee, artisanal French bakes and creative matcha drinks — POUT Rooftop Cafe\n\n🍴 Read more: bit.ly/45LAbeB (http://bit.ly/45LAbeB)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "7456a20ddd30ed0c82c067e4fe51e1ac66a38c05fa1322dbfd91acf7d5690a3a",
+      "candidateIds": [
+        "2e73a8de-609c-434b-bed9-f789d244c796"
+      ],
+      "cohort": "development",
+      "holdoutRank": "efbe723aedf6317248d3feccfe6a4098e1c5ab0652c5202af60ada0802eef36a"
+    },
+    {
+      "sourcePostId": "c9cb4251-bbe4-40fd-9532-5071e5ab09e9",
+      "channel": "tastesoulsg",
+      "messageId": 4423,
+      "url": "https://t.me/tastesoulsg/4423",
+      "publishedAt": "2026-08-17T05:08:01.000Z",
+      "rawText": "🍔 MOS Burger 🍔\n\n➡️ $6.10 Chicken Burger Combo\n➡️ Incl. Chicken Burger, French Fries (S) & Iced tea\n📆 Every Mon & Tue\n📍 All outlets\n❗️ While stocks last.\n👉 More info: bit.ly/4gb6gB3 (http://bit.ly/4gb6gB3)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "7e0fd17161cb003457261775b0f5221d0a6d45d778220e2874272cf8e79145e9",
+      "candidateIds": [
+        "79356645-9d15-4226-bca8-bf2566f538af"
+      ],
+      "cohort": "holdout",
+      "holdoutRank": "010c49d389b569888a067ffcaaecb180d1d93fed90639809b11785777bce9f1d"
+    },
+    {
+      "sourcePostId": "4f1b2128-7f4b-4359-8026-ec3921ef6036",
+      "channel": "tastesoulsg",
+      "messageId": 4424,
+      "url": "https://t.me/tastesoulsg/4424",
+      "publishedAt": "2026-08-17T08:00:49.000Z",
+      "rawText": "🍰 The Coffee Bean & Tea Leaf 🍰\n\n➡️ 1-for-1 Chocolate of a Thousand Leaves Cake (sliced)\n📆 Now - 21 Aug\n📍 Selected outlets\n❗️ While stocks last. T&Cs apply.\n👉 More info: bit.ly/4ghSMDR (http://bit.ly/4ghSMDR)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "85b5b8fb664636b87fa5513c5ee33ab3f4466a23df6a847a7686a3cff8362760",
+      "candidateIds": [
+        "4a709fcd-7018-48d7-a2ec-1c5e4097029e"
+      ],
+      "cohort": "holdout",
+      "holdoutRank": "144c76352750f4e00ddda5d39d5cb62a69fbbd6308bbfb9fa48ef3f2843d2f9c"
+    },
+    {
+      "sourcePostId": "9272497c-3cd5-409f-96bf-1894cf754995",
+      "channel": "tastesoulsg",
+      "messageId": 4425,
+      "url": "https://t.me/tastesoulsg/4425",
+      "publishedAt": "2026-08-17T09:59:01.000Z",
+      "rawText": "🍞 101-year-old coffeeshop & heritage bakery with classic breakfast sets, Nasi Lemak, Smashed Chicken Sandwiches, and Cloud Kopi — Chin Mee Chin\n\n☕ Read more: bit.ly/4wAlt54 (http://bit.ly/4wAlt54)\n\n @tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "bd34b844261a9c84f8d862b73a8c99cd3ae141b6afdeadb89ff61b8536c37c62",
+      "candidateIds": [
+        "4e023072-439c-4e67-a6c3-bafd3706f4d5"
+      ],
+      "cohort": "development",
+      "holdoutRank": "e2cd050bed045ce6126eb1e72f936b249d72c540f9dde7775aa9bda97c2776fa"
+    },
+    {
+      "sourcePostId": "ca978735-68b0-4cca-bdaf-e4bd6df52186",
+      "channel": "tastesoulsg",
+      "messageId": 4426,
+      "url": "https://t.me/tastesoulsg/4426",
+      "publishedAt": "2026-08-18T03:03:09.000Z",
+      "rawText": "🥩 Jack’s Place 🥩\n\n➡️ $12++ 250g N.Z. Striploin Steak (U.P. $28)\n➡️ Incl. baked potato, seasonal vegetables & sauce\n📆 Now - 20 Aug\n🕣 5pm onwards\n📍 All outlets\n❗️ Dine-ins only. While stocks last. T&Cs apply.\n👉 More info: bit.ly/4zpJFcT (http://bit.ly/4zpJFcT)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "d6fd9e0ce770414bed0e848e7bfff061c02ba11f0961c4fa93136a8eb8861cf1",
+      "candidateIds": [
+        "f1b5ef8e-2d3d-47b9-8d79-0719be774233"
+      ],
+      "cohort": "development",
+      "holdoutRank": "674375b8852b98b0ef91257a926158a0c8162dada3084ca3029ef905e2528aa0"
+    },
+    {
+      "sourcePostId": "a7f93cf7-4de1-4f16-a9c9-c159af390c17",
+      "channel": "tastesoulsg",
+      "messageId": 4427,
+      "url": "https://t.me/tastesoulsg/4427",
+      "publishedAt": "2026-08-18T08:02:29.000Z",
+      "rawText": "🍔 McDonald’s 🍔\n\n➡️ Returning items incl. Samurai Beef Burger, Samurai Chicken Burger, Tamago Samurai Burger (Beef / Chicken) & Seaweed McShaker Fries\n➡️ New items incl. Katsu Chicken Tenders, Kyoho Grape Soft Serve & Strawberry Daifuku Pie\n📆 20 Aug - end date unspecified\n📍 All outlets\n👉 More info: bit.ly/4qmO2RP (http://bit.ly/4qmO2RP)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "13017dcfd8e788c58c84c3f2bb3960ea38a560595fb549281c79ed33128c22ac",
+      "candidateIds": [
+        "e799684b-4d6e-4029-8530-27cb7dee4c3c"
+      ],
+      "cohort": "development",
+      "holdoutRank": "965e9227262e50169140966eb0f46feb86286a77b163861c3e465730fc5b1e94"
+    },
+    {
+      "sourcePostId": "af24525b-c543-4db4-a3b2-8ff5bdb96476",
+      "channel": "tastesoulsg",
+      "messageId": 4428,
+      "url": "https://t.me/tastesoulsg/4428",
+      "publishedAt": "2026-08-18T10:02:11.000Z",
+      "rawText": "🍵 China’s buzziest Thai Milk Tea brand lands its first outlet in Singapore at 313@somerset – BlackTree\n\n🧋 Read more: bit.ly/4xFP3qy (http://bit.ly/4xFP3qy)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "69c3058f30220327a56ab3abe38531dcc94870a477f237d32d75b18b7fe0fccf",
+      "candidateIds": [
+        "9d3f79d6-fdd6-49d3-a84a-e4fadfa9fdfb"
+      ],
+      "cohort": "holdout",
+      "holdoutRank": "182b01cc13879209e843d6d8f68483ffd3a139f188251a4f539fdb8fc9514da3"
+    },
+    {
+      "sourcePostId": "6d50e2f6-666a-493b-a486-bc8f658b5a59",
+      "channel": "tastesoulsg",
+      "messageId": 4429,
+      "url": "https://t.me/tastesoulsg/4429",
+      "publishedAt": "2026-08-19T03:05:10.000Z",
+      "rawText": "❤️ KFC ❤️\n\n➡️ NEW menu ft. Japanese Nanban Zinger, Chicken Bites, Loaded Fries & Sweet Potato Mochi Balls\n➡️ + merch for purchase incl. Reversible Everyday Blind Pouch, Poké Ball Bucket, apparel & more\n📆 Now - 29 Sep\n📍 All outlets\n👉 More info: bit.ly/3SGPQbW (http://bit.ly/3SGPQbW)\n\n@tastesouls (https://t.me/tastesouls)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "d20e1286ef297f5f9ebc27ac360342f992e0e3114c6a0c4de76357b9c69c1a90",
+      "candidateIds": [
+        "e359ecd9-5a04-477d-9198-c6d612aaeec5"
+      ],
+      "cohort": "development",
+      "holdoutRank": "a746846cd003d3a5b0933810320b245b63200571b34217b313a782e707255853"
+    },
+    {
+      "sourcePostId": "ec50fa5f-9196-4311-911c-325ce2b20c1c",
+      "channel": "tastesoulsg",
+      "messageId": 4430,
+      "url": "https://t.me/tastesoulsg/4430",
+      "publishedAt": "2026-08-19T07:32:56.000Z",
+      "rawText": "🍨 IKEA 🍨\n\n➡️ NEW Swedish Meatball Ice-Cream\n📆 20 - 23 Aug\n📍 IKEA Alexandra Bistro | IKEA Tampines Bistro, L1 & L3 | IKEA Jurong Bistro\n👉 More info: bit.ly/3U9idzU (http://bit.ly/3U9idzU)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "809d2f447e639f1a2b6a56c62d45988f654022b3c11f9101f3f23b82fde94222",
+      "candidateIds": [
+        "5ba52ba1-74ac-4b25-9949-671af2c10c70"
+      ],
+      "cohort": "development",
+      "holdoutRank": "8290a78489f0bf23b447549cdd38ed47530f32581d5f0b4122d5368f730f8557"
+    },
+    {
+      "sourcePostId": "29f51b17-c0d2-43ea-8695-8089c5c78a09",
+      "channel": "tastesoulsg",
+      "messageId": 4431,
+      "url": "https://t.me/tastesoulsg/4431",
+      "publishedAt": "2026-08-19T10:03:03.000Z",
+      "rawText": "☕ A new all-day cafe at Singapore Botanic Gardens with creative brunch, coffee, desserts, and pet-friendly dining — Park Side\n\n🌳 Read more: bit.ly/3SiDczB (http://bit.ly/3SiDczB)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "6384d07cba99708cd13a682f7b4bb1af728e79da747722105b434c48f30d3f9a",
+      "candidateIds": [
+        "6fde275d-91fb-4696-a07d-c9c0f09836b7"
+      ],
+      "cohort": "development",
+      "holdoutRank": "6c2af586267edddda598a278f3a7750ce1429d45b774fe74c923b23119ffa8f9"
+    },
+    {
+      "sourcePostId": "35567f45-c932-4973-94da-9105f3fe46b9",
+      "channel": "tastesoulsg",
+      "messageId": 4432,
+      "url": "https://t.me/tastesoulsg/4432",
+      "publishedAt": "2026-08-20T03:03:08.000Z",
+      "rawText": "✨ CHAGEE ✨\n\n➡️ Free Tear & Win cup upgrade with every Large Milk Tea purchase\n➡️ Drinks incl. BO•YA Jasmine Green Milk Tea, Peach Oolong Milk Tea & Da Hong Pao Milk Tea\n📆 21 - 23 Aug\n\n📍 PLQ Mall, 01-39 \n🕣 2 - 10.30pm (21 Aug) | 9am - 10.30pm (22 Aug) | 9am - 10pm (23 Aug)\n\n📍 Pasir Ris Mall, Town Plaza 01-01\n🕣 10am - 10.30pm (21 - 22 Aug) | 10am - 10pm (23 Aug)\n\n❗️ While stocks last. T&Cs apply.\n👉 More info: bit.ly/4gq0RX6 (http://bit.ly/4gq0RX6)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "c5265a54a224d69b39844859a4ba9f674b89f99409cc21861ba84c8b8cafdc61",
+      "candidateIds": [
+        "b44d008a-6973-454c-a292-bfa183f1a511"
+      ],
+      "cohort": "development",
+      "holdoutRank": "9acc2c1a8e4f5332414f1ae688a4be12613fbf445c441033df855901c2244086"
+    },
+    {
+      "sourcePostId": "c4901367-7566-4058-b575-23c175f6b482",
+      "channel": "tastesoulsg",
+      "messageId": 4433,
+      "url": "https://t.me/tastesoulsg/4433",
+      "publishedAt": "2026-08-20T08:00:22.000Z",
+      "rawText": "🍟 Potato Corner 🍟\n\n➡️ NEW limited Chicken Satay Flavour\n➡️ Incl. Satay Fries & Satay Chicken Pops\n📆 Now - end date unspecified\n📍 All outlets\n👉 More info: bit.ly/45HaZFU (http://bit.ly/45HaZFU)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "5dc5eeb0747c3180f1b198108c1db16373ae9f1214ac933ee5f7448fe6a16179",
+      "candidateIds": [
+        "47120939-156b-4a72-b68d-101ecab82e72"
+      ],
+      "cohort": "development",
+      "holdoutRank": "a8fa58862b9c969039d592c0ca6f143221d0747ad49da1d079c5239863d0ed1e"
+    },
+    {
+      "sourcePostId": "9e44d676-2864-45f9-b560-2525b05982bf",
+      "channel": "tastesoulsg",
+      "messageId": 4434,
+      "url": "https://t.me/tastesoulsg/4434",
+      "publishedAt": "2026-08-20T10:02:14.000Z",
+      "rawText": "🥢 Discover the best of Teochew and Cantonese cuisine at New Bahru — San Shu Gong \n\n🥠 Read more: bit.ly/4xR3QPs (http://bit.ly/4xR3QPs)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "afba7570befc5825b588933193be48c22621c48a30902df2282c049aa9349e69",
+      "candidateIds": [
+        "0f7eff56-4a0b-470a-b39f-299748d49703"
+      ],
+      "cohort": "development",
+      "holdoutRank": "950f43c2053d3087ed5107c1ecc964e72bb8201ea662d4a53cea00def768218a"
+    },
+    {
+      "sourcePostId": "14602b39-aa29-401d-aeab-e33c7d1a405e",
+      "channel": "tastesoulsg",
+      "messageId": 4435,
+      "url": "https://t.me/tastesoulsg/4435",
+      "publishedAt": "2026-08-21T03:01:01.000Z",
+      "rawText": "🍜 Gwanghwamun Mijin 🍜\n\n➡️ $1 Signature Buckwheat Noodles (U.P. $15)\n📆 22 Aug\n🕣 11am - 3pm & 5 - 9.30pm\n📍 47/48/49 Pekin St, 01-01\n❗️ 100 redemptions for lunch & dinner each. 1 redemption per group. T&Cs apply.\n👉 More info: bit.ly/4zuOfqm (http://bit.ly/4zuOfqm)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "09073080640435dfeac04f7f38e7eba885d2f622800f4fd25d8153b53a1f0b65",
+      "candidateIds": [
+        "06add810-7c79-4181-9cfa-f162ebfa601e"
+      ],
+      "cohort": "holdout",
+      "holdoutRank": "38ce6fd08fafa9cbbb8c28454eccc113a2d559e4e981495191db0482789e5d00"
+    },
+    {
+      "sourcePostId": "2e5d2490-c303-4970-8d4b-3abe5b5a9c60",
+      "channel": "tastesoulsg",
+      "messageId": 4436,
+      "url": "https://t.me/tastesoulsg/4436",
+      "publishedAt": "2026-08-21T07:32:23.000Z",
+      "rawText": "🥩 Morganfield’s 🥩\n\n➡️ 1-for-1 Angus Ribeye Steak (U.P. $42.90++)\n➡️ Incl. French Fries & Garden Salad\n📆 Now - 30 Aug\n🕣 11am - 10pm (Sun - Thu) | 11am - 11pm (Fri - Sat)\n📍 Suntec City, 01-645\n❗️ Dine-in only. While stocks last. T&Cs apply.\n👉 More info: bit.ly/4hLYxMq (http://bit.ly/4hLYxMq)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "05bc5bd34abe409ff5010ac3274f5638bd6b332eaa0e3cd506255aac5fbff256",
+      "candidateIds": [
+        "e988b525-e12a-4c10-aedf-98596b69f3f9"
+      ],
+      "cohort": "development",
+      "holdoutRank": "620b002b242f5c28a157eb40b3b30db90d358c7c1825f4ad8510be14e4086f53"
+    },
+    {
+      "sourcePostId": "bc3723d5-1e74-4f62-a6b3-ac0965d9abfb",
+      "channel": "tastesoulsg",
+      "messageId": 4437,
+      "url": "https://t.me/tastesoulsg/4437",
+      "publishedAt": "2026-08-21T09:59:01.000Z",
+      "rawText": "🐔 Taiwan-famous noodles store expands its menu with Singapore-exclusive Chicken Soup — Spicy Noodles SG\n\n🍜 Read more: bit.ly/4xWNB3q (http://bit.ly/4xWNB3q)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "6597a8ca4bd7f7e14d4c18e9d449827f1c6dcfbfee8bfd2cecb06b5737d884cc",
+      "candidateIds": [
+        "55def2b4-76ce-435f-8f45-694b1404bee9"
+      ],
+      "cohort": "development",
+      "holdoutRank": "bbf1b53ed4a22bc29b737d14da23221d718be11afc64886c49863077d0379a3c"
+    },
+    {
+      "sourcePostId": "4efaa44f-bcd4-453f-84a6-c73360d6eb50",
+      "channel": "tastesoulsg",
+      "messageId": 4438,
+      "url": "https://t.me/tastesoulsg/4438",
+      "publishedAt": "2026-08-24T04:00:01.000Z",
+      "rawText": "🍜 LiXin Teochew Fishball Noodles 🍜\n\n➡️ $5 Michelin Bib Gourmand Fishball Noodles \n📆 Now - 28 Aug\n📍 Selec ted outlets\n❗️ T&Cs apply.\n👉 More info: bit.ly/4gvczQe (http://bit.ly/4gvczQe)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "eede06f3d0cec4b0a005764c24f5a7562dcd17396d631bf356f09c9daa62ee66",
+      "candidateIds": [
+        "196f2085-e024-458e-b899-087c1cf5dcb3"
+      ],
+      "cohort": "holdout",
+      "holdoutRank": "278874f91c48f857b3234d4fc304d83be0c21181e6a813a20edbdd561d92c6c8"
+    },
+    {
+      "sourcePostId": "ac3929f6-1e5e-4486-a8fc-4e29d3e24d9c",
+      "channel": "tastesoulsg",
+      "messageId": 4439,
+      "url": "https://t.me/tastesoulsg/4439",
+      "publishedAt": "2026-08-24T08:00:01.000Z",
+      "rawText": "🍣 Sushidan 🍣\n\n➡️ NEW outlet opening at Parkway Parade\n➡️ Ft. affordable authentic Edomae sushi\n📆 TBC\n📍 Parkway Parade\n👉 More info: bit.ly/4wKnbRi (http://bit.ly/4wKnbRi)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "d07472db40d2d1e443b08b97ac40f62b92d3daffc733f880e01e1f7d9bd3e386",
+      "candidateIds": [
+        "a0d783fd-e0a9-42bd-b654-19e3d0e66777"
+      ],
+      "cohort": "development",
+      "holdoutRank": "93b120eb1a2b6e293f4aa96e551e142c36492fca049e5713844f22a4f7a62e9b"
+    },
+    {
+      "sourcePostId": "929e8918-30a5-43dd-aac6-daaffd25f1c8",
+      "channel": "tastesoulsg",
+      "messageId": 4440,
+      "url": "https://t.me/tastesoulsg/4440",
+      "publishedAt": "2026-08-24T10:02:40.000Z",
+      "rawText": "🧀 Half off pizza. Half off pasta. Full flavour. Don't miss this latest deal that might just upgrade your next pasta night – Baci Baci\n\n🍷 Read more: bit.ly/4wGoeBF (http://bit.ly/4wGoeBF)\n\n @tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "db792fa241779eb3a0e18999e7292079279cff7cd1064c45c3dacf8a92225c53",
+      "candidateIds": [
+        "ed064ffd-fccd-48c5-aec4-4f5704c9497e"
+      ],
+      "cohort": "development",
+      "holdoutRank": "82efd0eae19b3287d9bbe72c3af36a356d9fb5c1fe8d6ebbb2589ec9c5d8ef3e"
+    },
+    {
+      "sourcePostId": "ff98a57c-12e4-4eb0-b2bd-6c18b867cc8c",
+      "channel": "tastesoulsg",
+      "messageId": 4441,
+      "url": "https://t.me/tastesoulsg/4441",
+      "publishedAt": "2026-08-25T03:32:32.000Z",
+      "rawText": "🍕 Domino’s 🍕\n\n➡️ FREE Large Pizza (with purchase of Regular Pizza)\n➡️ Choices incl. all flavours\n📆 Now - 31 Aug\n📍 All outlets\n💃 Use code <769771> to redeem promo\n❗️ T&Cs apply.\n👉 More info: bit.ly/4xjd6vB (http://bit.ly/4xjd6vB)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "7b6731d88e3e78a02e2639e0448b90ddd0a182ba04b31e5383f0b823cc7aae13",
+      "candidateIds": [
+        "2b603246-7ae9-4da9-9713-6a5fc41d7e2b"
+      ],
+      "cohort": "development",
+      "holdoutRank": "af74f51a7e490556a7ba0bc45c8a8b73370dd4f4898da5908728d0ab843a85b0"
+    },
+    {
+      "sourcePostId": "7a16bf36-3567-406b-86e9-408783b13c01",
+      "channel": "tastesoulsg",
+      "messageId": 4442,
+      "url": "https://t.me/tastesoulsg/4442",
+      "publishedAt": "2026-08-25T07:33:17.000Z",
+      "rawText": "🍚 MUKAI 🍚\n\n➡️ 1-for-1 Kaiho Don\n📆 Now - 31 Aug\n🕣 11.30am (lunch) & 5.30pm (dinner)\n📍 Plaza Singapura, B1-07\n💃 Post about your visit on IG + tag them & show staff to enjoy promo\n❗️ For first 8 groups to dine during lunch & dinner. Free don must be the same as purchased type. T&Cs apply.\n👉 More info: bit.ly/4xlKNwN (http://bit.ly/4xlKNwN)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "321949174606e873be77b9b21a72268e3f43c04d1734753e590b4a07bddc20e4",
+      "candidateIds": [
+        "c2ee579b-8719-4cac-9f18-092cdef8775c"
+      ],
+      "cohort": "development",
+      "holdoutRank": "9e84281631f52c19239ff6e07a2e80f2f8a119f98f88a3ac7d938ebd0d09b6d5"
+    },
+    {
+      "sourcePostId": "1b185aff-17e5-4651-a633-576271422e37",
+      "channel": "tastesoulsg",
+      "messageId": 4443,
+      "url": "https://t.me/tastesoulsg/4443",
+      "publishedAt": "2026-08-25T10:01:11.000Z",
+      "rawText": "🔥 Math has never tasted this good: 2 Pax = 20% Off, 3 Pax = 30% Off, 4 Pax = 40% Off. Bring the Whole Crew – OMMA Korean Charcoal BBQ\n\n🍺 Read more: bit.ly/4qDjCLt (http://bit.ly/4qDjCLt)\n\n @tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "0a4b17a9224a030adada9903cf6711132c5f13993ee9feff4bf76224e2fa8342",
+      "candidateIds": [
+        "3f8a72e2-541d-4892-bf71-7c99ffd02380"
+      ],
+      "cohort": "development",
+      "holdoutRank": "7079ce16391f2998dc33dda00937140b6b5320227b4230c903fedde564528290"
+    },
+    {
+      "sourcePostId": "de9ac542-e0c8-430e-940f-da714c32bc2c",
+      "channel": "tastesoulsg",
+      "messageId": 4444,
+      "url": "https://t.me/tastesoulsg/4444",
+      "publishedAt": "2026-08-26T03:00:28.000Z",
+      "rawText": "🍪 Zapangi Coffee 🍪\n\n➡️ Popular coffee & South Korean American-style soft cookie brand pop-up in SG\n➡️ Cookie flavours incl. salted milk, cheesy chunk, coconut & more\n📆 Now - 10 Sep\n📍 Isetan Scotts Supermarket, B1\n👉 More info: bit.ly/4zD74Yh (http://bit.ly/4zD74Yh)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "1f7b9bd4c82a979601723e0d19a43f2571b9ec1c367800fb8102eb8527a46a1c",
+      "candidateIds": [
+        "af68f283-4d23-41da-b4b6-0947f00ad471"
+      ],
+      "cohort": "holdout",
+      "holdoutRank": "1e74d367556013ae08a7abf3aac40a83161a097b70cd281035cb719a09841e7a"
+    },
+    {
+      "sourcePostId": "718bf385-6cd1-4fd4-a584-73b15e5e2eb4",
+      "channel": "tastesoulsg",
+      "messageId": 4445,
+      "url": "https://t.me/tastesoulsg/4445",
+      "publishedAt": "2026-08-26T07:00:52.000Z",
+      "rawText": "🍙 7-Eleven 🍙\n\n➡️ NEW Onigiri Ice Cream\n➡️ Incl. oat & rice flavours with seaweed pieces\n📆 Now - while stocks last\n📍 Selected outlets\n👉 More info: bit.ly/4iuUX9C (http://bit.ly/4iuUX9C)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "8e28023a973dd50e832681aef230f1939f9b0f1e1d1a1de4e75ca346feb606ee",
+      "candidateIds": [
+        "ac514d76-7eae-4887-9ae8-f876eabaafa1"
+      ],
+      "cohort": "development",
+      "holdoutRank": "f1d8e71dd111b37aeb2a9329ea7b91067d0096a6d7c65ded7e65fb59ff9eec60"
+    },
+    {
+      "sourcePostId": "f005948c-185a-4476-b49f-66a7ba9948f1",
+      "channel": "tastesoulsg",
+      "messageId": 4446,
+      "url": "https://t.me/tastesoulsg/4446",
+      "publishedAt": "2026-08-26T10:01:53.000Z",
+      "rawText": "🥂 Did someone say 1-for-1 cocktails & bottomless truffle fries on Wednesdays? Cheers, ladies! And count yourself in for sips, giggles & good company – Sip Sip\n\n🍹 Read more: bit.ly/4qzP8ty (http://bit.ly/4qzP8ty)\n\n @tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "57b9437eeb5cd271eee438368d175fb97f0c3a90013e37c5556905434c86ead4",
+      "candidateIds": [
+        "2cb1abdc-10fb-49b1-a92e-a27d24f798ad"
+      ],
+      "cohort": "holdout",
+      "holdoutRank": "00770bea33616ee27aa8a86629f48169663036c3efe2d0388383de167143dcaa"
+    },
+    {
+      "sourcePostId": "d151e206-4389-45ad-8d5b-85bbbe18d50b",
+      "channel": "tastesoulsg",
+      "messageId": 4447,
+      "url": "https://t.me/tastesoulsg/4447",
+      "publishedAt": "2026-08-27T03:01:16.000Z",
+      "rawText": "🍚 Kei Kaisendon 🍚\n\n➡️ 1-for-1 Kaisendon\n📆 28 - 30 Aug\n📍 AMK Hub, B1-17\n❗️ T&Cs apply.\n👉 More info: bit.ly/45LZKMv (http://bit.ly/45LZKMv)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "fc5a2cf3ecfbc9f22e40383feb141b62b9f0b7631434d8e14418869a4df4164a",
+      "candidateIds": [
+        "1ee6b9ec-4e0d-4a9f-aa32-047cbd2dbcc4"
+      ],
+      "cohort": "development",
+      "holdoutRank": "be0cfd042fc53873957a14e83895ae4e166d64fe230ec1d5562b3c5ca4be7ca0"
+    },
+    {
+      "sourcePostId": "2968bd3f-5089-4638-ae05-1013602c2a5e",
+      "channel": "tastesoulsg",
+      "messageId": 4448,
+      "url": "https://t.me/tastesoulsg/4448",
+      "publishedAt": "2026-08-27T07:30:01.000Z",
+      "rawText": "🥩 Yakiniku Like 🥩\n\n➡️ 50% OFF 2nd Set Meal\n➡️ Incl. A5 Wagyu Set, Like Set, Harami Set & Prime Karubi Set\n📆 28 - 30 Aug\n📍 All outlets excl. Junction 8\n❗️ 1 redemption per transaction. T&Cs apply. \n👉 More info: bit.ly/4gAaMcy (http://bit.ly/4gAaMcy)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "26d70aad5b4439e55b8c5f433bdeadaf2bb9319bcb3ec6ac32dd500aff2dee30",
+      "candidateIds": [
+        "ac91a621-5743-478a-aa2f-4b543a818a7d"
+      ],
+      "cohort": "development",
+      "holdoutRank": "b735e04407b435ab55d8244cbb55351f59fb923cde0922af140b422d8c31b9d7"
+    },
+    {
+      "sourcePostId": "63fe2f82-7579-4c9a-b1b5-352bacbb7653",
+      "channel": "tastesoulsg",
+      "messageId": 4449,
+      "url": "https://t.me/tastesoulsg/4449",
+      "publishedAt": "2026-08-27T10:00:59.000Z",
+      "rawText": "♨️ Step into a Barcelona-inspired bodega where authentic Spanish flavours, grandma’s cooking, and cosy neighbourhood vibes collide – Casa Lola\n\n🍷 Read more: bit.ly/4gwpWzA (http://bit.ly/4gwpWzA)\n\n @tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "a77b830be03af9773ce5f56d8d9cb66a40c4f236700f5817cfbf108206555a2e",
+      "candidateIds": [
+        "1ced405f-ffea-4933-a965-25b5fdbea0ea"
+      ],
+      "cohort": "development",
+      "holdoutRank": "3ff1726c4539bd5f88620603b91a1faad7c3290f5342db2c5972aeab708dc630"
+    },
+    {
+      "sourcePostId": "8992177e-0d45-41e2-b921-418f6986fbc9",
+      "channel": "tastesoulsg",
+      "messageId": 4450,
+      "url": "https://t.me/tastesoulsg/4450",
+      "publishedAt": "2026-08-28T02:02:40.000Z",
+      "rawText": "✨ dorra Slimming ✨\n\n🔥 Looking for 50 Ladies to experience the award-winning Intense Fat Burning Slimming Treatments for FREE! (U.P $1520)\n\n➡️ Free Slimming Kit (worth $80)\n📅 Now - 30 Sep\n❗️New female customers only. \n\n👉 Redeem here: bit.ly/4csSZTF (http://bit.ly/4csSZTF)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "abe86be2c2b786a4dab594463d961dfd2683b2bc4eee2f904531b74bcffae6c2",
+      "candidateIds": [
+        "6f272408-4e1b-413d-9a3b-6f14810209d0"
+      ],
+      "cohort": "holdout",
+      "holdoutRank": "01d435adb7781bc1aa608dc8616d85a050953244057f3cd47d2142761b38ae7d"
+    },
+    {
+      "sourcePostId": "d3538349-4315-44ce-b156-3e84b58ab4ef",
+      "channel": "tastesoulsg",
+      "messageId": 4451,
+      "url": "https://t.me/tastesoulsg/4451",
+      "publishedAt": "2026-08-28T07:33:10.000Z",
+      "rawText": "🥩 Secret Recipe 🥩\n\n➡️ 1-for-1 Braised Beef Cheek\n📆 Now - end date unspecified\n📍 470 Lorong 6 Toa Payoh, 01-71 HDB Hub\n❗️ Dine-in & takeaway only. While stocks last. T&Cs apply. \n👉 More info: bit.ly/46rPVU8 (http://bit.ly/46rPVU8)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "6a9ae2475e0161c5f8876ffeb8fde0b0e3794a479c272bc93606b3b2a9c9dcff",
+      "candidateIds": [
+        "449ae825-b6cc-44af-9c44-f1d9893295b8"
+      ],
+      "cohort": "development",
+      "holdoutRank": "cc6046834df14e572fab65b12b5c28c9fea495d5492379b26f53db62eb8b3b17"
+    },
+    {
+      "sourcePostId": "4df1bfc3-a1b9-4244-b32f-c9a0c54645f1",
+      "channel": "tastesoulsg",
+      "messageId": 4452,
+      "url": "https://t.me/tastesoulsg/4452",
+      "publishedAt": "2026-08-28T10:02:10.000Z",
+      "rawText": "🫐 Your next yogurt spot is now open in Jewel & Waterway Point – More Yogurt \n\n🥛 Read more: bit.ly/4wPfSrt (http://bit.ly/4wPfSrt)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "bc44f151e3cfcc3e5492645bbacaf9206357e6d0a481e4ba9b86f86cb2bebd78",
+      "candidateIds": [
+        "7dfd7be1-6c2c-40c7-b923-ee8cdc4c6a0b"
+      ],
+      "cohort": "development",
+      "holdoutRank": "a0b097473fc8e6ce12f30d621f934767d1a870e45e92e93b44a90c4b39f24d53"
+    },
+    {
+      "sourcePostId": "d4630596-557a-49ce-9591-61f505448cc6",
+      "channel": "tastesoulsg",
+      "messageId": 4453,
+      "url": "https://t.me/tastesoulsg/4453",
+      "publishedAt": "2026-08-31T03:33:35.000Z",
+      "rawText": "🧀 Hokkaido Baked Cheese Tart 🧀\n\n➡️ 1-for-1 Original Cheese Tart\n\n📆 2 Sep\n📍 Jurong Point, B1-K2 | Parkway Parade, 01-23B\n\n📆 3 Sep\n📍 Changi Airport T3, B2-11 | Bugis Junction, B1-K6\n\n🕣 12pm onwards\n❗️ While stocks last. T&Cs apply. \n👉 More info: bit.ly/4zR7Jpq (http://bit.ly/4zR7Jpq)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "04ea72f5385b7ec2ba01d9aefeb9a83d1bf6269d220bf35053438da006b692ad",
+      "candidateIds": [
+        "78961d00-22d9-4b15-8406-d83be4d6fee5"
+      ],
+      "cohort": "development",
+      "holdoutRank": "fbecfb3ec0bea7e7cd379e45122a7f8c0bc03d8b0e2dc1cdb5485c1bd563ccb6"
+    },
+    {
+      "sourcePostId": "5d9c6be7-b348-4b8e-9c7f-273338462913",
+      "channel": "tastesoulsg",
+      "messageId": 4454,
+      "url": "https://t.me/tastesoulsg/4454",
+      "publishedAt": "2026-08-31T08:35:01.000Z",
+      "rawText": "🍜 Din Tai Fung 🍜\n\n➡️ 1-for-1 Noodle with Shrimp & Pork Wantons in Peanut Sesame Sauce\n📆 Now - 6 Sep\n💃 Screenshot their IG post & present in-store to redeem promo\n❗️ 1 redemption per table. T&Cs apply. \n📍 ION Orchard, B4-03\n👉 More info: bit.ly/46w4w0R (http://bit.ly/46w4w0R)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "82c7d0ac36806a9872e689c39c8744786dedacf2ae34f0be8bb677c2c53a54e8",
+      "candidateIds": [
+        "67b0a0e9-d609-416d-bc87-829f61f52f99"
+      ],
+      "cohort": "development",
+      "holdoutRank": "690f631c5ab2bce8cb6a8665c5c2a7ea05a1cad85bade0e65f53345d386c6bb5"
+    },
+    {
+      "sourcePostId": "1bee76ca-bf3a-4761-ab96-104e1fa43ecd",
+      "channel": "tastesoulsg",
+      "messageId": 4455,
+      "url": "https://t.me/tastesoulsg/4455",
+      "publishedAt": "2026-08-31T10:08:16.000Z",
+      "rawText": "🐔 Explore bold Indonesian flavours with a modern twist at this cafe near Boat Quay – Fangko House\n\n🌶️ Read more: bit.ly/4gsv7ll (http://bit.ly/4gsv7ll)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "d164545562cf259b777e03fc6c32553b27e215936e34bf9a9663c92a29739eac",
+      "candidateIds": [
+        "10ea2f04-920f-4f2d-9473-f9709c6553fd"
+      ],
+      "cohort": "holdout",
+      "holdoutRank": "10867a3f4770b97135bf6a3cb330ff6b554b26816e9630de19f5b07926c50e9b"
+    },
+    {
+      "sourcePostId": "2c8c1283-9451-4820-8ce8-85899d28463d",
+      "channel": "tastesoulsg",
+      "messageId": 4456,
+      "url": "https://t.me/tastesoulsg/4456",
+      "publishedAt": "2026-09-01T03:04:33.000Z",
+      "rawText": "🥐 Coffeehouse by Kobashi 🥐\n\n➡️ NEW takeover sourdough flavours\n➡️ Incl. Shio’Much Cheese & Zesty Sunburst\n📆 Now - 30 Sep\n🕣 10am - 6pm (Mon - Sat) | 10am - 4pm (Sun)\n📍 79 South Bridge Road\n👉 More info: bit.ly/4xvu4XH (http://bit.ly/4xvu4XH)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "a6390a4c33a5a05712851fe041c5663a3b0c6831e16e481d514557ac9178376a",
+      "candidateIds": [
+        "d675131a-734f-4580-a8c4-0fc91000f09d"
+      ],
+      "cohort": "holdout",
+      "holdoutRank": "24d8af9457e7a864c6d9496a11427697c4acdb29f3b0a58f1a3883fba87e9474"
+    },
+    {
+      "sourcePostId": "326ff1e8-69b1-4456-8a04-1f4e2e36ede3",
+      "channel": "tastesoulsg",
+      "messageId": 4457,
+      "url": "https://t.me/tastesoulsg/4457",
+      "publishedAt": "2026-09-01T07:30:53.000Z",
+      "rawText": "🍣 Genki Sushi 🍣\n\n➡️ 50% OFF Salmon Sashimi\n📆 Now - 30 Sep\n📍 All outlets\n❗️ Min. spend $50. Genki members only. T&Cs apply.\n👉 More info: bit.ly/4cmgQEo (http://bit.ly/4cmgQEo)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "beacaad7161603416ce06a77b4857cfb392a12003a207f495bec229aec9d7bf3",
+      "candidateIds": [
+        "d2787696-c507-4835-b3f3-bb485e8247c8"
+      ],
+      "cohort": "development",
+      "holdoutRank": "a56a131d21dd2b7cf6ad5c8d6601a8fda6ad4a59122c1044a47905a4cde41810"
+    },
+    {
+      "sourcePostId": "860dd332-fff7-401e-b3c7-f1917acfb10c",
+      "channel": "tastesoulsg",
+      "messageId": 4458,
+      "url": "https://t.me/tastesoulsg/4458",
+      "publishedAt": "2026-09-01T10:04:29.000Z",
+      "rawText": "🥩 The doors are open, the deals are hot. Enjoy 5 days of steak promos from 1 to 5 September 2026 at The Capitol – Bari Bari Grand \n\n🍈 Read more: bit.ly/4ion0Yz (http://bit.ly/4ion0Yz)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "dce94b95353ab2c2b9e3675d6d1d936ecfd286c976a54d65d17388dbf3e47824",
+      "candidateIds": [
+        "8824bdb8-e89e-432a-9cde-b1028dc4d10d"
+      ],
+      "cohort": "development",
+      "holdoutRank": "6171bc5a07b7a44513b5637380e4b507bb63641aeeb38d527d3f84cd9af6b176"
+    },
+    {
+      "sourcePostId": "f9a58e10-4e53-4a9a-b3ee-6c95bcdd5c2c",
+      "channel": "tastesoulsg",
+      "messageId": 4459,
+      "url": "https://t.me/tastesoulsg/4459",
+      "publishedAt": "2026-09-02T03:05:03.000Z",
+      "rawText": "🌯 Guzman y Gomez 🌯\n\n➡️ $3 Brekkie Burrito (U.P. $7)\n📆 3 Sep\n🕖 Opening till 10.30am\n📍 Selected outlets \n❗️ T&Cs apply.\n👉 More info: bit.ly/4cT7aBo (http://bit.ly/4cT7aBo)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "c23b2b08921c9c988d667e3c9db2c7c792dadcdbe1e6b48a1dd4f57f8080b877",
+      "candidateIds": [
+        "54a1914d-3e6d-45ae-befe-41dfb8967318"
+      ],
+      "cohort": "development",
+      "holdoutRank": "d5a31acca0fd2edba8cf36a77d8492c64a90788f20240e7e8a621091e88a139a"
+    },
+    {
+      "sourcePostId": "6d38b7a3-f236-47d8-9623-308c67fe0772",
+      "channel": "tastesoulsg",
+      "messageId": 4460,
+      "url": "https://t.me/tastesoulsg/4460",
+      "publishedAt": "2026-09-02T08:34:40.000Z",
+      "rawText": "🍳 Pepper Lunch 🍳\n\n➡️ Fan-favourite Cheesy Omelette RETURNS\n➡️ Incl. Beef Slices Cheesy Omelette, Chicken Steak Cheesy Omelette & Striploin Steak Cheesy Omelette + drink\n📆 Now - end date unspecified\n📍 All outlets\n👉 More info: bit.ly/4yfJkbp (http://bit.ly/4yfJkbp)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "8063438c1523f9ae3053ad812a2b337b9d4d7a0aad9b2cd5a8a4399cbde6e347",
+      "candidateIds": [
+        "03f444f8-8e6b-463a-9046-c697cefe6701"
+      ],
+      "cohort": "development",
+      "holdoutRank": "f25a16524ca573bdc41f3ab3cab5f106f414abce97ccc37a21acff6891510c46"
+    },
+    {
+      "sourcePostId": "ea7100b3-1b10-46d8-838c-24d9776819da",
+      "channel": "tastesoulsg",
+      "messageId": 4461,
+      "url": "https://t.me/tastesoulsg/4461",
+      "publishedAt": "2026-09-02T10:28:44.000Z",
+      "rawText": "🍽️ Singapore’s only cave restaurant is celebrating its first anniversary with a refreshed menu – Cavern Restaurant\n\n🥩 Read more: bit.ly/4ylfzWN (http://bit.ly/4ylfzWN)\n\n @tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "499c6eb035457399e11877b3610afaaa57314391e51303be2fce42e681062945",
+      "candidateIds": [
+        "03b73280-dceb-4e8d-b88d-6b1b86938157"
+      ],
+      "cohort": "holdout",
+      "holdoutRank": "18437c76c24173502c8fdb2de63122d3c3f435cfad248742c9c5a27b8026c2ea"
+    },
+    {
+      "sourcePostId": "678d6921-9a77-4c80-9179-4b4d8db36cd3",
+      "channel": "tastesoulsg",
+      "messageId": 4462,
+      "url": "https://t.me/tastesoulsg/4462",
+      "publishedAt": "2026-09-03T03:01:14.000Z",
+      "rawText": "🍚 Kei Kaisendon 🍚\n\n➡️ 1-for-1 Kaisendon\n📆 4 - 6 Sep\n📍 Great World, B1-129\n❗️ T&Cs apply.\n👉 More info: bit.ly/4gB5K0U (http://bit.ly/4gB5K0U)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "0794bc59df1598379e261966bb38a53d744d33e4b126f97d6811c36789181064",
+      "candidateIds": [
+        "dfe7fbf0-e4a5-4c0a-b95a-dafd7c8ef42e"
+      ],
+      "cohort": "development",
+      "holdoutRank": "e9aac85eda9cc83ec21a64af493e71fc7f5f5a256ced71713f541bcc6a87c8b1"
+    },
+    {
+      "sourcePostId": "9d1111ce-b42d-45dd-be7e-e4816ebb6dd7",
+      "channel": "tastesoulsg",
+      "messageId": 4463,
+      "url": "https://t.me/tastesoulsg/4463",
+      "publishedAt": "2026-09-03T07:30:19.000Z",
+      "rawText": "🍜 Kimpson’s Table 🍜\n\n➡️ $9.90 Korean Noodles (U.P. $15)\n➡️ Incl. Chicken Kalguksu (soup) & Chicken Bibim Kalguksu\n📆 5, 12, 19 & 26 Sep\n📍 Far East Square, 01-01\n👉 More info: bit.ly/3SuC8ci (http://bit.ly/3SuC8ci)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "c38aab7fc0f069b59f75bc8e9e539b51ac21d01e04983b7a57437149d7055d0d",
+      "candidateIds": [
+        "fd6c628b-31a4-4f4a-8797-e47c2a1160a0"
+      ],
+      "cohort": "development",
+      "holdoutRank": "dfbbe0354c294ed8e71553cca2ca4dda0e6f8be5c74f251381114d16118eb810"
+    },
+    {
+      "sourcePostId": "faac936f-7c84-44f1-80b2-9876652178d9",
+      "channel": "tastesoulsg",
+      "messageId": 4464,
+      "url": "https://t.me/tastesoulsg/4464",
+      "publishedAt": "2026-09-03T10:05:01.000Z",
+      "rawText": "🥘 Who needs to fly to Spain when Spain is next door? Try authentic & traditional Spanish food – Next Door Spanish Cafe \n\n🍹 Read more: bit.ly/4h6cOTg (http://bit.ly/4h6cOTg)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "d786a91aca0fe233b8882252c1445e2edf07d6fd796412773d77b6a1425fc615",
+      "candidateIds": [
+        "060f6e52-7916-43e7-804f-a134cff79a92"
+      ],
+      "cohort": "development",
+      "holdoutRank": "a3bee733ce6e223869d3a8d42f330c05ce23af447d6a425d6913e4bc59dddbbc"
+    },
+    {
+      "sourcePostId": "0181fb0b-d8bd-4171-ae32-488b391fa1a8",
+      "channel": "tastesoulsg",
+      "messageId": 4466,
+      "url": "https://t.me/tastesoulsg/4466",
+      "publishedAt": "2026-09-04T08:00:01.000Z",
+      "rawText": "🍗 4Fingers 🍗\n\n➡️ $4 for 4pc Wings & Drumettes \n📆 Today \n📍 All outlets excl. Changi Airport \n❗️ T&Cs apply.\n👉 More info: bit.ly/4gNBcI6 (http://bit.ly/4gNBcI6)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "77adce5bcfaf01ea6dd4ce43b09bc9b058a6962caf7001f7bbb72a2080447a67",
+      "candidateIds": [
+        "8994ad45-4dfe-426c-9c3c-17e14f4984b7"
+      ],
+      "cohort": "development",
+      "holdoutRank": "dd2724d5adde4385b4351ab0a6d9e3b9bb7ed04f08c74e16bdacb8bab116201b"
+    },
+    {
+      "sourcePostId": "90d6cd1c-4b8f-47bb-9c7c-d31876bf0506",
+      "channel": "tastesoulsg",
+      "messageId": 4467,
+      "url": "https://t.me/tastesoulsg/4467",
+      "publishedAt": "2026-09-04T10:04:53.000Z",
+      "rawText": "🍛 Welcome to a katsu experience straight out of Japan, now located in the CBD – Shin Katsu\n\n🎏 Read more: bit.ly/4zPLos5 (http://bit.ly/4zPLos5)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "5613be39251c3f42a61adb94a7ace37424bc96732ef41d491ca0465d8123d28b",
+      "candidateIds": [
+        "d60144e9-e98c-4e00-bb7b-33fc4c181dd8"
+      ],
+      "cohort": "development",
+      "holdoutRank": "62f5870e154ef3a5bc7093c081c792e9ed3a7b5321d335c162845508a286a0ee"
+    },
+    {
+      "sourcePostId": "3c05c41e-6cf8-484d-896c-0ce442442bec",
+      "channel": "tastesoulsg",
+      "messageId": 4468,
+      "url": "https://t.me/tastesoulsg/4468",
+      "publishedAt": "2026-09-07T00:34:07.000Z",
+      "rawText": "🌯 Subway 🌯\n\n➡️ Buy 1 Breakfast Wrap + Coffee set & get 1 FREE Breakfast Wrap\n📆 Today \n🕣 Till 11am\n📍 All outlets excl. Changi Airport outlets, Tanah Merah Ferry Terminal, Courts Megastore, Anchorpoint & Navy Region Centre Singapore\n❗️ T&Cs apply.\n👉 More info: bit.ly/4ifYdWl (http://bit.ly/4ifYdWl)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "ff7f47d3dd9436a56d627b2e869826bb9882686100f89173f6b14ca58d4da6fd",
+      "candidateIds": [
+        "2b846900-bd20-4f58-8d69-754fab1d73c9"
+      ],
+      "cohort": "holdout",
+      "holdoutRank": "197f28217cbc8fa1eb79b2d6e6ef61db0939d297059bb1cf40448e6926342b81"
+    },
+    {
+      "sourcePostId": "e7edbddf-28a8-454a-a812-a1e95f177cd9",
+      "channel": "tastesoulsg",
+      "messageId": 4469,
+      "url": "https://t.me/tastesoulsg/4469",
+      "publishedAt": "2026-09-07T09:15:01.000Z",
+      "rawText": "🍔 Shiok Burger 🍔\n\n➡️ 1-for-1 Classic Garlic Chicken Burger\n📆 Today, 14, 21 & 28 Sep \n📍 All outlets\n❗️ Purchase of 1 drink required. T&Cs apply.\n👉 More info: bit.ly/4A0HhJI (http://bit.ly/4A0HhJI)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "247892dd7b4fb0bc72120157db7c59c217bae919d87bc1379721e9a74bcef6ef",
+      "candidateIds": [
+        "3611d0e6-53a2-418f-abf0-7d3f18dcd5ff"
+      ],
+      "cohort": "development",
+      "holdoutRank": "88934b89c7e57d5d408389beb409c6be8d443f4f2d152f9b4303b1ee533b479b"
+    },
+    {
+      "sourcePostId": "ba7c2390-2fa8-4756-a8a1-2fd0d58fcb1e",
+      "channel": "tastesoulsg",
+      "messageId": 4470,
+      "url": "https://t.me/tastesoulsg/4470",
+      "publishedAt": "2026-09-07T10:01:34.000Z",
+      "rawText": "🦀 Why dine solo when you can share the joy? Get 50% off your 2nd Lunch Set – Dancing Crab\n\n🕺 Read more: bit.ly/3VfYYFi (http://bit.ly/3VfYYFi)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "10e42d2c8616d32bcdd368c4224e47f33a7eab7162c8f118f40b8c835a93a084",
+      "candidateIds": [
+        "918bb79c-4aec-44c8-833a-fb39f3182e33"
+      ],
+      "cohort": "development",
+      "holdoutRank": "f0d0fb29261706b94ba8a037e1bb4469e7d54ea7e4b0a8235e4e84fc8d94b2f3"
+    },
+    {
+      "sourcePostId": "a371ce8f-cc71-46be-8d77-385b7d084a61",
+      "channel": "tastesoulsg",
+      "messageId": 4471,
+      "url": "https://t.me/tastesoulsg/4471",
+      "publishedAt": "2026-09-08T03:01:09.000Z",
+      "rawText": "🌮 Papi’s Tacos 🌮\n\n➡️ $9.90 for 2 Classic Fish Tacos (U.P. $16)\n➡️ Flavours incl. Crème Brûlée, Milk Caramel, Peanut & Matcha\n📆 9 Sep\n🕣 All-day\n📍 All outlets\n👉 More info: bit.ly/4xcjmVg (http://bit.ly/4xcjmVg)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "25f069b16ae7cccc6373c72e66f680bdbd413317eade7100067eb190518298e2",
+      "candidateIds": [
+        "8bc768f9-4111-4808-aa05-6c32e1a70e0b"
+      ],
+      "cohort": "development",
+      "holdoutRank": "5fe72ca2af9e06de6cbc8557f3ddce124e8a67a6bd70cb27fc18f010199c80af"
+    },
+    {
+      "sourcePostId": "c9629428-b1ee-4cd4-9920-5e26593eba29",
+      "channel": "tastesoulsg",
+      "messageId": 4472,
+      "url": "https://t.me/tastesoulsg/4472",
+      "publishedAt": "2026-09-08T08:32:03.000Z",
+      "rawText": "🧈 MilkyShop 🧈\n\n➡️ Viral Korean butter sand pop-up lands in SG\n➡️ Flavours incl. Crème Brûlée, Milk Caramel, Peanut & Matcha\n📆 Now - 2 Jan 2027\n🕣 11am - 9pm\n📍 New Bahru, Factory Block L1\n👉 More info: bit.ly/3TcJAce (http://bit.ly/3TcJAce)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "1bac96ae3f1e250dd3fca2c0356ff3cccd477dd22ec7f29adce4d6461f944043",
+      "candidateIds": [
+        "598267ad-570e-43d4-bfc4-f3b98998ae35"
+      ],
+      "cohort": "development",
+      "holdoutRank": "ee462e0377e042363dd11f294bf9680485c9e23beaf2d7bfd42d780944587777"
+    },
+    {
+      "sourcePostId": "ddc129ef-8c11-4b66-ba15-5fac3d30eead",
+      "channel": "tastesoulsg",
+      "messageId": 4473,
+      "url": "https://t.me/tastesoulsg/4473",
+      "publishedAt": "2026-09-08T10:05:20.000Z",
+      "rawText": "🍴 Craving something new? At this restaurant, you can enjoy Nordic flavours with Singapore soul – Dill\n\n🌿 Read more: bit.ly/3TgezUQ (http://bit.ly/3TgezUQ)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "d06c18f88943f1088519d2d147b86e8525ba29dfbc0dda9a118aba8cd9060bed",
+      "candidateIds": [
+        "25f1d495-0d8a-4383-98b6-279d861a7a97"
+      ],
+      "cohort": "development",
+      "holdoutRank": "7778b15acd807512b2ede4f3ef162a5bac1fcbb085445764103546d1d3ba4da2"
+    },
+    {
+      "sourcePostId": "82763b20-ef73-46e6-9dc9-d37f58ac5ff8",
+      "channel": "tastesoulsg",
+      "messageId": 4474,
+      "url": "https://t.me/tastesoulsg/4474",
+      "publishedAt": "2026-09-09T03:35:02.000Z",
+      "rawText": "🍚 Ajumma’s 🍚\n\n➡️ $9.90++ mains + free flow side dishes + choice of Omija Berry Smoothie / Milk Tea Brûlée Smoothie / Dubai Chewy Cookie\n➡️ Mains incl. Gochujang & Spam Fried Rice, Bibimbap, Spicy Fried Ramyeon, Kimchi Ramyeon & Bulgogi\n📆 Weekdays\n🕣 2 - 5pm\n📍 All outlets\n❗️ Excl. PH. T&Cs apply.\n👉 More info: bit.ly/4hcYNDb (http://bit.ly/4hcYNDb)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "42e2da075d4392ec895d182e65123a5a87a69ad2975134719c8eb1c75ae5fa7d",
+      "candidateIds": [
+        "7443f48e-8dfc-4f29-9447-b049722bbc8e"
+      ],
+      "cohort": "development",
+      "holdoutRank": "594a5f99ff8e297bd4883fd7583215aab5721724271c59b0ea303a52dd726f40"
+    },
+    {
+      "sourcePostId": "e1f271b3-0f3f-4ce4-bec0-634bbcbb2ea9",
+      "channel": "tastesoulsg",
+      "messageId": 4475,
+      "url": "https://t.me/tastesoulsg/4475",
+      "publishedAt": "2026-09-09T07:33:45.000Z",
+      "rawText": "🫶 Support Jalan Besar’s small kitchens 🫶\n\n➡️ Up to 15% OFF your total bill with Grab Dine Out at Moonchild, La Levain & more!\n➡️ Stack extra 20% OFF with code <JB20>\n\n📆 Now - 31 Oct\n📍 Online\n❗️ T&Cs apply. \n👉 More info: bit.ly/4dlK4U7 (http://bit.ly/4dlK4U7)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "4f92de49fe617f8c17259d66f8aed795d085888517632ec4ac9816144ac22963",
+      "candidateIds": [
+        "889ef94e-02cd-4aef-a1b8-eb4e03a19a50"
+      ],
+      "cohort": "development",
+      "holdoutRank": "9aa8631a9dd7e8c1aa612b7fee03678f203e22febb4b917330bb684bce8ef75b"
+    },
+    {
+      "sourcePostId": "8d30da73-ce79-4e54-b1ae-a1349a025298",
+      "channel": "tastesoulsg",
+      "messageId": 4476,
+      "url": "https://t.me/tastesoulsg/4476",
+      "publishedAt": "2026-09-09T10:02:42.000Z",
+      "rawText": "🇬🇷 From sea to table, here are Greek dishes that stood out to us — Estiatorio Milos\n\n🦞 Read more: bit.ly/4yrXWV8 (http://bit.ly/4yrXWV8)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "51f2ddeb072c787dfad74a5acfd8cba78c0e2e02edb16719e6e8a64de5733ac0",
+      "candidateIds": [
+        "8281b82f-278f-4dcf-869a-d1957cdc61db"
+      ],
+      "cohort": "development",
+      "holdoutRank": "d252cdd9fae7f1c2b4517e76aa5ce292754e4ecfca5d7f729d3c2d8889baead3"
+    },
+    {
+      "sourcePostId": "0ab98ff5-d0f2-40d9-89f2-e7369dcf0abc",
+      "channel": "tastesoulsg",
+      "messageId": 4477,
+      "url": "https://t.me/tastesoulsg/4477",
+      "publishedAt": "2026-09-10T03:40:01.000Z",
+      "rawText": "🍣 Sushiro 🍣\n\n➡️ NEW Pokémon collab ft. merch with purchase\n➡️ Exclusive merch incl. food picks, stickers, keychain, card case with lanyard & towels\n📆 Now - 30 Sep (Wave 1) | 1 - 22 Oct (Wave 2)\n📍 All outlets\n❗️ T&Cs apply.\n👉 More info: bit.ly/4yxtCsn (http://bit.ly/4yxtCsn)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "61a3daefcc599b16583ca1a364ef3f5c1632b4c321a5477ac400f1c481b27ffe",
+      "candidateIds": [
+        "2c891c12-7dad-4134-8863-a582f0990c50"
+      ],
+      "cohort": "development",
+      "holdoutRank": "a4c48027b301991d5f2a841532d77ab4d3efab5c5f8b5d32ea64e3f144f0c781"
+    },
+    {
+      "sourcePostId": "37a564e6-3ba7-4195-b159-a655b7fa78cb",
+      "channel": "tastesoulsg",
+      "messageId": 4478,
+      "url": "https://t.me/tastesoulsg/4478",
+      "publishedAt": "2026-09-10T07:34:32.000Z",
+      "rawText": "🌮 Papi’s Tacos 🌮\n\n➡️ $10 OFF Papi’s Platter\n📆 Every Fri\n📍 33 Tanjong Pagar Road & 149 Tyrwhitt Road\n❗️ T&Cs apply.\n👉 More info: bit.ly/4yrAI1p (http://bit.ly/4yrAI1p)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "5fadf32f898bcfb35f9ecdcdd5b49b308c8470e1acc42d78d119c8826877698b",
+      "candidateIds": [
+        "b636458f-3026-423d-b370-c0ecd5180f62"
+      ],
+      "cohort": "development",
+      "holdoutRank": "a3a304188cf6ab1878353f7a65f4a6ccfd8971aa260d11f10b5c837fcac7273b"
+    },
+    {
+      "sourcePostId": "21b217a5-1b30-4619-b9bb-00da195e643a",
+      "channel": "tastesoulsg",
+      "messageId": 4479,
+      "url": "https://t.me/tastesoulsg/4479",
+      "publishedAt": "2026-09-10T10:03:07.000Z",
+      "rawText": "🍲 Claypot Sliced Fish Curry and Solo Lunch Sets for just $9.90 – Dian Xiao Er\n\n🐤 Read more: bit.ly/4ykZJes (http://bit.ly/4ykZJes)\n\n @tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "f9b959749d9568d75783ca6d39125e4316275ad502ef4d35982ec83ebd7ba2df",
+      "candidateIds": [
+        "f28a2970-bb28-44e2-b7ac-27a961d0ba96"
+      ],
+      "cohort": "holdout",
+      "holdoutRank": "3fdf7721f947ecae354ec2c6fca7fda014928aea119cd93a33ee98277d2bdfef"
+    },
+    {
+      "sourcePostId": "dd53cd22-6e58-4c88-b5e0-81df80eac61c",
+      "channel": "tastesoulsg",
+      "messageId": 4480,
+      "url": "https://t.me/tastesoulsg/4480",
+      "publishedAt": "2026-09-11T04:01:55.000Z",
+      "rawText": "🐟 Racines 🐟\n\n➡️ NEW Turf & Tide edition Ultimate Brunch Buffet\n➡️ Incl. hot food, soups, salads, local-inspired French desserts & more\n➡️ Highlights incl. Angus Beef Striploin, Smoke Mussel Salad, Salmon Sashimi & more\n📆 Now - 31 Oct | Every Sat\n🕣 12 - 3pm\n📍 9 Wallich St, Level 5\n❗️ T&Cs apply.\n👉 More info: bit.ly/4xOPyzd (http://bit.ly/4xOPyzd)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "701d237fbd801263223e09afe1f9d8ace549577dcdce60c96ce384baed610b80",
+      "candidateIds": [
+        "f2400d50-2192-4578-94fb-f476a0d75419"
+      ],
+      "cohort": "development",
+      "holdoutRank": "c7988beeb78e4f279345702f5cb5db479279f04a6d1250fb3ad60f1bcb52459f"
+    },
+    {
+      "sourcePostId": "6f25fc55-241a-4f0e-b77a-829fc650ba74",
+      "channel": "tastesoulsg",
+      "messageId": 4481,
+      "url": "https://t.me/tastesoulsg/4481",
+      "publishedAt": "2026-09-11T08:01:59.000Z",
+      "rawText": "🩵 Nasty Cookie 🩵\n\n➡️ NEW Dubai Chewy Cookie Mooncake\n➡️ Set incl. 4 Dubai Chewy Cookie mooncakes, 4 Dubai Chewy Cookies' spreads & an exclusive cutlery set\n \n📆 Now (Online) | 12 Sep onwards (In-stores)\n📍 Online & In-stores\n👉 Shop here: bit.ly/46TgqC4 (http://bit.ly/46TgqC4)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "2fd1e8726cba6fa394d4e03b96d9e9649ce542edf0075bc3fc1d843d6d4805b2",
+      "candidateIds": [
+        "798dacf9-b305-4273-a395-a76a06c54ab1"
+      ],
+      "cohort": "development",
+      "holdoutRank": "fa76d2b98ddc5d004c1b7ab14fb28e7166b2f005481ccb86e78f3bbab0916986"
+    },
+    {
+      "sourcePostId": "4983fe41-2e80-4ef0-8a6f-f28dcabd6d14",
+      "channel": "tastesoulsg",
+      "messageId": 4482,
+      "url": "https://t.me/tastesoulsg/4482",
+      "publishedAt": "2026-09-11T10:02:54.000Z",
+      "rawText": "🍽️ A neighbourhood gem serving European-Asian cuisine has just expanded its menu and lunch-time promos – Viva Lavender \n\n🌃 Read more: bit.ly/46TcSzK (http://bit.ly/46TcSzK)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "6650a8927c7a890192e4b364f2fde25d0a61c44d0b68473c886e3b427da2307c",
+      "candidateIds": [
+        "ad4337d1-80aa-4e0d-8cfb-8b4844581f07"
+      ],
+      "cohort": "development",
+      "holdoutRank": "e763d236a0deb4438fbe748625c275d77492569d83f60cb102674783681a1d23"
+    },
+    {
+      "sourcePostId": "bf4fc30e-a16b-4980-8265-22921dfae450",
+      "channel": "tastesoulsg",
+      "messageId": 4484,
+      "url": "https://t.me/tastesoulsg/4484",
+      "publishedAt": "2026-09-14T10:05:12.000Z",
+      "rawText": "🍔 Trick or treat? Enjoy a treat with this new Halloween burger, limited time only – SIDES by the Sidemen\n\n👻 Read more: bit.ly/46mhH4E (http://bit.ly/46mhH4E)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "37f8ba7ed4780d21ab8e420bbe091109f703398de59a598289c88adfc8e2aaab",
+      "candidateIds": [
+        "31c558a9-05cc-4ced-8682-133424e0a6c4"
+      ],
+      "cohort": "development",
+      "holdoutRank": "d9ef8754a762f2370e749bcbb6842c7da6197bc5a57d021c992a9d1acc062d98"
+    },
+    {
+      "sourcePostId": "41ee6bfe-6d2b-41c8-b75d-c02970592dd6",
+      "channel": "tastesoulsg",
+      "messageId": 4485,
+      "url": "https://t.me/tastesoulsg/4485",
+      "publishedAt": "2026-09-14T10:45:21.000Z",
+      "rawText": "🍔 McDonald's 🍔\n\n➡️ $6 McSpicy Meal (U.P. $8.30)\n📅 Now - 16 Sep\n💃 Order via the McDonalds app\n📍 All outlets\n👉 More info: bit.ly/4xWc21l (http://bit.ly/4xWc21l)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "06ee6c8ebbd282535ff3df60bcfedcadb259b0e516ca528d27cccdd1be6de682",
+      "candidateIds": [
+        "551df953-2f18-4c60-b923-7deb4a54a2d7"
+      ],
+      "cohort": "development",
+      "holdoutRank": "ebda90b146b4253735252ec58302306b1447df5290c68af8ed86e0f8d5a0c7e7"
+    },
+    {
+      "sourcePostId": "c522975d-1177-4ac8-9f0c-4070050a2b6f",
+      "channel": "tastesoulsg",
+      "messageId": 4486,
+      "url": "https://t.me/tastesoulsg/4486",
+      "publishedAt": "2026-09-15T09:42:02.000Z",
+      "rawText": "🧋 Koi Thé 🧋\n\n➡️ NEW 3L Sharing Tea Pack ($52)\n➡️ Flavours incl. Green Milk Tea, Peach Green Tea, Oolong Milk Tea & more\n➡️ + $8 for topping\n\n📆 Now\n📍 Online\n❗️ T&Cs apply.\n👉 More info: bit.ly/4gTTqJh (http://bit.ly/4gTTqJh)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawTextSha256": "f2328184e21b35143648a408e5d651bd9b5585098df90ffba0e484f93b6beee1",
+      "candidateIds": [
+        "6d59ef28-e626-4928-8fab-dfce7b2b68c2"
+      ],
+      "cohort": "development",
+      "holdoutRank": "ed597594b2f437570a191404c1dd6967ce5a9c59c35b8a52096f1208115e04da"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "format": "mvp-offer-lifecycle-mandatory-cases-v1",
+  "authorship": "Codex-authored test expectations, based on exact source quotes; not human gold.",
+  "cases": [
+    {
+      "caseId": "missing-year-roll-forward",
+      "source": {
+        "url": "https://t.me/sgfooddeals/4934",
+        "channel": "sgfooddeals",
+        "messageId": 4934,
+        "rawTextSha256": "a3adb09711f6ae8bc28d7daa9416332ba5e1555485181ea3649bc738ac9c11e7",
+        "sourcePostId": "848839a3-657d-4c96-ab48-b91b59283689"
+      },
+      "evidence": {
+        "quote": "Now till 31 Oct",
+        "startUtf16": 176,
+        "endUtf16": 191,
+        "offsetUnit": "JavaScript UTF-16 code units; half-open [start,end)",
+        "contextBefore": "n & more\n🔹 Stack an extra 20% off with code <JB20>\n📅 ",
+        "contextAfter": "\n📍 Grab app\n\nT&Cs apply.\n\nFind out more: tco.sg/grabpe"
+      },
+      "expectation": {
+        "label": "agent-authored safety expectation; not human-gold adjudication",
+        "expected": "Treat “Now till 31 Oct” as explicit end day/month with missing year; do not use this post’s observation time as a new date anchor during replay."
+      }
+    },
+    {
+      "caseId": "weekday-open-ended",
+      "source": {
+        "url": "https://t.me/tastesoulsg/4478",
+        "channel": "tastesoulsg",
+        "messageId": 4478,
+        "rawTextSha256": "5fadf32f898bcfb35f9ecdcdd5b49b308c8470e1acc42d78d119c8826877698b",
+        "sourcePostId": "37a564e6-3ba7-4195-b159-a655b7fa78cb"
+      },
+      "evidence": {
+        "quote": "Every Fri",
+        "startUtf16": 49,
+        "endUtf16": 58,
+        "offsetUnit": "JavaScript UTF-16 code units; half-open [start,end)",
+        "contextBefore": "🌮 Papi’s Tacos 🌮\n\n➡️ $10 OFF Papi’s Platter\n📆 ",
+        "contextAfter": "\n📍 33 Tanjong Pagar Road & 149 Tyrwhitt Road\n❗️ T&Cs a"
+      },
+      "expectation": {
+        "label": "agent-authored safety expectation; not human-gold adjudication",
+        "expected": "Retain recurring weekday and unknown end date; never invent an end date."
+      }
+    },
+    {
+      "caseId": "month-crossing-dated-window",
+      "source": {
+        "url": "https://t.me/tastesoulsg/4480",
+        "channel": "tastesoulsg",
+        "messageId": 4480,
+        "rawTextSha256": "701d237fbd801263223e09afe1f9d8ace549577dcdce60c96ce384baed610b80",
+        "sourcePostId": "dd53cd22-6e58-4c88-b5e0-81df80eac61c"
+      },
+      "evidence": {
+        "quote": "Now - 31 Oct | Every Sat",
+        "startUtf16": 224,
+        "endUtf16": 248,
+        "offsetUnit": "JavaScript UTF-16 code units; half-open [start,end)",
+        "contextBefore": "triploin, Smoke Mussel Salad, Salmon Sashimi & more\n📆 ",
+        "contextAfter": "\n🕣 12 - 3pm\n📍 9 Wallich St, Level 5\n❗️ T&Cs apply.\n👉"
+      },
+      "expectation": {
+        "label": "agent-authored safety expectation; not human-gold adjudication",
+        "expected": "Keep Saturday association and explicit Oct 31 end; do not merge unrelated outlet/time groups."
+      }
+    },
+    {
+      "caseId": "weekday-and-clock-plus-holiday-exclusion",
+      "source": {
+        "url": "https://t.me/tastesoulsg/4474",
+        "channel": "tastesoulsg",
+        "messageId": 4474,
+        "rawTextSha256": "42e2da075d4392ec895d182e65123a5a87a69ad2975134719c8eb1c75ae5fa7d",
+        "sourcePostId": "82763b20-ef73-46e6-9dc9-d37f58ac5ff8"
+      },
+      "evidence": {
+        "quote": "Weekdays\n🕣 2 - 5pm",
+        "startUtf16": 241,
+        "endUtf16": 260,
+        "offsetUnit": "JavaScript UTF-16 code units; half-open [start,end)",
+        "contextBefore": "mbap, Spicy Fried Ramyeon, Kimchi Ramyeon & Bulgogi\n📆 ",
+        "contextAfter": "\n📍 All outlets\n❗️ Excl. PH. T&Cs apply.\n👉 More info: "
+      },
+      "expectation": {
+        "label": "agent-authored safety expectation; not human-gold adjudication",
+        "expected": "Attach Weekdays, 2–5pm and excluding PH to this offer; no weekend/PH eligibility."
+      }
+    },
+    {
+      "caseId": "opening-to-null-start",
+      "source": {
+        "url": "https://t.me/tastesoulsg/4459",
+        "channel": "tastesoulsg",
+        "messageId": 4459,
+        "rawTextSha256": "c23b2b08921c9c988d667e3c9db2c7c792dadcdbe1e6b48a1dd4f57f8080b877",
+        "sourcePostId": "f9a58e10-4e53-4a9a-b3ee-6c95bcdd5c2c"
+      },
+      "evidence": {
+        "quote": "Opening till 10.30am",
+        "startUtf16": 66,
+        "endUtf16": 86,
+        "offsetUnit": "JavaScript UTF-16 code units; half-open [start,end)",
+        "contextBefore": " Gomez 🌯\n\n➡️ $3 Brekkie Burrito (U.P. $7)\n📆 3 Sep\n🕖 ",
+        "contextAfter": "\n📍 Selected outlets \n❗️ T&Cs apply.\n👉 More info: bit."
+      },
+      "expectation": {
+        "label": "agent-authored safety expectation; not human-gold adjudication",
+        "expected": "Represent opening-to 10:30am with unknown start; do not synthesize midnight."
+      }
+    },
+    {
+      "caseId": "distinct-day-outlet-groups",
+      "source": {
+        "url": "https://t.me/tastesoulsg/4453",
+        "channel": "tastesoulsg",
+        "messageId": 4453,
+        "rawTextSha256": "04ea72f5385b7ec2ba01d9aefeb9a83d1bf6269d220bf35053438da006b692ad",
+        "sourcePostId": "d4630596-557a-49ce-9591-61f505448cc6"
+      },
+      "evidence": {
+        "quote": "📆 2 Sep\n📍 Jurong Point, B1-K2 | Parkway Parade, 01-23B\n\n📆 3 Sep",
+        "startUtf16": 67,
+        "endUtf16": 133,
+        "offsetUnit": "JavaScript UTF-16 code units; half-open [start,end)",
+        "contextBefore": "Baked Cheese Tart 🧀\n\n➡️ 1-for-1 Original Cheese Tart\n\n",
+        "contextAfter": "\n📍 Changi Airport T3, B2-11 | Bugis Junction, B1-K6\n\n\ud83d"
+      },
+      "expectation": {
+        "label": "agent-authored safety expectation; not human-gold adjudication",
+        "expected": "Keep each date linked only to its own listed outlets; do not form a cross-product."
+      }
+    },
+    {
+      "caseId": "single-point-onwards",
+      "source": {
+        "url": "https://t.me/tastesoulsg/4453",
+        "channel": "tastesoulsg",
+        "messageId": 4453,
+        "rawTextSha256": "04ea72f5385b7ec2ba01d9aefeb9a83d1bf6269d220bf35053438da006b692ad",
+        "sourcePostId": "d4630596-557a-49ce-9591-61f505448cc6"
+      },
+      "evidence": {
+        "quote": "12pm onwards",
+        "startUtf16": 190,
+        "endUtf16": 202,
+        "offsetUnit": "JavaScript UTF-16 code units; half-open [start,end)",
+        "contextBefore": "\udccd Changi Airport T3, B2-11 | Bugis Junction, B1-K6\n\n🕣 ",
+        "contextAfter": "\n❗️ While stocks last. T&Cs apply. \n👉 More info: bit.l"
+      },
+      "expectation": {
+        "label": "agent-authored safety expectation; not human-gold adjudication",
+        "expected": "Treat 12pm onwards as a lower-bound/open-ended clock rule, not a point-to-point range."
+      }
+    },
+    {
+      "caseId": "limited-time-wording-is-not-a-date",
+      "source": {
+        "url": "https://t.me/sgfooddeals/4933",
+        "channel": "sgfooddeals",
+        "messageId": 4933,
+        "rawTextSha256": "114030819ae2a2a705c9d57a918c67c0a944a8462f1645b4912a47feaaae8a9e",
+        "sourcePostId": "26f643e2-44cb-43e6-b310-c5ee358e5af1"
+      },
+      "evidence": {
+        "quote": "Limited to 90 mins of dining time",
+        "startUtf16": 200,
+        "endUtf16": 233,
+        "offsetUnit": "JavaScript UTF-16 code units; half-open [start,end)",
+        "contextBefore": "bases, free-flow sliced meats, fresh seafood & more\n🔹 ",
+        "contextAfter": "\n📅 Mon - Fri: 11.30AM - 10PM\n📅 Sat & Sun: 11AM - 10PM"
+      },
+      "expectation": {
+        "label": "agent-authored safety expectation; not human-gold adjudication",
+        "expected": "Do not mistake a duration limitation for offer validity dates."
+      }
+    }
+  ]
+}

@@ -20,6 +20,7 @@ import {
   type MapLocationGroup,
 } from "@/domain/map-locations";
 import DiscoverySearch from "./DiscoverySearch";
+import { OfferPolicyDetails } from "./mvp/OfferPolicyDetails";
 import {
   targetBounds,
   type BrowseContext,
@@ -87,7 +88,11 @@ export default function Explorer({
       items
         .filter(
           (p) =>
-            (!nowOnly || p.redeemableNow) &&
+            (!nowOnly ||
+              (p.mvpOfferPolicy
+                ? p.mvpState?.lifecycle === "active" &&
+                  p.scheduleState === "Within listed offer hours"
+                : p.redeemableNow)) &&
             (!merchantTarget || merchantTarget.promotionIds.includes(p.id)),
         )
         .sort((a, b) =>
@@ -341,7 +346,9 @@ export default function Explorer({
                   checked={nowOnly}
                   onChange={(e) => setNowOnly(e.target.checked)}
                 />{" "}
-                Available now
+                {items.some((p) => p.mvpOfferPolicy)
+                  ? "Within listed offer hours"
+                  : "Available now"}
               </label>
               <button onClick={() => setSort(!sort)} aria-pressed={sort}>
                 <ArrowDownUp size={14} />
@@ -469,7 +476,11 @@ export default function Explorer({
                     <span
                       className={p.redeemableNow ? "available" : "scheduled"}
                     >
-                      {p.redeemableNow ? "Available now" : "See schedule"}
+                      {p.mvpOfferPolicy
+                        ? p.scheduleState
+                        : p.redeemableNow
+                          ? "Available now"
+                          : "See schedule"}
                     </span>
                     <span>
                       {p.endDate
@@ -480,7 +491,9 @@ export default function Explorer({
                             month: "short",
                             timeZone: "Asia/Singapore",
                           })}`
-                        : "Validity incomplete"}
+                        : p.mvpOfferPolicy?.validityType === "open_ended"
+                          ? "No listed end date"
+                          : "Validity incomplete"}
                     </span>
                   </div>
                 </div>
@@ -690,45 +703,57 @@ export default function Explorer({
               {current.benefit || current.title || "Content needs review"}
             </h2>
             <h3>{current.title}</h3>
-            {(!current.mvpState || showSourceText) && current.description && (
-              <section className="source-text">
-                {current.mvpState && (
-                  <h4>Raw Telegram source · Development debug</h4>
-                )}
-                <p style={{ whiteSpace: "pre-wrap", overflowWrap: "anywhere" }}>
-                  {current.description
-                    .split(/(https?:\/\/[^\s<>\)]+)/g)
-                    .map((part, index) =>
-                      /^https?:\/\//.test(part) ? (
-                        <a
-                          key={index}
-                          href={part}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          {part}
-                        </a>
-                      ) : (
-                        part
-                      ),
-                    )}
-                </p>
-              </section>
+            {current.mvpOfferPolicy && (
+              <OfferPolicyDetails
+                listing={current}
+                showSourceText={showSourceText}
+              />
             )}
-            <div className="detail-schedule">
-              <strong>{current.scheduleLabel}</strong>
-              <span>
-                {current.startDate ?? "Start unknown"} –{" "}
-                {current.endDate ?? "End unknown"} · Singapore time
-              </span>
-              <span>
-                {current.scheduleState}
-                {current.excludePublicHolidays
-                  ? " · Excludes public holidays"
-                  : ""}
-              </span>
-            </div>
-            {current.mvpState && (
+            {!current.mvpOfferPolicy &&
+              (!current.mvpState || showSourceText) &&
+              current.description && (
+                <section className="source-text">
+                  {current.mvpState && (
+                    <h4>Raw Telegram source · Development debug</h4>
+                  )}
+                  <p
+                    style={{ whiteSpace: "pre-wrap", overflowWrap: "anywhere" }}
+                  >
+                    {current.description
+                      .split(/(https?:\/\/[^\s<>\)]+)/g)
+                      .map((part, index) =>
+                        /^https?:\/\//.test(part) ? (
+                          <a
+                            key={index}
+                            href={part}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            {part}
+                          </a>
+                        ) : (
+                          part
+                        ),
+                      )}
+                  </p>
+                </section>
+              )}
+            {!current.mvpOfferPolicy && (
+              <div className="detail-schedule">
+                <strong>{current.scheduleLabel}</strong>
+                <span>
+                  {current.startDate ?? "Start unknown"} –{" "}
+                  {current.endDate ?? "End unknown"} · Singapore time
+                </span>
+                <span>
+                  {current.scheduleState}
+                  {current.excludePublicHolidays
+                    ? " · Excludes public holidays"
+                    : ""}
+                </span>
+              </div>
+            )}
+            {current.mvpState && !current.mvpOfferPolicy && (
               <p className="inline-message">
                 {current.mvpState.lifecycle} · Content:{" "}
                 {current.mvpState.content.replaceAll("_", " ")} · Validity:{" "}
@@ -761,9 +786,11 @@ export default function Explorer({
                   ? "Online-only promotion. No physical map pins."
                   : !current.outlets.length
                     ? "Location unresolved. No physical map pins."
-                    : current.mapCoverageBasis === "source_named_outlets"
-                      ? "Locations named in the source. Check the source terms before visiting."
-                      : "Observed Google merchant locations. Participation and complete chain coverage are not verified."}
+                    : current.mvpOfferPolicy?.directoryBasis === "official"
+                      ? "Locations from the official directory. Check the source for participation and restrictions."
+                      : current.mapCoverageBasis === "source_named_outlets"
+                        ? "Locations named in the source. Check the source terms before visiting."
+                        : "Observed Google merchant locations. Participation and complete chain coverage are not verified."}
               </p>
             )}
             {current.outlets.map((o) => (
@@ -814,16 +841,17 @@ export default function Explorer({
                 </p>
               ) : (
                 <>
-                  {current.sources.map((s) => (
-                    <a
-                      key={s.url}
-                      href={s.url}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      View source · {s.label} <ArrowUpRight size={15} />
-                    </a>
-                  ))}
+                  {!current.mvpOfferPolicy &&
+                    current.sources.map((s) => (
+                      <a
+                        key={s.url}
+                        href={s.url}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        View source · {s.label} <ArrowUpRight size={15} />
+                      </a>
+                    ))}
                   {!mvp && (
                     <p>
                       Offer verified{" "}

@@ -40,7 +40,7 @@ export async function buildCorpus(
   const count = (status: MvpPromotion["status"]) =>
     records.filter((p) => p.status === status).length;
   return {
-    version: 2 as const,
+    version: records.some((p) => p.offerPolicy) ? (3 as const) : (2 as const),
     evaluatedAt: now.toISO()!,
     records,
     failures,

@@ -1,4 +1,5 @@
 import { z } from "zod";
+import type { OfferPolicy, ListedScheduleState } from "./mvp-policy";
 import { DateTime } from "luxon";
 export const zone = "Asia/Singapore";
 const date = z
@@ -143,8 +144,13 @@ export type Listing = Omit<Promotion, "category" | "outlets"> & {
     content: "resolved" | "needs_content_resolution";
     validity: "resolved" | "needs_validity";
     map: "ready" | "needs_location" | "online_only";
-    lifecycle: "active" | "expired" | "upcoming" | "unknown";
+    lifecycle:
+      "active" | "expired" | "upcoming" | "unknown" | "stale" | "withdrawn";
     reasons: string[];
+  };
+  mvpOfferPolicy?: OfferPolicy & {
+    scheduleState: ListedScheduleState;
+    summary: string;
   };
   mapCoverageBasis?: "source_named_outlets" | "google_merchant_locations";
 } & ReturnType<typeof validity>;

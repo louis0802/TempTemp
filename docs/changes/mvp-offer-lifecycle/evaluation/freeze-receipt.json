@@ -1,0 +1,14 @@
+{
+  "format": "mvp-offer-lifecycle-p1-freeze-receipt-v1",
+  "frozenAt": "2026-10-06T13:43:38Z",
+  "ordering": "Recorded before B/C/D parser-worker launch, as requested. New parser outputs were not inspected when source holdout assignments or expectations were authored.",
+  "frozenArtifacts": {
+    "docs/changes/mvp-offer-lifecycle/evaluation/source-holdout.json": "2bf370ac1f6f924b3a2dc48c5e4bbbbe51104ae5948a2cc294da4135fb258419",
+    "tests/fixtures/mvp-offer-lifecycle/mandatory-safety-cases.json": "3007e1243cb5498efe0e4d5380fd88548fc5e59347887bd8b938a10eb1460260",
+    "docs/changes/mvp-offer-lifecycle/evaluation/family-holdout.json": "3e20524afbce722079d3a6dff0627cf3cdac54bfe46a08967a641e9c6ab43976",
+    "tests/fixtures/mvp-offer-lifecycle/holdout-safe-expectations.json": "eae27e39f11660e263ed2e0127b3ba28618abd440490e2d76e477c33d0e09022"
+  },
+  "scope": "Original source-holdout and mandatory-safety-cases hashes freeze the first P1 protocol. Family-aware folds and holdout-safe-expectations are additive supplements; later changes must create a superseding version and preserve these exact bytes.",
+  "humanGold": false,
+  "workerPromptMaterial": false
+}

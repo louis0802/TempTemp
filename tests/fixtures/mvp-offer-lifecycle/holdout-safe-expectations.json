@@ -1,0 +1,79 @@
+{
+  "format": "mvp-offer-lifecycle-holdout-expectations-v1",
+  "authorship": "Authored before new parser results. These state literal safe facts/required abstentions only; not a complete gold annotation.",
+  "workerPromptPolicy": "Not worker prompt material. Evaluation only.",
+  "cases": [
+    {
+      "caseId": "captain-kim-holiday-exclusion",
+      "source": {
+        "url": "https://t.me/sgfooddeals/4874",
+        "sourcePostId": "ed2edfd0-418f-449f-8b2d-35b8707bf130",
+        "rawTextSha256": "a71e192404c1baf02fa6b1ec65730cb25ec2f1c9b053dc6a17ea86bea9e7da14"
+      },
+      "evidence": {
+        "quote": "Excluding eve of PH & PH",
+        "startUtf16": 261,
+        "endUtf16": 285,
+        "offsetUnit": "JavaScript UTF-16 code units; half-open"
+      },
+      "expectation": {
+        "label": "agent-authored conservative safety fact; not human gold",
+        "expected": "Preserve both explicitly excluded classes (PH eve and PH) as exclusions; do not collapse them into a positive eligibility claim."
+      }
+    },
+    {
+      "caseId": "starbucks-explicit-clock-window",
+      "source": {
+        "url": "https://t.me/sgfooddeals/4893",
+        "sourcePostId": "f51ee41d-8225-4890-96f5-32184bc758ad",
+        "rawTextSha256": "079938215e8fb67773a99b0895df62654ce6415500956d82215c7ec5b6322a5f"
+      },
+      "evidence": {
+        "quote": "2PM - 8PM",
+        "startUtf16": 194,
+        "endUtf16": 203,
+        "offsetUnit": "JavaScript UTF-16 code units; half-open"
+      },
+      "expectation": {
+        "label": "agent-authored conservative safety fact; not human gold",
+        "expected": "Preserve the literal 14:00–20:00 clock range; do not claim weekday, holiday, or outlet participation beyond separately stated text."
+      }
+    },
+    {
+      "caseId": "mos-burger-recurring-weekdays",
+      "source": {
+        "url": "https://t.me/tastesoulsg/4423",
+        "sourcePostId": "c9cb4251-bbe4-40fd-9532-5071e5ab09e9",
+        "rawTextSha256": "7e0fd17161cb003457261775b0f5221d0a6d45d778220e2874272cf8e79145e9"
+      },
+      "evidence": {
+        "quote": "Every Mon & Tue",
+        "startUtf16": 104,
+        "endUtf16": 119,
+        "offsetUnit": "JavaScript UTF-16 code units; half-open"
+      },
+      "expectation": {
+        "label": "agent-authored conservative safety fact; not human gold",
+        "expected": "Parse Monday and Tuesday recurrence, while leaving end date unknown because this source quote supplies no end date."
+      }
+    },
+    {
+      "caseId": "coffeehouse-distinct-sunday-schedule",
+      "source": {
+        "url": "https://t.me/tastesoulsg/4456",
+        "sourcePostId": "2c8c1283-9451-4820-8ce8-85899d28463d",
+        "rawTextSha256": "a6390a4c33a5a05712851fe041c5663a3b0c6831e16e481d514557ac9178376a"
+      },
+      "evidence": {
+        "quote": "10am - 6pm (Mon - Sat) | 10am - 4pm (Sun)",
+        "startUtf16": 127,
+        "endUtf16": 168,
+        "offsetUnit": "JavaScript UTF-16 code units; half-open"
+      },
+      "expectation": {
+        "label": "agent-authored conservative safety fact; not human gold",
+        "expected": "Preserve two weekday groups and their distinct ranges; do not merge into one daily range."
+      }
+    }
+  ]
+}

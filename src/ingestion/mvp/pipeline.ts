@@ -11,7 +11,27 @@ import { digest } from "../resolution/cache";
 import { DateResolver } from "../resolution/dates";
 import { PostOfferParser, type ParsedOffer } from "../resolution/parser";
 import { OutletScopeResolver, plain } from "../resolution/patterns";
-import type { OutletDiscovery, SourcePost } from "../resolution/types";
+import type {
+  OutletDiscovery,
+  SourcePost,
+  MerchantOutletProvider,
+  PlaceResolver,
+} from "../resolution/types";
+import { buildOfferPolicy, type PolicySourceMetadata } from "./policy";
+import { evaluateMvpLifecycle } from "./lifecycle";
+import { resolveMvpOutlets } from "./outlets";
+export interface MvpPipelineOptions {
+  policy?: "legacy" | "source_observed";
+  sourceMetadata?: (
+    source: SourcePost,
+    offerKey: string,
+  ) => PolicySourceMetadata;
+  providers?: MerchantOutletProvider[];
+  providerFactory?: (
+    scope: import("../resolution/types").ScopeResolution,
+  ) => MerchantOutletProvider[];
+  places?: PlaceResolver;
+}
 export function stableId(value: string) {
   const h = digest(value);
   return `${h.slice(0, 8)}-${h.slice(8, 12)}-5${h.slice(13, 16)}-a${h.slice(17, 20)}-${h.slice(20, 32)}`;
@@ -158,7 +178,10 @@ export function mvpDates(text: string, publishedAt: string) {
 }
 export class MvpPipeline {
   private parser = new PostOfferParser();
-  constructor(private discovery: OutletDiscovery) {}
+  constructor(
+    private discovery: OutletDiscovery,
+    private options: MvpPipelineOptions = {},
+  ) {}
   async process(
     source: SourcePost,
     now: DateTime = DateTime.now(),
@@ -237,6 +260,22 @@ export class MvpPipeline {
           };
           offer.merchant = "";
         }
+        const normalized =
+          this.options.policy === "source_observed"
+            ? buildOfferPolicy(
+                offer.text,
+                this.options.sourceMetadata?.(source, offer.key) ?? {
+                  publishedAt: source.publishedAt || null,
+                  firstSeenAt: null,
+                  observation: null,
+                  sourceTextPolicy:
+                    new URL(source.url).hostname === "t.me"
+                      ? "telegram_private"
+                      : "unknown_private",
+                },
+                scope,
+              )
+            : null;
         const named = scope.scope === "named_outlets";
         const p: MvpPromotion = {
           id: stableId(`${source.url}:${offer.key}`),
@@ -247,18 +286,31 @@ export class MvpPipeline {
           title: offer.title,
           benefit: offer.benefit,
           description: offer.text,
-          startDate: dates.startDate,
-          endDate: dates.endDate,
-          weekdays: dates.weekdays,
-          hours: dates.hours,
-          redemptionCutoff: dates.redemptionCutoff,
+          startDate: normalized ? normalized.dates.startDate : dates.startDate,
+          endDate: normalized ? normalized.dates.endDate : dates.endDate,
+          weekdays: normalized
+            ? normalized.policy.scheduleRules.length === 1
+              ? normalized.policy.scheduleRules[0].weekdays
+              : null
+            : dates.weekdays,
+          hours: normalized ? null : dates.hours,
+          redemptionCutoff: normalized ? null : dates.redemptionCutoff,
           outletScope: scope.scope === "unclear" ? "unspecified" : scope.scope,
           mapCoverageBasis: named
             ? "source_named_outlets"
             : "google_merchant_locations",
           outlets: [],
           status: "needs_location",
-          lifecycle: lifecycle(dates.startDate, dates.endDate, now),
+          lifecycle: normalized
+            ? evaluateMvpLifecycle(
+                {
+                  ...normalized.dates,
+                  sourceObservation: normalized.policy.sourceObservation,
+                },
+                now,
+              )
+            : lifecycle(dates.startDate, dates.endDate, now),
+          ...(normalized ? { offerPolicy: normalized.policy } : {}),
           reasons: [],
           locationAudit: [],
           datePattern: dates.pattern,
@@ -285,19 +337,24 @@ export class MvpPipeline {
           );
         }
         if (
-          !dates.startDate ||
-          !dates.endDate ||
-          dates.issues.some((i) =>
-            /requires_split|ambiguous|conflicting_dates|invalid_date|additional_date/.test(
-              i,
-            ),
-          )
+          normalized
+            ? !normalized.dates.validityType ||
+              normalized.dates.audit.blockers.length > 0
+            : !dates.startDate ||
+              !dates.endDate ||
+              dates.issues.some((i) =>
+                /requires_split|ambiguous|conflicting_dates|invalid_date|additional_date/.test(
+                  i,
+                ),
+              )
         ) {
           p.validityStatus = "needs_validity";
           p.reasons.push(
-            ...(dates.issues.length
-              ? dates.issues
-              : ["unknown_expiry_or_start"]),
+            ...(normalized
+              ? normalized.dates.audit.blockers
+              : dates.issues.length
+                ? dates.issues
+                : ["unknown_expiry_or_start"]),
           );
         }
         if (
@@ -306,49 +363,72 @@ export class MvpPipeline {
           p.mapStatus !== "online_only"
         ) {
           try {
-            const discover =
-              this.discovery.discoverMvp ?? this.discovery.discover;
-            const snapshot = await discover.call(
-              this.discovery,
-              offer.merchant,
-              named ? mvpSourceLocations(plain(scope.raw)) : undefined,
-            );
-            p.locationAudit = snapshot.locationAudit ?? [];
-            const outlets = new Map<string, MvpPromotion["outlets"][number]>();
-            for (const b of snapshot.branches) {
-              const r = b.resolvedPlace;
-              const parsed = mvpOutletSchema.safeParse({
-                googlePlaceId: r?.placeId,
-                name: b.name,
-                address: r?.address,
-                latitude: r?.lat,
-                longitude: r?.lng,
-                businessStatus: r?.businessStatus ?? null,
-                coordinateBasis: b.coordinateBasis ?? "google_merchant_place",
-                sourceLocation: b.sourceLocation ?? null,
-                googleFormattedAddress: b.googleFormattedAddress ?? r?.address,
+            if (normalized) {
+              const resolved = await resolveMvpOutlets(offer.merchant, scope, {
+                discovery: this.discovery,
+                providers: this.options.providers,
+                providerFactory: this.options.providerFactory,
+                places: this.options.places,
               });
-              if (b.status === "operating" && parsed.success)
-                outlets.set(
-                  `${parsed.data.googlePlaceId}:${parsed.data.sourceLocation ?? ""}`,
-                  parsed.data,
-                );
-            }
-            p.outlets = [...outlets.values()].sort(
-              (a, b) =>
-                a.googlePlaceId.localeCompare(b.googlePlaceId) ||
-                (a.sourceLocation ?? "").localeCompare(b.sourceLocation ?? ""),
-            );
-            p.mapStatus = p.outlets.length ? "ready" : "needs_location";
-            p.reasons = [
-              ...new Set(
-                snapshot.issues.filter(
-                  (i) => i !== "google_search_not_authoritative_enumeration",
+              p.outlets = resolved.outlets;
+              p.locationAudit = resolved.locationAudit;
+              p.mapStatus = resolved.outlets.length
+                ? "ready"
+                : "needs_location";
+              p.offerPolicy!.directoryBasis = resolved.directoryBasis;
+              p.offerPolicy!.directoryComplete = resolved.directoryComplete;
+              p.reasons.push(...resolved.issues);
+            } else {
+              const discover =
+                this.discovery.discoverMvp ?? this.discovery.discover;
+              const snapshot = await discover.call(
+                this.discovery,
+                offer.merchant,
+                named ? mvpSourceLocations(plain(scope.raw)) : undefined,
+              );
+              p.locationAudit = snapshot.locationAudit ?? [];
+              const outlets = new Map<
+                string,
+                MvpPromotion["outlets"][number]
+              >();
+              for (const b of snapshot.branches) {
+                const r = b.resolvedPlace;
+                const parsed = mvpOutletSchema.safeParse({
+                  googlePlaceId: r?.placeId,
+                  name: b.name,
+                  address: r?.address,
+                  latitude: r?.lat,
+                  longitude: r?.lng,
+                  businessStatus: r?.businessStatus ?? null,
+                  coordinateBasis: b.coordinateBasis ?? "google_merchant_place",
+                  sourceLocation: b.sourceLocation ?? null,
+                  googleFormattedAddress:
+                    b.googleFormattedAddress ?? r?.address,
+                });
+                if (b.status === "operating" && parsed.success)
+                  outlets.set(
+                    `${parsed.data.googlePlaceId}:${parsed.data.sourceLocation ?? ""}`,
+                    parsed.data,
+                  );
+              }
+              p.outlets = [...outlets.values()].sort(
+                (a, b) =>
+                  a.googlePlaceId.localeCompare(b.googlePlaceId) ||
+                  (a.sourceLocation ?? "").localeCompare(
+                    b.sourceLocation ?? "",
+                  ),
+              );
+              p.mapStatus = p.outlets.length ? "ready" : "needs_location";
+              p.reasons = [
+                ...new Set(
+                  snapshot.issues.filter(
+                    (i) => i !== "google_search_not_authoritative_enumeration",
+                  ),
                 ),
-              ),
-            ];
-            if (!p.outlets.length && !p.reasons.length)
-              p.reasons.push("merchant_place_match_failed");
+              ];
+              if (!p.outlets.length && !p.reasons.length)
+                p.reasons.push("merchant_place_match_failed");
+            }
           } catch (error) {
             p.reasons = [
               error instanceof Error ? error.message : "google_search_failed",

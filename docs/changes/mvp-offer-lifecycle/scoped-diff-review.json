@@ -1,0 +1,13 @@
+{
+  "reviewer": "Parent scoped diff review, not independent",
+  "reviewedDiffs": [
+    {
+      "path": "src/domain/promotion.ts",
+      "before": "1a71eb21c1e93fa2c724e8e73e80707c408877d3574bc78297f0a2d670af2f0c",
+      "after": "b2591ac891a38197e614fa6e977b52e9de8718e5c6ded91beba77a941fd12a72",
+      "kind": "mvp_optional_listing_type",
+      "strictSurfaceHash": "464b9cf4870f54a7bc806c5b5fd306b9fda5a56974dec951d2702122c7794303",
+      "evidence": "Exact byte comparison outside Listing type and type-only import passes; strict schema, publication rules and validity functions unchanged; focused strict regressions and corpus passed."
+    }
+  ]
+}

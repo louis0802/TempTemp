@@ -9,23 +9,70 @@ import {
 } from "@/domain/mvp";
 import type { Listing, PromotionResponse } from "@/domain/promotion";
 import { stableId } from "@/ingestion/mvp/pipeline";
+import { evaluateMvpSchedule } from "@/ingestion/mvp/schedule";
+import { offerPolicySchema } from "@/domain/mvp-policy";
 const artifactSchema = z.object({
   version: z.literal(2),
   records: z.array(mvpPromotionSchema),
 });
+const policyArtifactSchema = z.object({
+  version: z.literal(3),
+  policyVersion: z.literal("mvp-offer-policy-v1"),
+  records: z.array(
+    mvpPromotionSchema.and(z.object({ offerPolicy: offerPolicySchema })),
+  ),
+});
+export function mvpOfferPolicyMode() {
+  return process.env.MVP_OFFER_POLICY === "source_observed"
+    ? "source_observed"
+    : "legacy";
+}
+export function parseMvpArtifact(value: unknown, mode = mvpOfferPolicyMode()) {
+  if (
+    mode === "source_observed" &&
+    (value as { version?: number })?.version === 3
+  )
+    return policyArtifactSchema.parse(value).records;
+  return artifactSchema.parse(value).records;
+}
 export async function readMvpData() {
-  return artifactSchema.parse(
+  const policy = mvpOfferPolicyMode();
+  return parseMvpArtifact(
     JSON.parse(
       await readFile(
-        process.env.MVP_DATA_PATH ?? "data/mvp-promotions.json",
+        policy === "source_observed"
+          ? (process.env.MVP_POLICY_DATA_PATH ??
+              "data/mvp-promotions-source-observed.json")
+          : (process.env.MVP_DATA_PATH ?? "data/mvp-promotions.json"),
         "utf8",
       ),
     ),
-  ).records;
+    policy,
+  );
 }
 export function mvpListing(p: MvpPromotion): Listing {
+  return mvpListingAt(p, DateTime.now());
+}
+export function mvpListingAt(p: MvpPromotion, now: DateTime): Listing {
+  const listedState = p.offerPolicy
+    ? evaluateMvpSchedule(p.offerPolicy.scheduleRules, now, {
+        startDate: p.startDate,
+        endDate: p.endDate,
+        ttlDays: p.offerPolicy.sourceObservation?.ttlDays ?? 14,
+      })
+    : null;
   return {
     ...p,
+    hours: p.hours?.start ? { start: p.hours.start, end: p.hours.end } : null,
+    ...(p.offerPolicy
+      ? {
+          mvpOfferPolicy: {
+            ...p.offerPolicy,
+            scheduleState: listedState!,
+            summary: p.benefit.slice(0, 240),
+          },
+        }
+      : {}),
     category: null,
     mvpState: {
       content: p.contentStatus,
@@ -48,7 +95,15 @@ export function mvpListing(p: MvpPromotion): Listing {
       sourceLocation: o.sourceLocation,
       googleFormattedAddress: o.googleFormattedAddress,
     })),
-    sources: [{ label: "Original promotion post", url: p.sourceUrl }],
+    sources: [
+      {
+        label:
+          p.offerPolicy?.sourceTextPolicy === "official_public"
+            ? "Official promotion source"
+            : "Original promotion post",
+        url: p.sourceUrl,
+      },
+    ],
     verifiedAt: null,
     reviewDueAt: null,
     status: "needs_review",
@@ -56,15 +111,19 @@ export function mvpListing(p: MvpPromotion): Listing {
     excludePublicHolidays: false,
     holidayDates: [],
     holidayCalendarThrough: null,
-    scheduleLabel: p.hours
-      ? `${p.hours.start}–${p.hours.end}; check source restrictions`
-      : "Check source restrictions and redemption hours",
+    scheduleLabel: p.offerPolicy
+      ? p.offerPolicy.scheduleRules.map((r) => r.evidence.quote).join(" · ") ||
+        "Check source"
+      : p.hours
+        ? `${p.hours.start}–${p.hours.end}; check source restrictions`
+        : "Check source restrictions and redemption hours",
     ongoing: p.lifecycle === "active",
     redeemableNow: false,
     scheduleState:
-      p.lifecycle === "expired"
+      listedState ??
+      (p.lifecycle === "expired"
         ? "Expired historical promotion"
-        : "Check promotion terms; location participation is not verified",
+        : "Check promotion terms; location participation is not verified"),
   };
 }
 export async function getMvpPromotions(
@@ -92,7 +151,7 @@ export async function getMvpPromotions(
     }))
     .filter((p) => mode === "corpus" || p.outlets.length)
     .sort((a, b) => a.id.localeCompare(b.id));
-  const items = eligible.slice(0, 200).map(mvpListing);
+  const items = eligible.slice(0, 200).map((p) => mvpListingAt(p, now));
   return {
     items,
     nextCursor: eligible.length > 200 ? items.at(-1)!.id : null,
@@ -120,9 +179,14 @@ export function presentMvpListing(
   p: Listing,
   showSourceText: boolean,
 ): Listing {
-  const reveal = process.env.NODE_ENV !== "production" && showSourceText;
+  const reveal =
+    p.mvpOfferPolicy?.sourceTextPolicy === "official_public" ||
+    (process.env.NODE_ENV !== "production" && showSourceText);
+  // Keep source text out of the duplicate internal field copied by the MVP mapper.
+  const clean = { ...p } as Listing & { offerPolicy?: unknown };
+  delete clean.offerPolicy;
   return {
-    ...p,
+    ...clean,
     description: reveal ? p.description : "",
     terms: p.terms.filter((term) => term !== p.description),
   };

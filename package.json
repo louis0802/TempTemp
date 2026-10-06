@@ -40,7 +40,10 @@
     "research:merchant-progress": "node --import tsx scripts/research/merchant-automation-progress.ts",
     "direct-sources:preview": "node --import tsx scripts/direct-source-preview.ts",
     "direct-sources:ingest": "node --import tsx scripts/direct-source-ingest.ts",
-    "research:promotion-nlp": "node --import tsx --env-file-if-exists=.env.local scripts/research/promotion-nlp-benchmark.ts"
+    "research:promotion-nlp": "node --import tsx --env-file-if-exists=.env.local scripts/research/promotion-nlp-benchmark.ts",
+    "mvp:sources:refresh": "node --import tsx scripts/refresh-mvp-sources.ts",
+    "build:mvp-policy-data": "node --import tsx scripts/build-mvp-policy-data.ts",
+    "mvp:artifact:review": "node --import tsx scripts/review-mvp-policy-artifact.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.116.0",

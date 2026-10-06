@@ -2,7 +2,10 @@ import { test, expect } from "@playwright/test";
 import { readFileSync } from "node:fs";
 import { mvpListing } from "../../src/server/mvp";
 import { groupMapLocations } from "../../src/domain/map-locations";
-import { mvpPromotionSchema } from "../../src/domain/mvp";
+import { mvpPromotionSchema, visibleMvp } from "../../src/domain/mvp";
+import { DateTime } from "luxon";
+import { searchListings } from "../../src/domain/discovery-search";
+const fixtureNow = DateTime.fromISO("2026-09-22T12:00:00+08:00");
 const artifact = JSON.parse(readFileSync("data/mvp-promotions.json", "utf8"));
 const record = mvpPromotionSchema.parse(
   artifact.records.find(
@@ -97,6 +100,19 @@ test("MVP list and detail APIs filter expiry, with separate historical preview",
 test("complete corpus renders non-map and incomplete records with safe labels", async ({
   page,
 }, info) => {
+  const items = visibleMvp(
+    artifact.records.map((p: unknown) => mvpPromotionSchema.parse(p)),
+    "corpus",
+    fixtureNow,
+  ).map(mvpListing);
+  await page.route("**/api/mvp/promotions**", (r) => {
+    const id = new URL(r.request().url()).pathname.split("/promotions/")[1];
+    return r.fulfill({
+      json: id
+        ? items.find((p) => p.id === id)
+        : { items, nextCursor: null, sources: [], demo: false },
+    });
+  });
   await page.route("https://tile.openstreetmap.org/**", (r) =>
     r.fulfill({
       contentType: "image/png",
@@ -484,6 +500,21 @@ test("unified discovery searches outside viewport, fits merchants, opens deals a
 test("search source privacy, clearing, stale cancellation and partial failure", async ({
   page,
 }) => {
+  const items = visibleMvp(
+    artifact.records.map((p: unknown) => mvpPromotionSchema.parse(p)),
+    "live",
+    fixtureNow,
+  ).map(mvpListing);
+  await page.route("**/api/mvp/search?**", (r) =>
+    r.fulfill({
+      json: {
+        items: searchListings(
+          items,
+          new URL(r.request().url()).searchParams.get("q") ?? "",
+        ),
+      },
+    }),
+  );
   await page.route("https://tile.openstreetmap.org/**", (r) =>
     r.fulfill({
       contentType: "image/png",

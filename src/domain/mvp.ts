@@ -1,5 +1,7 @@
 import { z } from "zod";
 import { DateTime } from "luxon";
+import { offerPolicySchema } from "./mvp-policy";
+import { evaluateMvpLifecycle } from "@/ingestion/mvp/lifecycle";
 const date = z
   .string()
   .regex(/^\d{4}-\d{2}-\d{2}$/)
@@ -38,7 +40,9 @@ export const mvpPromotionSchema = z
     startDate: date.nullable(),
     endDate: date.nullable(),
     weekdays: z.array(z.number().int().min(1).max(7)).nullable(),
-    hours: z.object({ start: z.string(), end: z.string() }).nullable(),
+    hours: z
+      .object({ start: z.string().nullable(), end: z.string() })
+      .nullable(),
     redemptionCutoff: z.string().nullable(),
     outletScope: z.enum([
       "all_outlets",
@@ -62,7 +66,15 @@ export const mvpPromotionSchema = z
     contentStatus: z.enum(["resolved", "needs_content_resolution"]),
     validityStatus: z.enum(["resolved", "needs_validity"]),
     mapStatus: z.enum(["ready", "needs_location", "online_only"]),
-    lifecycle: z.enum(["active", "expired", "upcoming", "unknown"]),
+    lifecycle: z.enum([
+      "active",
+      "expired",
+      "upcoming",
+      "unknown",
+      "stale",
+      "withdrawn",
+    ]),
+    offerPolicy: offerPolicySchema.optional(),
     reasons: z.array(z.string()),
     locationAudit: z.array(locationLookupAuditSchema).default([]),
     datePattern: z.string(),
@@ -116,10 +128,10 @@ export const mvpPromotionSchema = z
         !p.benefit ||
         !p.genuine ||
         !p.startDate ||
-        !p.endDate ||
-        p.startDate > p.endDate ||
+        (!p.endDate && p.offerPolicy?.validityType !== "open_ended") ||
+        (p.endDate !== null && p.startDate > p.endDate) ||
         (p.mapStatus !== "online_only" && !p.outlets.length) ||
-        p.lifecycle === "unknown" ||
+        (p.lifecycle === "unknown" && !p.offerPolicy) ||
         p.contentStatus !== "resolved" ||
         p.validityStatus !== "resolved")
     )
@@ -149,7 +161,20 @@ export function visibleMvp(
   now: DateTime = DateTime.now(),
 ) {
   return records
-    .map((p) => ({ ...p, lifecycle: lifecycle(p.startDate, p.endDate, now) }))
+    .map((p) => ({
+      ...p,
+      lifecycle: p.offerPolicy
+        ? evaluateMvpLifecycle(
+            {
+              startDate: p.startDate,
+              endDate: p.endDate,
+              validityType: p.offerPolicy.validityType,
+              sourceObservation: p.offerPolicy.sourceObservation,
+            },
+            now,
+          )
+        : lifecycle(p.startDate, p.endDate, now),
+    }))
     .filter(
       (p) =>
         mode === "corpus" ||

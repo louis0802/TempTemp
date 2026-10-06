@@ -1,0 +1,2772 @@
+{
+  "format": "mvp-offer-lifecycle-family-holdout-v1",
+  "createdBeforeNewParserResults": true,
+  "baselineManifestSha256": "2bf370ac1f6f924b3a2dc48c5e4bbbbe51104ae5948a2cc294da4135fb258419",
+  "sourceCount": 136,
+  "principle": "Source post is indivisible. Each leave-family-out fold removes every source sharing the named channel, inferred merchant family, or conservative schedule-family tag. Overlapping folds are correlated diagnostics and must not be pooled. Family tags are deterministic lexical heuristics for partitioning only, not semantic labels or gold.",
+  "familyTaggerVersion": "p1-family-tags-v1",
+  "familyCounts": {
+    "channels": {
+      "sgfooddeals": 58,
+      "tastesoulsg": 78
+    },
+    "merchantFamilies": 70,
+    "scheduleFamilies": {
+      "clock-range": 17,
+      "holiday-scope": 3,
+      "no-explicit-schedule-family": 64,
+      "open-ended-clock": 2,
+      "partial-or-bounded-validity": 51,
+      "recurring-weekday": 4,
+      "weekday-scope": 9
+    }
+  },
+  "folds": [
+    {
+      "foldId": "channel:sgfooddeals",
+      "heldOutSources": [
+        "011f21bb-4c93-4eb3-9e9b-ab00ccc64e78",
+        "0901b225-10cb-45f0-9af4-c1b7a6080fbf",
+        "0943e9cb-3508-43d8-8840-4b9e90df7395",
+        "1196fdbb-8a48-4a03-83d1-37c38f92c57b",
+        "1398620a-25e0-40a6-bb90-b276c6970bea",
+        "14bd97ce-04cf-4e82-80bf-60a2ae5e89af",
+        "17fa6a31-e484-4c7b-b217-913671287ddf",
+        "26f643e2-44cb-43e6-b310-c5ee358e5af1",
+        "2de39907-6e81-4b55-a5cf-aeb4d9111ed7",
+        "3565d4a6-36cf-47aa-b998-f881d7396a63",
+        "373fdcb4-305e-491c-8e5c-fabdc0083c86",
+        "38a5fac9-c935-4945-84e8-feff75ecfe55",
+        "3a96eeec-91b5-4b82-836a-79b00bfcdc3e",
+        "3b7c0f74-a189-4060-8250-29be08a63d00",
+        "3ef0c5f2-554b-44af-b659-57e3a33cdbd2",
+        "4078f120-fb2a-46e3-a52d-99c61a238429",
+        "4177f9fb-0d17-4d1e-8063-99b03b66be5d",
+        "443b7d9c-7196-4d00-984d-98a7647f0444",
+        "4a6e8480-9f14-4ca5-9776-554882a2d2c0",
+        "4b51dbd5-36da-4d70-b6d6-c69773fcf869",
+        "4c4c5c51-d94d-46c1-bc74-1b22ab004e48",
+        "51540d43-a25b-4c03-b921-e06550bced17",
+        "5db90896-df53-412c-8b51-1b3cfd51b31a",
+        "5fe68a12-1a51-4873-9944-506c729853f8",
+        "6704feaa-dfa5-4a11-81a2-6ae51d582888",
+        "6a63e653-45f8-4f4b-a68e-8d98f48f1b08",
+        "735a10db-02f7-465d-bc03-8b74d2766eb9",
+        "7511fbbc-bfaf-4129-bcf6-54826e5c2796",
+        "7b5f6873-7379-4a95-9048-9e48ac5178f4",
+        "8362c885-3f9b-40ff-83d7-e71817a01070",
+        "842d2c5f-00a4-41d4-959b-e07e81e39e22",
+        "848839a3-657d-4c96-ab48-b91b59283689",
+        "89f75657-5d19-42a9-8490-f7c54cb1e0dd",
+        "8e94dbd4-a8ef-494c-8d9e-54fca6e27063",
+        "91e2047d-40a7-4cec-a074-def57eac8a23",
+        "9331f4fb-e13e-4503-8895-58ea0f33495f",
+        "93d8f5ff-059c-4c5b-ba7b-f0423cefae03",
+        "98b7a0dc-d1ee-4526-b453-5d4ccdb5b6f0",
+        "9ed1630c-141f-4f1b-91dd-f802201b2b5c",
+        "a39cf38a-5912-45cf-9111-1fde99c5fad6",
+        "a94c4a2f-5958-4fd5-b873-58d3eca9cd6c",
+        "af100698-c54e-4eab-8722-6e3886fd7ba5",
+        "b1ef0ea8-a7eb-47ea-b7bd-e4e9cf389d2e",
+        "b3f08a42-3e01-49de-947a-c862aa726b92",
+        "b47886ec-36ff-43b0-be64-32baf7985cd7",
+        "bcb6e4c5-ad05-4282-a7ba-0d659283ff28",
+        "c231cdad-dc11-4b24-aff4-087cb037dbfb",
+        "cec91996-8e47-4d37-8acb-cb9a5d788727",
+        "db591e1e-c7d8-45ae-81bc-1e4298940afa",
+        "dfc32ae3-d1d9-4e45-a391-2d38a37cd359",
+        "dfcdc850-7d0c-46e4-bc21-f4bd3dfd6112",
+        "ec0f376b-2015-44b3-902e-4ba399304d63",
+        "ed2edfd0-418f-449f-8b2d-35b8707bf130",
+        "ed4fa14d-a658-47f7-a481-6bd5f1d17784",
+        "f51ee41d-8225-4890-96f5-32184bc758ad",
+        "f5ac3021-7247-44c4-adf5-de43cb48a1c4",
+        "fc4f8ea9-56d5-42f8-9af3-eb8dd812c4ee",
+        "ff46147f-9bc7-4360-bb6c-fd9077a8e546"
+      ],
+      "heldOutSourceCount": 58,
+      "remainingDevelopmentSources": 78,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 12,
+        "previousDevelopment": 46
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "channel:tastesoulsg",
+      "heldOutSources": [
+        "0181fb0b-d8bd-4171-ae32-488b391fa1a8",
+        "0ab98ff5-d0f2-40d9-89f2-e7369dcf0abc",
+        "14602b39-aa29-401d-aeab-e33c7d1a405e",
+        "1b185aff-17e5-4651-a633-576271422e37",
+        "1bee76ca-bf3a-4761-ab96-104e1fa43ecd",
+        "1d4015d2-c5f4-4209-a1ee-81559c4fb933",
+        "21b217a5-1b30-4619-b9bb-00da195e643a",
+        "2968bd3f-5089-4638-ae05-1013602c2a5e",
+        "29f51b17-c0d2-43ea-8695-8089c5c78a09",
+        "2c8c1283-9451-4820-8ce8-85899d28463d",
+        "2e5d2490-c303-4970-8d4b-3abe5b5a9c60",
+        "326ff1e8-69b1-4456-8a04-1f4e2e36ede3",
+        "35567f45-c932-4973-94da-9105f3fe46b9",
+        "37a564e6-3ba7-4195-b159-a655b7fa78cb",
+        "39804b8c-61d8-4e83-9061-fe412548f05e",
+        "3c05c41e-6cf8-484d-896c-0ce442442bec",
+        "41a6282c-9e3d-4aef-8723-84c9cac64d3b",
+        "41c8c39b-d73b-4bf9-9a7e-a66ad2e1d1c8",
+        "41ee6bfe-6d2b-41c8-b75d-c02970592dd6",
+        "4983fe41-2e80-4ef0-8a6f-f28dcabd6d14",
+        "49b1ae5e-dd4b-43e9-962d-9ee0ccfb1a9f",
+        "4df1bfc3-a1b9-4244-b32f-c9a0c54645f1",
+        "4efaa44f-bcd4-453f-84a6-c73360d6eb50",
+        "4f1b2128-7f4b-4359-8026-ec3921ef6036",
+        "5d9c6be7-b348-4b8e-9c7f-273338462913",
+        "61e82e42-1fef-4abf-8d49-6e66a9308826",
+        "63fe2f82-7579-4c9a-b1b5-352bacbb7653",
+        "678d6921-9a77-4c80-9179-4b4d8db36cd3",
+        "6d38b7a3-f236-47d8-9623-308c67fe0772",
+        "6d50e2f6-666a-493b-a486-bc8f658b5a59",
+        "6f25fc55-241a-4f0e-b77a-829fc650ba74",
+        "718bf385-6cd1-4fd4-a584-73b15e5e2eb4",
+        "766f8966-f013-438f-aef8-2660fd0abcc1",
+        "7a16bf36-3567-406b-86e9-408783b13c01",
+        "82763b20-ef73-46e6-9dc9-d37f58ac5ff8",
+        "860dd332-fff7-401e-b3c7-f1917acfb10c",
+        "8992177e-0d45-41e2-b921-418f6986fbc9",
+        "8d30da73-ce79-4e54-b1ae-a1349a025298",
+        "8f322821-a641-40c9-b551-d63499c7d459",
+        "90d6cd1c-4b8f-47bb-9c7c-d31876bf0506",
+        "9272497c-3cd5-409f-96bf-1894cf754995",
+        "929e8918-30a5-43dd-aac6-daaffd25f1c8",
+        "9bf3358d-02b4-4608-9c51-479293f70fc5",
+        "9d1111ce-b42d-45dd-be7e-e4816ebb6dd7",
+        "9e44d676-2864-45f9-b560-2525b05982bf",
+        "a371ce8f-cc71-46be-8d77-385b7d084a61",
+        "a7f93cf7-4de1-4f16-a9c9-c159af390c17",
+        "ac3929f6-1e5e-4486-a8fc-4e29d3e24d9c",
+        "af24525b-c543-4db4-a3b2-8ff5bdb96476",
+        "ba7c2390-2fa8-4756-a8a1-2fd0d58fcb1e",
+        "bc3723d5-1e74-4f62-a6b3-ac0965d9abfb",
+        "bf4fc30e-a16b-4980-8265-22921dfae450",
+        "c4901367-7566-4058-b575-23c175f6b482",
+        "c522975d-1177-4ac8-9f0c-4070050a2b6f",
+        "c9629428-b1ee-4cd4-9920-5e26593eba29",
+        "c9cb4251-bbe4-40fd-9532-5071e5ab09e9",
+        "ca978735-68b0-4cca-bdaf-e4bd6df52186",
+        "d151e206-4389-45ad-8d5b-85bbbe18d50b",
+        "d3538349-4315-44ce-b156-3e84b58ab4ef",
+        "d4630596-557a-49ce-9591-61f505448cc6",
+        "d7ece0cd-061c-4d64-a432-177c4f65b533",
+        "dd53cd22-6e58-4c88-b5e0-81df80eac61c",
+        "ddc129ef-8c11-4b66-ba15-5fac3d30eead",
+        "de9ac542-e0c8-430e-940f-da714c32bc2c",
+        "e014d99c-8d1d-44e1-a54b-e1b87707c6da",
+        "e1f271b3-0f3f-4ce4-bec0-634bbcbb2ea9",
+        "e45ece49-da5d-4a9b-a9de-5b6c40442c3e",
+        "e7edbddf-28a8-454a-a812-a1e95f177cd9",
+        "e8983485-7706-48ae-9adb-9445d3391611",
+        "ea7100b3-1b10-46d8-838c-24d9776819da",
+        "ec50fa5f-9196-4311-911c-325ce2b20c1c",
+        "f005948c-185a-4476-b49f-66a7ba9948f1",
+        "f0fa7a58-ebb9-4e5f-9cd3-9d1713b11d65",
+        "f5cf4934-f900-405b-a758-98075d2bb5d8",
+        "f9a58e10-4e53-4a9a-b3ee-6c95bcdd5c2c",
+        "fa225e1e-6cb3-4ad2-ae92-aa1a5a0d8b22",
+        "faac936f-7c84-44f1-80b2-9876652178d9",
+        "ff98a57c-12e4-4eb0-b2bd-6c18b867cc8c"
+      ],
+      "heldOutSourceCount": 78,
+      "remainingDevelopmentSources": 58,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 16,
+        "previousDevelopment": 62
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:4fingers",
+      "heldOutSources": [
+        "0181fb0b-d8bd-4171-ae32-488b391fa1a8",
+        "7511fbbc-bfaf-4129-bcf6-54826e5c2796"
+      ],
+      "heldOutSourceCount": 2,
+      "remainingDevelopmentSources": 134,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 2
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:7 eleven",
+      "heldOutSources": [
+        "718bf385-6cd1-4fd4-a584-73b15e5e2eb4",
+        "a94c4a2f-5958-4fd5-b873-58d3eca9cd6c"
+      ],
+      "heldOutSourceCount": 2,
+      "remainingDevelopmentSources": 134,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 1,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:after hours",
+      "heldOutSources": [
+        "39804b8c-61d8-4e83-9061-fe412548f05e"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:ajumma s",
+      "heldOutSources": [
+        "82763b20-ef73-46e6-9dc9-d37f58ac5ff8"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:ajumma s korean restaurant",
+      "heldOutSources": [
+        "5db90896-df53-412c-8b51-1b3cfd51b31a"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:braek acai coffee",
+      "heldOutSources": [
+        "4a6e8480-9f14-4ca5-9776-554882a2d2c0"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 1,
+        "previousDevelopment": 0
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:brash boys coffee",
+      "heldOutSources": [
+        "9331f4fb-e13e-4503-8895-58ea0f33495f"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:burnt cones",
+      "heldOutSources": [
+        "db591e1e-c7d8-45ae-81bc-1e4298940afa",
+        "f5cf4934-f900-405b-a758-98075d2bb5d8"
+      ],
+      "heldOutSourceCount": 2,
+      "remainingDevelopmentSources": 134,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 1,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:captain kim",
+      "heldOutSources": [
+        "98b7a0dc-d1ee-4526-b453-5d4ccdb5b6f0",
+        "ed2edfd0-418f-449f-8b2d-35b8707bf130"
+      ],
+      "heldOutSourceCount": 2,
+      "remainingDevelopmentSources": 134,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 2,
+        "previousDevelopment": 0
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:carnaby",
+      "heldOutSources": [
+        "bcb6e4c5-ad05-4282-a7ba-0d659283ff28"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:chagee",
+      "heldOutSources": [
+        "35567f45-c932-4973-94da-9105f3fe46b9"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:chateraise",
+      "heldOutSources": [
+        "443b7d9c-7196-4d00-984d-98a7647f0444"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:chix hot chicken",
+      "heldOutSources": [
+        "9ed1630c-141f-4f1b-91dd-f802201b2b5c"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:coffeehouse by kobashi",
+      "heldOutSources": [
+        "2c8c1283-9451-4820-8ce8-85899d28463d"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 1,
+        "previousDevelopment": 0
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:common grill",
+      "heldOutSources": [
+        "dfcdc850-7d0c-46e4-bc21-f4bd3dfd6112"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:daya izakaya",
+      "heldOutSources": [
+        "3565d4a6-36cf-47aa-b998-f881d7396a63"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:din tai fung",
+      "heldOutSources": [
+        "5d9c6be7-b348-4b8e-9c7f-273338462913"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:domino s",
+      "heldOutSources": [
+        "ff98a57c-12e4-4eb0-b2bd-6c18b867cc8c"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:dorra slimming",
+      "heldOutSources": [
+        "8992177e-0d45-41e2-b921-418f6986fbc9"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 1,
+        "previousDevelopment": 0
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:fame by dad s corner",
+      "heldOutSources": [
+        "93d8f5ff-059c-4c5b-ba7b-f0423cefae03"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:gelare",
+      "heldOutSources": [
+        "17fa6a31-e484-4c7b-b217-913671287ddf"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:genki sushi",
+      "heldOutSources": [
+        "326ff1e8-69b1-4456-8a04-1f4e2e36ede3"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:guzman y gomez",
+      "heldOutSources": [
+        "f9a58e10-4e53-4a9a-b3ee-6c95bcdd5c2c"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:gwanghwamun mijin",
+      "heldOutSources": [
+        "1196fdbb-8a48-4a03-83d1-37c38f92c57b",
+        "14602b39-aa29-401d-aeab-e33c7d1a405e"
+      ],
+      "heldOutSourceCount": 2,
+      "remainingDevelopmentSources": 134,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 1,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:hello arigato",
+      "heldOutSources": [
+        "ff46147f-9bc7-4360-bb6c-fd9077a8e546"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:hokkaido baked cheese tart",
+      "heldOutSources": [
+        "d4630596-557a-49ce-9591-61f505448cc6"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:ikea",
+      "heldOutSources": [
+        "ec50fa5f-9196-4311-911c-325ce2b20c1c"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:jack s place",
+      "heldOutSources": [
+        "ca978735-68b0-4cca-bdaf-e4bd6df52186"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:kafey haus",
+      "heldOutSources": [
+        "cec91996-8e47-4d37-8acb-cb9a5d788727"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:kei kaisendon",
+      "heldOutSources": [
+        "678d6921-9a77-4c80-9179-4b4d8db36cd3",
+        "d151e206-4389-45ad-8d5b-85bbbe18d50b",
+        "f0fa7a58-ebb9-4e5f-9cd3-9d1713b11d65"
+      ],
+      "heldOutSourceCount": 3,
+      "remainingDevelopmentSources": 133,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 1,
+        "previousDevelopment": 2
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:kfc",
+      "heldOutSources": [
+        "6d50e2f6-666a-493b-a486-bc8f658b5a59"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:kimpson s table",
+      "heldOutSources": [
+        "011f21bb-4c93-4eb3-9e9b-ab00ccc64e78",
+        "9d1111ce-b42d-45dd-be7e-e4816ebb6dd7",
+        "ec0f376b-2015-44b3-902e-4ba399304d63"
+      ],
+      "heldOutSourceCount": 3,
+      "remainingDevelopmentSources": 133,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 1,
+        "previousDevelopment": 2
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:koi th",
+      "heldOutSources": [
+        "c522975d-1177-4ac8-9f0c-4070050a2b6f"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:lixin teochew fishball noodles",
+      "heldOutSources": [
+        "4efaa44f-bcd4-453f-84a6-c73360d6eb50"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 1,
+        "previousDevelopment": 0
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:mcdonald s",
+      "heldOutSources": [
+        "41ee6bfe-6d2b-41c8-b75d-c02970592dd6",
+        "61e82e42-1fef-4abf-8d49-6e66a9308826",
+        "a7f93cf7-4de1-4f16-a9c9-c159af390c17"
+      ],
+      "heldOutSourceCount": 3,
+      "remainingDevelopmentSources": 133,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 3
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:meatsmith",
+      "heldOutSources": [
+        "b47886ec-36ff-43b0-be64-32baf7985cd7"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:milkyshop",
+      "heldOutSources": [
+        "c9629428-b1ee-4cd4-9920-5e26593eba29"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:more yogurt",
+      "heldOutSources": [
+        "ed4fa14d-a658-47f7-a481-6bd5f1d17784"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:moreyogurt",
+      "heldOutSources": [
+        "e8983485-7706-48ae-9adb-9445d3391611"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:morganfield s",
+      "heldOutSources": [
+        "2e5d2490-c303-4970-8d4b-3abe5b5a9c60",
+        "4177f9fb-0d17-4d1e-8063-99b03b66be5d"
+      ],
+      "heldOutSourceCount": 2,
+      "remainingDevelopmentSources": 134,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 2
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:mos burger",
+      "heldOutSources": [
+        "c9cb4251-bbe4-40fd-9532-5071e5ab09e9"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 1,
+        "previousDevelopment": 0
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:mukai",
+      "heldOutSources": [
+        "7a16bf36-3567-406b-86e9-408783b13c01"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:nasty cookie",
+      "heldOutSources": [
+        "6f25fc55-241a-4f0e-b77a-829fc650ba74"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:new ubin seafood",
+      "heldOutSources": [
+        "b1ef0ea8-a7eb-47ea-b7bd-e4e9cf389d2e"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:omuplace",
+      "heldOutSources": [
+        "735a10db-02f7-465d-bc03-8b74d2766eb9"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:papi s tacos",
+      "heldOutSources": [
+        "37a564e6-3ba7-4195-b159-a655b7fa78cb",
+        "a371ce8f-cc71-46be-8d77-385b7d084a61"
+      ],
+      "heldOutSourceCount": 2,
+      "remainingDevelopmentSources": 134,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 2
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:paradise hotpot",
+      "heldOutSources": [
+        "26f643e2-44cb-43e6-b310-c5ee358e5af1"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 1,
+        "previousDevelopment": 0
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:pepper lunch",
+      "heldOutSources": [
+        "6d38b7a3-f236-47d8-9623-308c67fe0772"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:pizza hut",
+      "heldOutSources": [
+        "6704feaa-dfa5-4a11-81a2-6ae51d582888"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:potato corner",
+      "heldOutSources": [
+        "c4901367-7566-4058-b575-23c175f6b482"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:racines",
+      "heldOutSources": [
+        "dd53cd22-6e58-4c88-b5e0-81df80eac61c"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:rollney",
+      "heldOutSources": [
+        "7b5f6873-7379-4a95-9048-9e48ac5178f4"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:secret recipe",
+      "heldOutSources": [
+        "d3538349-4315-44ce-b156-3e84b58ab4ef"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:shiok burger",
+      "heldOutSources": [
+        "6a63e653-45f8-4f4b-a68e-8d98f48f1b08",
+        "e7edbddf-28a8-454a-a812-a1e95f177cd9"
+      ],
+      "heldOutSourceCount": 2,
+      "remainingDevelopmentSources": 134,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 2
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:sm oy",
+      "heldOutSources": [
+        "d7ece0cd-061c-4d64-a432-177c4f65b533"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:smooy",
+      "heldOutSources": [
+        "38a5fac9-c935-4945-84e8-feff75ecfe55"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:starbucks",
+      "heldOutSources": [
+        "9bf3358d-02b4-4608-9c51-479293f70fc5",
+        "f51ee41d-8225-4890-96f5-32184bc758ad"
+      ],
+      "heldOutSourceCount": 2,
+      "remainingDevelopmentSources": 134,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 1,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:subway",
+      "heldOutSources": [
+        "3c05c41e-6cf8-484d-896c-0ce442442bec"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 1,
+        "previousDevelopment": 0
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:sukiya",
+      "heldOutSources": [
+        "8362c885-3f9b-40ff-83d7-e71817a01070"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:support jalan besar s small kitchens",
+      "heldOutSources": [
+        "e1f271b3-0f3f-4ce4-bec0-634bbcbb2ea9"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:sushi express",
+      "heldOutSources": [
+        "e45ece49-da5d-4a9b-a9de-5b6c40442c3e"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:sushidan",
+      "heldOutSources": [
+        "ac3929f6-1e5e-4486-a8fc-4e29d3e24d9c"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:sushiro",
+      "heldOutSources": [
+        "0943e9cb-3508-43d8-8840-4b9e90df7395",
+        "0ab98ff5-d0f2-40d9-89f2-e7369dcf0abc",
+        "49b1ae5e-dd4b-43e9-962d-9ee0ccfb1a9f"
+      ],
+      "heldOutSourceCount": 3,
+      "remainingDevelopmentSources": 133,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 3
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:tavola aperta",
+      "heldOutSources": [
+        "8e94dbd4-a8ef-494c-8d9e-54fca6e27063"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:the coffee bean tea leaf",
+      "heldOutSources": [
+        "4f1b2128-7f4b-4359-8026-ec3921ef6036",
+        "fa225e1e-6cb3-4ad2-ae92-aa1a5a0d8b22"
+      ],
+      "heldOutSourceCount": 2,
+      "remainingDevelopmentSources": 134,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 1,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:tofu g",
+      "heldOutSources": [
+        "e014d99c-8d1d-44e1-a54b-e1b87707c6da"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 1,
+        "previousDevelopment": 0
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:unknown",
+      "heldOutSources": [
+        "0901b225-10cb-45f0-9af4-c1b7a6080fbf",
+        "1398620a-25e0-40a6-bb90-b276c6970bea",
+        "14bd97ce-04cf-4e82-80bf-60a2ae5e89af",
+        "1b185aff-17e5-4651-a633-576271422e37",
+        "1bee76ca-bf3a-4761-ab96-104e1fa43ecd",
+        "1d4015d2-c5f4-4209-a1ee-81559c4fb933",
+        "21b217a5-1b30-4619-b9bb-00da195e643a",
+        "29f51b17-c0d2-43ea-8695-8089c5c78a09",
+        "2de39907-6e81-4b55-a5cf-aeb4d9111ed7",
+        "373fdcb4-305e-491c-8e5c-fabdc0083c86",
+        "3a96eeec-91b5-4b82-836a-79b00bfcdc3e",
+        "3b7c0f74-a189-4060-8250-29be08a63d00",
+        "4078f120-fb2a-46e3-a52d-99c61a238429",
+        "41a6282c-9e3d-4aef-8723-84c9cac64d3b",
+        "41c8c39b-d73b-4bf9-9a7e-a66ad2e1d1c8",
+        "4983fe41-2e80-4ef0-8a6f-f28dcabd6d14",
+        "4b51dbd5-36da-4d70-b6d6-c69773fcf869",
+        "4c4c5c51-d94d-46c1-bc74-1b22ab004e48",
+        "4df1bfc3-a1b9-4244-b32f-c9a0c54645f1",
+        "51540d43-a25b-4c03-b921-e06550bced17",
+        "5fe68a12-1a51-4873-9944-506c729853f8",
+        "63fe2f82-7579-4c9a-b1b5-352bacbb7653",
+        "766f8966-f013-438f-aef8-2660fd0abcc1",
+        "842d2c5f-00a4-41d4-959b-e07e81e39e22",
+        "848839a3-657d-4c96-ab48-b91b59283689",
+        "860dd332-fff7-401e-b3c7-f1917acfb10c",
+        "89f75657-5d19-42a9-8490-f7c54cb1e0dd",
+        "8d30da73-ce79-4e54-b1ae-a1349a025298",
+        "8f322821-a641-40c9-b551-d63499c7d459",
+        "90d6cd1c-4b8f-47bb-9c7c-d31876bf0506",
+        "91e2047d-40a7-4cec-a074-def57eac8a23",
+        "9272497c-3cd5-409f-96bf-1894cf754995",
+        "929e8918-30a5-43dd-aac6-daaffd25f1c8",
+        "9e44d676-2864-45f9-b560-2525b05982bf",
+        "a39cf38a-5912-45cf-9111-1fde99c5fad6",
+        "af100698-c54e-4eab-8722-6e3886fd7ba5",
+        "af24525b-c543-4db4-a3b2-8ff5bdb96476",
+        "b3f08a42-3e01-49de-947a-c862aa726b92",
+        "ba7c2390-2fa8-4756-a8a1-2fd0d58fcb1e",
+        "bc3723d5-1e74-4f62-a6b3-ac0965d9abfb",
+        "bf4fc30e-a16b-4980-8265-22921dfae450",
+        "c231cdad-dc11-4b24-aff4-087cb037dbfb",
+        "ddc129ef-8c11-4b66-ba15-5fac3d30eead",
+        "dfc32ae3-d1d9-4e45-a391-2d38a37cd359",
+        "ea7100b3-1b10-46d8-838c-24d9776819da",
+        "f005948c-185a-4476-b49f-66a7ba9948f1",
+        "f5ac3021-7247-44c4-adf5-de43cb48a1c4",
+        "faac936f-7c84-44f1-80b2-9876652178d9",
+        "fc4f8ea9-56d5-42f8-9af3-eb8dd812c4ee"
+      ],
+      "heldOutSourceCount": 49,
+      "remainingDevelopmentSources": 87,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 10,
+        "previousDevelopment": 39
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:unsupported or empty post",
+      "heldOutSources": [
+        "3ef0c5f2-554b-44af-b659-57e3a33cdbd2"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:yakiniku like",
+      "heldOutSources": [
+        "2968bd3f-5089-4638-ae05-1013602c2a5e"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 0,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "merchant:zapangi coffee",
+      "heldOutSources": [
+        "de9ac542-e0c8-430e-940f-da714c32bc2c"
+      ],
+      "heldOutSourceCount": 1,
+      "remainingDevelopmentSources": 135,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 1,
+        "previousDevelopment": 0
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "schedule:clock-range",
+      "heldOutSources": [
+        "0943e9cb-3508-43d8-8840-4b9e90df7395",
+        "1196fdbb-8a48-4a03-83d1-37c38f92c57b",
+        "14602b39-aa29-401d-aeab-e33c7d1a405e",
+        "26f643e2-44cb-43e6-b310-c5ee358e5af1",
+        "2c8c1283-9451-4820-8ce8-85899d28463d",
+        "2e5d2490-c303-4970-8d4b-3abe5b5a9c60",
+        "35567f45-c932-4973-94da-9105f3fe46b9",
+        "5db90896-df53-412c-8b51-1b3cfd51b31a",
+        "8362c885-3f9b-40ff-83d7-e71817a01070",
+        "8e94dbd4-a8ef-494c-8d9e-54fca6e27063",
+        "9331f4fb-e13e-4503-8895-58ea0f33495f",
+        "93d8f5ff-059c-4c5b-ba7b-f0423cefae03",
+        "b1ef0ea8-a7eb-47ea-b7bd-e4e9cf389d2e",
+        "c9629428-b1ee-4cd4-9920-5e26593eba29",
+        "db591e1e-c7d8-45ae-81bc-1e4298940afa",
+        "dfcdc850-7d0c-46e4-bc21-f4bd3dfd6112",
+        "f51ee41d-8225-4890-96f5-32184bc758ad"
+      ],
+      "heldOutSourceCount": 17,
+      "remainingDevelopmentSources": 119,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 4,
+        "previousDevelopment": 13
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "schedule:holiday-scope",
+      "heldOutSources": [
+        "5db90896-df53-412c-8b51-1b3cfd51b31a",
+        "82763b20-ef73-46e6-9dc9-d37f58ac5ff8",
+        "ed2edfd0-418f-449f-8b2d-35b8707bf130"
+      ],
+      "heldOutSourceCount": 3,
+      "remainingDevelopmentSources": 133,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 1,
+        "previousDevelopment": 2
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "schedule:no-explicit-schedule-family",
+      "heldOutSources": [
+        "011f21bb-4c93-4eb3-9e9b-ab00ccc64e78",
+        "0181fb0b-d8bd-4171-ae32-488b391fa1a8",
+        "0901b225-10cb-45f0-9af4-c1b7a6080fbf",
+        "14bd97ce-04cf-4e82-80bf-60a2ae5e89af",
+        "1b185aff-17e5-4651-a633-576271422e37",
+        "1bee76ca-bf3a-4761-ab96-104e1fa43ecd",
+        "1d4015d2-c5f4-4209-a1ee-81559c4fb933",
+        "21b217a5-1b30-4619-b9bb-00da195e643a",
+        "2968bd3f-5089-4638-ae05-1013602c2a5e",
+        "29f51b17-c0d2-43ea-8695-8089c5c78a09",
+        "2de39907-6e81-4b55-a5cf-aeb4d9111ed7",
+        "373fdcb4-305e-491c-8e5c-fabdc0083c86",
+        "3b7c0f74-a189-4060-8250-29be08a63d00",
+        "3ef0c5f2-554b-44af-b659-57e3a33cdbd2",
+        "4078f120-fb2a-46e3-a52d-99c61a238429",
+        "41a6282c-9e3d-4aef-8723-84c9cac64d3b",
+        "41c8c39b-d73b-4bf9-9a7e-a66ad2e1d1c8",
+        "4983fe41-2e80-4ef0-8a6f-f28dcabd6d14",
+        "4df1bfc3-a1b9-4244-b32f-c9a0c54645f1",
+        "51540d43-a25b-4c03-b921-e06550bced17",
+        "5fe68a12-1a51-4873-9944-506c729853f8",
+        "61e82e42-1fef-4abf-8d49-6e66a9308826",
+        "63fe2f82-7579-4c9a-b1b5-352bacbb7653",
+        "6704feaa-dfa5-4a11-81a2-6ae51d582888",
+        "678d6921-9a77-4c80-9179-4b4d8db36cd3",
+        "6f25fc55-241a-4f0e-b77a-829fc650ba74",
+        "735a10db-02f7-465d-bc03-8b74d2766eb9",
+        "766f8966-f013-438f-aef8-2660fd0abcc1",
+        "842d2c5f-00a4-41d4-959b-e07e81e39e22",
+        "860dd332-fff7-401e-b3c7-f1917acfb10c",
+        "8d30da73-ce79-4e54-b1ae-a1349a025298",
+        "8f322821-a641-40c9-b551-d63499c7d459",
+        "90d6cd1c-4b8f-47bb-9c7c-d31876bf0506",
+        "9272497c-3cd5-409f-96bf-1894cf754995",
+        "929e8918-30a5-43dd-aac6-daaffd25f1c8",
+        "9bf3358d-02b4-4608-9c51-479293f70fc5",
+        "9d1111ce-b42d-45dd-be7e-e4816ebb6dd7",
+        "9e44d676-2864-45f9-b560-2525b05982bf",
+        "a371ce8f-cc71-46be-8d77-385b7d084a61",
+        "a7f93cf7-4de1-4f16-a9c9-c159af390c17",
+        "ac3929f6-1e5e-4486-a8fc-4e29d3e24d9c",
+        "af100698-c54e-4eab-8722-6e3886fd7ba5",
+        "af24525b-c543-4db4-a3b2-8ff5bdb96476",
+        "b47886ec-36ff-43b0-be64-32baf7985cd7",
+        "ba7c2390-2fa8-4756-a8a1-2fd0d58fcb1e",
+        "bc3723d5-1e74-4f62-a6b3-ac0965d9abfb",
+        "bf4fc30e-a16b-4980-8265-22921dfae450",
+        "c231cdad-dc11-4b24-aff4-087cb037dbfb",
+        "c522975d-1177-4ac8-9f0c-4070050a2b6f",
+        "cec91996-8e47-4d37-8acb-cb9a5d788727",
+        "d151e206-4389-45ad-8d5b-85bbbe18d50b",
+        "d4630596-557a-49ce-9591-61f505448cc6",
+        "ddc129ef-8c11-4b66-ba15-5fac3d30eead",
+        "dfc32ae3-d1d9-4e45-a391-2d38a37cd359",
+        "e014d99c-8d1d-44e1-a54b-e1b87707c6da",
+        "e7edbddf-28a8-454a-a812-a1e95f177cd9",
+        "e8983485-7706-48ae-9adb-9445d3391611",
+        "ea7100b3-1b10-46d8-838c-24d9776819da",
+        "ec50fa5f-9196-4311-911c-325ce2b20c1c",
+        "f005948c-185a-4476-b49f-66a7ba9948f1",
+        "f0fa7a58-ebb9-4e5f-9cd3-9d1713b11d65",
+        "f5ac3021-7247-44c4-adf5-de43cb48a1c4",
+        "faac936f-7c84-44f1-80b2-9876652178d9",
+        "fc4f8ea9-56d5-42f8-9af3-eb8dd812c4ee"
+      ],
+      "heldOutSourceCount": 64,
+      "remainingDevelopmentSources": 72,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 10,
+        "previousDevelopment": 54
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "schedule:open-ended-clock",
+      "heldOutSources": [
+        "3c05c41e-6cf8-484d-896c-0ce442442bec",
+        "f9a58e10-4e53-4a9a-b3ee-6c95bcdd5c2c"
+      ],
+      "heldOutSourceCount": 2,
+      "remainingDevelopmentSources": 134,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 1,
+        "previousDevelopment": 1
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "schedule:partial-or-bounded-validity",
+      "heldOutSources": [
+        "0ab98ff5-d0f2-40d9-89f2-e7369dcf0abc",
+        "1398620a-25e0-40a6-bb90-b276c6970bea",
+        "17fa6a31-e484-4c7b-b217-913671287ddf",
+        "2c8c1283-9451-4820-8ce8-85899d28463d",
+        "2e5d2490-c303-4970-8d4b-3abe5b5a9c60",
+        "326ff1e8-69b1-4456-8a04-1f4e2e36ede3",
+        "3565d4a6-36cf-47aa-b998-f881d7396a63",
+        "38a5fac9-c935-4945-84e8-feff75ecfe55",
+        "39804b8c-61d8-4e83-9061-fe412548f05e",
+        "4177f9fb-0d17-4d1e-8063-99b03b66be5d",
+        "41ee6bfe-6d2b-41c8-b75d-c02970592dd6",
+        "443b7d9c-7196-4d00-984d-98a7647f0444",
+        "4a6e8480-9f14-4ca5-9776-554882a2d2c0",
+        "4c4c5c51-d94d-46c1-bc74-1b22ab004e48",
+        "4efaa44f-bcd4-453f-84a6-c73360d6eb50",
+        "4f1b2128-7f4b-4359-8026-ec3921ef6036",
+        "5d9c6be7-b348-4b8e-9c7f-273338462913",
+        "6a63e653-45f8-4f4b-a68e-8d98f48f1b08",
+        "6d38b7a3-f236-47d8-9623-308c67fe0772",
+        "6d50e2f6-666a-493b-a486-bc8f658b5a59",
+        "718bf385-6cd1-4fd4-a584-73b15e5e2eb4",
+        "7511fbbc-bfaf-4129-bcf6-54826e5c2796",
+        "7a16bf36-3567-406b-86e9-408783b13c01",
+        "7b5f6873-7379-4a95-9048-9e48ac5178f4",
+        "848839a3-657d-4c96-ab48-b91b59283689",
+        "8992177e-0d45-41e2-b921-418f6986fbc9",
+        "89f75657-5d19-42a9-8490-f7c54cb1e0dd",
+        "91e2047d-40a7-4cec-a074-def57eac8a23",
+        "98b7a0dc-d1ee-4526-b453-5d4ccdb5b6f0",
+        "a39cf38a-5912-45cf-9111-1fde99c5fad6",
+        "a94c4a2f-5958-4fd5-b873-58d3eca9cd6c",
+        "b1ef0ea8-a7eb-47ea-b7bd-e4e9cf389d2e",
+        "b3f08a42-3e01-49de-947a-c862aa726b92",
+        "c4901367-7566-4058-b575-23c175f6b482",
+        "c9629428-b1ee-4cd4-9920-5e26593eba29",
+        "ca978735-68b0-4cca-bdaf-e4bd6df52186",
+        "d3538349-4315-44ce-b156-3e84b58ab4ef",
+        "d7ece0cd-061c-4d64-a432-177c4f65b533",
+        "db591e1e-c7d8-45ae-81bc-1e4298940afa",
+        "dd53cd22-6e58-4c88-b5e0-81df80eac61c",
+        "de9ac542-e0c8-430e-940f-da714c32bc2c",
+        "e1f271b3-0f3f-4ce4-bec0-634bbcbb2ea9",
+        "e45ece49-da5d-4a9b-a9de-5b6c40442c3e",
+        "ec0f376b-2015-44b3-902e-4ba399304d63",
+        "ed2edfd0-418f-449f-8b2d-35b8707bf130",
+        "ed4fa14d-a658-47f7-a481-6bd5f1d17784",
+        "f51ee41d-8225-4890-96f5-32184bc758ad",
+        "f5cf4934-f900-405b-a758-98075d2bb5d8",
+        "fa225e1e-6cb3-4ad2-ae92-aa1a5a0d8b22",
+        "ff46147f-9bc7-4360-bb6c-fd9077a8e546",
+        "ff98a57c-12e4-4eb0-b2bd-6c18b867cc8c"
+      ],
+      "heldOutSourceCount": 51,
+      "remainingDevelopmentSources": 85,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 13,
+        "previousDevelopment": 38
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "schedule:recurring-weekday",
+      "heldOutSources": [
+        "37a564e6-3ba7-4195-b159-a655b7fa78cb",
+        "91e2047d-40a7-4cec-a074-def57eac8a23",
+        "c9cb4251-bbe4-40fd-9532-5071e5ab09e9",
+        "dd53cd22-6e58-4c88-b5e0-81df80eac61c"
+      ],
+      "heldOutSourceCount": 4,
+      "remainingDevelopmentSources": 132,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 1,
+        "previousDevelopment": 3
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    },
+    {
+      "foldId": "schedule:weekday-scope",
+      "heldOutSources": [
+        "26f643e2-44cb-43e6-b310-c5ee358e5af1",
+        "3a96eeec-91b5-4b82-836a-79b00bfcdc3e",
+        "49b1ae5e-dd4b-43e9-962d-9ee0ccfb1a9f",
+        "4b51dbd5-36da-4d70-b6d6-c69773fcf869",
+        "5db90896-df53-412c-8b51-1b3cfd51b31a",
+        "82763b20-ef73-46e6-9dc9-d37f58ac5ff8",
+        "9ed1630c-141f-4f1b-91dd-f802201b2b5c",
+        "bcb6e4c5-ad05-4282-a7ba-0d659283ff28",
+        "dfcdc850-7d0c-46e4-bc21-f4bd3dfd6112"
+      ],
+      "heldOutSourceCount": 9,
+      "remainingDevelopmentSources": 127,
+      "originalBaselineCohortOverlap": {
+        "previousHoldout": 2,
+        "previousDevelopment": 7
+      },
+      "use": "independent leave-family-out diagnostic; do not pool overlapping folds as independent samples"
+    }
+  ],
+  "sources": [
+    {
+      "sourcePostId": "a94c4a2f-5958-4fd5-b873-58d3eca9cd6c",
+      "channel": "sgfooddeals",
+      "cohort": "holdout",
+      "url": "https://t.me/sgfooddeals/4870",
+      "merchantFamily": "7 eleven",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "4078f120-fb2a-46e3-a52d-99c61a238429",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4871",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "ec0f376b-2015-44b3-902e-4ba399304d63",
+      "channel": "sgfooddeals",
+      "cohort": "holdout",
+      "url": "https://t.me/sgfooddeals/4872",
+      "merchantFamily": "kimpson s table",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "ed2edfd0-418f-449f-8b2d-35b8707bf130",
+      "channel": "sgfooddeals",
+      "cohort": "holdout",
+      "url": "https://t.me/sgfooddeals/4874",
+      "merchantFamily": "captain kim",
+      "scheduleFamilies": [
+        "holiday-scope",
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "bcb6e4c5-ad05-4282-a7ba-0d659283ff28",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4875",
+      "merchantFamily": "carnaby",
+      "scheduleFamilies": [
+        "weekday-scope"
+      ]
+    },
+    {
+      "sourcePostId": "2de39907-6e81-4b55-a5cf-aeb4d9111ed7",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4876",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "db591e1e-c7d8-45ae-81bc-1e4298940afa",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4877",
+      "merchantFamily": "burnt cones",
+      "scheduleFamilies": [
+        "clock-range",
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "373fdcb4-305e-491c-8e5c-fabdc0083c86",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4878",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "3b7c0f74-a189-4060-8250-29be08a63d00",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4879",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "a39cf38a-5912-45cf-9111-1fde99c5fad6",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4880",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "8e94dbd4-a8ef-494c-8d9e-54fca6e27063",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4881",
+      "merchantFamily": "tavola aperta",
+      "scheduleFamilies": [
+        "clock-range"
+      ]
+    },
+    {
+      "sourcePostId": "dfc32ae3-d1d9-4e45-a391-2d38a37cd359",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4882",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "ed4fa14d-a658-47f7-a481-6bd5f1d17784",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4883",
+      "merchantFamily": "more yogurt",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "af100698-c54e-4eab-8722-6e3886fd7ba5",
+      "channel": "sgfooddeals",
+      "cohort": "holdout",
+      "url": "https://t.me/sgfooddeals/4884",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "3565d4a6-36cf-47aa-b998-f881d7396a63",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4885",
+      "merchantFamily": "daya izakaya",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "9ed1630c-141f-4f1b-91dd-f802201b2b5c",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4887",
+      "merchantFamily": "chix hot chicken",
+      "scheduleFamilies": [
+        "weekday-scope"
+      ]
+    },
+    {
+      "sourcePostId": "14bd97ce-04cf-4e82-80bf-60a2ae5e89af",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4888",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "3ef0c5f2-554b-44af-b659-57e3a33cdbd2",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4889",
+      "merchantFamily": "unsupported or empty post",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "7511fbbc-bfaf-4129-bcf6-54826e5c2796",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4890",
+      "merchantFamily": "4fingers",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "1398620a-25e0-40a6-bb90-b276c6970bea",
+      "channel": "sgfooddeals",
+      "cohort": "holdout",
+      "url": "https://t.me/sgfooddeals/4891",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "f51ee41d-8225-4890-96f5-32184bc758ad",
+      "channel": "sgfooddeals",
+      "cohort": "holdout",
+      "url": "https://t.me/sgfooddeals/4893",
+      "merchantFamily": "starbucks",
+      "scheduleFamilies": [
+        "clock-range",
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "93d8f5ff-059c-4c5b-ba7b-f0423cefae03",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4894",
+      "merchantFamily": "fame by dad s corner",
+      "scheduleFamilies": [
+        "clock-range"
+      ]
+    },
+    {
+      "sourcePostId": "4a6e8480-9f14-4ca5-9776-554882a2d2c0",
+      "channel": "sgfooddeals",
+      "cohort": "holdout",
+      "url": "https://t.me/sgfooddeals/4895",
+      "merchantFamily": "braek acai coffee",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "b1ef0ea8-a7eb-47ea-b7bd-e4e9cf389d2e",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4896",
+      "merchantFamily": "new ubin seafood",
+      "scheduleFamilies": [
+        "clock-range",
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "1196fdbb-8a48-4a03-83d1-37c38f92c57b",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4897",
+      "merchantFamily": "gwanghwamun mijin",
+      "scheduleFamilies": [
+        "clock-range"
+      ]
+    },
+    {
+      "sourcePostId": "443b7d9c-7196-4d00-984d-98a7647f0444",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4898",
+      "merchantFamily": "chateraise",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "0943e9cb-3508-43d8-8840-4b9e90df7395",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4899",
+      "merchantFamily": "sushiro",
+      "scheduleFamilies": [
+        "clock-range"
+      ]
+    },
+    {
+      "sourcePostId": "51540d43-a25b-4c03-b921-e06550bced17",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4900",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "6704feaa-dfa5-4a11-81a2-6ae51d582888",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4901",
+      "merchantFamily": "pizza hut",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "4177f9fb-0d17-4d1e-8063-99b03b66be5d",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4902",
+      "merchantFamily": "morganfield s",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "4b51dbd5-36da-4d70-b6d6-c69773fcf869",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4903",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "weekday-scope"
+      ]
+    },
+    {
+      "sourcePostId": "17fa6a31-e484-4c7b-b217-913671287ddf",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4904",
+      "merchantFamily": "gelare",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "b47886ec-36ff-43b0-be64-32baf7985cd7",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4905",
+      "merchantFamily": "meatsmith",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "ff46147f-9bc7-4360-bb6c-fd9077a8e546",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4906",
+      "merchantFamily": "hello arigato",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "cec91996-8e47-4d37-8acb-cb9a5d788727",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4907",
+      "merchantFamily": "kafey haus",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "735a10db-02f7-465d-bc03-8b74d2766eb9",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4908",
+      "merchantFamily": "omuplace",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "4c4c5c51-d94d-46c1-bc74-1b22ab004e48",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4909",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "89f75657-5d19-42a9-8490-f7c54cb1e0dd",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4910",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "dfcdc850-7d0c-46e4-bc21-f4bd3dfd6112",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4912",
+      "merchantFamily": "common grill",
+      "scheduleFamilies": [
+        "weekday-scope",
+        "clock-range"
+      ]
+    },
+    {
+      "sourcePostId": "842d2c5f-00a4-41d4-959b-e07e81e39e22",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4913",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "c231cdad-dc11-4b24-aff4-087cb037dbfb",
+      "channel": "sgfooddeals",
+      "cohort": "holdout",
+      "url": "https://t.me/sgfooddeals/4915",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "98b7a0dc-d1ee-4526-b453-5d4ccdb5b6f0",
+      "channel": "sgfooddeals",
+      "cohort": "holdout",
+      "url": "https://t.me/sgfooddeals/4916",
+      "merchantFamily": "captain kim",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "f5ac3021-7247-44c4-adf5-de43cb48a1c4",
+      "channel": "sgfooddeals",
+      "cohort": "holdout",
+      "url": "https://t.me/sgfooddeals/4917",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "7b5f6873-7379-4a95-9048-9e48ac5178f4",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4918",
+      "merchantFamily": "rollney",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "91e2047d-40a7-4cec-a074-def57eac8a23",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4919",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "recurring-weekday",
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "fc4f8ea9-56d5-42f8-9af3-eb8dd812c4ee",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4920",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "5fe68a12-1a51-4873-9944-506c729853f8",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4921",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "b3f08a42-3e01-49de-947a-c862aa726b92",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4923",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "9331f4fb-e13e-4503-8895-58ea0f33495f",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4924",
+      "merchantFamily": "brash boys coffee",
+      "scheduleFamilies": [
+        "clock-range"
+      ]
+    },
+    {
+      "sourcePostId": "6a63e653-45f8-4f4b-a68e-8d98f48f1b08",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4925",
+      "merchantFamily": "shiok burger",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "8362c885-3f9b-40ff-83d7-e71817a01070",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4926",
+      "merchantFamily": "sukiya",
+      "scheduleFamilies": [
+        "clock-range"
+      ]
+    },
+    {
+      "sourcePostId": "011f21bb-4c93-4eb3-9e9b-ab00ccc64e78",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4927",
+      "merchantFamily": "kimpson s table",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "0901b225-10cb-45f0-9af4-c1b7a6080fbf",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4928",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "3a96eeec-91b5-4b82-836a-79b00bfcdc3e",
+      "channel": "sgfooddeals",
+      "cohort": "holdout",
+      "url": "https://t.me/sgfooddeals/4930",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "weekday-scope"
+      ]
+    },
+    {
+      "sourcePostId": "38a5fac9-c935-4945-84e8-feff75ecfe55",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4931",
+      "merchantFamily": "smooy",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "5db90896-df53-412c-8b51-1b3cfd51b31a",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4932",
+      "merchantFamily": "ajumma s korean restaurant",
+      "scheduleFamilies": [
+        "weekday-scope",
+        "holiday-scope",
+        "clock-range"
+      ]
+    },
+    {
+      "sourcePostId": "26f643e2-44cb-43e6-b310-c5ee358e5af1",
+      "channel": "sgfooddeals",
+      "cohort": "holdout",
+      "url": "https://t.me/sgfooddeals/4933",
+      "merchantFamily": "paradise hotpot",
+      "scheduleFamilies": [
+        "weekday-scope",
+        "clock-range"
+      ]
+    },
+    {
+      "sourcePostId": "848839a3-657d-4c96-ab48-b91b59283689",
+      "channel": "sgfooddeals",
+      "cohort": "development",
+      "url": "https://t.me/sgfooddeals/4934",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "d7ece0cd-061c-4d64-a432-177c4f65b533",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4407",
+      "merchantFamily": "sm oy",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "e45ece49-da5d-4a9b-a9de-5b6c40442c3e",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4408",
+      "merchantFamily": "sushi express",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "1d4015d2-c5f4-4209-a1ee-81559c4fb933",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4409",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "61e82e42-1fef-4abf-8d49-6e66a9308826",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4410",
+      "merchantFamily": "mcdonald s",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "f5cf4934-f900-405b-a758-98075d2bb5d8",
+      "channel": "tastesoulsg",
+      "cohort": "holdout",
+      "url": "https://t.me/tastesoulsg/4411",
+      "merchantFamily": "burnt cones",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "e014d99c-8d1d-44e1-a54b-e1b87707c6da",
+      "channel": "tastesoulsg",
+      "cohort": "holdout",
+      "url": "https://t.me/tastesoulsg/4412",
+      "merchantFamily": "tofu g",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "8f322821-a641-40c9-b551-d63499c7d459",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4413",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "39804b8c-61d8-4e83-9061-fe412548f05e",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4414",
+      "merchantFamily": "after hours",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "fa225e1e-6cb3-4ad2-ae92-aa1a5a0d8b22",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4415",
+      "merchantFamily": "the coffee bean tea leaf",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "766f8966-f013-438f-aef8-2660fd0abcc1",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4416",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "f0fa7a58-ebb9-4e5f-9cd3-9d1713b11d65",
+      "channel": "tastesoulsg",
+      "cohort": "holdout",
+      "url": "https://t.me/tastesoulsg/4417",
+      "merchantFamily": "kei kaisendon",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "e8983485-7706-48ae-9adb-9445d3391611",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4418",
+      "merchantFamily": "moreyogurt",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "41a6282c-9e3d-4aef-8723-84c9cac64d3b",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4419",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "49b1ae5e-dd4b-43e9-962d-9ee0ccfb1a9f",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4420",
+      "merchantFamily": "sushiro",
+      "scheduleFamilies": [
+        "weekday-scope"
+      ]
+    },
+    {
+      "sourcePostId": "9bf3358d-02b4-4608-9c51-479293f70fc5",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4421",
+      "merchantFamily": "starbucks",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "41c8c39b-d73b-4bf9-9a7e-a66ad2e1d1c8",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4422",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "c9cb4251-bbe4-40fd-9532-5071e5ab09e9",
+      "channel": "tastesoulsg",
+      "cohort": "holdout",
+      "url": "https://t.me/tastesoulsg/4423",
+      "merchantFamily": "mos burger",
+      "scheduleFamilies": [
+        "recurring-weekday"
+      ]
+    },
+    {
+      "sourcePostId": "4f1b2128-7f4b-4359-8026-ec3921ef6036",
+      "channel": "tastesoulsg",
+      "cohort": "holdout",
+      "url": "https://t.me/tastesoulsg/4424",
+      "merchantFamily": "the coffee bean tea leaf",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "9272497c-3cd5-409f-96bf-1894cf754995",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4425",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "ca978735-68b0-4cca-bdaf-e4bd6df52186",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4426",
+      "merchantFamily": "jack s place",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "a7f93cf7-4de1-4f16-a9c9-c159af390c17",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4427",
+      "merchantFamily": "mcdonald s",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "af24525b-c543-4db4-a3b2-8ff5bdb96476",
+      "channel": "tastesoulsg",
+      "cohort": "holdout",
+      "url": "https://t.me/tastesoulsg/4428",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "6d50e2f6-666a-493b-a486-bc8f658b5a59",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4429",
+      "merchantFamily": "kfc",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "ec50fa5f-9196-4311-911c-325ce2b20c1c",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4430",
+      "merchantFamily": "ikea",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "29f51b17-c0d2-43ea-8695-8089c5c78a09",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4431",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "35567f45-c932-4973-94da-9105f3fe46b9",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4432",
+      "merchantFamily": "chagee",
+      "scheduleFamilies": [
+        "clock-range"
+      ]
+    },
+    {
+      "sourcePostId": "c4901367-7566-4058-b575-23c175f6b482",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4433",
+      "merchantFamily": "potato corner",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "9e44d676-2864-45f9-b560-2525b05982bf",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4434",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "14602b39-aa29-401d-aeab-e33c7d1a405e",
+      "channel": "tastesoulsg",
+      "cohort": "holdout",
+      "url": "https://t.me/tastesoulsg/4435",
+      "merchantFamily": "gwanghwamun mijin",
+      "scheduleFamilies": [
+        "clock-range"
+      ]
+    },
+    {
+      "sourcePostId": "2e5d2490-c303-4970-8d4b-3abe5b5a9c60",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4436",
+      "merchantFamily": "morganfield s",
+      "scheduleFamilies": [
+        "clock-range",
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "bc3723d5-1e74-4f62-a6b3-ac0965d9abfb",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4437",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "4efaa44f-bcd4-453f-84a6-c73360d6eb50",
+      "channel": "tastesoulsg",
+      "cohort": "holdout",
+      "url": "https://t.me/tastesoulsg/4438",
+      "merchantFamily": "lixin teochew fishball noodles",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "ac3929f6-1e5e-4486-a8fc-4e29d3e24d9c",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4439",
+      "merchantFamily": "sushidan",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "929e8918-30a5-43dd-aac6-daaffd25f1c8",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4440",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "ff98a57c-12e4-4eb0-b2bd-6c18b867cc8c",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4441",
+      "merchantFamily": "domino s",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "7a16bf36-3567-406b-86e9-408783b13c01",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4442",
+      "merchantFamily": "mukai",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "1b185aff-17e5-4651-a633-576271422e37",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4443",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "de9ac542-e0c8-430e-940f-da714c32bc2c",
+      "channel": "tastesoulsg",
+      "cohort": "holdout",
+      "url": "https://t.me/tastesoulsg/4444",
+      "merchantFamily": "zapangi coffee",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "718bf385-6cd1-4fd4-a584-73b15e5e2eb4",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4445",
+      "merchantFamily": "7 eleven",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "f005948c-185a-4476-b49f-66a7ba9948f1",
+      "channel": "tastesoulsg",
+      "cohort": "holdout",
+      "url": "https://t.me/tastesoulsg/4446",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "d151e206-4389-45ad-8d5b-85bbbe18d50b",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4447",
+      "merchantFamily": "kei kaisendon",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "2968bd3f-5089-4638-ae05-1013602c2a5e",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4448",
+      "merchantFamily": "yakiniku like",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "63fe2f82-7579-4c9a-b1b5-352bacbb7653",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4449",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "8992177e-0d45-41e2-b921-418f6986fbc9",
+      "channel": "tastesoulsg",
+      "cohort": "holdout",
+      "url": "https://t.me/tastesoulsg/4450",
+      "merchantFamily": "dorra slimming",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "d3538349-4315-44ce-b156-3e84b58ab4ef",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4451",
+      "merchantFamily": "secret recipe",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "4df1bfc3-a1b9-4244-b32f-c9a0c54645f1",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4452",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "d4630596-557a-49ce-9591-61f505448cc6",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4453",
+      "merchantFamily": "hokkaido baked cheese tart",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "5d9c6be7-b348-4b8e-9c7f-273338462913",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4454",
+      "merchantFamily": "din tai fung",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "1bee76ca-bf3a-4761-ab96-104e1fa43ecd",
+      "channel": "tastesoulsg",
+      "cohort": "holdout",
+      "url": "https://t.me/tastesoulsg/4455",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "2c8c1283-9451-4820-8ce8-85899d28463d",
+      "channel": "tastesoulsg",
+      "cohort": "holdout",
+      "url": "https://t.me/tastesoulsg/4456",
+      "merchantFamily": "coffeehouse by kobashi",
+      "scheduleFamilies": [
+        "clock-range",
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "326ff1e8-69b1-4456-8a04-1f4e2e36ede3",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4457",
+      "merchantFamily": "genki sushi",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "860dd332-fff7-401e-b3c7-f1917acfb10c",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4458",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "f9a58e10-4e53-4a9a-b3ee-6c95bcdd5c2c",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4459",
+      "merchantFamily": "guzman y gomez",
+      "scheduleFamilies": [
+        "open-ended-clock"
+      ]
+    },
+    {
+      "sourcePostId": "6d38b7a3-f236-47d8-9623-308c67fe0772",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4460",
+      "merchantFamily": "pepper lunch",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "ea7100b3-1b10-46d8-838c-24d9776819da",
+      "channel": "tastesoulsg",
+      "cohort": "holdout",
+      "url": "https://t.me/tastesoulsg/4461",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "678d6921-9a77-4c80-9179-4b4d8db36cd3",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4462",
+      "merchantFamily": "kei kaisendon",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "9d1111ce-b42d-45dd-be7e-e4816ebb6dd7",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4463",
+      "merchantFamily": "kimpson s table",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "faac936f-7c84-44f1-80b2-9876652178d9",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4464",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "0181fb0b-d8bd-4171-ae32-488b391fa1a8",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4466",
+      "merchantFamily": "4fingers",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "90d6cd1c-4b8f-47bb-9c7c-d31876bf0506",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4467",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "3c05c41e-6cf8-484d-896c-0ce442442bec",
+      "channel": "tastesoulsg",
+      "cohort": "holdout",
+      "url": "https://t.me/tastesoulsg/4468",
+      "merchantFamily": "subway",
+      "scheduleFamilies": [
+        "open-ended-clock"
+      ]
+    },
+    {
+      "sourcePostId": "e7edbddf-28a8-454a-a812-a1e95f177cd9",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4469",
+      "merchantFamily": "shiok burger",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "ba7c2390-2fa8-4756-a8a1-2fd0d58fcb1e",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4470",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "a371ce8f-cc71-46be-8d77-385b7d084a61",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4471",
+      "merchantFamily": "papi s tacos",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "c9629428-b1ee-4cd4-9920-5e26593eba29",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4472",
+      "merchantFamily": "milkyshop",
+      "scheduleFamilies": [
+        "clock-range",
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "ddc129ef-8c11-4b66-ba15-5fac3d30eead",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4473",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "82763b20-ef73-46e6-9dc9-d37f58ac5ff8",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4474",
+      "merchantFamily": "ajumma s",
+      "scheduleFamilies": [
+        "weekday-scope",
+        "holiday-scope"
+      ]
+    },
+    {
+      "sourcePostId": "e1f271b3-0f3f-4ce4-bec0-634bbcbb2ea9",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4475",
+      "merchantFamily": "support jalan besar s small kitchens",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "8d30da73-ce79-4e54-b1ae-a1349a025298",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4476",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "0ab98ff5-d0f2-40d9-89f2-e7369dcf0abc",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4477",
+      "merchantFamily": "sushiro",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "37a564e6-3ba7-4195-b159-a655b7fa78cb",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4478",
+      "merchantFamily": "papi s tacos",
+      "scheduleFamilies": [
+        "recurring-weekday"
+      ]
+    },
+    {
+      "sourcePostId": "21b217a5-1b30-4619-b9bb-00da195e643a",
+      "channel": "tastesoulsg",
+      "cohort": "holdout",
+      "url": "https://t.me/tastesoulsg/4479",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "dd53cd22-6e58-4c88-b5e0-81df80eac61c",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4480",
+      "merchantFamily": "racines",
+      "scheduleFamilies": [
+        "recurring-weekday",
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "6f25fc55-241a-4f0e-b77a-829fc650ba74",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4481",
+      "merchantFamily": "nasty cookie",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "4983fe41-2e80-4ef0-8a6f-f28dcabd6d14",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4482",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "bf4fc30e-a16b-4980-8265-22921dfae450",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4484",
+      "merchantFamily": "unknown",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    },
+    {
+      "sourcePostId": "41ee6bfe-6d2b-41c8-b75d-c02970592dd6",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4485",
+      "merchantFamily": "mcdonald s",
+      "scheduleFamilies": [
+        "partial-or-bounded-validity"
+      ]
+    },
+    {
+      "sourcePostId": "c522975d-1177-4ac8-9f0c-4070050a2b6f",
+      "channel": "tastesoulsg",
+      "cohort": "development",
+      "url": "https://t.me/tastesoulsg/4486",
+      "merchantFamily": "koi th",
+      "scheduleFamilies": [
+        "no-explicit-schedule-family"
+      ]
+    }
+  ]
+}

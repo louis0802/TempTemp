@@ -1,0 +1,250 @@
+{
+  "format": "mvp-offer-lifecycle-historical-units-v1",
+  "provenance": {
+    "path": "docs/changes/promotion-nlp-atomic-evidence-graph-v4/source-review.json",
+    "sha256": "94b962d75488a5193a69668c017b8017ebb726f002cc894e96684a8c75fcf8f2",
+    "sourceCases": 49
+  },
+  "count": 34,
+  "limitations": "These are 34 historical V4 normalization units across multiple source families, not a representative lifecycle corpus and not a verified inventory of 27 schedule grammar forms. Historical outputs remain diagnostic only.",
+  "units": [
+    {
+      "historicalUnitId": "pepper_lunch_sg-student-meal::main-dish-discount",
+      "sourceCaseId": "pepper_lunch_sg-student-meal",
+      "rawSha256": "83f35090ce2454f370f3cad1d284eabe80162edc9d05272b697724c663e0ad13",
+      "acceptedInHistoricalRun": true,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "pepper_lunch_sg-uper-value-deal::steak-bites-120g",
+      "sourceCaseId": "pepper_lunch_sg-uper-value-deal",
+      "rawSha256": "fb74697de248f21716a26b513ecdf48491e40de6605e140ed7b5f9df438f2cfe",
+      "acceptedInHistoricalRun": true,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "pepper_lunch_sg-uper-value-deal::steak-bites-160g",
+      "sourceCaseId": "pepper_lunch_sg-uper-value-deal",
+      "rawSha256": "4371c6f8150187aebce618589f51c59fb9c55e5feb99abb6a98957bcf3b48988",
+      "acceptedInHistoricalRun": true,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "pepper_lunch_sg-uper-value-deal::steak-bites-200g",
+      "sourceCaseId": "pepper_lunch_sg-uper-value-deal",
+      "rawSha256": "cdc30e1a4db570729f607d0be296ccc3908ec0bd62354d03ded91b00388b41da",
+      "acceptedInHistoricalRun": true,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "pepper_lunch_sg-weekday-lunch::weekday-lunch-deal",
+      "sourceCaseId": "pepper_lunch_sg-weekday-lunch",
+      "rawSha256": "2b0e2f6aafda9b519f51a30574a047ab2c894e6a1524fc187151f5725eaaa349",
+      "acceptedInHistoricalRun": true,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "pepper_lunch_sg-dine-with-pride::p1",
+      "sourceCaseId": "pepper_lunch_sg-dine-with-pride",
+      "rawSha256": "179e17437b4078f5efe353b62bdc106ebf00cab21e09344819e8327b69ad8ab1",
+      "acceptedInHistoricalRun": true,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "shake_shack_sg-100-angus-beef-just-for-you::say-cheese-burger-bundle-offer",
+      "sourceCaseId": "shake_shack_sg-100-angus-beef-just-for-you",
+      "rawSha256": "c0555cf861add7994b06255da049ff1bbaaf33bba6eb343613a237c99ac5a84b",
+      "acceptedInHistoricalRun": false,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "shake_shack_sg-all-about-chickens::p1",
+      "sourceCaseId": "shake_shack_sg-all-about-chickens",
+      "rawSha256": "876d102acc7d64916c0bca995c08a4ec33a1f5085938b51704ee7e9f2b208aa6",
+      "acceptedInHistoricalRun": false,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "shake_shack_sg-feeding-a-crowd::catering-12-for-10",
+      "sourceCaseId": "shake_shack_sg-feeding-a-crowd",
+      "rawSha256": "196876dc1d66fc15f87385bcbe543c8a2e5129f7f71f02b2d9dee4aca5261e1c",
+      "acceptedInHistoricalRun": true,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "shake_shack_sg-feeding-a-crowd::complimentary-delivery-over-500",
+      "sourceCaseId": "shake_shack_sg-feeding-a-crowd",
+      "rawSha256": "fd38f780748c7469ca6b17529a24414799f84471e8c018c8569fee2cf74ccb37",
+      "acceptedInHistoricalRun": true,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "shake_shack_sg-national-cheeseburger-day::free-second-patty",
+      "sourceCaseId": "shake_shack_sg-national-cheeseburger-day",
+      "rawSha256": "161f9104ecbd869cd576ac23ad75f440d55f59131d9d0afacde22386b55fba08",
+      "acceptedInHistoricalRun": true,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "shake_shack_sg-singlish-lingo::singlish-complimentary-lemonade",
+      "sourceCaseId": "shake_shack_sg-singlish-lingo",
+      "rawSha256": "28cb6f43bb6cba7675a5ad6c0be3a45ff1eda5b36841ae05f83baa7ec72d5ed8",
+      "acceptedInHistoricalRun": true,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "shake_shack_sg-study-breaks-just-got-better::weekday_student_fries_offer",
+      "sourceCaseId": "shake_shack_sg-study-breaks-just-got-better",
+      "rawSha256": "2083b195c2c0aadbfd12a25dd939034fc88467c1b4a1713d3dfc074ca3282cab",
+      "acceptedInHistoricalRun": true,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "shake_shack_sg-this-ones-for-your-mom::mother-day-bundle",
+      "sourceCaseId": "shake_shack_sg-this-ones-for-your-mom",
+      "rawSha256": "e5699b41af51d6e451cd6d65b26badbf423e40dd0c9b38dcfba93a64c3b4c822",
+      "acceptedInHistoricalRun": false,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "captain_kim_sg-captain-kim-delivery::offer_1",
+      "sourceCaseId": "captain_kim_sg-captain-kim-delivery",
+      "rawSha256": "836cc9679a626e4fbef2e8f4350322b8ca0f66d6f5526c2a51746491cb0ff3c7",
+      "acceptedInHistoricalRun": true,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-1::p1",
+      "sourceCaseId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-1",
+      "rawSha256": "f3f0a1b03a698949b57fa1c22e057a0222833efb0b351d4316f2f4fb75ef3412",
+      "acceptedInHistoricalRun": false,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-2::weekday_lunch_early_bird",
+      "sourceCaseId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-2",
+      "rawSha256": "276c1c435b9d6471e7a9de4e544231eb382be046f430ee733cbd269f9387f5ad",
+      "acceptedInHistoricalRun": true,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-2::weekday_dinner_early_bird",
+      "sourceCaseId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-2",
+      "rawSha256": "ab811a7b650ef919bd9db4f9b38c17cd1877bc1b77e12cbdeec916f635d1e512",
+      "acceptedInHistoricalRun": false,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-2::weekend_lunch_dinner_early_bird",
+      "sourceCaseId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-2",
+      "rawSha256": "7c7aff4fd3b7444a8eaae7b8e2351396ceb65f6412b15ff325a86558b7fb28ff",
+      "acceptedInHistoricalRun": false,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-3::proposition1",
+      "sourceCaseId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-3",
+      "rawSha256": "8c21d140f1bd1c8d1f3f7d9c9d72818e8a91ba0d3f87a001aa862167306d9945",
+      "acceptedInHistoricalRun": true,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-3::captain_kim_4plus1",
+      "sourceCaseId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-3",
+      "rawSha256": "c5768449aafeac1f86405a1eef04e1fb0095b1c8f50018825efa5386632e956e",
+      "acceptedInHistoricalRun": true,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "bari_bari_steak_sg-promotions-1::weekday-lunch-special",
+      "sourceCaseId": "bari_bari_steak_sg-promotions-1",
+      "rawSha256": "5865f32ecb060428b5d8b77e62cae50d1f8504da2d760d4533eca940c1bdf144",
+      "acceptedInHistoricalRun": false,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "bari_bari_steak_sg-promotions-2::p1",
+      "sourceCaseId": "bari_bari_steak_sg-promotions-2",
+      "rawSha256": "d4699481b66c5b9ab1c23690e1401c5faa46a9cdeb3734ac992df4d881f3f87d",
+      "acceptedInHistoricalRun": true,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "bari_bari_steak_sg-promotions-3::senior_special",
+      "sourceCaseId": "bari_bari_steak_sg-promotions-3",
+      "rawSha256": "5206e1671c5726e27f0bc31a8f11a70978be4e33b2cf000fd7b513ef97dfa567",
+      "acceptedInHistoricalRun": true,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "bari_bari_steak_sg-promotions-4::p1",
+      "sourceCaseId": "bari_bari_steak_sg-promotions-4",
+      "rawSha256": "63628dccb83f2d7f8c39b8b7545ef1d78b30db318a600713c0c6cbe01107a502",
+      "acceptedInHistoricalRun": true,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "bari_bari_steak_sg-promotions-5::highball_beer_sake_cocktail_house_pours",
+      "sourceCaseId": "bari_bari_steak_sg-promotions-5",
+      "rawSha256": "aeec7c6ebd444c8a19f2723aaf37b3e9f32668126ebe628e6e5b6e5fd25d892f",
+      "acceptedInHistoricalRun": true,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "instagram-DDJfz9bynW-::salmon_yukke_1_for_1",
+      "sourceCaseId": "instagram-DDJfz9bynW-",
+      "rawSha256": "e5be1e271706ac1d4b74df0753f4d60430d893ed4d40fa7538e4284bfda7ae7c",
+      "acceptedInHistoricalRun": true,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "instagram-Dc-kxPJzx9B::p1",
+      "sourceCaseId": "instagram-Dc-kxPJzx9B",
+      "rawSha256": "24372d02154b30290b2ddd85b530d0d97ca2522ce5aeb868025c3847a94180f8",
+      "acceptedInHistoricalRun": true,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "instagram-DdQA3EChsjx::weekday_nasi_lemak_one_for_one",
+      "sourceCaseId": "instagram-DdQA3EChsjx",
+      "rawSha256": "392eb537024a6bf3feefba163caa6f2ab4530384266af3a180b79cfcf60ad464",
+      "acceptedInHistoricalRun": true,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "shake_shack_sg-flock-this-way::chicken_trio_deal",
+      "sourceCaseId": "shake_shack_sg-flock-this-way",
+      "rawSha256": "4c291f8778efa2460f95ca4c32e8dd550027d61f75206f1159a51a8c3cb5efe4",
+      "acceptedInHistoricalRun": true,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "shake_shack_sg-more-perks-less-fuss::app_rewards_cashback",
+      "sourceCaseId": "shake_shack_sg-more-perks-less-fuss",
+      "rawSha256": "6a19e95b99613320209703de7d352fd183fd82afce2e37908b97e092c92a8377",
+      "acceptedInHistoricalRun": true,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "shake_shack_sg-pucker-up-for-2-lemonades::lemonade-2",
+      "sourceCaseId": "shake_shack_sg-pucker-up-for-2-lemonades",
+      "rawSha256": "82a28a921e25e09ced7d0dc850868db7c9eb75e955c151c2a4841e1377c84ff9",
+      "acceptedInHistoricalRun": false,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "fairprice_sg-price-drop-buy-now-weekly-offers-from-20-off::weekly-price-drop-offer",
+      "sourceCaseId": "fairprice_sg-price-drop-buy-now-weekly-offers-from-20-off",
+      "rawSha256": "275a67c5cf796c32df775adc2ad26987706cb6556521da797eb737bec0bb4e53",
+      "acceptedInHistoricalRun": true,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    },
+    {
+      "historicalUnitId": "fairprice_sg-xtra-wine-flash-sale::wine_flash_deals",
+      "sourceCaseId": "fairprice_sg-xtra-wine-flash-sale",
+      "rawSha256": "d92e3d10196fdbcef0cd5785f3af43ebac435c6bf5ce8ebb97b7ef166d339c57",
+      "acceptedInHistoricalRun": true,
+      "classification": "historical model output provenance only; not lifecycle gold"
+    }
+  ]
+}
