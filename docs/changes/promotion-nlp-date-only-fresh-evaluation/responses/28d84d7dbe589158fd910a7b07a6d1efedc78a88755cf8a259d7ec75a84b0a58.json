@@ -1,0 +1,18 @@
+{
+  "taskId": "shake_shack_sg-local-faves-our-treat",
+  "agentId": "01a10cb7-4954-7b60-ab34-825efe2fde5f",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"complimentary weekly treat\"},\"merchant\":{\"value\":\"Shake Shack Singapore\",\"quote\":\"Voucher is only redeemable at Shake Shack Singapore.\"},\"title\":{\"value\":\"Local Faves, Our Treat\",\"quote\":\"Local Faves, Our Treat\"},\"benefit\":{\"value\":\"complimentary weekly treat\",\"quote\":\"check your Happy Point app every Monday for a complimentary weekly treat\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "2f3a3d88fce158ff154665b45219561cffd1499dbf1d858db396d169e5a0bbef",
+  "savedAt": "2026-10-05T15:38:28.062Z",
+  "inputSha256": "6735d3d94537b94185e97f355a3aa2d8ab86d6233eb5ed973a624881f539c69c",
+  "sourceSha256": "ed8d6805ca9cb530dc57c2cd83f2de28ee1f2bd995a3d8aac28ebc34ce767c02",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

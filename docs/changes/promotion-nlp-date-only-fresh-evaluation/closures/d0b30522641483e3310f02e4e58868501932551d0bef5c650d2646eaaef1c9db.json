@@ -1,0 +1,11 @@
+{
+  "taskId": "pepper_lunch_sg-student-meal",
+  "agentId": "01a10cb4-c63f-7331-83db-301a0c545d68",
+  "closedAt": "2026-10-05T15:36:51.660Z",
+  "toolResult": {
+    "previous_status": {
+      "completed": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Get a 15% OFF any main dish from the main menu after 5pm.\"},\"merchant\":{\"value\":\"Pepper Lunch\",\"quote\":\"Valid at Pepper Lunch restaurants only.\"},\"title\":{\"value\":\"15% OFF any main dish from the main menu after 5pm\",\"quote\":\"Get a 15% OFF any main dish from the main menu after 5pm.\"},\"benefit\":{\"value\":\"15% OFF any main dish from the main menu\",\"quote\":\"Get a 15% OFF any main dish from the main menu after 5pm.\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}"
+    }
+  },
+  "confirmation": "close_agent returned; shutdown requested"
+}

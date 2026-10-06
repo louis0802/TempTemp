@@ -1,0 +1,19 @@
+{
+  "taskId": "pepper_lunch_sg-weekday-lunch",
+  "agentId": "01a10cb4-cbe0-7e53-95ed-6c0b8d0be5ac",
+  "boundAt": "2026-10-05T15:35:38.007Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "ff40243b63091e1cd79854ca9fd3b8106425fb389ca0715124dbcc21ffe06a85",
+  "messageSha256": "e9668e5fc03299b890d780ea4ff4a2ed941fd37e7f308aa083356ad6652fd15a",
+  "toolConfirmed": {
+    "agentId": "01a10cb4-cbe0-7e53-95ed-6c0b8d0be5ac",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

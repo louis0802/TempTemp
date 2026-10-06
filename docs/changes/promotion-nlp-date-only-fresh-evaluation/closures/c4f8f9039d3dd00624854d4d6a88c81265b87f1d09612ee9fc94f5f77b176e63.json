@@ -1,0 +1,11 @@
+{
+  "taskId": "sushiro_sg-to-the-moon-and-back",
+  "agentId": "01a10cb6-f7e2-7321-b3fe-ef0636ae8bc0",
+  "closedAt": "2026-10-05T15:38:10.319Z",
+  "toolResult": {
+    "previous_status": {
+      "completed": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Let your taste buds journey to the moon and back from 23 Sep – 6 Oct!\"},\"merchant\":{\"value\":\"SUSHIRO\",\"quote\":\"Come discover the next chapter of lunar favourites at SUSHIRO.\"},\"title\":{\"value\":\"To the moon and back! Part 2\",\"quote\":\"To the moon and back! Part 2\"},\"benefit\":{\"value\":\"Lunar Tuna with Uni ($6.9++); Lunar Seaweed Imo-Mochi with Honey Butter (2.3++); Crab and Salmon Roe Mountain Wrap ($3.9++)\",\"quote\":\"Indulge in a moonlit moment of luxury with our Lunar Tuna with Uni ($6.9++) — bringing together the fresh delicate tuna paired together with creamy rich uni for a savoury finish~ 🍣 Meet our Lunar Seaweed Imo-Mochi with Honey Butter (2.3++) — crispy on the outside, delightfully chewy within, and finished with a luscious drizzle of sweet, buttery goodness! 🍯🧈 Lastly, don’t miss out on the Crab and Salmon Roe Mountain Wrap ($3.9++), — loaded with sweet crab and crowned with glistening salmon roe that is sure to bring you a delicious burst of flavour in a single bite.\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}"
+    }
+  },
+  "confirmation": "close_agent returned; shutdown requested"
+}

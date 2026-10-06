@@ -1,0 +1,11 @@
+{
+  "taskId": "instagram-DdQA3EChsjx",
+  "agentId": "01a10cb7-0c4c-7533-83ca-4084cbe8d7b5",
+  "closedAt": "2026-10-05T15:38:14.181Z",
+  "toolResult": {
+    "previous_status": {
+      "completed": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"enjoy 1 for 1 Nasi Lemak at Sinpopo Brand\"},\"merchant\":{\"value\":\"Sinpopo Brand\",\"quote\":\"at Sinpopo Brand\"},\"title\":{\"value\":\"1 for 1 Nasi Lemak\",\"quote\":\"enjoy 1 for 1 Nasi Lemak\"},\"benefit\":{\"value\":\"1 for 1 Nasi Lemak\",\"quote\":\"1 for 1 Nasi Lemak\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}"
+    }
+  },
+  "confirmation": "close_agent returned; shutdown requested"
+}

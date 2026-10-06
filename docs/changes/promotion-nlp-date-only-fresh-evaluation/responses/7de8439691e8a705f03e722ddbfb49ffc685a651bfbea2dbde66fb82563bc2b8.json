@@ -1,0 +1,18 @@
+{
+  "taskId": "shake_shack_sg-100-angus-beef-just-for-you",
+  "agentId": "01a10cb6-027e-7cf0-94d3-e3fc5a1f5533",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"From 23 – 26 September, when you order our Say Cheese (Burger) Bundle, we’ll treat you to a complimentary ShackBurger(Single).\"},\"merchant\":{\"value\":\"Shake Shack\",\"quote\":\"At Shake Shack, we don’t cut corners—especially when it comes to our beef.\"},\"title\":{\"value\":\"Say Cheese (Burger) Bundle with a complimentary ShackBurger (Single)\",\"quote\":\"when you order our Say Cheese (Burger) Bundle, we’ll treat you to a complimentary ShackBurger(Single).\"},\"benefit\":{\"value\":\"complimentary ShackBurger(Single)\",\"quote\":\"we’ll treat you to a complimentary ShackBurger(Single).\"},\"startDate\":{\"value\":\"2025-09-23\",\"quote\":\"Offer is available across all Shake Shack outlets in Singapore from 23-26 September 2025 only.\"},\"endDate\":{\"value\":\"2025-09-26\",\"quote\":\"Offer is available across all Shake Shack outlets in Singapore from 23-26 September 2025 only.\"},\"locationScope\":{\"value\":\"all_outlets\",\"quote\":\"Offer is available across all Shake Shack outlets in Singapore from 23-26 September 2025 only.\"},\"locationRules\":[{\"role\":\"participating\",\"names\":[\"Shake Shack outlets in Singapore\"],\"quote\":\"Offer is available across all Shake Shack outlets in Singapore from 23-26 September 2025 only.\"}]}\"}",
+  "transportError": null,
+  "rawOutputSha256": "f261452220023f9802390a6c101ec87673f84c6e947f24850e376d9184d56a36",
+  "savedAt": "2026-10-05T15:37:06.380Z",
+  "inputSha256": "d33dc252a04027c95920d6c302dd3b9f5ac0f0be01b2c472c22636d49b401c68",
+  "sourceSha256": "ffcf00b496063dce8801182934f64f6c166ed0b91101fc0a5ef40d456b6fcf0d",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

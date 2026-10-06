@@ -1,0 +1,11 @@
+{
+  "taskId": "holdout-tastesoulsg-4410",
+  "agentId": "01a10cb8-9bcf-78c1-a92d-e341a3ae8cc5",
+  "closedAt": "2026-10-05T15:39:58.168Z",
+  "toolResult": {
+    "previous_status": {
+      "completed": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"FREE Curry Sauce\"},\"merchant\":{\"value\":\"McDonald’s\",\"quote\":\"🍟 McDonald’s 🍟\"},\"title\":{\"value\":\"FREE Curry Sauce\",\"quote\":\"FREE Curry Sauce\"},\"benefit\":{\"value\":\"FREE Curry Sauce\",\"quote\":\"FREE Curry Sauce\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"selected_outlets\",\"quote\":\"All outlets excl. Temasek Poly & Tampines Kiosk\"},\"locationRules\":[{\"role\":\"participating\",\"names\":[\"all outlets except Temasek Poly and Tampines Kiosk\"],\"quote\":\"All outlets excl. Temasek Poly & Tampines Kiosk\"},{\"role\":\"excluded\",\"names\":[\"Temasek Poly\",\"Tampines Kiosk\"],\"quote\":\"All outlets excl. Temasek Poly & Tampines Kiosk\"}]}"
+    }
+  },
+  "confirmation": "close_agent returned; shutdown requested"
+}

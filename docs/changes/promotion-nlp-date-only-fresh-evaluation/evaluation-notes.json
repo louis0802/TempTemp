@@ -1,0 +1,2683 @@
+[
+  {
+    "id": "pepper_lunch_sg-student-meal",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "ambiguous",
+    "acceptableClassifications": [
+      "uncertain"
+    ],
+    "economicIdentityIds": [
+      "student_before5",
+      "after5"
+    ],
+    "singleCampaignComparable": false,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "Student Meal",
+      "15% OFF"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "exclusive Student Meal",
+          "Don’t miss our incredible student deals!"
+        ]
+      },
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "15% OFF any main dish"
+        ]
+      }
+    ],
+    "review": "Independent whole-source identities or unresolved activity prevent safe single-output extraction; expect uncertain.",
+    "merchantAny": [
+      "Pepper Lunch"
+    ]
+  },
+  {
+    "id": "pepper_lunch_sg-uper-value-deal",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": "2026-09-01",
+    "endDate": "2026-10-31",
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "Steak Bites",
+      "32%",
+      "120g",
+      "160g",
+      "200g"
+    ],
+    "qualifiers": [
+      {
+        "anchor": "32%",
+        "required": [
+          "up to"
+        ]
+      },
+      {
+        "anchor": "from just $9.90",
+        "required": [
+          "from"
+        ]
+      }
+    ],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "$uper Value Deal",
+          "$uper Value Deal is here at Pepper Lunch Express!",
+          "from just $9.90",
+          "Enjoy savings of up to 32% off for a limited time only."
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Pepper Lunch"
+    ]
+  },
+  {
+    "id": "pepper_lunch_sg-weekday-lunch",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "Weekday Lunch",
+      "Lunch Deals"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "Tempting Weekday Lunch Deals"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Pepper Lunch"
+    ]
+  },
+  {
+    "id": "pepper_lunch_sg-dine-with-pride",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": "all_outlets",
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "15% off"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "enjoy 15% off all ala carte main dishes"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Pepper Lunch"
+    ]
+  },
+  {
+    "id": "pepper_lunch_sg-cheesy-omelette-2",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "non_economic",
+    "acceptableClassifications": [
+      "product_launch",
+      "uncertain"
+    ],
+    "economicIdentityIds": [],
+    "singleCampaignComparable": false,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "product_launch",
+        "anchors": [
+          "Cheesy Omelette"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Pepper Lunch"
+    ]
+  },
+  {
+    "id": "pepper_lunch_sg-peppie-meal",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": "all_outlets",
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "$7.90"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "Kid’s Meal (Beef) with 1 packet of Ribena at $7.90"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Pepper Lunch"
+    ]
+  },
+  {
+    "id": "pepper_lunch_sg-delivery",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "non_economic",
+    "acceptableClassifications": [
+      "service_information",
+      "uncertain"
+    ],
+    "economicIdentityIds": [],
+    "singleCampaignComparable": false,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "service_information",
+        "anchors": [
+          "Have Your Meals Delivered!"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Pepper Lunch"
+    ]
+  },
+  {
+    "id": "shake_shack_sg-100-angus-beef-just-for-you",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": "2025-09-23",
+    "endDate": "2025-09-26",
+    "locationScope": "all_outlets",
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "complimentary ShackBurger",
+      "Complimentary ShackBurger"
+    ],
+    "qualifiers": [
+      {
+        "anchor": "$28.90",
+        "required": [
+          "From"
+        ]
+      }
+    ],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "when you order our Say Cheese (Burger) Bundle, we’ll treat you to a complimentary ShackBurger(Single)."
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Shake Shack"
+    ]
+  },
+  {
+    "id": "shake_shack_sg-all-about-chickens",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": "2025-07-07",
+    "endDate": "2025-07-07",
+    "locationScope": "all_outlets",
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "Complimentary Chicken Shack"
+    ],
+    "qualifiers": [
+      {
+        "anchor": "$30.80",
+        "required": [
+          "From"
+        ]
+      }
+    ],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "Complimentary Chicken Shack"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Shake Shack"
+    ]
+  },
+  {
+    "id": "shake_shack_sg-concrete-craze",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "ambiguous",
+    "acceptableClassifications": [
+      "uncertain"
+    ],
+    "economicIdentityIds": [],
+    "singleCampaignComparable": false,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "editorial",
+        "anchors": [
+          "Concrete Craze to learn",
+          "custard facts"
+        ]
+      },
+      {
+        "taxonomy": "uncertain",
+        "anchors": [
+          "activities that you can participate in to get a concrete"
+        ]
+      }
+    ],
+    "review": "Independent whole-source identities or unresolved activity prevent safe single-output extraction; expect uncertain.",
+    "merchantAny": [
+      "Shake Shack"
+    ]
+  },
+  {
+    "id": "shake_shack_sg-everything-in-our-veggie-shack",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "ambiguous",
+    "acceptableClassifications": [
+      "uncertain"
+    ],
+    "economicIdentityIds": [],
+    "singleCampaignComparable": false,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "product_launch",
+        "anchors": [
+          "Veggie Shack is made from"
+        ]
+      },
+      {
+        "taxonomy": "contest_or_chance",
+        "anchors": [
+          "stand a chance to win an unlimited supply"
+        ]
+      }
+    ],
+    "review": "Independent whole-source identities or unresolved activity prevent safe single-output extraction; expect uncertain.",
+    "merchantAny": [
+      "Shake Shack"
+    ]
+  },
+  {
+    "id": "shake_shack_sg-feeding-a-crowd",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "12 items",
+      "another 2"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "order 10 of your favorite items and enjoy another 2 on us!"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Shake Shack"
+    ]
+  },
+  {
+    "id": "shake_shack_sg-hello-one-fullerton",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "non_economic",
+    "acceptableClassifications": [
+      "store_announcement",
+      "uncertain"
+    ],
+    "economicIdentityIds": [],
+    "singleCampaignComparable": false,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "store_announcement",
+        "anchors": [
+          "Hello, One Fullerton!",
+          "new Shack at One Fullerton"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Shake Shack"
+    ]
+  },
+  {
+    "id": "shake_shack_sg-hello-parkway-parade",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": "2026-09-11",
+    "endDate": "2026-10-10",
+    "locationScope": "named_outlets",
+    "participating": [
+      {
+        "identity": "Parkway Parade",
+        "labels": [
+          "Parkway Parade",
+          "Parkway Parade Shake Shack Singapore outlet"
+        ],
+        "quote": "Redemption is valid at Parkway Parade Shake Shack Singapore outlet and is limited to one use per order."
+      }
+    ],
+    "excluded": [],
+    "benefitAny": [
+      "10% OFF"
+    ],
+    "qualifiers": [
+      {
+        "anchor": "10%",
+        "required": [
+          "$16"
+        ]
+      }
+    ],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "10% OFF* with a minimum spend of $16",
+          "Promo code is valid from 11 September to 10 October 2026."
+        ]
+      },
+      {
+        "taxonomy": "store_announcement",
+        "anchors": [
+          "Hello, Parkway Parade!",
+          "Our 12th Shack is now officially open at Parkway Parade"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Shake Shack"
+    ]
+  },
+  {
+    "id": "shake_shack_sg-national-cheeseburger-day",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": "2026-09-14",
+    "endDate": "2026-09-18",
+    "locationScope": "all_outlets",
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "FREE Beef Patty",
+      "second beef patty"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "FREE Beef Patty add-on* with any ShackBurger or SmokeShack purchase via the Happy Point app."
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Shake Shack"
+    ]
+  },
+  {
+    "id": "shake_shack_sg-shack-meal",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": "all_outlets",
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "$15.10"
+    ],
+    "qualifiers": [
+      {
+        "anchor": "$15.10",
+        "required": [
+          "from"
+        ]
+      }
+    ],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "starting from $15.10"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Shake Shack"
+    ]
+  },
+  {
+    "id": "shake_shack_sg-singlish-lingo",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": "2024-11-11",
+    "endDate": "2024-11-15",
+    "locationScope": "all_outlets",
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "complimentary Buah Long Long Lemonade"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "complimentary Buah Long Long Lemonade"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Shake Shack"
+    ]
+  },
+  {
+    "id": "shake_shack_sg-study-breaks-just-got-better",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": "named_outlets",
+    "participating": [
+      {
+        "identity": "Westgate",
+        "labels": [
+          "Westgate"
+        ],
+        "quote": "Promotion is available on weekdays (excluding Public Holidays) at Westgate, Junction 8 and Great World Shack locations only."
+      },
+      {
+        "identity": "Junction 8",
+        "labels": [
+          "Junction 8"
+        ],
+        "quote": "Promotion is available on weekdays (excluding Public Holidays) at Westgate, Junction 8 and Great World Shack locations only."
+      },
+      {
+        "identity": "Great World",
+        "labels": [
+          "Great World",
+          "Great World Shack"
+        ],
+        "quote": "Promotion is available on weekdays (excluding Public Holidays) at Westgate, Junction 8 and Great World Shack locations only."
+      }
+    ],
+    "excluded": [],
+    "benefitAny": [
+      "Crinkle Cut Fries"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "On weekdays, enjoy Crinkle Cut Fries on us* with any burger and drink purchase."
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Shake Shack"
+    ]
+  },
+  {
+    "id": "shake_shack_sg-this-ones-for-your-mom",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": "all_outlets",
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "Complimentary ShackBurger",
+      "From $30.80"
+    ],
+    "qualifiers": [
+      {
+        "anchor": "$30.80",
+        "required": [
+          "From"
+        ]
+      }
+    ],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "Mother’s Day Bundle",
+          "Complimentary ShackBurger or Chicken Shack",
+          "Here’s what’s in the bundle (From $30.80)"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Shake Shack"
+    ]
+  },
+  {
+    "id": "shake_shack_sg-were-introducing-chicken-sundays",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": "2025-11-30",
+    "endDate": "2025-12-28",
+    "locationScope": "all_outlets",
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "Free Chicken Shack"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "Free Chicken Shack"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Shake Shack"
+    ]
+  },
+  {
+    "id": "shake_shack_sg-zi-char-menu",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "non_economic",
+    "acceptableClassifications": [
+      "product_launch",
+      "uncertain"
+    ],
+    "economicIdentityIds": [],
+    "singleCampaignComparable": false,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "product_launch",
+        "anchors": [
+          "Keeping it Local",
+          "upcoming menu"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Shake Shack"
+    ]
+  },
+  {
+    "id": "captain_kim_sg-captain-kim-delivery",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "20% OFF All Regular Items"
+    ],
+    "qualifiers": [
+      {
+        "anchor": "20% OFF",
+        "required": [
+          "All Regular Items"
+        ]
+      }
+    ],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "20% OFF All Regular Items"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Captain Kim"
+    ]
+  },
+  {
+    "id": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-1",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-31",
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "2PLUS1",
+      "2+1"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "STUDENT 2PLUS1 PROMO",
+          "2+1 Student Monday Promo"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Captain Kim"
+    ]
+  },
+  {
+    "id": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-2",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "lunch",
+      "dinner",
+      "weekend"
+    ],
+    "singleCampaignComparable": false,
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-31",
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "$14.9",
+      "EARLY BIRD PROMO"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "Mon – Fri Lunch: $14.9++/pax",
+          "Mon – Fri Lunch"
+        ]
+      },
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "Mon – Fri Dinner: $21.9++/pax",
+          "Mon – Fri Dinner"
+        ]
+      },
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "Sat – Sun Lunch & Dinner: $21.9++/pax",
+          "Sat – Sun Lunch & Dinner"
+        ]
+      }
+    ],
+    "review": "Early Bird weekday/time price variants share one campaign window; retain full description.",
+    "merchantAny": [
+      "Captain Kim"
+    ]
+  },
+  {
+    "id": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-3",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-31",
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "1 pax dines free"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "1 pax dines free with every 4 other full-paying pax."
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Captain Kim"
+    ]
+  },
+  {
+    "id": "captain_kim_sg-captain-kim-korean-bbq-hotpot-3",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": "2026-09-01",
+    "endDate": "2026-09-30",
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "1 pax dines free"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "1 pax dines free with every 4 other full-paying pax."
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Captain Kim"
+    ]
+  },
+  {
+    "id": "bari_bari_steak_sg-promotions-1",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": "named_outlets",
+    "participating": [
+      {
+        "identity": "Tampines 1",
+        "labels": [
+          "Tampines 1"
+        ],
+        "quote": "Exclusively at Tampines 1 outlet."
+      }
+    ],
+    "excluded": [],
+    "benefitAny": [
+      "$13.90",
+      "26%"
+    ],
+    "qualifiers": [
+      {
+        "anchor": "26%",
+        "required": [
+          "up to"
+        ]
+      },
+      {
+        "anchor": "$13.90",
+        "required": [
+          "from"
+        ]
+      }
+    ],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "Weekday Lunch Specials",
+          "Teppan Lunch Sets starting from $13.90",
+          "Save up to 26%",
+          "starting from $13.90"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Bari Bari Steak"
+    ]
+  },
+  {
+    "id": "bari_bari_steak_sg-promotions-2",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "all_day",
+      "tea_time"
+    ],
+    "singleCampaignComparable": false,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": "named_outlets",
+    "participating": [
+      {
+        "identity": "Tampines 1",
+        "labels": [
+          "Tampines 1"
+        ],
+        "quote": "across selected outlets from Monday to Thursday: All-Day Free-Flow Salad Bar: Available at Tampines 1 and VivoCity. Tea-Time Free-Flow Salad Bar (2 PM – 5 PM): Available at Junction 8 and Great World."
+      },
+      {
+        "identity": "VivoCity",
+        "labels": [
+          "VivoCity"
+        ],
+        "quote": "across selected outlets from Monday to Thursday: All-Day Free-Flow Salad Bar: Available at Tampines 1 and VivoCity. Tea-Time Free-Flow Salad Bar (2 PM – 5 PM): Available at Junction 8 and Great World."
+      },
+      {
+        "identity": "Junction 8",
+        "labels": [
+          "Junction 8"
+        ],
+        "quote": "across selected outlets from Monday to Thursday: All-Day Free-Flow Salad Bar: Available at Tampines 1 and VivoCity. Tea-Time Free-Flow Salad Bar (2 PM – 5 PM): Available at Junction 8 and Great World."
+      },
+      {
+        "identity": "Great World",
+        "labels": [
+          "Great World",
+          "Great World Shack"
+        ],
+        "quote": "across selected outlets from Monday to Thursday: All-Day Free-Flow Salad Bar: Available at Tampines 1 and VivoCity. Tea-Time Free-Flow Salad Bar (2 PM – 5 PM): Available at Junction 8 and Great World."
+      }
+    ],
+    "excluded": [],
+    "benefitAny": [
+      "23%",
+      "12.90"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "All-Day Free-Flow Salad Bar"
+        ]
+      },
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "Tea-Time Free-Flow Salad Bar"
+        ]
+      }
+    ],
+    "review": "Salad all-day/tea-time variants share benefit; union physical participants while description keeps branch/time restrictions.",
+    "merchantAny": [
+      "Bari Bari Steak"
+    ]
+  },
+  {
+    "id": "bari_bari_steak_sg-promotions-3",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": "named_outlets",
+    "participating": [
+      {
+        "identity": "Tampines 1",
+        "labels": [
+          "Tampines 1"
+        ],
+        "quote": "Valid exclusively at the Tampines 1 outlet only."
+      }
+    ],
+    "excluded": [],
+    "benefitAny": [
+      "20% OFF",
+      "20% discount"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "20% OFF"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Bari Bari Steak"
+    ]
+  },
+  {
+    "id": "bari_bari_steak_sg-promotions-4",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": "named_outlets",
+    "participating": [
+      {
+        "identity": "Tampines 1",
+        "labels": [
+          "Tampines 1"
+        ],
+        "quote": "Valid exclusively for dine-in at the Tampines 1 outlet only."
+      }
+    ],
+    "excluded": [],
+    "benefitAny": [
+      "15% OFF"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "15% OFF"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Bari Bari Steak"
+    ]
+  },
+  {
+    "id": "bari_bari_steak_sg-promotions-5",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "1 for 1"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "1 for 1 Highball, Beers, Sake, Cocktails and House Pours"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Bari Bari Steak"
+    ]
+  },
+  {
+    "id": "mcdonalds_sg-McSaver",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": null,
+    "participating": [],
+    "excluded": [
+      {
+        "identity": "Lido",
+        "labels": [
+          "Lido"
+        ],
+        "quote": "The promotional price is not available via delivery and in the following outlets: Lido, Gardens by the Bay and Changi Airport (Jewel, T2, T3)."
+      },
+      {
+        "identity": "Gardens by the Bay",
+        "labels": [
+          "Gardens by the Bay"
+        ],
+        "quote": "The promotional price is not available via delivery and in the following outlets: Lido, Gardens by the Bay and Changi Airport (Jewel, T2, T3)."
+      },
+      {
+        "identity": "Changi Airport (Jewel, T2, T3)",
+        "labels": [
+          "Changi Airport (Jewel, T2, T3)",
+          "Changi Airport",
+          "Jewel",
+          "T2",
+          "T3"
+        ],
+        "quote": "The promotional price is not available via delivery and in the following outlets: Lido, Gardens by the Bay and Changi Airport (Jewel, T2, T3)."
+      }
+    ],
+    "benefitAny": [
+      "$5"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "McSaver™ meals at just $5!"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "McDonald’s",
+      "McDonald's"
+    ]
+  },
+  {
+    "id": "mcdonalds_sg-bfmcsaver",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": null,
+    "participating": [],
+    "excluded": [
+      {
+        "identity": "Mandai Wildlife East",
+        "labels": [
+          "Mandai Wildlife East"
+        ],
+        "quote": "Promotional price is not available via Delivery nor at the following locations: Mandai Wildlife East, Lido, Gardens by the Bay and Changi Airport (Jewel, T2, T2 Transit, T3)."
+      },
+      {
+        "identity": "Lido",
+        "labels": [
+          "Lido"
+        ],
+        "quote": "Promotional price is not available via Delivery nor at the following locations: Mandai Wildlife East, Lido, Gardens by the Bay and Changi Airport (Jewel, T2, T2 Transit, T3)."
+      },
+      {
+        "identity": "Gardens by the Bay",
+        "labels": [
+          "Gardens by the Bay"
+        ],
+        "quote": "Promotional price is not available via Delivery nor at the following locations: Mandai Wildlife East, Lido, Gardens by the Bay and Changi Airport (Jewel, T2, T2 Transit, T3)."
+      },
+      {
+        "identity": "Changi Airport (Jewel, T2, T2 Transit, T3)",
+        "labels": [
+          "Changi Airport (Jewel, T2, T2 Transit, T3)",
+          "Changi Airport",
+          "Jewel",
+          "T2",
+          "T3",
+          "T2 Transit"
+        ],
+        "quote": "Promotional price is not available via Delivery nor at the following locations: Mandai Wildlife East, Lido, Gardens by the Bay and Changi Airport (Jewel, T2, T2 Transit, T3)."
+      }
+    ],
+    "benefitAny": [
+      "$6.50"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "Breakfast Wrap McSaver™ Meal for just $6.50."
+        ]
+      },
+      {
+        "taxonomy": "contest_or_chance",
+        "anchors": [
+          "stand a chance to win rewards",
+          "top 5 M-shaped routes",
+          "Your route could lead to rewards!"
+        ]
+      }
+    ],
+    "review": "Meal is economic; contest dates do not belong to meal; exclusions are physical, not positive scope.",
+    "merchantAny": [
+      "McDonald’s",
+      "McDonald's"
+    ]
+  },
+  {
+    "id": "sushiro_sg-to-the-moon-and-back",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "non_economic",
+    "acceptableClassifications": [
+      "product_launch",
+      "uncertain"
+    ],
+    "economicIdentityIds": [],
+    "singleCampaignComparable": false,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "product_launch",
+        "anchors": [
+          "To the moon and back!",
+          "Lunar Tuna with Uni"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Sushiro"
+    ]
+  },
+  {
+    "id": "instagram-DDJfz9bynW-",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "1-for-1",
+      "2 portions"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "1-for-1 deal!",
+          "Get 2 portions of our Salmon Yukke"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Shinrai",
+      "shinrai.sg"
+    ]
+  },
+  {
+    "id": "instagram-Dc-kxPJzx9B",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "$9.90"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "$9.90++ gets you a main",
+          "Off-Peak Deals"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Ajumma’s",
+      "Ajumma's",
+      "Ajumma"
+    ]
+  },
+  {
+    "id": "instagram-DdQA3EChsjx",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "1 for 1 Nasi Lemak"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "1 for 1 Nasi Lemak"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Sinpopo Brand"
+    ]
+  },
+  {
+    "id": "instagram-DdfecQUjNZ5",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "1-FOR-1",
+      "BOGO"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "1-FOR-1 on ANY Venti handcrafted drink",
+          "BOGO is back!"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Starbucks"
+    ]
+  },
+  {
+    "id": "shake_shack_sg-flock-this-way",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": "2025-11-12",
+    "endDate": "2025-11-30",
+    "locationScope": "all_outlets",
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "23.9",
+      "23.90"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "all for just $23.9 (U.P $33.80)"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Shake Shack"
+    ]
+  },
+  {
+    "id": "shake_shack_sg-meet-our-collab-partners",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "fries"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "complimentary White pepper fries"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "editorial",
+        "anchors": [
+          "Meet Our Collab Partners",
+          "exclusive range of merchandise",
+          "tobyato to design"
+        ]
+      },
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "Get complimentary White pepper fries"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Shake Shack"
+    ]
+  },
+  {
+    "id": "shake_shack_sg-introducing-aloha-shack",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "non_economic",
+    "acceptableClassifications": [
+      "product_launch",
+      "uncertain"
+    ],
+    "economicIdentityIds": [],
+    "singleCampaignComparable": false,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "product_launch",
+        "anchors": [
+          "Aloha Shack Menu"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Shake Shack"
+    ]
+  },
+  {
+    "id": "shake_shack_sg-more-perks-less-fuss",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "2% back"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "service_information",
+        "anchors": [
+          "Happy Point App a glow-up",
+          "New Look We’ve had a little makeover!"
+        ]
+      },
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "Earn 2% back on what you spend"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Shake Shack"
+    ]
+  },
+  {
+    "id": "shake_shack_sg-local-faves-our-treat",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "complimentary weekly treat",
+      "Hot Chicken",
+      "ShackMeister Ale",
+      "ShackBurger",
+      "Shack Attack"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "a complimentary weekly treat",
+          "11 Aug – 17 Aug: Hot Chicken",
+          "18 Aug – 24 Aug: ShackMeister Ale",
+          "25 Aug – 31 Aug: ShackBurger (Single)",
+          "1 Sep – 7 Sep : Shack Attack"
+        ]
+      }
+    ],
+    "review": "Weekly source-declared treats are one campaign; year not stated. No inferred SG60 year.",
+    "merchantAny": [
+      "Shake Shack"
+    ]
+  },
+  {
+    "id": "shake_shack_sg-pucker-up-for-2-lemonades",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": "2025-10-28",
+    "endDate": "2025-11-09",
+    "locationScope": "all_outlets",
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "$2"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "Lemonades for just $2"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Shake Shack"
+    ]
+  },
+  {
+    "id": "shake_shack_sg-well-be-right-back",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "non_economic",
+    "acceptableClassifications": [
+      "service_information",
+      "uncertain"
+    ],
+    "economicIdentityIds": [],
+    "singleCampaignComparable": false,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "service_information",
+        "anchors": [
+          "Happy Point App is Coming Soon!",
+          "temporary downtime"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Shake Shack"
+    ]
+  },
+  {
+    "id": "shake_shack_sg-our-french-onion-menu",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "non_economic",
+    "acceptableClassifications": [
+      "product_launch",
+      "uncertain"
+    ],
+    "economicIdentityIds": [],
+    "singleCampaignComparable": false,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "product_launch",
+        "anchors": [
+          "Our French Onion Menu"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "Shake Shack"
+    ]
+  },
+  {
+    "id": "fairprice_sg-price-drop-buy-now-weekly-offers-from-20-off",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-07",
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "20% Off"
+    ],
+    "qualifiers": [
+      {
+        "anchor": "20%",
+        "required": [
+          "From"
+        ]
+      }
+    ],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "From 20% Off",
+          "From 20% Off"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "FairPrice"
+    ]
+  },
+  {
+    "id": "fairprice_sg-xtra-wine-flash-sale",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": "2026-09-24",
+    "endDate": "2026-09-27",
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "Wine Flash Deals"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "Xtra Wine Flash Deals for September"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "FairPrice"
+    ]
+  },
+  {
+    "id": "fairprice_sg-finest-wine",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "offer"
+    ],
+    "singleCampaignComparable": true,
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-31",
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "Wine Deals"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "taxonomy": "economic_offer",
+        "anchors": [
+          "Finest Monthly Wine Deals"
+        ]
+      }
+    ],
+    "review": "Full source reviewed against retained benchmark; only campaign dates/physical roles, no clocks or conditions structured.",
+    "merchantAny": [
+      "FairPrice"
+    ]
+  },
+  {
+    "id": "holdout-tastesoulsg-4486",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "non_economic",
+    "acceptableClassifications": [
+      "product_launch",
+      "uncertain"
+    ],
+    "economicIdentityIds": [],
+    "singleCampaignComparable": false,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [],
+    "qualifiers": [],
+    "basis": [
+      {
+        "quote": "➡️ NEW 3L Sharing Tea Pack ($52)\n➡️ Flavours incl. Green Milk Tea, Peach Green Tea, Oolong Milk Tea & more\n➡️ + $8 for topping\n📍 Online"
+      }
+    ],
+    "review": "Product sharing tea pack; price alone does not establish economic deal.",
+    "merchantAny": [
+      "Koi Thé"
+    ]
+  },
+  {
+    "id": "holdout-tastesoulsg-4485",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "whole_campaign"
+    ],
+    "singleCampaignComparable": false,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": "all_outlets",
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "$6 McSpicy Meal"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "quote": "➡️ $6 McSpicy Meal (U.P. $8.30)\n📍 All outlets"
+      }
+    ],
+    "review": "Explicit all outlets; no source year; do not infer from export.",
+    "merchantAny": [
+      "McDonald’s",
+      "McDonald's"
+    ]
+  },
+  {
+    "id": "holdout-sgfooddeals-4933",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "whole_campaign"
+    ],
+    "singleCampaignComparable": false,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": "selected_outlets",
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "from $19.90"
+    ],
+    "qualifiers": [
+      {
+        "anchor": "$19.90",
+        "required": [
+          "from"
+        ]
+      }
+    ],
+    "basis": [
+      {
+        "quote": "🔹 Enjoy a HK-style hotpot feast with unlimited ingredients & flavorful broths\n🔹 Expect 9 soup bases, free-flow sliced meats, fresh seafood & more\n🔹 Limited to 90 mins of dining time\n📍 Selected outlets"
+      }
+    ],
+    "review": "Weekday/weekend hours are variants of one buffet offer; selected branches unnamed.",
+    "merchantAny": [
+      "Paradise Hotpot"
+    ]
+  },
+  {
+    "id": "holdout-sgfooddeals-4932",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "whole_campaign"
+    ],
+    "singleCampaignComparable": false,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": "all_outlets",
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "from just $9.90"
+    ],
+    "qualifiers": [
+      {
+        "anchor": "$9.90",
+        "required": [
+          "from"
+        ]
+      }
+    ],
+    "basis": [
+      {
+        "quote": "🔹 Enjoy a main, free-flow side dishes & your choice of K-Treat from just $9.90\n🔹 Choose from bibimbap, bulgogi, ramyeon & more\n🔹 Valid for dine-in only\n📍 All outlets"
+      }
+    ],
+    "review": "Same off-peak offer; preserve From and meal contents, weekdays/hours in description.",
+    "merchantAny": [
+      "Ajumma’s",
+      "Ajumma's",
+      "Ajumma"
+    ]
+  },
+  {
+    "id": "holdout-sgfooddeals-4930",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "non_economic",
+    "acceptableClassifications": [
+      "store_announcement",
+      "editorial",
+      "uncertain"
+    ],
+    "economicIdentityIds": [],
+    "singleCampaignComparable": false,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [],
+    "qualifiers": [],
+    "basis": [
+      {
+        "quote": "🔹 Boh Geh Canteen in Seletar bids farewell on 18 Sep after 57 years as owner Mr Toh retires\n🔹 Dig into nostalgic home style Cai Png & authentic Nasi Padang before they are gone\n📍 Nearby Seletar, 398 Piccadilly"
+      }
+    ],
+    "review": "Closure article, no economic benefit.",
+    "merchantAny": [
+      "Boh Geh Canteen"
+    ]
+  },
+  {
+    "id": "holdout-sgfooddeals-4928",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "ambiguous",
+    "acceptableClassifications": [
+      "uncertain"
+    ],
+    "economicIdentityIds": [],
+    "singleCampaignComparable": false,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [],
+    "qualifiers": [],
+    "basis": [
+      {
+        "quote": "🔹 Enjoy the best buffet deals with 1-for-1 offers & unbeatable prices:"
+      }
+    ],
+    "review": "Five independent merchants/offers; no scorer-provided split.",
+    "merchantAny": [
+      "Multiple merchants (roundup)"
+    ]
+  },
+  {
+    "id": "holdout-tastesoulsg-4478",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "whole_campaign"
+    ],
+    "singleCampaignComparable": false,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": "named_outlets",
+    "participating": [
+      {
+        "identity": "33 Tanjong Pagar Road",
+        "labels": [
+          "33 Tanjong Pagar Road",
+          "33 Tanjong Pagar Road"
+        ],
+        "quote": "📍 33 Tanjong Pagar Road & 149 Tyrwhitt Road"
+      },
+      {
+        "identity": "149 Tyrwhitt Road",
+        "labels": [
+          "149 Tyrwhitt Road",
+          "149 Tyrwhitt Road"
+        ],
+        "quote": "📍 33 Tanjong Pagar Road & 149 Tyrwhitt Road"
+      }
+    ],
+    "excluded": [],
+    "benefitAny": [
+      "$10 OFF Papi’s Platter"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "quote": "➡️ $10 OFF Papi’s Platter\n📍 33 Tanjong Pagar Road & 149 Tyrwhitt Road"
+      }
+    ],
+    "review": "Explicit two physical participating addresses, source typo remains.",
+    "merchantAny": [
+      "Papi’s Tacos"
+    ]
+  },
+  {
+    "id": "holdout-sgfooddeals-4925",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "whole_campaign"
+    ],
+    "singleCampaignComparable": false,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": "all_outlets",
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "1-for-1"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "quote": "🔹 Score a different 1-for-1 deal every day \n🔹 Choose from Classic Garlic Chicken Burgers, Shaker Fries, Popcorn Chicken & more \n📍 All outlets"
+      }
+    ],
+    "review": "Daily menu variants one recurring campaign; no year.",
+    "merchantAny": [
+      "Shiok Burger"
+    ]
+  },
+  {
+    "id": "holdout-sgfooddeals-4924",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "whole_campaign"
+    ],
+    "singleCampaignComparable": false,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": "named_outlets",
+    "participating": [
+      {
+        "identity": "168 Robinson Road, #01-09",
+        "labels": [
+          "168 Robinson Road, #01-09",
+          "168 Robinson Road"
+        ],
+        "quote": "📍 168 Robinson Road, #01-09"
+      }
+    ],
+    "excluded": [],
+    "benefitAny": [
+      "1-for-1"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "quote": "🔹 Enjoy 1-for-1 deals on all drinks like Strawberry Matcha Latte, Hojicha Latte, Iced Chocolate & more\n📍 168 Robinson Road, #01-09"
+      }
+    ],
+    "review": "No year on 8/9 Sep; source physical address linked to offer.",
+    "merchantAny": [
+      "Brash Boys Coffee"
+    ]
+  },
+  {
+    "id": "holdout-tastesoulsg-4468",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "whole_campaign"
+    ],
+    "singleCampaignComparable": false,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": "all_outlets",
+    "participating": [],
+    "excluded": [
+      {
+        "identity": "Changi Airport outlets",
+        "labels": [
+          "Changi Airport outlets",
+          "Changi Airport outlets"
+        ],
+        "quote": "📍 All outlets excl. Changi Airport outlets, Tanah Merah Ferry Terminal, Courts Megastore, Anchorpoint & Navy Region Centre Singapore"
+      },
+      {
+        "identity": "Tanah Merah Ferry Terminal",
+        "labels": [
+          "Tanah Merah Ferry Terminal",
+          "Tanah Merah Ferry Terminal"
+        ],
+        "quote": "📍 All outlets excl. Changi Airport outlets, Tanah Merah Ferry Terminal, Courts Megastore, Anchorpoint & Navy Region Centre Singapore"
+      },
+      {
+        "identity": "Courts Megastore",
+        "labels": [
+          "Courts Megastore",
+          "Courts Megastore"
+        ],
+        "quote": "📍 All outlets excl. Changi Airport outlets, Tanah Merah Ferry Terminal, Courts Megastore, Anchorpoint & Navy Region Centre Singapore"
+      },
+      {
+        "identity": "Anchorpoint",
+        "labels": [
+          "Anchorpoint",
+          "Anchorpoint"
+        ],
+        "quote": "📍 All outlets excl. Changi Airport outlets, Tanah Merah Ferry Terminal, Courts Megastore, Anchorpoint & Navy Region Centre Singapore"
+      },
+      {
+        "identity": "Navy Region Centre Singapore",
+        "labels": [
+          "Navy Region Centre Singapore",
+          "Navy Region Centre Singapore"
+        ],
+        "quote": "📍 All outlets excl. Changi Airport outlets, Tanah Merah Ferry Terminal, Courts Megastore, Anchorpoint & Navy Region Centre Singapore"
+      }
+    ],
+    "benefitAny": [
+      "1 FREE Breakfast Wrap"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "quote": "➡️ Buy 1 Breakfast Wrap + Coffee set & get 1 FREE Breakfast Wrap\n📍 All outlets excl. Changi Airport outlets, Tanah Merah Ferry Terminal, Courts Megastore, Anchorpoint & Navy Region Centre Singapore"
+      }
+    ],
+    "review": "All outlets except explicit physical exclusions. Today is not absolute validity.",
+    "merchantAny": [
+      "Subway"
+    ]
+  },
+  {
+    "id": "holdout-tastesoulsg-4466",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "whole_campaign"
+    ],
+    "singleCampaignComparable": false,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": "all_outlets",
+    "participating": [],
+    "excluded": [
+      {
+        "identity": "Changi Airport",
+        "labels": [
+          "Changi Airport",
+          "Changi Airport"
+        ],
+        "quote": "📍 All outlets excl. Changi Airport "
+      }
+    ],
+    "benefitAny": [
+      "$4 for 4pc Wings & Drumettes"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "quote": "➡️ $4 for 4pc Wings & Drumettes \n📍 All outlets excl. Changi Airport "
+      }
+    ],
+    "review": "Explicit exclusion; Today and metadata do not supply date.",
+    "merchantAny": [
+      "4Fingers"
+    ]
+  },
+  {
+    "id": "holdout-tastesoulsg-4462",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "whole_campaign"
+    ],
+    "singleCampaignComparable": false,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": "named_outlets",
+    "participating": [
+      {
+        "identity": "Great World, B1-129",
+        "labels": [
+          "Great World, B1-129",
+          "Great World"
+        ],
+        "quote": "📍 Great World, B1-129"
+      }
+    ],
+    "excluded": [],
+    "benefitAny": [
+      "1-for-1 Kaisendon"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "quote": "➡️ 1-for-1 Kaisendon\n📍 Great World, B1-129"
+      }
+    ],
+    "review": "Explicit participant; Sep dates lack year.",
+    "merchantAny": [
+      "Kei Kaisendon"
+    ]
+  },
+  {
+    "id": "holdout-tastesoulsg-4458",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "whole_campaign"
+    ],
+    "singleCampaignComparable": false,
+    "startDate": "2026-09-01",
+    "endDate": "2026-09-05",
+    "locationScope": "named_outlets",
+    "participating": [
+      {
+        "identity": "The Capitol",
+        "labels": [
+          "The Capitol",
+          "The Capitol"
+        ],
+        "quote": "🥩 The doors are open, the deals are hot. Enjoy 5 days of steak promos from 1 to 5 September 2026 at The Capitol – Bari Bari Grand "
+      }
+    ],
+    "excluded": [],
+    "benefitAny": [
+      "steak promos"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "quote": "🥩 The doors are open, the deals are hot. Enjoy 5 days of steak promos from 1 to 5 September 2026 at The Capitol – Bari Bari Grand "
+      }
+    ],
+    "review": "Explicit five-day campaign and The Capitol venue; mechanics behind link unavailable; preserve generic source-supported benefit.",
+    "merchantAny": [
+      "Bari Bari Grand"
+    ]
+  },
+  {
+    "id": "holdout-tastesoulsg-4453",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "ambiguous",
+    "acceptableClassifications": [
+      "uncertain"
+    ],
+    "economicIdentityIds": [],
+    "singleCampaignComparable": false,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": null,
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [],
+    "qualifiers": [],
+    "basis": [
+      {
+        "quote": "➡️ 1-for-1 Original Cheese Tart\n📍 Jurong Point, B1-K2 | Parkway Parade, 01-23B\n📍 Changi Airport T3, B2-11 | Bugis Junction, B1-K6"
+      }
+    ],
+    "review": "Different outlet-specific date windows; do not flatten into universal days/branches even though years absent.",
+    "merchantAny": [
+      "Hokkaido Baked Cheese Tart"
+    ]
+  },
+  {
+    "id": "holdout-sgfooddeals-4912",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "whole_campaign"
+    ],
+    "singleCampaignComparable": false,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": "all_outlets",
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "$9.90 Lunch Sets"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "quote": "🔹 Choose from appetising mains like Grilled Chicken Chop, Fish & Chips, Angus Beef Bolognese & more \n🔹 Each dish comes with a free Wild Mushroom Soup worth $3.50\n📍 All outlets "
+      }
+    ],
+    "review": "One lunch campaign; channel/footer ads are context, not extra benefits.",
+    "merchantAny": [
+      "Common Grill"
+    ]
+  },
+  {
+    "id": "holdout-sgfooddeals-4896",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "whole_campaign"
+    ],
+    "singleCampaignComparable": false,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": "named_outlets",
+    "participating": [
+      {
+        "identity": "30 Victoria Street, #02-01B",
+        "labels": [
+          "30 Victoria Street, #02-01B",
+          "30 Victoria Street"
+        ],
+        "quote": "📍 30 Victoria Street, #02-01B"
+      }
+    ],
+    "excluded": [],
+    "benefitAny": [
+      "50% Off Daily Deals"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "quote": "🔹 Feast on a different deal each day on dishes like chilli crab, ribeye steak & more\n📍 30 Victoria Street, #02-01B"
+      }
+    ],
+    "review": "Daily menu/time variants same recurring campaign; dates lack year.",
+    "merchantAny": [
+      "New Ubin Seafood"
+    ]
+  },
+  {
+    "id": "holdout-tastesoulsg-4426",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "whole_campaign"
+    ],
+    "singleCampaignComparable": false,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": "all_outlets",
+    "participating": [],
+    "excluded": [],
+    "benefitAny": [
+      "$12++ 250g N.Z. Striploin Steak"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "quote": "➡️ $12++ 250g N.Z. Striploin Steak (U.P. $28)\n➡️ Incl. baked potato, seasonal vegetables & sauce\n📍 All outlets"
+      }
+    ],
+    "review": "Price/quantity/steak identity retained; no year.",
+    "merchantAny": [
+      "Jack’s Place"
+    ]
+  },
+  {
+    "id": "holdout-tastesoulsg-4420",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "whole_campaign"
+    ],
+    "singleCampaignComparable": false,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": "named_outlets",
+    "participating": [
+      {
+        "identity": "New Bahru, 02-01",
+        "labels": [
+          "New Bahru, 02-01",
+          "New Bahru"
+        ],
+        "quote": "📍 New Bahru, 02-01 & Chinatown Point, 02-35"
+      },
+      {
+        "identity": "Chinatown Point, 02-35",
+        "labels": [
+          "Chinatown Point, 02-35",
+          "Chinatown Point"
+        ],
+        "quote": "📍 New Bahru, 02-01 & Chinatown Point, 02-35"
+      }
+    ],
+    "excluded": [],
+    "benefitAny": [
+      "$1.90++ Salmon Belly Sushi"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "quote": "➡️ $1.90++ Salmon Belly Sushi (U.P. $2.30++)\n📍 New Bahru, 02-01 & Chinatown Point, 02-35"
+      }
+    ],
+    "review": "Explicit named participants; no year.",
+    "merchantAny": [
+      "Sushiro"
+    ]
+  },
+  {
+    "id": "holdout-sgfooddeals-4875",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "whole_campaign"
+    ],
+    "singleCampaignComparable": false,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": "named_outlets",
+    "participating": [
+      {
+        "identity": "60 Robertson Quay, #01-01",
+        "labels": [
+          "60 Robertson Quay, #01-01",
+          "60 Robertson Quay"
+        ],
+        "quote": "📍 60 Robertson Quay, #01-01"
+      }
+    ],
+    "excluded": [],
+    "benefitAny": [
+      "1-for-1"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "quote": "🔹 Celebrate National Day all month long with 1-for-1 western favourites\n🔹 Enjoy a different qualifying dish from Tues to Thurs, including Burgers, Fish & Chips & more\n🔹 Valid for dine-in only\n📍 60 Robertson Quay, #01-01"
+      }
+    ],
+    "review": "Tuesday-Thursday qualifying-dish variants of same campaign; no explicit dates/year.",
+    "merchantAny": [
+      "Carnaby"
+    ]
+  },
+  {
+    "id": "holdout-tastesoulsg-4410",
+    "author": "parent-agent-reviewed-before-model-run; not human gold",
+    "kind": "economic",
+    "acceptableClassifications": [
+      "economic_offer"
+    ],
+    "economicIdentityIds": [
+      "whole_campaign"
+    ],
+    "singleCampaignComparable": false,
+    "startDate": null,
+    "endDate": null,
+    "locationScope": "all_outlets",
+    "participating": [],
+    "excluded": [
+      {
+        "identity": "Temasek Poly",
+        "labels": [
+          "Temasek Poly",
+          "Temasek Poly"
+        ],
+        "quote": "📍 All outlets excl. Temasek Poly & Tampines Kiosk"
+      },
+      {
+        "identity": "Tampines Kiosk",
+        "labels": [
+          "Tampines Kiosk",
+          "Tampines Kiosk"
+        ],
+        "quote": "📍 All outlets excl. Temasek Poly & Tampines Kiosk"
+      }
+    ],
+    "benefitAny": [
+      "FREE Curry Sauce"
+    ],
+    "qualifiers": [],
+    "basis": [
+      {
+        "quote": "➡️ FREE Curry Sauce\n➡️ Grab from the box at the order collection counter\n📍 All outlets excl. Temasek Poly & Tampines Kiosk"
+      }
+    ],
+    "review": "Physical exclusions, 9 Aug lacks year; no inferred date from export.",
+    "merchantAny": [
+      "McDonald’s",
+      "McDonald's"
+    ]
+  }
+]

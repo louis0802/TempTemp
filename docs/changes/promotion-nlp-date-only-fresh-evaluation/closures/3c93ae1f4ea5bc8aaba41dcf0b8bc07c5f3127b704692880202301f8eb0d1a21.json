@@ -1,0 +1,11 @@
+{
+  "taskId": "instagram-Dc-kxPJzx9B",
+  "agentId": "01a10cb7-0832-7ef0-91d1-3141752e0d2a",
+  "closedAt": "2026-10-05T15:38:13.190Z",
+  "toolResult": {
+    "previous_status": {
+      "completed": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"$9.90++ gets you a main + free-flow side dishes + your choice of K-TREAT - Omija Berry Smoothie, Milk Tea Brûlée Smoothie or a Dubai Chewy Cookie.\"},\"merchant\":{\"value\":\"Ajumma's Korean Restaurant\",\"quote\":null},\"title\":{\"value\":\"Off-Peak Deals\",\"quote\":\"Our Off-Peak Deals just got a serious upgrade.\"},\"benefit\":{\"value\":\"$9.90++ gets you a main + free-flow side dishes + your choice of K-TREAT - Omija Berry Smoothie, Milk Tea Brûlée Smoothie or a Dubai Chewy Cookie.\",\"quote\":\"$9.90++ gets you a main + free-flow side dishes + your choice of K-TREAT - Omija Berry Smoothie, Milk Tea Brûlée Smoothie or a Dubai Chewy Cookie.\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}"
+    }
+  },
+  "confirmation": "close_agent returned; shutdown requested"
+}

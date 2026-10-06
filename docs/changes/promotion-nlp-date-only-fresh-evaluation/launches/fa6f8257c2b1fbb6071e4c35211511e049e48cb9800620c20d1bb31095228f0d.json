@@ -1,0 +1,19 @@
+{
+  "taskId": "shake_shack_sg-flock-this-way",
+  "agentId": "01a10cb7-2333-7280-8e16-57e5211a1a22",
+  "boundAt": "2026-10-05T15:38:11.603Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "124f2d195c8718fa2c1e557ecada1f87417cc7ec3c701da814445a322722bee9",
+  "messageSha256": "86a4347a949a8f880b73cfd9bc8be02ec662c9ee1c3b2b0f701faf5c9b2675db",
+  "toolConfirmed": {
+    "agentId": "01a10cb7-2333-7280-8e16-57e5211a1a22",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

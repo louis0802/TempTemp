@@ -1,0 +1,18 @@
+{
+  "taskId": "holdout-tastesoulsg-4410",
+  "agentId": "01a10cb8-9bcf-78c1-a92d-e341a3ae8cc5",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"FREE Curry Sauce\"},\"merchant\":{\"value\":\"McDonald’s\",\"quote\":\"🍟 McDonald’s 🍟\"},\"title\":{\"value\":\"FREE Curry Sauce\",\"quote\":\"FREE Curry Sauce\"},\"benefit\":{\"value\":\"FREE Curry Sauce\",\"quote\":\"FREE Curry Sauce\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"selected_outlets\",\"quote\":\"All outlets excl. Temasek Poly & Tampines Kiosk\"},\"locationRules\":[{\"role\":\"participating\",\"names\":[\"all outlets except Temasek Poly and Tampines Kiosk\"],\"quote\":\"All outlets excl. Temasek Poly & Tampines Kiosk\"},{\"role\":\"excluded\",\"names\":[\"Temasek Poly\",\"Tampines Kiosk\"],\"quote\":\"All outlets excl. Temasek Poly & Tampines Kiosk\"}]}",
+  "transportError": null,
+  "rawOutputSha256": "abde672ac8d39552c1bf0c7e5453e1f4eaad2b76be0a7e76486d83c6c1a698fc",
+  "savedAt": "2026-10-05T15:39:56.591Z",
+  "inputSha256": "9fc43a854c13384707cd737d9e558e56f7f2a5a3ea467fcf29615e31b43039bd",
+  "sourceSha256": "4fdf4ba868bea8c833903692516f62acddd281d5a9098bda88b0eb07acef2139",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

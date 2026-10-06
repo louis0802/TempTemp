@@ -1,0 +1,18 @@
+{
+  "taskId": "holdout-tastesoulsg-4478",
+  "agentId": "01a10cb7-d4f9-7882-b6a1-c385c406dc39",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"$10 OFF Papi’s Platter\"},\"merchant\":{\"value\":\"Papi’s Tacos\",\"quote\":\"🌮 Papi’s Tacos 🌮\"},\"title\":{\"value\":\"$10 OFF Papi’s Platter\",\"quote\":\"$10 OFF Papi’s Platter\"},\"benefit\":{\"value\":\"$10 OFF Papi’s Platter\",\"quote\":\"$10 OFF Papi’s Platter\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "022ab26cdca137b74802bee23f133bff8fa96433769c76686b699fc4d8b81689",
+  "savedAt": "2026-10-05T15:39:06.621Z",
+  "inputSha256": "0ded506f430c30df594d8c63ae5489eafb6a35f5b2cb560de102342ac8106575",
+  "sourceSha256": "5fadf32f898bcfb35f9ecdcdd5b49b308c8470e1acc42d78d119c8826877698b",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

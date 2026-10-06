@@ -1,0 +1,18 @@
+{
+  "taskId": "shake_shack_sg-our-french-onion-menu",
+  "agentId": "01a10cb7-6aae-7f32-a99b-e5b7db46fa32",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"product_launch\",\"quote\":\"Our French Onion Menu Introducing: Our French Onion Menu\"},\"merchant\":{\"value\":null,\"quote\":null},\"title\":{\"value\":null,\"quote\":null},\"benefit\":{\"value\":null,\"quote\":null},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "74cc2d82ccad085c602c553748ff55c493ac4108fd14270ffa9c9be53f3e52b0",
+  "savedAt": "2026-10-05T15:38:37.759Z",
+  "inputSha256": "3e557642d38793ae0dabd1ed321a2729f4e6b284318cd833f40cce75cc8706fd",
+  "sourceSha256": "ff3cee1aaae947935e639e5f32ae75b4dbb55072d0be33fb4e5ff3d61eddaf8c",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

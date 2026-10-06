@@ -1,0 +1,11 @@
+{
+  "taskId": "shake_shack_sg-zi-char-menu",
+  "agentId": "01a10cb6-74eb-7ae2-9f65-cc81cc5d787d",
+  "closedAt": "2026-10-05T15:37:33.536Z",
+  "toolResult": {
+    "previous_status": {
+      "completed": "{\"classification\":{\"value\":\"product_launch\",\"quote\":\"We’re proud to present the upcoming menu of our American signatures with a uniquely Singaporean twist\"},\"merchant\":{\"value\":\"Shake Shack\",\"quote\":\"A local inspiration by Shake Shack\"},\"title\":{\"value\":\"Keeping it Local\",\"quote\":\"Keeping it Local\"},\"benefit\":{\"value\":null,\"quote\":null},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}"
+    }
+  },
+  "confirmation": "close_agent returned; shutdown requested"
+}

@@ -1,0 +1,19 @@
+{
+  "taskId": "holdout-tastesoulsg-4426",
+  "agentId": "01a10cb8-608e-7f90-bd39-4229fca117f8",
+  "boundAt": "2026-10-05T15:39:32.897Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "ad48de5257fd956ab891d1a101083909b1f69a7112e3413127edea026a8954ea",
+  "messageSha256": "fa5f1e8728831b4b1882c36d1cb217c1c23022fbb2a2b87476dbae5663588a34",
+  "toolConfirmed": {
+    "agentId": "01a10cb8-608e-7f90-bd39-4229fca117f8",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

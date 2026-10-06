@@ -1,0 +1,18 @@
+{
+  "taskId": "shake_shack_sg-pucker-up-for-2-lemonades",
+  "agentId": "01a10cb7-578f-7842-bad2-1e95240f6fd9",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"From now for a limited time only, enjoy our refreshing Lemonades for just $2\"},\"merchant\":{\"value\":\"Shake Shack Singapore\",\"quote\":\"Offer is available across all Shake Shack outlets in Singapore\"},\"title\":{\"value\":\"$2 Lemonades\",\"quote\":\"Pucker up for $2 Lemonades\"},\"benefit\":{\"value\":\"$2 Fresh Lemonade (Small)\",\"quote\":\"Add the $2 Fresh Lemonade (Small) to your order — it’s automatically just $2!\"},\"startDate\":{\"value\":\"2025-10-28\",\"quote\":\"from 28 October 2025\"},\"endDate\":{\"value\":\"2025-11-09\",\"quote\":\"to 9 November 2025\"},\"locationScope\":{\"value\":\"all_outlets\",\"quote\":\"Offer is available across all Shake Shack outlets in Singapore\"},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "90b454fac2bcde1b455490477918313462ba9db3812ca825f95ebf15fb83d1cd",
+  "savedAt": "2026-10-05T15:38:34.776Z",
+  "inputSha256": "3fd27aa4b6706005a98c77e6bb750b6914c87dfd3c749d77688a0909bc533a90",
+  "sourceSha256": "78bceae959bb4eccabf0bb4793eb9b5011252b04dc51a0f07a9c067323064585",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

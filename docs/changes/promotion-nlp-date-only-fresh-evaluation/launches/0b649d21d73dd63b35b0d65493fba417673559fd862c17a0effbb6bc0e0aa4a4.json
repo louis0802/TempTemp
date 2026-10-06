@@ -1,0 +1,19 @@
+{
+  "taskId": "shake_shack_sg-all-about-chickens",
+  "agentId": "01a10cb6-121b-75c3-8fe8-0cfb06b57855",
+  "boundAt": "2026-10-05T15:37:01.528Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "359ac719e01619ee44bb1ab1c3114d026a0f193854bc7db458b3db7356e4f612",
+  "messageSha256": "37cf041216b8afe439dc05125ca5846cc38562347b31bc4d7c9e07114524ecff",
+  "toolConfirmed": {
+    "agentId": "01a10cb6-121b-75c3-8fe8-0cfb06b57855",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

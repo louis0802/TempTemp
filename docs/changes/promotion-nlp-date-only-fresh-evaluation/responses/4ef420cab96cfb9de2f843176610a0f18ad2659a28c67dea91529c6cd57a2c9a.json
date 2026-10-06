@@ -1,0 +1,18 @@
+{
+  "taskId": "pepper_lunch_sg-weekday-lunch",
+  "agentId": "01a10cb4-cbe0-7e53-95ed-6c0b8d0be5ac",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"available at a deal you simply can't resist!\"},\"merchant\":{\"value\":\"Pepper Lunch\",\"quote\":null},\"title\":{\"value\":\"Weekday Lunch Deals\",\"quote\":\"Tempting Weekday Lunch Deals\"},\"benefit\":{\"value\":\"a deal\",\"quote\":\"available at a deal\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "5a25ebcfc56f38d8bd607ad4dc969b093471229bd33278c36118083e1de982de",
+  "savedAt": "2026-10-05T15:36:52.787Z",
+  "inputSha256": "ff40243b63091e1cd79854ca9fd3b8106425fb389ca0715124dbcc21ffe06a85",
+  "sourceSha256": "3bc8fd60e20ab0485d79b1b2b5213e85b35f52205840849652b783b4a71bc116",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

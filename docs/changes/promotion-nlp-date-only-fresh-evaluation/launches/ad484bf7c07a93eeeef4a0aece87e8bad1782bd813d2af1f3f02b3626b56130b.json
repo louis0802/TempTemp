@@ -1,0 +1,19 @@
+{
+  "taskId": "pepper_lunch_sg-peppie-meal",
+  "agentId": "01a10cb5-fb91-75d0-a15c-7d4ad21f37c6",
+  "boundAt": "2026-10-05T15:36:55.745Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "3053c9540efbbc914889100fbdd1491b6d16f8f80ad976e974cbfe2e136756d1",
+  "messageSha256": "8336cc5dcd69b92379c862b302a96c818cde516472d458d85878d7cd6dd4e95e",
+  "toolConfirmed": {
+    "agentId": "01a10cb5-fb91-75d0-a15c-7d4ad21f37c6",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

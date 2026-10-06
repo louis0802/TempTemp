@@ -1,0 +1,19 @@
+{
+  "taskId": "pepper_lunch_sg-student-meal",
+  "agentId": "01a10cb4-c63f-7331-83db-301a0c545d68",
+  "boundAt": "2026-10-05T15:35:36.573Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "19f0e7d901e93aad9e74e5a165f52ec570d010228154db56f25a09ea7fb6dc6d",
+  "messageSha256": "a8cae60c74aa9eb06d5ff6ca943e5bb2aa9a9788f5c17881299d6342e965e0f2",
+  "toolConfirmed": {
+    "agentId": "01a10cb4-c63f-7331-83db-301a0c545d68",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "taskId": "pepper_lunch_sg-dine-with-pride",
+  "reservedAt": "2026-10-05T15:35:38.250Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "taskId": "pepper_lunch_sg-dine-with-pride",
+  "agentId": "01a10cb4-ce8c-7192-9fe2-45eb5a55cc54",
+  "boundAt": "2026-10-05T15:35:38.710Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "417e9e21e8bf0eb3890033f0f5ab0b27943ed5741c66b262684352a1d00690a0",
+  "messageSha256": "a28fa62f84ff41f34851a28fda731b58b798ba2ae7f759b6fefa64d254a2c9e4",
+  "toolConfirmed": {
+    "agentId": "01a10cb4-ce8c-7192-9fe2-45eb5a55cc54",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

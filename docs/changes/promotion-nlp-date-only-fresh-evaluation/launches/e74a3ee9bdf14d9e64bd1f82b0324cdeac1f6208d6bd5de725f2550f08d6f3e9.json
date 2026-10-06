@@ -1,0 +1,19 @@
+{
+  "taskId": "shake_shack_sg-hello-one-fullerton",
+  "agentId": "01a10cb6-34fa-77d2-9089-6a9571ca1f63",
+  "boundAt": "2026-10-05T15:37:10.472Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "2da104da40dba7f73297ea92fb1c9d95ad546893d7e2ff27e44572d6ae372deb",
+  "messageSha256": "dbf56b012a9860739c30a75b218d993c90bc7a0921da97491755d4f7b1e1811d",
+  "toolConfirmed": {
+    "agentId": "01a10cb6-34fa-77d2-9089-6a9571ca1f63",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

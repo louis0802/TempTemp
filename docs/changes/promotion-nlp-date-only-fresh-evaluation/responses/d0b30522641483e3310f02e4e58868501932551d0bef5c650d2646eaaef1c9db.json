@@ -1,0 +1,18 @@
+{
+  "taskId": "pepper_lunch_sg-student-meal",
+  "agentId": "01a10cb4-c63f-7331-83db-301a0c545d68",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Get a 15% OFF any main dish from the main menu after 5pm.\"},\"merchant\":{\"value\":\"Pepper Lunch\",\"quote\":\"Valid at Pepper Lunch restaurants only.\"},\"title\":{\"value\":\"15% OFF any main dish from the main menu after 5pm\",\"quote\":\"Get a 15% OFF any main dish from the main menu after 5pm.\"},\"benefit\":{\"value\":\"15% OFF any main dish from the main menu\",\"quote\":\"Get a 15% OFF any main dish from the main menu after 5pm.\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "8bb874d1c22d552d4212ff3a805c520abb89ad90c512c0bc93419d6bfccb2bae",
+  "savedAt": "2026-10-05T15:36:51.222Z",
+  "inputSha256": "19f0e7d901e93aad9e74e5a165f52ec570d010228154db56f25a09ea7fb6dc6d",
+  "sourceSha256": "6b0d67ea577166036a5bfedf2e37f3545fd29ae9c270a17c18d7c1d0ca68d339",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

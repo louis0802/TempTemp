@@ -1,0 +1,11 @@
+{
+  "taskId": "holdout-sgfooddeals-4933",
+  "agentId": "01a10cb7-ab9b-7d61-9e23-ef7e769658c9",
+  "closedAt": "2026-10-05T15:38:55.718Z",
+  "toolResult": {
+    "previous_status": {
+      "completed": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Paradise Hotpot: All-You-Can-Eat from $19.90\"},\"merchant\":{\"value\":\"Paradise Hotpot\",\"quote\":\"Paradise Hotpot\"},\"title\":{\"value\":\"All-You-Can-Eat from $19.90\",\"quote\":\"All-You-Can-Eat from $19.90\"},\"benefit\":{\"value\":\"from $19.90\",\"quote\":\"from $19.90\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"selected_outlets\",\"quote\":\"Selected outlets\"},\"locationRules\":[]}"
+    }
+  },
+  "confirmation": "close_agent returned; shutdown requested"
+}

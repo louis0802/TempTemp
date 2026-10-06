@@ -1,0 +1,11 @@
+{
+  "taskId": "holdout-sgfooddeals-4924",
+  "agentId": "01a10cb7-ec2a-7f02-9436-c180ad1341a6",
+  "closedAt": "2026-10-05T15:39:13.940Z",
+  "toolResult": {
+    "previous_status": {
+      "completed": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Enjoy 1-for-1 deals on all drinks like Strawberry Matcha Latte, Hojicha Latte, Iced Chocolate & more\"},\"merchant\":{\"value\":\"Brash Boys Coffee\",\"quote\":\"Brash Boys Coffee\"},\"title\":{\"value\":\"1-for-1 on All Drinks\",\"quote\":\"Brash Boys Coffee: 1-for-1 on All Drinks\"},\"benefit\":{\"value\":\"1-for-1 deals on all drinks\",\"quote\":\"Enjoy 1-for-1 deals on all drinks\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}"
+    }
+  },
+  "confirmation": "close_agent returned; shutdown requested"
+}

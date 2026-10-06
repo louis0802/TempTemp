@@ -1,0 +1,18 @@
+{
+  "taskId": "bari_bari_steak_sg-promotions-2",
+  "agentId": "01a10cb6-bc97-70c3-a2d9-66e46b18ed9a",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"enjoy 23% savings and pile your bowl high with crisp veggies, tasty toppings, and delicious dressings for just $12.90++ (U.P. $16.90++).\"},\"merchant\":{\"value\":\"Bari Bari Steak\",\"quote\":\"Bari Bari Steak\"},\"title\":{\"value\":\"23% Off Free-Flow Salad Bar\",\"quote\":\"Enjoy 23% Off Free-Flow Salad Bar at Bari Bari Steak!\"},\"benefit\":{\"value\":\"23% savings; Free-Flow Salad Bar for just $12.90++ (U.P. $16.90++)\",\"quote\":\"enjoy 23% savings and pile your bowl high with crisp veggies, tasty toppings, and delicious dressings for just $12.90++ (U.P. $16.90++).\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"named_outlets\",\"quote\":\"All-Day Free-Flow Salad Bar: Available at Tampines 1 and VivoCity. Tea-Time Free-Flow Salad Bar (2 PM – 5 PM): Available at Junction 8 and Great World.\"},\"locationRules\":[{\"role\":\"participating\",\"names\":[\"Tampines 1\",\"VivoCity\",\"Junction 8\",\"Great World\"],\"quote\":\"All-Day Free-Flow Salad Bar: Available at Tampines 1 and VivoCity. Tea-Time Free-Flow Salad Bar (2 PM – 5 PM): Available at Junction 8 and Great World.\"}]}",
+  "transportError": null,
+  "rawOutputSha256": "929f6203daf97413fb576e2af38d3ca94a01b1f0c922062dcf671610fc8f7bf3",
+  "savedAt": "2026-10-05T15:37:55.325Z",
+  "inputSha256": "cb3103aa81ba8943193a3c2af0075ac634cc8e2bc9da44203144f90e5e7bb7f4",
+  "sourceSha256": "c528a98af032b6a7815918c821566761502fc9f9afb505829c857b42deef200c",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

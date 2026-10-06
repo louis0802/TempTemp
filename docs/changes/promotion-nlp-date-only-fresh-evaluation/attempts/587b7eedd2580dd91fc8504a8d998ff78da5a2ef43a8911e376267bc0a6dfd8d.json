@@ -1,0 +1,10 @@
+{
+  "taskId": "bari_bari_steak_sg-promotions-2",
+  "reservedAt": "2026-10-05T15:37:44.739Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  }
+}

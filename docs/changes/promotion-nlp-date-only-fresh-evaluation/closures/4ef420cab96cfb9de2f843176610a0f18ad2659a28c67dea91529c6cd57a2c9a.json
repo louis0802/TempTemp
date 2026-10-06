@@ -1,0 +1,11 @@
+{
+  "taskId": "pepper_lunch_sg-weekday-lunch",
+  "agentId": "01a10cb4-cbe0-7e53-95ed-6c0b8d0be5ac",
+  "closedAt": "2026-10-05T15:36:53.221Z",
+  "toolResult": {
+    "previous_status": {
+      "completed": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"available at a deal you simply can't resist!\"},\"merchant\":{\"value\":\"Pepper Lunch\",\"quote\":null},\"title\":{\"value\":\"Weekday Lunch Deals\",\"quote\":\"Tempting Weekday Lunch Deals\"},\"benefit\":{\"value\":\"a deal\",\"quote\":\"available at a deal\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}"
+    }
+  },
+  "confirmation": "close_agent returned; shutdown requested"
+}

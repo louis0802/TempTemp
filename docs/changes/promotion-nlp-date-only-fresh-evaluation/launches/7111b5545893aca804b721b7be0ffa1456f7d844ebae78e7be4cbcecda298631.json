@@ -1,0 +1,19 @@
+{
+  "taskId": "pepper_lunch_sg-uper-value-deal",
+  "agentId": "01a10cb4-c8db-7f40-9efa-fe53118cee2a",
+  "boundAt": "2026-10-05T15:35:37.344Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "5cdaff63bc7a4b1661db6e8c300efe8511dc9ada93f45a34f5b5143d649556a9",
+  "messageSha256": "faa91531e0086f66ac6d822442c085b998270b8b74fbc9431f54f4a44425dd7e",
+  "toolConfirmed": {
+    "agentId": "01a10cb4-c8db-7f40-9efa-fe53118cee2a",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

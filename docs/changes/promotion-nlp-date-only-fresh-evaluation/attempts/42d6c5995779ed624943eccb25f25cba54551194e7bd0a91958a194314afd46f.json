@@ -1,0 +1,10 @@
+{
+  "taskId": "fairprice_sg-price-drop-buy-now-weekly-offers-from-20-off",
+  "reservedAt": "2026-10-05T15:38:30.453Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  }
+}

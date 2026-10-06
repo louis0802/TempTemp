@@ -1,0 +1,19 @@
+{
+  "taskId": "holdout-sgfooddeals-4896",
+  "agentId": "01a10cb8-4aad-7791-9735-50703c2c22b0",
+  "boundAt": "2026-10-05T15:39:27.315Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "d9f4cf5a489b1ebd9f8ef77138f33e246a0326db636c67c70b982565b0d15798",
+  "messageSha256": "e198be9653a66499c83551d94bf383f136d58bb9ce2e57a39a37c636b53fb532",
+  "toolConfirmed": {
+    "agentId": "01a10cb8-4aad-7791-9735-50703c2c22b0",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

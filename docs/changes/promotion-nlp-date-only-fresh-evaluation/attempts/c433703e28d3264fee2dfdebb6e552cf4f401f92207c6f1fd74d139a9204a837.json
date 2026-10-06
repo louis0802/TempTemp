@@ -1,0 +1,10 @@
+{
+  "taskId": "pepper_lunch_sg-cheesy-omelette-2",
+  "reservedAt": "2026-10-05T15:36:54.460Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  }
+}

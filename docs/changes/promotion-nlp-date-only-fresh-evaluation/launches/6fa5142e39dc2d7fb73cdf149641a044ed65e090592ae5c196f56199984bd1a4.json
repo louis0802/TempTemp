@@ -1,0 +1,19 @@
+{
+  "taskId": "shake_shack_sg-introducing-aloha-shack",
+  "agentId": "01a10cb7-3610-7a50-ba55-4c7657048516",
+  "boundAt": "2026-10-05T15:38:16.299Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "23ce276467596bafda1c56b2917c10137b31ae98d9a548b5182d9871b401307f",
+  "messageSha256": "0ba68fa09d9678beee0d4c94e36899fd1f9454124ff69ec590671fd71ef48625",
+  "toolConfirmed": {
+    "agentId": "01a10cb7-3610-7a50-ba55-4c7657048516",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

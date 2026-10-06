@@ -1,0 +1,11 @@
+{
+  "taskId": "holdout-tastesoulsg-4485",
+  "agentId": "01a10cb7-9c18-7a32-957e-2ef59774202f",
+  "closedAt": "2026-10-05T15:38:52.725Z",
+  "toolResult": {
+    "previous_status": {
+      "completed": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"$6 McSpicy Meal (U.P. $8.30)\"},\"merchant\":{\"value\":\"McDonald's\",\"quote\":\"McDonald's\"},\"title\":{\"value\":\"$6 McSpicy Meal\",\"quote\":\"$6 McSpicy Meal\"},\"benefit\":{\"value\":\"$6 McSpicy Meal (U.P. $8.30)\",\"quote\":\"$6 McSpicy Meal (U.P. $8.30)\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"all_outlets\",\"quote\":\"All outlets\"},\"locationRules\":[]}"
+    }
+  },
+  "confirmation": "close_agent returned; shutdown requested"
+}

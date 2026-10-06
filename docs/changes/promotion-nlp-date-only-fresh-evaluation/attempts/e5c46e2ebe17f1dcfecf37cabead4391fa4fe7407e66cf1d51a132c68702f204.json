@@ -1,0 +1,10 @@
+{
+  "taskId": "shake_shack_sg-national-cheeseburger-day",
+  "reservedAt": "2026-10-05T15:37:13.476Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  }
+}

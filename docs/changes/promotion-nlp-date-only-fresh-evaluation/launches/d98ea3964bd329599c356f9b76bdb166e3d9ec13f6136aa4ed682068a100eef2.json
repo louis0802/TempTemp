@@ -1,0 +1,19 @@
+{
+  "taskId": "shake_shack_sg-our-french-onion-menu",
+  "agentId": "01a10cb7-6aae-7f32-a99b-e5b7db46fa32",
+  "boundAt": "2026-10-05T15:38:29.829Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "3e557642d38793ae0dabd1ed321a2729f4e6b284318cd833f40cce75cc8706fd",
+  "messageSha256": "3a865cffffbbaaa53e4267a6ed193d07fde865fd47a2a21088a16036cdf776f0",
+  "toolConfirmed": {
+    "agentId": "01a10cb7-6aae-7f32-a99b-e5b7db46fa32",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

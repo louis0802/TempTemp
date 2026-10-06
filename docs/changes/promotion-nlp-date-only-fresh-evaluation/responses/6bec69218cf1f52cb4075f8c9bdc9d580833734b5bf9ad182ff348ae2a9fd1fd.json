@@ -1,0 +1,18 @@
+{
+  "taskId": "holdout-tastesoulsg-4426",
+  "agentId": "01a10cb8-608e-7f90-bd39-4229fca117f8",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"$12++ 250g N.Z. Striploin Steak (U.P. $28)\"},\"merchant\":{\"value\":\"Jack’s Place\",\"quote\":\"Jack’s Place\"},\"title\":{\"value\":\"250g N.Z. Striploin Steak for $12++\",\"quote\":\"$12++ 250g N.Z. Striploin Steak\"},\"benefit\":{\"value\":\"$12++ 250g N.Z. Striploin Steak (U.P. $28)\",\"quote\":\"$12++ 250g N.Z. Striploin Steak (U.P. $28)\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"all_outlets\",\"quote\":\"All outlets\"},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "272f9df3ae4f19a0f694064640fd8548df8cc39ad3206ae5450f728fcae42f6b",
+  "savedAt": "2026-10-05T15:39:44.644Z",
+  "inputSha256": "ad48de5257fd956ab891d1a101083909b1f69a7112e3413127edea026a8954ea",
+  "sourceSha256": "d6fd9e0ce770414bed0e848e7bfff061c02ba11f0961c4fa93136a8eb8861cf1",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

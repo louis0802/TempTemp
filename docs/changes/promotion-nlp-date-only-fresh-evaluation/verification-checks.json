@@ -1,0 +1,33 @@
+{
+  "scoreReproducible": true,
+  "resultsSha256": "95c66acf10fca90d1b3a3ea82f3829fb379af5b55d165324285960b0a2440fbe",
+  "protected": {
+    "unchanged": 2477
+  },
+  "rawSealSha256": "8f809b04b5e3da30185e7388a5aa09c92ef8f35116b5d22d681d860b6bd84521",
+  "agents": 69,
+  "uniqueAgents": 69,
+  "priorAgentReuse": 0,
+  "requestedModelCounts": {
+    "gpt-6-luna": 69
+  },
+  "concurrency": {
+    "maximumOpenAgents": 4,
+    "closed": 69
+  },
+  "historicalPairs": 28,
+  "historicalPairedSources": 26,
+  "coreCompleteIds": [
+    "shake_shack_sg-national-cheeseburger-day",
+    "shake_shack_sg-singlish-lingo",
+    "shake_shack_sg-were-introducing-chicken-sundays"
+  ],
+  "gitIndexUnchanged": true,
+  "gitHeadUnchanged": true,
+  "nextEnv": {
+    "currentSha256": "1862ac4bbbc5192d4bf562161df66ea547ed3e67173100656ab606ae9797db2b",
+    "gitHeadSha256": "1862ac4bbbc5192d4bf562161df66ea547ed3e67173100656ab606ae9797db2b",
+    "legacyExpectedSha256": "0f70629890b72a0a82e91972cc032c04b658b26c265373cb711cf576bfbf8fcc",
+    "oldAssertionUnchanged": true
+  }
+}

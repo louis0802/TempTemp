@@ -1,0 +1,18 @@
+{
+  "taskId": "shake_shack_sg-feeding-a-crowd",
+  "agentId": "01a10cb6-2a34-7493-be79-645086661b19",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"order 10 of your favorite items and enjoy another 2 on us!\"},\"merchant\":{\"value\":\"Shake Shack\",\"quote\":\"With Shake Shack Catering\"},\"title\":{\"value\":\"Feeding a Crowd?\",\"quote\":\"Feeding a Crowd?\"},\"benefit\":{\"value\":\"purchase 12 items for the price of 10\",\"quote\":\"Promotion entitles guests to purchase 12 items for the price of 10.\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "e314f5a1937cd1d6031086a58cfb75270fcb2e156f6ed8e996c1a47c4fb314b7",
+  "savedAt": "2026-10-05T15:37:14.358Z",
+  "inputSha256": "0d2638ce415b3867b7cd1e5ad8f0bde283d71d48f8827707ee51f4440d517a84",
+  "sourceSha256": "f38a8e5e647fb1b51e3b70af00cb159196b0d36664db74b909917a40feea296e",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

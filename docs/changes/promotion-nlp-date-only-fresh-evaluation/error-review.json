@@ -1,0 +1,1329 @@
+{
+  "kind": "post-seal-parent-agent-diagnostic-review-not-rescoring",
+  "resultsSha256": "95c66acf10fca90d1b3a3ea82f3829fb379af5b55d165324285960b0a2440fbe",
+  "rawSealSha256": "8f809b04b5e3da30185e7388a5aa09c92ef8f35116b5d22d681d860b6bd84521",
+  "authority": "parent agent source review; not independent or human gold",
+  "frozenMetricsUnchanged": true,
+  "confirmed": {
+    "wrongDateFacts": {
+      "regression": 2,
+      "holdout": 0
+    },
+    "wrongDateFactsPassingValidator": {
+      "regression": 0,
+      "holdout": 0
+    },
+    "validatorPassNonBranchPhysicalFacts": {
+      "regression": 1,
+      "holdout": 0
+    },
+    "validatorPassUnsupportedPositiveScope": {
+      "regression": 1,
+      "holdout": 0
+    },
+    "exclusionPolarityReversals": 0
+  },
+  "limitations": [
+    "Frozen wrong-outlet counts are 2 regression / 5 holdout, but include one collective branch label, two equivalent venue-label mismatches and four boundary-policy flags; they must not all be described as invented branches.",
+    "Holdout wrong-scope counts include two narrower selected/all label differences plus one conservative boundary-policy flag.",
+    "This diagnostic review never replaces frozen annotations, thresholds, results or recommendation.",
+    "Full-source Description preserves date/branch associations and other restrictions; no current redeemability was evaluated."
+  ],
+  "records": [
+    {
+      "id": "pepper_lunch_sg-student-meal",
+      "cohort": "regression",
+      "frozenFindings": [
+        "unsafe_boundary_commitment"
+      ],
+      "source": "Student Meal Students, this is for you! Indulge in our exclusive Student Meal featuring the mouthwatering Chicken Cheese Creamy Brown Risotto! Bursting with creamy, cheesy flavours & sizzle them with the chicken for a power packed meal. Don’t miss our incredible student deals! Enjoy flavorful choices like Salmon and Chicken Pepper Rice and Diced Cut Beef Steak with Egg, all at prices you can't resist! Get a 15% OFF any main dish from the main menu after 5pm. Available on weekdays only, excluding public holidays and eve of Lunar New Year. One main dish per valid Student Card presented by the student himself/herself at the cashier. Valid at Pepper Lunch restaurants only. Dine-in only (Applicable for Student Meal Dishes only, Mon-Fri, opening till 5pm). Please note that we do not take reservation at all our Restaurants or Express stores. Kindly walk-in to dine-in and enjoy your sizzling hot meal.",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Get a 15% OFF any main dish from the main menu after 5pm.\"},\"merchant\":{\"value\":\"Pepper Lunch\",\"quote\":\"Valid at Pepper Lunch restaurants only.\"},\"title\":{\"value\":\"15% OFF any main dish from the main menu after 5pm\",\"quote\":\"Get a 15% OFF any main dish from the main menu after 5pm.\"},\"benefit\":{\"value\":\"15% OFF any main dish from the main menu\",\"quote\":\"Get a 15% OFF any main dish from the main menu after 5pm.\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+      "rawOutputSha256": "8bb874d1c22d552d4212ff3a805c520abb89ad90c512c0bc93419d6bfccb2bae",
+      "validator": {
+        "contractValid": true,
+        "issues": [],
+        "unresolved": [
+          "missing_start_date",
+          "missing_end_date",
+          "physical_participation_unresolved"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "The answer selects the source-supported after-5 15% discount but drops the distinct before-5 Student Meal identity. The frozen whole-source contract expected uncertain rather than choosing one offer. This is source-organization/boundary loss, not invention of the 15% discount."
+    },
+    {
+      "id": "pepper_lunch_sg-uper-value-deal",
+      "cohort": "regression",
+      "frozenFindings": [
+        "benefit_identity_mismatch"
+      ],
+      "source": "$uper Value Deal $uper Value Deal is here at Pepper Lunch Express! Enjoy sizzling Australian Chilled Beef MB2+ Steak Bites served on a hot teppan with rice, miso soup, and your choice of side dish from just $9.90. Choose your perfect portion: - 120g – $9.90 (U.P. $14.70) - 160g – $11.90 (U.P. $17.70) ★ Recommended - 200g – $13.90 (U.P. $20.70) Each set comes complete with: ✔ Rice ✔ Miso Soup ✔ Choice of 1 Side Dish (Mashed Potato, Sweet Corn Bowl, or Broccoli in Sesame Dressing) Enjoy savings of up to 32% off for a limited time only. Available from 1 September to 31 October 2026. Image(s) for illustration purposes only. Not valid with other promotions, vouchers and mobile payment with rebates or discounts.",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Enjoy sizzling Australian Chilled Beef MB2+ Steak Bites served on a hot teppan with rice, miso soup, and your choice of side dish from just $9.90.\"},\"merchant\":{\"value\":\"Pepper Lunch Express\",\"quote\":\"$uper Value Deal is here at Pepper Lunch Express!\"},\"title\":{\"value\":\"$uper Value Deal\",\"quote\":\"$uper Value Deal\"},\"benefit\":{\"value\":\"from just $9.90\",\"quote\":\"from just $9.90\"},\"startDate\":{\"value\":\"2026-09-01\",\"quote\":\"Available from 1 September to 31 October 2026.\"},\"endDate\":{\"value\":\"2026-10-31\",\"quote\":\"Available from 1 September to 31 October 2026.\"},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+      "rawOutputSha256": "dfe307096f7a44c12475324328ad9f0b12c5c1983d0b3ffbdc36eeb9a215a859",
+      "validator": {
+        "contractValid": true,
+        "issues": [],
+        "unresolved": [
+          "physical_participation_unresolved"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "The literal From price is correct. The frozen benefit-identity matcher requires an item, savings or portion identity and does not accept this generic price alone; this is an underspecified benefit display, not a fabricated price. Full Description keeps all portions and up-to savings."
+    },
+    {
+      "id": "pepper_lunch_sg-weekday-lunch",
+      "cohort": "regression",
+      "frozenFindings": [
+        "missing_or_non_source_quote:merchant",
+        "nonverbatim_merchant",
+        "benefit_identity_mismatch"
+      ],
+      "source": "Weekday Lunch Elevate your weekdays with our Tempting Weekday Lunch Deals! Pick from delectable selections such as Striploin Steak and Beef Pepper Yakiudon, available at a deal you simply can't resist! 1. Image(s) for illustration purposes only. 2. For Dine-In only. 3. Promotion is only valid from Mondays to Fridays, excluding Public Holidays. 4. Choice of miso soup or seasonal soup, subject to availability. 5. Not valid with other promotions and coupons. While stocks last.",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"available at a deal you simply can't resist!\"},\"merchant\":{\"value\":\"Pepper Lunch\",\"quote\":null},\"title\":{\"value\":\"Weekday Lunch Deals\",\"quote\":\"Tempting Weekday Lunch Deals\"},\"benefit\":{\"value\":\"a deal\",\"quote\":\"available at a deal\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+      "rawOutputSha256": "5a25ebcfc56f38d8bd607ad4dc969b093471229bd33278c36118083e1de982de",
+      "validator": {
+        "contractValid": false,
+        "issues": [
+          "missing_or_non_source_quote:merchant",
+          "nonverbatim_merchant"
+        ],
+        "unresolved": [
+          "missing_start_date",
+          "missing_end_date",
+          "physical_participation_unresolved"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "Merchant comes from context hint with no source quote, which violates the frozen input/evidence contract. Benefit \"a deal\" is too generic for the frozen identity matcher. The full source has no explicit campaign dates or physical participation."
+    },
+    {
+      "id": "pepper_lunch_sg-peppie-meal",
+      "cohort": "regression",
+      "frozenFindings": [
+        "nonverbatim_benefit"
+      ],
+      "source": "Peppie Meal Elevate your child's mealtime into a delightful celebration with our Peppie Meal! Enjoy the delicious and nutritious dishes that are sure to please even the pickiest eaters! Available at all Pepper Lunch Restaurants. 1Kid’s Meal (Beef) with 1 packet of Ribena at $7.90 2Kid’s Meal (Chicken) with 1 packet of Ribena at $7.90 1. Image(s) for illustration purposes only. 2. For dine-in only. 3. Kid’s meal is valid for 7 years old and below only. 4. Kids must be present upon ordering. 5. Not valid for use in conjunction with other discounts, promotions, privileges, coupons, vouchers, Weekday Lunch and Student Meals. 6. Promotion is available daily, excluding eve of Chinese New Year. 7. While stocks last.",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"1Kid’s Meal (Beef) with 1 packet of Ribena at $7.90\"},\"merchant\":{\"value\":\"Pepper Lunch\",\"quote\":\"Available at all Pepper Lunch Restaurants.\"},\"title\":{\"value\":\"Peppie Meal\",\"quote\":\"Peppie Meal\"},\"benefit\":{\"value\":\"1Kid’s Meal (Beef) with 1 packet of Ribena at $7.90; 2Kid’s Meal (Chicken) with 1 packet of Ribena at $7.90\",\"quote\":\"1Kid’s Meal (Beef) with 1 packet of Ribena at $7.90 2Kid’s Meal (Chicken) with 1 packet of Ribena at $7.90\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"all_outlets\",\"quote\":\"Available at all Pepper Lunch Restaurants.\"},\"locationRules\":[]}",
+      "rawOutputSha256": "1264594418e1f119d8a62ddbb29ddf7a4500603941bb5f26d7a5786d0f2e87e9",
+      "validator": {
+        "contractValid": false,
+        "issues": [
+          "nonverbatim_benefit"
+        ],
+        "unresolved": [
+          "missing_start_date",
+          "missing_end_date",
+          "benefit_exceeds_publication_limit"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "The benefit joins, changes punctuation or summarizes source wording, failing the literal-value/quote contract. Description still keeps every source restriction; a contract failure is not automatically a semantic hallucination."
+    },
+    {
+      "id": "pepper_lunch_sg-delivery",
+      "cohort": "regression",
+      "frozenFindings": [
+        "missing_or_non_source_quote:merchant",
+        "nonverbatim_merchant",
+        "non_economic_facts"
+      ],
+      "source": "Have Your Meals Delivered! All our Delivery Partners are able to delivery and self-pickup in the areas near our restaurants. GrabFood 1Delivery near TAMPINES ONE with Grab Food. 2Delivery near BEDOK MALL with Grab Food. 3Delivery near JEM with Grab Food. 4Delivery near JURONG POINT with Grab Food. 5Delivery near COMPASS ONE with Grab Food. 6Delivery near ANG MO KIO HUB with Grab Food. 7Delivery near HOUGANG MALL with Grab Food. Foodpanda 1Delivery near TAMPINES ONE with Foodpanda. 2Delivery near BEDOK MALL with Foodpanda. 3Delivery near JEM with Foodpanda. 4Delivery near JURONG POINT with Foodpanda. 5Delivery near COMPASS ONE with Foodpanda. 6Delivery near ANG MO KIO HUB with Foodpanda. 7Delivery near HOUGANG MALL with Foodpanda. 8Delivery near THE WOODLEIGH MALL with Foodpanda. Food Delivery for the Express stores. Limited to signature dishes only. 1Delivery near ASIA SQUARE with Grab Food.",
+      "rawOutput": "{\"classification\":{\"value\":\"service_information\",\"quote\":\"Have Your Meals Delivered! All our Delivery Partners are able to delivery and self-pickup in the areas near our restaurants.\"},\"merchant\":{\"value\":\"Pepper Lunch\",\"quote\":null},\"title\":{\"value\":null,\"quote\":null},\"benefit\":{\"value\":null,\"quote\":null},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+      "rawOutputSha256": "cd5e53db81081eaa9522c6028845b66b22d5cce4893405dbd511fc6d70cd361a",
+      "validator": {
+        "contractValid": false,
+        "issues": [
+          "missing_or_non_source_quote:merchant",
+          "nonverbatim_merchant",
+          "non_economic_facts"
+        ],
+        "unresolved": [
+          "not_confirmed_economic_offer",
+          "missing_start_date",
+          "missing_end_date",
+          "physical_participation_unresolved",
+          "missing_title",
+          "missing_benefit"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "A populated merchant is not supported by its exact selected source quote; context hints cannot supply fact evidence. This is a provenance failure, not proof that the merchant identity itself is wrong. Non-economic/uncertain output leaves merchant/title or other core facts populated despite the fixed contract requiring all-null facts."
+    },
+    {
+      "id": "shake_shack_sg-100-angus-beef-just-for-you",
+      "cohort": "regression",
+      "frozenFindings": [
+        "json_parse_failure",
+        "classification_mismatch",
+        "economic_identity_omitted"
+      ],
+      "source": "100% Angus Beef – Just for You 100% Angus Beef – Just for You At Shake Shack, we don’t cut corners—especially when it comes to our beef. That’s why our burgers start with 100% Angus beef, freshly ground and packed with flavor. And this September, we’re giving you even more reasons to sink your teeth into it. Here’s the Deal From 23 – 26 September, when you order our Say Cheese (Burger) Bundle, we’ll treat you to a complimentary ShackBurger(Single). That’s right—more Angus beef, more flavor, all in one bundle. Here’s what’s in the bundle (From $28.90): ● Choice of 1 Burger ● Complimentary ShackBurger (Single) ● Choice of Fries ● Choice of Bites ● Choice of 2 Drinks Don’t Miss Out This offer is available 23 – 26 September across all Shacks and Happy Point Singapore in-app orders. Come hungry, bring a friend, and taste the difference that 100% Angus beef makes. Terms and Conditions Offer is available across all Shake Shack outlets in Singapore from 23-26 September 2025 only. Offer is valid for dine-in and take-away. The offer is valid in the Shack and Happy Point Singapore in-app orders. Offer not valid for orders made through third-party delivery apps. Offer is not valid in conjunction with any other vouchers. Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items. Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice. Visuals are for illustration purposes only.",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"From 23 – 26 September, when you order our Say Cheese (Burger) Bundle, we’ll treat you to a complimentary ShackBurger(Single).\"},\"merchant\":{\"value\":\"Shake Shack\",\"quote\":\"At Shake Shack, we don’t cut corners—especially when it comes to our beef.\"},\"title\":{\"value\":\"Say Cheese (Burger) Bundle with a complimentary ShackBurger (Single)\",\"quote\":\"when you order our Say Cheese (Burger) Bundle, we’ll treat you to a complimentary ShackBurger(Single).\"},\"benefit\":{\"value\":\"complimentary ShackBurger(Single)\",\"quote\":\"we’ll treat you to a complimentary ShackBurger(Single).\"},\"startDate\":{\"value\":\"2025-09-23\",\"quote\":\"Offer is available across all Shake Shack outlets in Singapore from 23-26 September 2025 only.\"},\"endDate\":{\"value\":\"2025-09-26\",\"quote\":\"Offer is available across all Shake Shack outlets in Singapore from 23-26 September 2025 only.\"},\"locationScope\":{\"value\":\"all_outlets\",\"quote\":\"Offer is available across all Shake Shack outlets in Singapore from 23-26 September 2025 only.\"},\"locationRules\":[{\"role\":\"participating\",\"names\":[\"Shake Shack outlets in Singapore\"],\"quote\":\"Offer is available across all Shake Shack outlets in Singapore from 23-26 September 2025 only.\"}]}\"}",
+      "rawOutputSha256": "f261452220023f9802390a6c101ec87673f84c6e947f24850e376d9184d56a36",
+      "validator": {
+        "contractValid": false,
+        "issues": [
+          "malformed_date_only_output"
+        ],
+        "unresolved": []
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "The raw first answer ends with extra JSON punctuation. Strict JSON parsing fails. No trailing bytes are stripped and no repaired answer is substituted. Its seemingly useful internal facts remain unavailable to the scorer."
+    },
+    {
+      "id": "shake_shack_sg-all-about-chickens",
+      "cohort": "regression",
+      "frozenFindings": [
+        "benefit_identity_mismatch",
+        "wrong_participating_outlets"
+      ],
+      "source": "All About Chickens At Shake Shack, we’re all about doing things the right way—and that includes our chicken. We’re celebrating the kind that’s raised with care, not cages. Our 100% cage-free chicken isn’t just good, it’s part of our promise to support better animal welfare and a more responsible food system. Because when your chicken’s raised right, you can taste the difference—and feel good about it too. Here’s what’s in the bundle (From $30.80): Choice of 1 Burger Complimentary Chicken Shack Choice of Fries Choice of Bites Choice of 2 Drinks TERMS & CONDITIONS: Offer is available across all Shake Shack outlets in Singapore on 7 July 2025 only. Offer is valid for dine-in and take-away. Offer is valid in the Shack and via the Happy Point app. Offer not valid for orders made through third-party delivery apps. Offer is not valid in conjunction with any other vouchers. Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items. Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice. Visuals are for illustration purposes only.",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Here’s what’s in the bundle (From $30.80): Choice of 1 Burger Complimentary Chicken Shack Choice of Fries Choice of Bites Choice of 2 Drinks\"},\"merchant\":{\"value\":\"Shake Shack\",\"quote\":\"Shake Shack\"},\"title\":{\"value\":\"All About Chickens\",\"quote\":\"All About Chickens\"},\"benefit\":{\"value\":\"From $30.80\",\"quote\":\"(From $30.80)\"},\"startDate\":{\"value\":\"2025-07-07\",\"quote\":\"Offer is available across all Shake Shack outlets in Singapore on 7 July 2025 only.\"},\"endDate\":{\"value\":\"2025-07-07\",\"quote\":\"Offer is available across all Shake Shack outlets in Singapore on 7 July 2025 only.\"},\"locationScope\":{\"value\":\"all_outlets\",\"quote\":\"Offer is available across all Shake Shack outlets in Singapore on 7 July 2025 only.\"},\"locationRules\":[{\"role\":\"participating\",\"names\":[\"all Shake Shack outlets in Singapore\"],\"quote\":\"Offer is available across all Shake Shack outlets in Singapore on 7 July 2025 only.\"}]}",
+      "rawOutputSha256": "b78fff56bb47c925279f6aa49911c5e4b5948fbed8361e93c44bf8a9f2289075",
+      "validator": {
+        "contractValid": true,
+        "issues": [],
+        "unresolved": []
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "From $30.80 is source-supported but omits the complimentary Chicken Shack from the benefit display. \"all Shake Shack outlets in Singapore\" is a collective scope, not a named physical branch. The structural validator accepts this domain error, counted as one confirmed validator-pass non-branch physical fact."
+    },
+    {
+      "id": "shake_shack_sg-concrete-craze",
+      "cohort": "regression",
+      "frozenFindings": [
+        "unsafe_boundary_commitment"
+      ],
+      "source": "Concrete Craze Summer heat is coming real hot this year so let’s chill out with something sweet! No one REALLY knows how special our frozen custard and concretes are and we’re here to hit you with all the cool custard facts you need to know. Check out our digital edition of Concrete Craze to learn: What makes our frozen custard special Hall of fame for our local partners Some fun activities that you can participate in to get a concrete of your choice* Get the inside scoop below! *Concrete craze campaign ends on 18 August 2024 and the vouchers will be issued by 25 August 2024.",
+      "rawOutput": "{\"classification\":{\"value\":\"contest_or_chance\",\"quote\":\"Some fun activities that you can participate in to get a concrete of your choice*\"},\"merchant\":{\"value\":null,\"quote\":null},\"title\":{\"value\":null,\"quote\":null},\"benefit\":{\"value\":null,\"quote\":null},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+      "rawOutputSha256": "6edc2e33418ed561ba88368f42c6bc258da3c776b9fec85a3556a625d25a5d20",
+      "validator": {
+        "contractValid": true,
+        "issues": [],
+        "unresolved": [
+          "not_confirmed_economic_offer",
+          "missing_start_date",
+          "missing_end_date",
+          "physical_participation_unresolved",
+          "missing_title",
+          "missing_benefit"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "The model abstains from economics as contest_or_chance. The frozen source-level ambiguous note accepts only uncertain, so it records a boundary/classification mismatch. This is safe economic abstention and no date/physical invention; it is not a harmful economic commitment despite the frozen flag name."
+    },
+    {
+      "id": "shake_shack_sg-everything-in-our-veggie-shack",
+      "cohort": "regression",
+      "frozenFindings": [
+        "unsafe_boundary_commitment"
+      ],
+      "source": "Everything in our Veggie Shack From Garden to Grill Born out of our Innovation Kitchen in NYC, our Veggie Shack is made from a proprietary blend of real garden vegetables and grains, seared to perfection with American cheese, pickles, crispy onions and ShackSauce all on a toasted potato bun. What’s in it? The Veggie Patty includes 11 vegetables – Portobello mushrooms, shiitake mushrooms, sweet potato, carrot, celery, leek, roasted red onion, roasted garlic, cabbage, beet, and chives. It’s also powered with whole ingredients like sunflower seeds, miso, farro, and quinoa. Want to find out more? Click here for our FAQ! Lay’em out! Let your creativity flow and stand a chance to win an unlimited supply of Veggie Shack from 1 August to 22 September! All you gotta do is start laying the fresh vegetables used in our Veggie Shack to form our burger icon! Once you’re done, snap a pic, post it in your Instagram and tag us @shakeshacksg by 30th July 2359! *Remember to make your account public for us to capture your participation! Hibiscus 50/50 A refreshing mix of our fresh lemonade and floral hibiscus tea. Its sweet-tart flavor and vibrant red color makes it perfect with a Veggie Shack, leveling up your meal with a delightful and revitalizing sip.",
+      "rawOutput": "{\"classification\":{\"value\":\"contest_or_chance\",\"quote\":\"stand a chance to win an unlimited supply of Veggie Shack\"},\"merchant\":{\"value\":null,\"quote\":null},\"title\":{\"value\":null,\"quote\":null},\"benefit\":{\"value\":null,\"quote\":null},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+      "rawOutputSha256": "8143de1b5549708c9ad58ff66050303ec871e5028d6fb21f46d6691d03f7c86b",
+      "validator": {
+        "contractValid": true,
+        "issues": [],
+        "unresolved": [
+          "not_confirmed_economic_offer",
+          "missing_start_date",
+          "missing_end_date",
+          "physical_participation_unresolved",
+          "missing_title",
+          "missing_benefit"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "An explicit stand-a-chance contest supports the model class, while the source also introduces products. The frozen whole-source policy requires uncertain for this mixed source. It is safe economic abstention, not a false economic promotion."
+    },
+    {
+      "id": "shake_shack_sg-hello-parkway-parade",
+      "cohort": "regression",
+      "frozenFindings": [
+        "benefit_qualifier_omitted"
+      ],
+      "source": "Hello, Parkway Parade! Hello, Parkway Parade! Fellow Easties, your new neighbourhood Shack has arrived! Our 12th Shack is now officially open at Parkway Parade, bringing in our burgers, crinkle cut fries, shakes and all the Shack favorites to the heart of the neighbourhood Whether you’re an Eastie or just making your way over, we’ve got a new spot for you to grab a bite, catch up with friends and settle into some good Shack time. A Little Taste of the Coast A stone’s throw from the beach, this new Shack brings a little taste of the neighbourhood’s coastal spirit indoors. From rippling details inspired by the tide to warm timber and natural textures, spot the details that bring pieces of the shore into the space! Come Celebrate With Us Enjoy a little opening treat on us! From 11 September to 10 October, enjoy 10% OFF* with a minimum spend of $16 when you use promo code: PPOPENING. See you at Parkway Parade Shack! *Terms and conditions apply: Promo code is valid from 11 September to 10 October 2026. Promo code is applicable with minimum $16 purchase and is redeemable exclusively via the Happy Point Singapore app; the promo code is not valid on third-party delivery platforms. Redemption is valid at Parkway Parade Shake Shack Singapore outlet and is limited to one use per order. This promotion cannot be combined with any other offers or promotions. Shake Shack Singapore is not responsible for lost, stolen, expired, or misused codes, and reserves the right to amend or end the promotion without prior notice.",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"From 11 September to 10 October, enjoy 10% OFF* with a minimum spend of $16 when you use promo code: PPOPENING.\"},\"merchant\":{\"value\":\"Shake Shack Singapore\",\"quote\":\"Shake Shack Singapore is not responsible for lost, stolen, expired, or misused codes\"},\"title\":{\"value\":\"10% OFF with promo code PPOPENING\",\"quote\":\"enjoy 10% OFF* with a minimum spend of $16 when you use promo code: PPOPENING\"},\"benefit\":{\"value\":\"10% OFF*\",\"quote\":\"enjoy 10% OFF*\"},\"startDate\":{\"value\":\"2026-09-11\",\"quote\":\"Promo code is valid from 11 September to 10 October 2026.\"},\"endDate\":{\"value\":\"2026-10-10\",\"quote\":\"Promo code is valid from 11 September to 10 October 2026.\"},\"locationScope\":{\"value\":\"named_outlets\",\"quote\":\"Redemption is valid at Parkway Parade Shake Shack Singapore outlet\"},\"locationRules\":[{\"role\":\"participating\",\"names\":[\"Parkway Parade Shake Shack Singapore outlet\"],\"quote\":\"Redemption is valid at Parkway Parade Shake Shack Singapore outlet\"}]}",
+      "rawOutputSha256": "e22d54a56fee377f42da23497b162f4797bc35a6b55fe055b836228aa3a0fd37",
+      "validator": {
+        "contractValid": true,
+        "issues": [],
+        "unresolved": []
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "The 10% benefit display omits the frozen $16 qualifier. The complete Description still preserves the $16 minimum spend, PPOPENING and app-only conditions exactly; this flag does not mean those restrictions were lost from the record. No date or branch mismatch."
+    },
+    {
+      "id": "shake_shack_sg-study-breaks-just-got-better",
+      "cohort": "regression",
+      "frozenFindings": [
+        "nonverbatim_benefit"
+      ],
+      "source": "Study Breaks Just Got Better Good news, students! Your next study break comes with a little treat on us. Whether you’re catching up with friends after class or grabbing a quick bite before your next lesson, everything’s just a little better with crinkle cuts. On weekdays, enjoy Crinkle Cut Fries on us* with any burger and drink purchase. Simply present a valid student ID at the cashier. This offer is available exclusively at our Westgate, Junction 8 or Great World locations. See you at the Shack! *Terms and conditions: Promotion is available on weekdays (excluding Public Holidays) at Westgate, Junction 8 and Great World Shack locations only. A valid student ID must be presented at the point of purchase to enjoy the promotion. The offer is open to all primary, secondary, tertiary and university students in Singapore. Shake Shack Singapore reserves the right to amend or end the promotion without prior notice.",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"On weekdays, enjoy Crinkle Cut Fries on us* with any burger and drink purchase.\"},\"merchant\":{\"value\":\"Shake Shack\",\"quote\":\"Shake Shack Singapore reserves the right to amend or end the promotion without prior notice.\"},\"title\":{\"value\":\"Study Breaks Just Got Better\",\"quote\":\"Study Breaks Just Got Better\"},\"benefit\":{\"value\":\"Crinkle Cut Fries on us with any burger and drink purchase\",\"quote\":\"On weekdays, enjoy Crinkle Cut Fries on us* with any burger and drink purchase.\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"named_outlets\",\"quote\":\"This offer is available exclusively at our Westgate, Junction 8 or Great World locations.\"},\"locationRules\":[{\"role\":\"participating\",\"names\":[\"Westgate\",\"Junction 8\",\"Great World\"],\"quote\":\"Promotion is available on weekdays (excluding Public Holidays) at Westgate, Junction 8 and Great World Shack locations only.\"}]}",
+      "rawOutputSha256": "6cf4c3864ca37c9204fe391357e137624838474883a631d64d58169a19b4bfca",
+      "validator": {
+        "contractValid": false,
+        "issues": [
+          "nonverbatim_benefit"
+        ],
+        "unresolved": [
+          "missing_start_date",
+          "missing_end_date"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "The benefit joins, changes punctuation or summarizes source wording, failing the literal-value/quote contract. Description still keeps every source restriction; a contract failure is not automatically a semantic hallucination."
+    },
+    {
+      "id": "shake_shack_sg-this-ones-for-your-mom",
+      "cohort": "regression",
+      "frozenFindings": [
+        "nonverbatim_benefit",
+        "unstated_year:startDate",
+        "unstated_year:endDate",
+        "wrong_campaign_startDate",
+        "wrong_campaign_endDate"
+      ],
+      "source": "This One’s For Your Mom This year, skip the flower bouquets and go straight for the burgers. On May 11, we’re serving up a Mother’s Day Bundle that’s stacked with everything she loves—because nothing says “I appreciate you” like burgers, bites, and a little extra on the house. Here’s what’s in the bundle (From $30.80): Choice of 1 Burger Complimentary ShackBurger or Chicken Shack Choice of Fries Choice of Bites Choice of 2 Drinks It’s stacked, it’s sharable, and it’s made with 100% Angus beef and premium ingredients. TERMS & CONDITIONS: •⁠ ⁠Offer is available across all Shake Shack outlets in Singapore on 11 May only. •⁠ ⁠Offer is valid for dine-in only. •⁠ ⁠Offer not valid for orders made through third-party delivery apps. •⁠ ⁠Limited to 1 order per person and transaction. •⁠ ⁠Offer is not valid in conjunction with any other vouchers. •⁠ ⁠Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items. •⁠ ⁠Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice. •⁠ ⁠Visuals are for illustration purposes only.",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Here’s what’s in the bundle (From $30.80):\"},\"merchant\":{\"value\":\"Shake Shack\",\"quote\":\"all Shake Shack outlets in Singapore\"},\"title\":{\"value\":\"Mother’s Day Bundle\",\"quote\":\"Mother’s Day Bundle\"},\"benefit\":{\"value\":\"From $30.80: Choice of 1 Burger Complimentary ShackBurger or Chicken Shack Choice of Fries Choice of Bites Choice of 2 Drinks\",\"quote\":\"From $30.80): Choice of 1 Burger Complimentary ShackBurger or Chicken Shack Choice of Fries Choice of Bites Choice of 2 Drinks\"},\"startDate\":{\"value\":\"2026-05-11\",\"quote\":\"Offer is available across all Shake Shack outlets in Singapore on 11 May only.\"},\"endDate\":{\"value\":\"2026-05-11\",\"quote\":\"Offer is available across all Shake Shack outlets in Singapore on 11 May only.\"},\"locationScope\":{\"value\":\"all_outlets\",\"quote\":\"Offer is available across all Shake Shack outlets in Singapore on 11 May only.\"},\"locationRules\":[]}",
+      "rawOutputSha256": "654fb010ef32ae319962fc6e822389239a824cdf829b9abeddda61df99b51335",
+      "validator": {
+        "contractValid": false,
+        "issues": [
+          "nonverbatim_benefit",
+          "unstated_year:startDate",
+          "unstated_year:endDate"
+        ],
+        "unresolved": [
+          "benefit_exceeds_publication_limit"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "The source says 11 May with no year. The answer invents 2026 for both endpoints; the validator rejects both unstated years. The benefit also joins source words with new punctuation, failing literal-value containment. There are two confirmed wrong date facts, zero passing the validator."
+    },
+    {
+      "id": "shake_shack_sg-zi-char-menu",
+      "cohort": "regression",
+      "frozenFindings": [
+        "non_economic_facts"
+      ],
+      "source": "Keeping it Local Keeping it Local To the locals who have supported us throughout the years, we are paying tribute to Singapore’s beloved Zi Char and working with local artist! By teaming up with Michelin-selected hawker pioneers KEK Seafood and Tobyato to show our appreciation to Singapore. It’s THE first collaboration with a full-range menu offering that ties in with SWAG and a new look as you get your burger cravings satisfied! We’re proud to present the upcoming menu of our American signatures with a uniquely Singaporean twist, incorporating some well-known Zi Char flavors, for a limited time only from 17 October to all Shacks in Singapore. White Pepper Burger Monterey Jack cheeseburger topped with caramelized onions, fresh scallions and Sarawak white pepper sauce Coffee Glazed Chicken Coffee-glazed crispy chicken breast or thigh, sprinkled with roasted sesame seeds, toppedwith slaw and coriander White Pepper Fries Crinkle cut fries topped with Sarawak white pepper sauce and fresh scallions Coffee Glazed Chicken Bites Crispy, whole white meat bites glazed with coffee sauce, topped with roasted sesame seeds *Available in 10 pieces only Buah Long Long Lemonade A local inspiration by Shake Shack – Fresh lemonade mixed with Buah Long Long Purée with sour plum",
+      "rawOutput": "{\"classification\":{\"value\":\"product_launch\",\"quote\":\"We’re proud to present the upcoming menu of our American signatures with a uniquely Singaporean twist\"},\"merchant\":{\"value\":\"Shake Shack\",\"quote\":\"A local inspiration by Shake Shack\"},\"title\":{\"value\":\"Keeping it Local\",\"quote\":\"Keeping it Local\"},\"benefit\":{\"value\":null,\"quote\":null},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+      "rawOutputSha256": "f70970f0c83e3b6081167dd1eb87713a502b20dfd2c9b9881393dc875976b62d",
+      "validator": {
+        "contractValid": false,
+        "issues": [
+          "non_economic_facts"
+        ],
+        "unresolved": [
+          "not_confirmed_economic_offer",
+          "missing_start_date",
+          "missing_end_date",
+          "physical_participation_unresolved",
+          "missing_benefit"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "Non-economic/uncertain output leaves merchant/title or other core facts populated despite the fixed contract requiring all-null facts."
+    },
+    {
+      "id": "captain_kim_sg-captain-kim-delivery",
+      "cohort": "regression",
+      "frozenFindings": [
+        "missing_or_non_source_quote:merchant",
+        "nonverbatim_merchant"
+      ],
+      "source": "Flash this page to enjoy 20% OFF All Regular Items - Takeaway only!",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"20% OFF All Regular Items\"},\"merchant\":{\"value\":\"Captain Kim\",\"quote\":null},\"title\":{\"value\":\"20% OFF All Regular Items\",\"quote\":\"20% OFF All Regular Items\"},\"benefit\":{\"value\":\"20% OFF All Regular Items\",\"quote\":\"20% OFF All Regular Items\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+      "rawOutputSha256": "e92cd22fc25813fcd6c2c1def458a012f4e68d56fc68a5065c1fb0bcd1427e3d",
+      "validator": {
+        "contractValid": false,
+        "issues": [
+          "missing_or_non_source_quote:merchant",
+          "nonverbatim_merchant"
+        ],
+        "unresolved": [
+          "missing_start_date",
+          "missing_end_date",
+          "physical_participation_unresolved"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "A populated merchant is not supported by its exact selected source quote; context hints cannot supply fact evidence. This is a provenance failure, not proof that the merchant identity itself is wrong."
+    },
+    {
+      "id": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-1",
+      "cohort": "regression",
+      "frozenFindings": [
+        "missing_or_non_source_quote:merchant",
+        "nonverbatim_merchant"
+      ],
+      "source": "STUDENT 2PLUS1 PROMO EVERY MONDAY LUNCH & DINNER ONLY Guest coming for 2+1 Student Monday Promo MUST prebook on web link and key in “2+1M” under Reservation Notes. Once verified by restaurant staff, student diners will be given the “2+1M” student promo pricing written on the bill chit. All Guests have to follow our FB/IG page to enjoy the promo. Student Guests who did not book online with “2+1M” in Reservation Notes will not be provided the promo pricing on their bill chit. Valid Student Pass must be presented upon request and age not exceeding 23. Limited to 80mins dining time. Min 3 students to dine in. Not applicable for use with any other promos, vouchers & discounts. Valid on every Monday for 1 – 31 Oct 2026. Example: To enjoy 2+1 must be minimum of 3 student diners; if it is 4 student then 3 pays 2+1 while the 4th pays regular price or regular student price.",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"STUDENT 2PLUS1 PROMO EVERY MONDAY LUNCH & DINNER ONLY\"},\"merchant\":{\"value\":\"Captain Kim\",\"quote\":null},\"title\":{\"value\":\"STUDENT 2PLUS1 PROMO\",\"quote\":\"STUDENT 2PLUS1 PROMO\"},\"benefit\":{\"value\":\"2+1 Student Monday Promo\",\"quote\":\"2+1 Student Monday Promo\"},\"startDate\":{\"value\":\"2026-10-01\",\"quote\":\"Valid on every Monday for 1 – 31 Oct 2026.\"},\"endDate\":{\"value\":\"2026-10-31\",\"quote\":\"Valid on every Monday for 1 – 31 Oct 2026.\"},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+      "rawOutputSha256": "2781f3eb214307456524f3b826c98d81a9d5dcd4ce1fda903fe69b3d8629041e",
+      "validator": {
+        "contractValid": false,
+        "issues": [
+          "missing_or_non_source_quote:merchant",
+          "nonverbatim_merchant"
+        ],
+        "unresolved": [
+          "physical_participation_unresolved"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "A populated merchant is not supported by its exact selected source quote; context hints cannot supply fact evidence. This is a provenance failure, not proof that the merchant identity itself is wrong."
+    },
+    {
+      "id": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-2",
+      "cohort": "regression",
+      "frozenFindings": [
+        "missing_or_non_source_quote:merchant",
+        "nonverbatim_merchant",
+        "missing_or_non_source_quote:benefit",
+        "nonverbatim_benefit"
+      ],
+      "source": "EARLY BIRD PROMO Mon – Fri Lunch: $14.9++/pax [11:30am-12pm Timeslots Only] Mon – Fri Dinner: $21.9++/pax [5:30pm Timeslots Only] Sat – Sun Lunch & Dinner: $21.9++/pax [5pm-5:30pmTimeslots Only] Guest coming for Early Bird Promo MUST prebook on web link and key in “EB” under Reservation Notes.Prior to entry guests have to inform host that they are using the promo before entering. Once verified by restaurant staff, diners will be given the early bird promo pricing written on the bill chit. Guests MUST follow our Facebook / Instagram to enjoy the promo. All Guests have to follow our FB/IG page to enjoy the promo. Limited to 80mins dining time. Min 2 paying pax to dine in. Lunch discount is only applicable during 11:30am – 12pm timeslots. Dinner discount is only applicable during Weekday 5:30pm timeslots (Weekends & PH 5pm – 5:30pm). Not applicable with other promos, vouchers & discounts. Valid from 1 – 31 Oct 2026.",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"EARLY BIRD PROMO Mon – Fri Lunch: $14.9++/pax\"},\"merchant\":{\"value\":\"Captain Kim\",\"quote\":null},\"title\":{\"value\":\"EARLY BIRD PROMO\",\"quote\":\"EARLY BIRD PROMO\"},\"benefit\":{\"value\":\"Mon – Fri Lunch: $14.9++/pax; Mon – Fri Dinner: $21.9++/pax; Sat – Sun Lunch & Dinner: $21.9++/pax\",\"quote\":\"Mon – Fri Lunch: $14.9++/pax Mon – Fri Dinner: $21.9++/pax Sat – Sun Lunch & Dinner: $21.9++/pax\"},\"startDate\":{\"value\":\"2026-10-01\",\"quote\":\"Valid from 1 – 31 Oct 2026.\"},\"endDate\":{\"value\":\"2026-10-31\",\"quote\":\"Valid from 1 – 31 Oct 2026.\"},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+      "rawOutputSha256": "6da671453b61cb72ce13e5c43c5a58d36ec39b88a2a4ae3afed4e21a01c43eb3",
+      "validator": {
+        "contractValid": false,
+        "issues": [
+          "missing_or_non_source_quote:merchant",
+          "nonverbatim_merchant",
+          "missing_or_non_source_quote:benefit",
+          "nonverbatim_benefit"
+        ],
+        "unresolved": [
+          "physical_participation_unresolved",
+          "benefit_exceeds_publication_limit"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "A populated merchant is not supported by its exact selected source quote; context hints cannot supply fact evidence. This is a provenance failure, not proof that the merchant identity itself is wrong. The benefit joins, changes punctuation or summarizes source wording, failing the literal-value/quote contract. Description still keeps every source restriction; a contract failure is not automatically a semantic hallucination."
+    },
+    {
+      "id": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-3",
+      "cohort": "regression",
+      "frozenFindings": [
+        "nonverbatim_merchant"
+      ],
+      "source": "4PLUS1 PROMO Mon - Sun Lunch & Dinner 1 pax dines free with every 4 other full-paying pax. Free pax has to be the lowest paying diner.Eg 1) 5 Adult Diners = 1 Adult Dines Free Eg 2) 3 Adult Diners + 2 Student Diners = 1 Student Dines Free Guests MUST follow our Facebook / Instagram to enjoy the promo. Guest have to inform host that they are using the promo before entering. Valid from 1-31 Oct 2026. Limited to 90 mins dining time. Guests have to leave by the stipulated timing to enjoy the promo. Not applicable with other promos, vouchers & discounts. Promo is not applicable for Gebiz",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"1 pax dines free with every 4 other full-paying pax.\"},\"merchant\":{\"value\":\"Captain Kim\",\"quote\":\"Guests MUST follow our Facebook / Instagram to enjoy the promo.\"},\"title\":{\"value\":\"4PLUS1 PROMO\",\"quote\":\"4PLUS1 PROMO\"},\"benefit\":{\"value\":\"1 pax dines free with every 4 other full-paying pax.\",\"quote\":\"1 pax dines free with every 4 other full-paying pax.\"},\"startDate\":{\"value\":\"2026-10-01\",\"quote\":\"Valid from 1-31 Oct 2026.\"},\"endDate\":{\"value\":\"2026-10-31\",\"quote\":\"Valid from 1-31 Oct 2026.\"},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+      "rawOutputSha256": "045cb4568770f8848b0640e952594ee797a5d04aa18ff6f66119d64b019135a5",
+      "validator": {
+        "contractValid": false,
+        "issues": [
+          "nonverbatim_merchant"
+        ],
+        "unresolved": [
+          "physical_participation_unresolved"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "A populated merchant is not supported by its exact selected source quote; context hints cannot supply fact evidence. This is a provenance failure, not proof that the merchant identity itself is wrong."
+    },
+    {
+      "id": "captain_kim_sg-captain-kim-korean-bbq-hotpot-3",
+      "cohort": "regression",
+      "frozenFindings": [
+        "nonverbatim_merchant"
+      ],
+      "source": "4PLUS1 PROMO Mon - Sun Lunch & Dinner Guest have to inform host that they are using the promo before entering. Valid from 1-30 Sep 2026. Limited to 90 mins dining time. Guests have to leave by the stipulated timing to enjoy the promo. Not applicable with other promos, vouchers & discounts. 1 pax dines free with every 4 other full-paying pax. Free pax has to be the lowest paying diner. Eg 1) 5 Adult Diners = 1 Adult Dines Free Eg 2) 3 Adult Diners + 2 Student Diners = 1 Student Dines Free Guests MUST follow our Facebook / Instagram to enjoy the promo.",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"1 pax dines free with every 4 other full-paying pax.\"},\"merchant\":{\"value\":\"Captain Kim\",\"quote\":\"4PLUS1 PROMO\"},\"title\":{\"value\":\"4PLUS1 PROMO\",\"quote\":\"4PLUS1 PROMO\"},\"benefit\":{\"value\":\"1 pax dines free with every 4 other full-paying pax.\",\"quote\":\"1 pax dines free with every 4 other full-paying pax.\"},\"startDate\":{\"value\":\"2026-09-01\",\"quote\":\"Valid from 1-30 Sep 2026.\"},\"endDate\":{\"value\":\"2026-09-30\",\"quote\":\"Valid from 1-30 Sep 2026.\"},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+      "rawOutputSha256": "d3e62073eef513c0a967822b63c67600bd54f47887536c84a09653f8e21acb57",
+      "validator": {
+        "contractValid": false,
+        "issues": [
+          "nonverbatim_merchant"
+        ],
+        "unresolved": [
+          "physical_participation_unresolved"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "A populated merchant is not supported by its exact selected source quote; context hints cannot supply fact evidence. This is a provenance failure, not proof that the merchant identity itself is wrong."
+    },
+    {
+      "id": "bari_bari_steak_sg-promotions-1",
+      "cohort": "regression",
+      "frozenFindings": [
+        "nonverbatim_merchant",
+        "nonverbatim_benefit"
+      ],
+      "source": "Weekday Lunch Specials (Tampines 1 Exclusive) Elevate your midday lunch break with our complete Teppan Lunch Sets starting from $13.90! Save up to 26% off regular menu prices. Every Lunch Set Includes: Your choice of Teppan main Rice Miso Soup Genmaicha From Mondays to Fridays, Opening to 5PM (Excludes PH & Eve of PH) Exclusively at Tampines 1 outlet. T&Cs apply.",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"complete Teppan Lunch Sets starting from $13.90! Save up to 26% off regular menu prices.\"},\"merchant\":{\"value\":\"Bari Bari Steak\",\"quote\":\"Tampines 1 outlet\"},\"title\":{\"value\":\"Weekday Lunch Specials\",\"quote\":\"Weekday Lunch Specials\"},\"benefit\":{\"value\":\"Teppan Lunch Sets starting from $13.90; save up to 26% off regular menu prices\",\"quote\":\"complete Teppan Lunch Sets starting from $13.90! Save up to 26% off regular menu prices.\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"named_outlets\",\"quote\":\"Exclusively at Tampines 1 outlet.\"},\"locationRules\":[{\"role\":\"participating\",\"names\":[\"Tampines 1\"],\"quote\":\"Exclusively at Tampines 1 outlet.\"}]}",
+      "rawOutputSha256": "126b41977e665f7261a5dc46abc287bd64c87a48cc5a16dadebebe03b319ebfd",
+      "validator": {
+        "contractValid": false,
+        "issues": [
+          "nonverbatim_merchant",
+          "nonverbatim_benefit"
+        ],
+        "unresolved": [
+          "missing_start_date",
+          "missing_end_date",
+          "benefit_exceeds_publication_limit"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "A populated merchant is not supported by its exact selected source quote; context hints cannot supply fact evidence. This is a provenance failure, not proof that the merchant identity itself is wrong. The benefit joins, changes punctuation or summarizes source wording, failing the literal-value/quote contract. Description still keeps every source restriction; a contract failure is not automatically a semantic hallucination."
+    },
+    {
+      "id": "bari_bari_steak_sg-promotions-2",
+      "cohort": "regression",
+      "frozenFindings": [
+        "nonverbatim_benefit"
+      ],
+      "source": "Enjoy 23% Off Free-Flow Salad Bar at Bari Bari Steak! Treat yourself to unlimited fresh greens with Bari Bari Steak’s Free-Flow Salad Bar! For a limited time, enjoy 23% savings and pile your bowl high with crisp veggies, tasty toppings, and delicious dressings for just $12.90++ (U.P. $16.90++). Whether you are looking for an all-day dining feast or a refreshing mid-day bite, we’ve got you covered across selected outlets from Monday to Thursday: All-Day Free-Flow Salad Bar: Available at Tampines 1 and VivoCity. Tea-Time Free-Flow Salad Bar (2 PM – 5 PM): Available at Junction 8 and Great World. Terms & Conditions: Valid exclusively for dine-in. Not valid in conjunction with other ongoing promotions, discounts, vouchers, or privileges. Image(s) for illustration purposes only. The Management reserves the right to amend or terminate the offer without prior notice.",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"enjoy 23% savings and pile your bowl high with crisp veggies, tasty toppings, and delicious dressings for just $12.90++ (U.P. $16.90++).\"},\"merchant\":{\"value\":\"Bari Bari Steak\",\"quote\":\"Bari Bari Steak\"},\"title\":{\"value\":\"23% Off Free-Flow Salad Bar\",\"quote\":\"Enjoy 23% Off Free-Flow Salad Bar at Bari Bari Steak!\"},\"benefit\":{\"value\":\"23% savings; Free-Flow Salad Bar for just $12.90++ (U.P. $16.90++)\",\"quote\":\"enjoy 23% savings and pile your bowl high with crisp veggies, tasty toppings, and delicious dressings for just $12.90++ (U.P. $16.90++).\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"named_outlets\",\"quote\":\"All-Day Free-Flow Salad Bar: Available at Tampines 1 and VivoCity. Tea-Time Free-Flow Salad Bar (2 PM – 5 PM): Available at Junction 8 and Great World.\"},\"locationRules\":[{\"role\":\"participating\",\"names\":[\"Tampines 1\",\"VivoCity\",\"Junction 8\",\"Great World\"],\"quote\":\"All-Day Free-Flow Salad Bar: Available at Tampines 1 and VivoCity. Tea-Time Free-Flow Salad Bar (2 PM – 5 PM): Available at Junction 8 and Great World.\"}]}",
+      "rawOutputSha256": "929f6203daf97413fb576e2af38d3ca94a01b1f0c922062dcf671610fc8f7bf3",
+      "validator": {
+        "contractValid": false,
+        "issues": [
+          "nonverbatim_benefit"
+        ],
+        "unresolved": [
+          "missing_start_date",
+          "missing_end_date",
+          "benefit_exceeds_publication_limit"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "The benefit joins, changes punctuation or summarizes source wording, failing the literal-value/quote contract. Description still keeps every source restriction; a contract failure is not automatically a semantic hallucination."
+    },
+    {
+      "id": "bari_bari_steak_sg-promotions-3",
+      "cohort": "regression",
+      "frozenFindings": [
+        "missing_or_non_source_quote:classification"
+      ],
+      "source": "Senior Special: Enjoy 20% OFF Your Total Bill! Treat your loved ones (or yourself!) to a sizzling meal at Bari Bari Steak. We are celebrating our seniors with an exclusive 20% discount on the total bill during weekdays! Monday to Thursday, from opening until 5PM (excluding Public Holidays)* Exclusively at Bari Bari Steak, Tampines 1 Valid for dine-in customers aged 60 and above Terms & Conditions: Valid for dine-in customers aged 60 and above. Valid exclusively at the Tampines 1 outlet only. A valid proof of age must be presented for verification. Available from Monday to Thursday, from opening until 5pm only, excluding public holidays. Discount is applied to the total bill prior to the addition of GST and service charge. Not valid in conjunction with any other ongoing promotions, discounts, vouchers, or privileges. Image(s) for illustration purposes only. The management reserves the right to amend or terminate the offer without prior notice.",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"we are celebrating our seniors with an exclusive 20% discount on the total bill during weekdays\"},\"merchant\":{\"value\":\"Bari Bari Steak\",\"quote\":\"Bari Bari Steak\"},\"title\":{\"value\":\"Senior Special: Enjoy 20% OFF Your Total Bill!\",\"quote\":\"Senior Special: Enjoy 20% OFF Your Total Bill!\"},\"benefit\":{\"value\":\"20% discount on the total bill\",\"quote\":\"20% discount on the total bill\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"named_outlets\",\"quote\":\"Valid exclusively at the Tampines 1 outlet only.\"},\"locationRules\":[{\"role\":\"participating\",\"names\":[\"Tampines 1\"],\"quote\":\"Valid exclusively at the Tampines 1 outlet only.\"}]}",
+      "rawOutputSha256": "a0f02195227ee0eaea462c433ac633014d5dfd04027d3cef1a1e7c2bb842f413",
+      "validator": {
+        "contractValid": false,
+        "issues": [
+          "missing_or_non_source_quote:classification"
+        ],
+        "unresolved": [
+          "missing_start_date",
+          "missing_end_date"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "The classification quote is not byte-for-byte present (including case/punctuation); the definite class therefore fails provenance validation."
+    },
+    {
+      "id": "bari_bari_steak_sg-promotions-4",
+      "cohort": "regression",
+      "frozenFindings": [
+        "wrong_participating_outlets"
+      ],
+      "source": "Beat the Crowd & Save 15% ! Beat the dinner rush and enjoy a sizzling deal at Bari Bari Steak! From 5pm to 6pm daily, get 15% OFF your total bill with our Early Bird Dinner Promo. Gather your friends, head over to our Tampines 1 outlet, and dig into your favorite steaks for less. Daily, 5PM – 6PM (1-hour dining time) Exclusively at Bari Bari Steak, Tampines 1 Terms & Conditions: Valid exclusively for dine-in at the Tampines 1 outlet only. Available daily from 5pm to 6pm only (excluding Public Holidays)*. Customers must be seated and have orders placed within this window to enjoy the discount. Discount is applied to the total bill prior to the addition of GST and service charge. Not valid in conjunction with any other ongoing promotions, discounts, vouchers, or privileges. Image(s) for illustration purposes only. The management reserves the right to amend or terminate the offer without prior notice.",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"get 15% OFF your total bill with our Early Bird Dinner Promo\"},\"merchant\":{\"value\":\"Bari Bari Steak\",\"quote\":\"at Bari Bari Steak\"},\"title\":{\"value\":\"Early Bird Dinner Promo\",\"quote\":\"Early Bird Dinner Promo\"},\"benefit\":{\"value\":\"15% OFF your total bill\",\"quote\":\"get 15% OFF your total bill\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"named_outlets\",\"quote\":\"Valid exclusively for dine-in at the Tampines 1 outlet only.\"},\"locationRules\":[{\"role\":\"participating\",\"names\":[\"Bari Bari Steak, Tampines 1\"],\"quote\":\"Exclusively at Bari Bari Steak, Tampines 1\"}]}",
+      "rawOutputSha256": "fdcb851b636ebf0e27dbc28447084038a6d248d92d5d04858dd80cfef9388966",
+      "validator": {
+        "contractValid": true,
+        "issues": [],
+        "unresolved": [
+          "missing_start_date",
+          "missing_end_date"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [
+          "Tampines 1"
+        ],
+        "excluded": []
+      },
+      "explanation": "\"Bari Bari Steak, Tampines 1\" is exactly in the source and denotes the same Tampines 1 outlet as the frozen shorter label. The frozen alias set fails to match it, producing one wrong-name and one omission flag. This is an evaluation alias limitation, not a confirmed wrong branch or polarity reversal."
+    },
+    {
+      "id": "mcdonalds_sg-McSaver",
+      "cohort": "regression",
+      "frozenFindings": [
+        "wrong_physical_scope"
+      ],
+      "source": "McSaver™ meals save the day! More savings, more deliciousness! Treat yourself and your wallet with the McSaver™ meals at just $5! Choose between familiar favourites like Smoky Beef, Filet-O-Fish® or McChicken® Meals Order Now Filet-O-Fish® Meal Dive into our Filet-O-Fish®! This popular fish sandwich uses sustainably sourced fish. Topped with melty cheese and creamy McDonald’s tartar sauce between soft, steamed buns. Allergen information: Egg, fish, milk, soybean, wheat Food sensitivities: Gluten McChicken® Meal An evergreen favourite, McChicken® has been winning fans with its wholesome great taste – crisp, tender chicken patty layered with shredded lettuce, plus just the right touch of mayo in a soft sesame bun. Allergen information: Egg, soybean, wheat Food sensitivities: Gluten Smoky Beef Meal What’s not to love? A classic favourite beef burger, elevated with a smoky mayo sauce. 100% beef patty, cheese, lettuce, and onions, in a soft bun. That’s a real treat. Allergen information: Egg, Milk, Soybeans and Wheat Food sensitivities: Gluten Promotional price is available after breakfast hours and while stocks last. Visuals are for illustration purposes only. McDonald’s reserves the right to change the promotional price without prior notice. Terms and Conditions apply. For more information, visit https://www.mcdonalds.com.sg/McSaver. The promotional price is not available via delivery and in the following outlets: Lido, Gardens by the Bay and Changi Airport (Jewel, T2, T3). Locate Us",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"McSaver™ meals at just $5!\"},\"merchant\":{\"value\":\"McDonald’s\",\"quote\":\"McDonald’s reserves the right to change the promotional price without prior notice.\"},\"title\":{\"value\":\"McSaver™ meals\",\"quote\":\"McSaver™ meals save the day!\"},\"benefit\":{\"value\":\"McSaver™ meals at just $5\",\"quote\":\"McSaver™ meals at just $5!\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"selected_outlets\",\"quote\":\"The promotional price is not available via delivery and in the following outlets: Lido, Gardens by the Bay and Changi Airport (Jewel, T2, T3).\"},\"locationRules\":[{\"role\":\"excluded\",\"names\":[\"Lido\",\"Gardens by the Bay\",\"Changi Airport (Jewel, T2, T3)\"],\"quote\":\"The promotional price is not available via delivery and in the following outlets: Lido, Gardens by the Bay and Changi Airport (Jewel, T2, T3).\"}]}",
+      "rawOutputSha256": "9cf780eef5ad0c95826ffa20b28b42bc0363cde5b355c74435ddd3587bd88751",
+      "validator": {
+        "contractValid": true,
+        "issues": [],
+        "unresolved": [
+          "missing_start_date",
+          "missing_end_date",
+          "physical_participation_unresolved"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "The source lists only exclusions. selected_outlets adds a positive physical-scope classification unsupported by the frozen note; the exact negative branch list is retained correctly. This is one confirmed unsupported scope label passing validation, not an exclusion reversal."
+    },
+    {
+      "id": "mcdonalds_sg-bfmcsaver",
+      "cohort": "regression",
+      "frozenFindings": [
+        "classification_mismatch",
+        "economic_identity_omitted"
+      ],
+      "source": "Fuel your mornings with protein-packed goodness! Wrap up your workout with a McSaver™ Meal Wrap up your workout with a McSaver™ Meal Take on exciting fitness challenges, rack up your steps, and stand a chance to win rewards. Then fuel up with a wholesome Breakfast Wrap McSaver™ Meal for just $6.50. Take on exciting fitness challenges, rack up your steps, and stand a chance to win rewards. Then fuel up with a wholesome Breakfast Wrap McSaver™ Meal for just $6.50. Order Now Your route could lead to rewards! Think you've got what it takes to create the perfect Golden Arches? Map and complete an M-shaped route with a minimum distance of 2km using any fitness or activity-tracking app. Then share a screenshot of your route on your Instagram Story with the date visible as proof of entry. Tag @mcdsg and include #WrapUpYourWorkout. The top 5 M-shaped routes with the closest resemblance to our Golden Arches will win $100 McDonald’s vouchers each. Think you've got what it takes to create the perfect Golden Arches? Map and complete an M-shaped route with a minimum distance of 2km using any fitness or activity-tracking app. Then share a screenshot of your route on your Instagram Story with the date visible as proof of entry. Tag @mcdsg and include #WrapUpYourWorkout. The top 5 M-shaped routes with the closest resemblance to our Golden Arches will win $100 McDonald’s vouchers each. Contest Submission Period: 1 October to 15 October 2026 Winner Notification: Selected winners will be notified via email by 19 October 2026 Contest Submission Period: 1 October to 15 October 2026 Winner Notification: Selected winners will be notified via email by 19 October 2026 While stocks last. View the full terms and conditions here.​ Terms and Conditions apply. By submitting an entry and/or participating in the Challenge, each participant confirms that they have read, understood and agreed to be bound by these Terms and Conditions.​ The qualifying run must be completed in a single activity session between 1 October 2026, 0000hrs to 15 October 2026, 2359hrs. Participants must select a safe and lawful route, comply with all traffic and pedestrian rules and avoid trespassing. Participants should exercise responsibly, taking into consideration their health, fitness level, weather conditions and route conditions. McDonald’s will not be responsible for any injury, loss or damage arising from or in connection with participation in the Challenge.​ Each participant may submit multiple entries during the Challenge period. However, only the participant’s highest-scoring valid entry will be considered for judging and prize allocation.​ All valid entries will be assessed by a judging panel appointed by McDonald’s based on the recorded route’s visual resemblance to the letter “M” or McDonald’s Golden Arches. The five highest-scoring valid entries will be selected as the winners. In the event of a tie, the tied entries will be reassessed by the judging panel, whose decision will be final.​​ Each winner will receive SGD100 worth of physical McDonald’s vouchers (“Prize”), subject to the validity period, redemption requirements and other terms stated on or accompanying the vouchers. Prizes are non-transferable, cannot be exchanged for cash or any other item, and will not be replaced if lost, damaged, misused or allowed to expire.​​ McDonald’s reserves the right to amend, suspend or cancel the Challenge without prior notice.​ Breakfast Wrap Chicken Sausage Breakfast Wrap Chicken Sausage A hearty breakfast wrap filled with savoury chicken sausage, eggs, and cheese. A breakfast favourite, made for mornings that need a satisfying start and a reward at the finish line! Allergens: Egg, Milk, Soybean, Wheat Food sensitivities: Gluten Breakfast Wrap Chicken Ham Breakfast Wrap Chicken Ham A tasty breakfast wrap with chicken ham, eggs and cheese. A satisfying breakfast favourite, that delivers the fuel you need to keep your morning going! Allergens: Egg, Milk, Soybean, Wheat Food sensitivities: Gluten Chicken Muffin Chicken Muffin Toasty wholegrain muffins meets crispy, juicy chicken patty, paired with mayo and a slice of cheese, it's a must-have for chicken fans! Allergens: Egg, Milk, Soybean, Wheat Food sensitivities: Gluten Sausage McMuffin® Sausage McMuffin® So simple, yet oh-so-tasty! Enjoy a juicy chicken sausage and melty cheese nestled between our classic toasted, wholegrain muffins. Allergens: Milk, Soybean, Wheat Food sensitivities: Gluten Egg McMuffin® Egg McMuffin® Egg-traordinary mornings begin with this delightful combo of a round egg, savoury chicken ham and melty cheese in a lightly toasted, wholegrain muffin. Allergens: Egg, Milk, Soybean, Wheat Food sensitivities: Gluten Breakfast McSaver™ Meal includes McCafé® Premium Roast Coffee or Tea, and a Hash Brown or Corn Cup. Promotional price is available during breakfast hours and while stocks last. Visuals are for illustration purposes only. McDonald’s reserves the right to change the promotional mechanics & period without prior notice. Terms & Conditions apply. Promotional price is not available via Delivery nor at the following locations: Mandai Wildlife East, Lido, Gardens by the Bay and Changi Airport (Jewel, T2, T2 Transit, T3). Locate Us",
+      "rawOutput": "{\"classification\":{\"value\":\"uncertain\",\"quote\":null},\"merchant\":{\"value\":null,\"quote\":null},\"title\":{\"value\":null,\"quote\":null},\"benefit\":{\"value\":null,\"quote\":null},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+      "rawOutputSha256": "87c1a1eb6b6789174aee3d3cd030906ee9dd58237c31e346462e236efd3a78e6",
+      "validator": {
+        "contractValid": true,
+        "issues": [],
+        "unresolved": [
+          "not_confirmed_economic_offer",
+          "missing_start_date",
+          "missing_end_date",
+          "physical_participation_unresolved",
+          "missing_title",
+          "missing_benefit",
+          "description_exceeds_publication_limit"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": [
+          "Mandai Wildlife East",
+          "Lido",
+          "Gardens by the Bay",
+          "Changi Airport (Jewel, T2, T2 Transit, T3)"
+        ]
+      },
+      "explanation": "The model returns uncertain and all-null facts. This is conservative abstention on the meal/contest source, but fails economic recall and omits four annotated physical exclusions. It does not misuse contest dates or fabricate an offer."
+    },
+    {
+      "id": "sushiro_sg-to-the-moon-and-back",
+      "cohort": "regression",
+      "frozenFindings": [
+        "nonverbatim_benefit",
+        "classification_mismatch"
+      ],
+      "source": "To the moon and back! Part 2 Let your taste buds journey to the moon and back from 23 Sep – 6 Oct! 🌕✨ Indulge in a moonlit moment of luxury with our Lunar Tuna with Uni ($6.9++) — bringing together the fresh delicate tuna paired together with creamy rich uni for a savoury finish~ 🍣 Meet our Lunar Seaweed Imo-Mochi with Honey Butter (2.3++) — crispy on the outside, delightfully chewy within, and finished with a luscious drizzle of sweet, buttery goodness! 🍯🧈 Lastly, don’t miss out on the Crab and Salmon Roe Mountain Wrap ($3.9++), — loaded with sweet crab and crowned with glistening salmon roe that is sure to bring you a delicious burst of flavour in a single bite. 🦀🤤 Come discover the next chapter of lunar favourites at SUSHIRO. 🌙❤️ Available while stocks last. *Prices vary at Sushiro Mandai Wildlife Reserve (Digiro outlet).⁠ For more updates, follow us on Facebook, Instagram and TikTok @SushiroSingapore",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Let your taste buds journey to the moon and back from 23 Sep – 6 Oct!\"},\"merchant\":{\"value\":\"SUSHIRO\",\"quote\":\"Come discover the next chapter of lunar favourites at SUSHIRO.\"},\"title\":{\"value\":\"To the moon and back! Part 2\",\"quote\":\"To the moon and back! Part 2\"},\"benefit\":{\"value\":\"Lunar Tuna with Uni ($6.9++); Lunar Seaweed Imo-Mochi with Honey Butter (2.3++); Crab and Salmon Roe Mountain Wrap ($3.9++)\",\"quote\":\"Indulge in a moonlit moment of luxury with our Lunar Tuna with Uni ($6.9++) — bringing together the fresh delicate tuna paired together with creamy rich uni for a savoury finish~ 🍣 Meet our Lunar Seaweed Imo-Mochi with Honey Butter (2.3++) — crispy on the outside, delightfully chewy within, and finished with a luscious drizzle of sweet, buttery goodness! 🍯🧈 Lastly, don’t miss out on the Crab and Salmon Roe Mountain Wrap ($3.9++), — loaded with sweet crab and crowned with glistening salmon roe that is sure to bring you a delicious burst of flavour in a single bite.\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+      "rawOutputSha256": "d69aab2e4362306cbf9117e5f92565912b5dcf204953b34cf3309ad3571a14b4",
+      "validator": {
+        "contractValid": false,
+        "issues": [
+          "nonverbatim_benefit"
+        ],
+        "unresolved": [
+          "missing_start_date",
+          "missing_end_date",
+          "physical_participation_unresolved",
+          "benefit_exceeds_publication_limit"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "The source presents normal-priced new products, with no discount or deterministic economic entitlement. The frozen note is product_launch; the model calls it economic_offer. Its generated benefit also fails literal containment, so contract validation blocks the output."
+    },
+    {
+      "id": "instagram-DDJfz9bynW-",
+      "cohort": "regression",
+      "frozenFindings": [
+        "nonverbatim_merchant",
+        "nonverbatim_benefit"
+      ],
+      "source": "Newly added to our menu and we‘re celebrating with a 1-for-1 deal! Get 2 portions of our Salmon Yukke for just $8.80 every Sunday! Fresh, flavorful, and perfect for sharing (or keeping all to yourself) 📅 Every Sunday | Dine-in only 📸 Follow us on Instagram (@shinrai.sg) to enjoy this exclusive deal! T&Cs apply. 1-for-1 valid for each dish per booking. Not combinable with other promotions or discounts. Secure your table now and make every Sunday a delicious one! #shinraisg #sgfoodie #sgrestaurant #singapore #japaneserestaurant #sushirestaurant #izakaya #telokayer",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Get 2 portions of our Salmon Yukke for just $8.80\"},\"merchant\":{\"value\":\"SHINRAI\",\"quote\":\"@shinrai.sg\"},\"title\":{\"value\":\"Salmon Yukke 1-for-1 deal\",\"quote\":\"1-for-1 deal! Get 2 portions of our Salmon Yukke\"},\"benefit\":{\"value\":\"1-for-1 deal: 2 portions of our Salmon Yukke for just $8.80\",\"quote\":\"1-for-1 deal! Get 2 portions of our Salmon Yukke for just $8.80\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+      "rawOutputSha256": "bfd36aa6fa7b63a5664d8161a5457ac3f1e7166327f96f4a705d9bce193dae95",
+      "validator": {
+        "contractValid": false,
+        "issues": [
+          "nonverbatim_merchant",
+          "nonverbatim_benefit"
+        ],
+        "unresolved": [
+          "missing_start_date",
+          "missing_end_date",
+          "physical_participation_unresolved"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "A populated merchant is not supported by its exact selected source quote; context hints cannot supply fact evidence. This is a provenance failure, not proof that the merchant identity itself is wrong. The benefit joins, changes punctuation or summarizes source wording, failing the literal-value/quote contract. Description still keeps every source restriction; a contract failure is not automatically a semantic hallucination."
+    },
+    {
+      "id": "instagram-Dc-kxPJzx9B",
+      "cohort": "regression",
+      "frozenFindings": [
+        "missing_or_non_source_quote:merchant",
+        "nonverbatim_merchant"
+      ],
+      "source": "The early bird catches the worm but the late bird gets the K-Treat. 👀 Our Off-Peak Deals just got a serious upgrade. $9.90++ gets you a main + free-flow side dishes + your choice of K-TREAT - Omija Berry Smoothie, Milk Tea Brûlée Smoothie or a Dubai Chewy Cookie. Yep. All that for $9.90++. Weekdays, 2–5PM. (Valid for dine-in only) (Excluding public holidays) Dubai Chewy Cookie available in limited quantities daily.",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"$9.90++ gets you a main + free-flow side dishes + your choice of K-TREAT - Omija Berry Smoothie, Milk Tea Brûlée Smoothie or a Dubai Chewy Cookie.\"},\"merchant\":{\"value\":\"Ajumma's Korean Restaurant\",\"quote\":null},\"title\":{\"value\":\"Off-Peak Deals\",\"quote\":\"Our Off-Peak Deals just got a serious upgrade.\"},\"benefit\":{\"value\":\"$9.90++ gets you a main + free-flow side dishes + your choice of K-TREAT - Omija Berry Smoothie, Milk Tea Brûlée Smoothie or a Dubai Chewy Cookie.\",\"quote\":\"$9.90++ gets you a main + free-flow side dishes + your choice of K-TREAT - Omija Berry Smoothie, Milk Tea Brûlée Smoothie or a Dubai Chewy Cookie.\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+      "rawOutputSha256": "619722a28f9f00f80e241e5dbfb2cd8845b1003173224fc60e9ad839ac91bf5b",
+      "validator": {
+        "contractValid": false,
+        "issues": [
+          "missing_or_non_source_quote:merchant",
+          "nonverbatim_merchant"
+        ],
+        "unresolved": [
+          "missing_start_date",
+          "missing_end_date",
+          "physical_participation_unresolved",
+          "benefit_exceeds_publication_limit"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "A populated merchant is not supported by its exact selected source quote; context hints cannot supply fact evidence. This is a provenance failure, not proof that the merchant identity itself is wrong."
+    },
+    {
+      "id": "shake_shack_sg-flock-this-way",
+      "cohort": "regression",
+      "frozenFindings": [
+        "nonverbatim_merchant",
+        "all_scope_without_explicit_wording"
+      ],
+      "source": "Flock This Way Craving chicken? We’ve got three reasons to dig in. From 12 to 30 November 2025, get our Chicken Shack, Hot Chicken and Saenchae Gochujang Chicken — all for just $23.9 (U.P $33.80) when you order through the Happy Point Singapore app. Whether you’re into something crispy and classic, bold and spicy or sweet with a Korean kick, this trio’s got you covered. Here’s how to get yours: Download the Happy Point Singapore app (available on iOS and Android). Order ahead from any Shake Shack Singapore location. Add the Chicken Trio to your cart — it’s automatically just $23.90. So go on, flock this way and make it a chicken kind of day. This deal’s only here for a limited time! Terms and Conditions Offer is available across all Shake Shack outlets in Singapore from 12 November to 30 November 2025 only. Offer is valid for dine-in and take-away. The offer is only valid via Happy Point Singapore in-app orders. Offer not valid for orders made through third-party delivery apps. Offer is not valid in conjunction with any other vouchers. Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items. Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice. Visuals are for illustration purposes only.",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"From 12 to 30 November 2025, get our Chicken Shack, Hot Chicken and Saenchae Gochujang Chicken — all for just $23.9 (U.P $33.80)\"},\"merchant\":{\"value\":\"Shake Shack Singapore\",\"quote\":\"all Shake Shack outlets in Singapore\"},\"title\":{\"value\":\"Flock This Way\",\"quote\":\"Flock This Way\"},\"benefit\":{\"value\":\"Chicken Shack, Hot Chicken and Saenchae Gochujang Chicken — all for just $23.9 (U.P $33.80)\",\"quote\":\"Chicken Shack, Hot Chicken and Saenchae Gochujang Chicken — all for just $23.9 (U.P $33.80)\"},\"startDate\":{\"value\":\"2025-11-12\",\"quote\":\"From 12 to 30 November 2025\"},\"endDate\":{\"value\":\"2025-11-30\",\"quote\":\"From 12 to 30 November 2025\"},\"locationScope\":{\"value\":\"all_outlets\",\"quote\":\"Offer is available across all Shake Shack outlets in Singapore\"},\"locationRules\":[]}",
+      "rawOutputSha256": "e294ef8de8c0cf511caab0f3145e99df2eea77a0819a5d6034d4727690b198ff",
+      "validator": {
+        "contractValid": false,
+        "issues": [
+          "nonverbatim_merchant",
+          "all_scope_without_explicit_wording"
+        ],
+        "unresolved": [
+          "benefit_exceeds_publication_limit"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "Campaign dates and universal participation are source-supported. Merchant value \"Shake Shack Singapore\" is not contained literally in its selected quote. The inherited all-scope regex then expects that entire merchant value before outlets and falsely rejects the actual \"all Shake Shack outlets in Singapore\" clause. Frozen contract flags remain unchanged; they are quote/recognizer defects, not invented universal coverage."
+    },
+    {
+      "id": "shake_shack_sg-meet-our-collab-partners",
+      "cohort": "regression",
+      "frozenFindings": [
+        "classification_mismatch",
+        "economic_identity_omitted"
+      ],
+      "source": "Meet Our Collab Partners Meet the artist! Introduction I am a Singaporean visual artist illustrating my way through sprawling wall murals and artist-brand collaborations. My artworks are often bold, striking and inspired by traditional Asian motifs with playful nuance that reflects both my heritage and personality. Inspiration The main inspiration from this collaboration stems from Singapore’s heritage and iconic orchid to create something that feels traditional with a modern twist from with my art lens and style. Why work with Shake Shack Ever since the Great World Shake Shack opening, I’ve always been grateful to Shake Shack for giving me a chance to be the 6th local artist to adorn the Shack, as a young artist back then and an older artist now. Working with Shake Shack offers a unique opportunity to blend creativity with community connection. As an artist, it’s inspiring to collaborate with a brand that values local voices and vibrant storytelling. Their willingness to embrace local culture and support creative expression makes them an ideal partner for any artist looking to make a positive, lasting impact. Favorite food from the limited time offer menu As a die hard fan of the 50/50, the Buah Long Long lemonade is an easy favorite for me! His Work In celebration of Singapore culture, we’ve teamed up with local artist tobyato to design an exclusive range of merchandise. Known for his bold and illustrative designs often inspired by Asian motifs, did you know that he’s also painted our mural at Great World Shack, 2021? This time, he has designed a collaborative emblem in tribute to familiar local icons from orchids to Peranakan tiles, which will adorn enamel mugs, scarves, t-shirts and even tiffin carriers, otherwise known as tingkats. The chefs behind the Zi Char inspired menu! Introduction We are a family-run Zi Char restaurant in Singapore, known for its rich heritage and hearty, wok-fried dishes. With over 50 years of history, KEK has become a local icon, serving up signature dishes like the famous Moonlight Hor Fun and Chilli Crab. This Michelin Guide-recommended spot is celebrated for its authentic flavors, warm hospitality, and a legacy that spans three generations, making it a go-to destination for food lovers seeking the true taste of Singapore. Inspiration Our origin dates back to Hainan, China learning all the Chinese dishes from our 1st generation. After 3 generations, we evolved very much to our Singaporean culture getting inspired by our local palette yet staying true to heritage. Why work with Shake Shack Not just a regular burger joint. Quality and value had been very similar to KEK, with the philosophy of people first. Favorite food from the Zi Char inspired menu Tough one here honestly, can we say all? If we need to pick : Wayne: White Pepper Beef 🍔 Paul: Coffee-glazed Chicken 🍔 Here’s a little treat! Get complimentary White pepper fries* on us when you put your knowledge about our local collab to the test, click here to find out!",
+      "rawOutput": "{\"classification\":{\"value\":\"contest_or_chance\",\"quote\":\"Get complimentary White pepper fries* on us when you put your knowledge about our local collab to the test, click here to find out!\"},\"merchant\":{\"value\":null,\"quote\":null},\"title\":{\"value\":null,\"quote\":null},\"benefit\":{\"value\":null,\"quote\":null},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+      "rawOutputSha256": "f738d1724220a35b577b31cc1a98d649f211aa59cb4f79f8c45beb3f5e971544",
+      "validator": {
+        "contractValid": true,
+        "issues": [],
+        "unresolved": [
+          "not_confirmed_economic_offer",
+          "missing_start_date",
+          "missing_end_date",
+          "physical_participation_unresolved",
+          "missing_title",
+          "missing_benefit"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "\"Get complimentary White pepper fries\" tied to completing a knowledge test is a source-supported entitlement under the frozen notes, not explicitly a chance-based prize. The contest_or_chance answer misses that economic identity while safely emitting no economic facts."
+    },
+    {
+      "id": "shake_shack_sg-introducing-aloha-shack",
+      "cohort": "regression",
+      "frozenFindings": [
+        "missing_or_non_source_quote:classification",
+        "non_economic_facts"
+      ],
+      "source": "Introducing Aloha Shack Introducing: Aloha Shack Menu Say E komo mai (welcome) to the Aloha Shack Menu! We’re teaming up with Butcher’s Block and in collaboration with Raffles Hotel Singapore. It’s more than just a menu, it’s an experience that discovers the Hawaiian and local favorite’s flavors. Meet Chef Jordan Inspired by Chef Jordan Keao’s roots in Hawaii and his journey in Singapore over the past decade, this menu brings together woodfire cooking, Hawaiian flavors and the rich cultural heritage found right in Raffles Hotel Singapore. It’s a celebration of authenticity, history and genuine hospitality. At its core, the Aloha Shack Menu reflects a shared philosophy between Chef Jordan and Shake Shack: to honour real, whole ingredients, celebrate culture and create food that feels both elevated and approachable. BBQ Smokehouse Shack A made-to-order quarter-pound per patty of 100% Angus beef topped with smoky minced beef gravy, BBQ kecap manis, pickled jalapeño and pickled red onions on a toasted potato bun. Available as a single or double. Huli Huli Chicken Hand-breaded crispy chicken breast or thigh glazed in Huli Huli sauce, topped with coleslaw and lettuce served on a toasted potato bun. Salted Egg Fries Crispy crinkle-cut fries topped with salted egg yolk sauce, garlic butter, white pepper and fried curry leaves Roselle Ginger Lemonade Roselle ginger concentrate mixed with our house-made lemonade Ube Coconut Crème Ube coconut hand-spun with vanilla frozen custard, topped with mochi coated in Kinako powder.",
+      "rawOutput": "{\"classification\":{\"value\":\"product_launch\",\"quote\":\"Introducing Aloha Shack Menu\"},\"merchant\":{\"value\":\"Shake Shack\",\"quote\":\"At its core, the Aloha Shack Menu reflects a shared philosophy between Chef Jordan and Shake Shack\"},\"title\":{\"value\":\"Aloha Shack Menu\",\"quote\":\"Introducing: Aloha Shack Menu\"},\"benefit\":{\"value\":null,\"quote\":null},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+      "rawOutputSha256": "f8446c3ef9bc11643289f69d0d0d9b06b1c350480fe811ffde83a4bfc0951064",
+      "validator": {
+        "contractValid": false,
+        "issues": [
+          "missing_or_non_source_quote:classification",
+          "non_economic_facts"
+        ],
+        "unresolved": [
+          "not_confirmed_economic_offer",
+          "missing_start_date",
+          "missing_end_date",
+          "physical_participation_unresolved",
+          "missing_benefit"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "The classification quote is not byte-for-byte present (including case/punctuation); the definite class therefore fails provenance validation. Non-economic/uncertain output leaves merchant/title or other core facts populated despite the fixed contract requiring all-null facts."
+    },
+    {
+      "id": "shake_shack_sg-more-perks-less-fuss",
+      "cohort": "regression",
+      "frozenFindings": [
+        "missing_or_non_source_quote:merchant",
+        "nonverbatim_merchant",
+        "non_economic_facts",
+        "classification_mismatch",
+        "economic_identity_omitted"
+      ],
+      "source": "MORE PERKS, LESS FUSS To our Shack Fans, we’ve heard you loud and clear — and we’ve been busy giving our Happy Point App a glow-up. Think of a fresh new look, cooler perks, and way easier ways to enjoy your Shack favorites. Here’s what’s new and waiting for you: New Look We’ve had a little makeover! The app’s now smoother, brighter, and easier to use. Whether you’re ordering on the go, checking out your vouchers, or finding the nearest Shack, everything’s right at your fingertips. Happy Dollars Points are out, Happy Dollars are in! Earn 2% back on what you spend, and use your Happy Dollars on your next Shack order. Simple and rewarding. More Perks Level up as you dine more! With our new tier system, the higher you climb, the more perks you unlock. Because who doesn’t love an upgrade? Ready to dive in? Download the Happy Point App and check out what’s new!",
+      "rawOutput": "{\"classification\":{\"value\":\"product_launch\",\"quote\":\"Here’s what’s new and waiting for you: New Look\"},\"merchant\":{\"value\":\"Shake Shack\",\"quote\":null},\"title\":{\"value\":\"Happy Point App glow-up\",\"quote\":\"we’ve been busy giving our Happy Point App a glow-up\"},\"benefit\":{\"value\":null,\"quote\":null},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+      "rawOutputSha256": "2d830488cc824ac1fcfcc94cf09cd3856f8e85cc10a4b23fc02dea339bcf860c",
+      "validator": {
+        "contractValid": false,
+        "issues": [
+          "missing_or_non_source_quote:merchant",
+          "nonverbatim_merchant",
+          "non_economic_facts"
+        ],
+        "unresolved": [
+          "not_confirmed_economic_offer",
+          "missing_start_date",
+          "missing_end_date",
+          "physical_participation_unresolved",
+          "missing_benefit"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "The new app includes an explicit \"Earn 2% back on what you spend\" economic benefit. product_launch misses it. Merchant lacks a quote and non-economic fields remain populated, so the validator rejects the answer."
+    },
+    {
+      "id": "shake_shack_sg-pucker-up-for-2-lemonades",
+      "cohort": "regression",
+      "frozenFindings": [
+        "nonverbatim_merchant",
+        "all_scope_without_explicit_wording"
+      ],
+      "source": "Pucker up for $2 Lemonades Pucker up for $2 Lemonades When life gives you lemons… we make it better! Fresh Shack-made lemonades with pure cane sugar and real lemon juice From now for a limited time only, enjoy our refreshing Lemonades for just $2 — exclusively when you order through the Happy Point Singapore app. Whether you’re cooling off with our classic Shack-made Lemonade or pairing it with your favorite ShackBurger and Crinkle cut fries, it’s the perfect way to brighten your day (and your wallet). Here’s how to get in on the deal: Download the Happy Point Singapore app (available on iOS and Android). Order ahead from any Shake Shack Singapore location. Add the $2 Fresh Lemonade (Small) to your order — it’s automatically just $2! So go ahead, sip happy and make your Shack meal even sweeter. Because great hacks (and good lemonade) don’t last forever! * Disclaimer: Our fresh lemonades are best consumed within 3 hours after purchase Terms and Conditions Offer is available across all Shake Shack outlets in Singapore from 28 October 2025 to 9 November 2025 only. Offer is valid for dine-in and take-away. The offer is only valid via Happy Point Singapore in-app orders. Offer not valid for orders made through third-party delivery apps. Offer is not valid in conjunction with any other vouchers. Offer is non-refundable, non-extendable, non-exchangeable for cash or for any other menu items. Shake Shack Singapore reserves the right to vary and amend these terms and conditions at any time without prior notice. Visuals are for illustration purposes only.",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"From now for a limited time only, enjoy our refreshing Lemonades for just $2\"},\"merchant\":{\"value\":\"Shake Shack Singapore\",\"quote\":\"Offer is available across all Shake Shack outlets in Singapore\"},\"title\":{\"value\":\"$2 Lemonades\",\"quote\":\"Pucker up for $2 Lemonades\"},\"benefit\":{\"value\":\"$2 Fresh Lemonade (Small)\",\"quote\":\"Add the $2 Fresh Lemonade (Small) to your order — it’s automatically just $2!\"},\"startDate\":{\"value\":\"2025-10-28\",\"quote\":\"from 28 October 2025\"},\"endDate\":{\"value\":\"2025-11-09\",\"quote\":\"to 9 November 2025\"},\"locationScope\":{\"value\":\"all_outlets\",\"quote\":\"Offer is available across all Shake Shack outlets in Singapore\"},\"locationRules\":[]}",
+      "rawOutputSha256": "90b454fac2bcde1b455490477918313462ba9db3812ca825f95ebf15fb83d1cd",
+      "validator": {
+        "contractValid": false,
+        "issues": [
+          "nonverbatim_merchant",
+          "all_scope_without_explicit_wording"
+        ],
+        "unresolved": []
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "Explicit campaign dates and all-outlets wording are correct. The selected merchant quote lacks the exact \"Shake Shack Singapore\" string, and the inherited merchant-dependent scope recognizer falsely rejects the source-equivalent all clause. This is the same frozen validator limitation as Flock This Way."
+    },
+    {
+      "id": "shake_shack_sg-well-be-right-back",
+      "cohort": "regression",
+      "frozenFindings": [
+        "non_economic_facts"
+      ],
+      "source": "We’ll be right back! A New and Improved Happy Point App is Coming Soon! Exciting news, Shack fans! We’re rolling out a brand-new and improved interface for the Happy Point app, designed to make your experience even better. Get ready for a smoother, more rewarding journey as we enhance how you earn and redeem points at Shake Shack! Temporary Downtime – What You Need to Know As we gear up for the big transition, there will be a temporary downtime starting 8th March, with the app making its grand return on 14th April. During this period, here’s what you need to take note of: Redeem Your Vouchers Before the Closure: Be sure to use your existing vouchers before the app goes offline on 8th March. Voucher Issuance Paused: No new vouchers will be issued via Happy Point from 8th March onwards. Keep Earning Points: You can still earn points at Shake Shack by scanning the QR code at checkout. However, point redemption will be temporarily paused and will resume once the app is back. Stay Updated Don’t miss any important updates, follow us on Instagram @shakeshacksg for the latest news! Your Data is Safe and Secure We want to assure you that your account data will remain safe and secure throughout this transition. We appreciate your patience and can’t wait to introduce a fresh, improved Happy Point experience! Got questions? Feel free to reach out to us—we’re happy to help. See you soon with a brand-new Happy Point app!",
+      "rawOutput": "{\"classification\":{\"value\":\"service_information\",\"quote\":\"Temporary Downtime – What You Need to Know\"},\"merchant\":{\"value\":\"Shake Shack\",\"quote\":\"at Shake Shack\"},\"title\":{\"value\":\"Happy Point app temporary downtime\",\"quote\":\"there will be a temporary downtime\"},\"benefit\":{\"value\":null,\"quote\":null},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+      "rawOutputSha256": "264bf646f5e63c52a89502f585c6202a5206e8f95d8026555a32b4944a8b8292",
+      "validator": {
+        "contractValid": false,
+        "issues": [
+          "non_economic_facts"
+        ],
+        "unresolved": [
+          "not_confirmed_economic_offer",
+          "missing_start_date",
+          "missing_end_date",
+          "physical_participation_unresolved",
+          "missing_benefit"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "Non-economic/uncertain output leaves merchant/title or other core facts populated despite the fixed contract requiring all-null facts."
+    },
+    {
+      "id": "fairprice_sg-price-drop-buy-now-weekly-offers-from-20-off",
+      "cohort": "regression",
+      "frozenFindings": [
+        "missing_or_non_source_quote:merchant",
+        "nonverbatim_merchant"
+      ],
+      "source": "Price Drop Buy Now - Weekly Offers From 20% Off 1 Oct - 7 Oct 2026",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Price Drop Buy Now - Weekly Offers From 20% Off\"},\"merchant\":{\"value\":\"FairPrice\",\"quote\":null},\"title\":{\"value\":\"Weekly Offers\",\"quote\":\"Weekly Offers\"},\"benefit\":{\"value\":\"From 20% Off\",\"quote\":\"From 20% Off\"},\"startDate\":{\"value\":\"2026-10-01\",\"quote\":\"1 Oct - 7 Oct 2026\"},\"endDate\":{\"value\":\"2026-10-07\",\"quote\":\"1 Oct - 7 Oct 2026\"},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+      "rawOutputSha256": "9f2184851c001a339667656fcea4c1daf61d9a4f4e25502dc22f5e4e91a1401e",
+      "validator": {
+        "contractValid": false,
+        "issues": [
+          "missing_or_non_source_quote:merchant",
+          "nonverbatim_merchant"
+        ],
+        "unresolved": [
+          "physical_participation_unresolved"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "A populated merchant is not supported by its exact selected source quote; context hints cannot supply fact evidence. This is a provenance failure, not proof that the merchant identity itself is wrong."
+    },
+    {
+      "id": "fairprice_sg-xtra-wine-flash-sale",
+      "cohort": "regression",
+      "frozenFindings": [
+        "missing_or_non_source_quote:merchant",
+        "nonverbatim_merchant",
+        "benefit_identity_mismatch"
+      ],
+      "source": "Xtra Wine Flash Deals for September 24 to 27 September 2026",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Xtra Wine Flash Deals\"},\"merchant\":{\"value\":\"FairPrice\",\"quote\":null},\"title\":{\"value\":\"Xtra Wine Flash Deals\",\"quote\":\"Xtra Wine Flash Deals\"},\"benefit\":{\"value\":\"Flash Deals\",\"quote\":\"Flash Deals\"},\"startDate\":{\"value\":\"2026-09-24\",\"quote\":\"September 24 to 27 September 2026\"},\"endDate\":{\"value\":\"2026-09-27\",\"quote\":\"September 24 to 27 September 2026\"},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+      "rawOutputSha256": "c1b382eb3e554a770e1b11f16aea9b9afa8368eef1a473d7c78a298d56137876",
+      "validator": {
+        "contractValid": false,
+        "issues": [
+          "missing_or_non_source_quote:merchant",
+          "nonverbatim_merchant"
+        ],
+        "unresolved": [
+          "physical_participation_unresolved"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "The generic benefit \"Flash Deals\" does not pass the frozen wine-identity matcher; title retains the wine identity. This conservative field-specific flag is not a fabricated discount. FairPrice is taken from hints without a source quote and is rejected. Explicit source dates are correct."
+    },
+    {
+      "id": "fairprice_sg-finest-wine",
+      "cohort": "regression",
+      "frozenFindings": [
+        "missing_or_non_source_quote:merchant",
+        "nonverbatim_merchant"
+      ],
+      "source": "Finest Monthly Wine Deals 1-31 Oct 2026",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Finest Monthly Wine Deals 1-31 Oct 2026\"},\"merchant\":{\"value\":\"FairPrice\",\"quote\":null},\"title\":{\"value\":\"Finest Monthly Wine Deals\",\"quote\":\"Finest Monthly Wine Deals\"},\"benefit\":{\"value\":\"Wine Deals\",\"quote\":\"Wine Deals\"},\"startDate\":{\"value\":\"2026-10-01\",\"quote\":\"1-31 Oct 2026\"},\"endDate\":{\"value\":\"2026-10-31\",\"quote\":\"1-31 Oct 2026\"},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+      "rawOutputSha256": "b594a7bcb9dacafe43f4885dfc7e26a702f96b22018a80ee0c6086654321b7ae",
+      "validator": {
+        "contractValid": false,
+        "issues": [
+          "missing_or_non_source_quote:merchant",
+          "nonverbatim_merchant"
+        ],
+        "unresolved": [
+          "physical_participation_unresolved"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "A populated merchant is not supported by its exact selected source quote; context hints cannot supply fact evidence. This is a provenance failure, not proof that the merchant identity itself is wrong."
+    },
+    {
+      "id": "holdout-tastesoulsg-4486",
+      "cohort": "holdout",
+      "frozenFindings": [
+        "nonverbatim_benefit",
+        "classification_mismatch"
+      ],
+      "source": "🧋 Koi Thé 🧋\n\n➡️ NEW 3L Sharing Tea Pack ($52)\n➡️ Flavours incl. Green Milk Tea, Peach Green Tea, Oolong Milk Tea & more\n➡️ + $8 for topping\n\n📆 Now\n📍 Online\n❗️ T&Cs apply.\n👉 More info: bit.ly/4gTTqJh (http://bit.ly/4gTTqJh)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"NEW 3L Sharing Tea Pack ($52)\"},\"merchant\":{\"value\":\"Koi Thé\",\"quote\":\"🧋 Koi Thé 🧋\"},\"title\":{\"value\":\"3L Sharing Tea Pack\",\"quote\":\"NEW 3L Sharing Tea Pack\"},\"benefit\":{\"value\":\"3L Sharing Tea Pack ($52) + $8 for topping\",\"quote\":\"NEW 3L Sharing Tea Pack ($52)\\n➡️ Flavours incl. Green Milk Tea, Peach Green Tea, Oolong Milk Tea & more\\n➡️ + $8 for topping\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+      "rawOutputSha256": "d2721f4baabf07ca6ad010522483a5135a98def23294252e8ca3a0362b27b346",
+      "validator": {
+        "contractValid": false,
+        "issues": [
+          "nonverbatim_benefit"
+        ],
+        "unresolved": [
+          "missing_start_date",
+          "missing_end_date",
+          "physical_participation_unresolved"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "The source is a NEW 3L tea-pack product announcement with a price; the frozen source review does not treat ordinary launch pricing as an economic privilege. The model calls it economic_offer and rewrites the benefit, so validation rejects it. This taxonomy distinction is agent-authored, not human ground truth."
+    },
+    {
+      "id": "holdout-sgfooddeals-4930",
+      "cohort": "holdout",
+      "frozenFindings": [
+        "non_economic_facts"
+      ],
+      "source": "SG's Last Kampung Canteen is Closing Down 🥹\n\n🔹 Boh Geh Canteen in Seletar bids farewell on 18 Sep after 57 years as owner Mr Toh retires\n🔹 Dig into nostalgic home style Cai Png & authentic Nasi Padang before they are gone\n📅 Mon - Fri\n⏰ 6AM - 1.30PM\n📍 Nearby Seletar, 398 Piccadilly\n\nMore info: tco.sg/ywIh02WYN (http://tco.sg/ywIh02WYN) \n\n@sgfooddeals (https://t.me/sgfooddeals) #article\n[Media attached: verify image/video conditions.]",
+      "rawOutput": "{\"classification\":{\"value\":\"store_announcement\",\"quote\":\"Boh Geh Canteen in Seletar bids farewell on 18 Sep after 57 years as owner Mr Toh retires\"},\"merchant\":{\"value\":\"Boh Geh Canteen\",\"quote\":\"Boh Geh Canteen in Seletar\"},\"title\":{\"value\":\"Boh Geh Canteen closing down\",\"quote\":\"SG's Last Kampung Canteen is Closing Down\"},\"benefit\":{\"value\":null,\"quote\":null},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+      "rawOutputSha256": "f74785c6df87dd287a3cbc6453a2b2b41e78925dd79fc68e05d051e79b347a57",
+      "validator": {
+        "contractValid": false,
+        "issues": [
+          "non_economic_facts"
+        ],
+        "unresolved": [
+          "not_confirmed_economic_offer",
+          "missing_start_date",
+          "missing_end_date",
+          "physical_participation_unresolved",
+          "missing_benefit"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "Non-economic/uncertain output leaves merchant/title or other core facts populated despite the fixed contract requiring all-null facts."
+    },
+    {
+      "id": "holdout-tastesoulsg-4478",
+      "cohort": "holdout",
+      "frozenFindings": [],
+      "source": "🌮 Papi’s Tacos 🌮\n\n➡️ $10 OFF Papi’s Platter\n📆 Every Fri\n📍 33 Tanjong Pagar Road & 149 Tyrwhitt Road\n❗️ T&Cs apply.\n👉 More info: bit.ly/4yrAI1p (http://bit.ly/4yrAI1p)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"$10 OFF Papi’s Platter\"},\"merchant\":{\"value\":\"Papi’s Tacos\",\"quote\":\"🌮 Papi’s Tacos 🌮\"},\"title\":{\"value\":\"$10 OFF Papi’s Platter\",\"quote\":\"$10 OFF Papi’s Platter\"},\"benefit\":{\"value\":\"$10 OFF Papi’s Platter\",\"quote\":\"$10 OFF Papi’s Platter\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+      "rawOutputSha256": "022ab26cdca137b74802bee23f133bff8fa96433769c76686b699fc4d8b81689",
+      "validator": {
+        "contractValid": true,
+        "issues": [],
+        "unresolved": [
+          "missing_start_date",
+          "missing_end_date",
+          "physical_participation_unresolved"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [
+          "33 Tanjong Pagar Road",
+          "149 Tyrwhitt Road"
+        ],
+        "excluded": []
+      },
+      "explanation": "The source connects $10 off Papi’s Platter to two physical addresses; the answer preserves the deal but leaves physical scope/rules empty, omitting both source-linked participants."
+    },
+    {
+      "id": "holdout-sgfooddeals-4924",
+      "cohort": "holdout",
+      "frozenFindings": [],
+      "source": "Brash Boys Coffee: 1-for-1 on All Drinks 😋\n\n🔹 Enjoy 1-for-1 deals on all drinks like Strawberry Matcha Latte, Hojicha Latte, Iced Chocolate & more\n📅 8 & 9 Sep (Tue & Wed)\n⏰ 11AM - 3PM\n📍 168 Robinson Road, #01-09\n\nFind out more: tco.sg/44jVMtedr (https://tco.sg/44jVMtedr)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Enjoy 1-for-1 deals on all drinks like Strawberry Matcha Latte, Hojicha Latte, Iced Chocolate & more\"},\"merchant\":{\"value\":\"Brash Boys Coffee\",\"quote\":\"Brash Boys Coffee\"},\"title\":{\"value\":\"1-for-1 on All Drinks\",\"quote\":\"Brash Boys Coffee: 1-for-1 on All Drinks\"},\"benefit\":{\"value\":\"1-for-1 deals on all drinks\",\"quote\":\"Enjoy 1-for-1 deals on all drinks\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+      "rawOutputSha256": "01d16956bf0a876ebfef45019c4ed6158cb55d02182f6dc0a0b54edf8574ddc3",
+      "validator": {
+        "contractValid": true,
+        "issues": [],
+        "unresolved": [
+          "missing_start_date",
+          "missing_end_date",
+          "physical_participation_unresolved"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [
+          "168 Robinson Road, #01-09"
+        ],
+        "excluded": []
+      },
+      "explanation": "The source connects the drink offer to 168 Robinson Road, #01-09; the answer emits no physical rule, missing the known participant despite preserving the benefit."
+    },
+    {
+      "id": "holdout-tastesoulsg-4468",
+      "cohort": "holdout",
+      "frozenFindings": [
+        "wrong_physical_scope"
+      ],
+      "source": "🌯 Subway 🌯\n\n➡️ Buy 1 Breakfast Wrap + Coffee set & get 1 FREE Breakfast Wrap\n📆 Today \n🕣 Till 11am\n📍 All outlets excl. Changi Airport outlets, Tanah Merah Ferry Terminal, Courts Megastore, Anchorpoint & Navy Region Centre Singapore\n❗️ T&Cs apply.\n👉 More info: bit.ly/4ifYdWl (http://bit.ly/4ifYdWl)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Buy 1 Breakfast Wrap + Coffee set & get 1 FREE Breakfast Wrap\"},\"merchant\":{\"value\":\"Subway\",\"quote\":\"🌯 Subway 🌯\"},\"title\":{\"value\":\"Buy 1 Breakfast Wrap + Coffee set & get 1 FREE Breakfast Wrap\",\"quote\":\"Buy 1 Breakfast Wrap + Coffee set & get 1 FREE Breakfast Wrap\"},\"benefit\":{\"value\":\"get 1 FREE Breakfast Wrap\",\"quote\":\"get 1 FREE Breakfast Wrap\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"selected_outlets\",\"quote\":\"All outlets excl. Changi Airport outlets, Tanah Merah Ferry Terminal, Courts Megastore, Anchorpoint & Navy Region Centre Singapore\"},\"locationRules\":[{\"role\":\"excluded\",\"names\":[\"Changi Airport outlets\",\"Tanah Merah Ferry Terminal\",\"Courts Megastore\",\"Anchorpoint\",\"Navy Region Centre Singapore\"],\"quote\":\"All outlets excl. Changi Airport outlets, Tanah Merah Ferry Terminal, Courts Megastore, Anchorpoint & Navy Region Centre Singapore\"}]}",
+      "rawOutputSha256": "e8e8389c4cfcdf6c61e2d8658ef744440f1617e6d4a6eeb3c60b1611edc5d6ba",
+      "validator": {
+        "contractValid": true,
+        "issues": [],
+        "unresolved": [
+          "missing_start_date",
+          "missing_end_date",
+          "physical_participation_unresolved"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "All-outlets wording plus five exclusions becomes selected_outlets. The exclusions are exact and correct. The narrower label differs from frozen all_outlets; this is a representation/scope mismatch, not five wrong branches or a polarity reversal."
+    },
+    {
+      "id": "holdout-tastesoulsg-4466",
+      "cohort": "holdout",
+      "frozenFindings": [
+        "wrong_physical_scope"
+      ],
+      "source": "🍗 4Fingers 🍗\n\n➡️ $4 for 4pc Wings & Drumettes \n📆 Today \n📍 All outlets excl. Changi Airport \n❗️ T&Cs apply.\n👉 More info: bit.ly/4gNBcI6 (http://bit.ly/4gNBcI6)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"$4 for 4pc Wings & Drumettes\"},\"merchant\":{\"value\":\"4Fingers\",\"quote\":\"🍗 4Fingers 🍗\"},\"title\":{\"value\":\"$4 for 4pc Wings & Drumettes\",\"quote\":\"$4 for 4pc Wings & Drumettes\"},\"benefit\":{\"value\":\"$4 for 4pc Wings & Drumettes\",\"quote\":\"$4 for 4pc Wings & Drumettes\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"selected_outlets\",\"quote\":\"All outlets excl. Changi Airport\"},\"locationRules\":[{\"role\":\"excluded\",\"names\":[\"Changi Airport\"],\"quote\":\"All outlets excl. Changi Airport\"}]}",
+      "rawOutputSha256": "76386f02de3742d2127d4376191d043d30d7e8b4ef0182531dc7b4a29124a7e2",
+      "validator": {
+        "contractValid": true,
+        "issues": [],
+        "unresolved": [
+          "missing_start_date",
+          "missing_end_date",
+          "physical_participation_unresolved"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "All-outlets wording plus Changi Airport exclusion becomes selected_outlets. The exclusion is correct. This is the same scope-label mismatch as Subway, not an invented branch."
+    },
+    {
+      "id": "holdout-tastesoulsg-4462",
+      "cohort": "holdout",
+      "frozenFindings": [
+        "non_economic_facts",
+        "classification_mismatch",
+        "economic_identity_omitted"
+      ],
+      "source": "🍚 Kei Kaisendon 🍚\n\n➡️ 1-for-1 Kaisendon\n📆 4 - 6 Sep\n📍 Great World, B1-129\n❗️ T&Cs apply.\n👉 More info: bit.ly/4gB5K0U (http://bit.ly/4gB5K0U)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawOutput": "{\"classification\":{\"value\":\"uncertain\",\"quote\":null},\"merchant\":{\"value\":\"Kei Kaisendon\",\"quote\":\"🍚 Kei Kaisendon 🍚\"},\"title\":{\"value\":\"1-for-1 Kaisendon\",\"quote\":\"1-for-1 Kaisendon\"},\"benefit\":{\"value\":\"1-for-1 Kaisendon\",\"quote\":\"1-for-1 Kaisendon\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+      "rawOutputSha256": "bdfa76d1d3a80726c0f3eeb3ddf33f1c4937e6848d453c953f9e838df3d98d0c",
+      "validator": {
+        "contractValid": false,
+        "issues": [
+          "non_economic_facts"
+        ],
+        "unresolved": [
+          "not_confirmed_economic_offer",
+          "missing_start_date",
+          "missing_end_date",
+          "physical_participation_unresolved"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [
+          "Great World, B1-129"
+        ],
+        "excluded": []
+      },
+      "explanation": "Despite explicit 1-for-1 wording, classification is uncertain while merchant/title/benefit are non-null. This violates the abstention output contract and misses the source-linked Great World participant. No year is inferred."
+    },
+    {
+      "id": "holdout-tastesoulsg-4458",
+      "cohort": "holdout",
+      "frozenFindings": [
+        "wrong_participating_outlets"
+      ],
+      "source": "🥩 The doors are open, the deals are hot. Enjoy 5 days of steak promos from 1 to 5 September 2026 at The Capitol – Bari Bari Grand \n\n🍈 Read more: bit.ly/4ion0Yz (http://bit.ly/4ion0Yz)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Enjoy 5 days of steak promos from 1 to 5 September 2026 at The Capitol – Bari Bari Grand\"},\"merchant\":{\"value\":\"Bari Bari Grand\",\"quote\":\"Bari Bari Grand\"},\"title\":{\"value\":\"Steak promos\",\"quote\":\"steak promos\"},\"benefit\":{\"value\":\"steak promos\",\"quote\":\"steak promos\"},\"startDate\":{\"value\":\"2026-09-01\",\"quote\":\"from 1 to 5 September 2026\"},\"endDate\":{\"value\":\"2026-09-05\",\"quote\":\"from 1 to 5 September 2026\"},\"locationScope\":{\"value\":\"named_outlets\",\"quote\":\"at The Capitol – Bari Bari Grand\"},\"locationRules\":[{\"role\":\"participating\",\"names\":[\"The Capitol – Bari Bari Grand\"],\"quote\":\"at The Capitol – Bari Bari Grand\"}]}",
+      "rawOutputSha256": "9da558aaf7a6d1dec7758c806c890a81cff80ea68427e11fbdf1c32010904380",
+      "validator": {
+        "contractValid": true,
+        "issues": [],
+        "unresolved": []
+      },
+      "physicalOmissions": {
+        "participating": [
+          "The Capitol"
+        ],
+        "excluded": []
+      },
+      "explanation": "Both explicit-year dates are correct. \"The Capitol – Bari Bari Grand\" is a verbatim source label for the same venue as frozen \"The Capitol\". One frozen wrong-name/omission flag is an alias limitation, not a confirmed incorrect venue. This alone prevents the sole date-complete holdout from receiving frozen core-complete credit."
+    },
+    {
+      "id": "holdout-tastesoulsg-4453",
+      "cohort": "holdout",
+      "frozenFindings": [
+        "unsafe_boundary_commitment",
+        "wrong_participating_outlets",
+        "wrong_physical_scope"
+      ],
+      "source": "🧀 Hokkaido Baked Cheese Tart 🧀\n\n➡️ 1-for-1 Original Cheese Tart\n\n📆 2 Sep\n📍 Jurong Point, B1-K2 | Parkway Parade, 01-23B\n\n📆 3 Sep\n📍 Changi Airport T3, B2-11 | Bugis Junction, B1-K6\n\n🕣 12pm onwards\n❗️ While stocks last. T&Cs apply. \n👉 More info: bit.ly/4zR7Jpq (http://bit.ly/4zR7Jpq)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"1-for-1 Original Cheese Tart\"},\"merchant\":{\"value\":\"Hokkaido Baked Cheese Tart\",\"quote\":\"Hokkaido Baked Cheese Tart\"},\"title\":{\"value\":\"1-for-1 Original Cheese Tart\",\"quote\":\"1-for-1 Original Cheese Tart\"},\"benefit\":{\"value\":\"1-for-1 Original Cheese Tart\",\"quote\":\"1-for-1 Original Cheese Tart\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"selected_outlets\",\"quote\":\"2 Sep\\n📍 Jurong Point, B1-K2 | Parkway Parade, 01-23B\\n\\n📆 3 Sep\\n📍 Changi Airport T3, B2-11 | Bugis Junction, B1-K6\"},\"locationRules\":[{\"role\":\"participating\",\"names\":[\"Jurong Point, B1-K2\",\"Parkway Parade, 01-23B\"],\"quote\":\"Jurong Point, B1-K2 | Parkway Parade, 01-23B\"},{\"role\":\"participating\",\"names\":[\"Changi Airport T3, B2-11\",\"Bugis Junction, B1-K6\"],\"quote\":\"Changi Airport T3, B2-11 | Bugis Junction, B1-K6\"}]}",
+      "rawOutputSha256": "e12c806fbc10d76054d6ab27c9c4feab6be3ba473d72e8779381a43849321fe8",
+      "validator": {
+        "contractValid": true,
+        "issues": [],
+        "unresolved": [
+          "missing_start_date",
+          "missing_end_date"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "The frozen contract requires uncertain for different outlet-specific date windows. The model retains the one-for-one deal and all four real source-supported branches, with dates null and the original day/branch associations intact in Description. Four wrong-branch flags arise because the abstention note has no positive targets; they are boundary-policy/representation flags, not four invented branch names. No absolute dates or \"available now\" claim are made."
+    },
+    {
+      "id": "holdout-sgfooddeals-4912",
+      "cohort": "holdout",
+      "frozenFindings": [
+        "nonverbatim_benefit"
+      ],
+      "source": "Common Grill: $9.90 Lunch Sets 🍝\n\n🔹 Choose from appetising mains like Grilled Chicken Chop, Fish & Chips, Angus Beef Bolognese & more \n🔹 Each dish comes with a free Wild Mushroom Soup worth $3.50\n📅 Mon - Fri\n⏰ 11AM - 3PM \n📍 All outlets \n\nT&Cs apply. \n\nMore info: tco.sg/lmm5hfaTJ (http://tco.sg/lmm5hfaTJ) \n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n——————————————————\n🏠 @renodealssg (https://t.me/renodealssg) - Home reno deals\n🇲🇾 @myfoodpromos (https://t.me/myfoodpromos) - M'sia food deals\n🇲🇾 @mymakanmurah (https://t.me/mymakanmurah) - M'sia food deals (In Malay)\n[Media attached: verify image/video conditions.]",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Common Grill: $9.90 Lunch Sets\"},\"merchant\":{\"value\":\"Common Grill\",\"quote\":\"Common Grill: $9.90 Lunch Sets\"},\"title\":{\"value\":\"$9.90 Lunch Sets\",\"quote\":\"$9.90 Lunch Sets\"},\"benefit\":{\"value\":\"$9.90 Lunch Sets with a free Wild Mushroom Soup worth $3.50\",\"quote\":\"Common Grill: $9.90 Lunch Sets 🍝\\n\\n🔹 Choose from appetising mains like Grilled Chicken Chop, Fish & Chips, Angus Beef Bolognese & more \\n🔹 Each dish comes with a free Wild Mushroom Soup worth $3.50\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"all_outlets\",\"quote\":\"📍 All outlets\"},\"locationRules\":[]}",
+      "rawOutputSha256": "293cdad004e317fa8a418c034ae3ce74d6d6b92b23502b0eb2225776ecf6eceb",
+      "validator": {
+        "contractValid": false,
+        "issues": [
+          "nonverbatim_benefit"
+        ],
+        "unresolved": [
+          "missing_start_date",
+          "missing_end_date"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "The benefit joins, changes punctuation or summarizes source wording, failing the literal-value/quote contract. Description still keeps every source restriction; a contract failure is not automatically a semantic hallucination."
+    },
+    {
+      "id": "holdout-sgfooddeals-4896",
+      "cohort": "holdout",
+      "frozenFindings": [],
+      "source": "New Ubin Seafood: 50% Off Daily Deals 🦀\n\n🔹 Feast on a different deal each day on dishes like chilli crab, ribeye steak & more\n📅 Now till 31 Aug\n⏰ 11AM - 5PM or 9.30PM onwards\n📍 30 Victoria Street, #02-01B\n\nFind out more: tco.sg/MMQ0xi395 (http://tco.sg/MMQ0xi395)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"New Ubin Seafood: 50% Off Daily Deals\"},\"merchant\":{\"value\":\"New Ubin Seafood\",\"quote\":\"New Ubin Seafood: 50% Off Daily Deals\"},\"title\":{\"value\":\"50% Off Daily Deals\",\"quote\":\"50% Off Daily Deals\"},\"benefit\":{\"value\":\"50% Off Daily Deals\",\"quote\":\"50% Off Daily Deals\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+      "rawOutputSha256": "8b6bae761edc99b2de3856006d7076bcf6a26d2a79c4d2138ff97b1cbf9d4bf6",
+      "validator": {
+        "contractValid": true,
+        "issues": [],
+        "unresolved": [
+          "missing_start_date",
+          "missing_end_date",
+          "physical_participation_unresolved"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [
+          "30 Victoria Street, #02-01B"
+        ],
+        "excluded": []
+      },
+      "explanation": "The source links the recurring daily-deal campaign to 30 Victoria Street, #02-01B; the answer leaves participation unknown. Date unknown is correct because the source has no year."
+    },
+    {
+      "id": "holdout-sgfooddeals-4875",
+      "cohort": "holdout",
+      "frozenFindings": [],
+      "source": "Carnaby: 1-for-1 Weekday Specials 🍔\n\n🔹 Celebrate National Day all month long with 1-for-1 western favourites\n🔹 Enjoy a different qualifying dish from Tues to Thurs, including Burgers, Fish & Chips & more\n🔹 Valid for dine-in only\n📍 60 Robertson Quay, #01-01\n\nFind out more: tco.sg/2QLeDtHDw (https://tco.sg/2QLeDtHDw)\n\n@sgfooddeals (https://t.me/sgfooddeals) #deals\n[Media attached: verify image/video conditions.]",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Carnaby: 1-for-1 Weekday Specials\"},\"merchant\":{\"value\":\"Carnaby\",\"quote\":\"Carnaby: 1-for-1 Weekday Specials\"},\"title\":{\"value\":\"1-for-1 Weekday Specials\",\"quote\":\"1-for-1 Weekday Specials\"},\"benefit\":{\"value\":\"1-for-1 western favourites\",\"quote\":\"1-for-1 western favourites\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+      "rawOutputSha256": "7913dfddd58f3db0c7c8b4c261f92c05f5e1937ad55e9bb836803e638fa84cf4",
+      "validator": {
+        "contractValid": true,
+        "issues": [],
+        "unresolved": [
+          "missing_start_date",
+          "missing_end_date",
+          "physical_participation_unresolved"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [
+          "60 Robertson Quay, #01-01"
+        ],
+        "excluded": []
+      },
+      "explanation": "The source links the weekday special to 60 Robertson Quay, #01-01; the answer leaves participation unknown. Keeping weekday restrictions in Description is correct but does not replace positive physical extraction."
+    },
+    {
+      "id": "holdout-tastesoulsg-4410",
+      "cohort": "holdout",
+      "frozenFindings": [
+        "nonverbatim_location:all outlets except Temasek Poly and Tampines Kiosk",
+        "wrong_participating_outlets",
+        "wrong_physical_scope"
+      ],
+      "source": "🍟 McDonald’s 🍟\n\n➡️ FREE Curry Sauce\n➡️ Grab from the box at the order collection counter\n📆 9 Aug\n🕣 12pm onwards\n📍 All outlets excl. Temasek Poly & Tampines Kiosk\n❗️ While stocks last. T&Cs apply.\n👉 More info: bit.ly/4fXyYpa (http://bit.ly/4fXyYpa)\n\n@tastesoulsg (https://t.me/tastesoulsg)\n[Media attached: verify image/video conditions.]",
+      "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"FREE Curry Sauce\"},\"merchant\":{\"value\":\"McDonald’s\",\"quote\":\"🍟 McDonald’s 🍟\"},\"title\":{\"value\":\"FREE Curry Sauce\",\"quote\":\"FREE Curry Sauce\"},\"benefit\":{\"value\":\"FREE Curry Sauce\",\"quote\":\"FREE Curry Sauce\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"selected_outlets\",\"quote\":\"All outlets excl. Temasek Poly & Tampines Kiosk\"},\"locationRules\":[{\"role\":\"participating\",\"names\":[\"all outlets except Temasek Poly and Tampines Kiosk\"],\"quote\":\"All outlets excl. Temasek Poly & Tampines Kiosk\"},{\"role\":\"excluded\",\"names\":[\"Temasek Poly\",\"Tampines Kiosk\"],\"quote\":\"All outlets excl. Temasek Poly & Tampines Kiosk\"}]}",
+      "rawOutputSha256": "abde672ac8d39552c1bf0c7e5453e1f4eaad2b76be0a7e76486d83c6c1a698fc",
+      "validator": {
+        "contractValid": false,
+        "issues": [
+          "nonverbatim_location:all outlets except Temasek Poly and Tampines Kiosk"
+        ],
+        "unresolved": [
+          "missing_start_date",
+          "missing_end_date"
+        ]
+      },
+      "physicalOmissions": {
+        "participating": [],
+        "excluded": []
+      },
+      "explanation": "The explicit Temasek Poly/Tampines Kiosk exclusions are correct. A collective paraphrase \"all outlets except ...\" is also emitted as a named participant, violating literal provenance/domain rules; the validator rejects it. The selected_outlets category also differs from frozen all_outlets."
+    }
+  ]
+}

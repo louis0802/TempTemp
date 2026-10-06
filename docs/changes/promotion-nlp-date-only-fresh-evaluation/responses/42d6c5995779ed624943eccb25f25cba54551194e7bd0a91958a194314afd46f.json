@@ -1,0 +1,18 @@
+{
+  "taskId": "fairprice_sg-price-drop-buy-now-weekly-offers-from-20-off",
+  "agentId": "01a10cb7-6f66-7f00-8103-a2f09d6219a1",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Price Drop Buy Now - Weekly Offers From 20% Off\"},\"merchant\":{\"value\":\"FairPrice\",\"quote\":null},\"title\":{\"value\":\"Weekly Offers\",\"quote\":\"Weekly Offers\"},\"benefit\":{\"value\":\"From 20% Off\",\"quote\":\"From 20% Off\"},\"startDate\":{\"value\":\"2026-10-01\",\"quote\":\"1 Oct - 7 Oct 2026\"},\"endDate\":{\"value\":\"2026-10-07\",\"quote\":\"1 Oct - 7 Oct 2026\"},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "9f2184851c001a339667656fcea4c1daf61d9a4f4e25502dc22f5e4e91a1401e",
+  "savedAt": "2026-10-05T15:38:39.003Z",
+  "inputSha256": "3a28ad65b4793060c238eedf08584f6db79a7e570ec6131e0caafdff48f75379",
+  "sourceSha256": "69243e823f1374050e339da28cef031b6b6484d15364da98494dd3d1c54ed7e3",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

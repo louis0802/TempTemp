@@ -1,0 +1,18 @@
+{
+  "taskId": "shake_shack_sg-national-cheeseburger-day",
+  "agentId": "01a10cb6-427d-7f80-a54f-110f90642579",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"From 14 – 18 September, celebrate National CheeseBurger day with a FREE Beef Patty add-on* with any ShackBurger or SmokeShack purchase via the Happy Point app.\"},\"merchant\":{\"value\":\"Shake Shack Singapore\",\"quote\":\"Valid at all Shake Shack Singapore outlets.\"},\"title\":{\"value\":\"National Cheeseburger Day\",\"quote\":\"National Cheeseburger Day\"},\"benefit\":{\"value\":\"FREE Beef Patty add-on\",\"quote\":\"FREE Beef Patty add-on*\"},\"startDate\":{\"value\":\"2026-09-14\",\"quote\":\"Promotion is valid from 14 to 18 September 2026\"},\"endDate\":{\"value\":\"2026-09-18\",\"quote\":\"Promotion is valid from 14 to 18 September 2026\"},\"locationScope\":{\"value\":\"all_outlets\",\"quote\":\"Valid at all Shake Shack Singapore outlets.\"},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "eaed23d67d49180c8b075433b54d4bbb4d7b9ce96f43b25165664be6edcba779",
+  "savedAt": "2026-10-05T15:37:20.159Z",
+  "inputSha256": "209bd6d172b2b3a896ca1617afa983cb960ee8f087498a7fe58f8eb61bac5ab3",
+  "sourceSha256": "5c76ef5246e4b73137a34bd779e34e131e3fc7e95536ac5952efa7018ce57546",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

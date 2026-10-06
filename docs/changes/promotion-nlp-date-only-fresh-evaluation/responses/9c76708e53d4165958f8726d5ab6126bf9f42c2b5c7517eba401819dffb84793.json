@@ -1,0 +1,18 @@
+{
+  "taskId": "fairprice_sg-xtra-wine-flash-sale",
+  "agentId": "01a10cb7-7b21-7423-8b4a-cbe3c22664cb",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Xtra Wine Flash Deals\"},\"merchant\":{\"value\":\"FairPrice\",\"quote\":null},\"title\":{\"value\":\"Xtra Wine Flash Deals\",\"quote\":\"Xtra Wine Flash Deals\"},\"benefit\":{\"value\":\"Flash Deals\",\"quote\":\"Flash Deals\"},\"startDate\":{\"value\":\"2026-09-24\",\"quote\":\"September 24 to 27 September 2026\"},\"endDate\":{\"value\":\"2026-09-27\",\"quote\":\"September 24 to 27 September 2026\"},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "c1b382eb3e554a770e1b11f16aea9b9afa8368eef1a473d7c78a298d56137876",
+  "savedAt": "2026-10-05T15:38:43.598Z",
+  "inputSha256": "1f1e8c48c42d4ade15a4f32a01b09e1008a2613b6692e73d2ed5f5b4b213a827",
+  "sourceSha256": "42c0db444df5bb76f792b75b8ca9da687e74e449164430dc9ee2d3db180b2159",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

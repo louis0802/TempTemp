@@ -1,0 +1,18 @@
+{
+  "taskId": "holdout-tastesoulsg-4458",
+  "agentId": "01a10cb8-219f-76d3-b346-395ee809be49",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Enjoy 5 days of steak promos from 1 to 5 September 2026 at The Capitol – Bari Bari Grand\"},\"merchant\":{\"value\":\"Bari Bari Grand\",\"quote\":\"Bari Bari Grand\"},\"title\":{\"value\":\"Steak promos\",\"quote\":\"steak promos\"},\"benefit\":{\"value\":\"steak promos\",\"quote\":\"steak promos\"},\"startDate\":{\"value\":\"2026-09-01\",\"quote\":\"from 1 to 5 September 2026\"},\"endDate\":{\"value\":\"2026-09-05\",\"quote\":\"from 1 to 5 September 2026\"},\"locationScope\":{\"value\":\"named_outlets\",\"quote\":\"at The Capitol – Bari Bari Grand\"},\"locationRules\":[{\"role\":\"participating\",\"names\":[\"The Capitol – Bari Bari Grand\"],\"quote\":\"at The Capitol – Bari Bari Grand\"}]}",
+  "transportError": null,
+  "rawOutputSha256": "9da558aaf7a6d1dec7758c806c890a81cff80ea68427e11fbdf1c32010904380",
+  "savedAt": "2026-10-05T15:39:30.005Z",
+  "inputSha256": "4a4e1973a1dbc3fd496f2eb2fac744471793fa78fbbe8dc2f6932c64ee69b280",
+  "sourceSha256": "dce94b95353ab2c2b9e3675d6d1d936ecfd286c976a54d65d17388dbf3e47824",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

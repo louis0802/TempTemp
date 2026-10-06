@@ -1,0 +1,18 @@
+{
+  "taskId": "shake_shack_sg-all-about-chickens",
+  "agentId": "01a10cb6-121b-75c3-8fe8-0cfb06b57855",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Here’s what’s in the bundle (From $30.80): Choice of 1 Burger Complimentary Chicken Shack Choice of Fries Choice of Bites Choice of 2 Drinks\"},\"merchant\":{\"value\":\"Shake Shack\",\"quote\":\"Shake Shack\"},\"title\":{\"value\":\"All About Chickens\",\"quote\":\"All About Chickens\"},\"benefit\":{\"value\":\"From $30.80\",\"quote\":\"(From $30.80)\"},\"startDate\":{\"value\":\"2025-07-07\",\"quote\":\"Offer is available across all Shake Shack outlets in Singapore on 7 July 2025 only.\"},\"endDate\":{\"value\":\"2025-07-07\",\"quote\":\"Offer is available across all Shake Shack outlets in Singapore on 7 July 2025 only.\"},\"locationScope\":{\"value\":\"all_outlets\",\"quote\":\"Offer is available across all Shake Shack outlets in Singapore on 7 July 2025 only.\"},\"locationRules\":[{\"role\":\"participating\",\"names\":[\"all Shake Shack outlets in Singapore\"],\"quote\":\"Offer is available across all Shake Shack outlets in Singapore on 7 July 2025 only.\"}]}",
+  "transportError": null,
+  "rawOutputSha256": "b78fff56bb47c925279f6aa49911c5e4b5948fbed8361e93c44bf8a9f2289075",
+  "savedAt": "2026-10-05T15:37:10.946Z",
+  "inputSha256": "359ac719e01619ee44bb1ab1c3114d026a0f193854bc7db458b3db7356e4f612",
+  "sourceSha256": "cfbe807827114461ae2e555837a00ba89470f79159297fd10827dd5080ece435",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

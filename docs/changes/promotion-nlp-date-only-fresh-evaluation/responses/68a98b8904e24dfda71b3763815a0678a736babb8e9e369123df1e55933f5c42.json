@@ -1,0 +1,18 @@
+{
+  "taskId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-3",
+  "agentId": "01a10cb6-960a-7342-abb0-580ed18fd91f",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"1 pax dines free with every 4 other full-paying pax.\"},\"merchant\":{\"value\":\"Captain Kim\",\"quote\":\"Guests MUST follow our Facebook / Instagram to enjoy the promo.\"},\"title\":{\"value\":\"4PLUS1 PROMO\",\"quote\":\"4PLUS1 PROMO\"},\"benefit\":{\"value\":\"1 pax dines free with every 4 other full-paying pax.\",\"quote\":\"1 pax dines free with every 4 other full-paying pax.\"},\"startDate\":{\"value\":\"2026-10-01\",\"quote\":\"Valid from 1-31 Oct 2026.\"},\"endDate\":{\"value\":\"2026-10-31\",\"quote\":\"Valid from 1-31 Oct 2026.\"},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "045cb4568770f8848b0640e952594ee797a5d04aa18ff6f66119d64b019135a5",
+  "savedAt": "2026-10-05T15:37:43.718Z",
+  "inputSha256": "66632d459c0a431223e86548224dce425a438939533ac6621024a15acc0c8e20",
+  "sourceSha256": "1527da749bbcd3d0f6d6e9a3a1697bcffa0e6003805fbda5cd581d0fb0c8d08b",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

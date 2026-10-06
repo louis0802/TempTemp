@@ -1,0 +1,18 @@
+{
+  "taskId": "instagram-Dc-kxPJzx9B",
+  "agentId": "01a10cb7-0832-7ef0-91d1-3141752e0d2a",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"$9.90++ gets you a main + free-flow side dishes + your choice of K-TREAT - Omija Berry Smoothie, Milk Tea Brûlée Smoothie or a Dubai Chewy Cookie.\"},\"merchant\":{\"value\":\"Ajumma's Korean Restaurant\",\"quote\":null},\"title\":{\"value\":\"Off-Peak Deals\",\"quote\":\"Our Off-Peak Deals just got a serious upgrade.\"},\"benefit\":{\"value\":\"$9.90++ gets you a main + free-flow side dishes + your choice of K-TREAT - Omija Berry Smoothie, Milk Tea Brûlée Smoothie or a Dubai Chewy Cookie.\",\"quote\":\"$9.90++ gets you a main + free-flow side dishes + your choice of K-TREAT - Omija Berry Smoothie, Milk Tea Brûlée Smoothie or a Dubai Chewy Cookie.\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "619722a28f9f00f80e241e5dbfb2cd8845b1003173224fc60e9ad839ac91bf5b",
+  "savedAt": "2026-10-05T15:38:12.441Z",
+  "inputSha256": "88f7a294faa6e156ad88f4fe6c1147c39680970052b2c4d8c1da0ecf29792bfc",
+  "sourceSha256": "85221d54ba9a1925fca5b2ecf18dc77277cc4ce57b359a1cc33b903c47532439",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

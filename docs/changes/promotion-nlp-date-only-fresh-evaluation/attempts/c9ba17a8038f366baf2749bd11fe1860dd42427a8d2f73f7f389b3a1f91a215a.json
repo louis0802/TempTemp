@@ -1,0 +1,10 @@
+{
+  "taskId": "holdout-sgfooddeals-4933",
+  "reservedAt": "2026-10-05T15:38:45.888Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  }
+}

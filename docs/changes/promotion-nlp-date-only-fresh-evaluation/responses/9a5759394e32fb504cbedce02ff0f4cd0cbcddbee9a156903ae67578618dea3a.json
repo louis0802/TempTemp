@@ -1,0 +1,18 @@
+{
+  "taskId": "instagram-DdfecQUjNZ5",
+  "agentId": "01a10cb7-18f7-7030-b42e-b39b55a89def",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Enjoy 1-FOR-1 on ANY Venti handcrafted drink\"},\"merchant\":{\"value\":\"Starbucks Singapore\",\"quote\":\"Starbucks Singapore Rewards exclusive\"},\"title\":{\"value\":\"1-FOR-1 on ANY Venti handcrafted drink\",\"quote\":\"Enjoy 1-FOR-1 on ANY Venti handcrafted drink\"},\"benefit\":{\"value\":\"1-FOR-1 on ANY Venti handcrafted drink\",\"quote\":\"Enjoy 1-FOR-1 on ANY Venti handcrafted drink\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "eb140afe862d0477b5833a7bc3167fcbb3153e8cc30c390f26130dd6d9ada09c",
+  "savedAt": "2026-10-05T15:38:16.870Z",
+  "inputSha256": "3bc60691c6f2556edc931cc92ba238b5c0a72c7bf5b758e82de40a564e52cdaf",
+  "sourceSha256": "a07591addf8f9062ef0efb64023da69e9f3d1f45089a27393bda0cc434c0798a",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

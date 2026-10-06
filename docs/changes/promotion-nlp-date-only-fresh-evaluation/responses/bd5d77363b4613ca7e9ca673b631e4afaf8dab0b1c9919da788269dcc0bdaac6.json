@@ -1,0 +1,18 @@
+{
+  "taskId": "shake_shack_sg-more-perks-less-fuss",
+  "agentId": "01a10cb7-3ecd-7c10-9423-0881c75b959b",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"product_launch\",\"quote\":\"Here’s what’s new and waiting for you: New Look\"},\"merchant\":{\"value\":\"Shake Shack\",\"quote\":null},\"title\":{\"value\":\"Happy Point App glow-up\",\"quote\":\"we’ve been busy giving our Happy Point App a glow-up\"},\"benefit\":{\"value\":null,\"quote\":null},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "2d830488cc824ac1fcfcc94cf09cd3856f8e85cc10a4b23fc02dea339bcf860c",
+  "savedAt": "2026-10-05T15:38:26.918Z",
+  "inputSha256": "db6a71edc2af7d2d1e403c039e23008284c0d84b9d73af32375ceda825080461",
+  "sourceSha256": "a141bee5e0836d87a5de0dffca9fb01bd44f0383e08ef9dbd92e30a2ac5f93ac",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

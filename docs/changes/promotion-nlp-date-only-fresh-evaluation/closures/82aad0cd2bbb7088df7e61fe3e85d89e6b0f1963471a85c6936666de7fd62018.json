@@ -1,0 +1,11 @@
+{
+  "taskId": "holdout-tastesoulsg-4420",
+  "agentId": "01a10cb8-74e7-7de1-82cf-9450786b0026",
+  "closedAt": "2026-10-05T15:39:52.305Z",
+  "toolResult": {
+    "previous_status": {
+      "completed": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"$1.90++ Salmon Belly Sushi (U.P. $2.30++)\"},\"merchant\":{\"value\":\"Sushiro\",\"quote\":\"🍣 Sushiro 🍣\"},\"title\":{\"value\":\"$1.90++ Salmon Belly Sushi\",\"quote\":\"$1.90++ Salmon Belly Sushi\"},\"benefit\":{\"value\":\"$1.90++ Salmon Belly Sushi (U.P. $2.30++)\",\"quote\":\"$1.90++ Salmon Belly Sushi (U.P. $2.30++)\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"named_outlets\",\"quote\":\"New Bahru, 02-01 & Chinatown Point, 02-35\"},\"locationRules\":[{\"role\":\"participating\",\"names\":[\"New Bahru, 02-01\",\"Chinatown Point, 02-35\"],\"quote\":\"New Bahru, 02-01 & Chinatown Point, 02-35\"}]}"
+    }
+  },
+  "confirmation": "close_agent returned; shutdown requested"
+}

@@ -1,0 +1,18 @@
+{
+  "taskId": "captain_kim_sg-captain-kim-delivery",
+  "agentId": "01a10cb6-80d7-72d0-847c-ef7c91879dee",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"20% OFF All Regular Items\"},\"merchant\":{\"value\":\"Captain Kim\",\"quote\":null},\"title\":{\"value\":\"20% OFF All Regular Items\",\"quote\":\"20% OFF All Regular Items\"},\"benefit\":{\"value\":\"20% OFF All Regular Items\",\"quote\":\"20% OFF All Regular Items\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "e92cd22fc25813fcd6c2c1def458a012f4e68d56fc68a5065c1fb0bcd1427e3d",
+  "savedAt": "2026-10-05T15:37:35.943Z",
+  "inputSha256": "f59b6e686d271ca7ac5a1e0d893f95df936e0ea5430fca610dbc1910c2d6eb6a",
+  "sourceSha256": "9486574743423aae9f017fd7254c0323570cfbc95ff87f09ea8bdb6d52b73ac4",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

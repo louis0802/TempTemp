@@ -1,0 +1,11 @@
+{
+  "taskId": "shake_shack_sg-hello-one-fullerton",
+  "agentId": "01a10cb6-34fa-77d2-9089-6a9571ca1f63",
+  "closedAt": "2026-10-05T15:37:16.570Z",
+  "toolResult": {
+    "previous_status": {
+      "completed": "{\"classification\":{\"value\":\"store_announcement\",\"quote\":\"we’re fired up to open our 11th Shack! This new Shack at One Fullerton\"},\"merchant\":{\"value\":null,\"quote\":null},\"title\":{\"value\":null,\"quote\":null},\"benefit\":{\"value\":null,\"quote\":null},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}"
+    }
+  },
+  "confirmation": "close_agent returned; shutdown requested"
+}

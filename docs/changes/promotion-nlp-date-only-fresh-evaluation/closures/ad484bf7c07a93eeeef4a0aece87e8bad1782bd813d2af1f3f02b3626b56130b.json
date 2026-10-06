@@ -1,0 +1,11 @@
+{
+  "taskId": "pepper_lunch_sg-peppie-meal",
+  "agentId": "01a10cb5-fb91-75d0-a15c-7d4ad21f37c6",
+  "closedAt": "2026-10-05T15:37:04.175Z",
+  "toolResult": {
+    "previous_status": {
+      "completed": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"1Kid’s Meal (Beef) with 1 packet of Ribena at $7.90\"},\"merchant\":{\"value\":\"Pepper Lunch\",\"quote\":\"Available at all Pepper Lunch Restaurants.\"},\"title\":{\"value\":\"Peppie Meal\",\"quote\":\"Peppie Meal\"},\"benefit\":{\"value\":\"1Kid’s Meal (Beef) with 1 packet of Ribena at $7.90; 2Kid’s Meal (Chicken) with 1 packet of Ribena at $7.90\",\"quote\":\"1Kid’s Meal (Beef) with 1 packet of Ribena at $7.90 2Kid’s Meal (Chicken) with 1 packet of Ribena at $7.90\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"all_outlets\",\"quote\":\"Available at all Pepper Lunch Restaurants.\"},\"locationRules\":[]}"
+    }
+  },
+  "confirmation": "close_agent returned; shutdown requested"
+}

@@ -1,0 +1,11 @@
+{
+  "taskId": "shake_shack_sg-meet-our-collab-partners",
+  "agentId": "01a10cb7-31b0-7673-a7ed-bf75d1f3d247",
+  "closedAt": "2026-10-05T15:38:22.545Z",
+  "toolResult": {
+    "previous_status": {
+      "completed": "{\"classification\":{\"value\":\"contest_or_chance\",\"quote\":\"Get complimentary White pepper fries* on us when you put your knowledge about our local collab to the test, click here to find out!\"},\"merchant\":{\"value\":null,\"quote\":null},\"title\":{\"value\":null,\"quote\":null},\"benefit\":{\"value\":null,\"quote\":null},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}"
+    }
+  },
+  "confirmation": "close_agent returned; shutdown requested"
+}

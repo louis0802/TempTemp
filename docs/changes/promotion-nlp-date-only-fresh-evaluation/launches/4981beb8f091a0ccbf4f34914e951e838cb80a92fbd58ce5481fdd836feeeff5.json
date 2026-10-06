@@ -1,0 +1,19 @@
+{
+  "taskId": "mcdonalds_sg-bfmcsaver",
+  "agentId": "01a10cb6-ea39-7c23-b387-8a7742224b4c",
+  "boundAt": "2026-10-05T15:37:56.890Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "4b3a6d2b34c1e523363571964a72ae4680942acef5b8c14b85dcc8267d58ae86",
+  "messageSha256": "d3febf035e5227f700ed78899aebc70be957fc43aee8f4301fec8eec6c25a74f",
+  "toolConfirmed": {
+    "agentId": "01a10cb6-ea39-7c23-b387-8a7742224b4c",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

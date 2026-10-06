@@ -1,0 +1,19 @@
+{
+  "taskId": "instagram-DdfecQUjNZ5",
+  "agentId": "01a10cb7-18f7-7030-b42e-b39b55a89def",
+  "boundAt": "2026-10-05T15:38:08.956Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "3bc60691c6f2556edc931cc92ba238b5c0a72c7bf5b758e82de40a564e52cdaf",
+  "messageSha256": "bfeae3425767ea6c589e4a90bd0eca9e92508f6c0800793ab2337fa13ba04ef9",
+  "toolConfirmed": {
+    "agentId": "01a10cb7-18f7-7030-b42e-b39b55a89def",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

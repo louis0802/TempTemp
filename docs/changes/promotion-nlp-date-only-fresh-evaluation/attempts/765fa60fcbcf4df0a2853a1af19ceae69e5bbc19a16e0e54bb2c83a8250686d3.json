@@ -1,0 +1,10 @@
+{
+  "taskId": "instagram-DdQA3EChsjx",
+  "reservedAt": "2026-10-05T15:38:05.133Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "taskId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-2",
+  "agentId": "01a10cb6-928d-71d3-a422-4119a6a07192",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"EARLY BIRD PROMO Mon – Fri Lunch: $14.9++/pax\"},\"merchant\":{\"value\":\"Captain Kim\",\"quote\":null},\"title\":{\"value\":\"EARLY BIRD PROMO\",\"quote\":\"EARLY BIRD PROMO\"},\"benefit\":{\"value\":\"Mon – Fri Lunch: $14.9++/pax; Mon – Fri Dinner: $21.9++/pax; Sat – Sun Lunch & Dinner: $21.9++/pax\",\"quote\":\"Mon – Fri Lunch: $14.9++/pax Mon – Fri Dinner: $21.9++/pax Sat – Sun Lunch & Dinner: $21.9++/pax\"},\"startDate\":{\"value\":\"2026-10-01\",\"quote\":\"Valid from 1 – 31 Oct 2026.\"},\"endDate\":{\"value\":\"2026-10-31\",\"quote\":\"Valid from 1 – 31 Oct 2026.\"},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "6da671453b61cb72ce13e5c43c5a58d36ec39b88a2a4ae3afed4e21a01c43eb3",
+  "savedAt": "2026-10-05T15:37:42.811Z",
+  "inputSha256": "f957649a8e71a0a40213b9009bbe56d3f63452863045aaa1ce1fae882d288be0",
+  "sourceSha256": "5a878b5c85ecfcabd3dbc29315d4768dd3461013880f7ee527ec8ae4e7a5dbd8",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

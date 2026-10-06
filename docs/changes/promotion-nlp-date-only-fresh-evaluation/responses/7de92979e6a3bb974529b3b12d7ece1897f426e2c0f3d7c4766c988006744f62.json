@@ -1,0 +1,18 @@
+{
+  "taskId": "shake_shack_sg-hello-parkway-parade",
+  "agentId": "01a10cb6-3f28-7750-91bc-9e9d793a964e",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"From 11 September to 10 October, enjoy 10% OFF* with a minimum spend of $16 when you use promo code: PPOPENING.\"},\"merchant\":{\"value\":\"Shake Shack Singapore\",\"quote\":\"Shake Shack Singapore is not responsible for lost, stolen, expired, or misused codes\"},\"title\":{\"value\":\"10% OFF with promo code PPOPENING\",\"quote\":\"enjoy 10% OFF* with a minimum spend of $16 when you use promo code: PPOPENING\"},\"benefit\":{\"value\":\"10% OFF*\",\"quote\":\"enjoy 10% OFF*\"},\"startDate\":{\"value\":\"2026-09-11\",\"quote\":\"Promo code is valid from 11 September to 10 October 2026.\"},\"endDate\":{\"value\":\"2026-10-10\",\"quote\":\"Promo code is valid from 11 September to 10 October 2026.\"},\"locationScope\":{\"value\":\"named_outlets\",\"quote\":\"Redemption is valid at Parkway Parade Shake Shack Singapore outlet\"},\"locationRules\":[{\"role\":\"participating\",\"names\":[\"Parkway Parade Shake Shack Singapore outlet\"],\"quote\":\"Redemption is valid at Parkway Parade Shake Shack Singapore outlet\"}]}",
+  "transportError": null,
+  "rawOutputSha256": "e22d54a56fee377f42da23497b162f4797bc35a6b55fe055b836228aa3a0fd37",
+  "savedAt": "2026-10-05T15:37:21.930Z",
+  "inputSha256": "ce82fa5bdc0b413b11ffedc3be4de43584ea0db2af89382a76684a7ace751353",
+  "sourceSha256": "367af42852e4b0bea816b7bbb89e0aa521d90499485de14d9ecc689faab86aaa",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

@@ -1,0 +1,18 @@
+{
+  "taskId": "shake_shack_sg-study-breaks-just-got-better",
+  "agentId": "01a10cb6-6010-7dc1-bb7e-196cbdf4de7f",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"On weekdays, enjoy Crinkle Cut Fries on us* with any burger and drink purchase.\"},\"merchant\":{\"value\":\"Shake Shack\",\"quote\":\"Shake Shack Singapore reserves the right to amend or end the promotion without prior notice.\"},\"title\":{\"value\":\"Study Breaks Just Got Better\",\"quote\":\"Study Breaks Just Got Better\"},\"benefit\":{\"value\":\"Crinkle Cut Fries on us with any burger and drink purchase\",\"quote\":\"On weekdays, enjoy Crinkle Cut Fries on us* with any burger and drink purchase.\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"named_outlets\",\"quote\":\"This offer is available exclusively at our Westgate, Junction 8 or Great World locations.\"},\"locationRules\":[{\"role\":\"participating\",\"names\":[\"Westgate\",\"Junction 8\",\"Great World\"],\"quote\":\"Promotion is available on weekdays (excluding Public Holidays) at Westgate, Junction 8 and Great World Shack locations only.\"}]}",
+  "transportError": null,
+  "rawOutputSha256": "6cf4c3864ca37c9204fe391357e137624838474883a631d64d58169a19b4bfca",
+  "savedAt": "2026-10-05T15:37:28.499Z",
+  "inputSha256": "e5e3e956215f68dd181f2cb3667b49c01a9332ca2ddb837ede962b04f03ee7db",
+  "sourceSha256": "e11ed9d53fbb57550bb3ed2a7753632d72cffc2b35d4659f3b3bbc566001483d",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

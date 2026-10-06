@@ -1,0 +1,18 @@
+{
+  "taskId": "holdout-tastesoulsg-4462",
+  "agentId": "01a10cb8-1c01-7971-aecc-0ae579163fb6",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"uncertain\",\"quote\":null},\"merchant\":{\"value\":\"Kei Kaisendon\",\"quote\":\"🍚 Kei Kaisendon 🍚\"},\"title\":{\"value\":\"1-for-1 Kaisendon\",\"quote\":\"1-for-1 Kaisendon\"},\"benefit\":{\"value\":\"1-for-1 Kaisendon\",\"quote\":\"1-for-1 Kaisendon\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "bdfa76d1d3a80726c0f3eeb3ddf33f1c4937e6848d453c953f9e838df3d98d0c",
+  "savedAt": "2026-10-05T15:39:23.574Z",
+  "inputSha256": "9bdc9022a4ceb2275ac0e15b8bd532e38668302da2c65ea5fe40db2263eb36fd",
+  "sourceSha256": "0794bc59df1598379e261966bb38a53d744d33e4b126f97d6811c36789181064",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

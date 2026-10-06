@@ -1,0 +1,18 @@
+{
+  "taskId": "holdout-tastesoulsg-4466",
+  "agentId": "01a10cb8-0a5c-75c0-83f5-9a2992215fbb",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"$4 for 4pc Wings & Drumettes\"},\"merchant\":{\"value\":\"4Fingers\",\"quote\":\"🍗 4Fingers 🍗\"},\"title\":{\"value\":\"$4 for 4pc Wings & Drumettes\",\"quote\":\"$4 for 4pc Wings & Drumettes\"},\"benefit\":{\"value\":\"$4 for 4pc Wings & Drumettes\",\"quote\":\"$4 for 4pc Wings & Drumettes\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"selected_outlets\",\"quote\":\"All outlets excl. Changi Airport\"},\"locationRules\":[{\"role\":\"excluded\",\"names\":[\"Changi Airport\"],\"quote\":\"All outlets excl. Changi Airport\"}]}",
+  "transportError": null,
+  "rawOutputSha256": "76386f02de3742d2127d4376191d043d30d7e8b4ef0182531dc7b4a29124a7e2",
+  "savedAt": "2026-10-05T15:39:22.011Z",
+  "inputSha256": "3b1c463c562a8c8ede8511dcb2e54bb9ff58b3677587b2ad92476d6cae709e52",
+  "sourceSha256": "77adce5bcfaf01ea6dd4ce43b09bc9b058a6962caf7001f7bbb72a2080447a67",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

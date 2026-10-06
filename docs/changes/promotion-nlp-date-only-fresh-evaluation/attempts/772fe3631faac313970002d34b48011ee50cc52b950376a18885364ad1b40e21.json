@@ -1,0 +1,10 @@
+{
+  "taskId": "shake_shack_sg-everything-in-our-veggie-shack",
+  "reservedAt": "2026-10-05T15:37:04.599Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  }
+}

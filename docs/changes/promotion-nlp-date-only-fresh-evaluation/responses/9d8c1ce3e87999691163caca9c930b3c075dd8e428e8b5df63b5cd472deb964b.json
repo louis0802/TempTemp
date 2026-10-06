@@ -1,0 +1,18 @@
+{
+  "taskId": "bari_bari_steak_sg-promotions-4",
+  "agentId": "01a10cb6-cbca-7690-962c-bb3b51ad96d1",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"get 15% OFF your total bill with our Early Bird Dinner Promo\"},\"merchant\":{\"value\":\"Bari Bari Steak\",\"quote\":\"at Bari Bari Steak\"},\"title\":{\"value\":\"Early Bird Dinner Promo\",\"quote\":\"Early Bird Dinner Promo\"},\"benefit\":{\"value\":\"15% OFF your total bill\",\"quote\":\"get 15% OFF your total bill\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"named_outlets\",\"quote\":\"Valid exclusively for dine-in at the Tampines 1 outlet only.\"},\"locationRules\":[{\"role\":\"participating\",\"names\":[\"Bari Bari Steak, Tampines 1\"],\"quote\":\"Exclusively at Bari Bari Steak, Tampines 1\"}]}",
+  "transportError": null,
+  "rawOutputSha256": "fdcb851b636ebf0e27dbc28447084038a6d248d92d5d04858dd80cfef9388966",
+  "savedAt": "2026-10-05T15:37:57.402Z",
+  "inputSha256": "4f4a36029e67774a7f9b9cba81c3861bcb81e6a7d5247b600ab52f2005d74320",
+  "sourceSha256": "1091aa4deffeefef1a2fbdcae46c196b5261e4f5b01df5a53f8992d4e18e785d",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

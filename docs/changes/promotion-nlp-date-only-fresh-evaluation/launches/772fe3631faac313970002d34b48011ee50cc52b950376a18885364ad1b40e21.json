@@ -1,0 +1,19 @@
+{
+  "taskId": "shake_shack_sg-everything-in-our-veggie-shack",
+  "agentId": "01a10cb6-1fd8-7153-bccf-8fe9a0889150",
+  "boundAt": "2026-10-05T15:37:05.159Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "ffcdc9228ea8c183ce4e8de69b7d55d79050f94c7180d16e3bd02a51021f8978",
+  "messageSha256": "09e2c10c74cc097eda78065517282d8af649e6458c3938e883e9e5911f9682a4",
+  "toolConfirmed": {
+    "agentId": "01a10cb6-1fd8-7153-bccf-8fe9a0889150",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

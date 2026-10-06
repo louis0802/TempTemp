@@ -1,0 +1,18 @@
+{
+  "taskId": "shake_shack_sg-shack-meal",
+  "agentId": "01a10cb6-4957-7641-a0cc-8bc67350befc",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"The Shack Meal is your go-to for when you want something solid without overthinking it – your choice of burger, side and a drink starting from $15.10\"},\"merchant\":{\"value\":\"Shake Shack Singapore\",\"quote\":\"Valid at all Shake Shack Singapore outlets.\"},\"title\":{\"value\":\"Shack Meal\",\"quote\":\"Shack Meal\"},\"benefit\":{\"value\":\"your choice of burger, side and a drink starting from $15.10\",\"quote\":\"your choice of burger, side and a drink starting from $15.10\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"all_outlets\",\"quote\":\"Valid at all Shake Shack Singapore outlets.\"},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "253ab84a0d7d9bfe275c66ff4d8e1b667e9024b349e4d8dcad3ab43377f96313",
+  "savedAt": "2026-10-05T15:37:23.734Z",
+  "inputSha256": "94490a624d79537d8e439fe72a18dcac9a7c0d6b0aa3ef433b0230bc30a9dab6",
+  "sourceSha256": "877c5f8134ae9d5a8261d543f3ad6c09931b7ecd5dacd3cedce6ffa20f00baf2",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

@@ -1,0 +1,19 @@
+{
+  "taskId": "pepper_lunch_sg-delivery",
+  "agentId": "01a10cb5-fee2-7352-b3ca-cd6d64298e87",
+  "boundAt": "2026-10-05T15:36:56.670Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "68278af933e9a2191968b17565bbfef1e144f6bc16ef7be9043266d5e58f15d8",
+  "messageSha256": "c4c0edbbc078d457dca3130de664fd5e87d79b1bfc86ff1415be023e247a770c",
+  "toolConfirmed": {
+    "agentId": "01a10cb5-fee2-7352-b3ca-cd6d64298e87",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

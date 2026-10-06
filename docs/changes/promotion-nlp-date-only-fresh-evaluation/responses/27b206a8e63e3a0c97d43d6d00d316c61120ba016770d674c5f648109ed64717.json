@@ -1,0 +1,18 @@
+{
+  "taskId": "holdout-sgfooddeals-4930",
+  "agentId": "01a10cb7-bde0-70f0-ba72-3a461ad9cc8c",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"store_announcement\",\"quote\":\"Boh Geh Canteen in Seletar bids farewell on 18 Sep after 57 years as owner Mr Toh retires\"},\"merchant\":{\"value\":\"Boh Geh Canteen\",\"quote\":\"Boh Geh Canteen in Seletar\"},\"title\":{\"value\":\"Boh Geh Canteen closing down\",\"quote\":\"SG's Last Kampung Canteen is Closing Down\"},\"benefit\":{\"value\":null,\"quote\":null},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "f74785c6df87dd287a3cbc6453a2b2b41e78925dd79fc68e05d051e79b347a57",
+  "savedAt": "2026-10-05T15:38:59.756Z",
+  "inputSha256": "5527a190d72dc0cebc0fa494048d9b77d35ebbfb17553aafc76660e738f94722",
+  "sourceSha256": "ee4991532dafdcfc788da79454e6fbb693449aeb330e611f7eb24ffffafbdf18",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

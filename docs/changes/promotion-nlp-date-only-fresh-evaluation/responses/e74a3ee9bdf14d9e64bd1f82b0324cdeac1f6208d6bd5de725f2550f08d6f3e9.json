@@ -1,0 +1,18 @@
+{
+  "taskId": "shake_shack_sg-hello-one-fullerton",
+  "agentId": "01a10cb6-34fa-77d2-9089-6a9571ca1f63",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"store_announcement\",\"quote\":\"we’re fired up to open our 11th Shack! This new Shack at One Fullerton\"},\"merchant\":{\"value\":null,\"quote\":null},\"title\":{\"value\":null,\"quote\":null},\"benefit\":{\"value\":null,\"quote\":null},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "ff5bb147676787cc9e8b7730a3941a1f84ed46a3ed8a73a6d89a207e396e457a",
+  "savedAt": "2026-10-05T15:37:16.114Z",
+  "inputSha256": "2da104da40dba7f73297ea92fb1c9d95ad546893d7e2ff27e44572d6ae372deb",
+  "sourceSha256": "13ced2c4310f83b62036df835eba6bc2246ca3b719600d97f64e0c89c070a4c4",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

@@ -1,0 +1,11 @@
+{
+  "taskId": "holdout-sgfooddeals-4925",
+  "agentId": "01a10cb7-e6c0-7f70-a4e2-6a6ff27aff37",
+  "closedAt": "2026-10-05T15:39:12.411Z",
+  "toolResult": {
+    "previous_status": {
+      "completed": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"🔹 Score a different 1-for-1 deal every day\"},\"merchant\":{\"value\":\"Shiok Burger\",\"quote\":\"Shiok Burger: Daily 1-for-1 Deals 🍔\"},\"title\":{\"value\":\"Daily 1-for-1 Deals\",\"quote\":\"Shiok Burger: Daily 1-for-1 Deals 🍔\"},\"benefit\":{\"value\":\"1-for-1 deal every day\",\"quote\":\"🔹 Score a different 1-for-1 deal every day\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"all_outlets\",\"quote\":\"📍 All outlets\"},\"locationRules\":[]}"
+    }
+  },
+  "confirmation": "close_agent returned; shutdown requested"
+}

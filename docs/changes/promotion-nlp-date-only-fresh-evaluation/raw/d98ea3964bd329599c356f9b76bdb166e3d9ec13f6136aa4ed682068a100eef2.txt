@@ -1,0 +1,1 @@
+{"classification":{"value":"product_launch","quote":"Our French Onion Menu Introducing: Our French Onion Menu"},"merchant":{"value":null,"quote":null},"title":{"value":null,"quote":null},"benefit":{"value":null,"quote":null},"startDate":{"value":null,"quote":null},"endDate":{"value":null,"quote":null},"locationScope":{"value":null,"quote":null},"locationRules":[]}

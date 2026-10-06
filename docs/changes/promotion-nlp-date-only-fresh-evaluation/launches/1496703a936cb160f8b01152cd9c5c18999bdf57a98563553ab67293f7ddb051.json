@@ -1,0 +1,19 @@
+{
+  "taskId": "shake_shack_sg-well-be-right-back",
+  "agentId": "01a10cb7-5c47-70e0-b730-1ac5d0926491",
+  "boundAt": "2026-10-05T15:38:26.188Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "b2ca3a069a8ba6f8bbc7cee6847a3ad1a43e69e3dfed093a42a18dd0a1870d7b",
+  "messageSha256": "f03a5f554872d197221706e1c940d21da08d2acd3828cf7a0dde8946cc6043f8",
+  "toolConfirmed": {
+    "agentId": "01a10cb7-5c47-70e0-b730-1ac5d0926491",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

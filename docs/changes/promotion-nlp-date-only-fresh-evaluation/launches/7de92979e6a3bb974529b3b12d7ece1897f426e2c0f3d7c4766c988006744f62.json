@@ -1,0 +1,19 @@
+{
+  "taskId": "shake_shack_sg-hello-parkway-parade",
+  "agentId": "01a10cb6-3f28-7750-91bc-9e9d793a964e",
+  "boundAt": "2026-10-05T15:37:13.054Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "ce82fa5bdc0b413b11ffedc3be4de43584ea0db2af89382a76684a7ace751353",
+  "messageSha256": "612d130645d444940c2760646beffa5c94ed55dbfe61bc75e0d958b3df2b456d",
+  "toolConfirmed": {
+    "agentId": "01a10cb6-3f28-7750-91bc-9e9d793a964e",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

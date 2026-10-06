@@ -1,0 +1,19 @@
+{
+  "taskId": "shake_shack_sg-100-angus-beef-just-for-you",
+  "agentId": "01a10cb6-027e-7cf0-94d3-e3fc5a1f5533",
+  "boundAt": "2026-10-05T15:36:57.520Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "d33dc252a04027c95920d6c302dd3b9f5ac0f0be01b2c472c22636d49b401c68",
+  "messageSha256": "0124c9ef2ecda700161f0eaf9f1903ab964f3c8f6c301d271cdad3692058b409",
+  "toolConfirmed": {
+    "agentId": "01a10cb6-027e-7cf0-94d3-e3fc5a1f5533",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "taskId": "captain_kim_sg-captain-kim-delivery",
+  "agentId": "01a10cb6-80d7-72d0-847c-ef7c91879dee",
+  "boundAt": "2026-10-05T15:37:29.993Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "f59b6e686d271ca7ac5a1e0d893f95df936e0ea5430fca610dbc1910c2d6eb6a",
+  "messageSha256": "1f97f89a479461ea71712637c585558be02e78fb3e0e4c948d6c6b1cd802fc49",
+  "toolConfirmed": {
+    "agentId": "01a10cb6-80d7-72d0-847c-ef7c91879dee",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

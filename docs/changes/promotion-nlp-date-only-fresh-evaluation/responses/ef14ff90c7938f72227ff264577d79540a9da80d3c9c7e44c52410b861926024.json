@@ -1,0 +1,18 @@
+{
+  "taskId": "bari_bari_steak_sg-promotions-1",
+  "agentId": "01a10cb6-b172-76a2-8f47-d17c5e6a9db4",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"complete Teppan Lunch Sets starting from $13.90! Save up to 26% off regular menu prices.\"},\"merchant\":{\"value\":\"Bari Bari Steak\",\"quote\":\"Tampines 1 outlet\"},\"title\":{\"value\":\"Weekday Lunch Specials\",\"quote\":\"Weekday Lunch Specials\"},\"benefit\":{\"value\":\"Teppan Lunch Sets starting from $13.90; save up to 26% off regular menu prices\",\"quote\":\"complete Teppan Lunch Sets starting from $13.90! Save up to 26% off regular menu prices.\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"named_outlets\",\"quote\":\"Exclusively at Tampines 1 outlet.\"},\"locationRules\":[{\"role\":\"participating\",\"names\":[\"Tampines 1\"],\"quote\":\"Exclusively at Tampines 1 outlet.\"}]}",
+  "transportError": null,
+  "rawOutputSha256": "126b41977e665f7261a5dc46abc287bd64c87a48cc5a16dadebebe03b319ebfd",
+  "savedAt": "2026-10-05T15:37:49.676Z",
+  "inputSha256": "2270c0b8d4c15d100fcb1cc7e46b32225a735651f1222131a8ef52fffabd8014",
+  "sourceSha256": "e5744346a599ced21acea1a3d34b25a73b307c5631d94e5fe49a3232ef25b37f",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

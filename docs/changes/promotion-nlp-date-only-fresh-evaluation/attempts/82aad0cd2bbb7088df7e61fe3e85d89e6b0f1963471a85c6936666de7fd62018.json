@@ -1,0 +1,10 @@
+{
+  "taskId": "holdout-tastesoulsg-4420",
+  "reservedAt": "2026-10-05T15:39:37.354Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  }
+}

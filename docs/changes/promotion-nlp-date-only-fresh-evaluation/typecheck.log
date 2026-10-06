@@ -1,0 +1,4 @@
+
+> promotion-around-you@0.1.0 typecheck
+> tsc --noEmit
+

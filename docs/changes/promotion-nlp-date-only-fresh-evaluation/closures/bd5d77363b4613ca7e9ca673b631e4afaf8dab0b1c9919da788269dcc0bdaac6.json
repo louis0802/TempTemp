@@ -1,0 +1,11 @@
+{
+  "taskId": "shake_shack_sg-more-perks-less-fuss",
+  "agentId": "01a10cb7-3ecd-7c10-9423-0881c75b959b",
+  "closedAt": "2026-10-05T15:38:27.562Z",
+  "toolResult": {
+    "previous_status": {
+      "completed": "{\"classification\":{\"value\":\"product_launch\",\"quote\":\"Here’s what’s new and waiting for you: New Look\"},\"merchant\":{\"value\":\"Shake Shack\",\"quote\":null},\"title\":{\"value\":\"Happy Point App glow-up\",\"quote\":\"we’ve been busy giving our Happy Point App a glow-up\"},\"benefit\":{\"value\":null,\"quote\":null},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}"
+    }
+  },
+  "confirmation": "close_agent returned; shutdown requested"
+}

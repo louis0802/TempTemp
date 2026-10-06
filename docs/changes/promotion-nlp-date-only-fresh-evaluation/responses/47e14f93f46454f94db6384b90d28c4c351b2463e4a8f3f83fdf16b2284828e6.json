@@ -1,0 +1,18 @@
+{
+  "taskId": "shake_shack_sg-singlish-lingo",
+  "agentId": "01a10cb6-5049-7b71-9084-9e9526298304",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"order any of our Zi Char burgers using one of the selected Singlish words, and you’ll get a complimentary Buah Long Long Lemonade on the house!\"},\"merchant\":{\"value\":\"Shake Shack\",\"quote\":\"This offer is valid from 11th to 15th November 2024 at all Shake Shack outlets in Singapore.\"},\"title\":{\"value\":\"Complimentary Buah Long Long Lemonade with any Zi Char burger\",\"quote\":\"order any of our Zi Char burgers using one of the selected Singlish words, and you’ll get a complimentary Buah Long Long Lemonade on the house!\"},\"benefit\":{\"value\":\"one (1) complimentary Buah Long Long Lemonade\",\"quote\":\"Each qualifying order will receive one (1) complimentary Buah Long Long Lemonade.\"},\"startDate\":{\"value\":\"2024-11-11\",\"quote\":\"This offer is valid from 11th to 15th November 2024\"},\"endDate\":{\"value\":\"2024-11-15\",\"quote\":\"This offer is valid from 11th to 15th November 2024\"},\"locationScope\":{\"value\":\"all_outlets\",\"quote\":\"This offer is valid from 11th to 15th November 2024 at all Shake Shack outlets in Singapore.\"},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "0188885267f355c4486ce34d96f27a453366b9a2154b426cd122ea9a69517615",
+  "savedAt": "2026-10-05T15:37:25.504Z",
+  "inputSha256": "c0ab4f38a2e0ecb76c72ef437f3913de4f7d4aee7d525553ca8782db93682732",
+  "sourceSha256": "9e204f6a5207d29ca0f7ffe5c16a8e04892724d16624841b4c1ee154aaec4f22",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

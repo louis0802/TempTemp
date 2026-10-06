@@ -1,0 +1,11 @@
+{
+  "taskId": "shake_shack_sg-well-be-right-back",
+  "agentId": "01a10cb7-5c47-70e0-b730-1ac5d0926491",
+  "closedAt": "2026-10-05T15:38:32.636Z",
+  "toolResult": {
+    "previous_status": {
+      "completed": "{\"classification\":{\"value\":\"service_information\",\"quote\":\"Temporary Downtime – What You Need to Know\"},\"merchant\":{\"value\":\"Shake Shack\",\"quote\":\"at Shake Shack\"},\"title\":{\"value\":\"Happy Point app temporary downtime\",\"quote\":\"there will be a temporary downtime\"},\"benefit\":{\"value\":null,\"quote\":null},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}"
+    }
+  },
+  "confirmation": "close_agent returned; shutdown requested"
+}

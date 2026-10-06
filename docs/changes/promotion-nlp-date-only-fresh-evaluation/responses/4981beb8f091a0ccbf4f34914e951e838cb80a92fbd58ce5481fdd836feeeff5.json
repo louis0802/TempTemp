@@ -1,0 +1,18 @@
+{
+  "taskId": "mcdonalds_sg-bfmcsaver",
+  "agentId": "01a10cb6-ea39-7c23-b387-8a7742224b4c",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"uncertain\",\"quote\":null},\"merchant\":{\"value\":null,\"quote\":null},\"title\":{\"value\":null,\"quote\":null},\"benefit\":{\"value\":null,\"quote\":null},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "87c1a1eb6b6789174aee3d3cd030906ee9dd58237c31e346462e236efd3a78e6",
+  "savedAt": "2026-10-05T15:38:02.852Z",
+  "inputSha256": "4b3a6d2b34c1e523363571964a72ae4680942acef5b8c14b85dcc8267d58ae86",
+  "sourceSha256": "d4c31f2850bdf7ce59029dd55da06818f421e748d73efc623300f7617540eaf5",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

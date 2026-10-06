@@ -1,0 +1,18 @@
+{
+  "taskId": "pepper_lunch_sg-cheesy-omelette-2",
+  "agentId": "01a10cb5-f834-7e31-92ef-c514d784b74a",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"uncertain\",\"quote\":\"Cheesy Omelette The Ultimate Fan-Favourite is Back! With more than 100,000 sold, our Cheesy Omelette is back by popular demand\"},\"merchant\":{\"value\":null,\"quote\":null},\"title\":{\"value\":null,\"quote\":null},\"benefit\":{\"value\":null,\"quote\":null},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "601b9af1c7b6dc28b6b221be5787de6f14f01af6a4a87915f2acbbf24ca39de4",
+  "savedAt": "2026-10-05T15:37:00.221Z",
+  "inputSha256": "2ac2731e049b9e17cbf8d0e462bb2d719a7cbceab18cbc86133c1f6166b86bf7",
+  "sourceSha256": "1b2d3579d334a2f4c6fea275c4389126a7546566d1fda707826575e5ed91f170",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

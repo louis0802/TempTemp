@@ -1,0 +1,19 @@
+{
+  "taskId": "shake_shack_sg-shack-meal",
+  "agentId": "01a10cb6-4957-7641-a0cc-8bc67350befc",
+  "boundAt": "2026-10-05T15:37:15.667Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "94490a624d79537d8e439fe72a18dcac9a7c0d6b0aa3ef433b0230bc30a9dab6",
+  "messageSha256": "8d2a59aa7ab4c462f1abf560ed1ee67aaf2fbac0cc471a086e6fd5a94c258f78",
+  "toolConfirmed": {
+    "agentId": "01a10cb6-4957-7641-a0cc-8bc67350befc",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

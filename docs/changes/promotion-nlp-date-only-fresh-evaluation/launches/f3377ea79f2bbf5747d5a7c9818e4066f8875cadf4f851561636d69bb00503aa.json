@@ -1,0 +1,19 @@
+{
+  "taskId": "shake_shack_sg-feeding-a-crowd",
+  "agentId": "01a10cb6-2a34-7493-be79-645086661b19",
+  "boundAt": "2026-10-05T15:37:07.693Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "0d2638ce415b3867b7cd1e5ad8f0bde283d71d48f8827707ee51f4440d517a84",
+  "messageSha256": "460fec4f8e40bcccfdaea754cc8e8ab072dd0758715bf60f11513ce9e3553c89",
+  "toolConfirmed": {
+    "agentId": "01a10cb6-2a34-7493-be79-645086661b19",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

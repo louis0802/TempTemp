@@ -1,0 +1,19 @@
+{
+  "taskId": "shake_shack_sg-were-introducing-chicken-sundays",
+  "agentId": "01a10cb6-6e0b-7792-86a4-9df0a03b6586",
+  "boundAt": "2026-10-05T15:37:25.052Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "e2580aa7b29e93e5c427f6989b442dabe1745ba5413329ed9de792a27b14cad6",
+  "messageSha256": "3845cd6e19e5ed54f5251633d14d4d0b5c0df251a467afb1529d5080c4948a7c",
+  "toolConfirmed": {
+    "agentId": "01a10cb6-6e0b-7792-86a4-9df0a03b6586",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "taskId": "holdout-tastesoulsg-4426",
+  "agentId": "01a10cb8-608e-7f90-bd39-4229fca117f8",
+  "closedAt": "2026-10-05T15:39:46.372Z",
+  "toolResult": {
+    "previous_status": {
+      "completed": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"$12++ 250g N.Z. Striploin Steak (U.P. $28)\"},\"merchant\":{\"value\":\"Jack’s Place\",\"quote\":\"Jack’s Place\"},\"title\":{\"value\":\"250g N.Z. Striploin Steak for $12++\",\"quote\":\"$12++ 250g N.Z. Striploin Steak\"},\"benefit\":{\"value\":\"$12++ 250g N.Z. Striploin Steak (U.P. $28)\",\"quote\":\"$12++ 250g N.Z. Striploin Steak (U.P. $28)\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"all_outlets\",\"quote\":\"All outlets\"},\"locationRules\":[]}"
+    }
+  },
+  "confirmation": "close_agent returned; shutdown requested"
+}

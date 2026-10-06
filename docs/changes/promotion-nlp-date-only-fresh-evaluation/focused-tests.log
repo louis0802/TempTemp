@@ -1,0 +1,9 @@
+
+ RUN  v5.0.1 /Users/louis/Documents/Projects/vibe coding/PromotionAroundYou
+
+
+ Test Files  1 passed (1)
+      Tests  19 passed (19)
+   Start at  23:34:45
+   Duration  266ms (tests 58%, transform 24%, import 17%, worker 1%)
+

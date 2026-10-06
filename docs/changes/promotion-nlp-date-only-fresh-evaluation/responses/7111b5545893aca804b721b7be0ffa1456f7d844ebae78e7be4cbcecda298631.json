@@ -1,0 +1,18 @@
+{
+  "taskId": "pepper_lunch_sg-uper-value-deal",
+  "agentId": "01a10cb4-c8db-7f40-9efa-fe53118cee2a",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Enjoy sizzling Australian Chilled Beef MB2+ Steak Bites served on a hot teppan with rice, miso soup, and your choice of side dish from just $9.90.\"},\"merchant\":{\"value\":\"Pepper Lunch Express\",\"quote\":\"$uper Value Deal is here at Pepper Lunch Express!\"},\"title\":{\"value\":\"$uper Value Deal\",\"quote\":\"$uper Value Deal\"},\"benefit\":{\"value\":\"from just $9.90\",\"quote\":\"from just $9.90\"},\"startDate\":{\"value\":\"2026-09-01\",\"quote\":\"Available from 1 September to 31 October 2026.\"},\"endDate\":{\"value\":\"2026-10-31\",\"quote\":\"Available from 1 September to 31 October 2026.\"},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "dfe307096f7a44c12475324328ad9f0b12c5c1983d0b3ffbdc36eeb9a215a859",
+  "savedAt": "2026-10-05T15:36:52.008Z",
+  "inputSha256": "5cdaff63bc7a4b1661db6e8c300efe8511dc9ada93f45a34f5b5143d649556a9",
+  "sourceSha256": "2b84b963aac43315e505c1b0b73da453bd506cf2d25a84f102b79dd80d4dfdd0",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

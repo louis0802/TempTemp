@@ -1,0 +1,11 @@
+{
+  "taskId": "shake_shack_sg-this-ones-for-your-mom",
+  "agentId": "01a10cb6-6704-79e2-b1dd-a6bb2070e28e",
+  "closedAt": "2026-10-05T15:37:30.921Z",
+  "toolResult": {
+    "previous_status": {
+      "completed": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Here’s what’s in the bundle (From $30.80):\"},\"merchant\":{\"value\":\"Shake Shack\",\"quote\":\"all Shake Shack outlets in Singapore\"},\"title\":{\"value\":\"Mother’s Day Bundle\",\"quote\":\"Mother’s Day Bundle\"},\"benefit\":{\"value\":\"From $30.80: Choice of 1 Burger Complimentary ShackBurger or Chicken Shack Choice of Fries Choice of Bites Choice of 2 Drinks\",\"quote\":\"From $30.80): Choice of 1 Burger Complimentary ShackBurger or Chicken Shack Choice of Fries Choice of Bites Choice of 2 Drinks\"},\"startDate\":{\"value\":\"2026-05-11\",\"quote\":\"Offer is available across all Shake Shack outlets in Singapore on 11 May only.\"},\"endDate\":{\"value\":\"2026-05-11\",\"quote\":\"Offer is available across all Shake Shack outlets in Singapore on 11 May only.\"},\"locationScope\":{\"value\":\"all_outlets\",\"quote\":\"Offer is available across all Shake Shack outlets in Singapore on 11 May only.\"},\"locationRules\":[]}"
+    }
+  },
+  "confirmation": "close_agent returned; shutdown requested"
+}

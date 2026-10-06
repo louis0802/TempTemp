@@ -1,0 +1,18 @@
+{
+  "taskId": "bari_bari_steak_sg-promotions-5",
+  "agentId": "01a10cb6-d3c0-72b2-8172-f72e05e14d2e",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"1 for 1 Highball, Beers, Sake, Cocktails and House Pours\"},\"merchant\":{\"value\":null,\"quote\":null},\"title\":{\"value\":\"1 for 1 Highball, Beers, Sake, Cocktails and House Pours\",\"quote\":\"1 for 1 Highball, Beers, Sake, Cocktails and House Pours\"},\"benefit\":{\"value\":\"1 for 1 Highball, Beers, Sake, Cocktails and House Pours\",\"quote\":\"1 for 1 Highball, Beers, Sake, Cocktails and House Pours\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "6d468a3ca00a5de390bc4d0e7da905ea4f8d5b22d8edcdfa77a8e83caef8f127",
+  "savedAt": "2026-10-05T15:37:58.549Z",
+  "inputSha256": "07ee114276a8e1171e79f45c50ef27295fe32d118f05b8ad2f7cade9b7c8dfe5",
+  "sourceSha256": "9e81a75160ad2dfe9864dd50dd8d597d5476eb4db16dd5cd455a85a9a4f4612b",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

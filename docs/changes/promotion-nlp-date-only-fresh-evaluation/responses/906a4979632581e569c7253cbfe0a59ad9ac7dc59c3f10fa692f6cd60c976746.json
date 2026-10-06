@@ -1,0 +1,18 @@
+{
+  "taskId": "shake_shack_sg-zi-char-menu",
+  "agentId": "01a10cb6-74eb-7ae2-9f65-cc81cc5d787d",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"product_launch\",\"quote\":\"We’re proud to present the upcoming menu of our American signatures with a uniquely Singaporean twist\"},\"merchant\":{\"value\":\"Shake Shack\",\"quote\":\"A local inspiration by Shake Shack\"},\"title\":{\"value\":\"Keeping it Local\",\"quote\":\"Keeping it Local\"},\"benefit\":{\"value\":null,\"quote\":null},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "f70970f0c83e3b6081167dd1eb87713a502b20dfd2c9b9881393dc875976b62d",
+  "savedAt": "2026-10-05T15:37:33.073Z",
+  "inputSha256": "f745d130c0addb1f8303167e31fabaad409142a8857ea24e72cd9d4afad8b218",
+  "sourceSha256": "4f3421be5aaa5941557539ce3418e6e866416f03ec3402cd5bf8eba58259d581",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

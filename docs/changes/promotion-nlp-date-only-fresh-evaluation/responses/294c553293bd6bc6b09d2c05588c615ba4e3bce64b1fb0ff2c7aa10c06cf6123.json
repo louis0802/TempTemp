@@ -1,0 +1,18 @@
+{
+  "taskId": "holdout-sgfooddeals-4932",
+  "agentId": "01a10cb7-b178-7ee0-a3f4-162a918ff740",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Ajumma's Korean Restaurant: Meals from $9.90\"},\"merchant\":{\"value\":\"Ajumma's Korean Restaurant\",\"quote\":\"Ajumma's Korean Restaurant\"},\"title\":{\"value\":\"Meals from $9.90\",\"quote\":\"Meals from $9.90\"},\"benefit\":{\"value\":\"a main, free-flow side dishes & your choice of K-Treat from just $9.90\",\"quote\":\"Enjoy a main, free-flow side dishes & your choice of K-Treat from just $9.90\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"all_outlets\",\"quote\":\"All outlets\"},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "e58e63784d4aa26fd43c03c0faca335e6c80a99a2e93648d60646c7a206000ed",
+  "savedAt": "2026-10-05T15:38:58.127Z",
+  "inputSha256": "94bc4f8a3d7b3935ac40cb7f4a8a3a47199b82d874a5eb4811a75dffd1e69697",
+  "sourceSha256": "dd2465974fa0e1587bda2466f178ddca1c1d45bbf677366d8002ab18c5485b00",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

@@ -1,0 +1,11 @@
+{
+  "taskId": "holdout-tastesoulsg-4462",
+  "agentId": "01a10cb8-1c01-7971-aecc-0ae579163fb6",
+  "closedAt": "2026-10-05T15:39:24.490Z",
+  "toolResult": {
+    "previous_status": {
+      "completed": "{\"classification\":{\"value\":\"uncertain\",\"quote\":null},\"merchant\":{\"value\":\"Kei Kaisendon\",\"quote\":\"🍚 Kei Kaisendon 🍚\"},\"title\":{\"value\":\"1-for-1 Kaisendon\",\"quote\":\"1-for-1 Kaisendon\"},\"benefit\":{\"value\":\"1-for-1 Kaisendon\",\"quote\":\"1-for-1 Kaisendon\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}"
+    }
+  },
+  "confirmation": "close_agent returned; shutdown requested"
+}

@@ -1,0 +1,19 @@
+{
+  "taskId": "shake_shack_sg-this-ones-for-your-mom",
+  "agentId": "01a10cb6-6704-79e2-b1dd-a6bb2070e28e",
+  "boundAt": "2026-10-05T15:37:23.275Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "72927399e9530ed031c9093e36629567a4dbbcee6fb7fec09592e3176da7c480",
+  "messageSha256": "b82e25e16cb50fe27a50c356082261bce7aa2b394a9702989406caf680123377",
+  "toolConfirmed": {
+    "agentId": "01a10cb6-6704-79e2-b1dd-a6bb2070e28e",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

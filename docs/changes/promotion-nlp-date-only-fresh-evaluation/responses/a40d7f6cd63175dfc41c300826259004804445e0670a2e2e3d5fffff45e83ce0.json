@@ -1,0 +1,18 @@
+{
+  "taskId": "bari_bari_steak_sg-promotions-3",
+  "agentId": "01a10cb6-c105-7472-bca0-57fcee7ae71a",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"we are celebrating our seniors with an exclusive 20% discount on the total bill during weekdays\"},\"merchant\":{\"value\":\"Bari Bari Steak\",\"quote\":\"Bari Bari Steak\"},\"title\":{\"value\":\"Senior Special: Enjoy 20% OFF Your Total Bill!\",\"quote\":\"Senior Special: Enjoy 20% OFF Your Total Bill!\"},\"benefit\":{\"value\":\"20% discount on the total bill\",\"quote\":\"20% discount on the total bill\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"named_outlets\",\"quote\":\"Valid exclusively at the Tampines 1 outlet only.\"},\"locationRules\":[{\"role\":\"participating\",\"names\":[\"Tampines 1\"],\"quote\":\"Valid exclusively at the Tampines 1 outlet only.\"}]}",
+  "transportError": null,
+  "rawOutputSha256": "a0f02195227ee0eaea462c433ac633014d5dfd04027d3cef1a1e7c2bb842f413",
+  "savedAt": "2026-10-05T15:37:52.664Z",
+  "inputSha256": "e8bfdbebca5790b9620e5eb3cd9809fea7a88f717ee815eada5a35424f472689",
+  "sourceSha256": "7b4a3e42c82a16d935c76ec9291db63b74c13f83d8b52eedd7e34b79358384c1",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

@@ -1,0 +1,18 @@
+{
+  "taskId": "shake_shack_sg-well-be-right-back",
+  "agentId": "01a10cb7-5c47-70e0-b730-1ac5d0926491",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"service_information\",\"quote\":\"Temporary Downtime – What You Need to Know\"},\"merchant\":{\"value\":\"Shake Shack\",\"quote\":\"at Shake Shack\"},\"title\":{\"value\":\"Happy Point app temporary downtime\",\"quote\":\"there will be a temporary downtime\"},\"benefit\":{\"value\":null,\"quote\":null},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "264bf646f5e63c52a89502f585c6202a5206e8f95d8026555a32b4944a8b8292",
+  "savedAt": "2026-10-05T15:38:31.945Z",
+  "inputSha256": "b2ca3a069a8ba6f8bbc7cee6847a3ad1a43e69e3dfed093a42a18dd0a1870d7b",
+  "sourceSha256": "4f70214d524aadaadf2e7d105ba5d0eb6b10b64f6cd0f9e8e02debc41f0a3d53",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

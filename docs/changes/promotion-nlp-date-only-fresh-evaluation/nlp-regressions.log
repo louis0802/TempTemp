@@ -1,0 +1,34 @@
+
+ RUN  v5.0.1 /Users/louis/Documents/Projects/vibe coding/PromotionAroundYou
+
+ ❯ tests/promotion-nlp.test.ts (71 tests | 1 failed) 1793ms
+   ❯ reviewed captured benchmark and deterministic scoring (16)
+     × preserves original protected bytes, activation states and direct-source-v2 55ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/promotion-nlp.test.ts > reviewed captured benchmark and deterministic scoring > preserves original protected bytes, activation states and direct-source-v2
+AssertionError: next-env.d.ts: expected '1862ac4bbbc5192d4bf562161df66ea547ed3…' to be '0f70629890b72a0a82e91972cc032c04b658b…' // Object.is equality
+
+Expected: "0f70629890b72a0a82e91972cc032c04b658b26c265373cb711cf576bfbf8fcc"
+Received: "1862ac4bbbc5192d4bf562161df66ea547ed3e67173100656ab606ae9797db2b"
+
+ ❯ tests/promotion-nlp.test.ts:681:9
+    679|           .digest("hex"),
+    680|         file,
+    681|       ).toBe(sha);
+       |         ^
+    682|     expect(DIRECT_SOURCE_PROCESSOR_VERSION).toBe("direct-source-v2");
+    683|     expect(
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 12 passed (13)
+      Tests  1 failed | 333 passed (334)
+   Start at  23:32:52
+   Duration  3.79s (tests 87%, import 8%, transform 5%)
+
+    Isolate  13 workers spawned · ~49ms startup each (spawn + environment, per file)
+             at least ~269ms faster with isolate: false — reuses workers across files instead of one per file
+

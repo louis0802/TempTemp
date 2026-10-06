@@ -1,0 +1,19 @@
+{
+  "taskId": "fairprice_sg-price-drop-buy-now-weekly-offers-from-20-off",
+  "agentId": "01a10cb7-6f66-7f00-8103-a2f09d6219a1",
+  "boundAt": "2026-10-05T15:38:31.167Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "3a28ad65b4793060c238eedf08584f6db79a7e570ec6131e0caafdff48f75379",
+  "messageSha256": "d640c7778fe6644253a912e71fc16cce35a5e5be7929afe808c4999398fcfaee",
+  "toolConfirmed": {
+    "agentId": "01a10cb7-6f66-7f00-8103-a2f09d6219a1",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

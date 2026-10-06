@@ -1,0 +1,11 @@
+{
+  "taskId": "fairprice_sg-price-drop-buy-now-weekly-offers-from-20-off",
+  "agentId": "01a10cb7-6f66-7f00-8103-a2f09d6219a1",
+  "closedAt": "2026-10-05T15:38:39.602Z",
+  "toolResult": {
+    "previous_status": {
+      "completed": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Price Drop Buy Now - Weekly Offers From 20% Off\"},\"merchant\":{\"value\":\"FairPrice\",\"quote\":null},\"title\":{\"value\":\"Weekly Offers\",\"quote\":\"Weekly Offers\"},\"benefit\":{\"value\":\"From 20% Off\",\"quote\":\"From 20% Off\"},\"startDate\":{\"value\":\"2026-10-01\",\"quote\":\"1 Oct - 7 Oct 2026\"},\"endDate\":{\"value\":\"2026-10-07\",\"quote\":\"1 Oct - 7 Oct 2026\"},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}"
+    }
+  },
+  "confirmation": "close_agent returned; shutdown requested"
+}

@@ -1,0 +1,19 @@
+{
+  "taskId": "shake_shack_sg-study-breaks-just-got-better",
+  "agentId": "01a10cb6-6010-7dc1-bb7e-196cbdf4de7f",
+  "boundAt": "2026-10-05T15:37:21.470Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "e5e3e956215f68dd181f2cb3667b49c01a9332ca2ddb837ede962b04f03ee7db",
+  "messageSha256": "c7083b9039d89f3fb901f02548022ed847390b35231072509f00f72319f7f1f3",
+  "toolConfirmed": {
+    "agentId": "01a10cb6-6010-7dc1-bb7e-196cbdf4de7f",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

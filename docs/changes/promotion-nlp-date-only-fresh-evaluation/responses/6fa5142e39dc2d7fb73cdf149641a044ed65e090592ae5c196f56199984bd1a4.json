@@ -1,0 +1,18 @@
+{
+  "taskId": "shake_shack_sg-introducing-aloha-shack",
+  "agentId": "01a10cb7-3610-7a50-ba55-4c7657048516",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"product_launch\",\"quote\":\"Introducing Aloha Shack Menu\"},\"merchant\":{\"value\":\"Shake Shack\",\"quote\":\"At its core, the Aloha Shack Menu reflects a shared philosophy between Chef Jordan and Shake Shack\"},\"title\":{\"value\":\"Aloha Shack Menu\",\"quote\":\"Introducing: Aloha Shack Menu\"},\"benefit\":{\"value\":null,\"quote\":null},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "f8446c3ef9bc11643289f69d0d0d9b06b1c350480fe811ffde83a4bfc0951064",
+  "savedAt": "2026-10-05T15:38:23.080Z",
+  "inputSha256": "23ce276467596bafda1c56b2917c10137b31ae98d9a548b5182d9871b401307f",
+  "sourceSha256": "a2e05661557014e743f9417dccefcaded834604af2b2ae1e87542d972aa3e79f",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

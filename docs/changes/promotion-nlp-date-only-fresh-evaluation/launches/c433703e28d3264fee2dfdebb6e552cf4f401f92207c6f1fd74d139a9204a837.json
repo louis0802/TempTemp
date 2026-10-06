@@ -1,0 +1,19 @@
+{
+  "taskId": "pepper_lunch_sg-cheesy-omelette-2",
+  "agentId": "01a10cb5-f834-7e31-92ef-c514d784b74a",
+  "boundAt": "2026-10-05T15:36:54.893Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "2ac2731e049b9e17cbf8d0e462bb2d719a7cbceab18cbc86133c1f6166b86bf7",
+  "messageSha256": "9183f0aca4bc8bf74e91c26f316d50c3c9a39fdd818ecfa3efbd7ad38d293563",
+  "toolConfirmed": {
+    "agentId": "01a10cb5-f834-7e31-92ef-c514d784b74a",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "taskId": "shake_shack_sg-more-perks-less-fuss",
+  "agentId": "01a10cb7-3ecd-7c10-9423-0881c75b959b",
+  "boundAt": "2026-10-05T15:38:18.632Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "db6a71edc2af7d2d1e403c039e23008284c0d84b9d73af32375ceda825080461",
+  "messageSha256": "4380b586065a84af55c00d3304c43d017a717167cd28bbade5fbb8338d2d11bb",
+  "toolConfirmed": {
+    "agentId": "01a10cb7-3ecd-7c10-9423-0881c75b959b",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

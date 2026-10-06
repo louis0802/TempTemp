@@ -1,0 +1,18 @@
+{
+  "taskId": "pepper_lunch_sg-delivery",
+  "agentId": "01a10cb5-fee2-7352-b3ca-cd6d64298e87",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"service_information\",\"quote\":\"Have Your Meals Delivered! All our Delivery Partners are able to delivery and self-pickup in the areas near our restaurants.\"},\"merchant\":{\"value\":\"Pepper Lunch\",\"quote\":null},\"title\":{\"value\":null,\"quote\":null},\"benefit\":{\"value\":null,\"quote\":null},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "cd5e53db81081eaa9522c6028845b66b22d5cce4893405dbd511fc6d70cd361a",
+  "savedAt": "2026-10-05T15:37:01.977Z",
+  "inputSha256": "68278af933e9a2191968b17565bbfef1e144f6bc16ef7be9043266d5e58f15d8",
+  "sourceSha256": "68fb157f307f9fb896a822903a22d11ab71c0d8a5ae8b2698cdf85ace99a56e7",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

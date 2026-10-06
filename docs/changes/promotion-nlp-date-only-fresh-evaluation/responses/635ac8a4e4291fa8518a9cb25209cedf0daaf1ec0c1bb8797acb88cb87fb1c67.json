@@ -1,0 +1,18 @@
+{
+  "taskId": "holdout-sgfooddeals-4928",
+  "agentId": "01a10cb7-c948-79f2-b0cd-a6f382e62fb1",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"uncertain\",\"quote\":null},\"merchant\":{\"value\":null,\"quote\":null},\"title\":{\"value\":null,\"quote\":null},\"benefit\":{\"value\":null,\"quote\":null},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "87c1a1eb6b6789174aee3d3cd030906ee9dd58237c31e346462e236efd3a78e6",
+  "savedAt": "2026-10-05T15:39:05.107Z",
+  "inputSha256": "a1e945f47698e50b97348fe0c5ed549019baec01e9e0dfcf340a6e53f0182623",
+  "sourceSha256": "506e49d7bd2ae866033f6c294f78e2dc3b5dafcf928bb7903fa0b2ede57f34ff",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

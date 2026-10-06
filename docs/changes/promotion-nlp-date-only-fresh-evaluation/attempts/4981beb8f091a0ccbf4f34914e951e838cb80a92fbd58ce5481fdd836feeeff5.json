@@ -1,0 +1,10 @@
+{
+  "taskId": "mcdonalds_sg-bfmcsaver",
+  "reservedAt": "2026-10-05T15:37:56.418Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  }
+}

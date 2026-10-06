@@ -1,0 +1,18 @@
+{
+  "taskId": "shake_shack_sg-everything-in-our-veggie-shack",
+  "agentId": "01a10cb6-1fd8-7153-bccf-8fe9a0889150",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"contest_or_chance\",\"quote\":\"stand a chance to win an unlimited supply of Veggie Shack\"},\"merchant\":{\"value\":null,\"quote\":null},\"title\":{\"value\":null,\"quote\":null},\"benefit\":{\"value\":null,\"quote\":null},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "8143de1b5549708c9ad58ff66050303ec871e5028d6fb21f46d6691d03f7c86b",
+  "savedAt": "2026-10-05T15:37:11.750Z",
+  "inputSha256": "ffcdc9228ea8c183ce4e8de69b7d55d79050f94c7180d16e3bd02a51021f8978",
+  "sourceSha256": "ccb03c2dd13a718d4668b4dbf2d37e1e18af98dffc81adfee9c8151e7b2b32b5",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

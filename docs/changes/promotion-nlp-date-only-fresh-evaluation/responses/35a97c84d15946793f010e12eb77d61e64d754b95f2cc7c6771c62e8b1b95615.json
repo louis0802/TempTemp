@@ -1,0 +1,18 @@
+{
+  "taskId": "pepper_lunch_sg-dine-with-pride",
+  "agentId": "01a10cb4-ce8c-7192-9fe2-45eb5a55cc54",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"enjoy 15% off all ala carte main dishes\"},\"merchant\":{\"value\":\"Pepper Lunch\",\"quote\":\"all Pepper Lunch Restaurant outlets\"},\"title\":{\"value\":\"15% off à la carte main dishes for NSmen\",\"quote\":\"enjoy 15% off all ala carte main dishes\"},\"benefit\":{\"value\":\"15% off all ala carte main dishes\",\"quote\":\"enjoy 15% off all ala carte main dishes\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"all_outlets\",\"quote\":\"Available daily at all Pepper Lunch Restaurant outlets\"},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "bc98a52ffae21a08834dc6c065e3d471542f74043a6d7815b766bc6fa5774c8f",
+  "savedAt": "2026-10-05T15:36:53.581Z",
+  "inputSha256": "417e9e21e8bf0eb3890033f0f5ab0b27943ed5741c66b262684352a1d00690a0",
+  "sourceSha256": "1dcf13e8538e184b850c90da512ef6c40e2030757f66aa169b6a5eb573fddec4",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

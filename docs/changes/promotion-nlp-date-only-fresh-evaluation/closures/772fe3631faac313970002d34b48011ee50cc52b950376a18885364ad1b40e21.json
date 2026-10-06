@@ -1,0 +1,11 @@
+{
+  "taskId": "shake_shack_sg-everything-in-our-veggie-shack",
+  "agentId": "01a10cb6-1fd8-7153-bccf-8fe9a0889150",
+  "closedAt": "2026-10-05T15:37:12.201Z",
+  "toolResult": {
+    "previous_status": {
+      "completed": "{\"classification\":{\"value\":\"contest_or_chance\",\"quote\":\"stand a chance to win an unlimited supply of Veggie Shack\"},\"merchant\":{\"value\":null,\"quote\":null},\"title\":{\"value\":null,\"quote\":null},\"benefit\":{\"value\":null,\"quote\":null},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}"
+    }
+  },
+  "confirmation": "close_agent returned; shutdown requested"
+}

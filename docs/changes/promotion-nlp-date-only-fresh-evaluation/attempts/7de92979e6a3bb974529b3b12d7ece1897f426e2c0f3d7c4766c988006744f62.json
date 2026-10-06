@@ -1,0 +1,10 @@
+{
+  "taskId": "shake_shack_sg-hello-parkway-parade",
+  "reservedAt": "2026-10-05T15:37:12.623Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  }
+}

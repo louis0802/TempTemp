@@ -1,0 +1,11 @@
+{
+  "taskId": "holdout-sgfooddeals-4896",
+  "agentId": "01a10cb8-4aad-7791-9735-50703c2c22b0",
+  "closedAt": "2026-10-05T15:39:43.562Z",
+  "toolResult": {
+    "previous_status": {
+      "completed": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"New Ubin Seafood: 50% Off Daily Deals\"},\"merchant\":{\"value\":\"New Ubin Seafood\",\"quote\":\"New Ubin Seafood: 50% Off Daily Deals\"},\"title\":{\"value\":\"50% Off Daily Deals\",\"quote\":\"50% Off Daily Deals\"},\"benefit\":{\"value\":\"50% Off Daily Deals\",\"quote\":\"50% Off Daily Deals\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}"
+    }
+  },
+  "confirmation": "close_agent returned; shutdown requested"
+}

@@ -1,0 +1,19 @@
+{
+  "taskId": "shake_shack_sg-concrete-craze",
+  "agentId": "01a10cb6-18f9-71e1-935e-88d107bab11d",
+  "boundAt": "2026-10-05T15:37:03.271Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "5d103145069c29f1fb348b4efe99d087c0d8171703e43701d00d9ba3c829957e",
+  "messageSha256": "f255d93f123186c6dc6d312f9b141e4fb34e49851543e2042ecee9ec224726ba",
+  "toolConfirmed": {
+    "agentId": "01a10cb6-18f9-71e1-935e-88d107bab11d",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

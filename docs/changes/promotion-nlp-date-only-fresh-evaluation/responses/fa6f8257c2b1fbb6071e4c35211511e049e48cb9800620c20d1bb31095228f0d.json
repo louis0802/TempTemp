@@ -1,0 +1,18 @@
+{
+  "taskId": "shake_shack_sg-flock-this-way",
+  "agentId": "01a10cb7-2333-7280-8e16-57e5211a1a22",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"From 12 to 30 November 2025, get our Chicken Shack, Hot Chicken and Saenchae Gochujang Chicken — all for just $23.9 (U.P $33.80)\"},\"merchant\":{\"value\":\"Shake Shack Singapore\",\"quote\":\"all Shake Shack outlets in Singapore\"},\"title\":{\"value\":\"Flock This Way\",\"quote\":\"Flock This Way\"},\"benefit\":{\"value\":\"Chicken Shack, Hot Chicken and Saenchae Gochujang Chicken — all for just $23.9 (U.P $33.80)\",\"quote\":\"Chicken Shack, Hot Chicken and Saenchae Gochujang Chicken — all for just $23.9 (U.P $33.80)\"},\"startDate\":{\"value\":\"2025-11-12\",\"quote\":\"From 12 to 30 November 2025\"},\"endDate\":{\"value\":\"2025-11-30\",\"quote\":\"From 12 to 30 November 2025\"},\"locationScope\":{\"value\":\"all_outlets\",\"quote\":\"Offer is available across all Shake Shack outlets in Singapore\"},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "e294ef8de8c0cf511caab0f3145e99df2eea77a0819a5d6034d4727690b198ff",
+  "savedAt": "2026-10-05T15:38:19.333Z",
+  "inputSha256": "124f2d195c8718fa2c1e557ecada1f87417cc7ec3c701da814445a322722bee9",
+  "sourceSha256": "03de84ebdb52d17f82d847e50225b06ff4cb39b4c2ff325b95862f188ee5f946",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

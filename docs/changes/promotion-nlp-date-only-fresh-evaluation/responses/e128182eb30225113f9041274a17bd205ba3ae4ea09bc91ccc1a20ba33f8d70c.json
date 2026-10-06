@@ -1,0 +1,18 @@
+{
+  "taskId": "holdout-sgfooddeals-4912",
+  "agentId": "01a10cb8-4578-7eb3-8a0b-f5dec0354264",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Common Grill: $9.90 Lunch Sets\"},\"merchant\":{\"value\":\"Common Grill\",\"quote\":\"Common Grill: $9.90 Lunch Sets\"},\"title\":{\"value\":\"$9.90 Lunch Sets\",\"quote\":\"$9.90 Lunch Sets\"},\"benefit\":{\"value\":\"$9.90 Lunch Sets with a free Wild Mushroom Soup worth $3.50\",\"quote\":\"Common Grill: $9.90 Lunch Sets 🍝\\n\\n🔹 Choose from appetising mains like Grilled Chicken Chop, Fish & Chips, Angus Beef Bolognese & more \\n🔹 Each dish comes with a free Wild Mushroom Soup worth $3.50\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"all_outlets\",\"quote\":\"📍 All outlets\"},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "293cdad004e317fa8a418c034ae3ce74d6d6b92b23502b0eb2225776ecf6eceb",
+  "savedAt": "2026-10-05T15:39:35.451Z",
+  "inputSha256": "3836e02a431af38d0751fcffa0ae9f02bbfb58a3a25fca6201266a8bbe16e7ad",
+  "sourceSha256": "6689f1ad33d5a40414ab035cf9459dc5e3ed0da85b7d24dadfaf7d918a4d7aa5",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

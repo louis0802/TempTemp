@@ -1,0 +1,18 @@
+{
+  "taskId": "instagram-DdQA3EChsjx",
+  "agentId": "01a10cb7-0c4c-7533-83ca-4084cbe8d7b5",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"enjoy 1 for 1 Nasi Lemak at Sinpopo Brand\"},\"merchant\":{\"value\":\"Sinpopo Brand\",\"quote\":\"at Sinpopo Brand\"},\"title\":{\"value\":\"1 for 1 Nasi Lemak\",\"quote\":\"enjoy 1 for 1 Nasi Lemak\"},\"benefit\":{\"value\":\"1 for 1 Nasi Lemak\",\"quote\":\"1 for 1 Nasi Lemak\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "1e63a89cb4135f58988886819e6af47a5f46d5f3d64f35d9a322bbf10ce817c9",
+  "savedAt": "2026-10-05T15:38:13.637Z",
+  "inputSha256": "e29d01018ae97062993b255e96ebd19c8134ec0b6e30e0288c8fb8add916bb22",
+  "sourceSha256": "cd82a9312062648d42f7e9c7e662ee2b4e602dd8f90e9ab7a999ded1cc46d4cf",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

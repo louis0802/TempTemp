@@ -1,0 +1,11 @@
+{
+  "taskId": "mcdonalds_sg-bfmcsaver",
+  "agentId": "01a10cb6-ea39-7c23-b387-8a7742224b4c",
+  "closedAt": "2026-10-05T15:38:03.481Z",
+  "toolResult": {
+    "previous_status": {
+      "completed": "{\"classification\":{\"value\":\"uncertain\",\"quote\":null},\"merchant\":{\"value\":null,\"quote\":null},\"title\":{\"value\":null,\"quote\":null},\"benefit\":{\"value\":null,\"quote\":null},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}"
+    }
+  },
+  "confirmation": "close_agent returned; shutdown requested"
+}

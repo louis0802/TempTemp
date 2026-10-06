@@ -1,0 +1,19 @@
+{
+  "taskId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-1",
+  "agentId": "01a10cb6-8856-7c40-b53d-04b516349196",
+  "boundAt": "2026-10-05T15:37:31.791Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "64b7d22cdc59bfe6557aa238416efb1b9b9182f85f549834a064bf469eebc6cd",
+  "messageSha256": "d936e725f4ad11fd5b57cf9b7045252ae5365899b61c18c13f179f73bb7793d3",
+  "toolConfirmed": {
+    "agentId": "01a10cb6-8856-7c40-b53d-04b516349196",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

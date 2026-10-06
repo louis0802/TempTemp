@@ -1,0 +1,18 @@
+{
+  "taskId": "holdout-sgfooddeals-4875",
+  "agentId": "01a10cb8-7f00-7f62-84b3-ca0dd239a2d1",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Carnaby: 1-for-1 Weekday Specials\"},\"merchant\":{\"value\":\"Carnaby\",\"quote\":\"Carnaby: 1-for-1 Weekday Specials\"},\"title\":{\"value\":\"1-for-1 Weekday Specials\",\"quote\":\"1-for-1 Weekday Specials\"},\"benefit\":{\"value\":\"1-for-1 western favourites\",\"quote\":\"1-for-1 western favourites\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "7913dfddd58f3db0c7c8b4c261f92c05f5e1937ad55e9bb836803e638fa84cf4",
+  "savedAt": "2026-10-05T15:39:53.219Z",
+  "inputSha256": "602d9d993b3199940166eb979f4e05c462bde33081b19adb27019a1fc5132b44",
+  "sourceSha256": "5c4ebcc972d79b7a860277d14309d0d3b3e5915f7491c03dd7cc7fb745c62b57",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

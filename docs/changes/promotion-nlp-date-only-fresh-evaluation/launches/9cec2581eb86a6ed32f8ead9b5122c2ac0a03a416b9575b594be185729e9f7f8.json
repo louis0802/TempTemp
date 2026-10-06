@@ -1,0 +1,19 @@
+{
+  "taskId": "shake_shack_sg-meet-our-collab-partners",
+  "agentId": "01a10cb7-31b0-7673-a7ed-bf75d1f3d247",
+  "boundAt": "2026-10-05T15:38:15.335Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "93da64e4d9b662fe5a47d71ec2e4003bea137ebb9c6b65a6e0f548adecdf22d6",
+  "messageSha256": "e427cae28305bc0b5acafd0f7a3bcecfacaa7e5c358c84041899d433d3a5f60f",
+  "toolConfirmed": {
+    "agentId": "01a10cb7-31b0-7673-a7ed-bf75d1f3d247",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

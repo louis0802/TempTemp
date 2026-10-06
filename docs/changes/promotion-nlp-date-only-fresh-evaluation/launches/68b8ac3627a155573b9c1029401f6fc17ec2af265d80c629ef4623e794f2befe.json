@@ -1,0 +1,19 @@
+{
+  "taskId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-3",
+  "agentId": "01a10cb6-9fe5-7091-b0e0-2db45f6a2bf3",
+  "boundAt": "2026-10-05T15:37:37.921Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "42525c5e66eeab4bda9db3abf89778f94ab974aa425237a70103ed19b7aa860a",
+  "messageSha256": "698c86cd0d0cecc3caf32bd61ef6e30508618ff85e33cf3d8c06581762a8b52a",
+  "toolConfirmed": {
+    "agentId": "01a10cb6-9fe5-7091-b0e0-2db45f6a2bf3",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "taskId": "holdout-tastesoulsg-4485",
+  "agentId": "01a10cb7-9c18-7a32-957e-2ef59774202f",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"$6 McSpicy Meal (U.P. $8.30)\"},\"merchant\":{\"value\":\"McDonald's\",\"quote\":\"McDonald's\"},\"title\":{\"value\":\"$6 McSpicy Meal\",\"quote\":\"$6 McSpicy Meal\"},\"benefit\":{\"value\":\"$6 McSpicy Meal (U.P. $8.30)\",\"quote\":\"$6 McSpicy Meal (U.P. $8.30)\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":\"all_outlets\",\"quote\":\"All outlets\"},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "ca1bd54472ab49c086423011085b2da6e89ab5cf7b533dda5dd534be4c98c3e1",
+  "savedAt": "2026-10-05T15:38:51.940Z",
+  "inputSha256": "88a1aaabd0ccc0a9320cc0bc63cbeaef3e472650aae143aa45ae394c010879c1",
+  "sourceSha256": "06ee6c8ebbd282535ff3df60bcfedcadb259b0e516ca528d27cccdd1be6de682",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

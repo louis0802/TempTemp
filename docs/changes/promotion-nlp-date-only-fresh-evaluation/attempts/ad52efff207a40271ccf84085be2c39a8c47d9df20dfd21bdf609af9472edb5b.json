@@ -1,0 +1,10 @@
+{
+  "taskId": "shake_shack_sg-pucker-up-for-2-lemonades",
+  "reservedAt": "2026-10-05T15:38:24.374Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  }
+}

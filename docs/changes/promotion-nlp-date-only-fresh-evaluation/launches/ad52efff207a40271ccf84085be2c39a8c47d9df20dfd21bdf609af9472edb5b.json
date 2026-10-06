@@ -1,0 +1,19 @@
+{
+  "taskId": "shake_shack_sg-pucker-up-for-2-lemonades",
+  "agentId": "01a10cb7-578f-7842-bad2-1e95240f6fd9",
+  "boundAt": "2026-10-05T15:38:24.963Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "3fd27aa4b6706005a98c77e6bb750b6914c87dfd3c749d77688a0909bc533a90",
+  "messageSha256": "b68536956971af5c0c8c0c8cdca3d39bd20c0e815f1e512881e99c75ce26b31c",
+  "toolConfirmed": {
+    "agentId": "01a10cb7-578f-7842-bad2-1e95240f6fd9",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

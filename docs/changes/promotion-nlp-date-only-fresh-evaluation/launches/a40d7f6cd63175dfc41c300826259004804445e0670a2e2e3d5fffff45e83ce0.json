@@ -1,0 +1,19 @@
+{
+  "taskId": "bari_bari_steak_sg-promotions-3",
+  "agentId": "01a10cb6-c105-7472-bca0-57fcee7ae71a",
+  "boundAt": "2026-10-05T15:37:46.482Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "e8bfdbebca5790b9620e5eb3cd9809fea7a88f717ee815eada5a35424f472689",
+  "messageSha256": "35ff188887a17d0f7d9c60f009a67e422876c01f75817dd18c4c82b2ab468128",
+  "toolConfirmed": {
+    "agentId": "01a10cb6-c105-7472-bca0-57fcee7ae71a",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

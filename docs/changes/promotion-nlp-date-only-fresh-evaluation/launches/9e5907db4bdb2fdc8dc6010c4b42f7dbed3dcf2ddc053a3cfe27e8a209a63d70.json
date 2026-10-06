@@ -1,0 +1,19 @@
+{
+  "taskId": "fairprice_sg-finest-wine",
+  "agentId": "01a10cb7-85c6-7183-aa2f-ed581fce035b",
+  "boundAt": "2026-10-05T15:38:36.908Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "472129b8bc4935ca4a9be32701ead7f3240d544a12e1673040c1bbf65624c5a1",
+  "messageSha256": "be19346c8524ba646b6647cbcd1d361552287901e7b1a8f4e71b82ec57f586ba",
+  "toolConfirmed": {
+    "agentId": "01a10cb7-85c6-7183-aa2f-ed581fce035b",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

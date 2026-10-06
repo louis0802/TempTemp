@@ -1,0 +1,18 @@
+{
+  "taskId": "shake_shack_sg-meet-our-collab-partners",
+  "agentId": "01a10cb7-31b0-7673-a7ed-bf75d1f3d247",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"contest_or_chance\",\"quote\":\"Get complimentary White pepper fries* on us when you put your knowledge about our local collab to the test, click here to find out!\"},\"merchant\":{\"value\":null,\"quote\":null},\"title\":{\"value\":null,\"quote\":null},\"benefit\":{\"value\":null,\"quote\":null},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "f738d1724220a35b577b31cc1a98d649f211aa59cb4f79f8c45beb3f5e971544",
+  "savedAt": "2026-10-05T15:38:21.946Z",
+  "inputSha256": "93da64e4d9b662fe5a47d71ec2e4003bea137ebb9c6b65a6e0f548adecdf22d6",
+  "sourceSha256": "56e0f7662719544a5903451d6c9ed3f6eaaacc16e6ecbb113f18961ff1c297ca",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

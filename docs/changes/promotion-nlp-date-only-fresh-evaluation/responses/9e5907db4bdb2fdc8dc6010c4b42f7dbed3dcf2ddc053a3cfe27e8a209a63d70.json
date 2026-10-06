@@ -1,0 +1,18 @@
+{
+  "taskId": "fairprice_sg-finest-wine",
+  "agentId": "01a10cb7-85c6-7183-aa2f-ed581fce035b",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Finest Monthly Wine Deals 1-31 Oct 2026\"},\"merchant\":{\"value\":\"FairPrice\",\"quote\":null},\"title\":{\"value\":\"Finest Monthly Wine Deals\",\"quote\":\"Finest Monthly Wine Deals\"},\"benefit\":{\"value\":\"Wine Deals\",\"quote\":\"Wine Deals\"},\"startDate\":{\"value\":\"2026-10-01\",\"quote\":\"1-31 Oct 2026\"},\"endDate\":{\"value\":\"2026-10-31\",\"quote\":\"1-31 Oct 2026\"},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "b594a7bcb9dacafe43f4885dfc7e26a702f96b22018a80ee0c6086654321b7ae",
+  "savedAt": "2026-10-05T15:38:44.702Z",
+  "inputSha256": "472129b8bc4935ca4a9be32701ead7f3240d544a12e1673040c1bbf65624c5a1",
+  "sourceSha256": "f2c8b8499038419b872cb0156149f45c34b4a155ca8c19e178bf9e60f5743c50",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

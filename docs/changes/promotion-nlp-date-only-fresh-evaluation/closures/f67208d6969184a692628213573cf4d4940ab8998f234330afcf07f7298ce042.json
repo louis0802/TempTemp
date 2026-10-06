@@ -1,0 +1,11 @@
+{
+  "taskId": "holdout-sgfooddeals-4875",
+  "agentId": "01a10cb8-7f00-7f62-84b3-ca0dd239a2d1",
+  "closedAt": "2026-10-05T15:39:54.363Z",
+  "toolResult": {
+    "previous_status": {
+      "completed": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"Carnaby: 1-for-1 Weekday Specials\"},\"merchant\":{\"value\":\"Carnaby\",\"quote\":\"Carnaby: 1-for-1 Weekday Specials\"},\"title\":{\"value\":\"1-for-1 Weekday Specials\",\"quote\":\"1-for-1 Weekday Specials\"},\"benefit\":{\"value\":\"1-for-1 western favourites\",\"quote\":\"1-for-1 western favourites\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}"
+    }
+  },
+  "confirmation": "close_agent returned; shutdown requested"
+}

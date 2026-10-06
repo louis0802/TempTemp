@@ -1,0 +1,11 @@
+{
+  "taskId": "bari_bari_steak_sg-promotions-5",
+  "agentId": "01a10cb6-d3c0-72b2-8172-f72e05e14d2e",
+  "closedAt": "2026-10-05T15:37:59.348Z",
+  "toolResult": {
+    "previous_status": {
+      "completed": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"1 for 1 Highball, Beers, Sake, Cocktails and House Pours\"},\"merchant\":{\"value\":null,\"quote\":null},\"title\":{\"value\":\"1 for 1 Highball, Beers, Sake, Cocktails and House Pours\",\"quote\":\"1 for 1 Highball, Beers, Sake, Cocktails and House Pours\"},\"benefit\":{\"value\":\"1 for 1 Highball, Beers, Sake, Cocktails and House Pours\",\"quote\":\"1 for 1 Highball, Beers, Sake, Cocktails and House Pours\"},\"startDate\":{\"value\":null,\"quote\":null},\"endDate\":{\"value\":null,\"quote\":null},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}"
+    }
+  },
+  "confirmation": "close_agent returned; shutdown requested"
+}

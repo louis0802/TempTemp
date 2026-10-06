@@ -1,0 +1,19 @@
+{
+  "taskId": "sushiro_sg-to-the-moon-and-back",
+  "agentId": "01a10cb6-f7e2-7321-b3fe-ef0636ae8bc0",
+  "boundAt": "2026-10-05T15:38:00.399Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "7560e8110b8d1f793e2a86988ef59a2ebdc7971eb0caa8ceed92a44faf15237f",
+  "messageSha256": "1841e33bdaf825a262f535dd9eb2895e51f93bc817f3443e11705c23720d04f0",
+  "toolConfirmed": {
+    "agentId": "01a10cb6-f7e2-7321-b3fe-ef0636ae8bc0",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

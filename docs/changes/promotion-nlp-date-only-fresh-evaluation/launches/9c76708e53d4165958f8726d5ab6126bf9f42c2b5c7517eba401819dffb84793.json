@@ -1,0 +1,19 @@
+{
+  "taskId": "fairprice_sg-xtra-wine-flash-sale",
+  "agentId": "01a10cb7-7b21-7423-8b4a-cbe3c22664cb",
+  "boundAt": "2026-10-05T15:38:34.105Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "1f1e8c48c42d4ade15a4f32a01b09e1008a2613b6692e73d2ed5f5b4b213a827",
+  "messageSha256": "28d44f998b63c703ff6450ef3b084bd7b4c16b1dc750e5c0d695d0427d129686",
+  "toolConfirmed": {
+    "agentId": "01a10cb7-7b21-7423-8b4a-cbe3c22664cb",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

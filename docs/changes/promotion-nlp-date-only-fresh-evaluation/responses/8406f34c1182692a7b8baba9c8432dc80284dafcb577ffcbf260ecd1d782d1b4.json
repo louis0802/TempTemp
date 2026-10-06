@@ -1,0 +1,18 @@
+{
+  "taskId": "captain_kim_sg-captain-kim-korean-bbq-hotpot-tamp-j10-1",
+  "agentId": "01a10cb6-8856-7c40-b53d-04b516349196",
+  "status": "completed",
+  "rawOutput": "{\"classification\":{\"value\":\"economic_offer\",\"quote\":\"STUDENT 2PLUS1 PROMO EVERY MONDAY LUNCH & DINNER ONLY\"},\"merchant\":{\"value\":\"Captain Kim\",\"quote\":null},\"title\":{\"value\":\"STUDENT 2PLUS1 PROMO\",\"quote\":\"STUDENT 2PLUS1 PROMO\"},\"benefit\":{\"value\":\"2+1 Student Monday Promo\",\"quote\":\"2+1 Student Monday Promo\"},\"startDate\":{\"value\":\"2026-10-01\",\"quote\":\"Valid on every Monday for 1 – 31 Oct 2026.\"},\"endDate\":{\"value\":\"2026-10-31\",\"quote\":\"Valid on every Monday for 1 – 31 Oct 2026.\"},\"locationScope\":{\"value\":null,\"quote\":null},\"locationRules\":[]}",
+  "transportError": null,
+  "rawOutputSha256": "2781f3eb214307456524f3b826c98d81a9d5dcd4ce1fda903fe69b3d8629041e",
+  "savedAt": "2026-10-05T15:37:40.980Z",
+  "inputSha256": "64b7d22cdc59bfe6557aa238416efb1b9b9182f85f549834a064bf469eebc6cd",
+  "sourceSha256": "1135f893a1b1fd371292186d7bf8250ac03a3eed544defc9740e78a48e02806f",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "usage": "unavailable"
+}

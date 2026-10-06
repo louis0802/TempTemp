@@ -1,0 +1,19 @@
+{
+  "taskId": "shake_shack_sg-zi-char-menu",
+  "agentId": "01a10cb6-74eb-7ae2-9f65-cc81cc5d787d",
+  "boundAt": "2026-10-05T15:37:26.826Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "f745d130c0addb1f8303167e31fabaad409142a8857ea24e72cd9d4afad8b218",
+  "messageSha256": "197f6f6946cfd352d86ad102f268c4377d909907ec7073af398ec9a8f909685d",
+  "toolConfirmed": {
+    "agentId": "01a10cb6-74eb-7ae2-9f65-cc81cc5d787d",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}

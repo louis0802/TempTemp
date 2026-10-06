@@ -1,0 +1,1 @@
+{"classification":{"value":"contest_or_chance","quote":"stand a chance to win an unlimited supply of Veggie Shack"},"merchant":{"value":null,"quote":null},"title":{"value":null,"quote":null},"benefit":{"value":null,"quote":null},"startDate":{"value":null,"quote":null},"endDate":{"value":null,"quote":null},"locationScope":{"value":null,"quote":null},"locationRules":[]}

@@ -1,0 +1,19 @@
+{
+  "taskId": "shake_shack_sg-national-cheeseburger-day",
+  "agentId": "01a10cb6-427d-7f80-a54f-110f90642579",
+  "boundAt": "2026-10-05T15:37:13.904Z",
+  "requested": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "medium",
+    "fork_context": false,
+    "maximumOpenAgents": 4
+  },
+  "inputSha256": "209bd6d172b2b3a896ca1617afa983cb960ee8f087498a7fe58f8eb61bac5ab3",
+  "messageSha256": "c1063cc0371634e50a008f607d76611cccb557356b45ad03a4a1047900e97db5",
+  "toolConfirmed": {
+    "agentId": "01a10cb6-427d-7f80-a54f-110f90642579",
+    "backendModel": "unavailable",
+    "reasoningEffort": "unavailable",
+    "contextIsolation": "request-parameter-only"
+  }
+}
