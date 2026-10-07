@@ -14,7 +14,8 @@ You are taking over implementation of the official-source promotion map. Read th
 - **Do not regenerate frozen artifacts to make tests pass:**
   - `tests/corpus/mvp-conformance-reviewed.json`
   - research seals under `docs/changes/promotion-nlp-*`
-  - `data/mvp-promotions.json` (pinned SHA-256 `9856e70650b0d2b9618c4a275262627e1a5ad3314c6b6c4619be2835914fc7d5`)
+  - `data/mvp-promotions.json` (pinned SHA-256 `e49d9e12ce6fb2c22e1b5c6f936e1025a6ab7f00d688438d9fae36d310e3844b`)
+    - Hash the committed blob, not the working copy: `git show HEAD:data/mvp-promotions.json | sha256sum`. A Windows checkout with `core.autocrlf=true` converts line endings, so hashing the file on disk gives a different value.
 - **No live side effects without owner approval:**
   - no hosted databases or scheduler enablement;
   - no paid LLM calls on the owner's key beyond the budget the owner sets;

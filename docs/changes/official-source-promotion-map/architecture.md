@@ -34,7 +34,7 @@ flowchart LR
 - **Two runtime processes.**
   - The job writes the store.
   - The web server reads only the current published generation. It never fetches sources, never calls the LLM or Google, and holds none of their keys.
-- **Telegram is never fetched at runtime.** The frozen export (SHA-256 `9856e706…c7d5`) is only a seed and the answer key.
+- **Telegram is never fetched at runtime.** The frozen export (SHA-256 `e49d9e12…844b`) is only a seed and the answer key.
 - **Deployment constraint:** with file storage, the job and the web server share a filesystem. Otherwise see O5.
 
 ## 3. Invariants

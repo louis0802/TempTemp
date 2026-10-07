@@ -102,7 +102,7 @@ Input: [intent.md](intent.md). Rules marked *(carried)* keep behaviour from [mvp
 
 ## Evaluation
 
-- **S26.** The answer key is built from the 200 records in `data/mvp-promotions.json`, pinned at SHA-256 `9856e70650b0d2b9618c4a275262627e1a5ad3314c6b6c4619be2835914fc7d5`. These are Telegram records from Aug–Sep 2026. Each record is classified with the S10 kinds, and the classification and its quotes are stored.
+- **S26.** The answer key is built from the 200 records in `data/mvp-promotions.json`, pinned at SHA-256 `e49d9e12ce6fb2c22e1b5c6f936e1025a6ab7f00d688438d9fae36d310e3844b`. These are Telegram records from Aug–Sep 2026. Each record is classified with the S10 kinds, and the classification and its quotes are stored.
   - The answer key is never classified by the pipeline's own reader configuration. Use a different model or prompt version.
   - A person reviews every record classified `not_promotion` before it leaves the denominator. This is a one-time evaluation step, not a pipeline gate.
 - **S27.** Coverage = answer-key promotions that the pipeline mapped from an official source, ÷ answer-key promotions. A match needs the same merchant, an equivalent benefit, and overlapping validity. The LLM proposes matches; a person reviews the matching on the spot-check sample.
